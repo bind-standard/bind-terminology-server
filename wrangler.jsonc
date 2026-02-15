@@ -10,11 +10,11 @@
   "routes": [
     {
       "pattern": "bind.codes",
-      "custom_domain": false
+      "custom_domain": true
     },
     {
       "pattern": "www.bind.codes",
-      "custom_domain": false
+      "custom_domain": true
     }
   ]
 }
