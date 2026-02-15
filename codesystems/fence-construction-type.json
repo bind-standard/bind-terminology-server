@@ -1,0 +1,144 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "fence-construction-type",
+  "url": "https://bind.codes/fence-construction-type",
+  "name": "FenceConstructionType",
+  "title": "Fence Construction Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Fence Construction Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "unknown",
+      "display": "Unknown",
+      "definition": "Unknown — fence construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        }
+      ]
+    },
+    {
+      "code": "log",
+      "display": "Log",
+      "definition": "Log — fence construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rondin"
+        }
+      ]
+    },
+    {
+      "code": "monocoque",
+      "display": "Monocoque",
+      "definition": "Monocoque — fence construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Monocoque"
+        }
+      ]
+    },
+    {
+      "code": "fiberglass",
+      "display": "Fiberglass",
+      "definition": "Fiberglass — fence construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fibre de verre"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — fence construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "display": "Brick",
+      "definition": "Brick — fence construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Brique"
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "display": "Concrete Block",
+      "definition": "Concrete Block — fence construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Blocs en béton"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "display": "Frame (Wood)",
+      "definition": "Frame (Wood) — fence construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charpente de bois"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "display": "Masonite",
+      "definition": "Masonite — fence construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aggloméré"
+        }
+      ]
+    },
+    {
+      "code": "L",
+      "display": "Aluminium",
+      "definition": "Aluminium — fence construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aluminium"
+        }
+      ]
+    },
+    {
+      "code": "N",
+      "display": "Stone",
+      "definition": "Stone — fence construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pierre"
+        }
+      ]
+    },
+    {
+      "code": "T",
+      "display": "Steel",
+      "definition": "Steel — fence construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acier"
+        }
+      ]
+    }
+  ]
+}

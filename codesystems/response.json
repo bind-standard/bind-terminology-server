@@ -1,0 +1,23 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "response",
+  "url": "https://bind.codes/response",
+  "name": "Response",
+  "title": "Response",
+  "status": "draft",
+  "language": "en",
+  "description": "Response codes for insurance operations.",
+  "concept": [
+    {
+      "code": "UNKNOWN",
+      "display": "Unknown",
+      "definition": "Unknown — response code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        }
+      ]
+    }
+  ]
+}

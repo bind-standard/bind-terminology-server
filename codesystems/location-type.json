@@ -1,0 +1,496 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "location-type",
+  "url": "https://bind.codes/location-type",
+  "name": "LocationType",
+  "title": "Location Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Location Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "above-ground",
+      "display": "Above Ground",
+      "definition": "Above Ground — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors terre"
+        }
+      ]
+    },
+    {
+      "code": "in-ground",
+      "display": "In Ground",
+      "definition": "In Ground — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous terre"
+        }
+      ]
+    },
+    {
+      "code": "inside",
+      "display": "Inside",
+      "definition": "Inside — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'intérieur"
+        }
+      ]
+    },
+    {
+      "code": "outside",
+      "display": "Outside",
+      "definition": "Outside — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'extérieur"
+        }
+      ]
+    },
+    {
+      "code": "inside-and-above-ground",
+      "display": "Inside and Above Ground",
+      "definition": "Inside and Above Ground — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'intérieur et hors terre"
+        }
+      ]
+    },
+    {
+      "code": "inside-and-in-ground",
+      "display": "Inside and In Ground",
+      "definition": "Inside and In Ground — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'intérieur et sous terre"
+        }
+      ]
+    },
+    {
+      "code": "outside-and-above-ground",
+      "display": "Outside and Above Ground",
+      "definition": "Outside and Above Ground — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'extérieur et hors terre"
+        }
+      ]
+    },
+    {
+      "code": "outside-and-in-ground",
+      "display": "Outside and In Ground",
+      "definition": "Outside and In Ground — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'extérieur et sous terre"
+        }
+      ]
+    },
+    {
+      "code": "unknown",
+      "display": "Unknown",
+      "definition": "Unknown — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        }
+      ]
+    },
+    {
+      "code": "none",
+      "display": "None",
+      "definition": "None — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "C04",
+      "display": "Indoor",
+      "definition": "Indoor — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intérieur"
+        }
+      ]
+    },
+    {
+      "code": "C05",
+      "display": "Outdoor",
+      "definition": "Outdoor — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Extérieur"
+        }
+      ]
+    },
+    {
+      "code": "C06",
+      "display": "Indoor and Outdoor",
+      "definition": "Indoor and Outdoor — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intérieur et extérieur"
+        }
+      ]
+    },
+    {
+      "code": "C07",
+      "display": "Research",
+      "definition": "Research — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Recherche"
+        }
+      ]
+    },
+    {
+      "code": "C08",
+      "display": "Distribution",
+      "definition": "Distribution — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Distribution"
+        }
+      ]
+    },
+    {
+      "code": "C09",
+      "display": "Manufacturing",
+      "definition": "Manufacturing — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fabrication"
+        }
+      ]
+    },
+    {
+      "code": "C1",
+      "display": "Business District",
+      "definition": "Business District — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Quartier des affaires"
+        }
+      ]
+    },
+    {
+      "code": "C10",
+      "display": "Service, Repair",
+      "definition": "Service, Repair — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service, réparations"
+        }
+      ]
+    },
+    {
+      "code": "C12",
+      "display": "Inground",
+      "definition": "Inground — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous terre"
+        }
+      ]
+    },
+    {
+      "code": "C13",
+      "display": "Above Ground",
+      "definition": "Above Ground — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors terre"
+        }
+      ]
+    },
+    {
+      "code": "C14",
+      "display": "Free Standing",
+      "definition": "Free Standing — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autoporteur"
+        }
+      ]
+    },
+    {
+      "code": "C15",
+      "display": "Attached (Flat) to Wall",
+      "definition": "Attached (Flat) to Wall — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Attaché sur le mur"
+        }
+      ]
+    },
+    {
+      "code": "C16",
+      "display": "Mounted on Roof",
+      "definition": "Mounted on Roof — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Monté sur le toit"
+        }
+      ]
+    },
+    {
+      "code": "C17",
+      "display": "Mounted on Wall, Partially over Rooftop",
+      "definition": "Mounted on Wall, Partially over Rooftop — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Monté sur le mur, partiellement dépassant le toit"
+        }
+      ]
+    },
+    {
+      "code": "C18",
+      "display": "Mounted off Wall, Overhanging Street or Sidewalk Below",
+      "definition": "Mounted off Wall, Overhanging Street or Sidewalk Below — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Monté sur le mur, en surplomb de la rue ou trottoir ci-dessous"
+        }
+      ]
+    },
+    {
+      "code": "C19",
+      "display": "Adjacent Suite",
+      "definition": "Adjacent Suite — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau adjacent"
+        }
+      ]
+    },
+    {
+      "code": "C2",
+      "display": "Isolated",
+      "definition": "Isolated — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Isolé"
+        }
+      ]
+    },
+    {
+      "code": "C20",
+      "display": "Adjacent (Separate) Building",
+      "definition": "Adjacent (Separate) Building — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Édifice adjacent (séparé)"
+        }
+      ]
+    },
+    {
+      "code": "C21",
+      "display": "In Same Building",
+      "definition": "In Same Building — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dans le même édifice"
+        }
+      ]
+    },
+    {
+      "code": "C24",
+      "display": "Underground Tank",
+      "definition": "Underground Tank — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réservoir souterrain"
+        }
+      ]
+    },
+    {
+      "code": "C25",
+      "display": "Above Ground Tank",
+      "definition": "Above Ground Tank — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réservoir hors terre"
+        }
+      ]
+    },
+    {
+      "code": "C3",
+      "display": "Residential",
+      "definition": "Residential — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résidentiel"
+        }
+      ]
+    },
+    {
+      "code": "C4",
+      "display": "Hilly Terrain",
+      "definition": "Hilly Terrain — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrain onduleux"
+        }
+      ]
+    },
+    {
+      "code": "C45",
+      "display": "On-premises",
+      "definition": "On-premises — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sur les lieux assurés"
+        }
+      ]
+    },
+    {
+      "code": "C46",
+      "display": "Off-premises",
+      "definition": "Off-premises — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors des lieux assurés"
+        }
+      ]
+    },
+    {
+      "code": "C47",
+      "display": "On Top",
+      "definition": "On Top — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sur le dessus"
+        }
+      ]
+    },
+    {
+      "code": "C48",
+      "display": "Underneath",
+      "definition": "Underneath — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En dessous"
+        }
+      ]
+    },
+    {
+      "code": "C49",
+      "display": "On the Side",
+      "definition": "On the Side — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sur le côté"
+        }
+      ]
+    },
+    {
+      "code": "C5",
+      "display": "Mountainous Terrain",
+      "definition": "Mountainous Terrain — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrain montagneux"
+        }
+      ]
+    },
+    {
+      "code": "C50",
+      "display": "At the Tank",
+      "definition": "At the Tank — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Au réservoir"
+        }
+      ]
+    },
+    {
+      "code": "C51",
+      "display": "At the Furnace Burner",
+      "definition": "At the Furnace Burner — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Au brûleur de la chaudière"
+        }
+      ]
+    },
+    {
+      "code": "C6",
+      "display": "Muskeg, Bog, Marsh etc. Terrain",
+      "definition": "Muskeg, Bog, Marsh etc. Terrain — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tourbière, marais, marécage, etc. - Terrain"
+        }
+      ]
+    },
+    {
+      "code": "C7",
+      "display": "Flat Terrain",
+      "definition": "Flat Terrain — location type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrain plat"
+        }
+      ]
+    }
+  ]
+}

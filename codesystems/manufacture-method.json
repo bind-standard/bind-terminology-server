@@ -1,0 +1,34 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "manufacture-method",
+  "url": "https://bind.codes/manufacture-method",
+  "name": "ManufactureMethod",
+  "title": "Manufacture Method",
+  "status": "draft",
+  "language": "en",
+  "description": "Manufacture Method codes for insurance operations.",
+  "concept": [
+    {
+      "code": "home-made",
+      "display": "Home-made",
+      "definition": "Home-made — manufacture method code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "De fabrication artisanale"
+        }
+      ]
+    },
+    {
+      "code": "factory-made",
+      "display": "Factory made",
+      "definition": "Factory made — manufacture method code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Usiné"
+        }
+      ]
+    }
+  ]
+}

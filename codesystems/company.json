@@ -1,0 +1,5523 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "company",
+  "url": "https://bind.codes/company",
+  "name": "Company",
+  "title": "Company",
+  "status": "draft",
+  "language": "en",
+  "description": "Company codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ABI",
+      "display": "Promutuel L'Abitibienne",
+      "definition": "Promutuel L'Abitibienne — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel L'Abitibienne"
+        }
+      ]
+    },
+    {
+      "code": "ABS",
+      "display": "Abstainers",
+      "definition": "Abstainers — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Abstainers"
+        }
+      ]
+    },
+    {
+      "code": "ACAS",
+      "display": "Aetna Canadian C & S",
+      "definition": "Aetna Canadian C & S — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aetna Canadian C & S"
+        }
+      ]
+    },
+    {
+      "code": "ACEIN",
+      "display": "ACE INA Insurance",
+      "definition": "ACE INA Insurance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "ACE INA Insurance"
+        }
+      ]
+    },
+    {
+      "code": "AEG",
+      "display": "Aegon (UK)",
+      "definition": "Aegon (UK) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aegon (UK)"
+        }
+      ]
+    },
+    {
+      "code": "AET",
+      "display": "Aetna Casualty (Laurentian)",
+      "definition": "Aetna Casualty (Laurentian) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aetna Casualty (Laurentian)"
+        }
+      ]
+    },
+    {
+      "code": "AETN",
+      "display": "Aetna Ins.(CIGNA)",
+      "definition": "Aetna Ins.(CIGNA) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aetna Ins. (CIGNA)"
+        }
+      ]
+    },
+    {
+      "code": "AFM",
+      "display": "Antigonish Farmers' Mutual",
+      "definition": "Antigonish Farmers' Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Antigonish Farmers' Mutual"
+        }
+      ]
+    },
+    {
+      "code": "AG",
+      "display": "Advocate General",
+      "definition": "Advocate General — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Advocate General"
+        }
+      ]
+    },
+    {
+      "code": "AGR",
+      "display": "Allianz Global Risks US Insurance Company",
+      "definition": "Allianz Global Risks US Insurance Company — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie d'assurance Allianz risques mondiaux E. U."
+        }
+      ]
+    },
+    {
+      "code": "AIM",
+      "display": "Amherst Island Mutual",
+      "definition": "Amherst Island Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Amherst Island"
+        }
+      ]
+    },
+    {
+      "code": "ALB",
+      "display": "Albion",
+      "definition": "Albion — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Albion"
+        }
+      ]
+    },
+    {
+      "code": "ALG",
+      "display": "Algoma Mutual",
+      "definition": "Algoma Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Algoma"
+        }
+      ]
+    },
+    {
+      "code": "ALH",
+      "display": "L'Alpha",
+      "definition": "L'Alpha — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "L'Alpha"
+        }
+      ]
+    },
+    {
+      "code": "ALL",
+      "display": "Allstate",
+      "definition": "Allstate — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Allstate"
+        }
+      ]
+    },
+    {
+      "code": "ALP",
+      "display": "Alpina",
+      "definition": "Alpina — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Alpina"
+        }
+      ]
+    },
+    {
+      "code": "ALZ",
+      "display": "Allianz",
+      "definition": "Allianz — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Allianz"
+        }
+      ]
+    },
+    {
+      "code": "AMA",
+      "display": "Alberta Motor",
+      "definition": "Alberta Motor — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Alberta Motor"
+        }
+      ]
+    },
+    {
+      "code": "AMH",
+      "display": "American Home",
+      "definition": "American Home — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "American Home"
+        }
+      ]
+    },
+    {
+      "code": "AMM",
+      "display": "American Mutual",
+      "definition": "American Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "American Mutual"
+        }
+      ]
+    },
+    {
+      "code": "AMR",
+      "display": "American Road",
+      "definition": "American Road — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "American Road"
+        }
+      ]
+    },
+    {
+      "code": "ANAT",
+      "display": "Assurnat",
+      "definition": "Assurnat — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurnat"
+        }
+      ]
+    },
+    {
+      "code": "ANG",
+      "display": "Anglo-Gibraltar",
+      "definition": "Anglo-Gibraltar — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Anglo-Gibraltar"
+        }
+      ]
+    },
+    {
+      "code": "APP",
+      "display": "Promutuel Appalaches-St-François",
+      "definition": "Promutuel Appalaches-St-François — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Appalaches-St-François"
+        }
+      ]
+    },
+    {
+      "code": "APR",
+      "display": "APRIL Canada Inc.",
+      "definition": "APRIL Canada Inc. — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "APRIL Canada Inc."
+        }
+      ]
+    },
+    {
+      "code": "ARC",
+      "display": "Arch Insurance Company Ltd.",
+      "definition": "Arch Insurance Company Ltd. — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie d’assurance Arch Ltée"
+        }
+      ]
+    },
+    {
+      "code": "ASC",
+      "display": "Ascentus",
+      "definition": "Ascentus — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ascentus"
+        }
+      ]
+    },
+    {
+      "code": "ASN",
+      "display": "Ass. Nationale (National Ins.)",
+      "definition": "Ass. Nationale (National Ins.) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ass. Nationale (National Ins.)"
+        }
+      ]
+    },
+    {
+      "code": "ATL",
+      "display": "Atlantic",
+      "definition": "Atlantic — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Atlantic"
+        }
+      ]
+    },
+    {
+      "code": "AXA",
+      "display": "AXA",
+      "definition": "AXA — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "AXA"
+        }
+      ]
+    },
+    {
+      "code": "AXL",
+      "display": "AXA XL",
+      "definition": "AXA XL — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "AXA XL"
+        }
+      ]
+    },
+    {
+      "code": "AYR",
+      "display": "Ayr Mutual",
+      "definition": "Ayr Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ayr"
+        }
+      ]
+    },
+    {
+      "code": "BAG",
+      "display": "Promutuel Bagot",
+      "definition": "Promutuel Bagot — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Bagot"
+        }
+      ]
+    },
+    {
+      "code": "BCAA",
+      "display": "BCAA",
+      "definition": "BCAA — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "BCAA"
+        }
+      ]
+    },
+    {
+      "code": "BCIC",
+      "display": "British Columbia",
+      "definition": "British Columbia — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "British Columbia"
+        }
+      ]
+    },
+    {
+      "code": "BCM",
+      "display": "Bertie & Clinton Mutual",
+      "definition": "Bertie & Clinton Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bertie & Clinton"
+        }
+      ]
+    },
+    {
+      "code": "BEA",
+      "display": "Promutuel du Saint-Laurent aux Appalaches (formerly Promutuel Beauce-Etchemins)",
+      "definition": "Promutuel du Saint-Laurent aux Appalaches (formerly Promutuel Beauce-Etchemins) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel du Saint-Laurent aux Appalaches (anciennement Promutuel Beauce-Etchemins)"
+        }
+      ]
+    },
+    {
+      "code": "BEH",
+      "display": "Promutuel Haut St-Laurent (formerly Beauharnois Mutual)",
+      "definition": "Promutuel Haut St-Laurent (formerly Beauharnois Mutual) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Haut St-Laurent (anciennement Beauharnois Mutual)"
+        }
+      ]
+    },
+    {
+      "code": "BEL",
+      "display": "BELAIRdirect / Belair",
+      "definition": "BELAIRdirect / Belair — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "BÉLAIRdirect / Bélair"
+        }
+      ]
+    },
+    {
+      "code": "BEM",
+      "display": "Promutuel Côte-Sud (formerly Promutuel Bellechasse Lévis)",
+      "definition": "Promutuel Côte-Sud (formerly Promutuel Bellechasse Lévis) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Côte-Sud (anciennement Promutuel Bellechasse Lévis)"
+        }
+      ]
+    },
+    {
+      "code": "BEO",
+      "display": "Beothic General",
+      "definition": "Beothic General — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Beothic General"
+        }
+      ]
+    },
+    {
+      "code": "BEN",
+      "display": "Beneva Insurance",
+      "definition": "Beneva Insurance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Beneva Insurance"
+        }
+      ]
+    },
+    {
+      "code": "BIC",
+      "display": "Promutuel de l'Est (formerly Mutuelle Bic)",
+      "definition": "Promutuel de l'Est (formerly Mutuelle Bic) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel de l'Est (anciennement Mutuelle Bic)"
+        }
+      ]
+    },
+    {
+      "code": "BII",
+      "display": "Boiler Inspection & Insurance",
+      "definition": "Boiler Inspection & Insurance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boiler Inspection & Insurance"
+        }
+      ]
+    },
+    {
+      "code": "BKF",
+      "display": "American Bankers of Florida",
+      "definition": "American Bankers of Florida — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "American Bankers of Florida"
+        }
+      ]
+    },
+    {
+      "code": "BLAN",
+      "display": "Blanchard Mutual",
+      "definition": "Blanchard Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Blanchard"
+        }
+      ]
+    },
+    {
+      "code": "BOI",
+      "display": "Promutuel Les Bâtisseurs (formerly Promutuel Bois-Francs)",
+      "definition": "Promutuel Les Bâtisseurs (formerly Promutuel Bois-Francs) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Les Bâtisseurs (anciennement Promutuel Bois-Francs)"
+        }
+      ]
+    },
+    {
+      "code": "BOR",
+      "display": "Boreal",
+      "definition": "Boreal — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boréal"
+        }
+      ]
+    },
+    {
+      "code": "BOREA",
+      "display": "Promutuel Assurance ALTA (formerly Promutuel Boreale)",
+      "definition": "Promutuel Assurance ALTA (formerly Promutuel Boreale) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Assurance ALTA (anciennement Promutuel Boreale)"
+        }
+      ]
+    },
+    {
+      "code": "BOUC",
+      "display": "Bouclier Laurentien",
+      "definition": "Bouclier Laurentien — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bouclier Laurentien"
+        }
+      ]
+    },
+    {
+      "code": "BQM",
+      "display": "Bay of Quinte Mutual",
+      "definition": "Bay of Quinte Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bay of Quinte Mutual"
+        }
+      ]
+    },
+    {
+      "code": "BRANT",
+      "display": "Brant Mutual",
+      "definition": "Brant Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Brant Mutual"
+        }
+      ]
+    },
+    {
+      "code": "CAA",
+      "display": "CAA",
+      "definition": "CAA — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "CAA"
+        }
+      ]
+    },
+    {
+      "code": "CAB",
+      "display": "Cabot",
+      "definition": "Cabot — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cabot"
+        }
+      ]
+    },
+    {
+      "code": "CALF",
+      "display": "Calvert Fire",
+      "definition": "Calvert Fire — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Calvert Fire"
+        }
+      ]
+    },
+    {
+      "code": "CAMIM",
+      "display": "Canadian Millers Mutual",
+      "definition": "Canadian Millers Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canadian Millers Mutual"
+        }
+      ]
+    },
+    {
+      "code": "CAN",
+      "display": "Canassurance",
+      "definition": "Canassurance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canassurance"
+        }
+      ]
+    },
+    {
+      "code": "CANA",
+      "display": "Canada A & F",
+      "definition": "Canada A & F — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canada A & F"
+        }
+      ]
+    },
+    {
+      "code": "CANL",
+      "display": "Primmum (formerly Canada Life Casualty)",
+      "definition": "Primmum (formerly Canada Life Casualty) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Primmum (anciennement Canada-Vie)"
+        }
+      ]
+    },
+    {
+      "code": "CANN",
+      "display": "Canners Exchange",
+      "definition": "Canners Exchange — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canners Exchange"
+        }
+      ]
+    },
+    {
+      "code": "CANW",
+      "display": "Canada West",
+      "definition": "Canada West — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canada West"
+        }
+      ]
+    },
+    {
+      "code": "CAP",
+      "display": "La Capitale",
+      "definition": "La Capitale — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "La Capitale"
+        }
+      ]
+    },
+    {
+      "code": "CARL",
+      "display": "Carleton Mutual",
+      "definition": "Carleton Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Carleton Mutual"
+        }
+      ]
+    },
+    {
+      "code": "CAS",
+      "display": "Casualty",
+      "definition": "Casualty — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Casualty"
+        }
+      ]
+    },
+    {
+      "code": "CAY",
+      "display": "Cayuga Mutual",
+      "definition": "Cayuga Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cayuga Mutual"
+        }
+      ]
+    },
+    {
+      "code": "CC",
+      "display": "Canadian Commerce",
+      "definition": "Canadian Commerce — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canadian Commerce"
+        }
+      ]
+    },
+    {
+      "code": "CCICO",
+      "display": "Continental Insurance Company",
+      "definition": "Continental Insurance Company — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Continental Insurance Company"
+        }
+      ]
+    },
+    {
+      "code": "CCINC",
+      "display": "Continental Insurance Company of Canada Inc.",
+      "definition": "Continental Insurance Company of Canada Inc. — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Continental Insurance Company du Canada Inc."
+        }
+      ]
+    },
+    {
+      "code": "CCLTD",
+      "display": "Continental Insurance Ltd.",
+      "definition": "Continental Insurance Ltd. — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Continental Insurance Ltd."
+        }
+      ]
+    },
+    {
+      "code": "CDES",
+      "display": "Caisses Desjardins",
+      "definition": "Caisses Desjardins — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caisses Desjardins"
+        }
+      ]
+    },
+    {
+      "code": "CDI",
+      "display": "Canadian Direct",
+      "definition": "Canadian Direct — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canadian Direct"
+        }
+      ]
+    },
+    {
+      "code": "CENT",
+      "display": "Century",
+      "definition": "Century — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Century"
+        }
+      ]
+    },
+    {
+      "code": "CG",
+      "display": "Canadian General",
+      "definition": "Canadian General — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canadian General"
+        }
+      ]
+    },
+    {
+      "code": "CGUI",
+      "display": "Aviva",
+      "definition": "Aviva — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aviva"
+        }
+      ]
+    },
+    {
+      "code": "CHAPP",
+      "display": "Promutuel du Saint-Laurent aux Appalaches",
+      "definition": "Promutuel du Saint-Laurent aux Appalaches — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel du Saint-Laurent aux Appalaches"
+        }
+      ]
+    },
+    {
+      "code": "CHAT",
+      "display": "Chateau",
+      "definition": "Chateau — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Château"
+        }
+      ]
+    },
+    {
+      "code": "CHL",
+      "display": "Promutuel Charlevoix-Montmorency",
+      "definition": "Promutuel Charlevoix-Montmorency — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Charlevoix-Montmorency"
+        }
+      ]
+    },
+    {
+      "code": "CHM",
+      "display": "Canadian Home",
+      "definition": "Canadian Home — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canadian Home"
+        }
+      ]
+    },
+    {
+      "code": "CHR",
+      "display": "DaimlerChrysler",
+      "definition": "DaimlerChrysler — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "DaimlerChrysler"
+        }
+      ]
+    },
+    {
+      "code": "CHUB",
+      "display": "Chubb",
+      "definition": "Chubb — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chubb"
+        }
+      ]
+    },
+    {
+      "code": "CI",
+      "display": "Canadian Indemnity",
+      "definition": "Canadian Indemnity — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canadian Indemnity"
+        }
+      ]
+    },
+    {
+      "code": "CIBC",
+      "display": "Certas Direct",
+      "definition": "Certas Direct — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Certas Direct"
+        }
+      ]
+    },
+    {
+      "code": "CIC",
+      "display": "Travelers Essential",
+      "definition": "Travelers Essential — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travelers Essential"
+        }
+      ]
+    },
+    {
+      "code": "CIGN",
+      "display": "Cigna",
+      "definition": "Cigna — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cigna"
+        }
+      ]
+    },
+    {
+      "code": "CIR",
+      "display": "Canadian Industrial Risk",
+      "definition": "Canadian Industrial Risk — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canadian Industrial Risk"
+        }
+      ]
+    },
+    {
+      "code": "CIT",
+      "display": "Citadel",
+      "definition": "Citadel — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "La Citadelle"
+        }
+      ]
+    },
+    {
+      "code": "CLAW",
+      "display": "Canadian Lawyers Liability Assurance Society",
+      "definition": "Canadian Lawyers Liability Assurance Society — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canadian Lawyers Liability Assurance Society"
+        }
+      ]
+    },
+    {
+      "code": "CM",
+      "display": "Chartis Insurance Company of Canada (formerly known as Commerce and Industry Insurance Company of Canada and later known as AIG Commerical Insurance Company of Canada)",
+      "definition": "Chartis Insurance Company of Canada (formerly known as Commerce and Industry Insurance Company of Canada and later known as AIG Commerical Insurance Company of Canada) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chartis Insurance Company of Canada (anciennement connu sous le nom Commerce and Industry Insurance Company of Canada et ensuite connu sous le nom AIG Commerical Insurance Company of Canada)"
+        }
+      ]
+    },
+    {
+      "code": "CMF",
+      "display": "Clare Mutual Fire",
+      "definition": "Clare Mutual Fire — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clare Mutual Fire"
+        }
+      ]
+    },
+    {
+      "code": "CNA",
+      "display": "Continental Casualty Company",
+      "definition": "Continental Casualty Company — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Continental Casualty Company"
+        }
+      ]
+    },
+    {
+      "code": "CNPIE",
+      "display": "Community Newspapers Reciprocal Insurance Exchange",
+      "definition": "Community Newspapers Reciprocal Insurance Exchange — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Community Newspapers Reciprocal Insurance Exchange"
+        }
+      ]
+    },
+    {
+      "code": "CNS",
+      "display": "Canadian Northern Shield",
+      "definition": "Canadian Northern Shield — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canadian Northern Shield"
+        }
+      ]
+    },
+    {
+      "code": "CNT",
+      "display": "Centennial",
+      "definition": "Centennial — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Centennial"
+        }
+      ]
+    },
+    {
+      "code": "CNU",
+      "display": "Canadian Universal",
+      "definition": "Canadian Universal — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canadian Universal"
+        }
+      ]
+    },
+    {
+      "code": "COA",
+      "display": "Coachman",
+      "definition": "Coachman — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coachman"
+        }
+      ]
+    },
+    {
+      "code": "COAT",
+      "display": "Promutuel Coaticook-Sherbrooke",
+      "definition": "Promutuel Coaticook-Sherbrooke — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Coaticook-Sherbrooke"
+        }
+      ]
+    },
+    {
+      "code": "COFC",
+      "display": "Co-Operative F & C",
+      "definition": "Co-Operative F & C — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Co-Operative F & C"
+        }
+      ]
+    },
+    {
+      "code": "COG",
+      "display": "COGECO",
+      "definition": "COGECO — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "COGECO"
+        }
+      ]
+    },
+    {
+      "code": "COL",
+      "display": "RSA (formerly Colonial)",
+      "definition": "RSA (formerly Colonial) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "RSA (anciennement Colonial)"
+        }
+      ]
+    },
+    {
+      "code": "COMGRP",
+      "display": "The Commonwell Mutual Insurance Group",
+      "definition": "The Commonwell Mutual Insurance Group — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "The Commonwell Mutual Insurance Group"
+        }
+      ]
+    },
+    {
+      "code": "COMM",
+      "display": "Northbridge Indemnity Insurance Corporation (formerly Commonwealth)",
+      "definition": "Northbridge Indemnity Insurance Corporation (formerly Commonwealth) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Northbridge Indemnity Insurance Corporation (anciennement Commonwealth)"
+        }
+      ]
+    },
+    {
+      "code": "COMS",
+      "display": "Promutuel Coaticook-Sherbrooke (formerly Compton-Sherbrooke Mutual)",
+      "definition": "Promutuel Coaticook-Sherbrooke (formerly Compton-Sherbrooke Mutual) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Coaticook-Sherbrooke (anciennement Compton-Sherbrooke Mutual)"
+        }
+      ]
+    },
+    {
+      "code": "CON",
+      "display": "Contingency",
+      "definition": "Contingency — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contingency"
+        }
+      ]
+    },
+    {
+      "code": "CONC",
+      "display": "La Concorde",
+      "definition": "La Concorde — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "La Concorde"
+        }
+      ]
+    },
+    {
+      "code": "CONS",
+      "display": "Constitution",
+      "definition": "Constitution — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Constitution"
+        }
+      ]
+    },
+    {
+      "code": "CONT",
+      "display": "Continental Canada",
+      "definition": "Continental Canada — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Continental du Canada"
+        }
+      ]
+    },
+    {
+      "code": "COOP",
+      "display": "Co-operators",
+      "definition": "Co-operators — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Co-operators"
+        }
+      ]
+    },
+    {
+      "code": "COOS",
+      "display": "Les Cooperants",
+      "definition": "Les Cooperants — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Les Coopérants"
+        }
+      ]
+    },
+    {
+      "code": "CORN",
+      "display": "Cornhill",
+      "definition": "Cornhill — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cornhill"
+        }
+      ]
+    },
+    {
+      "code": "CORO",
+      "display": "Coronation",
+      "definition": "Coronation — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coronation"
+        }
+      ]
+    },
+    {
+      "code": "COSE",
+      "display": "Coseco",
+      "definition": "Coseco — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coseco"
+        }
+      ]
+    },
+    {
+      "code": "CP",
+      "display": "Canadian Provincial",
+      "definition": "Canadian Provincial — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canadian Provincial"
+        }
+      ]
+    },
+    {
+      "code": "CRUM",
+      "display": "Crum & Forster",
+      "definition": "Crum & Forster — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Crum & Forster"
+        }
+      ]
+    },
+    {
+      "code": "CTD",
+      "display": "CT Direct (Canada Trust)",
+      "definition": "CT Direct (Canada Trust) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "CT Direct (Canada Trust)"
+        }
+      ]
+    },
+    {
+      "code": "CTIS",
+      "display": "Canadian Tire Insurance Services",
+      "definition": "Canadian Tire Insurance Services — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canadian Tire Insurance Services"
+        }
+      ]
+    },
+    {
+      "code": "CTSUD",
+      "display": "Promutuel Centre-Sud (formerly Promutuel Coaticook-Sherbrooke)",
+      "definition": "Promutuel Centre-Sud (formerly Promutuel Coaticook-Sherbrooke) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Centre-Sud (anciennement Promutuel Coaticook-Sherbrooke)"
+        }
+      ]
+    },
+    {
+      "code": "CU",
+      "display": "Commercial Union (now Aviva)",
+      "definition": "Commercial Union (now Aviva) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Union Commerciale (maintenant Aviva)"
+        }
+      ]
+    },
+    {
+      "code": "CUL",
+      "display": "Culross Mutual",
+      "definition": "Culross Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Culross Mutual"
+        }
+      ]
+    },
+    {
+      "code": "CUM",
+      "display": "Cumis",
+      "definition": "Cumis — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cumis"
+        }
+      ]
+    },
+    {
+      "code": "DESJ",
+      "display": "Groupe Desjardins",
+      "definition": "Groupe Desjardins — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Groupe Desjardins"
+        }
+      ]
+    },
+    {
+      "code": "DEUX",
+      "display": "Promutuel Deux-Montagnes",
+      "definition": "Promutuel Deux-Montagnes — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Deux-Montagnes"
+        }
+      ]
+    },
+    {
+      "code": "DRA",
+      "display": "Dave Rochon Assurances Inc.",
+      "definition": "Dave Rochon Assurances Inc. — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dave Rochon Assurances Inc."
+        }
+      ]
+    },
+    {
+      "code": "DIC",
+      "display": "Dominion Ins. Corp.",
+      "definition": "Dominion Ins. Corp. — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dominion Ins. Corp."
+        }
+      ]
+    },
+    {
+      "code": "DIRP",
+      "display": "Direct Protect",
+      "definition": "Direct Protect — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Direct Protect"
+        }
+      ]
+    },
+    {
+      "code": "DMI",
+      "display": "Halwell Dumfries Mutual Insurance Company (Sheffield)",
+      "definition": "Halwell Dumfries Mutual Insurance Company (Sheffield) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Halwell Dumfries Mutual Insurance Company (Sheffield)"
+        }
+      ]
+    },
+    {
+      "code": "DOC",
+      "display": "Dominion of Canada",
+      "definition": "Dominion of Canada — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dominion du Canada"
+        }
+      ]
+    },
+    {
+      "code": "DOR",
+      "display": "Promutuel Dorchester",
+      "definition": "Promutuel Dorchester — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Dorchester"
+        }
+      ]
+    },
+    {
+      "code": "DOW",
+      "display": "Downie Mutual",
+      "definition": "Downie Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Downie"
+        }
+      ]
+    },
+    {
+      "code": "DRUM",
+      "display": "Promutuel Drummond",
+      "definition": "Promutuel Drummond — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Drummond"
+        }
+      ]
+    },
+    {
+      "code": "DUF",
+      "display": "Dufferin Mutual Insurance Company",
+      "definition": "Dufferin Mutual Insurance Company — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dufferin"
+        }
+      ]
+    },
+    {
+      "code": "EAG",
+      "display": "Eagle Star",
+      "definition": "Eagle Star — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Eagle Star"
+        }
+      ]
+    },
+    {
+      "code": "ECC",
+      "display": "Ecclesiastical",
+      "definition": "Ecclesiastical — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ecclesiastical"
+        }
+      ]
+    },
+    {
+      "code": "ECHE",
+      "display": "Echelon",
+      "definition": "Echelon — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Echelon"
+        }
+      ]
+    },
+    {
+      "code": "ECON",
+      "display": "Economical (formerly Economical Mutual)",
+      "definition": "Economical (formerly Economical Mutual) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Economical (anciennement Economical Mutual)"
+        }
+      ]
+    },
+    {
+      "code": "EGI",
+      "display": "Echelon Insurance",
+      "definition": "Echelon Insurance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Echelon Assurance"
+        }
+      ]
+    },
+    {
+      "code": "EKF",
+      "display": "Ekfrid Mutual",
+      "definition": "Ekfrid Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ekfrid Mutual"
+        }
+      ]
+    },
+    {
+      "code": "ELEC",
+      "display": "Electric Company",
+      "definition": "Electric Company — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Electric Company"
+        }
+      ]
+    },
+    {
+      "code": "ELM",
+      "display": "Elma Mutual",
+      "definition": "Elma Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Elma Mutual"
+        }
+      ]
+    },
+    {
+      "code": "ELT",
+      "display": "Elite",
+      "definition": "Elite — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Élite"
+        }
+      ]
+    },
+    {
+      "code": "ENAM",
+      "display": "English & American",
+      "definition": "English & American — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "English & American"
+        }
+      ]
+    },
+    {
+      "code": "ENCON",
+      "display": "ENCON Group",
+      "definition": "ENCON Group — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "ENCON"
+        }
+      ]
+    },
+    {
+      "code": "ENG",
+      "display": "English & American",
+      "definition": "English & American — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "English & American"
+        }
+      ]
+    },
+    {
+      "code": "EQ",
+      "display": "Equitable General",
+      "definition": "Equitable General — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "L'Équitable"
+        }
+      ]
+    },
+    {
+      "code": "ERI",
+      "display": "Erie Mutual",
+      "definition": "Erie Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Erie Mutual"
+        }
+      ]
+    },
+    {
+      "code": "EST",
+      "display": "Promutuel de L'Est",
+      "definition": "Promutuel de L'Est — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel de L'Est"
+        }
+      ]
+    },
+    {
+      "code": "ESTR",
+      "display": "Estrie-Richelieu",
+      "definition": "Estrie-Richelieu — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Estrie-Richelieu"
+        }
+      ]
+    },
+    {
+      "code": "ESTU",
+      "display": "Promutuel de l'Estuaire",
+      "definition": "Promutuel de l'Estuaire — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel de l'Estuaire"
+        }
+      ]
+    },
+    {
+      "code": "ETN",
+      "display": "Eaton",
+      "definition": "Eaton — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Eaton"
+        }
+      ]
+    },
+    {
+      "code": "EVER",
+      "display": "Everest",
+      "definition": "Everest — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Everest"
+        }
+      ]
+    },
+    {
+      "code": "FA",
+      "display": "Facility - The Association",
+      "definition": "Facility - The Association — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facility - The Association"
+        }
+      ]
+    },
+    {
+      "code": "FAAL",
+      "display": "Facility - Allstate",
+      "definition": "Facility - Allstate — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facility - Allstate"
+        }
+      ]
+    },
+    {
+      "code": "FAALZ",
+      "display": "Facility - Allianz",
+      "definition": "Facility - Allianz — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facility - Allianz"
+        }
+      ]
+    },
+    {
+      "code": "FACG",
+      "display": "Facility - Canadian General",
+      "definition": "Facility - Canadian General — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facility - Canadian General"
+        }
+      ]
+    },
+    {
+      "code": "FACP",
+      "display": "Facility - Co-operators",
+      "definition": "Facility - Co-operators — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facility - Co-operators"
+        }
+      ]
+    },
+    {
+      "code": "FACS",
+      "display": "Facility - Canadian Surety",
+      "definition": "Facility - Canadian Surety — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facility - Canadian Surety"
+        }
+      ]
+    },
+    {
+      "code": "FACT",
+      "display": "Factory Ins. Association",
+      "definition": "Factory Ins. Association — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Factory Ins. Association"
+        }
+      ]
+    },
+    {
+      "code": "FACU",
+      "display": "Facility - Commercial Union",
+      "definition": "Facility - Commercial Union — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facility - Union Commerciale"
+        }
+      ]
+    },
+    {
+      "code": "FACW",
+      "display": "Facility - Canada West",
+      "definition": "Facility - Canada West — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facility - Canada West"
+        }
+      ]
+    },
+    {
+      "code": "FADOC",
+      "display": "Facility - Dominion of Canada",
+      "definition": "Facility - Dominion of Canada — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facility - Dominion du Canada"
+        }
+      ]
+    },
+    {
+      "code": "FAGU",
+      "display": "Facility - Guardian",
+      "definition": "Facility - Guardian — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facility - Guardian"
+        }
+      ]
+    },
+    {
+      "code": "FAHAL",
+      "display": "Facility - Nordic (formerly  Facility - Halifax)",
+      "definition": "Facility - Nordic (formerly  Facility - Halifax) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facility - Nordic (anciennement  Facility - Halifax)"
+        }
+      ]
+    },
+    {
+      "code": "FALLD",
+      "display": "Facility - Lloyd's",
+      "definition": "Facility - Lloyd's — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facility - Lloyd's"
+        }
+      ]
+    },
+    {
+      "code": "FALM",
+      "display": "Facility - Liberty Mutual",
+      "definition": "Facility - Liberty Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facility - Liberty Mutual"
+        }
+      ]
+    },
+    {
+      "code": "FAM",
+      "display": "Factory Mutual",
+      "definition": "Factory Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Factory Mutual"
+        }
+      ]
+    },
+    {
+      "code": "FANFL",
+      "display": "Facility - Insurance Corp.of Newfoundland",
+      "definition": "Facility - Insurance Corp.of Newfoundland — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facility - Insurance Corp.of Newfoundland"
+        }
+      ]
+    },
+    {
+      "code": "FANS",
+      "display": "Facility - Nova Scotia General",
+      "definition": "Facility - Nova Scotia General — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facility - Nova Scotia General"
+        }
+      ]
+    },
+    {
+      "code": "FAPRU",
+      "display": "Facility - Prudential",
+      "definition": "Facility - Prudential — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facility - Prudential"
+        }
+      ]
+    },
+    {
+      "code": "FAR",
+      "display": "Farm Mutual Reinsurance",
+      "definition": "Farm Mutual Reinsurance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Farm Mutual Reinsurance"
+        }
+      ]
+    },
+    {
+      "code": "FARM",
+      "display": "Farmers Mutual (Lindsay)",
+      "definition": "Farmers Mutual (Lindsay) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Farmers Mutual (Lindsay)"
+        }
+      ]
+    },
+    {
+      "code": "FARO",
+      "display": "Facility - Royal & SunAlliance",
+      "definition": "Facility - Royal & SunAlliance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facility - Royal & SunAlliance"
+        }
+      ]
+    },
+    {
+      "code": "FASA",
+      "display": "Facility - Sun Alliance",
+      "definition": "Facility - Sun Alliance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facility - Sun Alliance"
+        }
+      ]
+    },
+    {
+      "code": "FASE",
+      "display": "Facility - Simcoe & Erie",
+      "definition": "Facility - Simcoe & Erie — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facility - Simcoe & Erie"
+        }
+      ]
+    },
+    {
+      "code": "FASF",
+      "display": "Facility - State Farm",
+      "definition": "Facility - State Farm — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facility - State Farm"
+        }
+      ]
+    },
+    {
+      "code": "FAUN",
+      "display": "Facility - Unifund",
+      "definition": "Facility - Unifund — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facility - Unifund"
+        }
+      ]
+    },
+    {
+      "code": "FAWU",
+      "display": "Facility - Nordic Western Region (formerly Facility - Western Union)",
+      "definition": "Facility - Nordic Western Region (formerly Facility - Western Union) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facility - Nordic Western Region (anciennement Facility - Western Union)"
+        }
+      ]
+    },
+    {
+      "code": "FED",
+      "display": "Federal",
+      "definition": "Federal — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Federal"
+        }
+      ]
+    },
+    {
+      "code": "FEDC",
+      "display": "Federation",
+      "definition": "Federation — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "La Fédération"
+        }
+      ]
+    },
+    {
+      "code": "FEDM",
+      "display": "Federated",
+      "definition": "Federated — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Federated"
+        }
+      ]
+    },
+    {
+      "code": "FF",
+      "display": "Fireman's Fund",
+      "definition": "Fireman's Fund — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fireman's Fund"
+        }
+      ]
+    },
+    {
+      "code": "FPI",
+      "display": "Four Points Insurance",
+      "definition": "Four Points Insurance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Four Points Insurance"
+        }
+      ]
+    },
+    {
+      "code": "FIC",
+      "display": "Family Insurance Company",
+      "definition": "Family Insurance Company — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Family Insurance Company"
+        }
+      ]
+    },
+    {
+      "code": "FIRE",
+      "display": "The Fire",
+      "definition": "The Fire — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "The Fire"
+        }
+      ]
+    },
+    {
+      "code": "FIRST",
+      "display": "First North American",
+      "definition": "First North American — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "First North American"
+        }
+      ]
+    },
+    {
+      "code": "FM",
+      "display": "Trillium Mutual (formerly Formosa Mutual)",
+      "definition": "Trillium Mutual (formerly Formosa Mutual) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trillium Mutual (anciennement Formosa Mutual)"
+        }
+      ]
+    },
+    {
+      "code": "FNAT",
+      "display": "First National",
+      "definition": "First National — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "First National"
+        }
+      ]
+    },
+    {
+      "code": "FOR",
+      "display": "Foresters Indemnity",
+      "definition": "Foresters Indemnity — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foresters Indemnity"
+        }
+      ]
+    },
+    {
+      "code": "FRO",
+      "display": "Promutuel Monts et Rives (formerly Frontenac Mutual)",
+      "definition": "Promutuel Monts et Rives (formerly Frontenac Mutual) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Monts et Rives (anciennement Frontenac Mutual)"
+        }
+      ]
+    },
+    {
+      "code": "FROY",
+      "display": "Royal Facility",
+      "definition": "Royal Facility — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facility - Royal"
+        }
+      ]
+    },
+    {
+      "code": "FSCA",
+      "display": "Groupement des Assureurs (F.S.C.A.)",
+      "definition": "Groupement des Assureurs (F.S.C.A.) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Groupement des Assureurs (F.S.C.A.)"
+        }
+      ]
+    },
+    {
+      "code": "FUND",
+      "display": "Fundy Mutual",
+      "definition": "Fundy Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fundy Mutual"
+        }
+      ]
+    },
+    {
+      "code": "GA",
+      "display": "General Accident (now Aviva)",
+      "definition": "General Accident (now Aviva) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Général Accident (maintenant Aviva)"
+        }
+      ]
+    },
+    {
+      "code": "GAN",
+      "display": "Gan Incendie",
+      "definition": "Gan Incendie — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gan Incendie"
+        }
+      ]
+    },
+    {
+      "code": "GAR",
+      "display": "Garante",
+      "definition": "Garante — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garante"
+        }
+      ]
+    },
+    {
+      "code": "GAS",
+      "display": "Promutuel Gaspésie - les Îles",
+      "definition": "Promutuel Gaspésie - les Îles — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Gaspésie - les Îles"
+        }
+      ]
+    },
+    {
+      "code": "GAUM",
+      "display": "Global Aerospace Underwriting Managers",
+      "definition": "Global Aerospace Underwriting Managers — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Global Aerospace Underwriting Managers"
+        }
+      ]
+    },
+    {
+      "code": "GBM",
+      "display": "Grey & Bruce Mutual",
+      "definition": "Grey & Bruce Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grey & Bruce"
+        }
+      ]
+    },
+    {
+      "code": "GC",
+      "display": "Intact Insurance Company (formerly Intact Insurance Company (Quebec division))",
+      "definition": "Intact Insurance Company (formerly Intact Insurance Company (Quebec division)) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intact Compagnie d'assurance (anciennement Intact Compagnie d'assurance (division de Québec))"
+        }
+      ]
+    },
+    {
+      "code": "GCA",
+      "display": "General Ins. Company of America",
+      "definition": "General Ins. Company of America — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "General Ins. Company of America"
+        }
+      ]
+    },
+    {
+      "code": "GECC",
+      "display": "GE Capital Casualty",
+      "definition": "GE Capital Casualty — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "GE Capital Casualty"
+        }
+      ]
+    },
+    {
+      "code": "GEN",
+      "display": "General",
+      "definition": "General — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "General"
+        }
+      ]
+    },
+    {
+      "code": "GENK",
+      "display": "Genmark Insurance",
+      "definition": "Genmark Insurance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Genmark Insurance"
+        }
+      ]
+    },
+    {
+      "code": "GER",
+      "display": "Gerling Global",
+      "definition": "Gerling Global — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gerling Global"
+        }
+      ]
+    },
+    {
+      "code": "GERM",
+      "display": "Germania",
+      "definition": "Germania — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Germania"
+        }
+      ]
+    },
+    {
+      "code": "GIB",
+      "display": "Gibraltar",
+      "definition": "Gibraltar — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gibraltar"
+        }
+      ]
+    },
+    {
+      "code": "GIS",
+      "display": "Gisco",
+      "definition": "Gisco — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gisco"
+        }
+      ]
+    },
+    {
+      "code": "GLEN",
+      "display": "Glengarry Farmers Mutual",
+      "definition": "Glengarry Farmers Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Glengarry Farmers"
+        }
+      ]
+    },
+    {
+      "code": "GMI",
+      "display": "Grenville Mutual",
+      "definition": "Grenville Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grenville"
+        }
+      ]
+    },
+    {
+      "code": "GNA",
+      "display": "Intact Insurance (Formerly The Guarantee Company of North America)",
+      "definition": "Intact Insurance (Formerly The Guarantee Company of North America) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intact Assurance (anciennement La Garantie, Compagnie d’Assurance de l’Amérique du Nord)"
+        }
+      ]
+    },
+    {
+      "code": "GNB",
+      "display": "General Ins. Corp. of New Brunswick",
+      "definition": "General Ins. Corp. of New Brunswick — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "General Ins. Corp. of New Brunswick"
+        }
+      ]
+    },
+    {
+      "code": "GOLD",
+      "display": "Gold Circle",
+      "definition": "Gold Circle — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gold Circle"
+        }
+      ]
+    },
+    {
+      "code": "GORE",
+      "display": "Gore",
+      "definition": "Gore — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gore"
+        }
+      ]
+    },
+    {
+      "code": "GRAN",
+      "display": "Grain",
+      "definition": "Grain — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grain"
+        }
+      ]
+    },
+    {
+      "code": "GRE",
+      "display": "Great Eastern",
+      "definition": "Great Eastern — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Great Eastern"
+        }
+      ]
+    },
+    {
+      "code": "GRP",
+      "display": "Novex Group Insurance",
+      "definition": "Novex Group Insurance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Novex Assurance Groupe"
+        }
+      ]
+    },
+    {
+      "code": "GRT",
+      "display": "Great American",
+      "definition": "Great American — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Great American"
+        }
+      ]
+    },
+    {
+      "code": "GUA",
+      "display": "Guardian",
+      "definition": "Guardian — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Guardian"
+        }
+      ]
+    },
+    {
+      "code": "HAGR",
+      "display": "Hagerty Canada",
+      "definition": "Hagerty Canada — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hagerty Canada"
+        }
+      ]
+    },
+    {
+      "code": "HAL",
+      "display": "Intact Insurance Company (formerly Intact Insurance Company (Central Atlantic Division)",
+      "definition": "Intact Insurance Company (formerly Intact Insurance Company (Central Atlantic Division) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intact Compagnie d'assurance (anciennement Intact Compagnie d'assurance (division de l'Atlantique central)"
+        }
+      ]
+    },
+    {
+      "code": "HALW",
+      "display": "Halwell Dumfries Mutual Insurance Company (Guelph)",
+      "definition": "Halwell Dumfries Mutual Insurance Company (Guelph) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Halwell Dumfries Mutual Insurance Company (Guelph)"
+        }
+      ]
+    },
+    {
+      "code": "HAM",
+      "display": "Hamilton Twp.",
+      "definition": "Hamilton Twp. — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hamilton Twp."
+        }
+      ]
+    },
+    {
+      "code": "HAN",
+      "display": "Hanover",
+      "definition": "Hanover — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hanover"
+        }
+      ]
+    },
+    {
+      "code": "HAUT",
+      "display": "Promutuel Haut St-Laurent",
+      "definition": "Promutuel Haut St-Laurent — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Haut St-Laurent"
+        }
+      ]
+    },
+    {
+      "code": "HAY",
+      "display": "Hay Mutual",
+      "definition": "Hay Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hay"
+        }
+      ]
+    },
+    {
+      "code": "HELV",
+      "display": "Helvetia Swiss",
+      "definition": "Helvetia Swiss — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Helvetia Swiss"
+        }
+      ]
+    },
+    {
+      "code": "HIGH",
+      "display": "Highlands",
+      "definition": "Highlands — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Highlands"
+        }
+      ]
+    },
+    {
+      "code": "HIROC",
+      "display": "Healthcare Insurance Reciprocal",
+      "definition": "Healthcare Insurance Reciprocal — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Healthcare Insurance Reciprocal"
+        }
+      ]
+    },
+    {
+      "code": "HMI",
+      "display": "Salus Mutual Insurance Company",
+      "definition": "Salus Mutual Insurance Company — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Salus Mutual Insurance Company"
+        }
+      ]
+    },
+    {
+      "code": "HOME",
+      "display": "Home",
+      "definition": "Home — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Home"
+        }
+      ]
+    },
+    {
+      "code": "HOML",
+      "display": "Homeland",
+      "definition": "Homeland — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Homeland"
+        }
+      ]
+    },
+    {
+      "code": "HOW",
+      "display": "Howick Mutual",
+      "definition": "Howick Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Howick"
+        }
+      ]
+    },
+    {
+      "code": "HRT",
+      "display": "Hartford",
+      "definition": "Hartford — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hartford"
+        }
+      ]
+    },
+    {
+      "code": "IAC",
+      "display": "Promutuel Côte-Sud (formerly Promutuel Charlevoix-Montmorency)",
+      "definition": "Promutuel Côte-Sud (formerly Promutuel Charlevoix-Montmorency) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Côte-Sud (anciennement Promutuel Charlevoix-Montmorency)"
+        }
+      ]
+    },
+    {
+      "code": "ICBC",
+      "display": "Insurance Co. of B.C.",
+      "definition": "Insurance Co. of B.C. — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Insurance Co. of B.C."
+        }
+      ]
+    },
+    {
+      "code": "ICI",
+      "display": "Ins. Corp. of Ireland",
+      "definition": "Ins. Corp. of Ireland — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ins. Corp. of Ireland"
+        }
+      ]
+    },
+    {
+      "code": "ICNA",
+      "display": "Ins. Co. of North America",
+      "definition": "Ins. Co. of North America — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ins. Co. of North America"
+        }
+      ]
+    },
+    {
+      "code": "ICNW",
+      "display": "Ins. Corp. of Newfoundland",
+      "definition": "Ins. Corp. of Newfoundland — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ins. Corp. of Newfoundland"
+        }
+      ]
+    },
+    {
+      "code": "ICPEI",
+      "display": "Ins. Co. of Prince Edward Island",
+      "definition": "Ins. Co. of Prince Edward Island — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ins. Co. of Prince Edward Island"
+        }
+      ]
+    },
+    {
+      "code": "IIM",
+      "display": "Independent Ins. Managers",
+      "definition": "Independent Ins. Managers — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Independent Ins. Managers"
+        }
+      ]
+    },
+    {
+      "code": "IN",
+      "display": "L'Industrielle (Industrial General)",
+      "definition": "L'Industrielle (Industrial General) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "L'Industrielle (Industrial General)"
+        }
+      ]
+    },
+    {
+      "code": "INA",
+      "display": "Industrial Alliance",
+      "definition": "Industrial Alliance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "L'Industrielle Alliance"
+        }
+      ]
+    },
+    {
+      "code": "ING",
+      "display": "Industrial General",
+      "definition": "Industrial General — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Industrial General"
+        }
+      ]
+    },
+    {
+      "code": "INNOV",
+      "display": "Innovassur",
+      "definition": "Innovassur — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Innovassur"
+        }
+      ]
+    },
+    {
+      "code": "INS",
+      "display": "Promutuel L'Islet",
+      "definition": "Promutuel L'Islet — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel L'Islet"
+        }
+      ]
+    },
+    {
+      "code": "ISV",
+      "display": "Insurative Solutions",
+      "definition": "Insurative Solutions — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Insurative Solutions"
+        }
+      ]
+    },
+    {
+      "code": "JEI",
+      "display": "JEVCO Insurance Company",
+      "definition": "JEVCO Insurance Company — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "La Compagnie d'assurances JEVCO"
+        }
+      ]
+    },
+    {
+      "code": "JEV",
+      "display": "Jevco",
+      "definition": "Jevco — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Jevco"
+        }
+      ]
+    },
+    {
+      "code": "KAM",
+      "display": "Promutuel Kamouraska-Côte-Nord",
+      "definition": "Promutuel Kamouraska-Côte-Nord — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Kamouraska-Côte-Nord"
+        }
+      ]
+    },
+    {
+      "code": "KAN",
+      "display": "Kansa",
+      "definition": "Kansa — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Kansa"
+        }
+      ]
+    },
+    {
+      "code": "KE",
+      "display": "Kent & Essex Mutual",
+      "definition": "Kent & Essex Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Kent & Essex"
+        }
+      ]
+    },
+    {
+      "code": "KEM",
+      "display": "Kemper",
+      "definition": "Kemper — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Kemper"
+        }
+      ]
+    },
+    {
+      "code": "KENT",
+      "display": "Kent General",
+      "definition": "Kent General — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Kent General"
+        }
+      ]
+    },
+    {
+      "code": "KEY",
+      "display": "United General",
+      "definition": "United General — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "United General"
+        }
+      ]
+    },
+    {
+      "code": "KING",
+      "display": "Kings Mutual",
+      "definition": "Kings Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Kings Mutual"
+        }
+      ]
+    },
+    {
+      "code": "KNGN",
+      "display": "Kingsway General",
+      "definition": "Kingsway General — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Kingsway"
+        }
+      ]
+    },
+    {
+      "code": "LA",
+      "display": "L & A Mutual",
+      "definition": "L & A Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "L & A Mutual"
+        }
+      ]
+    },
+    {
+      "code": "LABI",
+      "display": "Portage La Biche",
+      "definition": "Portage La Biche — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Portage La Biche"
+        }
+      ]
+    },
+    {
+      "code": "LAC",
+      "display": "Laurentian Casualty",
+      "definition": "Laurentian Casualty — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Laurentian Casualty"
+        }
+      ]
+    },
+    {
+      "code": "LACFL",
+      "display": "Promutuel Du Lac au Fleuve (formerly Promutuel Du Littoral)",
+      "definition": "Promutuel Du Lac au Fleuve (formerly Promutuel Du Littoral) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Du Lac au Fleuve (anciennement Promutuel Du Littoral)"
+        }
+      ]
+    },
+    {
+      "code": "LAG",
+      "display": "Laurentian General",
+      "definition": "Laurentian General — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Laurentienne Générale"
+        }
+      ]
+    },
+    {
+      "code": "LAM",
+      "display": "Lambton Mutual",
+      "definition": "Lambton Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lambton Mutual"
+        }
+      ]
+    },
+    {
+      "code": "LAN",
+      "display": "Promutuel Lanaudière",
+      "definition": "Promutuel Lanaudière — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Lanaudière"
+        }
+      ]
+    },
+    {
+      "code": "LANA",
+      "display": "Lanark Mutual",
+      "definition": "Lanark Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lanark Mutual"
+        }
+      ]
+    },
+    {
+      "code": "LANG",
+      "display": "Langdon",
+      "definition": "Langdon — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Langdon"
+        }
+      ]
+    },
+    {
+      "code": "LAP",
+      "display": "Laurentian Pacific",
+      "definition": "Laurentian Pacific — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Laurentian Pacific"
+        }
+      ]
+    },
+    {
+      "code": "LAU",
+      "display": "Laurentienne Agricole (Laurentian Agricultural)",
+      "definition": "Laurentienne Agricole (Laurentian Agricultural) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Laurentienne Agricole (Laurentian Agricultural)"
+        }
+      ]
+    },
+    {
+      "code": "LBM",
+      "display": "Liberty Mutual",
+      "definition": "Liberty Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liberty Mutual"
+        }
+      ]
+    },
+    {
+      "code": "LEDOR",
+      "display": "Group Ledor Inc. Mutual Insurance",
+      "definition": "Group Ledor Inc. Mutual Insurance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Groupe Ledor Inc., Mutuelle d'Assurance"
+        }
+      ]
+    },
+    {
+      "code": "LEG",
+      "display": "Legacy",
+      "definition": "Legacy — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Legacy"
+        }
+      ]
+    },
+    {
+      "code": "LEV",
+      "display": "Promutuel Lévisienne-Orléans",
+      "definition": "Promutuel Lévisienne-Orléans — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Lévisienne-Orléans"
+        }
+      ]
+    },
+    {
+      "code": "LEX",
+      "display": "L'Exclusive",
+      "definition": "L'Exclusive — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "L'Exclusive"
+        }
+      ]
+    },
+    {
+      "code": "LEY",
+      "display": "L.E. Yingst",
+      "definition": "L.E. Yingst — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "L.E. Yingst"
+        }
+      ]
+    },
+    {
+      "code": "LGI",
+      "display": "Northbridge Insurance - Commercial (NGIC - Northbridge General Insurance Corporation)",
+      "definition": "Northbridge Insurance - Commercial (NGIC - Northbridge General Insurance Corporation) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Northbridge Insurance - Commercial (NGIC - Northbridge General Insurance Corporation)"
+        }
+      ]
+    },
+    {
+      "code": "LITTO",
+      "display": "Promutuel du Littoral (formerly Promutuel Kamouraska)",
+      "definition": "Promutuel du Littoral (formerly Promutuel Kamouraska) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel du Littoral (anciennement Promutuel Kamouraska)"
+        }
+      ]
+    },
+    {
+      "code": "LLD",
+      "display": "Lloyds, Non-marine",
+      "definition": "Lloyds, Non-marine — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lloyds, sauf assurance maritime"
+        }
+      ]
+    },
+    {
+      "code": "LLU",
+      "display": "Lloyd's Underwriters",
+      "definition": "Lloyd's Underwriters — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lloyd’s Underwriters"
+        }
+      ]
+    },
+    {
+      "code": "LNX",
+      "display": "Lennox & Addington",
+      "definition": "Lennox & Addington — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lennox & Addington"
+        }
+      ]
+    },
+    {
+      "code": "LOB",
+      "display": "Lobo Mutual",
+      "definition": "Lobo Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lobo Mutual"
+        }
+      ]
+    },
+    {
+      "code": "LOC",
+      "display": "London-Canada",
+      "definition": "London-Canada — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "London-Canada"
+        }
+      ]
+    },
+    {
+      "code": "LOM",
+      "display": "London & Midland",
+      "definition": "London & Midland — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "London & Midland"
+        }
+      ]
+    },
+    {
+      "code": "LOMB",
+      "display": "Northbridge Personal Insurance Corporation (formerly Lombard)",
+      "definition": "Northbridge Personal Insurance Corporation (formerly Lombard) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Northbridge Personal Insurance Corporation (anciennement Lombard)"
+        }
+      ]
+    },
+    {
+      "code": "LOMG",
+      "display": "Promutuel Monts et Rives (formerly Lotbinière and Mégantic Mutual)",
+      "definition": "Promutuel Monts et Rives (formerly Lotbinière and Mégantic Mutual) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Monts et Rives (anciennement Lotbinière et Mégantic Mutual)"
+        }
+      ]
+    },
+    {
+      "code": "LON",
+      "display": "London Assurance",
+      "definition": "London Assurance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "London Assurance"
+        }
+      ]
+    },
+    {
+      "code": "LOT",
+      "display": "Promutuel Lotbinière",
+      "definition": "Promutuel Lotbinière — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Lotbinière"
+        }
+      ]
+    },
+    {
+      "code": "LOY",
+      "display": "Loyalist",
+      "definition": "Loyalist — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Loyalist"
+        }
+      ]
+    },
+    {
+      "code": "LSJ",
+      "display": "Promutuel Lac au Fjord (formerly Lac St-Jean Mutual)",
+      "definition": "Promutuel Lac au Fjord (formerly Lac St-Jean Mutual) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Lac au Fjord (anciennement Lac St-Jean Mutual"
+        }
+      ]
+    },
+    {
+      "code": "LSP",
+      "display": "Promutuel Lac St-Pierre - Les Forges",
+      "definition": "Promutuel Lac St-Pierre - Les Forges — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Lac St-Pierre - Les Forges"
+        }
+      ]
+    },
+    {
+      "code": "LTM",
+      "display": "MutualONE Insurance Company (formerly Middlesex Mutual)",
+      "definition": "MutualONE Insurance Company (formerly Middlesex Mutual) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "MutualONE Insurance Company (formerly Middlesex Mutual)"
+        }
+      ]
+    },
+    {
+      "code": "LUM",
+      "display": "Lumbermens Mutual",
+      "definition": "Lumbermens Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lumbermens Mutual"
+        }
+      ]
+    },
+    {
+      "code": "MAA",
+      "display": "Marine Office of America Corp.",
+      "definition": "Marine Office of America Corp. — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marine Office of America Corp."
+        }
+      ]
+    },
+    {
+      "code": "MAPL",
+      "display": "Maplex General",
+      "definition": "Maplex General — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maplex General"
+        }
+      ]
+    },
+    {
+      "code": "MAR",
+      "display": "Northbridge Commercial Insurance Corporation (formerly Markel)",
+      "definition": "Northbridge Commercial Insurance Corporation (formerly Markel) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Northbridge Commercial Insurance Corporation (anciennement Markel)"
+        }
+      ]
+    },
+    {
+      "code": "MARK",
+      "display": "Markham General",
+      "definition": "Markham General — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Markham General"
+        }
+      ]
+    },
+    {
+      "code": "MAU",
+      "display": "Promutuel Portneuf-Champlain (formerly Mauricienne Mutual)",
+      "definition": "Promutuel Portneuf-Champlain (formerly Mauricienne Mutual) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Portneuf-Champlain (anciennement Mauricienne Mutual)"
+        }
+      ]
+    },
+    {
+      "code": "MAX",
+      "display": "MAX Insurance",
+      "definition": "MAX Insurance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "MAX Insurance"
+        }
+      ]
+    },
+    {
+      "code": "MCG",
+      "display": "MutualONE Insurance Company (formerly Middlesex Mutual)",
+      "definition": "MutualONE Insurance Company (formerly Middlesex Mutual) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "MutualONE Insurance Company (formerly Middlesex Mutual)"
+        }
+      ]
+    },
+    {
+      "code": "MCK",
+      "display": "MutualONE Insurance Company (formerly McKillop)",
+      "definition": "MutualONE Insurance Company (formerly McKillop) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "MutualONE Insurance Company (formerly McKillop)"
+        }
+      ]
+    },
+    {
+      "code": "MENN",
+      "display": "Mennonite Aid Union",
+      "definition": "Mennonite Aid Union — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mennonite Aid Union"
+        }
+      ]
+    },
+    {
+      "code": "MET",
+      "display": "Metropolitan",
+      "definition": "Metropolitan — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Metropolitan"
+        }
+      ]
+    },
+    {
+      "code": "METG",
+      "display": "Metro General",
+      "definition": "Metro General — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Metro General"
+        }
+      ]
+    },
+    {
+      "code": "MILL",
+      "display": "Millennium",
+      "definition": "Millennium — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Millennium"
+        }
+      ]
+    },
+    {
+      "code": "MISS",
+      "display": "Economical QC (formerly Missisquoi)",
+      "definition": "Economical QC (formerly Missisquoi) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Economical QC (anciennement Missisquoi)"
+        }
+      ]
+    },
+    {
+      "code": "MITS",
+      "display": "Mitsui Sumitomo",
+      "definition": "Mitsui Sumitomo — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mitsui Sumitomo"
+        }
+      ]
+    },
+    {
+      "code": "MMA",
+      "display": "Mennonite Mutual (Alberta)",
+      "definition": "Mennonite Mutual (Alberta) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mennonite Mutual (Alberta)"
+        }
+      ]
+    },
+    {
+      "code": "MMI",
+      "display": "My Mutual Insurance",
+      "definition": "My Mutual Insurance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "My Mutual Insurance"
+        }
+      ]
+    },
+    {
+      "code": "MON",
+      "display": "Promutuel Côte-Sud (formerly Promutuel Montmagny)",
+      "definition": "Promutuel Côte-Sud (formerly Promutuel Montmagny) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Côte-Sud (anciennement Promutuel Montmagny)"
+        }
+      ]
+    },
+    {
+      "code": "MOT",
+      "display": "Motors",
+      "definition": "Motors — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Motors"
+        }
+      ]
+    },
+    {
+      "code": "MEAL",
+      "display": "Morin Elliott Associés Ltée.",
+      "definition": "Morin Elliott Associés Ltée. — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Morin Elliott Associés Ltée."
+        }
+      ]
+    },
+    {
+      "code": "MPIC",
+      "display": "Manitoba Public Ins. Corp.",
+      "definition": "Manitoba Public Ins. Corp. — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Manitoba Public Ins. Corp."
+        }
+      ]
+    },
+    {
+      "code": "MUF",
+      "display": "Mutual Fire Insurance Co. of B.C.",
+      "definition": "Mutual Fire Insurance Co. of B.C. — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mutual Fire Insurance Co. of B.C."
+        }
+      ]
+    },
+    {
+      "code": "MUN",
+      "display": "Municipal Electric Assoc. Reciprocal Exchange",
+      "definition": "Municipal Electric Assoc. Reciprocal Exchange — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Municipal Electric Assoc. Reciprocal Exchange"
+        }
+      ]
+    },
+    {
+      "code": "NAP",
+      "display": "Promutuel Les Prairies (formerly Napierville & Laprairie Mutual)",
+      "definition": "Promutuel Les Prairies (formerly Napierville & Laprairie Mutual) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Les Prairies (anciennement Napierville & Laprairie)"
+        }
+      ]
+    },
+    {
+      "code": "NATE",
+      "display": "National Employers Mutual",
+      "definition": "National Employers Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "National Employers Mutual"
+        }
+      ]
+    },
+    {
+      "code": "NATG",
+      "display": "National Group",
+      "definition": "National Group — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "National Group"
+        }
+      ]
+    },
+    {
+      "code": "NATS",
+      "display": "National Society (Société Nationale)",
+      "definition": "National Society (Société Nationale) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société Nationale"
+        }
+      ]
+    },
+    {
+      "code": "NBG",
+      "display": "National Bank General Insurance Inc.",
+      "definition": "National Bank General Insurance Inc. — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurances générales Banque Nationale"
+        }
+      ]
+    },
+    {
+      "code": "NBM",
+      "display": "North Blenheim Mutual",
+      "definition": "North Blenheim Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "North Blenheim"
+        }
+      ]
+    },
+    {
+      "code": "NEWH",
+      "display": "New Hampshire Ins. Group",
+      "definition": "New Hampshire Ins. Group — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "New Hampshire Ins. Group"
+        }
+      ]
+    },
+    {
+      "code": "NIA",
+      "display": "Niagara Fire",
+      "definition": "Niagara Fire — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Niagara Fire"
+        }
+      ]
+    },
+    {
+      "code": "NIPP",
+      "display": "Nippon",
+      "definition": "Nippon — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nippon"
+        }
+      ]
+    },
+    {
+      "code": "NKM",
+      "display": "Maple Mutual Insurance",
+      "definition": "Maple Mutual Insurance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maple Mutual Insurance"
+        }
+      ]
+    },
+    {
+      "code": "NOM",
+      "display": "Norfolk Mutual",
+      "definition": "Norfolk Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Norfolk"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "No Previous Insurer",
+      "definition": "No Previous Insurer — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sans assurance antérieure"
+        }
+      ]
+    },
+    {
+      "code": "NORD",
+      "display": "Nordic Insurance of Canada",
+      "definition": "Nordic Insurance of Canada — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nordic Assurances du Canada"
+        }
+      ]
+    },
+    {
+      "code": "NORF",
+      "display": "Optimum Insurance Company Inc.",
+      "definition": "Optimum Insurance Company Inc. — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Optimum Société d'Assurance"
+        }
+      ]
+    },
+    {
+      "code": "NORG",
+      "display": "NorGroupe",
+      "definition": "NorGroupe — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "NorGroupe"
+        }
+      ]
+    },
+    {
+      "code": "NORM",
+      "display": "Norman",
+      "definition": "Norman — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Norman"
+        }
+      ]
+    },
+    {
+      "code": "NORT",
+      "display": "Northumberland",
+      "definition": "Northumberland — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Northumberland"
+        }
+      ]
+    },
+    {
+      "code": "OXF",
+      "display": "Heartland Mutual Insurance (formerly Oxford Mutual))",
+      "definition": "Heartland Mutual Insurance (formerly Oxford Mutual)) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Heartland Mutual Insurance (anciennemen Oxford Mutual)"
+        }
+      ]
+    },
+    {
+      "code": "NS",
+      "display": "Nova Scotia General",
+      "definition": "Nova Scotia General — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nova Scotia General"
+        }
+      ]
+    },
+    {
+      "code": "NWIDE",
+      "display": "Nationwide",
+      "definition": "Nationwide — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "National"
+        }
+      ]
+    },
+    {
+      "code": "NZ",
+      "display": "New Zealand",
+      "definition": "New Zealand — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "New Zealand"
+        }
+      ]
+    },
+    {
+      "code": "OASI",
+      "display": "Oasis Insurance",
+      "definition": "Oasis Insurance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Oasis Insurance"
+        }
+      ]
+    },
+    {
+      "code": "OC",
+      "display": "Outside Canada",
+      "definition": "Outside Canada — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors Canada"
+        }
+      ]
+    },
+    {
+      "code": "OCEAN",
+      "display": "Oceanic Underwriters Ltd.",
+      "definition": "Oceanic Underwriters Ltd. — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Oceanic Underwriters Ltd."
+        }
+      ]
+    },
+    {
+      "code": "OGA",
+      "display": "Omega",
+      "definition": "Omega — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Omega"
+        }
+      ]
+    },
+    {
+      "code": "OM",
+      "display": "Ontario Municipal Insurance Exchange",
+      "definition": "Ontario Municipal Insurance Exchange — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ontario Municipal Insurance Exchange"
+        }
+      ]
+    },
+    {
+      "code": "ONT",
+      "display": "Ontario Mutual",
+      "definition": "Ontario Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ontario Mutual"
+        }
+      ]
+    },
+    {
+      "code": "OPA",
+      "display": "Optimum Société d'Assurance",
+      "definition": "Optimum Société d'Assurance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Optimum Société d'Assurance"
+        }
+      ]
+    },
+    {
+      "code": "OPAA",
+      "display": "Optimum Assurance Agricole",
+      "definition": "Optimum Assurance Agricole — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Optimum Assurance Agricole"
+        }
+      ]
+    },
+    {
+      "code": "OPTI",
+      "display": "Optiom Inc.",
+      "definition": "Optiom Inc. — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Optiom Inc."
+        }
+      ]
+    },
+    {
+      "code": "OPTW",
+      "display": "Optimum West",
+      "definition": "Optimum West — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Optimum West"
+        }
+      ]
+    },
+    {
+      "code": "OREP",
+      "display": "Old Republic",
+      "definition": "Old Republic — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Old Republic"
+        }
+      ]
+    },
+    {
+      "code": "OSB",
+      "display": "Ontario School Boards Ins. Exchange",
+      "definition": "Ontario School Boards Ins. Exchange — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ontario School Boards Ins. Exchange"
+        }
+      ]
+    },
+    {
+      "code": "OT",
+      "display": "Otter Dorchester",
+      "definition": "Otter Dorchester — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Otter Dorchester"
+        }
+      ]
+    },
+    {
+      "code": "OT1",
+      "display": "Miscellaneous - US Company",
+      "definition": "Miscellaneous - US Company — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Divers - Assureur américain"
+        }
+      ]
+    },
+    {
+      "code": "OT2",
+      "display": "Miscellaneous - European Company",
+      "definition": "Miscellaneous - European Company — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Divers - Assureur européen"
+        }
+      ]
+    },
+    {
+      "code": "OT3",
+      "display": "Other",
+      "definition": "Other — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "OUT",
+      "display": "Promutuel L'Outaouais",
+      "definition": "Promutuel L'Outaouais — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel L'Outaouais"
+        }
+      ]
+    },
+    {
+      "code": "PAF",
+      "display": "Pafco",
+      "definition": "Pafco — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pafco"
+        }
+      ]
+    },
+    {
+      "code": "PAI",
+      "display": "Promutuel Assurance Inc",
+      "definition": "Promutuel Assurance Inc — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Assurance Inc"
+        }
+      ]
+    },
+    {
+      "code": "PAS",
+      "display": "Pacific Employers",
+      "definition": "Pacific Employers — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pacific Employers"
+        }
+      ]
+    },
+    {
+      "code": "PCF",
+      "display": "President's Choice Financial",
+      "definition": "President's Choice Financial — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "President's Choice Financial"
+        }
+      ]
+    },
+    {
+      "code": "PCFM",
+      "display": "Pictou County Farmers' Mutual",
+      "definition": "Pictou County Farmers' Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pictou County Farmers' Mutual"
+        }
+      ]
+    },
+    {
+      "code": "PEA",
+      "display": "Peace Hills",
+      "definition": "Peace Hills — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Peace Hills"
+        }
+      ]
+    },
+    {
+      "code": "PEEL",
+      "display": "Peel Mutual",
+      "definition": "Peel Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Peel"
+        }
+      ]
+    },
+    {
+      "code": "PEI",
+      "display": "PEI Mutual",
+      "definition": "PEI Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "PEI Mutual"
+        }
+      ]
+    },
+    {
+      "code": "PEMB",
+      "display": "Pembridge",
+      "definition": "Pembridge — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pembridge"
+        }
+      ]
+    },
+    {
+      "code": "PER",
+      "display": "Personal",
+      "definition": "Personal — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "La Personnelle"
+        }
+      ]
+    },
+    {
+      "code": "PERT",
+      "display": "Perth",
+      "definition": "Perth — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Perth"
+        }
+      ]
+    },
+    {
+      "code": "PIL",
+      "display": "Pilot",
+      "definition": "Pilot — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pilot"
+        }
+      ]
+    },
+    {
+      "code": "PMM",
+      "display": "Edge Mutual Insurance Company (formerly Peel Maryborough Mutual)",
+      "definition": "Edge Mutual Insurance Company (formerly Peel Maryborough Mutual) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Edge Mutual Insurance Company \n(anciennement Maryborough Mutual)"
+        }
+      ]
+    },
+    {
+      "code": "PONF",
+      "display": "Promutuel Les Bâtisseurs (formerly Promutuel Portneuf-Champlain)",
+      "definition": "Promutuel Les Bâtisseurs (formerly Promutuel Portneuf-Champlain) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Les Bâtisseurs (anciennement Promutuel Portneuf-Champlain)"
+        }
+      ]
+    },
+    {
+      "code": "PORT",
+      "display": "Portage La Prairie",
+      "definition": "Portage La Prairie — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Portage La Prairie"
+        }
+      ]
+    },
+    {
+      "code": "PPLUS",
+      "display": "PeoplePlus",
+      "definition": "PeoplePlus — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "PeoplePlus"
+        }
+      ]
+    },
+    {
+      "code": "PRA",
+      "display": "Prudential of America",
+      "definition": "Prudential of America — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "La Prudentielle d'Amérique"
+        }
+      ]
+    },
+    {
+      "code": "PREAM",
+      "display": "Premier Canada Assurance Managers",
+      "definition": "Premier Canada Assurance Managers — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Premier Canada Assurance Managers"
+        }
+      ]
+    },
+    {
+      "code": "PREC",
+      "display": "Prévoyance",
+      "definition": "Prévoyance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "La Prévoyance"
+        }
+      ]
+    },
+    {
+      "code": "PREM",
+      "display": "Premier Marine Insurance Managers",
+      "definition": "Premier Marine Insurance Managers — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Premier Marine Insurance Managers"
+        }
+      ]
+    },
+    {
+      "code": "PRES",
+      "display": "Prestcott",
+      "definition": "Prestcott — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Prescott"
+        }
+      ]
+    },
+    {
+      "code": "PRET",
+      "display": "Prévoyants",
+      "definition": "Prévoyants — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Les Prévoyants"
+        }
+      ]
+    },
+    {
+      "code": "PRIME",
+      "display": "Primeguard",
+      "definition": "Primeguard — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Primeguard"
+        }
+      ]
+    },
+    {
+      "code": "PRM",
+      "display": "Prairies Mutual",
+      "definition": "Prairies Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Prairies"
+        }
+      ]
+    },
+    {
+      "code": "PRO",
+      "display": "Protective",
+      "definition": "Protective — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Protective"
+        }
+      ]
+    },
+    {
+      "code": "PROG",
+      "display": "Progressive",
+      "definition": "Progressive — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Progressive"
+        }
+      ]
+    },
+    {
+      "code": "PROMR",
+      "display": "Promutuel Monts et Rives",
+      "definition": "Promutuel Monts et Rives — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Monts et Rives"
+        }
+      ]
+    },
+    {
+      "code": "PROPC",
+      "display": "Promutuel Les Bâtisseurs",
+      "definition": "Promutuel Les Bâtisseurs — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Les Bâtisseurs"
+        }
+      ]
+    },
+    {
+      "code": "PROR",
+      "display": "Promutuel Réassurance",
+      "definition": "Promutuel Réassurance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Réassurance"
+        }
+      ]
+    },
+    {
+      "code": "PROT",
+      "display": "Protection Universelle (Universal Protection)",
+      "definition": "Protection Universelle (Universal Protection) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Protection Universelle"
+        }
+      ]
+    },
+    {
+      "code": "PRU",
+      "display": "Prudential",
+      "definition": "Prudential — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Prudentielle"
+        }
+      ]
+    },
+    {
+      "code": "PRUE",
+      "display": "Prudential of England",
+      "definition": "Prudential of England — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Prudentielle d'Angleterre"
+        }
+      ]
+    },
+    {
+      "code": "PRUO",
+      "display": "Prudasco",
+      "definition": "Prudasco — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Prudasco"
+        }
+      ]
+    },
+    {
+      "code": "PRYS",
+      "display": "Prysm General Insurance inc.",
+      "definition": "Prysm General Insurance inc. — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Prysm Assurances Générales inc."
+        }
+      ]
+    },
+    {
+      "code": "QBE",
+      "display": "QBE Services Inc.",
+      "definition": "QBE Services Inc. — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "QBE Services Inc."
+        }
+      ]
+    },
+    {
+      "code": "QUE",
+      "display": "Compagnie d'Assurance du Québec",
+      "definition": "Compagnie d'Assurance du Québec — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie d'Assurance du Québec"
+        }
+      ]
+    },
+    {
+      "code": "QUIN",
+      "display": "Bay of Quinte",
+      "definition": "Bay of Quinte — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bay of Quinte"
+        }
+      ]
+    },
+    {
+      "code": "RBC",
+      "display": "RBC Insurance (Royal Bank Canada)",
+      "definition": "RBC Insurance (Royal Bank Canada) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "RBC Assurances (Banque Royale du Canada)"
+        }
+      ]
+    },
+    {
+      "code": "REL",
+      "display": "Reliance",
+      "definition": "Reliance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Reliance"
+        }
+      ]
+    },
+    {
+      "code": "RICH",
+      "display": "Promutuel Appalaches - St-François (formerly Richmond & Val St-François Mutual)",
+      "definition": "Promutuel Appalaches - St-François (formerly Richmond & Val St-François Mutual) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Appalaches-St-François (anciennement Richmond & Val St-François Mutual)"
+        }
+      ]
+    },
+    {
+      "code": "RIV",
+      "display": "Promutuel Rivière-du-Loup",
+      "definition": "Promutuel Rivière-du-Loup — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Rivière-du-Loup"
+        }
+      ]
+    },
+    {
+      "code": "RIVER",
+      "display": "Promutuel Des Riverains",
+      "definition": "Promutuel Des Riverains — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel des Riverains"
+        }
+      ]
+    },
+    {
+      "code": "ROU",
+      "display": "Promutuel Rouyn-Noranda-Témiscamingue",
+      "definition": "Promutuel Rouyn-Noranda-Témiscamingue — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Rouyn-Noranda-Témiscamingue"
+        }
+      ]
+    },
+    {
+      "code": "ROY",
+      "display": "Royal & SunAlliance",
+      "definition": "Royal & SunAlliance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Royal & SunAlliance"
+        }
+      ]
+    },
+    {
+      "code": "RRVM",
+      "display": "Red River Valley Mutual",
+      "definition": "Red River Valley Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Red River Valley Mutual"
+        }
+      ]
+    },
+    {
+      "code": "RVSUD",
+      "display": "Promutuel Côte-Sud",
+      "definition": "Promutuel Côte-Sud — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Côte-Sud"
+        }
+      ]
+    },
+    {
+      "code": "SAFE",
+      "display": "Safeco",
+      "definition": "Safeco — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Safeco"
+        }
+      ]
+    },
+    {
+      "code": "SAG",
+      "display": "Promutuel du Lac Fjord (formerly Saguenay Mutual)",
+      "definition": "Promutuel du Lac Fjord (formerly Saguenay Mutual) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel du Lac Fjord (anciennement Saguenay Mutual) Promutuel Lac au Fjord?"
+        }
+      ]
+    },
+    {
+      "code": "SAL",
+      "display": "Promutuel Haut St-Laurent (formerly Salaberry Mutual)",
+      "definition": "Promutuel Haut St-Laurent (formerly Salaberry Mutual) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Haut St-Laurent (anciennement Salaberry Mutual)"
+        }
+      ]
+    },
+    {
+      "code": "SAP",
+      "display": "St-Anne des Plaines Mutual",
+      "definition": "St-Anne des Plaines Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "St-Anne des Plaines"
+        }
+      ]
+    },
+    {
+      "code": "SAY",
+      "display": "Scottish & York (formerly S&R)",
+      "definition": "Scottish & York (formerly S&R) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Scottish & York (anciennement S&R)"
+        }
+      ]
+    },
+    {
+      "code": "SCOT",
+      "display": "Scottish Dominion",
+      "definition": "Scottish Dominion — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Scottish Dominion"
+        }
+      ]
+    },
+    {
+      "code": "SDQ",
+      "display": "Societe Mutuelle Reass. du P.Q.",
+      "definition": "Societe Mutuelle Reass. du P.Q. — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société Mutuelle de Réassurance"
+        }
+      ]
+    },
+    {
+      "code": "SEA",
+      "display": "Seaboard",
+      "definition": "Seaboard — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Seaboard"
+        }
+      ]
+    },
+    {
+      "code": "SEC",
+      "display": "La Sécurité",
+      "definition": "La Sécurité — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "La Sécurité"
+        }
+      ]
+    },
+    {
+      "code": "SECN",
+      "display": "Security National",
+      "definition": "Security National — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Security National"
+        }
+      ]
+    },
+    {
+      "code": "SEHM",
+      "display": "South Easthope Mutual",
+      "definition": "South Easthope Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "South Easthope Mutual"
+        }
+      ]
+    },
+    {
+      "code": "SEM",
+      "display": "Southeastern Mutual",
+      "definition": "Southeastern Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Southeastern Mutual"
+        }
+      ]
+    },
+    {
+      "code": "SEN",
+      "display": "Sentry",
+      "definition": "Sentry — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sentry"
+        }
+      ]
+    },
+    {
+      "code": "SENT",
+      "display": "Sécurité Nationale",
+      "definition": "Sécurité Nationale — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sécurité Nationale"
+        }
+      ]
+    },
+    {
+      "code": "SG",
+      "display": "Scotia General",
+      "definition": "Scotia General — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Scotia General"
+        }
+      ]
+    },
+    {
+      "code": "SGI",
+      "display": "SGI CANADA",
+      "definition": "SGI CANADA — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "SGI CANADA"
+        }
+      ]
+    },
+    {
+      "code": "SGIS",
+      "display": "SGI CANADA Insurance Services Ltd.",
+      "definition": "SGI CANADA Insurance Services Ltd. — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "SGI CANADA Insurance Services Ltd."
+        }
+      ]
+    },
+    {
+      "code": "SIMC",
+      "display": "Simcoe & Erie",
+      "definition": "Simcoe & Erie — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Simcoe & Erie"
+        }
+      ]
+    },
+    {
+      "code": "SKM",
+      "display": "Sandbox Mutual Insurance",
+      "definition": "Sandbox Mutual Insurance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sandbox Mutual Insurance"
+        }
+      ]
+    },
+    {
+      "code": "SNA",
+      "display": "Optimum Société d'Assurance",
+      "definition": "Optimum Société d'Assurance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Optimum Société d'Assurance"
+        }
+      ]
+    },
+    {
+      "code": "SOC",
+      "display": "Society Mutual Reinsurance",
+      "definition": "Society Mutual Reinsurance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Society Mutual Reinsurance"
+        }
+      ]
+    },
+    {
+      "code": "SONNE",
+      "display": "Sonnet Insurance",
+      "definition": "Sonnet Insurance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sonnet Assurance"
+        }
+      ]
+    },
+    {
+      "code": "SOU",
+      "display": "Promutuel Assurance ALTA (formerly Promutuel Horizon Ouest)",
+      "definition": "Promutuel Assurance ALTA (formerly Promutuel Horizon Ouest) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Assurance ALTA (anciennement Promutuel Horizon Ouest)"
+        }
+      ]
+    },
+    {
+      "code": "SOV",
+      "display": "Sovereign",
+      "definition": "Sovereign — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "La Souveraine"
+        }
+      ]
+    },
+    {
+      "code": "SSQ",
+      "display": "SSQ, Societe d'ass.",
+      "definition": "SSQ, Societe d'ass. — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "SSQ, Société d'ass."
+        }
+      ]
+    },
+    {
+      "code": "STAN",
+      "display": "Stanley Mutual Insurance Company",
+      "definition": "Stanley Mutual Insurance Company — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stanley Mutual Insurance Company"
+        }
+      ]
+    },
+    {
+      "code": "STARR",
+      "display": "Starr Insurance & Reinsurance Limited",
+      "definition": "Starr Insurance & Reinsurance Limited — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Starr Insurance & Reinsurance Limited"
+        }
+      ]
+    },
+    {
+      "code": "STEW",
+      "display": "Stewart Smith",
+      "definition": "Stewart Smith — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stewart Smith"
+        }
+      ]
+    },
+    {
+      "code": "STF",
+      "display": "State Farm Fire and Casualty",
+      "definition": "State Farm Fire and Casualty — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "State Farm Fire and Casualty"
+        }
+      ]
+    },
+    {
+      "code": "STFM",
+      "display": "State Farm Mutual Auto",
+      "definition": "State Farm Mutual Auto — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "State Farm Mutual Auto"
+        }
+      ]
+    },
+    {
+      "code": "STOM",
+      "display": "Promutuel Coaticook-Sherbrooke (formerly Stanstead-Orford Mutual)",
+      "definition": "Promutuel Coaticook-Sherbrooke (formerly Stanstead-Orford Mutual) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Coaticook-Sherbrooke (anciennement Stanstead-Orford Mutual)"
+        }
+      ]
+    },
+    {
+      "code": "STP",
+      "display": "St. Paul",
+      "definition": "St. Paul — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "St. Paul"
+        }
+      ]
+    },
+    {
+      "code": "STSH",
+      "display": "Stanstead & Sherbrooke",
+      "definition": "Stanstead & Sherbrooke — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stanstead & Sherbrooke"
+        }
+      ]
+    },
+    {
+      "code": "SUA",
+      "display": "Stratford Underwriting Agency Inc.",
+      "definition": "Stratford Underwriting Agency Inc. — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stratford Underwriting Agency Inc."
+        }
+      ]
+    },
+    {
+      "code": "SUMI",
+      "display": "Refer to code MITS",
+      "definition": "Refer to code MITS — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voir code MITS"
+        }
+      ]
+    },
+    {
+      "code": "SUN",
+      "display": "Sun Alliance",
+      "definition": "Sun Alliance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sun Alliance"
+        }
+      ]
+    },
+    {
+      "code": "SURE",
+      "display": "Canadian Surety",
+      "definition": "Canadian Surety — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canadian Surety"
+        }
+      ]
+    },
+    {
+      "code": "SWEST",
+      "display": "South Western Insurance Group",
+      "definition": "South Western Insurance Group — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "South Western Insurance Group"
+        }
+      ]
+    },
+    {
+      "code": "SWI",
+      "display": "Switzerland",
+      "definition": "Switzerland — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Switzerland"
+        }
+      ]
+    },
+    {
+      "code": "SYI",
+      "display": "S&Y Insurance Company",
+      "definition": "S&Y Insurance Company — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "S&Y Insurance Company"
+        }
+      ]
+    },
+    {
+      "code": "SYM",
+      "display": "Symons General",
+      "definition": "Symons General — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Symons"
+        }
+      ]
+    },
+    {
+      "code": "TDG",
+      "display": "TD General",
+      "definition": "TD General — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "TD General"
+        }
+      ]
+    },
+    {
+      "code": "TEM",
+      "display": "Promutuel Témiscouata",
+      "definition": "Promutuel Témiscouata — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Témiscouata"
+        }
+      ]
+    },
+    {
+      "code": "TEMP",
+      "display": "Temple",
+      "definition": "Temple — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Temple"
+        }
+      ]
+    },
+    {
+      "code": "TOG",
+      "display": "Toronto General",
+      "definition": "Toronto General — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toronto General"
+        }
+      ]
+    },
+    {
+      "code": "TOK",
+      "display": "Tokio",
+      "definition": "Tokio — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tokio"
+        }
+      ]
+    },
+    {
+      "code": "TOWC",
+      "display": "Town and Country Mutual",
+      "definition": "Town and Country Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Town and Country Mutual"
+        }
+      ]
+    },
+    {
+      "code": "TOWN",
+      "display": "Caradoc Townsend Mutual Insurance Company",
+      "definition": "Caradoc Townsend Mutual Insurance Company — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caradoc Townsend Mutual Insurance Company"
+        }
+      ]
+    },
+    {
+      "code": "TRAC",
+      "display": "Trans Canada Risk",
+      "definition": "Trans Canada Risk — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trans Canada Risk"
+        }
+      ]
+    },
+    {
+      "code": "TRAD",
+      "display": "Tradition Mutual Insurance Company",
+      "definition": "Tradition Mutual Insurance Company — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tradition Mutual Insurance Company"
+        }
+      ]
+    },
+    {
+      "code": "TRAF",
+      "display": "Trafalgar",
+      "definition": "Trafalgar — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trafalgar"
+        }
+      ]
+    },
+    {
+      "code": "TRAM",
+      "display": "Trans-America",
+      "definition": "Trans-America — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trans-America"
+        }
+      ]
+    },
+    {
+      "code": "TRAN",
+      "display": "Transit",
+      "definition": "Transit — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transit"
+        }
+      ]
+    },
+    {
+      "code": "TRAV",
+      "display": "Travelers",
+      "definition": "Travelers — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travelers"
+        }
+      ]
+    },
+    {
+      "code": "TRCK",
+      "display": "Truck Ins. Exchange",
+      "definition": "Truck Ins. Exchange — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Truck Ins. Exchange"
+        }
+      ]
+    },
+    {
+      "code": "TRCM",
+      "display": "Trans Canada Risk Management",
+      "definition": "Trans Canada Risk Management — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trans Canada Risk Management"
+        }
+      ]
+    },
+    {
+      "code": "TRG",
+      "display": "Traders General",
+      "definition": "Traders General — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Traders Générale"
+        }
+      ]
+    },
+    {
+      "code": "TRUH",
+      "display": "TruShield Insurance",
+      "definition": "TruShield Insurance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "TruShield Assurance"
+        }
+      ]
+    },
+    {
+      "code": "TRP",
+      "display": "Transport Ins. Co.",
+      "definition": "Transport Ins. Co. — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transport Ins. Co."
+        }
+      ]
+    },
+    {
+      "code": "TWIG",
+      "display": "The Wholesale Insurance Group",
+      "definition": "The Wholesale Insurance Group — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "The Wholesale Insurance Group"
+        }
+      ]
+    },
+    {
+      "code": "UC",
+      "display": "United Canada",
+      "definition": "United Canada — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "United Canada"
+        }
+      ]
+    },
+    {
+      "code": "UG",
+      "display": "United General",
+      "definition": "United General — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "United General"
+        }
+      ]
+    },
+    {
+      "code": "UHM",
+      "display": "Usborne and Hibbert Mutual",
+      "definition": "Usborne and Hibbert Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Usborne and Hibbert Mutual"
+        }
+      ]
+    },
+    {
+      "code": "UNCN",
+      "display": "RSA (formerly L'Union Canadienne)",
+      "definition": "RSA (formerly L'Union Canadienne) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "RSA (anciennement L'Union Canadienne)"
+        }
+      ]
+    },
+    {
+      "code": "UNI",
+      "display": "Universal Protection",
+      "definition": "Universal Protection — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Universal Protection"
+        }
+      ]
+    },
+    {
+      "code": "UNIF",
+      "display": "Unifund",
+      "definition": "Unifund — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Unifund"
+        }
+      ]
+    },
+    {
+      "code": "UNIQ",
+      "display": "L'Unique",
+      "definition": "L'Unique — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "L'Unique"
+        }
+      ]
+    },
+    {
+      "code": "UNK",
+      "display": "Unknown (only for use in PPH when unknown)",
+      "definition": "Unknown (only for use in PPH when unknown) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu (utiliser seulement dans PPH lorsqu'inconnu)"
+        }
+      ]
+    },
+    {
+      "code": "UQ",
+      "display": "Union Québecoise Mutual",
+      "definition": "Union Québecoise Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "L'Union Québécoise"
+        }
+      ]
+    },
+    {
+      "code": "USA",
+      "display": "A U.S. Company",
+      "definition": "A U.S. Company — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "A U.S. Company"
+        }
+      ]
+    },
+    {
+      "code": "USFG",
+      "display": "USF&G",
+      "definition": "USF&G — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "USF&G"
+        }
+      ]
+    },
+    {
+      "code": "USFI",
+      "display": "United States Fire",
+      "definition": "United States Fire — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "United States Fire"
+        }
+      ]
+    },
+    {
+      "code": "UTIC",
+      "display": "Utica",
+      "definition": "Utica — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Utica"
+        }
+      ]
+    },
+    {
+      "code": "VAU",
+      "display": "Promutuel Vaudreuil",
+      "definition": "Promutuel Vaudreuil — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Vaudreuil"
+        }
+      ]
+    },
+    {
+      "code": "VER",
+      "display": "Promutuel Verchères",
+      "definition": "Promutuel Verchères — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Verchères"
+        }
+      ]
+    },
+    {
+      "code": "VFORG",
+      "display": "Promutuel Verchères - Les Forges (formerly Promutuel Lac St-Pierre - Les Forges)",
+      "definition": "Promutuel Verchères - Les Forges (formerly Promutuel Lac St-Pierre - Les Forges) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Verchères - Les Forges (anciennement Promutuel Lac St-Pierre - Les Forges)"
+        }
+      ]
+    },
+    {
+      "code": "VIC",
+      "display": "Victoria",
+      "definition": "Victoria — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Victoria"
+        }
+      ]
+    },
+    {
+      "code": "VLM",
+      "display": "Promutuel La Vallée",
+      "definition": "Promutuel La Vallée — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel La Vallée"
+        }
+      ]
+    },
+    {
+      "code": "VMM",
+      "display": "Promutuel du Saint-Laurent aux Appalaches (formerly Promutuel Valmont)",
+      "definition": "Promutuel du Saint-Laurent aux Appalaches (formerly Promutuel Valmont) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel du Saint-Laurent aux Appalaches (anciennement Promutuel Valmont)"
+        }
+      ]
+    },
+    {
+      "code": "VSF",
+      "display": "Promutuel Appalaches-St-François (formerly Val St-François)",
+      "definition": "Promutuel Appalaches-St-François (formerly Val St-François) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel Appalaches-St-François (anciennement Val St-François)"
+        }
+      ]
+    },
+    {
+      "code": "VSL",
+      "display": "Promutuel du Saint-Laurent aux Appalaches (formerly Promutuel Vallée du St-Laurent)",
+      "definition": "Promutuel du Saint-Laurent aux Appalaches (formerly Promutuel Vallée du St-Laurent) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promutuel du Saint-Laurent aux Appalaches (anciennement Promutuel Vallée du St-Laurent)"
+        }
+      ]
+    },
+    {
+      "code": "WAB",
+      "display": "Wabisa Mutual",
+      "definition": "Wabisa Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Wabisa"
+        }
+      ]
+    },
+    {
+      "code": "WAT",
+      "display": "Economical Select (formerly Waterloo)",
+      "definition": "Economical Select (formerly Waterloo) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Economical Select (anciennement Waterloo)"
+        }
+      ]
+    },
+    {
+      "code": "WAU",
+      "display": "Wausau",
+      "definition": "Wausau — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Wausau"
+        }
+      ]
+    },
+    {
+      "code": "WAUS",
+      "display": "Employers Ins. of Wausau",
+      "definition": "Employers Ins. of Wausau — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employers Ins. of Wausau"
+        }
+      ]
+    },
+    {
+      "code": "WAWA",
+      "display": "Wawanesa",
+      "definition": "Wawanesa — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Wawanesa"
+        }
+      ]
+    },
+    {
+      "code": "WELL",
+      "display": "Intact Insurance Company (Specialty Solutions)",
+      "definition": "Intact Insurance Company (Specialty Solutions) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intact Insurance Company (Specialty Solutions)"
+        }
+      ]
+    },
+    {
+      "code": "WEM",
+      "display": "West Elgin Mutual",
+      "definition": "West Elgin Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "West Elgin"
+        }
+      ]
+    },
+    {
+      "code": "WEP",
+      "display": "Westpar",
+      "definition": "Westpar — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Westpar"
+        }
+      ]
+    },
+    {
+      "code": "WEST",
+      "display": "Western Assurance",
+      "definition": "Western Assurance — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Western Assurance"
+        }
+      ]
+    },
+    {
+      "code": "WESW",
+      "display": "West Wawanosh Mutual",
+      "definition": "West Wawanosh Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "West Wawanosh Mutual"
+        }
+      ]
+    },
+    {
+      "code": "WFIEL",
+      "display": "Westfield",
+      "definition": "Westfield — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Westfield"
+        }
+      ]
+    },
+    {
+      "code": "WGMI",
+      "display": "Western General",
+      "definition": "Western General — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Western General"
+        }
+      ]
+    },
+    {
+      "code": "WM",
+      "display": "Westminster Mutual",
+      "definition": "Westminster Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Westminster Mutual"
+        }
+      ]
+    },
+    {
+      "code": "WSL",
+      "display": "Westland",
+      "definition": "Westland — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Westland"
+        }
+      ]
+    },
+    {
+      "code": "WU",
+      "display": "Intact Insurance Company (formerly Intact Insurance Company (Western Division)",
+      "definition": "Intact Insurance Company (formerly Intact Insurance Company (Western Division) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intact Compagnie d'assurance (anciennement Intact Compagnie d'assurance (division de l'ouest)"
+        }
+      ]
+    },
+    {
+      "code": "WUM",
+      "display": "Western Underwriting Managers Ltd",
+      "definition": "Western Underwriting Managers Ltd — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Western Underwriting Managers Ltd"
+        }
+      ]
+    },
+    {
+      "code": "XL",
+      "display": "XL",
+      "definition": "XL — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "XL"
+        }
+      ]
+    },
+    {
+      "code": "XLS",
+      "display": "XL Speciality Insurance Company",
+      "definition": "XL Speciality Insurance Company — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie d'assurance XL spécialité"
+        }
+      ]
+    },
+    {
+      "code": "YAM",
+      "display": "Yamaska Mutual",
+      "definition": "Yamaska Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Yamaska"
+        }
+      ]
+    },
+    {
+      "code": "YAR",
+      "display": "Yarmouth Mutual",
+      "definition": "Yarmouth Mutual — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Yarmouth"
+        }
+      ]
+    },
+    {
+      "code": "YAS",
+      "display": "Yasuda",
+      "definition": "Yasuda — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Yasuda"
+        }
+      ]
+    },
+    {
+      "code": "YORK",
+      "display": "Unica Insurance (formerly York Fire & Casualty)",
+      "definition": "Unica Insurance (formerly York Fire & Casualty) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Unica Insurance (anciennement York Fire)"
+        }
+      ]
+    },
+    {
+      "code": "ZEN",
+      "display": "Northbridge Insurance – Personal (Zenith Insurance Company)",
+      "definition": "Northbridge Insurance – Personal (Zenith Insurance Company) — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Northbridge Insurance – Personal (Zenith Insurance Company)"
+        }
+      ]
+    },
+    {
+      "code": "ZUR",
+      "display": "Zurich",
+      "definition": "Zurich — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Zurich"
+        }
+      ]
+    },
+    {
+      "code": "WYN",
+      "display": "Wynward Insurance Group",
+      "definition": "Wynward Insurance Group — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Wynward Insurance Group"
+        }
+      ]
+    },
+    {
+      "code": "BRKL",
+      "display": "Berkley Canada Inc",
+      "definition": "Berkley Canada Inc — company code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Berkley Canada Inc"
+        }
+      ]
+    }
+  ]
+}

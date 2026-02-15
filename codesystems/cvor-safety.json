@@ -1,0 +1,67 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "cvor-safety",
+  "url": "https://bind.codes/cvor-safety",
+  "name": "CvorSafety",
+  "title": "Cvor Safety",
+  "status": "draft",
+  "language": "en",
+  "description": "Cvor Safety codes for insurance operations.",
+  "concept": [
+    {
+      "code": "excellent",
+      "display": "Excellent",
+      "definition": "Excellent — cvor safety code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Excellente"
+        }
+      ]
+    },
+    {
+      "code": "satisfactory",
+      "display": "Satisfactory",
+      "definition": "Satisfactory — cvor safety code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acceptable"
+        }
+      ]
+    },
+    {
+      "code": "satisfactory-unaudited",
+      "display": "Satisfactory-Unaudited",
+      "definition": "Satisfactory-Unaudited — cvor safety code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acceptable, sans vérification"
+        }
+      ]
+    },
+    {
+      "code": "conditional",
+      "display": "Conditional",
+      "definition": "Conditional — cvor safety code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conditionnelle"
+        }
+      ]
+    },
+    {
+      "code": "unsatisfactory",
+      "display": "Unsatisfactory",
+      "definition": "Unsatisfactory — cvor safety code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non acceptable"
+        }
+      ]
+    }
+  ]
+}

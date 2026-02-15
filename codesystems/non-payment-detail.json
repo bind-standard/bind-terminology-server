@@ -1,0 +1,56 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "non-payment-detail",
+  "url": "https://bind.codes/non-payment-detail",
+  "name": "NonPaymentDetail",
+  "title": "Non Payment Detail",
+  "status": "draft",
+  "language": "en",
+  "description": "Non Payment Detail codes for insurance operations.",
+  "concept": [
+    {
+      "code": "one-non-payment-cancellation-in-the-past-5-years",
+      "display": "One Non-payment Cancellation in the Past 5 Years",
+      "definition": "One Non-payment Cancellation in the Past 5 Years — non payment detail code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Une annulation pour non-paiement au cours des 5 dernières années"
+        }
+      ]
+    },
+    {
+      "code": "two-non-payment-cancellations-in-the-past-3-years",
+      "display": "Two Non-Payment Cancellations in the Past 3 Years",
+      "definition": "Two Non-Payment Cancellations in the Past 3 Years — non payment detail code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Deux annulations pour non-paiement au cours des 3 dernières années"
+        }
+      ]
+    },
+    {
+      "code": "more-than-2-non-payment-cancellations-in-the-past-3-years",
+      "display": "More Than 2 Non-payment Cancellations in the Past 3 Years",
+      "definition": "More Than 2 Non-payment Cancellations in the Past 3 Years — non payment detail code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plus de 2 annulations pour non-paiement au cours des 3 dernières années"
+        }
+      ]
+    },
+    {
+      "code": "one-non-payment-cancellation-in-the-past-3-years",
+      "display": "One Non-payment Cancellation in the Past 3 Years",
+      "definition": "One Non-payment Cancellation in the Past 3 Years — non payment detail code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Une annulation pour non-paiement au cours des 3 dernières années"
+        }
+      ]
+    }
+  ]
+}

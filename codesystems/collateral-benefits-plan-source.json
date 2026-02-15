@@ -1,0 +1,67 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "collateral-benefits-plan-source",
+  "url": "https://bind.codes/collateral-benefits-plan-source",
+  "name": "CollateralBenefitsPlanSource",
+  "title": "Collateral Benefits Plan Source",
+  "status": "draft",
+  "language": "en",
+  "description": "Collateral Benefits Plan Source codes for insurance operations.",
+  "concept": [
+    {
+      "code": "none",
+      "display": "None",
+      "definition": "None — collateral benefits plan source code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        }
+      ]
+    },
+    {
+      "code": "medical-rehab-dental",
+      "display": "Medical/Rehab/Dental",
+      "definition": "Medical/Rehab/Dental — collateral benefits plan source code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais d'hospitalisation/réadaptation/soins dentaires"
+        }
+      ]
+    },
+    {
+      "code": "income",
+      "display": "Income",
+      "definition": "Income — collateral benefits plan source code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Revenu"
+        }
+      ]
+    },
+    {
+      "code": "medical-rehab-dental-and-income",
+      "display": "Medical/Rehab/Dental & Income",
+      "definition": "Medical/Rehab/Dental & Income — collateral benefits plan source code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais médicaux/réadaptation/soins dentaires & assurance salaire"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — collateral benefits plan source code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    }
+  ]
+}

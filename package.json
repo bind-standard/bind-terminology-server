@@ -1,0 +1,43 @@
+{
+  "name": "bind-terminology-server",
+  "version": "0.1.0",
+  "description": "Terminology server for BIND Standard — queryable code systems served by Cloudflare Workers.",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "validate": "tsx scripts/validate.ts",
+    "lint": "biome lint .",
+    "lint:fix": "biome lint --fix .",
+    "format": "biome format --fix .",
+    "format:check": "biome format .",
+    "check": "biome check .",
+    "check:fix": "biome check --fix .",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "bind",
+    "insurance",
+    "terminology",
+    "codesystem",
+    "fhir"
+  ],
+  "author": "",
+  "license": "CC0-1.0",
+  "packageManager": "pnpm@10.24.0",
+  "dependencies": {
+    "@hono/mcp": "^0.2.3",
+    "@hono/zod-openapi": "^1.2.2",
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "hono": "^4.7.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.0",
+    "@cloudflare/workers-types": "^4.20250214.0",
+    "@types/node": "^22.13.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.14.0"
+  }
+}

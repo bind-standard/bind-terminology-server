@@ -1,0 +1,353 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "interest",
+  "url": "https://bind.codes/interest",
+  "name": "Interest",
+  "title": "Interest",
+  "status": "draft",
+  "language": "en",
+  "description": "Interest codes for insurance operations.",
+  "concept": [
+    {
+      "code": "AC",
+      "display": "Accounting Contact",
+      "definition": "Accounting Contact — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service des comptes"
+        }
+      ]
+    },
+    {
+      "code": "AD",
+      "display": "Additional Interest",
+      "definition": "Additional Interest — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intérêt additionnel"
+        }
+      ]
+    },
+    {
+      "code": "AF",
+      "display": "Attorney in Fact",
+      "definition": "Attorney in Fact — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fondé de pouvoir"
+        }
+      ]
+    },
+    {
+      "code": "AI",
+      "display": "Additional Insured",
+      "definition": "Additional Insured — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assuré additionnel"
+        }
+      ]
+    },
+    {
+      "code": "AL",
+      "display": "Additional Lessor",
+      "definition": "Additional Lessor — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bailleur supplémentaire"
+        }
+      ]
+    },
+    {
+      "code": "AO",
+      "display": "Actual Owner",
+      "definition": "Actual Owner — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriétaire réel"
+        }
+      ]
+    },
+    {
+      "code": "AS",
+      "display": "Assignee",
+      "definition": "Assignee — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cessionnaire"
+        }
+      ]
+    },
+    {
+      "code": "BD",
+      "display": "Broker/Dispatcher",
+      "definition": "Broker/Dispatcher — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courtier/Répartiteur"
+        }
+      ]
+    },
+    {
+      "code": "BO",
+      "display": "Building Owner",
+      "definition": "Building Owner — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriétaire de l'immeuble"
+        }
+      ]
+    },
+    {
+      "code": "CH",
+      "display": "Certificate Holder",
+      "definition": "Certificate Holder — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Titulaire du certificat"
+        }
+      ]
+    },
+    {
+      "code": "CN",
+      "display": "Canadian",
+      "definition": "Canadian — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canadien"
+        }
+      ]
+    },
+    {
+      "code": "CO",
+      "display": "Corporate Owner",
+      "definition": "Corporate Owner — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Corporation (propriétaire)"
+        }
+      ]
+    },
+    {
+      "code": "COH",
+      "display": "Cohabitant/Co-Occupant",
+      "definition": "Cohabitant/Co-Occupant — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cohabitant/Co-Occupant"
+        }
+      ]
+    },
+    {
+      "code": "ES",
+      "display": "Escrow Corporation",
+      "definition": "Escrow Corporation — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fiduciaire"
+        }
+      ]
+    },
+    {
+      "code": "EX",
+      "display": "Executor",
+      "definition": "Executor — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exécuteur testamentaire"
+        }
+      ]
+    },
+    {
+      "code": "FC",
+      "display": "Finance Company",
+      "definition": "Finance Company — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie de finance"
+        }
+      ]
+    },
+    {
+      "code": "IC",
+      "display": "Inspection Contact",
+      "definition": "Inspection Contact — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nom de l'inspecteur"
+        }
+      ]
+    },
+    {
+      "code": "LC",
+      "display": "Line of Credit",
+      "definition": "Line of Credit — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marge de crédit"
+        }
+      ]
+    },
+    {
+      "code": "LH",
+      "display": "Lienholder",
+      "definition": "Lienholder — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Créancier"
+        }
+      ]
+    },
+    {
+      "code": "LP",
+      "display": "Loss Payee",
+      "definition": "Loss Payee — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bénéficiaire"
+        }
+      ]
+    },
+    {
+      "code": "LR",
+      "display": "Lessor",
+      "definition": "Lessor — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bailleur"
+        }
+      ]
+    },
+    {
+      "code": "MG",
+      "display": "Mortgagee (Financial Institution)",
+      "definition": "Mortgagee (Financial Institution) — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Créancier (institution financière)"
+        }
+      ]
+    },
+    {
+      "code": "MO",
+      "display": "Mortgagee (Other)",
+      "definition": "Mortgagee (Other) — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Créancier (autre)"
+        }
+      ]
+    },
+    {
+      "code": "MS",
+      "display": "Mortgage Servicing Agency",
+      "definition": "Mortgage Servicing Agency — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services hypothécaires"
+        }
+      ]
+    },
+    {
+      "code": "MU",
+      "display": "Municipality",
+      "definition": "Municipality — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Municipalité"
+        }
+      ]
+    },
+    {
+      "code": "OT",
+      "display": "Other",
+      "definition": "Other — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "PI",
+      "display": "Both Loss Payee and Additional Insured",
+      "definition": "Both Loss Payee and Additional Insured — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bénéficiaire et assuré supplémentaire"
+        }
+      ]
+    },
+    {
+      "code": "RO",
+      "display": "Registered Owner",
+      "definition": "Registered Owner — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriétaire immatriculé"
+        }
+      ]
+    },
+    {
+      "code": "SL",
+      "display": "Secured Loss Payee",
+      "definition": "Secured Loss Payee — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bénéficiaire garanti"
+        }
+      ]
+    },
+    {
+      "code": "TN",
+      "display": "Tenant",
+      "definition": "Tenant — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Locataire"
+        }
+      ]
+    },
+    {
+      "code": "TO",
+      "display": "Taxi Plate Owner",
+      "definition": "Taxi Plate Owner — interest code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriétaire de la plaque de taxi"
+        }
+      ]
+    }
+  ]
+}

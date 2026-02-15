@@ -1,0 +1,78 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "third-party-vehicle",
+  "url": "https://bind.codes/third-party-vehicle",
+  "name": "ThirdPartyVehicle",
+  "title": "Third Party Vehicle",
+  "status": "draft",
+  "language": "en",
+  "description": "Third Party Vehicle codes for insurance operations.",
+  "concept": [
+    {
+      "code": "C",
+      "display": "Heavy commercial vehicle (over 4,500 kg) including taxi, limousine, ambulance, police vehicle, fire department vehicle, buses and funeral carriage.",
+      "definition": "Heavy commercial vehicle (over 4,500 kg) including taxi, limousine, ambulance, police vehicle, fire department vehicle, buses and funeral carriage. — third party vehicle code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule utilitaire lourd (plus de 4 500 kg) incluant taxi, limousine, ambulance, voiture de patrouille, camion d'incendie, autobus et corbillards."
+        }
+      ]
+    },
+    {
+      "code": "L",
+      "display": "Light commercial vehicle (4,500 kg or less, such as light truck, pick up, van) except those described in C above.",
+      "definition": "Light commercial vehicle (4,500 kg or less, such as light truck, pick up, van) except those described in C above. — third party vehicle code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule utilitaire léger (4 500 kg ou moins, tels que véhicule léger, fourgonnette, camionnette, ) à l'exception de ceux décrits dans C ci-dessus."
+        }
+      ]
+    },
+    {
+      "code": "M",
+      "display": "Recreational type vehicle (e.g. snowmobile, motorcycle, motorized bicycle and all-terrain vehicle).",
+      "definition": "Recreational type vehicle (e.g. snowmobile, motorcycle, motorized bicycle and all-terrain vehicle). — third party vehicle code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule de type récréatif (par exemple, motoneige, motocyclette, bicyclette électrique et véhicule tout-terrain)"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "display": "Temporary code indicating that a search is under way to obtain the type of third party vehicle.",
+      "definition": "Temporary code indicating that a search is under way to obtain the type of third party vehicle. — third party vehicle code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Code temporaire indiquant qu'une recherche est en cours pour obtenir le type de véhicule tiers."
+        }
+      ]
+    },
+    {
+      "code": "T",
+      "display": "Private passenger vehicle, except those described in C above.",
+      "definition": "Private passenger vehicle, except those described in C above. — third party vehicle code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture de tourisme, sauf celle décrite à la section C ci-dessus"
+        }
+      ]
+    },
+    {
+      "code": "X",
+      "display": "No other vehicle involved or hit-and-run vehicle.",
+      "definition": "No other vehicle involved or hit-and-run vehicle. — third party vehicle code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun autre véhicule impliqué ou en délit de fuite"
+        }
+      ]
+    }
+  ]
+}

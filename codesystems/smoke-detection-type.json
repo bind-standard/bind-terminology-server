@@ -1,0 +1,67 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "smoke-detection-type",
+  "url": "https://bind.codes/smoke-detection-type",
+  "name": "SmokeDetectionType",
+  "title": "Smoke Detection Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Smoke Detection Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — smoke detection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autres"
+        }
+      ]
+    },
+    {
+      "code": "unknown",
+      "display": "Unknown",
+      "definition": "Unknown — smoke detection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        }
+      ]
+    },
+    {
+      "code": "ionization",
+      "display": "Ionization",
+      "definition": "Ionization — smoke detection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ionisation"
+        }
+      ]
+    },
+    {
+      "code": "photoelectric",
+      "display": "Photoelectric",
+      "definition": "Photoelectric — smoke detection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Photoélectrique"
+        }
+      ]
+    },
+    {
+      "code": "ionization-and-photoelectric",
+      "display": "Ionization & Photoelectric",
+      "definition": "Ionization & Photoelectric — smoke detection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ionisation & Photoélectrique"
+        }
+      ]
+    }
+  ]
+}

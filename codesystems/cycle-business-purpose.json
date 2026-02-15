@@ -1,0 +1,1079 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "cycle-business-purpose",
+  "url": "https://bind.codes/cycle-business-purpose",
+  "name": "CycleBusinessPurpose",
+  "title": "Cycle Business Purpose",
+  "status": "draft",
+  "language": "en",
+  "description": "Cycle Business Purpose codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ACR",
+      "display": "Account Current Reconciliation",
+      "definition": "Account Current Reconciliation — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Redressement - compte courant"
+        }
+      ]
+    },
+    {
+      "code": "ADJ",
+      "display": "Premium Adjustment",
+      "definition": "Premium Adjustment — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ajustement des primes"
+        }
+      ]
+    },
+    {
+      "code": "ARR",
+      "display": "Anniversary Re-rating",
+      "definition": "Anniversary Re-rating — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Anniversaire - Nouvelle tarification"
+        }
+      ]
+    },
+    {
+      "code": "BIL",
+      "display": "Code used to enable the identification of billing information or billing notices.   Some instances where this code might be used include (but are not restricted to):  Billing Notice; Overdue Payment Notice; Refund Notice; Withdrawal/Reject Notice; Final Bill Notice; Return/Reject.",
+      "definition": "Code used to enable the identification of billing information or billing notices.   Some instances where this code might be used include (but are not restricted to):  Billing Notice; Overdue Payment Notice; Refund Notice; Withdrawal/Reject Notice; Final Bill Notice; Return/Reject. — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Code utilisé pour permettre l'identification des informations de facturation ou d'avis de facturation. Quelques instances où ce code pourrait être utilisé inclue (sans y être restreint): Avis de facturation; Avis de paiement en retard; Avis de remboursement; Avis de retrait/rejet; Avis de facture finale; Retour/Rejet"
+        }
+      ]
+    },
+    {
+      "code": "BIR",
+      "display": "Billing Information Required",
+      "definition": "Billing Information Required — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Renseignements de facturation requis"
+        }
+      ]
+    },
+    {
+      "code": "BPR",
+      "display": "Billing Payment Reminder",
+      "definition": "Billing Payment Reminder — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rappel de paiement de facturation"
+        }
+      ]
+    },
+    {
+      "code": "BRN",
+      "display": "Billing Rejection Notice",
+      "definition": "Billing Rejection Notice — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de rejet de facturation"
+        }
+      ]
+    },
+    {
+      "code": "CLI",
+      "display": "Claim Information",
+      "definition": "Claim Information — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Renseignements sur la réclamation"
+        }
+      ]
+    },
+    {
+      "code": "CLS",
+      "display": "Claim Status Information",
+      "definition": "Claim Status Information — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Information sur l’état de la réclamation"
+        }
+      ]
+    },
+    {
+      "code": "CPN",
+      "display": "Claim Payment Notice",
+      "definition": "Claim Payment Notice — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de paiement à la suite d’une réclamation"
+        }
+      ]
+    },
+    {
+      "code": "CSQ",
+      "display": "Claims Inquiry",
+      "definition": "Claims Inquiry — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Demande de renseignements sur les réclamations"
+        }
+      ]
+    },
+    {
+      "code": "DBR",
+      "display": "Direct Bill Reconciliation",
+      "definition": "Direct Bill Reconciliation — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Redressement - facturation directe"
+        }
+      ]
+    },
+    {
+      "code": "DSP",
+      "display": "Download Setup",
+      "definition": "Download Setup — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Préparation du télédéchargement"
+        }
+      ]
+    },
+    {
+      "code": "EDT",
+      "display": "Electronic Document Transfer",
+      "definition": "Electronic Document Transfer — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transfert électronique de documents"
+        }
+      ]
+    },
+    {
+      "code": "ERC",
+      "display": "Error Correction Notification",
+      "definition": "Error Correction Notification — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis correction erreur"
+        }
+      ]
+    },
+    {
+      "code": "ERP",
+      "display": "Error/Purged",
+      "definition": "Error/Purged — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Erreur/purgé"
+        }
+      ]
+    },
+    {
+      "code": "ERR",
+      "display": "Error Message",
+      "definition": "Error Message — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Message d'erreur"
+        }
+      ]
+    },
+    {
+      "code": "ERS",
+      "display": "Error Suspended Notification",
+      "definition": "Error Suspended Notification — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis suspendu erreur"
+        }
+      ]
+    },
+    {
+      "code": "IVI",
+      "display": "Insured Vehicle Information",
+      "definition": "Insured Vehicle Information — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Renseignements sur le véhicule assuré"
+        }
+      ]
+    },
+    {
+      "code": "LAP",
+      "display": "Lapse",
+      "definition": "Lapse — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Expiration ou déchéance"
+        }
+      ]
+    },
+    {
+      "code": "LNT",
+      "display": "Loss Notice",
+      "definition": "Loss Notice — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de sinistre"
+        }
+      ]
+    },
+    {
+      "code": "MEM",
+      "display": "Electronic Memo",
+      "definition": "Electronic Memo — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Note de service électronique"
+        }
+      ]
+    },
+    {
+      "code": "NBQ",
+      "display": "New Business Quote",
+      "definition": "New Business Quote — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soumission de nouvelle affaire"
+        }
+      ]
+    },
+    {
+      "code": "NBS",
+      "display": "New Business",
+      "definition": "New Business — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nouvelle affaire"
+        }
+      ]
+    },
+    {
+      "code": "NPD",
+      "display": "Non Policy Document\nCode used to enable the transmission of eDocs that are unrelated to a specific policy or individual.  Some of the documents that carriers might send using this method include (but are not restricted to): \n• monthly summaries of policies, claims or commissions; \n• promotions for new markets or lines of business; \n• notifications of underwriting changes; \n• reconciliation statements; \n• messages intended for a specific group of policies, accounts or employees",
+      "definition": "Non Policy Document\nCode used to enable the transmission of eDocs that are unrelated to a specific policy or individual.  Some of the documents that carriers might send using this method include (but are not restricted to): \n• monthly summaries of policies, claims or commissions; \n• promotions for new markets or lines of business; \n• notifications of underwriting changes; \n• reconciliation statements; \n• messages intended for a specific group of policies, accounts or employees — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Document hors police \nCode utilisé pour permettre la transmission de eDocs qui non pas de lien spécifique avec une police ou une personne. Voici quelques documents que les assureurs pourraient envoyés en utilisant cette méthode (sans y être restreint)\n• résumés mensuels des policies, réclamations ou commissions;\n• promotions pour des nouveaux marchés ou lignes d'affaires\n• notifications de changements de souscriptions; \n• états de rapprochement;  \n• messages à l'attention d'un groupe spécifique de polices, comptes ou employés"
+        }
+      ]
+    },
+    {
+      "code": "PAD",
+      "display": "Premium Audit",
+      "definition": "Premium Audit — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vérification de la prime"
+        }
+      ]
+    },
+    {
+      "code": "PCH",
+      "display": "Policy Change",
+      "definition": "Policy Change — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Modification de police"
+        }
+      ]
+    },
+    {
+      "code": "PCQ",
+      "display": "Policy Change Quote",
+      "definition": "Policy Change Quote — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soumission de modification de police"
+        }
+      ]
+    },
+    {
+      "code": "PMT",
+      "display": "Payment",
+      "definition": "Payment — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Paiement"
+        }
+      ]
+    },
+    {
+      "code": "PNQ",
+      "display": "Policy Inquiry",
+      "definition": "Policy Inquiry — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Demande de renseignements sur la police"
+        }
+      ]
+    },
+    {
+      "code": "POL",
+      "display": "Policy (Un-specified - To be used when the Cycle/Business Purpose is not available but the Transaction Category = Policy)",
+      "definition": "Policy (Un-specified - To be used when the Cycle/Business Purpose is not available but the Transaction Category = Policy) — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police (non spécifiée) - À utiliser lorsque le Cycle/utilisation commerciale n'est pas disponible mais que la Catégorie de transaction = Police)"
+        }
+      ]
+    },
+    {
+      "code": "PRT",
+      "display": "Print Transaction",
+      "definition": "Print Transaction — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Impression de transaction"
+        }
+      ]
+    },
+    {
+      "code": "REI",
+      "display": "Reinstatement",
+      "definition": "Reinstatement — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remise en vigueur"
+        }
+      ]
+    },
+    {
+      "code": "REW",
+      "display": "Rewrite",
+      "definition": "Rewrite — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réenregistrer"
+        }
+      ]
+    },
+    {
+      "code": "RIC",
+      "display": "Reissue (Change Format)",
+      "definition": "Reissue (Change Format) — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réémettre (modifier format)"
+        }
+      ]
+    },
+    {
+      "code": "RII",
+      "display": "Reissue (Image Format)",
+      "definition": "Reissue (Image Format) — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réémettre (format image)"
+        }
+      ]
+    },
+    {
+      "code": "RNC",
+      "display": "Renewal (Change Format)",
+      "definition": "Renewal (Change Format) — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Renouvellement (modifier format)"
+        }
+      ]
+    },
+    {
+      "code": "RNI",
+      "display": "Renewal (Image Format)",
+      "definition": "Renewal (Image Format) — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Renouvellement (format image)"
+        }
+      ]
+    },
+    {
+      "code": "RNR",
+      "display": "Reversal of Non-Renewal",
+      "definition": "Reversal of Non-Renewal — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Annulation du non-renouvellement"
+        }
+      ]
+    },
+    {
+      "code": "RRC",
+      "display": "Reissue Request (Change Format)",
+      "definition": "Reissue Request (Change Format) — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Demande de réémettre (modifier format)"
+        }
+      ]
+    },
+    {
+      "code": "RRQ",
+      "display": "Reissue Request",
+      "definition": "Reissue Request — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Demande de réémettre"
+        }
+      ]
+    },
+    {
+      "code": "RWC",
+      "display": "Renewal Change",
+      "definition": "Renewal Change — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Modification de renouvellement"
+        }
+      ]
+    },
+    {
+      "code": "RWI",
+      "display": "Renewal Notice (Image Format)",
+      "definition": "Renewal Notice (Image Format) — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de renouvellement (format image)"
+        }
+      ]
+    },
+    {
+      "code": "RWL",
+      "display": "Renewal",
+      "definition": "Renewal — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Renouvellement"
+        }
+      ]
+    },
+    {
+      "code": "RWN",
+      "display": "Renewal Notice (Change Format)",
+      "definition": "Renewal Notice (Change Format) — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de renouvellement (format modification)"
+        }
+      ]
+    },
+    {
+      "code": "RWQ",
+      "display": "Renewal Quote",
+      "definition": "Renewal Quote — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Proposition de renouvellement"
+        }
+      ]
+    },
+    {
+      "code": "RWX",
+      "display": "Non-renewal",
+      "definition": "Non-renewal — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non-renouvellement"
+        }
+      ]
+    },
+    {
+      "code": "SYI",
+      "display": "Synchronization - Initial",
+      "definition": "Synchronization - Initial — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Synchronisation  - Début"
+        }
+      ]
+    },
+    {
+      "code": "SYN",
+      "display": "Synchronization Image",
+      "definition": "Synchronization Image — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Image de synchronisation"
+        }
+      ]
+    },
+    {
+      "code": "SYR",
+      "display": "Synchronization Request",
+      "definition": "Synchronization Request — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Demande de synchronisation"
+        }
+      ]
+    },
+    {
+      "code": "TBL",
+      "display": "Consolidated/Industry Code Table Maintenance",
+      "definition": "Consolidated/Industry Code Table Maintenance — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maintien des tables de codes consolidés de l'industrie"
+        }
+      ]
+    },
+    {
+      "code": "TRI",
+      "display": "Transaction Image (for information purposes)",
+      "definition": "Transaction Image (for information purposes) — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Image de la transaction (à titre de renseignement)"
+        }
+      ]
+    },
+    {
+      "code": "WTX",
+      "display": "Withdrawal Transaction",
+      "definition": "Withdrawal Transaction — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Retrait de transaction"
+        }
+      ]
+    },
+    {
+      "code": "XLN",
+      "display": "Cancellation",
+      "definition": "Cancellation — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Annulation"
+        }
+      ]
+    },
+    {
+      "code": "XLQ",
+      "display": "Policy Cancellation Quote",
+      "definition": "Policy Cancellation Quote — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soumission pour annulation"
+        }
+      ]
+    },
+    {
+      "code": "NBQI",
+      "display": "New Business Quote Inquiry",
+      "definition": "New Business Quote Inquiry — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Demande de soumission pour affaires nouvelles"
+        }
+      ]
+    },
+    {
+      "code": "PCQI",
+      "display": "Policy Change Quote Inquiry",
+      "definition": "Policy Change Quote Inquiry — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Demande de soumission pour modification de police"
+        }
+      ]
+    },
+    {
+      "code": "RQI",
+      "display": "Renewal Quote Inquiry",
+      "definition": "Renewal Quote Inquiry — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Demande de soumission pour renouvellement de police"
+        }
+      ]
+    },
+    {
+      "code": "BCE",
+      "display": "eDoc Billing Credit Card Expired",
+      "definition": "eDoc Billing Credit Card Expired — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Expiration de la carte de crédit utilisée pour effectuer les paiements"
+        }
+      ]
+    },
+    {
+      "code": "BCN",
+      "display": "eDoc Billing Collection Notice",
+      "definition": "eDoc Billing Collection Notice — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Avis de recouvrement"
+        }
+      ]
+    },
+    {
+      "code": "BFB",
+      "display": "eDoc Billing Final Bill Notice",
+      "definition": "eDoc Billing Final Bill Notice — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de facturation finale"
+        }
+      ]
+    },
+    {
+      "code": "BOB",
+      "display": "eDoc Payment Required Outstanding Balance",
+      "definition": "eDoc Payment Required Outstanding Balance — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Paiement du solde impayé requis"
+        }
+      ]
+    },
+    {
+      "code": "BOP",
+      "display": "eDoc Billing Overdue Payment Notice",
+      "definition": "eDoc Billing Overdue Payment Notice — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de paiement en retard"
+        }
+      ]
+    },
+    {
+      "code": "BRE",
+      "display": "eDoc Payment Received and Policy Reinstated",
+      "definition": "eDoc Payment Received and Policy Reinstated — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Paiement reçu et police remise en vigueur"
+        }
+      ]
+    },
+    {
+      "code": "BRI",
+      "display": "eDoc Billing Refund Issued",
+      "definition": "eDoc Billing Refund Issued — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Remboursement émis"
+        }
+      ]
+    },
+    {
+      "code": "BWR",
+      "display": "eDoc Billing Withdrawal Rejection Notice",
+      "definition": "eDoc Billing Withdrawal Rejection Notice — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Avis de refus du retrait de la facturation"
+        }
+      ]
+    },
+    {
+      "code": "CAA",
+      "display": "eDoc Claim Adjuster Assignment",
+      "definition": "eDoc Claim Adjuster Assignment — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Affectation d’un expert en sinistres"
+        }
+      ]
+    },
+    {
+      "code": "CCN",
+      "display": "eDoc Claim Closing Notice",
+      "definition": "eDoc Claim Closing Notice — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Avis de fermeture d’une demande de règlement"
+        }
+      ]
+    },
+    {
+      "code": "CFD",
+      "display": "eDoc Claim Auto Fault Determination Notice",
+      "definition": "eDoc Claim Auto Fault Determination Notice — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Avis de détermination de la responsabilité du sinistre automobile"
+        }
+      ]
+    },
+    {
+      "code": "CON",
+      "display": "eDoc Claim Opening Notice",
+      "definition": "eDoc Claim Opening Notice — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Avis d’ouverture d’une demande de règlement"
+        }
+      ]
+    },
+    {
+      "code": "CRN",
+      "display": "eDoc Claim Auto Rental Notice",
+      "definition": "eDoc Claim Auto Rental Notice — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Avis de location de voiture"
+        }
+      ]
+    },
+    {
+      "code": "CTL",
+      "display": "eDoc Claim Total Loss Notice",
+      "definition": "eDoc Claim Total Loss Notice — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Avis de perte totale"
+        }
+      ]
+    },
+    {
+      "code": "NBD",
+      "display": "eDoc New Business Policy Declaration",
+      "definition": "eDoc New Business Policy Declaration — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Conditions particulières d’une nouvelle police d’assurance des entreprises"
+        }
+      ]
+    },
+    {
+      "code": "NBL",
+      "display": "eDoc New Business Liability Certificates",
+      "definition": "eDoc New Business Liability Certificates — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Certificats d’assurance responsabilité liés à une nouvelle police d’assurance des entreprises"
+        }
+      ]
+    },
+    {
+      "code": "NBP",
+      "display": "eDoc New Business Payment Schedule",
+      "definition": "eDoc New Business Payment Schedule — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Calendrier des paiements joint à une nouvelle police d’assurance des entreprises"
+        }
+      ]
+    },
+    {
+      "code": "NTP",
+      "display": "eDoc Payment Schedule No Policy Transaction",
+      "definition": "eDoc Payment Schedule No Policy Transaction — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Calendrier des paiements non joint à une opération sur police"
+        }
+      ]
+    },
+    {
+      "code": "PCD",
+      "display": "eDoc Policy Change Policy Declaration",
+      "definition": "eDoc Policy Change Policy Declaration — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Conditions particulières liées à une modification de police"
+        }
+      ]
+    },
+    {
+      "code": "PCL",
+      "display": "eDoc Policy Change Liability Certificates",
+      "definition": "eDoc Policy Change Liability Certificates — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Certificats d’assurance responsabilité liés à une police modifiée"
+        }
+      ]
+    },
+    {
+      "code": "PCP",
+      "display": "eDoc Policy Change Payment Schedule",
+      "definition": "eDoc Policy Change Payment Schedule — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Calendrier des paiements joint à une police modifiée"
+        }
+      ]
+    },
+    {
+      "code": "RED",
+      "display": "eDoc Renewal Policy Declaration",
+      "definition": "eDoc Renewal Policy Declaration — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Conditions particulières liées à une police renouvelée"
+        }
+      ]
+    },
+    {
+      "code": "REL",
+      "display": "eDoc Renewal Liability Certificates",
+      "definition": "eDoc Renewal Liability Certificates — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Certificats d’assurance responsabilité liés à une police renouvelée"
+        }
+      ]
+    },
+    {
+      "code": "REP",
+      "display": "eDoc Renewal Payment Schedule",
+      "definition": "eDoc Renewal Payment Schedule — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Calendrier des paiements joint à une police renouvelée"
+        }
+      ]
+    },
+    {
+      "code": "RND",
+      "display": "eDoc Reinstatement Policy Declaration",
+      "definition": "eDoc Reinstatement Policy Declaration — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Conditions particulières liées à une police remise en vigueur"
+        }
+      ]
+    },
+    {
+      "code": "RNL",
+      "display": "eDoc Reinstatement Liability Certificates",
+      "definition": "eDoc Reinstatement Liability Certificates — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Certificats d’assurance responsabilité liés à une police remise en vigueur"
+        }
+      ]
+    },
+    {
+      "code": "RNP",
+      "display": "eDoc Reinstatement Payment Schedule",
+      "definition": "eDoc Reinstatement Payment Schedule — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Calendrier des paiements joint à une police remise en vigueur"
+        }
+      ]
+    },
+    {
+      "code": "RRD",
+      "display": "eDoc Rewrite Policy Declaration",
+      "definition": "eDoc Rewrite Policy Declaration — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Conditions particulières liées à une police révisée"
+        }
+      ]
+    },
+    {
+      "code": "RRL",
+      "display": "eDoc Rewrite Liability Certificates",
+      "definition": "eDoc Rewrite Liability Certificates — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Certificats d’assurance responsabilité liés à une police révisée"
+        }
+      ]
+    },
+    {
+      "code": "RRP",
+      "display": "eDoc Rewrite Payment Schedule",
+      "definition": "eDoc Rewrite Payment Schedule — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Calendrier des paiements joint à une police révisée"
+        }
+      ]
+    },
+    {
+      "code": "RSD",
+      "display": "eDoc Reissue Policy Declaration",
+      "definition": "eDoc Reissue Policy Declaration — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Conditions particulières liées à une police réémise"
+        }
+      ]
+    },
+    {
+      "code": "RSL",
+      "display": "eDoc Reissue Liability Certificates",
+      "definition": "eDoc Reissue Liability Certificates — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Certificats d’assurance responsabilité liés à une police réémise"
+        }
+      ]
+    },
+    {
+      "code": "RSP",
+      "display": "eDoc Reissue Payment Schedule",
+      "definition": "eDoc Reissue Payment Schedule — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Calendrier des paiements joint à une police réémise"
+        }
+      ]
+    },
+    {
+      "code": "UWR",
+      "display": "eDoc Underwriting Request",
+      "definition": "eDoc Underwriting Request — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Demandes de souscription"
+        }
+      ]
+    },
+    {
+      "code": "XIN",
+      "display": "eDoc Cancelled by Insurer",
+      "definition": "eDoc Cancelled by Insurer — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Police annulée par l’assureur"
+        }
+      ]
+    },
+    {
+      "code": "XNR",
+      "display": "eDoc Insurer Cancellation with No Option to Reinstate",
+      "definition": "eDoc Insurer Cancellation with No Option to Reinstate — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Annulation par l’assureur sans possibilité de remise en vigueur"
+        }
+      ]
+    },
+    {
+      "code": "XOR",
+      "display": "eDoc Insurer Cancellation with Option to Reinstate",
+      "definition": "eDoc Insurer Cancellation with Option to Reinstate — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Annulation par l’assureur avec possibilité de remise en vigueur"
+        }
+      ]
+    },
+    {
+      "code": "XRI",
+      "display": "eDoc Cancellation Request by Insured",
+      "definition": "eDoc Cancellation Request by Insured — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Demande d’annulation par l’assuré"
+        }
+      ]
+    },
+    {
+      "code": "XRW",
+      "display": "eDoc Insurer Non-Renewal",
+      "definition": "eDoc Insurer Non-Renewal — cycle business purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Non-renouvellement par l’assureur"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "auto-work-services",
+  "url": "https://bind.codes/auto-work-services",
+  "name": "AutoWorkServices",
+  "title": "Auto Work Services",
+  "status": "draft",
+  "language": "en",
+  "description": "Auto Work Services codes for insurance operations.",
+  "concept": [
+    {
+      "code": "selling-or-servicing-automobile-parts-and-accessories",
+      "display": "Selling or servicing automobile parts and accessories",
+      "definition": "Selling or servicing automobile parts and accessories — auto work services code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente ou entretien de pièces et d’accessoires automobiles"
+        }
+      ]
+    },
+    {
+      "code": "high-performance-vehicles",
+      "display": "High performance vehicles",
+      "definition": "High performance vehicles — auto work services code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicules de haute performance"
+        }
+      ]
+    },
+    {
+      "code": "mufflers-transmissions-or-radiators",
+      "display": "Mufflers, transmissions or radiators",
+      "definition": "Mufflers, transmissions or radiators — auto work services code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Silencieux, transmissions ou radiateurs"
+        }
+      ]
+    },
+    {
+      "code": "glass-installation-and-repair",
+      "display": "Glass installation and repair",
+      "definition": "Glass installation and repair — auto work services code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Installation et réparation de vitres"
+        }
+      ]
+    },
+    {
+      "code": "brake-and-suspension-repair",
+      "display": "Brake and suspension repair",
+      "definition": "Brake and suspension repair — auto work services code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réparation des freins et de la suspension"
+        }
+      ]
+    },
+    {
+      "code": "air-conditioning-radiator-or-electrical-repair",
+      "display": "Air conditioning, radiator or electrical repair",
+      "definition": "Air conditioning, radiator or electrical repair — auto work services code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Climatisation, radiateur ou réparation d’appareil électrique"
+        }
+      ]
+    },
+    {
+      "code": "auto-detailing",
+      "display": "Auto detailing",
+      "definition": "Auto detailing — auto work services code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente au détail d’automobiles"
+        }
+      ]
+    },
+    {
+      "code": "hand-car-wash",
+      "display": "Hand car wash",
+      "definition": "Hand car wash — auto work services code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lave-auto manuel"
+        }
+      ]
+    },
+    {
+      "code": "drive-through-car-wash",
+      "display": "Drive through car wash",
+      "definition": "Drive through car wash — auto work services code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lave-auto automatique"
+        }
+      ]
+    }
+  ]
+}

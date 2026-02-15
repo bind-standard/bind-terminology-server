@@ -1,0 +1,133 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "additional-hazard",
+  "url": "https://bind.codes/additional-hazard",
+  "name": "AdditionalHazard",
+  "title": "Additional Hazard",
+  "status": "draft",
+  "language": "en",
+  "description": "Additional Hazard codes for insurance operations.",
+  "concept": [
+    {
+      "code": "swimming-or-wading-pool",
+      "display": "Swimming or Wading Pool",
+      "definition": "Swimming or Wading Pool — additional hazard code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Piscine ou pataugeuse"
+        }
+      ]
+    },
+    {
+      "code": "sauna",
+      "display": "Sauna",
+      "definition": "Sauna — additional hazard code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sauna"
+        }
+      ]
+    },
+    {
+      "code": "gym-or-activity-centre",
+      "display": "Gym or Activity Centre",
+      "definition": "Gym or Activity Centre — additional hazard code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gymnase ou centre d'activités"
+        }
+      ]
+    },
+    {
+      "code": "amusement-rides",
+      "display": "Amusement Rides",
+      "definition": "Amusement Rides — additional hazard code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Manèges"
+        }
+      ]
+    },
+    {
+      "code": "outdoor-stadia-or-grandstand",
+      "display": "Outdoor Stadia or Grandstand",
+      "definition": "Outdoor Stadia or Grandstand — additional hazard code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stades extérieurs ou tribune"
+        }
+      ]
+    },
+    {
+      "code": "sports-field",
+      "display": "Sports Field",
+      "definition": "Sports Field — additional hazard code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrain de sport"
+        }
+      ]
+    },
+    {
+      "code": "animals",
+      "display": "Animals",
+      "definition": "Animals — additional hazard code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Animaux"
+        }
+      ]
+    },
+    {
+      "code": "whirlpool-hydro-jetted-tub-or-pool",
+      "display": "Whirlpool/Hydro-jetted Tub or Pool",
+      "definition": "Whirlpool/Hydro-jetted Tub or Pool — additional hazard code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Baignoire à remous/à jet d'eau ou piscine"
+        }
+      ]
+    },
+    {
+      "code": "hot-tub",
+      "display": "Hot Tub",
+      "definition": "Hot Tub — additional hazard code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Spa"
+        }
+      ]
+    },
+    {
+      "code": "none",
+      "display": "None",
+      "definition": "None — additional hazard code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — additional hazard code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    }
+  ]
+}

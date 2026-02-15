@@ -1,0 +1,1112 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "nature-of-business",
+  "url": "https://bind.codes/nature-of-business",
+  "name": "NatureOfBusiness",
+  "title": "Nature Of Business",
+  "status": "draft",
+  "language": "en",
+  "description": "Nature Of Business codes for insurance operations.",
+  "concept": [
+    {
+      "code": "artisan",
+      "display": "Artisan",
+      "definition": "Artisan — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Artisan"
+        }
+      ]
+    },
+    {
+      "code": "associated-risk-activity",
+      "display": "Associated Risk/Activity",
+      "definition": "Associated Risk/Activity — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Risque inhérent/activité"
+        }
+      ]
+    },
+    {
+      "code": "contracting-class",
+      "display": "Contracting Class",
+      "definition": "Contracting Class — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe de sous-traitance"
+        }
+      ]
+    },
+    {
+      "code": "wrap-up-policy",
+      "display": "Wrap-up Policy",
+      "definition": "Wrap-up Policy — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police globale de chantier"
+        }
+      ]
+    },
+    {
+      "code": "employment-of-subtrade-subcontractor-indep-contractor",
+      "display": "Employment of Subtrade/Subcontractor/Indep.Contractor",
+      "definition": "Employment of Subtrade/Subcontractor/Indep.Contractor — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Embauche de sous-traitant/entrepreneur indépendant"
+        }
+      ]
+    },
+    {
+      "code": "day-care-nursery",
+      "display": "Day Care/Nursery",
+      "definition": "Day Care/Nursery — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garderie/jardin d'enfants"
+        }
+      ]
+    },
+    {
+      "code": "manufacturing-processing",
+      "display": "Manufacturing/Processing",
+      "definition": "Manufacturing/Processing — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fabrication"
+        }
+      ]
+    },
+    {
+      "code": "usa-foreign-products-operations",
+      "display": "USA/Foreign Products/Operations",
+      "definition": "USA/Foreign Products/Operations — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "États-Unis/produits étrangers/exploitation"
+        }
+      ]
+    },
+    {
+      "code": "premises-operations-visitors",
+      "display": "Premises/Operations Visitors",
+      "definition": "Premises/Operations Visitors — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Visiteurs sur les lieux assurés/bâtiments"
+        }
+      ]
+    },
+    {
+      "code": "product-after-sale-delivery-install-service-maintain",
+      "display": "Product After Sale Delivery/Install/Service/Maintain",
+      "definition": "Product After Sale Delivery/Install/Service/Maintain — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Livraison/installation/service/entretien de produits après vente"
+        }
+      ]
+    },
+    {
+      "code": "liquor-sales",
+      "display": "Liquor Sales",
+      "definition": "Liquor Sales — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ventes d'alcool"
+        }
+      ]
+    },
+    {
+      "code": "convalescent-nursing-senior-citizen-home",
+      "display": "Convalescent/Nursing/Senior Citizen Home",
+      "definition": "Convalescent/Nursing/Senior Citizen Home — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maison de convalescence/soins infirmiers/personne du troisième âge"
+        }
+      ]
+    },
+    {
+      "code": "resort",
+      "display": "Resort",
+      "definition": "Resort — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Centre de villégiature"
+        }
+      ]
+    },
+    {
+      "code": "drug-medical-device-cosmetic-products-and-or-operations",
+      "display": "Drug/Medical Device/Cosmetic Products and/or Operations",
+      "definition": "Drug/Medical Device/Cosmetic Products and/or Operations — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Médicaments/appareils médicaux/cosmétiques et/ou exploitations"
+        }
+      ]
+    },
+    {
+      "code": "club-or-association-operation",
+      "display": "Club or Association Operation",
+      "definition": "Club or Association Operation — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exploitation de club/association"
+        }
+      ]
+    },
+    {
+      "code": "fund-raising",
+      "display": "Fund-raising",
+      "definition": "Fund-raising — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Levée de fonds"
+        }
+      ]
+    },
+    {
+      "code": "sponsorship",
+      "display": "Sponsorship",
+      "definition": "Sponsorship — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commandite"
+        }
+      ]
+    },
+    {
+      "code": "advertising",
+      "display": "Advertising",
+      "definition": "Advertising — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Publicité"
+        }
+      ]
+    },
+    {
+      "code": "logging-and-lumber",
+      "display": "Logging and Lumber",
+      "definition": "Logging and Lumber — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exploitation forestière et Bois"
+        }
+      ]
+    },
+    {
+      "code": "mining",
+      "display": "Mining",
+      "definition": "Mining — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exploitation minière"
+        }
+      ]
+    },
+    {
+      "code": "construction-erection-installation",
+      "display": "Construction/Erection/Installation",
+      "definition": "Construction/Erection/Installation — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Construction/montage/installation"
+        }
+      ]
+    },
+    {
+      "code": "pollution",
+      "display": "Pollution",
+      "definition": "Pollution — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pollution"
+        }
+      ]
+    },
+    {
+      "code": "spraying",
+      "display": "Spraying",
+      "definition": "Spraying — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pulvérisation"
+        }
+      ]
+    },
+    {
+      "code": "wholesale-trade-and-or-private-storage",
+      "display": "Wholesale Trade and/or Private Storage",
+      "definition": "Wholesale Trade and/or Private Storage — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commerce de gros et/ou entreposage privé"
+        }
+      ]
+    },
+    {
+      "code": "hospitality-services",
+      "display": "Hospitality Services",
+      "definition": "Hospitality Services — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de tourisme"
+        }
+      ]
+    },
+    {
+      "code": "amusement-and-recreation",
+      "display": "Amusement and Recreation",
+      "definition": "Amusement and Recreation — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Divertissements et loisirs"
+        }
+      ]
+    },
+    {
+      "code": "education",
+      "display": "Education",
+      "definition": "Education — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formation"
+        }
+      ]
+    },
+    {
+      "code": "government",
+      "display": "Government",
+      "definition": "Government — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gouvernement"
+        }
+      ]
+    },
+    {
+      "code": "new-construction",
+      "display": "New Construction",
+      "definition": "New Construction — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nouvelle construction"
+        }
+      ]
+    },
+    {
+      "code": "waste-disposal",
+      "display": "Waste Disposal",
+      "definition": "Waste Disposal — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Élimination des déchets"
+        }
+      ]
+    },
+    {
+      "code": "sub-activity",
+      "display": "Sub-activity",
+      "definition": "Sub-activity — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous-activité"
+        }
+      ]
+    },
+    {
+      "code": "waterworks-water-treatment",
+      "display": "Waterworks/Water Treatment",
+      "definition": "Waterworks/Water Treatment — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Station de production d'eau potable/traitement des eaux"
+        }
+      ]
+    },
+    {
+      "code": "realty",
+      "display": "Realty",
+      "definition": "Realty — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Immobilier"
+        }
+      ]
+    },
+    {
+      "code": "blasting",
+      "display": "Blasting",
+      "definition": "Blasting — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dynamitage"
+        }
+      ]
+    },
+    {
+      "code": "private-storage",
+      "display": "Private Storage",
+      "definition": "Private Storage — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreposage privé"
+        }
+      ]
+    },
+    {
+      "code": "retail-trade",
+      "display": "Retail Trade",
+      "definition": "Retail Trade — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commerce de détail"
+        }
+      ]
+    },
+    {
+      "code": "insurance",
+      "display": "Insurance",
+      "definition": "Insurance — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance"
+        }
+      ]
+    },
+    {
+      "code": "underground-activity",
+      "display": "Underground Activity",
+      "definition": "Underground Activity — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Activité souterraine"
+        }
+      ]
+    },
+    {
+      "code": "water-or-waterborne-activity",
+      "display": "Water or Waterborne Activity",
+      "definition": "Water or Waterborne Activity — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Activité maritime"
+        }
+      ]
+    },
+    {
+      "code": "business-and-personal-services",
+      "display": "Business & Personal Services",
+      "definition": "Business & Personal Services — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services commerciaux & personnels"
+        }
+      ]
+    },
+    {
+      "code": "bus-service",
+      "display": "Bus Service",
+      "definition": "Bus Service — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service d'autobus"
+        }
+      ]
+    },
+    {
+      "code": "construction-erection-and-installation",
+      "display": "Construction, Erection & Installation",
+      "definition": "Construction, Erection & Installation — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Construction, montage et installation"
+        }
+      ]
+    },
+    {
+      "code": "common-carriers",
+      "display": "Common Carriers",
+      "definition": "Common Carriers — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transporteurs publics"
+        }
+      ]
+    },
+    {
+      "code": "contract-carriers",
+      "display": "Contract Carriers",
+      "definition": "Contract Carriers — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transporteurs contractuels"
+        }
+      ]
+    },
+    {
+      "code": "courier-service",
+      "display": "Courier Service",
+      "definition": "Courier Service — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service de messageries"
+        }
+      ]
+    },
+    {
+      "code": "delivery-retail",
+      "display": "Delivery, Retail",
+      "definition": "Delivery, Retail — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Livraison, vente au détail"
+        }
+      ]
+    },
+    {
+      "code": "driving-school",
+      "display": "Driving School",
+      "definition": "Driving School — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "École de conduite"
+        }
+      ]
+    },
+    {
+      "code": "delivery-wholesale",
+      "display": "Delivery, Wholesale",
+      "definition": "Delivery, Wholesale — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Livraison, vente en gros"
+        }
+      ]
+    },
+    {
+      "code": "farming-custom",
+      "display": "Farming - Custom",
+      "definition": "Farming - Custom — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agriculture spécialisée"
+        }
+      ]
+    },
+    {
+      "code": "fishing",
+      "display": "Fishing",
+      "definition": "Fishing — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pêcheries"
+        }
+      ]
+    },
+    {
+      "code": "farming",
+      "display": "Farming",
+      "definition": "Farming — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agriculture"
+        }
+      ]
+    },
+    {
+      "code": "general-contractor",
+      "display": "General Contractor",
+      "definition": "General Contractor — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entrepreneur général"
+        }
+      ]
+    },
+    {
+      "code": "health-services",
+      "display": "Health Services",
+      "definition": "Health Services — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de santé"
+        }
+      ]
+    },
+    {
+      "code": "logging",
+      "display": "Logging",
+      "definition": "Logging — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exploitation forestière"
+        }
+      ]
+    },
+    {
+      "code": "member-organizations",
+      "display": "Member Organizations",
+      "definition": "Member Organizations — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Organisations membres"
+        }
+      ]
+    },
+    {
+      "code": "pick-up-customers-goods",
+      "display": "Pick Up Customers Goods",
+      "definition": "Pick Up Customers Goods — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ramassage de marchandises"
+        }
+      ]
+    },
+    {
+      "code": "private-carriers",
+      "display": "Private Carriers",
+      "definition": "Private Carriers — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transporteurs privés"
+        }
+      ]
+    },
+    {
+      "code": "road-construction",
+      "display": "Road Construction",
+      "definition": "Road Construction — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Construction de routes"
+        }
+      ]
+    },
+    {
+      "code": "recreation",
+      "display": "Recreation",
+      "definition": "Recreation — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Activité récréative"
+        }
+      ]
+    },
+    {
+      "code": "taxis-limos",
+      "display": "Taxis/Limos",
+      "definition": "Taxis/Limos — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Taxis/limousines"
+        }
+      ]
+    },
+    {
+      "code": "towing-service",
+      "display": "Towing Service",
+      "definition": "Towing Service — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service de remorquage"
+        }
+      ]
+    },
+    {
+      "code": "transport",
+      "display": "Transport",
+      "definition": "Transport — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transport"
+        }
+      ]
+    },
+    {
+      "code": "utilities",
+      "display": "Utilities",
+      "definition": "Utilities — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services publics"
+        }
+      ]
+    },
+    {
+      "code": "warehousing",
+      "display": "Warehousing",
+      "definition": "Warehousing — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreposage"
+        }
+      ]
+    },
+    {
+      "code": "automobile-leasing-to-others",
+      "display": "Automobile Leasing (To Others)",
+      "definition": "Automobile Leasing (To Others) — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Location de véhicules (à des tiers)"
+        }
+      ]
+    },
+    {
+      "code": "religious-institution",
+      "display": "Religious Institution",
+      "definition": "Religious Institution — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Institution religieuse"
+        }
+      ]
+    },
+    {
+      "code": "residential",
+      "display": "Residential",
+      "definition": "Residential — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résidentiel"
+        }
+      ]
+    },
+    {
+      "code": "commercial",
+      "display": "Commercial",
+      "definition": "Commercial — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commercial"
+        }
+      ]
+    },
+    {
+      "code": "automotive-services",
+      "display": "Automotive Services",
+      "definition": "Automotive Services — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services automobile"
+        }
+      ]
+    },
+    {
+      "code": "business-and-professional",
+      "display": "Business and Professional",
+      "definition": "Business and Professional — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Affaires et professionnel"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "public-vehicles",
+      "display": "Public Vehicles",
+      "definition": "Public Vehicles — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicules public"
+        }
+      ]
+    },
+    {
+      "code": "S1",
+      "display": "Form Work",
+      "definition": "Form Work — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coffrage"
+        }
+      ]
+    },
+    {
+      "code": "S10",
+      "display": "Blasting",
+      "definition": "Blasting — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dynamitage"
+        }
+      ]
+    },
+    {
+      "code": "S11",
+      "display": "Excavating",
+      "definition": "Excavating — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Excavation"
+        }
+      ]
+    },
+    {
+      "code": "S12",
+      "display": "Pile Driving",
+      "definition": "Pile Driving — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fonçage"
+        }
+      ]
+    },
+    {
+      "code": "S13",
+      "display": "Shoring",
+      "definition": "Shoring — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Étayage"
+        }
+      ]
+    },
+    {
+      "code": "S14",
+      "display": "Rigging",
+      "definition": "Rigging — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gréage"
+        }
+      ]
+    },
+    {
+      "code": "S15",
+      "display": "Grading",
+      "definition": "Grading — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nivellement"
+        }
+      ]
+    },
+    {
+      "code": "S16",
+      "display": "Road Construction",
+      "definition": "Road Construction — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Construction routière"
+        }
+      ]
+    },
+    {
+      "code": "S17",
+      "display": "Painting",
+      "definition": "Painting — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Peinture"
+        }
+      ]
+    },
+    {
+      "code": "S18",
+      "display": "Plastering",
+      "definition": "Plastering — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plâtrage"
+        }
+      ]
+    },
+    {
+      "code": "S19",
+      "display": "Demolition/Wrecking",
+      "definition": "Demolition/Wrecking — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Démolition"
+        }
+      ]
+    },
+    {
+      "code": "S2",
+      "display": "Concrete Work",
+      "definition": "Concrete Work — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Construction en béton"
+        }
+      ]
+    },
+    {
+      "code": "S20",
+      "display": "Underpinning",
+      "definition": "Underpinning — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Reprise en sous-œuvre"
+        }
+      ]
+    },
+    {
+      "code": "S21",
+      "display": "Welding",
+      "definition": "Welding — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soudage"
+        }
+      ]
+    },
+    {
+      "code": "S22",
+      "display": "Tunnelling",
+      "definition": "Tunnelling — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Creusage de tunnels"
+        }
+      ]
+    },
+    {
+      "code": "S23",
+      "display": "Hot Tarring",
+      "definition": "Hot Tarring — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Goudronnage à chaud"
+        }
+      ]
+    },
+    {
+      "code": "S24",
+      "display": "Caisson Work",
+      "definition": "Caisson Work — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travaux de caisson"
+        }
+      ]
+    },
+    {
+      "code": "S25",
+      "display": "Raising or Moving",
+      "definition": "Raising or Moving — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soulèvement ou déplacement"
+        }
+      ]
+    },
+    {
+      "code": "S26",
+      "display": "Spray Painting",
+      "definition": "Spray Painting — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Peinture au fusil"
+        }
+      ]
+    },
+    {
+      "code": "S27",
+      "display": "Additions",
+      "definition": "Additions — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Additions"
+        }
+      ]
+    },
+    {
+      "code": "S28",
+      "display": "Foundation",
+      "definition": "Foundation — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fondations"
+        }
+      ]
+    },
+    {
+      "code": "S3",
+      "display": "Carpentry",
+      "definition": "Carpentry — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Menuiserie"
+        }
+      ]
+    },
+    {
+      "code": "S4",
+      "display": "Masonry",
+      "definition": "Masonry — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maçonnerie"
+        }
+      ]
+    },
+    {
+      "code": "S5",
+      "display": "Structural Steel",
+      "definition": "Structural Steel — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charpente d'acier"
+        }
+      ]
+    },
+    {
+      "code": "S6",
+      "display": "Roofing",
+      "definition": "Roofing — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toiture"
+        }
+      ]
+    },
+    {
+      "code": "S7",
+      "display": "Electrical Wiring",
+      "definition": "Electrical Wiring — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Câblage électrique"
+        }
+      ]
+    },
+    {
+      "code": "S8",
+      "display": "Dredging",
+      "definition": "Dredging — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dragage"
+        }
+      ]
+    },
+    {
+      "code": "S9",
+      "display": "Landclearing",
+      "definition": "Landclearing — nature of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défrichement"
+        }
+      ]
+    }
+  ]
+}

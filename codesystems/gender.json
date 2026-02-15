@@ -1,0 +1,32 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "gender",
+  "url": "https://bind.codes/gender",
+  "name": "Gender",
+  "title": "Gender",
+  "status": "draft",
+  "language": "en",
+  "description": "Gender codes for insurance operations.",
+  "concept": [
+    {
+      "code": "F",
+      "display": "Female",
+      "definition": "Female — gender code."
+    },
+    {
+      "code": "M",
+      "display": "Male",
+      "definition": "Male — gender code."
+    },
+    {
+      "code": "U",
+      "display": "Unknown",
+      "definition": "Unknown — gender code."
+    },
+    {
+      "code": "X",
+      "display": "Unspecified",
+      "definition": "Unspecified — gender code."
+    }
+  ]
+}

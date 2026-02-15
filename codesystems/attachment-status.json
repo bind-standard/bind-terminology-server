@@ -1,0 +1,78 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "attachment-status",
+  "url": "https://bind.codes/attachment-status",
+  "name": "AttachmentStatus",
+  "title": "Attachment Status",
+  "status": "draft",
+  "language": "en",
+  "description": "Attachment Status codes for insurance operations.",
+  "concept": [
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — attachment status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "agent-broker-is-retaining-a-copy-on-file",
+      "display": "Agent/Broker is retaining a Copy on File",
+      "definition": "Agent/Broker is retaining a Copy on File — attachment status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Le courtier conserve une copie au dossier"
+        }
+      ]
+    },
+    {
+      "code": "agent-broker-is-sending-a-copy-via-mail-courier",
+      "display": "Agent/Broker is Sending a Copy via Mail/Courier",
+      "definition": "Agent/Broker is Sending a Copy via Mail/Courier — attachment status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Le courtier envoie une copie par la poste/messager"
+        }
+      ]
+    },
+    {
+      "code": "document-not-available-yet-will-be-forwarded-upon-receipt",
+      "display": "Document Not Available Yet / Will be Forwarded Upon Receipt",
+      "definition": "Document Not Available Yet / Will be Forwarded Upon Receipt — attachment status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Document pas encore disponible / sera envoyé dès que reçu"
+        }
+      ]
+    },
+    {
+      "code": "document-not-available-yet-will-be-kept-in-files-upon-receipt",
+      "display": "Document Not Available Yet / Will be Kept in Files Upon Receipt",
+      "definition": "Document Not Available Yet / Will be Kept in Files Upon Receipt — attachment status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Document pas encore disponible / sera conservé au dossier dès que reçu"
+        }
+      ]
+    },
+    {
+      "code": "document-electronic",
+      "display": "Document Electronic",
+      "definition": "Document Electronic — attachment status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Document électronique"
+        }
+      ]
+    }
+  ]
+}

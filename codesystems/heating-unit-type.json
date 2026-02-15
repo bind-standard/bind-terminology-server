@@ -1,0 +1,144 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "heating-unit-type",
+  "url": "https://bind.codes/heating-unit-type",
+  "name": "HeatingUnitType",
+  "title": "Heating Unit Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Heating Unit Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "woodstove-airtight",
+      "display": "Woodstove, Airtight",
+      "definition": "Woodstove, Airtight — heating unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poêle à bois hermétique"
+        }
+      ]
+    },
+    {
+      "code": "acorn-stove-box-franklin-or-pot-belly-stove-loose-fitting-or-no-doors",
+      "display": "Acorn Stove Box, Franklin or Pot Belly Stove (loose fitting or no doors)",
+      "definition": "Acorn Stove Box, Franklin or Pot Belly Stove (loose fitting or no doors) — heating unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poêle Acorn, Franklin ou Petit Poêle (Truie)  (Avec portes non étanches ou sans portes)"
+        }
+      ]
+    },
+    {
+      "code": "woodstove-not-airtight",
+      "display": "Woodstove, Not Airtight",
+      "definition": "Woodstove, Not Airtight — heating unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poêle à bois non-hermétique"
+        }
+      ]
+    },
+    {
+      "code": "cookstove",
+      "display": "Cookstove",
+      "definition": "Cookstove — heating unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poêle-cuisinière"
+        }
+      ]
+    },
+    {
+      "code": "fireplace-insert",
+      "display": "Fireplace Insert",
+      "definition": "Fireplace Insert — heating unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foyer encastrable"
+        }
+      ]
+    },
+    {
+      "code": "fireplace-zero-clearance",
+      "display": "Fireplace, Zero Clearance",
+      "definition": "Fireplace, Zero Clearance — heating unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foyer à dégagement nul"
+        }
+      ]
+    },
+    {
+      "code": "masonry-fireplace",
+      "display": "Masonry Fireplace",
+      "definition": "Masonry Fireplace — heating unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foyer en maçonnerie"
+        }
+      ]
+    },
+    {
+      "code": "pellet-stove",
+      "display": "Pellet Stove",
+      "definition": "Pellet Stove — heating unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poêle à granules"
+        }
+      ]
+    },
+    {
+      "code": "wood-oil-combination",
+      "display": "Wood/Oil Combination",
+      "definition": "Wood/Oil Combination — heating unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois/huile combiné"
+        }
+      ]
+    },
+    {
+      "code": "wood-furnace",
+      "display": "Wood Furnace",
+      "definition": "Wood Furnace — heating unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fournaise au bois"
+        }
+      ]
+    },
+    {
+      "code": "wood-furnace-add-on",
+      "display": "Wood Furnace Add On",
+      "definition": "Wood Furnace Add On — heating unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Générateur d’appoint au bois"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — heating unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    }
+  ]
+}

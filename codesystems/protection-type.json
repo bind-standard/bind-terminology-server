@@ -1,0 +1,595 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "protection-type",
+  "url": "https://bind.codes/protection-type",
+  "name": "ProtectionType",
+  "title": "Protection Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Protection Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "watchmen-security-guards",
+      "display": "Watchmen/security guards",
+      "definition": "Watchmen/security guards — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gardiens de sécurité"
+        }
+      ]
+    },
+    {
+      "code": "hydrants",
+      "display": "Hydrants",
+      "definition": "Hydrants — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bornes-fontaines"
+        }
+      ]
+    },
+    {
+      "code": "fire-department",
+      "display": "Fire department",
+      "definition": "Fire department — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caserne de pompiers"
+        }
+      ]
+    },
+    {
+      "code": "hand-held-extinguisher-water",
+      "display": "Hand Held Extinguisher (Water)",
+      "definition": "Hand Held Extinguisher (Water) — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Extincteur portatif (eau)"
+        }
+      ]
+    },
+    {
+      "code": "hand-held-extinguisher-dry-chemical",
+      "display": "Hand Held Extinguisher (Dry Chemical)",
+      "definition": "Hand Held Extinguisher (Dry Chemical) — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Extincteur portatif (produit chimique sec)"
+        }
+      ]
+    },
+    {
+      "code": "hand-extinguishers-foam",
+      "display": "Hand extinguishers (foam)",
+      "definition": "Hand extinguishers (foam) — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Extincteur portatif (mousse)"
+        }
+      ]
+    },
+    {
+      "code": "breakage-resistant-glass",
+      "display": "Breakage-resistant glass",
+      "definition": "Breakage-resistant glass — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vitres résistantes au bris"
+        }
+      ]
+    },
+    {
+      "code": "standpipe-and-hose",
+      "display": "Standpipe and hose",
+      "definition": "Standpipe and hose — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canalisation et boyau d'incendie"
+        }
+      ]
+    },
+    {
+      "code": "fire-division-parapet",
+      "display": "Fire division (parapet)",
+      "definition": "Fire division (parapet) — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coupe-feu (parapet)"
+        }
+      ]
+    },
+    {
+      "code": "fence",
+      "display": "Fence",
+      "definition": "Fence — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clôture"
+        }
+      ]
+    },
+    {
+      "code": "warning-signs",
+      "display": "Warning Signs",
+      "definition": "Warning Signs — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Signaux avertisseurs"
+        }
+      ]
+    },
+    {
+      "code": "guard-dog",
+      "display": "Guard Dog",
+      "definition": "Guard Dog — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chien de garde"
+        }
+      ]
+    },
+    {
+      "code": "anchored-or-bolted-to-floor",
+      "display": "Anchored or Bolted to Floor",
+      "definition": "Anchored or Bolted to Floor — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ancré ou boulonné au plancher"
+        }
+      ]
+    },
+    {
+      "code": "re-locking-device",
+      "display": "Re-locking Device",
+      "definition": "Re-locking Device — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dispositif de reverrouillage"
+        }
+      ]
+    },
+    {
+      "code": "extra-weight-added-to-safe",
+      "display": "Extra Weight Added to Safe",
+      "definition": "Extra Weight Added to Safe — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poids supplémentaire ajouté au coffre-fort"
+        }
+      ]
+    },
+    {
+      "code": "perimeter-fence-and-lockable-gate",
+      "display": "Perimeter Fence and Lockable Gate",
+      "definition": "Perimeter Fence and Lockable Gate — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clôture d'enceinte et barrière verrouillable"
+        }
+      ]
+    },
+    {
+      "code": "exterior-lighting",
+      "display": "Exterior Lighting",
+      "definition": "Exterior Lighting — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Éclairage extérieur"
+        }
+      ]
+    },
+    {
+      "code": "entrance-s-visible-from-street",
+      "display": "Entrance(s) Visible from Street",
+      "definition": "Entrance(s) Visible from Street — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entrée visible de la rue"
+        }
+      ]
+    },
+    {
+      "code": "motion-sensitive-lighting",
+      "display": "Motion Sensitive Lighting",
+      "definition": "Motion Sensitive Lighting — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Éclairage activé par détecteur de mouvements"
+        }
+      ]
+    },
+    {
+      "code": "property-lot-illuminated-at-night",
+      "display": "Property/Lot Illuminated at Night",
+      "definition": "Property/Lot Illuminated at Night — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriété/terrain illuminé durant la nuit"
+        }
+      ]
+    },
+    {
+      "code": "safe-encased-in-concrete",
+      "display": "Safe Encased in Concrete",
+      "definition": "Safe Encased in Concrete — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coffre-fort encastré dans le béton"
+        }
+      ]
+    },
+    {
+      "code": "secured-or-fastened-to-the-premises-other-than-floor",
+      "display": "Secured or Fastened to the Premises (Other Than Floor)",
+      "definition": "Secured or Fastened to the Premises (Other Than Floor) — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fixé ou attaché sur les lieux (autre que le plancher)"
+        }
+      ]
+    },
+    {
+      "code": "steel-bars-on-openings",
+      "display": "Steel Bars on Openings",
+      "definition": "Steel Bars on Openings — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Barres d'acier sur les ouvertures"
+        }
+      ]
+    },
+    {
+      "code": "windows-protected-with-glass-breakage-detectors",
+      "display": "Windows Protected with Glass Breakage Detectors",
+      "definition": "Windows Protected with Glass Breakage Detectors — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fenêtres protégées par des détecteurs de bris de verre"
+        }
+      ]
+    },
+    {
+      "code": "common-tenant-walls-reinforced-with-steel-mesh",
+      "display": "Common Tenant Walls Reinforced with Steel Mesh",
+      "definition": "Common Tenant Walls Reinforced with Steel Mesh — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Murs mitoyens renforcés d'armature en treillis métallique"
+        }
+      ]
+    },
+    {
+      "code": "steel-post-at-front-and-rear-to-prevent-vehicle-entry",
+      "display": "Steel Post at Front and Rear to Prevent Vehicle Entry",
+      "definition": "Steel Post at Front and Rear to Prevent Vehicle Entry — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poteau d'acier à l'avant et à l'arrière pour empêcher l'entrée des véhicules"
+        }
+      ]
+    },
+    {
+      "code": "stock-secured-separate-enclosure-when-business-closed",
+      "display": "Stock Secured -Separate Enclosure When Business Closed",
+      "definition": "Stock Secured -Separate Enclosure When Business Closed — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marchandises protégées - Dans un enclos séparé en-dehors des heures d'affaires"
+        }
+      ]
+    },
+    {
+      "code": "exterior-doors-of-sturdy-construction-inside-hinges",
+      "display": "Exterior Doors of Sturdy Construction, Inside Hinges",
+      "definition": "Exterior Doors of Sturdy Construction, Inside Hinges — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Portes extérieures de construction solide, charnières intérieures"
+        }
+      ]
+    },
+    {
+      "code": "hold-up-buttons",
+      "display": "Hold-up Buttons",
+      "definition": "Hold-up Buttons — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boutons d'urgence en cas de cambriolage"
+        }
+      ]
+    },
+    {
+      "code": "windows-protected-by-ulc-security-film",
+      "display": "Windows Protected by ULC Security Film",
+      "definition": "Windows Protected by ULC Security Film — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fenêtres protégées par une pellicule de sécurité homologuée ULC"
+        }
+      ]
+    },
+    {
+      "code": "skylight-and-roof-air-conditioner-openings-blocked-off",
+      "display": "Skylight and Roof Air Conditioner Openings Blocked Off",
+      "definition": "Skylight and Roof Air Conditioner Openings Blocked Off — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ouvertures des lanterneaux et des climatiseurs en toiture obturées"
+        }
+      ]
+    },
+    {
+      "code": "alarm-fine-wire-protecting-openings",
+      "display": "Alarm 'Fine Wire' Protecting Openings",
+      "definition": "Alarm 'Fine Wire' Protecting Openings — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Système d'alarme \"fil électrique fin\" protégeant les ouvertures"
+        }
+      ]
+    },
+    {
+      "code": "loading-doors-of-metal-construction-secured-internally",
+      "display": "Loading Doors of Metal Construction,Secured Internally",
+      "definition": "Loading Doors of Metal Construction,Secured Internally — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Portes de l'aire de chargement en métal, protégées de l'intérieur"
+        }
+      ]
+    },
+    {
+      "code": "warehouse-area-alarmed-separately-from-office",
+      "display": "Warehouse Area Alarmed Separately from Office",
+      "definition": "Warehouse Area Alarmed Separately from Office — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entrepôt muni d'un système d'alarme distinct du bureau"
+        }
+      ]
+    },
+    {
+      "code": "stockroom-ceiling-entirely-covered-by-motion-sensor",
+      "display": "Stockroom Ceiling Entirely Covered by Motion Sensor",
+      "definition": "Stockroom Ceiling Entirely Covered by Motion Sensor — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plafond de l'entrepôt entièrement couvert par un détecteur de mouvement"
+        }
+      ]
+    },
+    {
+      "code": "additional-combination-lock",
+      "display": "Additional Combination Lock",
+      "definition": "Additional Combination Lock — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Serrure à combinaison supplémentaire"
+        }
+      ]
+    },
+    {
+      "code": "multiple-lock-styles",
+      "display": "Multiple Lock Styles",
+      "definition": "Multiple Lock Styles — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À serrures multiples"
+        }
+      ]
+    },
+    {
+      "code": "drop-slot",
+      "display": "Drop Slot",
+      "definition": "Drop Slot — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coffre de nuit"
+        }
+      ]
+    },
+    {
+      "code": "additional-key",
+      "display": "Additional Key",
+      "definition": "Additional Key — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clé supplémentaire"
+        }
+      ]
+    },
+    {
+      "code": "timed-opening-and-or-closing",
+      "display": "Timed Opening and/or Closing",
+      "definition": "Timed Opening and/or Closing — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ouverture et/ou fermeture programmées"
+        }
+      ]
+    },
+    {
+      "code": "spray-booth",
+      "display": "Spray Booth",
+      "definition": "Spray Booth — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cabine/zone de pulvérisation"
+        }
+      ]
+    },
+    {
+      "code": "dust-collector",
+      "display": "Dust Collector",
+      "definition": "Dust Collector — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Capteur de poussière"
+        }
+      ]
+    },
+    {
+      "code": "fence-with-locks",
+      "display": "Fence with Locks",
+      "definition": "Fence with Locks — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clôture munie d'une serrure"
+        }
+      ]
+    },
+    {
+      "code": "police-patrols",
+      "display": "Police Patrols",
+      "definition": "Police Patrols — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Patrouilles de police"
+        }
+      ]
+    },
+    {
+      "code": "alarms-automobile-parking-garage-only",
+      "display": "Alarms (Automobile Parking Garage only)",
+      "definition": "Alarms (Automobile Parking Garage only) — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Système d'alarme (Garage de stationnement automobile seulement)"
+        }
+      ]
+    },
+    {
+      "code": "safe",
+      "display": "Safe",
+      "definition": "Safe — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coffre-fort"
+        }
+      ]
+    },
+    {
+      "code": "none",
+      "display": "None",
+      "definition": "None — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "smoke-detectors",
+      "display": "Smoke Detectors",
+      "definition": "Smoke Detectors — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détecteurs de fumée"
+        }
+      ]
+    },
+    {
+      "code": "portable-extinguishers",
+      "display": "Portable Extinguishers",
+      "definition": "Portable Extinguishers — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Extincteur Portable"
+        }
+      ]
+    },
+    {
+      "code": "roll-down-security-shields",
+      "display": "Roll Down Security Shields",
+      "definition": "Roll Down Security Shields — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boucliers de sécurité déroullants"
+        }
+      ]
+    },
+    {
+      "code": "monitored-surveillance-cameras",
+      "display": "Monitored Surveillance Cameras",
+      "definition": "Monitored Surveillance Cameras — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caméras de surveillance contrôllées"
+        }
+      ]
+    },
+    {
+      "code": "unmonitored-surveillance-cameras",
+      "display": "Unmonitored Surveillance Cameras",
+      "definition": "Unmonitored Surveillance Cameras — protection type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caméras de surveillance non contrôllées"
+        }
+      ]
+    }
+  ]
+}

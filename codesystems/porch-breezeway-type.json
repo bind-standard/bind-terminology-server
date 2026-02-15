@@ -1,0 +1,89 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "porch-breezeway-type",
+  "url": "https://bind.codes/porch-breezeway-type",
+  "name": "PorchBreezewayType",
+  "title": "Porch Breezeway Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Porch Breezeway Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "B",
+      "display": "Covered Breezeway",
+      "definition": "Covered Breezeway — porch breezeway type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Passage recouvert"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "display": "Car Port",
+      "definition": "Car Port — porch breezeway type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Abri d'auto"
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "display": "Enclosed Deck",
+      "definition": "Enclosed Deck — porch breezeway type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrasse fermée"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Pool Deck",
+      "definition": "Pool Deck — porch breezeway type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plage"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "display": "Roof Top Deck",
+      "definition": "Roof Top Deck — porch breezeway type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrasse sur le toit"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "Screened-in Porch",
+      "definition": "Screened-in Porch — porch breezeway type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véranda avec moustiquaires"
+        }
+      ]
+    },
+    {
+      "code": "V",
+      "display": "Veranda",
+      "definition": "Veranda — porch breezeway type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véranda"
+        }
+      ]
+    }
+  ]
+}

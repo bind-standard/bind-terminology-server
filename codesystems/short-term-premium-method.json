@@ -1,0 +1,56 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "short-term-premium-method",
+  "url": "https://bind.codes/short-term-premium-method",
+  "name": "ShortTermPremiumMethod",
+  "title": "Short Term Premium Method",
+  "status": "draft",
+  "language": "en",
+  "description": "Short Term Premium Method codes for insurance operations.",
+  "concept": [
+    {
+      "code": "B",
+      "display": "Not Short Term",
+      "definition": "Not Short Term — short term premium method code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pas de court terme"
+        }
+      ]
+    },
+    {
+      "code": "O",
+      "display": "Other",
+      "definition": "Other — short term premium method code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Pro-rata",
+      "definition": "Pro-rata — short term premium method code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Prorata"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "Short Rate",
+      "definition": "Short Rate — short term premium method code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Taux à court terme"
+        }
+      ]
+    }
+  ]
+}

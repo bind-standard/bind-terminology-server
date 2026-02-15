@@ -1,0 +1,67 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "binder-purpose",
+  "url": "https://bind.codes/binder-purpose",
+  "name": "BinderPurpose",
+  "title": "Binder Purpose",
+  "status": "draft",
+  "language": "en",
+  "description": "Binder Purpose codes for insurance operations.",
+  "concept": [
+    {
+      "code": "A",
+      "display": "Additional Coverage",
+      "definition": "Additional Coverage — binder purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garanties supplémentaires"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "display": "Policy Change",
+      "definition": "Policy Change — binder purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Modification de police"
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "display": "Extension to Existing Policy",
+      "definition": "Extension to Existing Policy — binder purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Extension de la police actuelle"
+        }
+      ]
+    },
+    {
+      "code": "N",
+      "display": "New Policy",
+      "definition": "New Policy — binder purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nouvelle police"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "display": "Renewal Binder",
+      "definition": "Renewal Binder — binder purpose code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Note de couverture - Renouvellement"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "restaurant-establishment-type",
+  "url": "https://bind.codes/restaurant-establishment-type",
+  "name": "RestaurantEstablishmentType",
+  "title": "Restaurant Establishment Type Cd",
+  "status": "draft",
+  "language": "en",
+  "description": "Restaurant Establishment codes for insurance operations.",
+  "concept": [
+    {
+      "code": "dine-in",
+      "display": "Dine-In",
+      "definition": "Dine-In — restaurant establishment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dîner Dans"
+        }
+      ]
+    },
+    {
+      "code": "table-service",
+      "display": "Table Service",
+      "definition": "Table Service — restaurant establishment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service à Table"
+        }
+      ]
+    },
+    {
+      "code": "coffee-shop",
+      "display": "Coffee Shop",
+      "definition": "Coffee Shop — restaurant establishment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Café"
+        }
+      ]
+    },
+    {
+      "code": "hot-dog-cart",
+      "display": "Hot Dog Cart",
+      "definition": "Hot Dog Cart — restaurant establishment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chariot à Hot‑Dog"
+        }
+      ]
+    },
+    {
+      "code": "food-cart",
+      "display": "Food Cart",
+      "definition": "Food Cart — restaurant establishment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chariot de Nourriture"
+        }
+      ]
+    },
+    {
+      "code": "mobile-food-truck-without-cooking",
+      "display": "Mobile Food Truck without Cooking",
+      "definition": "Mobile Food Truck without Cooking — restaurant establishment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion de Cuisine Mobile sans Cuisson"
+        }
+      ]
+    },
+    {
+      "code": "mobile-food-truck-with-cooking",
+      "display": "Mobile Food Truck with Cooking",
+      "definition": "Mobile Food Truck with Cooking — restaurant establishment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion de Cuisine Mobile avec Cuisson"
+        }
+      ]
+    },
+    {
+      "code": "shopping-mall-food-counter",
+      "display": "Shopping Mall Food Counter",
+      "definition": "Shopping Mall Food Counter — restaurant establishment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comptoir Alimentaire du Centre Commercial"
+        }
+      ]
+    }
+  ]
+}

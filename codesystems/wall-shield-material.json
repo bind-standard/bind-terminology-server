@@ -1,0 +1,100 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "wall-shield-material",
+  "url": "https://bind.codes/wall-shield-material",
+  "name": "WallShieldMaterial",
+  "title": "Wall Shield Material",
+  "status": "draft",
+  "language": "en",
+  "description": "Wall Shield Material codes for insurance operations.",
+  "concept": [
+    {
+      "code": "drywall",
+      "display": "Drywall",
+      "definition": "Drywall — wall shield material code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Panneau de gypse"
+        }
+      ]
+    },
+    {
+      "code": "metal",
+      "display": "Metal",
+      "definition": "Metal — wall shield material code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Métal"
+        }
+      ]
+    },
+    {
+      "code": "sheet-wall",
+      "display": "Sheet Wall",
+      "definition": "Sheet Wall — wall shield material code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Panneau de gypse"
+        }
+      ]
+    },
+    {
+      "code": "lathe-and-plaster",
+      "display": "Lathe and Plaster",
+      "definition": "Lathe and Plaster — wall shield material code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Latte et plâtre"
+        }
+      ]
+    },
+    {
+      "code": "brick",
+      "display": "Brick",
+      "definition": "Brick — wall shield material code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Brique"
+        }
+      ]
+    },
+    {
+      "code": "ceramic-tile",
+      "display": "Ceramic Tile",
+      "definition": "Ceramic Tile — wall shield material code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tuile de céramique"
+        }
+      ]
+    },
+    {
+      "code": "concrete",
+      "display": "Concrete",
+      "definition": "Concrete — wall shield material code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — wall shield material code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    }
+  ]
+}

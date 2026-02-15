@@ -1,0 +1,78 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "reason-liability-refused",
+  "url": "https://bind.codes/reason-liability-refused",
+  "name": "ReasonLiabilityRefused",
+  "title": "Reason Liability Refused",
+  "status": "draft",
+  "language": "en",
+  "description": "Reason Liability Refused codes for insurance operations.",
+  "concept": [
+    {
+      "code": "referred-to-a-garage-policy",
+      "display": "Referred to a Garage Policy",
+      "definition": "Referred to a Garage Policy — reason liability refused code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référé à une police des garagistes"
+        }
+      ]
+    },
+    {
+      "code": "referred-to-a-commercial-general-liability-policy",
+      "display": "Referred to a Commercial General Liability Policy",
+      "definition": "Referred to a Commercial General Liability Policy — reason liability refused code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référé à une police en responsabilité civile des entreprises"
+        }
+      ]
+    },
+    {
+      "code": "permanent-garaging",
+      "display": "Permanent Garaging",
+      "definition": "Permanent Garaging — reason liability refused code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remisage permanent"
+        }
+      ]
+    },
+    {
+      "code": "temporary-garaging",
+      "display": "Temporary Garaging",
+      "definition": "Temporary Garaging — reason liability refused code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remisage temporaire"
+        }
+      ]
+    },
+    {
+      "code": "winter-garaging",
+      "display": "Winter Garaging",
+      "definition": "Winter Garaging — reason liability refused code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreposage pour l'hiver"
+        }
+      ]
+    },
+    {
+      "code": "snowmobile-referred-to-commercial-general-liability",
+      "display": "Snowmobile Referred to Commercial General Liability",
+      "definition": "Snowmobile Referred to Commercial General Liability — reason liability refused code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Motoneige - Référé en responsabilité civile des entreprises"
+        }
+      ]
+    }
+  ]
+}

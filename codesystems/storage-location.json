@@ -1,0 +1,67 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "storage-location",
+  "url": "https://bind.codes/storage-location",
+  "name": "StorageLocation",
+  "title": "Storage Location",
+  "status": "draft",
+  "language": "en",
+  "description": "Storage Location codes for insurance operations.",
+  "concept": [
+    {
+      "code": "on-premises-inside",
+      "display": "On-premises Inside",
+      "definition": "On-premises Inside — storage location code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sur les lieux à l'intérieur"
+        }
+      ]
+    },
+    {
+      "code": "on-premises-outside",
+      "display": "On-premises Outside",
+      "definition": "On-premises Outside — storage location code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sur les lieux à l'extérieur"
+        }
+      ]
+    },
+    {
+      "code": "off-premises-inside",
+      "display": "Off-premises Inside",
+      "definition": "Off-premises Inside — storage location code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors les lieux à l'intérieur"
+        }
+      ]
+    },
+    {
+      "code": "off-premises-outside",
+      "display": "Off-premises Outside",
+      "definition": "Off-premises Outside — storage location code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors les lieux à l'extérieur"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — storage location code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    }
+  ]
+}

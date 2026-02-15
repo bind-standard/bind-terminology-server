@@ -1,0 +1,936 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "role-type",
+  "url": "https://bind.codes/role-type",
+  "name": "RoleType",
+  "title": "Role Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Role Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "insurance-contact",
+      "display": "Insurance Contact",
+      "definition": "Insurance Contact — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Personne-ressource chez l'assureur"
+        }
+      ]
+    },
+    {
+      "code": "additional-interest",
+      "display": "Additional Interest",
+      "definition": "Additional Interest — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Créancier additionnel"
+        }
+      ]
+    },
+    {
+      "code": "authorized-official",
+      "display": "Authorized Official",
+      "definition": "Authorized Official — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fonctionnaire autorisé"
+        }
+      ]
+    },
+    {
+      "code": "financial-institution",
+      "display": "Financial Institution",
+      "definition": "Financial Institution — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Institution financière"
+        }
+      ]
+    },
+    {
+      "code": "insured",
+      "display": "Insured",
+      "definition": "Insured — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assuré"
+        }
+      ]
+    },
+    {
+      "code": "insurance-beneficiary",
+      "display": "Insurance Beneficiary",
+      "definition": "Insurance Beneficiary — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bénéficiaire"
+        }
+      ]
+    },
+    {
+      "code": "broker",
+      "display": "Broker",
+      "definition": "Broker — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courtier"
+        }
+      ]
+    },
+    {
+      "code": "claims-contact",
+      "display": "Claims Contact",
+      "definition": "Claims Contact — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nom de l'agent des réclamations"
+        }
+      ]
+    },
+    {
+      "code": "producer",
+      "display": "Producer",
+      "definition": "Producer — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Producteur d'assurance"
+        }
+      ]
+    },
+    {
+      "code": "insurance-company",
+      "display": "Insurance Company",
+      "definition": "Insurance Company — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie d'assurance"
+        }
+      ]
+    },
+    {
+      "code": "joint-insured",
+      "display": "Joint Insured",
+      "definition": "Joint Insured — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coassuré"
+        }
+      ]
+    },
+    {
+      "code": "lender",
+      "display": "Lender",
+      "definition": "Lender — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Prêteur"
+        }
+      ]
+    },
+    {
+      "code": "named-insured",
+      "display": "Named Insured",
+      "definition": "Named Insured — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assuré désigné"
+        }
+      ]
+    },
+    {
+      "code": "occupant",
+      "display": "Occupant",
+      "definition": "Occupant — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Occupant"
+        }
+      ]
+    },
+    {
+      "code": "parent-company",
+      "display": "Parent Company",
+      "definition": "Parent Company — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société mère"
+        }
+      ]
+    },
+    {
+      "code": "prior-insurer",
+      "display": "Prior Insurer",
+      "definition": "Prior Insurer — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assureur précédent"
+        }
+      ]
+    },
+    {
+      "code": "contact-party",
+      "display": "Contact Party",
+      "definition": "Contact Party — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Personne ressource"
+        }
+      ]
+    },
+    {
+      "code": "payor",
+      "display": "Payor",
+      "definition": "Payor — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Payeur"
+        }
+      ]
+    },
+    {
+      "code": "reinsurance-company",
+      "display": "Reinsurance Company",
+      "definition": "Reinsurance Company — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie de réassurance"
+        }
+      ]
+    },
+    {
+      "code": "subsidiary-company",
+      "display": "Subsidiary Company",
+      "definition": "Subsidiary Company — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Filiale"
+        }
+      ]
+    },
+    {
+      "code": "principal-partner",
+      "display": "Principal/Partner",
+      "definition": "Principal/Partner — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Directeur/associé"
+        }
+      ]
+    },
+    {
+      "code": "previous-operating-name",
+      "display": "Previous Operating Name",
+      "definition": "Previous Operating Name — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nom commercial précédent"
+        }
+      ]
+    },
+    {
+      "code": "additional-insured",
+      "display": "Additional Insured",
+      "definition": "Additional Insured — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assuré additionnel"
+        }
+      ]
+    },
+    {
+      "code": "employee",
+      "display": "Employee",
+      "definition": "Employee — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employé"
+        }
+      ]
+    },
+    {
+      "code": "client-customer-of-insured",
+      "display": "Client/Customer of Insured",
+      "definition": "Client/Customer of Insured — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Client de l'assuré"
+        }
+      ]
+    },
+    {
+      "code": "operating-name",
+      "display": "Operating Name",
+      "definition": "Operating Name — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nom commercial"
+        }
+      ]
+    },
+    {
+      "code": "production-company",
+      "display": "Production Company",
+      "definition": "Production Company — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société de production"
+        }
+      ]
+    },
+    {
+      "code": "president",
+      "display": "President",
+      "definition": "President — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Président"
+        }
+      ]
+    },
+    {
+      "code": "vice-president",
+      "display": "Vice-president",
+      "definition": "Vice-president — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vice-président"
+        }
+      ]
+    },
+    {
+      "code": "secretary",
+      "display": "Secretary",
+      "definition": "Secretary — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Secrétaire"
+        }
+      ]
+    },
+    {
+      "code": "treasurer",
+      "display": "Treasurer",
+      "definition": "Treasurer — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trésorier"
+        }
+      ]
+    },
+    {
+      "code": "director-of-organization",
+      "display": "Director of Organization",
+      "definition": "Director of Organization — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Directeur de l'entreprise"
+        }
+      ]
+    },
+    {
+      "code": "production-manager",
+      "display": "Production Manager",
+      "definition": "Production Manager — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Directeur de la production"
+        }
+      ]
+    },
+    {
+      "code": "architect",
+      "display": "Architect",
+      "definition": "Architect — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Architecte"
+        }
+      ]
+    },
+    {
+      "code": "engineer",
+      "display": "Engineer",
+      "definition": "Engineer — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ingénieur"
+        }
+      ]
+    },
+    {
+      "code": "auditor-external",
+      "display": "Auditor -External",
+      "definition": "Auditor -External — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vérificateur - Externe"
+        }
+      ]
+    },
+    {
+      "code": "actuary",
+      "display": "Actuary",
+      "definition": "Actuary — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Actuaire"
+        }
+      ]
+    },
+    {
+      "code": "doctor",
+      "display": "Doctor",
+      "definition": "Doctor — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Médecin"
+        }
+      ]
+    },
+    {
+      "code": "nurse",
+      "display": "Nurse",
+      "definition": "Nurse — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infirmière"
+        }
+      ]
+    },
+    {
+      "code": "healthcare-professional",
+      "display": "Healthcare Professional",
+      "definition": "Healthcare Professional — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Professionnel de la santé"
+        }
+      ]
+    },
+    {
+      "code": "student",
+      "display": "Student",
+      "definition": "Student — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Étudiant"
+        }
+      ]
+    },
+    {
+      "code": "visitor",
+      "display": "Visitor",
+      "definition": "Visitor — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Visiteur"
+        }
+      ]
+    },
+    {
+      "code": "daycare-child",
+      "display": "Daycare Child",
+      "definition": "Daycare Child — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Enfant en garderie"
+        }
+      ]
+    },
+    {
+      "code": "site-owner",
+      "display": "Site Owner",
+      "definition": "Site Owner — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriétaire de site"
+        }
+      ]
+    },
+    {
+      "code": "volunteer",
+      "display": "Volunteer",
+      "definition": "Volunteer — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Volontaire"
+        }
+      ]
+    },
+    {
+      "code": "agent-of-applicant-insured",
+      "display": "Agent of Applicant/Insured",
+      "definition": "Agent of Applicant/Insured — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agent du proposant/assuré"
+        }
+      ]
+    },
+    {
+      "code": "officer-of-organization",
+      "display": "Officer of Organization",
+      "definition": "Officer of Organization — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Membre de la direction de l'entreprise"
+        }
+      ]
+    },
+    {
+      "code": "paymaster",
+      "display": "Paymaster",
+      "definition": "Paymaster — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsable de la paie"
+        }
+      ]
+    },
+    {
+      "code": "collector",
+      "display": "Collector",
+      "definition": "Collector — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agent de recouvrement"
+        }
+      ]
+    },
+    {
+      "code": "delivery-person-independent",
+      "display": "Delivery Person (Independent)",
+      "definition": "Delivery Person (Independent) — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Livreur (indépendant)"
+        }
+      ]
+    },
+    {
+      "code": "salesperson",
+      "display": "Salesperson",
+      "definition": "Salesperson — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vendeur"
+        }
+      ]
+    },
+    {
+      "code": "messenger-independent",
+      "display": "Messenger (Independent)",
+      "definition": "Messenger (Independent) — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Messager (indépendant)"
+        }
+      ]
+    },
+    {
+      "code": "auditor-internal",
+      "display": "Auditor -Internal",
+      "definition": "Auditor -Internal — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vérificateur - Interne"
+        }
+      ]
+    },
+    {
+      "code": "accountant",
+      "display": "Accountant",
+      "definition": "Accountant — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comptable"
+        }
+      ]
+    },
+    {
+      "code": "inventory-firm",
+      "display": "Inventory Firm",
+      "definition": "Inventory Firm — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreprise d'inventaire (d'entreposage)"
+        }
+      ]
+    },
+    {
+      "code": "bookkeeper",
+      "display": "Bookkeeper",
+      "definition": "Bookkeeper — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aide-comptable"
+        }
+      ]
+    },
+    {
+      "code": "appraiser",
+      "display": "Appraiser",
+      "definition": "Appraiser — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Estimateur"
+        }
+      ]
+    },
+    {
+      "code": "adjuster",
+      "display": "Adjuster",
+      "definition": "Adjuster — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Expert en sinistres"
+        }
+      ]
+    },
+    {
+      "code": "clerical",
+      "display": "Clerical",
+      "definition": "Clerical — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commis"
+        }
+      ]
+    },
+    {
+      "code": "cashier",
+      "display": "Cashier",
+      "definition": "Cashier — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caissier"
+        }
+      ]
+    },
+    {
+      "code": "cashier-assistant",
+      "display": "Cashier -Assistant",
+      "definition": "Cashier -Assistant — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assistant Caissier"
+        }
+      ]
+    },
+    {
+      "code": "branch-manager",
+      "display": "Branch Manager",
+      "definition": "Branch Manager — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Directeur de succursale"
+        }
+      ]
+    },
+    {
+      "code": "administrative-assistant",
+      "display": "Administrative Assistant",
+      "definition": "Administrative Assistant — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adjointe administrative"
+        }
+      ]
+    },
+    {
+      "code": "supervisor",
+      "display": "Supervisor",
+      "definition": "Supervisor — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Superviseur"
+        }
+      ]
+    },
+    {
+      "code": "department-manager",
+      "display": "Department Manager",
+      "definition": "Department Manager — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Directeur de département"
+        }
+      ]
+    },
+    {
+      "code": "class-i-employee",
+      "display": "Class I Employee",
+      "definition": "Class I Employee — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employé - classe I"
+        }
+      ]
+    },
+    {
+      "code": "class-ii-employee",
+      "display": "Class II Employee",
+      "definition": "Class II Employee — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employé - classe II"
+        }
+      ]
+    },
+    {
+      "code": "professional",
+      "display": "Professional",
+      "definition": "Professional — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Professionnel"
+        }
+      ]
+    },
+    {
+      "code": "members",
+      "display": "Members",
+      "definition": "Members — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Membres"
+        }
+      ]
+    },
+    {
+      "code": "board",
+      "display": "Board",
+      "definition": "Board — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conseil d'administration"
+        }
+      ]
+    },
+    {
+      "code": "authorized-inspection-company",
+      "display": "Authorized Inspection Company",
+      "definition": "Authorized Inspection Company — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie d'inspection autorisée"
+        }
+      ]
+    },
+    {
+      "code": "inspector",
+      "display": "Inspector",
+      "definition": "Inspector — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inspecteur"
+        }
+      ]
+    },
+    {
+      "code": "fire-department",
+      "display": "Fire Department",
+      "definition": "Fire Department — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service d'incendie"
+        }
+      ]
+    },
+    {
+      "code": "wett-inspector",
+      "display": "WETT Inspector",
+      "definition": "WETT Inspector — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inspecteur WETT"
+        }
+      ]
+    },
+    {
+      "code": "alarm-company",
+      "display": "Alarm Company",
+      "definition": "Alarm Company — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie - systèmes d'alarme"
+        }
+      ]
+    },
+    {
+      "code": "employer",
+      "display": "Employer",
+      "definition": "Employer — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employeur"
+        }
+      ]
+    },
+    {
+      "code": "boarder",
+      "display": "Boarder",
+      "definition": "Boarder — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chambreur"
+        }
+      ]
+    },
+    {
+      "code": "foster-child",
+      "display": "Foster Child",
+      "definition": "Foster Child — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Enfant en famille d'accueil"
+        }
+      ]
+    },
+    {
+      "code": "group-home-individual",
+      "display": "Group Home Individual",
+      "definition": "Group Home Individual — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Individu vivant en foyer de groupe"
+        }
+      ]
+    },
+    {
+      "code": "employee-permanent-resident",
+      "display": "Employee-Permanent Resident",
+      "definition": "Employee-Permanent Resident — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employé-résident permanent"
+        }
+      ]
+    },
+    {
+      "code": "tourist",
+      "display": "Tourist",
+      "definition": "Tourist — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Touriste"
+        }
+      ]
+    },
+    {
+      "code": "unknown",
+      "display": "Unknown",
+      "definition": "Unknown — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        }
+      ]
+    },
+    {
+      "code": "none",
+      "display": "None",
+      "definition": "None — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — role type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,455 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "line-of-business",
+  "url": "https://bind.codes/line-of-business",
+  "name": "LineOfBusiness",
+  "title": "Line of Business",
+  "status": "draft",
+  "description": "Commercial insurance lines of business.",
+  "concept": [
+    {
+      "code": "GL",
+      "display": "General Liability",
+      "definition": "Commercial general liability insurance."
+    },
+    {
+      "code": "property",
+      "display": "Property",
+      "definition": "Commercial property insurance."
+    },
+    {
+      "code": "WC",
+      "display": "Workers' Compensation",
+      "definition": "Workers' compensation insurance."
+    },
+    {
+      "code": "commercial-auto",
+      "display": "Commercial Auto",
+      "definition": "Commercial automobile insurance."
+    },
+    {
+      "code": "BOP",
+      "display": "Business Owner's Policy",
+      "definition": "Business owner's policy combining property and liability."
+    },
+    {
+      "code": "inland-marine",
+      "display": "Inland Marine",
+      "definition": "Inland marine insurance for goods in transit or movable property."
+    },
+    {
+      "code": "cyber",
+      "display": "Cyber",
+      "definition": "Cyber liability and data breach insurance."
+    },
+    {
+      "code": "professional-liability",
+      "display": "Professional Liability",
+      "definition": "Professional liability / errors and omissions insurance."
+    },
+    {
+      "code": "D&O",
+      "display": "Directors & Officers",
+      "definition": "Directors and officers liability insurance."
+    },
+    {
+      "code": "EPLI",
+      "display": "Employment Practices Liability",
+      "definition": "Employment practices liability insurance."
+    },
+    {
+      "code": "umbrella",
+      "display": "Umbrella",
+      "definition": "Commercial umbrella liability insurance."
+    },
+    {
+      "code": "excess",
+      "display": "Excess",
+      "definition": "Excess liability insurance above primary limits."
+    },
+    {
+      "code": "AUTO",
+      "display": "Private Passenger Auto",
+      "definition": "Private Passenger Auto — line of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture de tourisme"
+        }
+      ]
+    },
+    {
+      "code": "BI",
+      "display": "Business Interruption",
+      "definition": "Business Interruption — line of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pertes d'exploitation"
+        }
+      ]
+    },
+    {
+      "code": "CAUTO",
+      "display": "Individually Rated Commercial Automobile",
+      "definition": "Individually Rated Commercial Automobile — line of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicules utilitaires à tarification individuelle"
+        }
+      ]
+    },
+    {
+      "code": "CGL",
+      "display": "Commercial General Liability",
+      "definition": "Commercial General Liability — line of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité civile des Entreprises"
+        }
+      ]
+    },
+    {
+      "code": "COMM",
+      "display": "Commercial Lines - Miscellaneous",
+      "definition": "Commercial Lines - Miscellaneous — line of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des entreprises - Divers"
+        }
+      ]
+    },
+    {
+      "code": "CPROP",
+      "display": "Property - Commercial",
+      "definition": "Property - Commercial — line of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Biens - Entreprise"
+        }
+      ]
+    },
+    {
+      "code": "CRIME",
+      "display": "Crime",
+      "definition": "Crime — line of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vols et détournements"
+        }
+      ]
+    },
+    {
+      "code": "CUMB",
+      "display": "Umbrella Liability - Commercial",
+      "definition": "Umbrella Liability - Commercial — line of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité civile des entreprises (Umbrella)"
+        }
+      ]
+    },
+    {
+      "code": "DANDO",
+      "display": "Directors and Officers",
+      "definition": "Directors and Officers — line of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité civile des administrateurs et des dirigeants"
+        }
+      ]
+    },
+    {
+      "code": "EANDO",
+      "display": "Errors and Omissions",
+      "definition": "Errors and Omissions — line of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité civile professionnelle"
+        }
+      ]
+    },
+    {
+      "code": "FARM",
+      "display": "Farm Owners, Fire, Liability",
+      "definition": "Farm Owners, Fire, Liability — line of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriétaires de ferme, incendie, responsabilité civile"
+        }
+      ]
+    },
+    {
+      "code": "FIDEL",
+      "display": "Fidelity",
+      "definition": "Fidelity — line of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance contre les détournements"
+        }
+      ]
+    },
+    {
+      "code": "FLEET",
+      "display": "Commercial Fleet Automobile",
+      "definition": "Commercial Fleet Automobile — line of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des flottes automobile"
+        }
+      ]
+    },
+    {
+      "code": "GARG",
+      "display": "Commercial Garage Automobile",
+      "definition": "Commercial Garage Automobile — line of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des entreprises - Garagistes"
+        }
+      ]
+    },
+    {
+      "code": "HABL",
+      "display": "Habitational",
+      "definition": "Habitational — line of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Habitation"
+        }
+      ]
+    },
+    {
+      "code": "LIFE",
+      "display": "Life and Health - Miscellaneous",
+      "definition": "Life and Health - Miscellaneous — line of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vie et santé - Divers"
+        }
+      ]
+    },
+    {
+      "code": "MARIN",
+      "display": "Inland Marine",
+      "definition": "Inland Marine — line of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Risques divers"
+        }
+      ]
+    },
+    {
+      "code": "NOA",
+      "display": "Non-owned Automobile",
+      "definition": "Non-owned Automobile — line of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formule des non propriétaires (automobile n'appartenant pas à l'assuré)"
+        }
+      ]
+    },
+    {
+      "code": "PACK",
+      "display": "Package Policy - Commercial",
+      "definition": "Package Policy - Commercial — line of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police multirisques - Entreprises"
+        }
+      ]
+    },
+    {
+      "code": "PERS",
+      "display": "Personal Lines - Miscellaneous",
+      "definition": "Personal Lines - Miscellaneous — line of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des particuliers - Divers"
+        }
+      ]
+    },
+    {
+      "code": "PUMB",
+      "display": "Umbrella Liability - Personal",
+      "definition": "Umbrella Liability - Personal — line of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité civile des particuliers (Umbrella)"
+        }
+      ]
+    },
+    {
+      "code": "SURTY",
+      "display": "Surety",
+      "definition": "Surety — line of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cautionnements"
+        }
+      ]
+    },
+    {
+      "code": "WUP",
+      "display": "Wrap-up Liability",
+      "definition": "Wrap-up Liability — line of business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité civile globale de chantier"
+        }
+      ]
+    },
+    {
+      "code": "direct-damage-property",
+      "display": "Direct Damage (Property)",
+      "definition": "Direct Damage (Property) — line of business code."
+    },
+    {
+      "code": "general-liability",
+      "display": "General Liability",
+      "definition": "General Liability — line of business code."
+    },
+    {
+      "code": "non-owned-automobile",
+      "display": "Non-owned Automobile",
+      "definition": "Non-owned Automobile — line of business code."
+    },
+    {
+      "code": "property-and-liability-excluding-non-owned-automobile",
+      "display": "Property and Liability (Excluding Non-owned Automobile)",
+      "definition": "Property and Liability (Excluding Non-owned Automobile) — line of business code."
+    },
+    {
+      "code": "property-and-liability-including-non-owned-automobile",
+      "display": "Property and Liability (Including Non-owned Automobile)",
+      "definition": "Property and Liability (Including Non-owned Automobile) — line of business code."
+    },
+    {
+      "code": "glass",
+      "display": "Glass",
+      "definition": "Glass — line of business code."
+    },
+    {
+      "code": "crime",
+      "display": "Crime",
+      "definition": "Crime — line of business code."
+    },
+    {
+      "code": "fidelity",
+      "display": "Fidelity",
+      "definition": "Fidelity — line of business code."
+    },
+    {
+      "code": "umbrella-liability-commercial",
+      "display": "Umbrella Liability - Commercial",
+      "definition": "Umbrella Liability - Commercial — line of business code."
+    },
+    {
+      "code": "umbrella-liability-personal",
+      "display": "Umbrella Liability - Personal",
+      "definition": "Umbrella Liability - Personal — line of business code."
+    },
+    {
+      "code": "errors-and-omissions",
+      "display": "Errors and Omissions",
+      "definition": "Errors and Omissions — line of business code."
+    },
+    {
+      "code": "directors-and-officers",
+      "display": "Directors and Officers",
+      "definition": "Directors and Officers — line of business code."
+    },
+    {
+      "code": "automobile",
+      "display": "Automobile",
+      "definition": "Automobile — line of business code."
+    },
+    {
+      "code": "surety",
+      "display": "Surety",
+      "definition": "Surety — line of business code."
+    },
+    {
+      "code": "wrap-up-liability",
+      "display": "Wrap-up Liability",
+      "definition": "Wrap-up Liability — line of business code."
+    },
+    {
+      "code": "builders-risk",
+      "display": "Builders Risk",
+      "definition": "Builders Risk — line of business code."
+    },
+    {
+      "code": "BUILD",
+      "display": "Builders Risk",
+      "definition": "Builders Risk — line of business code."
+    },
+    {
+      "code": "computer-edp",
+      "display": "Computer/EDP",
+      "definition": "Computer/EDP — line of business code."
+    },
+    {
+      "code": "farm-personal",
+      "display": "Farm - Personal",
+      "definition": "Farm - Personal — line of business code."
+    },
+    {
+      "code": "farm-commercial",
+      "display": "Farm - Commercial",
+      "definition": "Farm - Commercial — line of business code."
+    },
+    {
+      "code": "commercial-fleet-automobile",
+      "display": "Commercial Fleet Automobile",
+      "definition": "Commercial Fleet Automobile — line of business code."
+    },
+    {
+      "code": "commercial-garage-automobile",
+      "display": "Commercial Garage Automobile",
+      "definition": "Commercial Garage Automobile — line of business code."
+    },
+    {
+      "code": "business-interruption",
+      "display": "Business Interruption",
+      "definition": "Business Interruption — line of business code."
+    },
+    {
+      "code": "equipment-breakdown",
+      "display": "Equipment Breakdown",
+      "definition": "Equipment Breakdown — line of business code."
+    },
+    {
+      "code": "EQB",
+      "display": "Equipment Breakdown",
+      "definition": "Equipment Breakdown — line of business code."
+    },
+    {
+      "code": "CYBER",
+      "display": "Commercial Cyber and Privacy Liability",
+      "definition": "Commercial Cyber and Privacy Liability — line of business code."
+    }
+  ],
+  "language": "en"
+}

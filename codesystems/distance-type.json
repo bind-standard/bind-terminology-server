@@ -1,0 +1,78 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "distance-type",
+  "url": "https://bind.codes/distance-type",
+  "name": "DistanceType",
+  "title": "Distance Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Distance Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "normal",
+      "display": "Normal",
+      "definition": "Normal — distance type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Normale"
+        }
+      ]
+    },
+    {
+      "code": "normal-operating-distance-one-way",
+      "display": "Normal Operating Distance - One Way",
+      "definition": "Normal Operating Distance - One Way — distance type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Distance Normale - Aller Simple"
+        }
+      ]
+    },
+    {
+      "code": "number-of-kms-from-border-to-most-common-us-destination",
+      "display": "Number of kms from border to most common US destination",
+      "definition": "Number of kms from border to most common US destination — distance type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nombre de kms de la frontière aux destinations américaines  les plus populaires"
+        }
+      ]
+    },
+    {
+      "code": "annual-percentage-use-in-us",
+      "display": "Annual percentage use in US",
+      "definition": "Annual percentage use in US — distance type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Le pourcentage annuel utilisé aux Etats-Unis"
+        }
+      ]
+    },
+    {
+      "code": "Average",
+      "display": "Average",
+      "definition": "Average — distance type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Moyenne"
+        }
+      ]
+    },
+    {
+      "code": "Maximum",
+      "display": "Maximum",
+      "definition": "Maximum — distance type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maximale"
+        }
+      ]
+    }
+  ]
+}

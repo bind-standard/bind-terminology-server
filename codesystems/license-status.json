@@ -1,0 +1,89 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "license-status",
+  "url": "https://bind.codes/license-status",
+  "name": "LicenseStatus",
+  "title": "License Status",
+  "status": "draft",
+  "language": "en",
+  "description": "License Status codes for insurance operations.",
+  "concept": [
+    {
+      "code": "in-force-or-permanent",
+      "display": "In-force or Permanent",
+      "definition": "In-force or Permanent — license status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En vigueur ou permanent"
+        }
+      ]
+    },
+    {
+      "code": "suspended",
+      "display": "Suspended",
+      "definition": "Suspended — license status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Suspendue"
+        }
+      ]
+    },
+    {
+      "code": "cancelled-or-revoked",
+      "display": "Cancelled or Revoked",
+      "definition": "Cancelled or Revoked — license status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Annulée ou retirée"
+        }
+      ]
+    },
+    {
+      "code": "pending",
+      "display": "Pending",
+      "definition": "Pending — license status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En instance"
+        }
+      ]
+    },
+    {
+      "code": "temporary",
+      "display": "Temporary",
+      "definition": "Temporary — license status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Temporaire"
+        }
+      ]
+    },
+    {
+      "code": "lapsed",
+      "display": "Lapsed",
+      "definition": "Lapsed — license status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Périmée"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — license status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    }
+  ]
+}

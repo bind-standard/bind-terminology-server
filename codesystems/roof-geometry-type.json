@@ -1,0 +1,77 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "roof-geometry-type",
+  "url": "https://bind.codes/roof-geometry-type",
+  "name": "RoofGeometryType",
+  "title": "Roof Geometry Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Roof Geometry Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "COMBINED",
+      "display": "Combined",
+      "definition": "Combined — roof geometry type code."
+    },
+    {
+      "code": "COMPLEX",
+      "display": "Complex",
+      "definition": "Complex — roof geometry type code."
+    },
+    {
+      "code": "FLAT",
+      "display": "Flat",
+      "definition": "Flat — roof geometry type code."
+    },
+    {
+      "code": "GABLE",
+      "display": "Gable End without Bracing",
+      "definition": "Gable End without Bracing — roof geometry type code."
+    },
+    {
+      "code": "GABLEBRACE",
+      "display": "Gabled End with Bracing",
+      "definition": "Gabled End with Bracing — roof geometry type code."
+    },
+    {
+      "code": "GAMBREL",
+      "display": "Gambrel",
+      "definition": "Gambrel — roof geometry type code."
+    },
+    {
+      "code": "HIP",
+      "display": "Hip",
+      "definition": "Hip — roof geometry type code."
+    },
+    {
+      "code": "MANSARD",
+      "display": "Mansard",
+      "definition": "Mansard — roof geometry type code."
+    },
+    {
+      "code": "PYRAMID",
+      "display": "Pyramid",
+      "definition": "Pyramid — roof geometry type code."
+    },
+    {
+      "code": "SHED",
+      "display": "Shed",
+      "definition": "Shed — roof geometry type code."
+    },
+    {
+      "code": "SLOPED",
+      "display": "Sloped",
+      "definition": "Sloped — roof geometry type code."
+    },
+    {
+      "code": "STEPPED",
+      "display": "Stepped",
+      "definition": "Stepped — roof geometry type code."
+    },
+    {
+      "code": "UN",
+      "display": "Unknown",
+      "definition": "Unknown — roof geometry type code."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "specific-test",
+  "url": "https://bind.codes/specific-test",
+  "name": "SpecificTest",
+  "title": "Specific Test",
+  "status": "draft",
+  "language": "en",
+  "description": "Specific Test codes for insurance operations.",
+  "concept": [
+    {
+      "code": "Diabetes",
+      "display": "Diabetes",
+      "definition": "Diabetes — specific test code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Diabète"
+        }
+      ]
+    },
+    {
+      "code": "Diastolic",
+      "display": "Diastolic",
+      "definition": "Diastolic — specific test code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Diastolique"
+        }
+      ]
+    },
+    {
+      "code": "Eye",
+      "display": "Eye",
+      "definition": "Eye — specific test code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Yeux"
+        }
+      ]
+    },
+    {
+      "code": "HeartAttack",
+      "display": "Heart Attack",
+      "definition": "Heart Attack — specific test code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Crise cardiaque"
+        }
+      ]
+    },
+    {
+      "code": "JobSafety",
+      "display": "Job safety",
+      "definition": "Job safety — specific test code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sécurité du  travail"
+        }
+      ]
+    },
+    {
+      "code": "Physical",
+      "display": "Physical",
+      "definition": "Physical — specific test code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Examen médical"
+        }
+      ]
+    },
+    {
+      "code": "Systolic",
+      "display": "Systolic",
+      "definition": "Systolic — specific test code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Systolique"
+        }
+      ]
+    },
+    {
+      "code": "TrafficSafety",
+      "display": "Traffic safety",
+      "definition": "Traffic safety — specific test code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sécurité routière"
+        }
+      ]
+    },
+    {
+      "code": "WorkplaceSafety",
+      "display": "Workplace safety",
+      "definition": "Workplace safety — specific test code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sécurité au travail"
+        }
+      ]
+    }
+  ]
+}

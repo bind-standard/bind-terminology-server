@@ -1,0 +1,67 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "reason-for-termination-weekly-indemnity",
+  "url": "https://bind.codes/reason-for-termination-weekly-indemnity",
+  "name": "ReasonForTerminationWeeklyIndemnity",
+  "title": "Reason For Termination Weekly Indemnity",
+  "status": "draft",
+  "language": "en",
+  "description": "Reason For Termination Weekly Indemnity codes for insurance operations.",
+  "concept": [
+    {
+      "code": "claimant-recovery",
+      "display": "Claimant Recovery",
+      "definition": "Claimant Recovery — reason for termination weekly indemnity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Droit à l'indemnité du demandeur"
+        }
+      ]
+    },
+    {
+      "code": "lump-sum-payment",
+      "display": "Lump Sum Payment",
+      "definition": "Lump Sum Payment — reason for termination weekly indemnity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Montant forfaitaire"
+        }
+      ]
+    },
+    {
+      "code": "dispute-of-resolution",
+      "display": "Dispute of Resolution",
+      "definition": "Dispute of Resolution — reason for termination weekly indemnity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conflit sur la résolution"
+        }
+      ]
+    },
+    {
+      "code": "expiry-of-benefits",
+      "display": "Expiry of Benefits",
+      "definition": "Expiry of Benefits — reason for termination weekly indemnity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Échéance des avantages"
+        }
+      ]
+    },
+    {
+      "code": "death-of-claimant",
+      "display": "Death of Claimant",
+      "definition": "Death of Claimant — reason for termination weekly indemnity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Décès du demandeur"
+        }
+      ]
+    }
+  ]
+}

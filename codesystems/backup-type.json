@@ -1,0 +1,45 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "backup-type",
+  "url": "https://bind.codes/backup-type",
+  "name": "BackupType",
+  "title": "Backup Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Backup Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "cloud",
+      "display": "Cloud",
+      "definition": "Cloud — backup type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infonuagique"
+        }
+      ]
+    },
+    {
+      "code": "offsite",
+      "display": "Offsite",
+      "definition": "Offsite — backup type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors site"
+        }
+      ]
+    },
+    {
+      "code": "onsite",
+      "display": "Onsite",
+      "definition": "Onsite — backup type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sur place"
+        }
+      ]
+    }
+  ]
+}

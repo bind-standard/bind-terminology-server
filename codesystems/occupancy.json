@@ -1,0 +1,364 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "occupancy",
+  "url": "https://bind.codes/occupancy",
+  "name": "Occupancy",
+  "title": "Occupancy",
+  "status": "draft",
+  "language": "en",
+  "description": "Occupancy codes for insurance operations.",
+  "concept": [
+    {
+      "code": "apartment-building-with-mercantile-occupancies",
+      "display": "Apartment Building (With Mercantile Occupancies)",
+      "definition": "Apartment Building (With Mercantile Occupancies) — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Immeuble d'appartements (avec commerces)"
+        }
+      ]
+    },
+    {
+      "code": "apartment-building-no-mercantile-occupancies",
+      "display": "Apartment Building (No Mercantile Occupancies)",
+      "definition": "Apartment Building (No Mercantile Occupancies) — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Immeuble d'appartements (sans commerces)"
+        }
+      ]
+    },
+    {
+      "code": "residential-condominium-no-mercantile-occupancies",
+      "display": "Residential Condominium (No Mercantile Occupancies)",
+      "definition": "Residential Condominium (No Mercantile Occupancies) — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copropriété résidentielle (sans commerces)"
+        }
+      ]
+    },
+    {
+      "code": "residential-condominium-with-mercantile-occupancies",
+      "display": "Residential Condominium (With Mercantile Occupancies)",
+      "definition": "Residential Condominium (With Mercantile Occupancies) — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copropriété résidentielle (avec commerces)"
+        }
+      ]
+    },
+    {
+      "code": "industrial-retail-condominium",
+      "display": "Industrial/Retail Condominium",
+      "definition": "Industrial/Retail Condominium — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copropriété industrielle/commerciale"
+        }
+      ]
+    },
+    {
+      "code": "dwelling",
+      "display": "Dwelling",
+      "definition": "Dwelling — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Habitation"
+        }
+      ]
+    },
+    {
+      "code": "townhouse-s",
+      "display": "Townhouse(s)",
+      "definition": "Townhouse(s) — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maison(s) de ville"
+        }
+      ]
+    },
+    {
+      "code": "strip-plaza",
+      "display": "Strip Plaza",
+      "definition": "Strip Plaza — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Centre commercial linéaire"
+        }
+      ]
+    },
+    {
+      "code": "industrial-mall",
+      "display": "Industrial Mall",
+      "definition": "Industrial Mall — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Centre commercial industriel"
+        }
+      ]
+    },
+    {
+      "code": "enclosed-mall",
+      "display": "Enclosed Mall",
+      "definition": "Enclosed Mall — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Galerie marchande"
+        }
+      ]
+    },
+    {
+      "code": "office-building",
+      "display": "Office Building",
+      "definition": "Office Building — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Immeuble de bureaux"
+        }
+      ]
+    },
+    {
+      "code": "single-mercantile-occupancy",
+      "display": "Single mercantile occupancy",
+      "definition": "Single mercantile occupancy — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Affectation commerciale simple"
+        }
+      ]
+    },
+    {
+      "code": "multiple-mercantile-occupancy",
+      "display": "Multiple Mercantile Occupancy",
+      "definition": "Multiple Mercantile Occupancy — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Affectation commerciale multiple"
+        }
+      ]
+    },
+    {
+      "code": "barn",
+      "display": "Barn",
+      "definition": "Barn — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grange"
+        }
+      ]
+    },
+    {
+      "code": "shed",
+      "display": "Shed",
+      "definition": "Shed — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hangar"
+        }
+      ]
+    },
+    {
+      "code": "garage",
+      "display": "Garage",
+      "definition": "Garage — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage"
+        }
+      ]
+    },
+    {
+      "code": "manufacturing-plant",
+      "display": "Manufacturing plant",
+      "definition": "Manufacturing plant — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Usine de fabrication"
+        }
+      ]
+    },
+    {
+      "code": "storage-facility",
+      "display": "Storage facility",
+      "definition": "Storage facility — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreposage"
+        }
+      ]
+    },
+    {
+      "code": "laboratory",
+      "display": "Laboratory",
+      "definition": "Laboratory — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Laboratoire"
+        }
+      ]
+    },
+    {
+      "code": "school",
+      "display": "School",
+      "definition": "School — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "École"
+        }
+      ]
+    },
+    {
+      "code": "hotel-motel",
+      "display": "Hotel/Motel",
+      "definition": "Hotel/Motel — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hôtel/motel"
+        }
+      ]
+    },
+    {
+      "code": "recreational-sport-complex",
+      "display": "Recreational/sport complex",
+      "definition": "Recreational/sport complex — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Complexe de loisirs/sports"
+        }
+      ]
+    },
+    {
+      "code": "house-of-worship-i-e-church-temple-etc",
+      "display": "House of worship (i.e. church, temple, etc.)",
+      "definition": "House of worship (i.e. church, temple, etc.) — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maison de prières (c.-à-d. église, temple, etc.)"
+        }
+      ]
+    },
+    {
+      "code": "hall-reception-facility",
+      "display": "Hall/Reception Facility",
+      "definition": "Hall/Reception Facility — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Salle de réception"
+        }
+      ]
+    },
+    {
+      "code": "trailer",
+      "display": "Trailer",
+      "definition": "Trailer — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque"
+        }
+      ]
+    },
+    {
+      "code": "log-cabin",
+      "display": "Log cabin",
+      "definition": "Log cabin — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maison en bois rond"
+        }
+      ]
+    },
+    {
+      "code": "cabin",
+      "display": "Cabin",
+      "definition": "Cabin — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cabine"
+        }
+      ]
+    },
+    {
+      "code": "toolshed",
+      "display": "Toolshed",
+      "definition": "Toolshed — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remise à outils"
+        }
+      ]
+    },
+    {
+      "code": "garden-shed",
+      "display": "Garden shed",
+      "definition": "Garden shed — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remise de jardin"
+        }
+      ]
+    },
+    {
+      "code": "residential",
+      "display": "Residential",
+      "definition": "Residential — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résidentiel"
+        }
+      ]
+    },
+    {
+      "code": "commercial",
+      "display": "Commercial",
+      "definition": "Commercial — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commercial"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — occupancy code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    }
+  ]
+}

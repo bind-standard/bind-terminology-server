@@ -1,0 +1,34 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "metal-storage-container",
+  "url": "https://bind.codes/metal-storage-container",
+  "name": "MetalStorageContainer",
+  "title": "Metal Storage Container",
+  "status": "draft",
+  "language": "en",
+  "description": "Metal Storage Container codes for insurance operations.",
+  "concept": [
+    {
+      "code": "inside",
+      "display": "Inside",
+      "definition": "Inside — metal storage container code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'intérieur"
+        }
+      ]
+    },
+    {
+      "code": "outside",
+      "display": "Outside",
+      "definition": "Outside — metal storage container code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'extérieur"
+        }
+      ]
+    }
+  ]
+}

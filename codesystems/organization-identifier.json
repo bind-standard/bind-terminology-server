@@ -1,0 +1,56 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "organization-identifier",
+  "url": "https://bind.codes/organization-identifier",
+  "name": "OrganizationIdentifier",
+  "title": "Organization Identifier",
+  "status": "draft",
+  "language": "en",
+  "description": "Organization Identifier codes for insurance operations.",
+  "concept": [
+    {
+      "code": "none-not-applicable",
+      "display": "None - Not Applicable",
+      "definition": "None - Not Applicable — organization identifier code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun - Sans objet"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — organization identifier code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "display": "Agency/Brokerage Responsibility",
+      "definition": "Agency/Brokerage Responsibility — organization identifier code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité du courtier/cabinet de courtage"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "display": "Company Responsibility",
+      "definition": "Company Responsibility — organization identifier code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité de l'assureur"
+        }
+      ]
+    }
+  ]
+}

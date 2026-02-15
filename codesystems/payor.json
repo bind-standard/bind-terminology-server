@@ -1,0 +1,210 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "payor",
+  "url": "https://bind.codes/payor",
+  "name": "Payor",
+  "title": "Payor",
+  "status": "draft",
+  "language": "en",
+  "description": "Payor codes for insurance operations.",
+  "concept": [
+    {
+      "code": "AF",
+      "display": "Attorney in Fact",
+      "definition": "Attorney in Fact — payor code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fondé de pouvoir"
+        }
+      ]
+    },
+    {
+      "code": "AG",
+      "display": "Agent/Broker",
+      "definition": "Agent/Broker — payor code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courtier"
+        }
+      ]
+    },
+    {
+      "code": "AI",
+      "display": "Additional Insured",
+      "definition": "Additional Insured — payor code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assuré additionnel"
+        }
+      ]
+    },
+    {
+      "code": "AL",
+      "display": "Additional Lessor",
+      "definition": "Additional Lessor — payor code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bailleur supplémentaire"
+        }
+      ]
+    },
+    {
+      "code": "CH",
+      "display": "Certificate Holder",
+      "definition": "Certificate Holder — payor code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détenteur de certificat"
+        }
+      ]
+    },
+    {
+      "code": "ES",
+      "display": "Escrow Corporation",
+      "definition": "Escrow Corporation — payor code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Corporation des fonds entiercés"
+        }
+      ]
+    },
+    {
+      "code": "EX",
+      "display": "Executor",
+      "definition": "Executor — payor code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exécuteur testamentaire"
+        }
+      ]
+    },
+    {
+      "code": "FC",
+      "display": "Finance Company",
+      "definition": "Finance Company — payor code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie de finance"
+        }
+      ]
+    },
+    {
+      "code": "IC",
+      "display": "Insurance Company",
+      "definition": "Insurance Company — payor code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie d'assurance"
+        }
+      ]
+    },
+    {
+      "code": "IN",
+      "display": "Insured",
+      "definition": "Insured — payor code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assuré"
+        }
+      ]
+    },
+    {
+      "code": "LE",
+      "display": "Lessee",
+      "definition": "Lessee — payor code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Locataire"
+        }
+      ]
+    },
+    {
+      "code": "LH",
+      "display": "Lienholder",
+      "definition": "Lienholder — payor code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Créancier"
+        }
+      ]
+    },
+    {
+      "code": "LP",
+      "display": "Loss Payee",
+      "definition": "Loss Payee — payor code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bénéficiaire"
+        }
+      ]
+    },
+    {
+      "code": "MG",
+      "display": "Mortgagee",
+      "definition": "Mortgagee — payor code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Créancier hypothécaire"
+        }
+      ]
+    },
+    {
+      "code": "MU",
+      "display": "Municipality",
+      "definition": "Municipality — payor code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Municipalité"
+        }
+      ]
+    },
+    {
+      "code": "OT",
+      "display": "Other",
+      "definition": "Other — payor code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "PI",
+      "display": "Both Loss Payee and Additional Insured",
+      "definition": "Both Loss Payee and Additional Insured — payor code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bénéficiaire et assuré additionnel"
+        }
+      ]
+    },
+    {
+      "code": "SL",
+      "display": "Secured Loss Payee",
+      "definition": "Secured Loss Payee — payor code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bénéficiaire garanti"
+        }
+      ]
+    }
+  ]
+}

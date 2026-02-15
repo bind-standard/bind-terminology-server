@@ -1,0 +1,100 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "inspection-report-source",
+  "url": "https://bind.codes/inspection-report-source",
+  "name": "InspectionReportSource",
+  "title": "Inspection Report Source",
+  "status": "draft",
+  "language": "en",
+  "description": "Inspection Report Source codes for insurance operations.",
+  "concept": [
+    {
+      "code": "no-report-ordered-or-replacement-cost-has-not-been-verified",
+      "display": "No Report Ordered or Replacement Cost has Not been Verified",
+      "definition": "No Report Ordered or Replacement Cost has Not been Verified — inspection report source code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun rapport commandé ou valeur à neuf non vérifiée"
+        }
+      ]
+    },
+    {
+      "code": "agent-broker-inspection",
+      "display": "Agent/Broker Inspection",
+      "definition": "Agent/Broker Inspection — inspection report source code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inspection du courtier"
+        }
+      ]
+    },
+    {
+      "code": "authorized-inspection-company",
+      "display": "Authorized Inspection Company",
+      "definition": "Authorized Inspection Company — inspection report source code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie d'inspection autorisée"
+        }
+      ]
+    },
+    {
+      "code": "certified-appraisal",
+      "display": "Certified Appraisal",
+      "definition": "Certified Appraisal — inspection report source code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Évaluation certifiée"
+        }
+      ]
+    },
+    {
+      "code": "home-evaluation-calculator-or-an-equivalent-worksheet",
+      "display": "Home Evaluation Calculator or an Equivalent Worksheet",
+      "definition": "Home Evaluation Calculator or an Equivalent Worksheet — inspection report source code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Outil d'évaluation résidentielle ou feuille de travail équivalente"
+        }
+      ]
+    },
+    {
+      "code": "claims-department-appraisal",
+      "display": "Claims Department Appraisal",
+      "definition": "Claims Department Appraisal — inspection report source code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Évaluation - Département des réclamations"
+        }
+      ]
+    },
+    {
+      "code": "fire-department",
+      "display": "Fire Department",
+      "definition": "Fire Department — inspection report source code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service d'incendie"
+        }
+      ]
+    },
+    {
+      "code": "wett-inspected-wood-energy-technology-transfer",
+      "display": "WETT Inspected (Wood Energy Technology Transfer)",
+      "definition": "WETT Inspected (Wood Energy Technology Transfer) — inspection report source code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inspecté WETT (Wood Energy Technology Transfer)"
+        }
+      ]
+    }
+  ]
+}

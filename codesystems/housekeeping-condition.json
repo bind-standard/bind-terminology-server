@@ -1,0 +1,78 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "housekeeping-condition",
+  "url": "https://bind.codes/housekeeping-condition",
+  "name": "HousekeepingCondition",
+  "title": "Housekeeping Condition",
+  "status": "draft",
+  "language": "en",
+  "description": "Housekeeping Condition codes for insurance operations.",
+  "concept": [
+    {
+      "code": "A",
+      "display": "Average",
+      "definition": "Average — housekeeping condition code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Moyen"
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "display": "Excellent",
+      "definition": "Excellent — housekeeping condition code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Excellent"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "display": "Fair",
+      "definition": "Fair — housekeeping condition code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Passable"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "display": "Good",
+      "definition": "Good — housekeeping condition code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bon"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Poor",
+      "definition": "Poor — housekeeping condition code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Médiocre"
+        }
+      ]
+    },
+    {
+      "code": "V",
+      "display": "Very Good",
+      "definition": "Very Good — housekeeping condition code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Très bien"
+        }
+      ]
+    }
+  ]
+}

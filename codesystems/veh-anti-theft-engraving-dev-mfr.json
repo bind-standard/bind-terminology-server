@@ -1,0 +1,166 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "veh-anti-theft-engraving-dev-mfr",
+  "url": "https://bind.codes/veh-anti-theft-engraving-dev-mfr",
+  "name": "VehAntiTheftEngravingDevMfr",
+  "title": "Veh Anti Theft Engraving Dev Mfr",
+  "status": "draft",
+  "language": "en",
+  "description": "Veh Anti Theft Engraving Dev Mfr codes for insurance operations.",
+  "concept": [
+    {
+      "code": "none",
+      "display": "None",
+      "definition": "None — veh anti theft engraving dev mfr code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        }
+      ]
+    },
+    {
+      "code": "autograph",
+      "display": "Autograph",
+      "definition": "Autograph — veh anti theft engraving dev mfr code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autographe"
+        }
+      ]
+    },
+    {
+      "code": "automobile-manufacturer",
+      "display": "Automobile Manufacturer",
+      "definition": "Automobile Manufacturer — veh anti theft engraving dev mfr code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Constructeur automobile"
+        }
+      ]
+    },
+    {
+      "code": "sherlock",
+      "display": "Sherlock",
+      "definition": "Sherlock — veh anti theft engraving dev mfr code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sherlock"
+        }
+      ]
+    },
+    {
+      "code": "autoluck",
+      "display": "Autoluck",
+      "definition": "Autoluck — veh anti theft engraving dev mfr code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autoluck"
+        }
+      ]
+    },
+    {
+      "code": "datadot",
+      "display": "DataDot",
+      "definition": "DataDot — veh anti theft engraving dev mfr code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "DataDot"
+        }
+      ]
+    },
+    {
+      "code": "guardian",
+      "display": "Guardian",
+      "definition": "Guardian — veh anti theft engraving dev mfr code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Guardian"
+        }
+      ]
+    },
+    {
+      "code": "larlock",
+      "display": "Larlock",
+      "definition": "Larlock — veh anti theft engraving dev mfr code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Larlock"
+        }
+      ]
+    },
+    {
+      "code": "microdot",
+      "display": "Microdot",
+      "definition": "Microdot — veh anti theft engraving dev mfr code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Microdot"
+        }
+      ]
+    },
+    {
+      "code": "otoprotec",
+      "display": "Otoprotec",
+      "definition": "Otoprotec — veh anti theft engraving dev mfr code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Otoprotec"
+        }
+      ]
+    },
+    {
+      "code": "tag",
+      "display": "Tag",
+      "definition": "Tag — veh anti theft engraving dev mfr code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tag"
+        }
+      ]
+    },
+    {
+      "code": "vin-lock",
+      "display": "Vin Lock",
+      "definition": "Vin Lock — veh anti theft engraving dev mfr code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vin Lock"
+        }
+      ]
+    },
+    {
+      "code": "domino",
+      "display": "Domino",
+      "definition": "Domino — veh anti theft engraving dev mfr code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Domino"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — veh anti theft engraving dev mfr code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "count-method",
+  "url": "https://bind.codes/count-method",
+  "name": "CountMethod",
+  "title": "Count Method",
+  "status": "draft",
+  "language": "en",
+  "description": "Count Method codes for insurance operations.",
+  "concept": [
+    {
+      "code": "Actual",
+      "display": "Actual",
+      "definition": "Actual — count method code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Actuel"
+        }
+      ]
+    },
+    {
+      "code": "Estimated",
+      "display": "Estimated",
+      "definition": "Estimated — count method code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Estimé"
+        }
+      ]
+    }
+  ]
+}

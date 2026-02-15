@@ -1,0 +1,122 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "wiring-type",
+  "url": "https://bind.codes/wiring-type",
+  "name": "WiringType",
+  "title": "Wiring Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Wiring Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "aluminium",
+      "display": "Aluminium",
+      "definition": "Aluminium — wiring type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aluminium"
+        }
+      ]
+    },
+    {
+      "code": "copper",
+      "display": "Copper",
+      "definition": "Copper — wiring type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cuivre"
+        }
+      ]
+    },
+    {
+      "code": "knob-and-tube",
+      "display": "Knob and Tube",
+      "definition": "Knob and Tube — wiring type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bouton et tube"
+        }
+      ]
+    },
+    {
+      "code": "mixed",
+      "display": "Mixed",
+      "definition": "Mixed — wiring type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mélangé"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — wiring type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "none-not-wired",
+      "display": "None - Not Wired",
+      "definition": "None - Not Wired — wiring type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun - Non branché"
+        }
+      ]
+    },
+    {
+      "code": "unknown",
+      "display": "Unknown",
+      "definition": "Unknown — wiring type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        }
+      ]
+    },
+    {
+      "code": "CMB",
+      "display": "Combination - Aluminum and Copper",
+      "definition": "Combination - Aluminum and Copper — wiring type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Combinaison - Aluminium et cuivre"
+        }
+      ]
+    },
+    {
+      "code": "MCD",
+      "display": "Metal Clad",
+      "definition": "Metal Clad — wiring type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Revêtement de métal"
+        }
+      ]
+    },
+    {
+      "code": "NMS",
+      "display": "Non-metallic Sheathed",
+      "definition": "Non-metallic Sheathed — wiring type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non-métallique sous gaine"
+        }
+      ]
+    }
+  ]
+}

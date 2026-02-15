@@ -1,0 +1,1687 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "sub-risk-type",
+  "url": "https://bind.codes/sub-risk-type",
+  "name": "SubRiskType",
+  "title": "Sub Risk Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Sub Risk Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "AerationFan",
+      "display": "Aeration Fan",
+      "definition": "Aeration Fan — sub risk type code."
+    },
+    {
+      "code": "AerBinHeaters",
+      "display": "Aeration Bin Heaters",
+      "definition": "Aeration Bin Heaters — sub risk type code."
+    },
+    {
+      "code": "AerDuctwork",
+      "display": "Aeration Ductwork",
+      "definition": "Aeration Ductwork — sub risk type code."
+    },
+    {
+      "code": "AGRMA",
+      "display": "Agriculture Machinery and Equipment",
+      "definition": "Agriculture Machinery and Equipment — sub risk type code."
+    },
+    {
+      "code": "AGRTE",
+      "display": "Agriculture Tools and Supplies",
+      "definition": "Agriculture Tools and Supplies — sub risk type code."
+    },
+    {
+      "code": "AirCompressors",
+      "display": "Air Compressors",
+      "definition": "Air Compressors — sub risk type code."
+    },
+    {
+      "code": "Alligator",
+      "display": "Alligator",
+      "definition": "Alligator — sub risk type code."
+    },
+    {
+      "code": "Alpaca",
+      "display": "Alpaca",
+      "definition": "Alpaca — sub risk type code."
+    },
+    {
+      "code": "Antenna",
+      "display": "Antenna",
+      "definition": "Antenna — sub risk type code."
+    },
+    {
+      "code": "ATV",
+      "display": "All Terrain Vehicle (ATV)",
+      "definition": "All Terrain Vehicle (ATV) — sub risk type code."
+    },
+    {
+      "code": "Auger",
+      "display": "Auger",
+      "definition": "Auger — sub risk type code."
+    },
+    {
+      "code": "Augers",
+      "display": "Augers",
+      "definition": "Augers — sub risk type code."
+    },
+    {
+      "code": "AutoWash",
+      "display": "Auto Wash",
+      "definition": "Auto Wash — sub risk type code."
+    },
+    {
+      "code": "BackHoes",
+      "display": "Back Hoes",
+      "definition": "Back Hoes — sub risk type code."
+    },
+    {
+      "code": "BaleElevator",
+      "display": "Bale Elevator",
+      "definition": "Bale Elevator — sub risk type code."
+    },
+    {
+      "code": "BaleFeeder",
+      "display": "Bale Feeder",
+      "definition": "Bale Feeder — sub risk type code."
+    },
+    {
+      "code": "BalerRound",
+      "display": "Baler -Round",
+      "definition": "Baler -Round — sub risk type code."
+    },
+    {
+      "code": "BalerSquare",
+      "display": "Baler -Square",
+      "definition": "Baler -Square — sub risk type code."
+    },
+    {
+      "code": "BaleWagonRack",
+      "display": "Bale Wagon and Rack",
+      "definition": "Bale Wagon and Rack — sub risk type code."
+    },
+    {
+      "code": "Bands",
+      "display": "All Other Bands, Orchestras, Chamber Music Ensembles and Similar Groups and Boards of Education or Municipalities",
+      "definition": "All Other Bands, Orchestras, Chamber Music Ensembles and Similar Groups and Boards of Education or Municipalities — sub risk type code."
+    },
+    {
+      "code": "Barley",
+      "display": "Barley",
+      "definition": "Barley — sub risk type code."
+    },
+    {
+      "code": "BarnCleaner",
+      "display": "Barn Cleaner",
+      "definition": "Barn Cleaner — sub risk type code."
+    },
+    {
+      "code": "BBeanGrainDrill",
+      "display": "Beet, Bean &amp; Grain Drill",
+      "definition": "Beet, Bean &amp; Grain Drill — sub risk type code."
+    },
+    {
+      "code": "Beans",
+      "display": "Beans",
+      "definition": "Beans — sub risk type code."
+    },
+    {
+      "code": "Beefalo",
+      "display": "Beefalo",
+      "definition": "Beefalo — sub risk type code."
+    },
+    {
+      "code": "BeeHoney",
+      "display": "Bee - Honey",
+      "definition": "Bee - Honey — sub risk type code."
+    },
+    {
+      "code": "BeeLeafCutter",
+      "display": "Bee - Leaf Cutter",
+      "definition": "Bee - Leaf Cutter — sub risk type code."
+    },
+    {
+      "code": "BeetHarvester",
+      "display": "Beet Harvester",
+      "definition": "Beet Harvester — sub risk type code."
+    },
+    {
+      "code": "Bins",
+      "display": "Bins",
+      "definition": "Bins — sub risk type code."
+    },
+    {
+      "code": "BladeScraper",
+      "display": "Blade Scraper",
+      "definition": "Blade Scraper — sub risk type code."
+    },
+    {
+      "code": "Blowers",
+      "display": "Blowers",
+      "definition": "Blowers — sub risk type code."
+    },
+    {
+      "code": "Boars",
+      "display": "Boars",
+      "definition": "Boars — sub risk type code."
+    },
+    {
+      "code": "BoxesBoxShook",
+      "display": "Boxes and Box Shook",
+      "definition": "Boxes and Box Shook — sub risk type code."
+    },
+    {
+      "code": "Broiler",
+      "display": "Broiler",
+      "definition": "Broiler — sub risk type code."
+    },
+    {
+      "code": "BrushCutters",
+      "display": "Brush Cutters",
+      "definition": "Brush Cutters — sub risk type code."
+    },
+    {
+      "code": "BuffaloBison",
+      "display": "Buffalo/Bison",
+      "definition": "Buffalo/Bison — sub risk type code."
+    },
+    {
+      "code": "BusinessIncome",
+      "display": "Business Income",
+      "definition": "Business Income — sub risk type code."
+    },
+    {
+      "code": "Catfish",
+      "display": "Catfish",
+      "definition": "Catfish — sub risk type code."
+    },
+    {
+      "code": "CattleBeefBulls",
+      "display": "Cattle - Beef Bulls",
+      "definition": "Cattle - Beef Bulls — sub risk type code."
+    },
+    {
+      "code": "CattleBeefCows",
+      "display": "Cattle - Beef Cows",
+      "definition": "Cattle - Beef Cows — sub risk type code."
+    },
+    {
+      "code": "CattleBulls",
+      "display": "Cattle - Bulls",
+      "definition": "Cattle - Bulls — sub risk type code."
+    },
+    {
+      "code": "CattleDairyCows",
+      "display": "Cattle - Dairy Cows",
+      "definition": "Cattle - Dairy Cows — sub risk type code."
+    },
+    {
+      "code": "CattleFeeder",
+      "display": "Cattle - Feeder",
+      "definition": "Cattle - Feeder — sub risk type code."
+    },
+    {
+      "code": "CattleRange",
+      "display": "Cattle - Range",
+      "definition": "Cattle - Range — sub risk type code."
+    },
+    {
+      "code": "CenterPivot",
+      "display": "Center Pivot",
+      "definition": "Center Pivot — sub risk type code."
+    },
+    {
+      "code": "Chains",
+      "display": "Chains",
+      "definition": "Chains — sub risk type code."
+    },
+    {
+      "code": "ChainSaw",
+      "display": "Chain Saw",
+      "definition": "Chain Saw — sub risk type code."
+    },
+    {
+      "code": "ChainSaws",
+      "display": "Chain Saws",
+      "definition": "Chain Saws — sub risk type code."
+    },
+    {
+      "code": "Chicken",
+      "display": "Chicken",
+      "definition": "Chicken — sub risk type code."
+    },
+    {
+      "code": "Chicks",
+      "display": "Chicks",
+      "definition": "Chicks — sub risk type code."
+    },
+    {
+      "code": "Chinchilla",
+      "display": "Chinchilla",
+      "definition": "Chinchilla — sub risk type code."
+    },
+    {
+      "code": "Choppers",
+      "display": "Choppers",
+      "definition": "Choppers — sub risk type code."
+    },
+    {
+      "code": "ChopperWagons",
+      "display": "Chopper Wagons",
+      "definition": "Chopper Wagons — sub risk type code."
+    },
+    {
+      "code": "ChopRollElectrc",
+      "display": "Chopper or Roller -Electric",
+      "definition": "Chopper or Roller -Electric — sub risk type code."
+    },
+    {
+      "code": "CombinePull",
+      "display": "Combine - Pull",
+      "definition": "Combine - Pull — sub risk type code."
+    },
+    {
+      "code": "Combines",
+      "display": "Combines",
+      "definition": "Combines — sub risk type code."
+    },
+    {
+      "code": "CombineSelfprop",
+      "display": "Combine - Self-propelled",
+      "definition": "Combine - Self-propelled — sub risk type code."
+    },
+    {
+      "code": "CommFeedsMin",
+      "display": "Commercial Feeds and Minerals",
+      "definition": "Commercial Feeds and Minerals — sub risk type code."
+    },
+    {
+      "code": "CommunicationsTowers",
+      "display": "Communications Towers",
+      "definition": "Communications Towers — sub risk type code."
+    },
+    {
+      "code": "Compressor",
+      "display": "Compressor",
+      "definition": "Compressor — sub risk type code."
+    },
+    {
+      "code": "Corn",
+      "display": "Corn",
+      "definition": "Corn — sub risk type code."
+    },
+    {
+      "code": "CornCob",
+      "display": "Corn - Cob",
+      "definition": "Corn - Cob — sub risk type code."
+    },
+    {
+      "code": "CornHighMoist",
+      "display": "Corn - High Moisture",
+      "definition": "Corn - High Moisture — sub risk type code."
+    },
+    {
+      "code": "CornPickers",
+      "display": "Corn Pickers",
+      "definition": "Corn Pickers — sub risk type code."
+    },
+    {
+      "code": "CornPlanter",
+      "display": "Corn Planter",
+      "definition": "Corn Planter — sub risk type code."
+    },
+    {
+      "code": "CornShelled",
+      "display": "Corn - Shelled",
+      "definition": "Corn - Shelled — sub risk type code."
+    },
+    {
+      "code": "CornSheller",
+      "display": "Corn Sheller",
+      "definition": "Corn Sheller — sub risk type code."
+    },
+    {
+      "code": "CottnPkrsChprs",
+      "display": "Cotton Pickers or Choppers",
+      "definition": "Cotton Pickers or Choppers — sub risk type code."
+    },
+    {
+      "code": "Cranes",
+      "display": "Cranes",
+      "definition": "Cranes — sub risk type code."
+    },
+    {
+      "code": "Crawfish",
+      "display": "Crawfish",
+      "definition": "Crawfish — sub risk type code."
+    },
+    {
+      "code": "Crimper",
+      "display": "Crimper",
+      "definition": "Crimper — sub risk type code."
+    },
+    {
+      "code": "CttlBeefCalves",
+      "display": "Cattle - Beef Calves",
+      "definition": "Cattle - Beef Calves — sub risk type code."
+    },
+    {
+      "code": "CttlBeefHeifer",
+      "display": "Cattle - Beef Heifers",
+      "definition": "Cattle - Beef Heifers — sub risk type code."
+    },
+    {
+      "code": "CttlBeefSteers",
+      "display": "Cattle - Beef Steers",
+      "definition": "Cattle - Beef Steers — sub risk type code."
+    },
+    {
+      "code": "CttlDairyCalf",
+      "display": "Cattle - Dairy Calves",
+      "definition": "Cattle - Dairy Calves — sub risk type code."
+    },
+    {
+      "code": "CttlDryHeifers",
+      "display": "Cattle - Dairy Heifers",
+      "definition": "Cattle - Dairy Heifers — sub risk type code."
+    },
+    {
+      "code": "Cultimulcher",
+      "display": "Culti-mulcher",
+      "definition": "Culti-mulcher — sub risk type code."
+    },
+    {
+      "code": "Cultipackers",
+      "display": "Cultipackers",
+      "definition": "Cultipackers — sub risk type code."
+    },
+    {
+      "code": "Cultivator",
+      "display": "Cultivator",
+      "definition": "Cultivator — sub risk type code."
+    },
+    {
+      "code": "CultivatorField",
+      "display": "Cultivator - Field",
+      "definition": "Cultivator - Field — sub risk type code."
+    },
+    {
+      "code": "Custom",
+      "display": "Custom",
+      "definition": "Custom — sub risk type code."
+    },
+    {
+      "code": "DanceBands",
+      "display": "Dances Bands, Orchestras",
+      "definition": "Dances Bands, Orchestras — sub risk type code."
+    },
+    {
+      "code": "Deer",
+      "display": "Deer",
+      "definition": "Deer — sub risk type code."
+    },
+    {
+      "code": "DirectSeeder",
+      "display": "Direct Seeder",
+      "definition": "Direct Seeder — sub risk type code."
+    },
+    {
+      "code": "Disc",
+      "display": "Disc",
+      "definition": "Disc — sub risk type code."
+    },
+    {
+      "code": "Donkey",
+      "display": "Donkey",
+      "definition": "Donkey — sub risk type code."
+    },
+    {
+      "code": "Dove",
+      "display": "Dove",
+      "definition": "Dove — sub risk type code."
+    },
+    {
+      "code": "Drag",
+      "display": "Drag",
+      "definition": "Drag — sub risk type code."
+    },
+    {
+      "code": "Driers",
+      "display": "Driers",
+      "definition": "Driers — sub risk type code."
+    },
+    {
+      "code": "Drills",
+      "display": "Drills",
+      "definition": "Drills — sub risk type code."
+    },
+    {
+      "code": "Drip",
+      "display": "Drip",
+      "definition": "Drip — sub risk type code."
+    },
+    {
+      "code": "Duck",
+      "display": "Duck",
+      "definition": "Duck — sub risk type code."
+    },
+    {
+      "code": "DuelWeightChain",
+      "display": "Duels, Weights &amp; Chains",
+      "definition": "Duels, Weights &amp; Chains — sub risk type code."
+    },
+    {
+      "code": "EDPmediadata",
+      "display": "Electronic Data Processing (EDP) media and data",
+      "definition": "Electronic Data Processing (EDP) media and data — sub risk type code."
+    },
+    {
+      "code": "ElectricMotors",
+      "display": "Electric Motors",
+      "definition": "Electric Motors — sub risk type code."
+    },
+    {
+      "code": "ElevatrsPrtble",
+      "display": "Elevator - Portable",
+      "definition": "Elevator - Portable — sub risk type code."
+    },
+    {
+      "code": "Elk",
+      "display": "Elk",
+      "definition": "Elk — sub risk type code."
+    },
+    {
+      "code": "Emu",
+      "display": "Emu",
+      "definition": "Emu — sub risk type code."
+    },
+    {
+      "code": "EnsilageBlower",
+      "display": "Ensilage Blower",
+      "definition": "Ensilage Blower — sub risk type code."
+    },
+    {
+      "code": "EnsilageCutter",
+      "display": "Ensilage Cutter",
+      "definition": "Ensilage Cutter — sub risk type code."
+    },
+    {
+      "code": "Ermine",
+      "display": "Ermine",
+      "definition": "Ermine — sub risk type code."
+    },
+    {
+      "code": "Ewes",
+      "display": "Ewes",
+      "definition": "Ewes — sub risk type code."
+    },
+    {
+      "code": "ExtraExpense",
+      "display": "Extra Expense",
+      "definition": "Extra Expense — sub risk type code."
+    },
+    {
+      "code": "Fan",
+      "display": "Fan",
+      "definition": "Fan — sub risk type code."
+    },
+    {
+      "code": "FarmLubricants",
+      "display": "Farm Lubricants",
+      "definition": "Farm Lubricants — sub risk type code."
+    },
+    {
+      "code": "FarrowingCrate",
+      "display": "Farrowing Crates",
+      "definition": "Farrowing Crates — sub risk type code."
+    },
+    {
+      "code": "FeedBunks",
+      "display": "Feed Bunks",
+      "definition": "Feed Bunks — sub risk type code."
+    },
+    {
+      "code": "FeedCartElect",
+      "display": "Feed Cart -Electric",
+      "definition": "Feed Cart -Electric — sub risk type code."
+    },
+    {
+      "code": "FeedConveyor",
+      "display": "Feed Conveyor",
+      "definition": "Feed Conveyor — sub risk type code."
+    },
+    {
+      "code": "FeedGround",
+      "display": "Feed - Ground",
+      "definition": "Feed - Ground — sub risk type code."
+    },
+    {
+      "code": "FeedMnfrdStock",
+      "display": "Feed - Manufactured Stock",
+      "definition": "Feed - Manufactured Stock — sub risk type code."
+    },
+    {
+      "code": "FeedPigs",
+      "display": "Feeder Pigs",
+      "definition": "Feeder Pigs — sub risk type code."
+    },
+    {
+      "code": "FeedWagons",
+      "display": "Feed Wagons",
+      "definition": "Feed Wagons — sub risk type code."
+    },
+    {
+      "code": "FencingandPosts",
+      "display": "Fencing and Posts",
+      "definition": "Fencing and Posts — sub risk type code."
+    },
+    {
+      "code": "Ferret",
+      "display": "Ferret",
+      "definition": "Ferret — sub risk type code."
+    },
+    {
+      "code": "FertilizeLime",
+      "display": "Fertilizer or Lime Spreader",
+      "definition": "Fertilizer or Lime Spreader — sub risk type code."
+    },
+    {
+      "code": "Fertilizers",
+      "display": "Fertilizers",
+      "definition": "Fertilizers — sub risk type code."
+    },
+    {
+      "code": "FixedTransmittingReceivingEquipment",
+      "display": "Fixed Transmitting or Receiving Equipment",
+      "definition": "Fixed Transmitting or Receiving Equipment — sub risk type code."
+    },
+    {
+      "code": "Fodder",
+      "display": "Fodder",
+      "definition": "Fodder — sub risk type code."
+    },
+    {
+      "code": "ForageBlower",
+      "display": "Forage Blower",
+      "definition": "Forage Blower — sub risk type code."
+    },
+    {
+      "code": "ForageBoxWagons",
+      "display": "Forage Box Wagons",
+      "definition": "Forage Box Wagons — sub risk type code."
+    },
+    {
+      "code": "ForageHarvester",
+      "display": "Forage Harvester",
+      "definition": "Forage Harvester — sub risk type code."
+    },
+    {
+      "code": "Fox",
+      "display": "Fox",
+      "definition": "Fox — sub risk type code."
+    },
+    {
+      "code": "Fruit",
+      "display": "Fruit",
+      "definition": "Fruit — sub risk type code."
+    },
+    {
+      "code": "FuelTanksStnds",
+      "display": "Fuel Tanks &amp; Stands",
+      "definition": "Fuel Tanks &amp; Stands — sub risk type code."
+    },
+    {
+      "code": "GasDieselFuel",
+      "display": "Gasoline/Diesel Fuel",
+      "definition": "Gasoline/Diesel Fuel — sub risk type code."
+    },
+    {
+      "code": "GenrtrPortable",
+      "display": "Generator -Portable",
+      "definition": "Generator -Portable — sub risk type code."
+    },
+    {
+      "code": "Gilts",
+      "display": "Gilts",
+      "definition": "Gilts — sub risk type code."
+    },
+    {
+      "code": "Goat",
+      "display": "Goat",
+      "definition": "Goat — sub risk type code."
+    },
+    {
+      "code": "Goose",
+      "display": "Goose",
+      "definition": "Goose — sub risk type code."
+    },
+    {
+      "code": "Grain",
+      "display": "Grain",
+      "definition": "Grain — sub risk type code."
+    },
+    {
+      "code": "GrainCleaners",
+      "display": "Grain Cleaners",
+      "definition": "Grain Cleaners — sub risk type code."
+    },
+    {
+      "code": "GrainDrill",
+      "display": "Grain Drill",
+      "definition": "Grain Drill — sub risk type code."
+    },
+    {
+      "code": "GrainDryer",
+      "display": "Grain Dryer",
+      "definition": "Grain Dryer — sub risk type code."
+    },
+    {
+      "code": "GrainHeads",
+      "display": "Grain Heads",
+      "definition": "Grain Heads — sub risk type code."
+    },
+    {
+      "code": "GrainVacuum",
+      "display": "Grain Vacuum",
+      "definition": "Grain Vacuum — sub risk type code."
+    },
+    {
+      "code": "GrapeHarvesters",
+      "display": "Grape Harvesters",
+      "definition": "Grape Harvesters — sub risk type code."
+    },
+    {
+      "code": "GrdTracOvr25HP",
+      "display": "Garden Tractor - Over 25 Horsepower",
+      "definition": "Garden Tractor - Over 25 Horsepower — sub risk type code."
+    },
+    {
+      "code": "Guinea",
+      "display": "Guinea",
+      "definition": "Guinea — sub risk type code."
+    },
+    {
+      "code": "HammerMill",
+      "display": "Hammer Mill",
+      "definition": "Hammer Mill — sub risk type code."
+    },
+    {
+      "code": "Handset",
+      "display": "Handset",
+      "definition": "Handset — sub risk type code."
+    },
+    {
+      "code": "HandTools",
+      "display": "Hand Tools",
+      "definition": "Hand Tools — sub risk type code."
+    },
+    {
+      "code": "Harrow",
+      "display": "Harrow",
+      "definition": "Harrow — sub risk type code."
+    },
+    {
+      "code": "Harrows",
+      "display": "Harrows",
+      "definition": "Harrows — sub risk type code."
+    },
+    {
+      "code": "Hay",
+      "display": "Hay",
+      "definition": "Hay — sub risk type code."
+    },
+    {
+      "code": "HayBalers",
+      "display": "Hay Balers",
+      "definition": "Hay Balers — sub risk type code."
+    },
+    {
+      "code": "Haybasket",
+      "display": "Haybasket",
+      "definition": "Haybasket — sub risk type code."
+    },
+    {
+      "code": "HayBine",
+      "display": "Hay Bine",
+      "definition": "Hay Bine — sub risk type code."
+    },
+    {
+      "code": "HayInBuildings",
+      "display": "Hay - In Buildings",
+      "definition": "Hay - In Buildings — sub risk type code."
+    },
+    {
+      "code": "HayInOpen",
+      "display": "Hay - In Open",
+      "definition": "Hay - In Open — sub risk type code."
+    },
+    {
+      "code": "HayMower",
+      "display": "Hay Mower",
+      "definition": "Hay Mower — sub risk type code."
+    },
+    {
+      "code": "HayRake",
+      "display": "Hay Rake",
+      "definition": "Hay Rake — sub risk type code."
+    },
+    {
+      "code": "HayStackedOpen",
+      "display": "Hay - Stacked In Open",
+      "definition": "Hay - Stacked In Open — sub risk type code."
+    },
+    {
+      "code": "HayStackInBldg",
+      "display": "Hay - Stacked In Building",
+      "definition": "Hay - Stacked In Building — sub risk type code."
+    },
+    {
+      "code": "HeatedWaterer",
+      "display": "Heated Waterer",
+      "definition": "Heated Waterer — sub risk type code."
+    },
+    {
+      "code": "Heathousers",
+      "display": "Heathousers",
+      "definition": "Heathousers — sub risk type code."
+    },
+    {
+      "code": "HeavyEquipment",
+      "display": "Heavy Equipment",
+      "definition": "Heavy Equipment — sub risk type code."
+    },
+    {
+      "code": "Hen",
+      "display": "Hen",
+      "definition": "Hen — sub risk type code."
+    },
+    {
+      "code": "Herbicides",
+      "display": "Herbicides",
+      "definition": "Herbicides — sub risk type code."
+    },
+    {
+      "code": "HogFeeder",
+      "display": "Hog Feeder",
+      "definition": "Hog Feeder — sub risk type code."
+    },
+    {
+      "code": "HogMover",
+      "display": "Hog Mover",
+      "definition": "Hog Mover — sub risk type code."
+    },
+    {
+      "code": "Hogs",
+      "display": "Hogs",
+      "definition": "Hogs — sub risk type code."
+    },
+    {
+      "code": "HogsFeeder",
+      "display": "Hogs - Feeder",
+      "definition": "Hogs - Feeder — sub risk type code."
+    },
+    {
+      "code": "HoneyWagon",
+      "display": "Honey Wagon",
+      "definition": "Honey Wagon — sub risk type code."
+    },
+    {
+      "code": "Horses",
+      "display": "Horses",
+      "definition": "Horses — sub risk type code."
+    },
+    {
+      "code": "HorsesColt",
+      "display": "Horses - Colt",
+      "definition": "Horses - Colt — sub risk type code."
+    },
+    {
+      "code": "HorsesFilly",
+      "display": "Horses - Filly",
+      "definition": "Horses - Filly — sub risk type code."
+    },
+    {
+      "code": "HorsesGelding",
+      "display": "Horses - Gelding",
+      "definition": "Horses - Gelding — sub risk type code."
+    },
+    {
+      "code": "HorsesMare",
+      "display": "Horses - Mare",
+      "definition": "Horses - Mare — sub risk type code."
+    },
+    {
+      "code": "HorsesPleasure",
+      "display": "Horses - Pleasure",
+      "definition": "Horses - Pleasure — sub risk type code."
+    },
+    {
+      "code": "HorsesPMU",
+      "display": "Horses - PMU (Pregnant Mare Urine)",
+      "definition": "Horses - PMU (Pregnant Mare Urine) — sub risk type code."
+    },
+    {
+      "code": "HorsesRace",
+      "display": "Horses - Race",
+      "definition": "Horses - Race — sub risk type code."
+    },
+    {
+      "code": "HorsesShow",
+      "display": "Horses - Show",
+      "definition": "Horses - Show — sub risk type code."
+    },
+    {
+      "code": "HorsesStallion",
+      "display": "Horses - Stallion",
+      "definition": "Horses - Stallion — sub risk type code."
+    },
+    {
+      "code": "HotWaterTank",
+      "display": "Hot Water Tank",
+      "definition": "Hot Water Tank — sub risk type code."
+    },
+    {
+      "code": "HydrCylindrs",
+      "display": "Hydraulic Cylinders",
+      "definition": "Hydraulic Cylinders — sub risk type code."
+    },
+    {
+      "code": "Insecticides",
+      "display": "Insecticides",
+      "definition": "Insecticides — sub risk type code."
+    },
+    {
+      "code": "Insects",
+      "display": "Insects",
+      "definition": "Insects — sub risk type code."
+    },
+    {
+      "code": "Ladybugs",
+      "display": "Ladybugs",
+      "definition": "Ladybugs — sub risk type code."
+    },
+    {
+      "code": "Lambs",
+      "display": "Lambs",
+      "definition": "Lambs — sub risk type code."
+    },
+    {
+      "code": "LateralMovement",
+      "display": "Lateral Movement",
+      "definition": "Lateral Movement — sub risk type code."
+    },
+    {
+      "code": "LawnEquipment",
+      "display": "Lawn Equipment",
+      "definition": "Lawn Equipment — sub risk type code."
+    },
+    {
+      "code": "LawnTractors",
+      "display": "Lawn Tractors",
+      "definition": "Lawn Tractors — sub risk type code."
+    },
+    {
+      "code": "Livestock",
+      "display": "Livestock",
+      "definition": "Livestock — sub risk type code."
+    },
+    {
+      "code": "Llama",
+      "display": "Llama",
+      "definition": "Llama — sub risk type code."
+    },
+    {
+      "code": "LMowerOver3HP",
+      "display": "Lawn Mower - Over 3 Horsepower",
+      "definition": "Lawn Mower - Over 3 Horsepower — sub risk type code."
+    },
+    {
+      "code": "LogSplitter",
+      "display": "Log Splitter",
+      "definition": "Log Splitter — sub risk type code."
+    },
+    {
+      "code": "LPGas",
+      "display": "Liquified Petroleum Gas",
+      "definition": "Liquified Petroleum Gas — sub risk type code."
+    },
+    {
+      "code": "LPTanks",
+      "display": "Liquified Petroleum Tanks",
+      "definition": "Liquified Petroleum Tanks — sub risk type code."
+    },
+    {
+      "code": "ManureLoader",
+      "display": "Manure Loader",
+      "definition": "Manure Loader — sub risk type code."
+    },
+    {
+      "code": "ManurePump",
+      "display": "Manure Pump",
+      "definition": "Manure Pump — sub risk type code."
+    },
+    {
+      "code": "ManureSpreader",
+      "display": "Manure Spreader",
+      "definition": "Manure Spreader — sub risk type code."
+    },
+    {
+      "code": "MaterSupplies",
+      "display": "Materials and Supplies",
+      "definition": "Materials and Supplies — sub risk type code."
+    },
+    {
+      "code": "MediumEquipment",
+      "display": "Medium Equipment",
+      "definition": "Medium Equipment — sub risk type code."
+    },
+    {
+      "code": "MilkCoolCmpAgit",
+      "display": "Milk Cooler with Compressor, Agitator",
+      "definition": "Milk Cooler with Compressor, Agitator — sub risk type code."
+    },
+    {
+      "code": "MilkCooler",
+      "display": "Milk Cooler",
+      "definition": "Milk Cooler — sub risk type code."
+    },
+    {
+      "code": "MilkEquip",
+      "display": "Milking Equipment",
+      "definition": "Milking Equipment — sub risk type code."
+    },
+    {
+      "code": "MilkhHeatPort",
+      "display": "Milkhouse Heater -Portable",
+      "definition": "Milkhouse Heater -Portable — sub risk type code."
+    },
+    {
+      "code": "MilkingUnit",
+      "display": "Milking Unit",
+      "definition": "Milking Unit — sub risk type code."
+    },
+    {
+      "code": "MilkMachine",
+      "display": "Milk Machine",
+      "definition": "Milk Machine — sub risk type code."
+    },
+    {
+      "code": "MilkRecPanel",
+      "display": "Milk Receiving Panel",
+      "definition": "Milk Receiving Panel — sub risk type code."
+    },
+    {
+      "code": "Mink",
+      "display": "Mink",
+      "definition": "Mink — sub risk type code."
+    },
+    {
+      "code": "MinTillEquip",
+      "display": "Minimum Till Equipment",
+      "definition": "Minimum Till Equipment — sub risk type code."
+    },
+    {
+      "code": "MixMillGrinder",
+      "display": "Mix Mill Grinder",
+      "definition": "Mix Mill Grinder — sub risk type code."
+    },
+    {
+      "code": "MobileEquipment",
+      "display": "MobileEquipment",
+      "definition": "MobileEquipment — sub risk type code."
+    },
+    {
+      "code": "MobileTransmittingReceivingEquipment",
+      "display": "Mobile Transmitting or Receiving Equipment",
+      "definition": "Mobile Transmitting or Receiving Equipment — sub risk type code."
+    },
+    {
+      "code": "MotorsEngines",
+      "display": "Motors &amp; Engines",
+      "definition": "Motors &amp; Engines — sub risk type code."
+    },
+    {
+      "code": "Mowers",
+      "display": "Mowers",
+      "definition": "Mowers — sub risk type code."
+    },
+    {
+      "code": "Mulchers",
+      "display": "Mulchers",
+      "definition": "Mulchers — sub risk type code."
+    },
+    {
+      "code": "Mules",
+      "display": "Mules",
+      "definition": "Mules — sub risk type code."
+    },
+    {
+      "code": "NonMobile",
+      "display": "Non-Mobile",
+      "definition": "Non-Mobile — sub risk type code."
+    },
+    {
+      "code": "NoTillDrill",
+      "display": "No-Till Drill",
+      "definition": "No-Till Drill — sub risk type code."
+    },
+    {
+      "code": "Nuts",
+      "display": "Nuts",
+      "definition": "Nuts — sub risk type code."
+    },
+    {
+      "code": "Nutshakers",
+      "display": "Nutshakers",
+      "definition": "Nutshakers — sub risk type code."
+    },
+    {
+      "code": "Oats",
+      "display": "Oats",
+      "definition": "Oats — sub risk type code."
+    },
+    {
+      "code": "OfficeEquipment",
+      "display": "Office Equipment",
+      "definition": "Office Equipment — sub risk type code."
+    },
+    {
+      "code": "OilGrease",
+      "display": "Oil &amp; Grease",
+      "definition": "Oil &amp; Grease — sub risk type code."
+    },
+    {
+      "code": "Ostrich",
+      "display": "Ostrich",
+      "definition": "Ostrich — sub risk type code."
+    },
+    {
+      "code": "Other",
+      "display": "Other",
+      "definition": "Other — sub risk type code."
+    },
+    {
+      "code": "Packer",
+      "display": "Packer",
+      "definition": "Packer — sub risk type code."
+    },
+    {
+      "code": "Paints",
+      "display": "Paints",
+      "definition": "Paints — sub risk type code."
+    },
+    {
+      "code": "Peacock",
+      "display": "Peacock",
+      "definition": "Peacock — sub risk type code."
+    },
+    {
+      "code": "Peat",
+      "display": "Peat",
+      "definition": "Peat — sub risk type code."
+    },
+    {
+      "code": "Pesticides",
+      "display": "Pesticides",
+      "definition": "Pesticides — sub risk type code."
+    },
+    {
+      "code": "Pheasant",
+      "display": "Pheasant",
+      "definition": "Pheasant — sub risk type code."
+    },
+    {
+      "code": "PHoldBins",
+      "display": "Portable Holding Bins",
+      "definition": "Portable Holding Bins — sub risk type code."
+    },
+    {
+      "code": "PickingEqipment",
+      "display": "Picking Equipment",
+      "definition": "Picking Equipment — sub risk type code."
+    },
+    {
+      "code": "Planters",
+      "display": "Planters",
+      "definition": "Planters — sub risk type code."
+    },
+    {
+      "code": "Plow",
+      "display": "Plow",
+      "definition": "Plow — sub risk type code."
+    },
+    {
+      "code": "Ponies",
+      "display": "Ponies",
+      "definition": "Ponies — sub risk type code."
+    },
+    {
+      "code": "PortableDryers",
+      "display": "Portable Dryers",
+      "definition": "Portable Dryers — sub risk type code."
+    },
+    {
+      "code": "PortableEDP",
+      "display": "Portable Computers",
+      "definition": "Portable Computers — sub risk type code."
+    },
+    {
+      "code": "PortableHeaters",
+      "display": "Portable Heaters",
+      "definition": "Portable Heaters — sub risk type code."
+    },
+    {
+      "code": "PortConveyor",
+      "display": "Portable Conveyor",
+      "definition": "Portable Conveyor — sub risk type code."
+    },
+    {
+      "code": "PortFeedMill",
+      "display": "Portable Feed Mill",
+      "definition": "Portable Feed Mill — sub risk type code."
+    },
+    {
+      "code": "PostDriverAuger",
+      "display": "Post Driver/Auger",
+      "definition": "Post Driver/Auger — sub risk type code."
+    },
+    {
+      "code": "PotatoeDigger",
+      "display": "Potatoe Digger",
+      "definition": "Potatoe Digger — sub risk type code."
+    },
+    {
+      "code": "Poultry",
+      "display": "Poultry",
+      "definition": "Poultry — sub risk type code."
+    },
+    {
+      "code": "PoultryEquip",
+      "display": "Poultry Equipment",
+      "definition": "Poultry Equipment — sub risk type code."
+    },
+    {
+      "code": "PowerTools",
+      "display": "Power Tools",
+      "definition": "Power Tools — sub risk type code."
+    },
+    {
+      "code": "Pumps",
+      "display": "Pumps",
+      "definition": "Pumps — sub risk type code."
+    },
+    {
+      "code": "Quail",
+      "display": "Quail",
+      "definition": "Quail — sub risk type code."
+    },
+    {
+      "code": "Rabbit",
+      "display": "Rabbit",
+      "definition": "Rabbit — sub risk type code."
+    },
+    {
+      "code": "Radio2way",
+      "display": "Radio - 2-way",
+      "definition": "Radio - 2-way — sub risk type code."
+    },
+    {
+      "code": "RadioPortable",
+      "display": "Radio - Portable",
+      "definition": "Radio - Portable — sub risk type code."
+    },
+    {
+      "code": "Rake",
+      "display": "Rake",
+      "definition": "Rake — sub risk type code."
+    },
+    {
+      "code": "Rams",
+      "display": "Rams",
+      "definition": "Rams — sub risk type code."
+    },
+    {
+      "code": "RBaleWrappr",
+      "display": "Round Bale Wrapper",
+      "definition": "Round Bale Wrapper — sub risk type code."
+    },
+    {
+      "code": "RentalIncomeI",
+      "display": "Rental Income",
+      "definition": "Rental Income — sub risk type code."
+    },
+    {
+      "code": "Rhea",
+      "display": "Rhea",
+      "definition": "Rhea — sub risk type code."
+    },
+    {
+      "code": "RiceHarvesters",
+      "display": "Rice Harvesters",
+      "definition": "Rice Harvesters — sub risk type code."
+    },
+    {
+      "code": "RndBaleLdrFork",
+      "display": "Round Bale Loader/Fork",
+      "definition": "Round Bale Loader/Fork — sub risk type code."
+    },
+    {
+      "code": "RockPicker",
+      "display": "Rock Picker",
+      "definition": "Rock Picker — sub risk type code."
+    },
+    {
+      "code": "Roods",
+      "display": "Roods",
+      "definition": "Roods — sub risk type code."
+    },
+    {
+      "code": "RotaryCutter",
+      "display": "Rotary Cutter",
+      "definition": "Rotary Cutter — sub risk type code."
+    },
+    {
+      "code": "RotaryHoes",
+      "display": "Rotary Hoes",
+      "definition": "Rotary Hoes — sub risk type code."
+    },
+    {
+      "code": "Rototiller",
+      "display": "Rototiller",
+      "definition": "Rototiller — sub risk type code."
+    },
+    {
+      "code": "RoundBaleBox",
+      "display": "Round Bale Box",
+      "definition": "Round Bale Box — sub risk type code."
+    },
+    {
+      "code": "RoundBaleFeeder",
+      "display": "Round Bale Feeder",
+      "definition": "Round Bale Feeder — sub risk type code."
+    },
+    {
+      "code": "RoundBaleTarp",
+      "display": "Round Bale Tarp",
+      "definition": "Round Bale Tarp — sub risk type code."
+    },
+    {
+      "code": "SaddlesandTack",
+      "display": "Saddles and Tack",
+      "definition": "Saddles and Tack — sub risk type code."
+    },
+    {
+      "code": "SaddleTanks",
+      "display": "Saddle Tanks",
+      "definition": "Saddle Tanks — sub risk type code."
+    },
+    {
+      "code": "Salmon",
+      "display": "Salmon",
+      "definition": "Salmon — sub risk type code."
+    },
+    {
+      "code": "Seed",
+      "display": "Seed",
+      "definition": "Seed — sub risk type code."
+    },
+    {
+      "code": "SeedDrill",
+      "display": "Seed Drill",
+      "definition": "Seed Drill — sub risk type code."
+    },
+    {
+      "code": "Seeders",
+      "display": "Seeders",
+      "definition": "Seeders — sub risk type code."
+    },
+    {
+      "code": "Sheep",
+      "display": "Sheep",
+      "definition": "Sheep — sub risk type code."
+    },
+    {
+      "code": "Shell",
+      "display": "Shell",
+      "definition": "Shell — sub risk type code."
+    },
+    {
+      "code": "Shrimp",
+      "display": "Shrimp",
+      "definition": "Shrimp — sub risk type code."
+    },
+    {
+      "code": "Silage",
+      "display": "Silage",
+      "definition": "Silage — sub risk type code."
+    },
+    {
+      "code": "SilageBagger",
+      "display": "Silage Bagger",
+      "definition": "Silage Bagger — sub risk type code."
+    },
+    {
+      "code": "SilageCorn",
+      "display": "Silage - Corn",
+      "definition": "Silage - Corn — sub risk type code."
+    },
+    {
+      "code": "SilageHay",
+      "display": "Silage - Hay (Haylage)",
+      "definition": "Silage - Hay (Haylage) — sub risk type code."
+    },
+    {
+      "code": "SiloBlower",
+      "display": "Silo Blower",
+      "definition": "Silo Blower — sub risk type code."
+    },
+    {
+      "code": "SiloFilters",
+      "display": "Silo Filters",
+      "definition": "Silo Filters — sub risk type code."
+    },
+    {
+      "code": "SiloUnloaders",
+      "display": "Silo Unloaders",
+      "definition": "Silo Unloaders — sub risk type code."
+    },
+    {
+      "code": "SkidLoader",
+      "display": "Skid Loader",
+      "definition": "Skid Loader — sub risk type code."
+    },
+    {
+      "code": "SmallTools",
+      "display": "Small Tools",
+      "definition": "Small Tools — sub risk type code."
+    },
+    {
+      "code": "SnowBlower",
+      "display": "Snow Blower",
+      "definition": "Snow Blower — sub risk type code."
+    },
+    {
+      "code": "SnowPlow",
+      "display": "Snow Plow",
+      "definition": "Snow Plow — sub risk type code."
+    },
+    {
+      "code": "SnowVehicle",
+      "display": "Snow Vehicle",
+      "definition": "Snow Vehicle — sub risk type code."
+    },
+    {
+      "code": "Sod",
+      "display": "Sod",
+      "definition": "Sod — sub risk type code."
+    },
+    {
+      "code": "SoilSaver",
+      "display": "Soil Saver",
+      "definition": "Soil Saver — sub risk type code."
+    },
+    {
+      "code": "SolidSet",
+      "display": "Solid Set",
+      "definition": "Solid Set — sub risk type code."
+    },
+    {
+      "code": "SowGilt",
+      "display": "Sows and Gilts",
+      "definition": "Sows and Gilts — sub risk type code."
+    },
+    {
+      "code": "Sows",
+      "display": "Sows",
+      "definition": "Sows — sub risk type code."
+    },
+    {
+      "code": "Soybeans",
+      "display": "Soybeans",
+      "definition": "Soybeans — sub risk type code."
+    },
+    {
+      "code": "SpareParts",
+      "display": "Spare Parts",
+      "definition": "Spare Parts — sub risk type code."
+    },
+    {
+      "code": "SpecAnimals",
+      "display": "Specialty Animals",
+      "definition": "Specialty Animals — sub risk type code."
+    },
+    {
+      "code": "Sprayer",
+      "display": "Sprayer",
+      "definition": "Sprayer — sub risk type code."
+    },
+    {
+      "code": "Spreaders",
+      "display": "Spreaders",
+      "definition": "Spreaders — sub risk type code."
+    },
+    {
+      "code": "StableCleaner",
+      "display": "Stable Cleaner",
+      "definition": "Stable Cleaner — sub risk type code."
+    },
+    {
+      "code": "Stacker",
+      "display": "Stacker",
+      "definition": "Stacker — sub risk type code."
+    },
+    {
+      "code": "StackMover",
+      "display": "Stack Mover",
+      "definition": "Stack Mover — sub risk type code."
+    },
+    {
+      "code": "StalkChopper",
+      "display": "Stalk Chopper",
+      "definition": "Stalk Chopper — sub risk type code."
+    },
+    {
+      "code": "StockTrailer",
+      "display": "Stock Trailer",
+      "definition": "Stock Trailer — sub risk type code."
+    },
+    {
+      "code": "StonePicker",
+      "display": "Stone Picker",
+      "definition": "Stone Picker — sub risk type code."
+    },
+    {
+      "code": "Straw",
+      "display": "Straw",
+      "definition": "Straw — sub risk type code."
+    },
+    {
+      "code": "StrawChopper",
+      "display": "Straw Chopper",
+      "definition": "Straw Chopper — sub risk type code."
+    },
+    {
+      "code": "Structure",
+      "display": "Structure",
+      "definition": "Structure — sub risk type code."
+    },
+    {
+      "code": "StudioOperatingEquipment",
+      "display": "Studio Operating Equipment",
+      "definition": "Studio Operating Equipment — sub risk type code."
+    },
+    {
+      "code": "SumpPump",
+      "display": "Sump/Submersible Pump",
+      "definition": "Sump/Submersible Pump — sub risk type code."
+    },
+    {
+      "code": "Swather",
+      "display": "Swather",
+      "definition": "Swather — sub risk type code."
+    },
+    {
+      "code": "SwathTurner",
+      "display": "Swath Turner",
+      "definition": "Swath Turner — sub risk type code."
+    },
+    {
+      "code": "Swine",
+      "display": "Swine",
+      "definition": "Swine — sub risk type code."
+    },
+    {
+      "code": "Tires",
+      "display": "Tires",
+      "definition": "Tires — sub risk type code."
+    },
+    {
+      "code": "Tobacco",
+      "display": "Tobacco",
+      "definition": "Tobacco — sub risk type code."
+    },
+    {
+      "code": "TomatoHarvestr",
+      "display": "Tomato Harvesters",
+      "definition": "Tomato Harvesters — sub risk type code."
+    },
+    {
+      "code": "ToolsFarm",
+      "display": "Tools - Farm",
+      "definition": "Tools - Farm — sub risk type code."
+    },
+    {
+      "code": "Tractor",
+      "display": "Tractor",
+      "definition": "Tractor — sub risk type code."
+    },
+    {
+      "code": "Trailers",
+      "display": "Trailers",
+      "definition": "Trailers — sub risk type code."
+    },
+    {
+      "code": "TransferPumps",
+      "display": "Transfer Pumps",
+      "definition": "Transfer Pumps — sub risk type code."
+    },
+    {
+      "code": "TransmitterOperatingEquipment",
+      "display": "Transmitter Operating Equipment",
+      "definition": "Transmitter Operating Equipment — sub risk type code."
+    },
+    {
+      "code": "TransmittingReceivingBuildings",
+      "display": "Transmitting or Receiving buildings",
+      "definition": "Transmitting or Receiving buildings — sub risk type code."
+    },
+    {
+      "code": "TreesChristmas",
+      "display": "Trees - Christmas",
+      "definition": "Trees - Christmas — sub risk type code."
+    },
+    {
+      "code": "TreesFruit",
+      "display": "Trees - Fruit",
+      "definition": "Trees - Fruit — sub risk type code."
+    },
+    {
+      "code": "TreesOther",
+      "display": "Trees - Other",
+      "definition": "Trees - Other — sub risk type code."
+    },
+    {
+      "code": "Trout",
+      "display": "Trout",
+      "definition": "Trout — sub risk type code."
+    },
+    {
+      "code": "Turkey",
+      "display": "Turkey",
+      "definition": "Turkey — sub risk type code."
+    },
+    {
+      "code": "UnlicTrailer",
+      "display": "Unlicensed Trailers",
+      "definition": "Unlicensed Trailers — sub risk type code."
+    },
+    {
+      "code": "UnscheduledHandTools",
+      "display": "Unscheduled Hand Tools",
+      "definition": "Unscheduled Hand Tools — sub risk type code."
+    },
+    {
+      "code": "UnscheduledOther",
+      "display": "Unscheduled Other",
+      "definition": "Unscheduled Other — sub risk type code."
+    },
+    {
+      "code": "Vegetables",
+      "display": "Vegetables (Potatoes, Onions, Asparagus, Pickles, etc.)",
+      "definition": "Vegetables (Potatoes, Onions, Asparagus, Pickles, etc.) — sub risk type code."
+    },
+    {
+      "code": "VetSupplies",
+      "display": "Vet Supplies",
+      "definition": "Vet Supplies — sub risk type code."
+    },
+    {
+      "code": "VRipper",
+      "display": "V-Ripper",
+      "definition": "V-Ripper — sub risk type code."
+    },
+    {
+      "code": "Wagon",
+      "display": "Wagon",
+      "definition": "Wagon — sub risk type code."
+    },
+    {
+      "code": "WagonFeeder",
+      "display": "Wagon Feeder",
+      "definition": "Wagon Feeder — sub risk type code."
+    },
+    {
+      "code": "WagonGravity",
+      "display": "Wagon Gravity",
+      "definition": "Wagon Gravity — sub risk type code."
+    },
+    {
+      "code": "Wagons",
+      "display": "Wagons",
+      "definition": "Wagons — sub risk type code."
+    },
+    {
+      "code": "WatPumpPresTank",
+      "display": "Water Pump and Pressure Tank",
+      "definition": "Water Pump and Pressure Tank — sub risk type code."
+    },
+    {
+      "code": "WeldersTorches",
+      "display": "Welders and Torches",
+      "definition": "Welders and Torches — sub risk type code."
+    },
+    {
+      "code": "WgnGravityBox",
+      "display": "Wagon Gravity Boxes",
+      "definition": "Wagon Gravity Boxes — sub risk type code."
+    },
+    {
+      "code": "Wheat",
+      "display": "Wheat",
+      "definition": "Wheat — sub risk type code."
+    },
+    {
+      "code": "WheelLine",
+      "display": "Wheel-Line",
+      "definition": "Wheel-Line — sub risk type code."
+    },
+    {
+      "code": "Worm",
+      "display": "Worm",
+      "definition": "Worm — sub risk type code."
+    }
+  ]
+}

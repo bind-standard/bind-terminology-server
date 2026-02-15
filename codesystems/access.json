@@ -1,0 +1,67 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "access",
+  "url": "https://bind.codes/access",
+  "name": "Access",
+  "title": "Access",
+  "status": "draft",
+  "language": "en",
+  "description": "Access codes for insurance operations.",
+  "concept": [
+    {
+      "code": "easy-access-road",
+      "display": "Easy Access Road",
+      "definition": "Easy Access Road — access code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accès par route facile"
+        }
+      ]
+    },
+    {
+      "code": "difficult-access-road",
+      "display": "Difficult Access Road",
+      "definition": "Difficult Access Road — access code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accès par route difficile"
+        }
+      ]
+    },
+    {
+      "code": "island",
+      "display": "Island",
+      "definition": "Island — access code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Île"
+        }
+      ]
+    },
+    {
+      "code": "isolated-rural",
+      "display": "Isolated Rural",
+      "definition": "Isolated Rural — access code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rural isolé"
+        }
+      ]
+    },
+    {
+      "code": "other-send-in-remarks-to-specify",
+      "display": "Other (Send in Remarks to specify)",
+      "definition": "Other (Send in Remarks to specify) — access code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    }
+  ]
+}

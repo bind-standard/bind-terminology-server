@@ -1,0 +1,89 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "broad-line-business",
+  "url": "https://bind.codes/broad-line-business",
+  "name": "BroadLineBusiness",
+  "title": "Broad Line Business",
+  "status": "draft",
+  "language": "en",
+  "description": "Broad Line Business codes for insurance operations.",
+  "concept": [
+    {
+      "code": "C",
+      "display": "Commercial Lines",
+      "definition": "Commercial Lines — broad line business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des entreprises"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "display": "Franchise",
+      "definition": "Franchise — broad line business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "display": "Group",
+      "definition": "Group — broad line business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Groupe"
+        }
+      ]
+    },
+    {
+      "code": "L",
+      "display": "Life Insurance",
+      "definition": "Life Insurance — broad line business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance-vie"
+        }
+      ]
+    },
+    {
+      "code": "M",
+      "display": "Miscellaneous",
+      "definition": "Miscellaneous — broad line business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Divers"
+        }
+      ]
+    },
+    {
+      "code": "O",
+      "display": "Other Lines",
+      "definition": "Other Lines — broad line business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autres catégories"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Personal Lines",
+      "definition": "Personal Lines — broad line business code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des particuliers"
+        }
+      ]
+    }
+  ]
+}

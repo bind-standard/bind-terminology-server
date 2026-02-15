@@ -1,0 +1,265 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "deductible-applies",
+  "url": "https://bind.codes/deductible-applies",
+  "name": "DeductibleApplies",
+  "title": "Deductible Applies",
+  "status": "draft",
+  "language": "en",
+  "description": "Deductible Applies codes for insurance operations.",
+  "concept": [
+    {
+      "code": "Coverage",
+      "display": "Coverage",
+      "definition": "Coverage — deductible applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garantie"
+        }
+      ]
+    },
+    {
+      "code": "DAY",
+      "display": "Number of Days",
+      "definition": "Number of Days — deductible applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nombre de jours"
+        }
+      ]
+    },
+    {
+      "code": "EQK",
+      "display": "Earthquake",
+      "definition": "Earthquake — deductible applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tremblement de terre"
+        }
+      ]
+    },
+    {
+      "code": "Fire",
+      "display": "Fire",
+      "definition": "Fire — deductible applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie"
+        }
+      ]
+    },
+    {
+      "code": "HR",
+      "display": "Hours",
+      "definition": "Hours — deductible applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Heures"
+        }
+      ]
+    },
+    {
+      "code": "HURR",
+      "display": "Hurricane",
+      "definition": "Hurricane — deductible applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ouragan"
+        }
+      ]
+    },
+    {
+      "code": "ID",
+      "display": "Per Item",
+      "definition": "Per Item — deductible applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par article"
+        }
+      ]
+    },
+    {
+      "code": "IND",
+      "display": "Indemnity Only",
+      "definition": "Indemnity Only — deductible applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Indemnité seulement"
+        }
+      ]
+    },
+    {
+      "code": "L",
+      "display": "Location",
+      "definition": "Location — deductible applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Emplacement"
+        }
+      ]
+    },
+    {
+      "code": "LA",
+      "display": "Loss Aggregate",
+      "definition": "Loss Aggregate — deductible applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maximum déterminé par sinistre"
+        }
+      ]
+    },
+    {
+      "code": "MED",
+      "display": "Medical Only",
+      "definition": "Medical Only — deductible applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais médicaux seulement"
+        }
+      ]
+    },
+    {
+      "code": "MedExp",
+      "display": "Medical Expense",
+      "definition": "Medical Expense — deductible applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais médicaux"
+        }
+      ]
+    },
+    {
+      "code": "MEDIND",
+      "display": "Both Medical and Indemnity",
+      "definition": "Both Medical and Indemnity — deductible applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais médicaux et indemnité"
+        }
+      ]
+    },
+    {
+      "code": "MedRehab",
+      "display": "Medical Rehab Expense",
+      "definition": "Medical Rehab Expense — deductible applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais médicaux et frais de réadaptation"
+        }
+      ]
+    },
+    {
+      "code": "O",
+      "display": "Any One Occurrence",
+      "definition": "Any One Occurrence — deductible applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "N'importe quel sinistre"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Per Loss",
+      "definition": "Per Loss — deductible applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par sinistre"
+        }
+      ]
+    },
+    {
+      "code": "PropDam",
+      "display": "Property Damage",
+      "definition": "Property Damage — deductible applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommages matériels"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "Subject",
+      "definition": "Subject — deductible applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Objet"
+        }
+      ]
+    },
+    {
+      "code": "Theft",
+      "display": "Theft",
+      "definition": "Theft — deductible applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol"
+        }
+      ]
+    },
+    {
+      "code": "Trees",
+      "display": "Trees/bushes/shrubs",
+      "definition": "Trees/bushes/shrubs — deductible applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Arbres/buissons/arbustes"
+        }
+      ]
+    },
+    {
+      "code": "Wind",
+      "display": "Wind",
+      "definition": "Wind — deductible applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vent"
+        }
+      ]
+    },
+    {
+      "code": "WindHail",
+      "display": "Wind/Hail",
+      "definition": "Wind/Hail — deductible applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vent/grêle"
+        }
+      ]
+    },
+    {
+      "code": "WorkDays",
+      "display": "Work Days",
+      "definition": "Work Days — deductible applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Jours ouvrables"
+        }
+      ]
+    }
+  ]
+}

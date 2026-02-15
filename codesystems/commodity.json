@@ -1,0 +1,1233 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "commodity",
+  "url": "https://bind.codes/commodity",
+  "name": "Commodity",
+  "title": "Commodity",
+  "status": "draft",
+  "language": "en",
+  "description": "Commodity codes for insurance operations.",
+  "concept": [
+    {
+      "code": "gaseous-material-product",
+      "display": "Gaseous Material/Product",
+      "definition": "Gaseous Material/Product — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matériaux/produits gazeux"
+        }
+      ]
+    },
+    {
+      "code": "solid-material-product",
+      "display": "Solid Material/Product",
+      "definition": "Solid Material/Product — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matériaux/produits solides"
+        }
+      ]
+    },
+    {
+      "code": "liquid-material-product",
+      "display": "Liquid Material/Product",
+      "definition": "Liquid Material/Product — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matériaux/produits liquides"
+        }
+      ]
+    },
+    {
+      "code": "granular-material-product",
+      "display": "Granular Material/Product",
+      "definition": "Granular Material/Product — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matériaux/produits granulaires"
+        }
+      ]
+    },
+    {
+      "code": "A1",
+      "display": "Abrasive",
+      "definition": "Abrasive — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Abrasif"
+        }
+      ]
+    },
+    {
+      "code": "A2",
+      "display": "Agricultural Products",
+      "definition": "Agricultural Products — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits de l'agriculture"
+        }
+      ]
+    },
+    {
+      "code": "A3",
+      "display": "Animal Products, Veterinary",
+      "definition": "Animal Products, Veterinary — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits pour animaux, vétérinaire"
+        }
+      ]
+    },
+    {
+      "code": "A4",
+      "display": "Animals",
+      "definition": "Animals — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Animaux"
+        }
+      ]
+    },
+    {
+      "code": "A5",
+      "display": "Appliances",
+      "definition": "Appliances — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Appareils ménagers"
+        }
+      ]
+    },
+    {
+      "code": "A6",
+      "display": "Asphalt",
+      "definition": "Asphalt — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Asphalte, bitume"
+        }
+      ]
+    },
+    {
+      "code": "A7",
+      "display": "Automobile (Pieces)",
+      "definition": "Automobile (Pieces) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Automobile (pièces)"
+        }
+      ]
+    },
+    {
+      "code": "A8",
+      "display": "Automobile Without Towing",
+      "definition": "Automobile Without Towing — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Automobile sans remorqueuse"
+        }
+      ]
+    },
+    {
+      "code": "B1",
+      "display": "Baked Products",
+      "definition": "Baked Products — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits de boulangerie"
+        }
+      ]
+    },
+    {
+      "code": "B2",
+      "display": "Beer (Brasserie)",
+      "definition": "Beer (Brasserie) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bière (brasserie)"
+        }
+      ]
+    },
+    {
+      "code": "B3",
+      "display": "Buffet (Caterer)",
+      "definition": "Buffet (Caterer) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Buffet (traiteur)"
+        }
+      ]
+    },
+    {
+      "code": "C1",
+      "display": "Candy Shop",
+      "definition": "Candy Shop — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Magasin de bonbons"
+        }
+      ]
+    },
+    {
+      "code": "C10",
+      "display": "Cameras/Scientific Instruments",
+      "definition": "Cameras/Scientific Instruments — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caméras/Instruments Scientifiques"
+        }
+      ]
+    },
+    {
+      "code": "C2",
+      "display": "Carpet",
+      "definition": "Carpet — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tapis"
+        }
+      ]
+    },
+    {
+      "code": "C3",
+      "display": "Cement (excl. Concrete-mixer)",
+      "definition": "Cement (excl. Concrete-mixer) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ciment (excluant bétonnière)"
+        }
+      ]
+    },
+    {
+      "code": "C4",
+      "display": "Cement (Concrete-mixer)",
+      "definition": "Cement (Concrete-mixer) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ciment (bétonnière)"
+        }
+      ]
+    },
+    {
+      "code": "C5",
+      "display": "Chemical",
+      "definition": "Chemical — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits chimiques"
+        }
+      ]
+    },
+    {
+      "code": "C6",
+      "display": "Cleaning Products",
+      "definition": "Cleaning Products — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits d'entretien"
+        }
+      ]
+    },
+    {
+      "code": "C7",
+      "display": "Clothing",
+      "definition": "Clothing — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vêtements"
+        }
+      ]
+    },
+    {
+      "code": "C8",
+      "display": "Coal",
+      "definition": "Coal — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charbon"
+        }
+      ]
+    },
+    {
+      "code": "C9",
+      "display": "Computer Equipment",
+      "definition": "Computer Equipment — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ordinateurs"
+        }
+      ]
+    },
+    {
+      "code": "D1",
+      "display": "Dairy (Tank)",
+      "definition": "Dairy (Tank) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lait (réservoir)"
+        }
+      ]
+    },
+    {
+      "code": "D2",
+      "display": "Dairy Products",
+      "definition": "Dairy Products — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits laitiers"
+        }
+      ]
+    },
+    {
+      "code": "D3",
+      "display": "Delicatessen",
+      "definition": "Delicatessen — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charcuterie"
+        }
+      ]
+    },
+    {
+      "code": "D4",
+      "display": "Draperies, Curtains",
+      "definition": "Draperies, Curtains — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tentures, rideaux"
+        }
+      ]
+    },
+    {
+      "code": "D5",
+      "display": "Drug Store",
+      "definition": "Drug Store — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pharmacie"
+        }
+      ]
+    },
+    {
+      "code": "D6",
+      "display": "Diesel/Kerosene",
+      "definition": "Diesel/Kerosene — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Carburant diesel/kérosène"
+        }
+      ]
+    },
+    {
+      "code": "E1",
+      "display": "Enumerated or Not (more than one)",
+      "definition": "Enumerated or Not (more than one) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Énuméré ou non (plus d'un)"
+        }
+      ]
+    },
+    {
+      "code": "E2",
+      "display": "Explosives",
+      "definition": "Explosives — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Explosifs"
+        }
+      ]
+    },
+    {
+      "code": "F1",
+      "display": "Farm Tractor",
+      "definition": "Farm Tractor — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tracteur agricole"
+        }
+      ]
+    },
+    {
+      "code": "F2",
+      "display": "Fertilizer",
+      "definition": "Fertilizer — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fertilisants"
+        }
+      ]
+    },
+    {
+      "code": "F3",
+      "display": "Fish (Seafood)",
+      "definition": "Fish (Seafood) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poissons (fruits de mer)"
+        }
+      ]
+    },
+    {
+      "code": "F4",
+      "display": "Flowers",
+      "definition": "Flowers — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fleurs"
+        }
+      ]
+    },
+    {
+      "code": "F5",
+      "display": "Food",
+      "definition": "Food — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aliment"
+        }
+      ]
+    },
+    {
+      "code": "F6",
+      "display": "Forest Tractor",
+      "definition": "Forest Tractor — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tracteur forestier"
+        }
+      ]
+    },
+    {
+      "code": "F7",
+      "display": "Fruits and/or Vegetables",
+      "definition": "Fruits and/or Vegetables — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fruits et/ou légumes"
+        }
+      ]
+    },
+    {
+      "code": "F8",
+      "display": "Furniture",
+      "definition": "Furniture — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Meubles"
+        }
+      ]
+    },
+    {
+      "code": "F9",
+      "display": "Furs",
+      "definition": "Furs — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fourrures"
+        }
+      ]
+    },
+    {
+      "code": "G1",
+      "display": "Grain and/or Feed",
+      "definition": "Grain and/or Feed — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Céréales et/ou fourrages"
+        }
+      ]
+    },
+    {
+      "code": "G2",
+      "display": "Grass",
+      "definition": "Grass — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gazon"
+        }
+      ]
+    },
+    {
+      "code": "G3",
+      "display": "Groceries",
+      "definition": "Groceries — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Épicerie"
+        }
+      ]
+    },
+    {
+      "code": "G4",
+      "display": "Gasoline",
+      "definition": "Gasoline — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gazoline"
+        }
+      ]
+    },
+    {
+      "code": "H1",
+      "display": "Hardware Store",
+      "definition": "Hardware Store — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Quincaillerie"
+        }
+      ]
+    },
+    {
+      "code": "H2",
+      "display": "Hay",
+      "definition": "Hay — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foin"
+        }
+      ]
+    },
+    {
+      "code": "H3",
+      "display": "Heavy Machinery or Agricultural Equipment",
+      "definition": "Heavy Machinery or Agricultural Equipment — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Machinerie lourde ou équipement de ferme"
+        }
+      ]
+    },
+    {
+      "code": "H4",
+      "display": "Herbicide, Insecticide, Pesticide",
+      "definition": "Herbicide, Insecticide, Pesticide — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Herbicide, insecticide, pesticide"
+        }
+      ]
+    },
+    {
+      "code": "H5",
+      "display": "Household Refuse",
+      "definition": "Household Refuse — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ordures ménagères"
+        }
+      ]
+    },
+    {
+      "code": "H6",
+      "display": "Hazardous/Dangerous Goods",
+      "definition": "Hazardous/Dangerous Goods — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bien dangeureux"
+        }
+      ]
+    },
+    {
+      "code": "I1",
+      "display": "Ice Cream",
+      "definition": "Ice Cream — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Crème glacée"
+        }
+      ]
+    },
+    {
+      "code": "I2",
+      "display": "Ice",
+      "definition": "Ice — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Glace"
+        }
+      ]
+    },
+    {
+      "code": "I3",
+      "display": "Iron",
+      "definition": "Iron — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fer"
+        }
+      ]
+    },
+    {
+      "code": "J1",
+      "display": "Jewellery (Sales & Repair)",
+      "definition": "Jewellery (Sales & Repair) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bijouterie (vente et réparations)"
+        }
+      ]
+    },
+    {
+      "code": "L1",
+      "display": "Landscape Gardener",
+      "definition": "Landscape Gardener — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Jardinier paysagiste"
+        }
+      ]
+    },
+    {
+      "code": "L2",
+      "display": "Laundry-room",
+      "definition": "Laundry-room — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Salle de lavage"
+        }
+      ]
+    },
+    {
+      "code": "L3",
+      "display": "Lime",
+      "definition": "Lime — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chaux"
+        }
+      ]
+    },
+    {
+      "code": "L4",
+      "display": "Liquor",
+      "definition": "Liquor — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Spiritueux"
+        }
+      ]
+    },
+    {
+      "code": "M1",
+      "display": "Magazines or Circulars",
+      "definition": "Magazines or Circulars — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Revues ou circulaires"
+        }
+      ]
+    },
+    {
+      "code": "M2",
+      "display": "Mail",
+      "definition": "Mail — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courrier"
+        }
+      ]
+    },
+    {
+      "code": "M3",
+      "display": "Manure",
+      "definition": "Manure — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fumier"
+        }
+      ]
+    },
+    {
+      "code": "M4",
+      "display": "Meals (Restaurant, Canteen)",
+      "definition": "Meals (Restaurant, Canteen) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Repas (restaurant, cantine)"
+        }
+      ]
+    },
+    {
+      "code": "M5",
+      "display": "Meat (Butcher)",
+      "definition": "Meat (Butcher) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Viandes (boucher)"
+        }
+      ]
+    },
+    {
+      "code": "M7",
+      "display": "Mobile Home",
+      "definition": "Mobile Home — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maison mobile"
+        }
+      ]
+    },
+    {
+      "code": "M8",
+      "display": "Musical Instruments",
+      "definition": "Musical Instruments — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Instruments de musique"
+        }
+      ]
+    },
+    {
+      "code": "N1",
+      "display": "Newspapers",
+      "definition": "Newspapers — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Journaux"
+        }
+      ]
+    },
+    {
+      "code": "N2",
+      "display": "No Merchandise Transported",
+      "definition": "No Merchandise Transported — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun transport de marchandises"
+        }
+      ]
+    },
+    {
+      "code": "N3",
+      "display": "Non-perishable Goods",
+      "definition": "Non-perishable Goods — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Biens non périssables"
+        }
+      ]
+    },
+    {
+      "code": "O1",
+      "display": "Oil",
+      "definition": "Oil — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Huile"
+        }
+      ]
+    },
+    {
+      "code": "O2",
+      "display": "Office Machines",
+      "definition": "Office Machines — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Machines de bureau"
+        }
+      ]
+    },
+    {
+      "code": "P1",
+      "display": "Paint",
+      "definition": "Paint — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Peinture"
+        }
+      ]
+    },
+    {
+      "code": "P10",
+      "display": "Pharmaceutical",
+      "definition": "Pharmaceutical — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pharmaceutique"
+        }
+      ]
+    },
+    {
+      "code": "P11",
+      "display": "Precious Metals",
+      "definition": "Precious Metals — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Métaux précieux"
+        }
+      ]
+    },
+    {
+      "code": "P2",
+      "display": "Painting",
+      "definition": "Painting — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Peintures (tableaux)"
+        }
+      ]
+    },
+    {
+      "code": "P3",
+      "display": "Paper Products",
+      "definition": "Paper Products — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits papetiers"
+        }
+      ]
+    },
+    {
+      "code": "P4",
+      "display": "Parcels (Messenger Service)",
+      "definition": "Parcels (Messenger Service) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Colis (service de messagerie)"
+        }
+      ]
+    },
+    {
+      "code": "P6",
+      "display": "Petrol (Inflammable Liquids)",
+      "definition": "Petrol (Inflammable Liquids) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Essence (liquides inflammables)"
+        }
+      ]
+    },
+    {
+      "code": "P7",
+      "display": "Plant Shop",
+      "definition": "Plant Shop — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boutique de plantes"
+        }
+      ]
+    },
+    {
+      "code": "P8",
+      "display": "Pollutive Products",
+      "definition": "Pollutive Products — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits polluants"
+        }
+      ]
+    },
+    {
+      "code": "P9",
+      "display": "Poulterer",
+      "definition": "Poulterer — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marchand de volailles"
+        }
+      ]
+    },
+    {
+      "code": "R1",
+      "display": "Radioactive Material",
+      "definition": "Radioactive Material — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matières radioactives"
+        }
+      ]
+    },
+    {
+      "code": "S1",
+      "display": "Sand, Gravel, Compost",
+      "definition": "Sand, Gravel, Compost — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sable, gravier, compost"
+        }
+      ]
+    },
+    {
+      "code": "S2",
+      "display": "Service Vehicle (Without Merchandise Transport)",
+      "definition": "Service Vehicle (Without Merchandise Transport) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule de service (sans transport de marchandises)"
+        }
+      ]
+    },
+    {
+      "code": "S3",
+      "display": "Sewer, Septic Tank",
+      "definition": "Sewer, Septic Tank — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Égout, fosse septique"
+        }
+      ]
+    },
+    {
+      "code": "S4",
+      "display": "Snow",
+      "definition": "Snow — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Neige"
+        }
+      ]
+    },
+    {
+      "code": "S5",
+      "display": "Soft Drinks",
+      "definition": "Soft Drinks — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boissons gazeuses"
+        }
+      ]
+    },
+    {
+      "code": "T1",
+      "display": "Tar",
+      "definition": "Tar — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Goudron"
+        }
+      ]
+    },
+    {
+      "code": "T2",
+      "display": "Television (Sales)",
+      "definition": "Television (Sales) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Télévision (ventes)"
+        }
+      ]
+    },
+    {
+      "code": "T3",
+      "display": "Tobacco",
+      "definition": "Tobacco — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tabac"
+        }
+      ]
+    },
+    {
+      "code": "T4",
+      "display": "Tools (Craftsman)",
+      "definition": "Tools (Craftsman) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Outils (artisan)"
+        }
+      ]
+    },
+    {
+      "code": "T5",
+      "display": "Towing",
+      "definition": "Towing — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorquage"
+        }
+      ]
+    },
+    {
+      "code": "T6",
+      "display": "Toxic (Products)",
+      "definition": "Toxic (Products) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toxiques (produits)"
+        }
+      ]
+    },
+    {
+      "code": "T7",
+      "display": "Toys",
+      "definition": "Toys — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Jouets"
+        }
+      ]
+    },
+    {
+      "code": "T8",
+      "display": "Tractor (Other)",
+      "definition": "Tractor (Other) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tracteur (autre)"
+        }
+      ]
+    },
+    {
+      "code": "T9",
+      "display": "Transformer",
+      "definition": "Transformer — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transformateur"
+        }
+      ]
+    },
+    {
+      "code": "U1",
+      "display": "Utility Vehicle (Leveller)",
+      "definition": "Utility Vehicle (Leveller) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule industriel (répartiteur)"
+        }
+      ]
+    },
+    {
+      "code": "W1",
+      "display": "Waste (excl. Toxic Waste)",
+      "definition": "Waste (excl. Toxic Waste) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déchets (excluant déchets toxiques)"
+        }
+      ]
+    },
+    {
+      "code": "W2",
+      "display": "Well-digger",
+      "definition": "Well-digger — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Puisatier"
+        }
+      ]
+    },
+    {
+      "code": "W3",
+      "display": "Window Repair Shop",
+      "definition": "Window Repair Shop — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Atelier de réparation de fenêtres"
+        }
+      ]
+    },
+    {
+      "code": "W4",
+      "display": "Windows, Doors",
+      "definition": "Windows, Doors — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fenêtres, portes"
+        }
+      ]
+    },
+    {
+      "code": "W5",
+      "display": "Wood (for Heating)",
+      "definition": "Wood (for Heating) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois (pour chauffage)"
+        }
+      ]
+    },
+    {
+      "code": "W6",
+      "display": "Wood (Plywood)",
+      "definition": "Wood (Plywood) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois (contreplaqué)"
+        }
+      ]
+    },
+    {
+      "code": "W7",
+      "display": "Wood",
+      "definition": "Wood — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois"
+        }
+      ]
+    },
+    {
+      "code": "Z1",
+      "display": "Concrete",
+      "definition": "Concrete — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton"
+        }
+      ]
+    },
+    {
+      "code": "Z2",
+      "display": "Construction Material",
+      "definition": "Construction Material — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matériaux de construction"
+        }
+      ]
+    },
+    {
+      "code": "ZZ",
+      "display": "Other",
+      "definition": "Other — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "W8",
+      "display": "Wood (Logs)",
+      "definition": "Wood (Logs) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois (Bûches)"
+        }
+      ]
+    },
+    {
+      "code": "W9",
+      "display": "Wood (Lumber)",
+      "definition": "Wood (Lumber) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois (Bois de construction)"
+        }
+      ]
+    },
+    {
+      "code": "A9",
+      "display": "Animals (Livestock)",
+      "definition": "Animals (Livestock) — commodity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Animaux (Bétail)"
+        }
+      ]
+    }
+  ]
+}

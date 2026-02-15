@@ -1,0 +1,45 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "mvr-report-status",
+  "url": "https://bind.codes/mvr-report-status",
+  "name": "MvrReportStatus",
+  "title": "Mvr Report Status",
+  "status": "draft",
+  "language": "en",
+  "description": "Mvr Report Status codes for insurance operations.",
+  "concept": [
+    {
+      "code": "not-ordered",
+      "display": "Not Ordered",
+      "definition": "Not Ordered — mvr report status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non commandé"
+        }
+      ]
+    },
+    {
+      "code": "ordered",
+      "display": "Ordered",
+      "definition": "Ordered — mvr report status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commandé"
+        }
+      ]
+    },
+    {
+      "code": "received",
+      "display": "Received",
+      "definition": "Received — mvr report status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Reçu"
+        }
+      ]
+    }
+  ]
+}

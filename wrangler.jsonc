@@ -1,0 +1,20 @@
+{
+  "name": "bind-terminology-server",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-01-01",
+  "assets": {
+    "directory": "./codesystems",
+    "binding": "ASSETS"
+  },
+  "workers_dev": false,
+  "routes": [
+    {
+      "pattern": "bind.codes",
+      "custom_domain": false
+    },
+    {
+      "pattern": "www.bind.codes",
+      "custom_domain": false
+    }
+  ]
+}

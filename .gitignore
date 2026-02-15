@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.wrangler/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Private source mapping (generated)
+.mapping/

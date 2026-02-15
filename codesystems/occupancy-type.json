@@ -1,0 +1,154 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "occupancy-type",
+  "url": "https://bind.codes/occupancy-type",
+  "name": "OccupancyType",
+  "title": "Occupancy Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Occupancy Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "primary-residence",
+      "display": "Primary Residence",
+      "definition": "Primary Residence — occupancy type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résidence principale"
+        }
+      ]
+    },
+    {
+      "code": "secondary-non-seasonal",
+      "display": "Secondary, Non-seasonal",
+      "definition": "Secondary, Non-seasonal — occupancy type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résidence secondaire, non saisonnière"
+        }
+      ]
+    },
+    {
+      "code": "secondary-seasonal",
+      "display": "Secondary, Seasonal",
+      "definition": "Secondary, Seasonal — occupancy type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résidence secondaire, saisonnière"
+        }
+      ]
+    },
+    {
+      "code": "rental",
+      "display": "Rental",
+      "definition": "Rental — occupancy type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Loué"
+        }
+      ]
+    },
+    {
+      "code": "not-applicable",
+      "display": "Not Applicable",
+      "definition": "Not Applicable — occupancy type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sans objet"
+        }
+      ]
+    },
+    {
+      "code": "unoccupied",
+      "display": "Unoccupied",
+      "definition": "Unoccupied — occupancy type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inoccupé"
+        }
+      ]
+    },
+    {
+      "code": "vacant",
+      "display": "Vacant",
+      "definition": "Vacant — occupancy type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vacant"
+        }
+      ]
+    },
+    {
+      "code": "rented-to-third-party",
+      "display": "Rented to Third Party",
+      "definition": "Rented to Third Party — occupancy type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Loué à un tiers"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "display": "Under Construction",
+      "definition": "Under Construction — occupancy type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En construction"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "display": "Employee Occupied",
+      "definition": "Employee Occupied — occupancy type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Occupé par employé"
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "display": "Major Renovation",
+      "definition": "Major Renovation — occupancy type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rénovation majeure"
+        }
+      ]
+    },
+    {
+      "code": "OT",
+      "display": "Other",
+      "definition": "Other — occupancy type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "display": "Family Occupied",
+      "definition": "Family Occupied — occupancy type code."
+    },
+    {
+      "code": "O",
+      "display": "Other",
+      "definition": "Other — occupancy type code."
+    }
+  ]
+}

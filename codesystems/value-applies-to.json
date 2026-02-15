@@ -1,0 +1,45 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "value-applies-to",
+  "url": "https://bind.codes/value-applies-to",
+  "name": "ValueAppliesTo",
+  "title": "Value Applies To",
+  "status": "draft",
+  "language": "en",
+  "description": "Value Applies To codes for insurance operations.",
+  "concept": [
+    {
+      "code": "Animal",
+      "display": "Animal",
+      "definition": "Animal — value applies to code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Animaux"
+        }
+      ]
+    },
+    {
+      "code": "Books",
+      "display": "Books",
+      "definition": "Books — value applies to code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Livres"
+        }
+      ]
+    },
+    {
+      "code": "Stock",
+      "display": "Stock",
+      "definition": "Stock — value applies to code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stocks"
+        }
+      ]
+    }
+  ]
+}

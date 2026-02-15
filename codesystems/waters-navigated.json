@@ -1,0 +1,56 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "waters-navigated",
+  "url": "https://bind.codes/waters-navigated",
+  "name": "WatersNavigated",
+  "title": "Waters Navigated",
+  "status": "draft",
+  "language": "en",
+  "description": "Waters Navigated codes for insurance operations.",
+  "concept": [
+    {
+      "code": "C",
+      "display": "Coastal (Saltwater)",
+      "definition": "Coastal (Saltwater) — waters navigated code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Côtière (mer)"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "display": "Inland",
+      "definition": "Inland — waters navigated code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intérieure"
+        }
+      ]
+    },
+    {
+      "code": "O",
+      "display": "Other",
+      "definition": "Other — waters navigated code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "T",
+      "display": "Territorial",
+      "definition": "Territorial — waters navigated code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Territoriales"
+        }
+      ]
+    }
+  ]
+}

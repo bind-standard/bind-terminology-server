@@ -1,0 +1,177 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "protection-use",
+  "url": "https://bind.codes/protection-use",
+  "name": "ProtectionUse",
+  "title": "Protection Use",
+  "status": "draft",
+  "language": "en",
+  "description": "Protection Use codes for insurance operations.",
+  "concept": [
+    {
+      "code": "BUL",
+      "display": "Building",
+      "definition": "Building — protection use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Édifice"
+        }
+      ]
+    },
+    {
+      "code": "BUR",
+      "display": "Burglary",
+      "definition": "Burglary — protection use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol avec effraction"
+        }
+      ]
+    },
+    {
+      "code": "COK",
+      "display": "Cooking Appliances",
+      "definition": "Cooking Appliances — protection use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Appareils électroménagers"
+        }
+      ]
+    },
+    {
+      "code": "ELE",
+      "display": "Electronic Equipment",
+      "definition": "Electronic Equipment — protection use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matériels électroniques"
+        }
+      ]
+    },
+    {
+      "code": "FIR",
+      "display": "Fire",
+      "definition": "Fire — protection use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie"
+        }
+      ]
+    },
+    {
+      "code": "GLA",
+      "display": "Glass Breakage",
+      "definition": "Glass Breakage — protection use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bris de glaces"
+        }
+      ]
+    },
+    {
+      "code": "HUM",
+      "display": "Humidity",
+      "definition": "Humidity — protection use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Humidité"
+        }
+      ]
+    },
+    {
+      "code": "OTH",
+      "display": "Other",
+      "definition": "Other — protection use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "PRO",
+      "display": "Processing Area",
+      "definition": "Processing Area — protection use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aire de traitement"
+        }
+      ]
+    },
+    {
+      "code": "ROB",
+      "display": "Robbery/Hold-up",
+      "definition": "Robbery/Hold-up — protection use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol à main armée"
+        }
+      ]
+    },
+    {
+      "code": "SAF",
+      "display": "Safe Burglary",
+      "definition": "Safe Burglary — protection use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol avec effraction de coffres-forts"
+        }
+      ]
+    },
+    {
+      "code": "SMO",
+      "display": "Smoke",
+      "definition": "Smoke — protection use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fumée"
+        }
+      ]
+    },
+    {
+      "code": "STO",
+      "display": "Storage Area",
+      "definition": "Storage Area — protection use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aire d'entreposage"
+        }
+      ]
+    },
+    {
+      "code": "TEM",
+      "display": "Temperature",
+      "definition": "Temperature — protection use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Température"
+        }
+      ]
+    },
+    {
+      "code": "WAT",
+      "display": "Water Escape",
+      "definition": "Water Escape — protection use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fuite d'eau"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "trip-radius",
+  "url": "https://bind.codes/trip-radius",
+  "name": "TripRadius",
+  "title": "Trip Radius",
+  "status": "draft",
+  "language": "en",
+  "description": "Trip Radius codes for insurance operations.",
+  "concept": [
+    {
+      "code": "normal",
+      "display": "Normal",
+      "definition": "Normal — trip radius code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Normal"
+        }
+      ]
+    },
+    {
+      "code": "maximum",
+      "display": "Maximum",
+      "definition": "Maximum — trip radius code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maximum"
+        }
+      ]
+    }
+  ]
+}

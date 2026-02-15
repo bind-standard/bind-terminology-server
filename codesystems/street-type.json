@@ -1,0 +1,2047 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "street-type",
+  "url": "https://bind.codes/street-type",
+  "name": "StreetType",
+  "title": "Street Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Street Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ABBEY",
+      "display": "Abbey",
+      "definition": "Abbey — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Abbey"
+        }
+      ]
+    },
+    {
+      "code": "ACRES",
+      "display": "Acres",
+      "definition": "Acres — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acres"
+        }
+      ]
+    },
+    {
+      "code": "ALLEE",
+      "display": "Allée",
+      "definition": "Allée — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Allée"
+        }
+      ]
+    },
+    {
+      "code": "ALLEY",
+      "display": "Alley",
+      "definition": "Alley — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Alley"
+        }
+      ]
+    },
+    {
+      "code": "AUT",
+      "display": "Autoroute",
+      "definition": "Autoroute — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autoroute"
+        }
+      ]
+    },
+    {
+      "code": "AV",
+      "display": "Avenue (French)",
+      "definition": "Avenue (French) — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avenue (French)"
+        }
+      ]
+    },
+    {
+      "code": "AVE",
+      "display": "Avenue (English)",
+      "definition": "Avenue (English) — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avenue (English)"
+        }
+      ]
+    },
+    {
+      "code": "BAY",
+      "display": "Bay",
+      "definition": "Bay — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bay"
+        }
+      ]
+    },
+    {
+      "code": "BEACH",
+      "display": "Beach",
+      "definition": "Beach — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Beach"
+        }
+      ]
+    },
+    {
+      "code": "BEND",
+      "display": "Bend",
+      "definition": "Bend — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bend"
+        }
+      ]
+    },
+    {
+      "code": "BLVD",
+      "display": "Boulevard (English)",
+      "definition": "Boulevard (English) — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boulevard (English)"
+        }
+      ]
+    },
+    {
+      "code": "BOUL",
+      "display": "Boulevard (French)",
+      "definition": "Boulevard (French) — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boulevard (French)"
+        }
+      ]
+    },
+    {
+      "code": "BYPASS",
+      "display": "By-pass",
+      "definition": "By-pass — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "By-pass"
+        }
+      ]
+    },
+    {
+      "code": "BYWAY",
+      "display": "Byway",
+      "definition": "Byway — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Byway"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "display": "Centre (French)",
+      "definition": "Centre (French) — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Centre (French)"
+        }
+      ]
+    },
+    {
+      "code": "CAMPUS",
+      "display": "Campus",
+      "definition": "Campus — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Campus"
+        }
+      ]
+    },
+    {
+      "code": "CAPE",
+      "display": "Cape",
+      "definition": "Cape — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cape"
+        }
+      ]
+    },
+    {
+      "code": "CAR",
+      "display": "Carré",
+      "definition": "Carré — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Carré"
+        }
+      ]
+    },
+    {
+      "code": "CARREF",
+      "display": "Carrefour",
+      "definition": "Carrefour — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Carrefour"
+        }
+      ]
+    },
+    {
+      "code": "CDS",
+      "display": "Cul-de-sac",
+      "definition": "Cul-de-sac — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cul-de-sac"
+        }
+      ]
+    },
+    {
+      "code": "CERCLE",
+      "display": "Cercle",
+      "definition": "Cercle — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cercle"
+        }
+      ]
+    },
+    {
+      "code": "CH",
+      "display": "Chemin",
+      "definition": "Chemin — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chemin"
+        }
+      ]
+    },
+    {
+      "code": "CHASE",
+      "display": "Chase",
+      "definition": "Chase — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chase"
+        }
+      ]
+    },
+    {
+      "code": "CIR",
+      "display": "Circle",
+      "definition": "Circle — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Circle"
+        }
+      ]
+    },
+    {
+      "code": "CIRCT",
+      "display": "Circuit",
+      "definition": "Circuit — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Circuit"
+        }
+      ]
+    },
+    {
+      "code": "CLOSE",
+      "display": "Close",
+      "definition": "Close — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Close"
+        }
+      ]
+    },
+    {
+      "code": "COMMON",
+      "display": "Common",
+      "definition": "Common — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Common"
+        }
+      ]
+    },
+    {
+      "code": "CONC",
+      "display": "Concession",
+      "definition": "Concession — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Concession"
+        }
+      ]
+    },
+    {
+      "code": "COTE",
+      "display": "Côte",
+      "definition": "Côte — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Côte"
+        }
+      ]
+    },
+    {
+      "code": "COUR",
+      "display": "Cour",
+      "definition": "Cour — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cour"
+        }
+      ]
+    },
+    {
+      "code": "COURS",
+      "display": "Cours",
+      "definition": "Cours — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cours"
+        }
+      ]
+    },
+    {
+      "code": "COVE",
+      "display": "Cove",
+      "definition": "Cove — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cove"
+        }
+      ]
+    },
+    {
+      "code": "CRES",
+      "display": "Crescent",
+      "definition": "Crescent — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Crescent"
+        }
+      ]
+    },
+    {
+      "code": "CRNRS",
+      "display": "Corners",
+      "definition": "Corners — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Corners"
+        }
+      ]
+    },
+    {
+      "code": "CROIS",
+      "display": "Croissant",
+      "definition": "Croissant — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Croissant"
+        }
+      ]
+    },
+    {
+      "code": "CROSS",
+      "display": "Crossing",
+      "definition": "Crossing — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Crossing"
+        }
+      ]
+    },
+    {
+      "code": "CRT",
+      "display": "Court",
+      "definition": "Court — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Court"
+        }
+      ]
+    },
+    {
+      "code": "CTR",
+      "display": "Centre (English)",
+      "definition": "Centre (English) — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Centre (English)"
+        }
+      ]
+    },
+    {
+      "code": "DALE",
+      "display": "Dale",
+      "definition": "Dale — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dale"
+        }
+      ]
+    },
+    {
+      "code": "DELL",
+      "display": "Dell",
+      "definition": "Dell — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dell"
+        }
+      ]
+    },
+    {
+      "code": "DIVERS",
+      "display": "Diversion",
+      "definition": "Diversion — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Diversion"
+        }
+      ]
+    },
+    {
+      "code": "DOWNS",
+      "display": "Downs",
+      "definition": "Downs — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Downs"
+        }
+      ]
+    },
+    {
+      "code": "DR",
+      "display": "Drive",
+      "definition": "Drive — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Drive"
+        }
+      ]
+    },
+    {
+      "code": "ECH",
+      "display": "Échangeur",
+      "definition": "Échangeur — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Échangeur"
+        }
+      ]
+    },
+    {
+      "code": "END",
+      "display": "End",
+      "definition": "End — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "End"
+        }
+      ]
+    },
+    {
+      "code": "ESPL",
+      "display": "Esplanade",
+      "definition": "Esplanade — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Esplanade"
+        }
+      ]
+    },
+    {
+      "code": "ESTATE",
+      "display": "Estates",
+      "definition": "Estates — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Estates"
+        }
+      ]
+    },
+    {
+      "code": "EXPY",
+      "display": "Expressway",
+      "definition": "Expressway — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Expressway"
+        }
+      ]
+    },
+    {
+      "code": "EXTEN",
+      "display": "Extension",
+      "definition": "Extension — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Extension"
+        }
+      ]
+    },
+    {
+      "code": "FARM",
+      "display": "Farm",
+      "definition": "Farm — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Farm"
+        }
+      ]
+    },
+    {
+      "code": "FIELD",
+      "display": "Field",
+      "definition": "Field — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Field"
+        }
+      ]
+    },
+    {
+      "code": "FOREST",
+      "display": "Forest",
+      "definition": "Forest — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Forest"
+        }
+      ]
+    },
+    {
+      "code": "FRONT",
+      "display": "Front",
+      "definition": "Front — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Front"
+        }
+      ]
+    },
+    {
+      "code": "FWY",
+      "display": "Freeway",
+      "definition": "Freeway — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Freeway"
+        }
+      ]
+    },
+    {
+      "code": "GATE",
+      "display": "Gate",
+      "definition": "Gate — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gate"
+        }
+      ]
+    },
+    {
+      "code": "GDNS",
+      "display": "Gardens",
+      "definition": "Gardens — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gardens"
+        }
+      ]
+    },
+    {
+      "code": "GLADE",
+      "display": "Glade",
+      "definition": "Glade — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Glade"
+        }
+      ]
+    },
+    {
+      "code": "GLEN",
+      "display": "Glen",
+      "definition": "Glen — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Glen"
+        }
+      ]
+    },
+    {
+      "code": "GREEN",
+      "display": "Green",
+      "definition": "Green — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Green"
+        }
+      ]
+    },
+    {
+      "code": "GRNDS",
+      "display": "Grounds",
+      "definition": "Grounds — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grounds"
+        }
+      ]
+    },
+    {
+      "code": "GROVE",
+      "display": "Grove",
+      "definition": "Grove — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grove"
+        }
+      ]
+    },
+    {
+      "code": "HARBR",
+      "display": "Harbour",
+      "definition": "Harbour — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Harbour"
+        }
+      ]
+    },
+    {
+      "code": "HEATH",
+      "display": "Heath",
+      "definition": "Heath — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Heath"
+        }
+      ]
+    },
+    {
+      "code": "HGHLDS",
+      "display": "Highlands",
+      "definition": "Highlands — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Highlands"
+        }
+      ]
+    },
+    {
+      "code": "HILL",
+      "display": "Hill",
+      "definition": "Hill — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hill"
+        }
+      ]
+    },
+    {
+      "code": "HOLLOW",
+      "display": "Hollow",
+      "definition": "Hollow — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hollow"
+        }
+      ]
+    },
+    {
+      "code": "HTS",
+      "display": "Heights",
+      "definition": "Heights — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Heights"
+        }
+      ]
+    },
+    {
+      "code": "HWY",
+      "display": "Highway",
+      "definition": "Highway — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Highway"
+        }
+      ]
+    },
+    {
+      "code": "ILE",
+      "display": "Île",
+      "definition": "Île — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Île"
+        }
+      ]
+    },
+    {
+      "code": "IMP",
+      "display": "Impasse",
+      "definition": "Impasse — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Impasse"
+        }
+      ]
+    },
+    {
+      "code": "INLET",
+      "display": "Inlet",
+      "definition": "Inlet — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inlet"
+        }
+      ]
+    },
+    {
+      "code": "ISLAND",
+      "display": "Island",
+      "definition": "Island — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Island"
+        }
+      ]
+    },
+    {
+      "code": "KEY",
+      "display": "Key",
+      "definition": "Key — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Key"
+        }
+      ]
+    },
+    {
+      "code": "KNOLL",
+      "display": "Knoll",
+      "definition": "Knoll — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Knoll"
+        }
+      ]
+    },
+    {
+      "code": "LANDNG",
+      "display": "Landing",
+      "definition": "Landing — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Landing"
+        }
+      ]
+    },
+    {
+      "code": "LANE",
+      "display": "Lane",
+      "definition": "Lane — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lane"
+        }
+      ]
+    },
+    {
+      "code": "LINE",
+      "display": "Line",
+      "definition": "Line — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Line"
+        }
+      ]
+    },
+    {
+      "code": "LINK",
+      "display": "Link",
+      "definition": "Link — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Link"
+        }
+      ]
+    },
+    {
+      "code": "LKOUT",
+      "display": "Lookout",
+      "definition": "Lookout — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lookout"
+        }
+      ]
+    },
+    {
+      "code": "LMTS",
+      "display": "Limits",
+      "definition": "Limits — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Limits"
+        }
+      ]
+    },
+    {
+      "code": "LOOP",
+      "display": "Loop",
+      "definition": "Loop — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Loop"
+        }
+      ]
+    },
+    {
+      "code": "MALL",
+      "display": "Mall",
+      "definition": "Mall — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mall"
+        }
+      ]
+    },
+    {
+      "code": "MANOR",
+      "display": "Manor",
+      "definition": "Manor — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Manor"
+        }
+      ]
+    },
+    {
+      "code": "MAZE",
+      "display": "Maze",
+      "definition": "Maze — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maze"
+        }
+      ]
+    },
+    {
+      "code": "MEADOW",
+      "display": "Meadow",
+      "definition": "Meadow — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Meadow"
+        }
+      ]
+    },
+    {
+      "code": "MEWS",
+      "display": "Mews",
+      "definition": "Mews — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mews"
+        }
+      ]
+    },
+    {
+      "code": "MONTEE",
+      "display": "Montée",
+      "definition": "Montée — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Montée"
+        }
+      ]
+    },
+    {
+      "code": "MOOR",
+      "display": "Moor",
+      "definition": "Moor — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Moor"
+        }
+      ]
+    },
+    {
+      "code": "MOUNT",
+      "display": "Mount",
+      "definition": "Mount — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mount"
+        }
+      ]
+    },
+    {
+      "code": "MTN",
+      "display": "Mountain",
+      "definition": "Mountain — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mountain"
+        }
+      ]
+    },
+    {
+      "code": "ORCH",
+      "display": "Orchard",
+      "definition": "Orchard — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Orchard"
+        }
+      ]
+    },
+    {
+      "code": "PARADE",
+      "display": "Parade",
+      "definition": "Parade — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Parade"
+        }
+      ]
+    },
+    {
+      "code": "PARC",
+      "display": "Parc",
+      "definition": "Parc — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Parc"
+        }
+      ]
+    },
+    {
+      "code": "PASS",
+      "display": "Passage",
+      "definition": "Passage — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Passage"
+        }
+      ]
+    },
+    {
+      "code": "PATH",
+      "display": "Path",
+      "definition": "Path — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Path"
+        }
+      ]
+    },
+    {
+      "code": "PINES",
+      "display": "Pines",
+      "definition": "Pines — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pines"
+        }
+      ]
+    },
+    {
+      "code": "PK",
+      "display": "Park",
+      "definition": "Park — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Park"
+        }
+      ]
+    },
+    {
+      "code": "PKY",
+      "display": "Parkway",
+      "definition": "Parkway — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Parkway"
+        }
+      ]
+    },
+    {
+      "code": "PL",
+      "display": "Place (English)",
+      "definition": "Place (English) — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Place (English)"
+        }
+      ]
+    },
+    {
+      "code": "PLACE",
+      "display": "Place (French)",
+      "definition": "Place (French) — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Place (French)"
+        }
+      ]
+    },
+    {
+      "code": "PLAT",
+      "display": "Plateau",
+      "definition": "Plateau — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plateau"
+        }
+      ]
+    },
+    {
+      "code": "PLAZA",
+      "display": "Plaza",
+      "definition": "Plaza — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plaza"
+        }
+      ]
+    },
+    {
+      "code": "POINTE",
+      "display": "Pointe",
+      "definition": "Pointe — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pointe"
+        }
+      ]
+    },
+    {
+      "code": "PORT",
+      "display": "Port",
+      "definition": "Port — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Port"
+        }
+      ]
+    },
+    {
+      "code": "PROM",
+      "display": "Promenade",
+      "definition": "Promenade — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promenade"
+        }
+      ]
+    },
+    {
+      "code": "PT",
+      "display": "Point",
+      "definition": "Point — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Point"
+        }
+      ]
+    },
+    {
+      "code": "PTWAY",
+      "display": "Pathway",
+      "definition": "Pathway — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pathway"
+        }
+      ]
+    },
+    {
+      "code": "PVT",
+      "display": "Private",
+      "definition": "Private — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Private"
+        }
+      ]
+    },
+    {
+      "code": "QUAI",
+      "display": "Quai",
+      "definition": "Quai — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Quai"
+        }
+      ]
+    },
+    {
+      "code": "QUAY",
+      "display": "Quay",
+      "definition": "Quay — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Quay"
+        }
+      ]
+    },
+    {
+      "code": "RAMP",
+      "display": "Ramp",
+      "definition": "Ramp — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ramp"
+        }
+      ]
+    },
+    {
+      "code": "RANG",
+      "display": "Rang",
+      "definition": "Rang — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rang"
+        }
+      ]
+    },
+    {
+      "code": "RD",
+      "display": "Road",
+      "definition": "Road — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Road"
+        }
+      ]
+    },
+    {
+      "code": "RDPT",
+      "display": "Rond-point",
+      "definition": "Rond-point — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rond-point"
+        }
+      ]
+    },
+    {
+      "code": "RG",
+      "display": "Range",
+      "definition": "Range — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Range"
+        }
+      ]
+    },
+    {
+      "code": "RIDGE",
+      "display": "Ridge",
+      "definition": "Ridge — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ridge"
+        }
+      ]
+    },
+    {
+      "code": "RISE",
+      "display": "Rise",
+      "definition": "Rise — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rise"
+        }
+      ]
+    },
+    {
+      "code": "RLE",
+      "display": "Ruelle",
+      "definition": "Ruelle — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ruelle"
+        }
+      ]
+    },
+    {
+      "code": "ROW",
+      "display": "Row",
+      "definition": "Row — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Row"
+        }
+      ]
+    },
+    {
+      "code": "RTE",
+      "display": "Route",
+      "definition": "Route — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Route"
+        }
+      ]
+    },
+    {
+      "code": "RUE",
+      "display": "Rue",
+      "definition": "Rue — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rue"
+        }
+      ]
+    },
+    {
+      "code": "RUN",
+      "display": "Run",
+      "definition": "Run — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Run"
+        }
+      ]
+    },
+    {
+      "code": "SENT",
+      "display": "Sentier",
+      "definition": "Sentier — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sentier"
+        }
+      ]
+    },
+    {
+      "code": "SQ",
+      "display": "Square",
+      "definition": "Square — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Square"
+        }
+      ]
+    },
+    {
+      "code": "ST",
+      "display": "Street",
+      "definition": "Street — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Street"
+        }
+      ]
+    },
+    {
+      "code": "SUBDIV",
+      "display": "Subdivision",
+      "definition": "Subdivision — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Subdivision"
+        }
+      ]
+    },
+    {
+      "code": "TERR",
+      "display": "Terrace",
+      "definition": "Terrace — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrace"
+        }
+      ]
+    },
+    {
+      "code": "THICK",
+      "display": "Thicket",
+      "definition": "Thicket — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Thicket"
+        }
+      ]
+    },
+    {
+      "code": "TLINE",
+      "display": "Townline",
+      "definition": "Townline — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Townline"
+        }
+      ]
+    },
+    {
+      "code": "TOWERS",
+      "display": "Towers",
+      "definition": "Towers — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Towers"
+        }
+      ]
+    },
+    {
+      "code": "TRAIL",
+      "display": "Trail",
+      "definition": "Trail — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trail"
+        }
+      ]
+    },
+    {
+      "code": "TRNABT",
+      "display": "Turnabout",
+      "definition": "Turnabout — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Turnabout"
+        }
+      ]
+    },
+    {
+      "code": "TSSE",
+      "display": "Terrasse",
+      "definition": "Terrasse — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrasse"
+        }
+      ]
+    },
+    {
+      "code": "VALE",
+      "display": "Vale",
+      "definition": "Vale — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vale"
+        }
+      ]
+    },
+    {
+      "code": "VIA",
+      "display": "Via",
+      "definition": "Via — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Via"
+        }
+      ]
+    },
+    {
+      "code": "VIEW",
+      "display": "View",
+      "definition": "View — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "View"
+        }
+      ]
+    },
+    {
+      "code": "VILLAS",
+      "display": "Villas",
+      "definition": "Villas — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Villas"
+        }
+      ]
+    },
+    {
+      "code": "VILLGE",
+      "display": "Village",
+      "definition": "Village — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Village"
+        }
+      ]
+    },
+    {
+      "code": "VISTA",
+      "display": "Vista",
+      "definition": "Vista — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vista"
+        }
+      ]
+    },
+    {
+      "code": "VOIE",
+      "display": "Voie",
+      "definition": "Voie — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voie"
+        }
+      ]
+    },
+    {
+      "code": "WALK",
+      "display": "Walk",
+      "definition": "Walk — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Walk"
+        }
+      ]
+    },
+    {
+      "code": "WAY",
+      "display": "Way",
+      "definition": "Way — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Way"
+        }
+      ]
+    },
+    {
+      "code": "WHARF",
+      "display": "Wharf",
+      "definition": "Wharf — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Wharf"
+        }
+      ]
+    },
+    {
+      "code": "WOOD",
+      "display": "Wood",
+      "definition": "Wood — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Wood"
+        }
+      ]
+    },
+    {
+      "code": "WYND",
+      "display": "Wynd",
+      "definition": "Wynd — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Wynd"
+        }
+      ]
+    },
+    {
+      "code": "ACCESS",
+      "display": "Access",
+      "definition": "Access — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Access"
+        }
+      ]
+    },
+    {
+      "code": "ACRE",
+      "display": "Acre",
+      "definition": "Acre — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acre"
+        }
+      ]
+    },
+    {
+      "code": "AIRE",
+      "display": "Aire",
+      "definition": "Aire — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aire"
+        }
+      ]
+    },
+    {
+      "code": "BAIE",
+      "display": "Baie",
+      "definition": "Baie — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Baie"
+        }
+      ]
+    },
+    {
+      "code": "BRGE",
+      "display": "Barage",
+      "definition": "Barage — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Barage"
+        }
+      ]
+    },
+    {
+      "code": "BLOC",
+      "display": "Bloc",
+      "definition": "Bloc — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bloc"
+        }
+      ]
+    },
+    {
+      "code": "BLOCK",
+      "display": "Block",
+      "definition": "Block — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Block"
+        }
+      ]
+    },
+    {
+      "code": "BLUFF",
+      "display": "Bluff",
+      "definition": "Bluff — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bluff"
+        }
+      ]
+    },
+    {
+      "code": "BLUFFS",
+      "display": "Bluffs",
+      "definition": "Bluffs — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bluffs"
+        }
+      ]
+    },
+    {
+      "code": "BR",
+      "display": "Branch",
+      "definition": "Branch — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Branch"
+        }
+      ]
+    },
+    {
+      "code": "BRET",
+      "display": "Bretelle",
+      "definition": "Bretelle — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bretelle"
+        }
+      ]
+    },
+    {
+      "code": "BRIDGE",
+      "display": "Bridge",
+      "definition": "Bridge — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bridge"
+        }
+      ]
+    },
+    {
+      "code": "BROOK",
+      "display": "Brook",
+      "definition": "Brook — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Brook"
+        }
+      ]
+    },
+    {
+      "code": "BURROW",
+      "display": "Burrow",
+      "definition": "Burrow — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Burrow"
+        }
+      ]
+    },
+    {
+      "code": "CAP",
+      "display": "Cap",
+      "definition": "Cap — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cap"
+        }
+      ]
+    },
+    {
+      "code": "CREST",
+      "display": "Crest",
+      "definition": "Crest — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Crest"
+        }
+      ]
+    },
+    {
+      "code": "CROFT",
+      "display": "Croft",
+      "definition": "Croft — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Croft"
+        }
+      ]
+    },
+    {
+      "code": "CRSSRD",
+      "display": "Crossroads",
+      "definition": "Crossroads — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Crossroads"
+        }
+      ]
+    },
+    {
+      "code": "CURVE",
+      "display": "Curve",
+      "definition": "Curve — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Curve"
+        }
+      ]
+    },
+    {
+      "code": "DESSTE",
+      "display": "Desserte",
+      "definition": "Desserte — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Desserte"
+        }
+      ]
+    },
+    {
+      "code": "DRWY",
+      "display": "Driveway",
+      "definition": "Driveway — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Driveway"
+        }
+      ]
+    },
+    {
+      "code": "DRPASS",
+      "display": "Droitdepassage",
+      "definition": "Droitdepassage — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Droitdepassage"
+        }
+      ]
+    },
+    {
+      "code": "GTWY",
+      "display": "Gateway",
+      "definition": "Gateway — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gateway"
+        }
+      ]
+    },
+    {
+      "code": "HAVEN",
+      "display": "Haven",
+      "definition": "Haven — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Haven"
+        }
+      ]
+    },
+    {
+      "code": "HEIGHT",
+      "display": "Height",
+      "definition": "Height — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Height"
+        }
+      ]
+    },
+    {
+      "code": "LANEWY",
+      "display": "Laneway",
+      "definition": "Laneway — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Laneway"
+        }
+      ]
+    },
+    {
+      "code": "MIKAN",
+      "display": "Mikan",
+      "definition": "Mikan — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mikan"
+        }
+      ]
+    },
+    {
+      "code": "PEAK",
+      "display": "Peak",
+      "definition": "Peak — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Peak"
+        }
+      ]
+    },
+    {
+      "code": "REACH",
+      "display": "Reach",
+      "definition": "Reach — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Reach"
+        }
+      ]
+    },
+    {
+      "code": "RTOFWY",
+      "display": "Rightofway",
+      "definition": "Rightofway — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rightofway"
+        }
+      ]
+    },
+    {
+      "code": "RIVE",
+      "display": "Rive",
+      "definition": "Rive — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rive"
+        }
+      ]
+    },
+    {
+      "code": "RUIS",
+      "display": "Ruisseau",
+      "definition": "Ruisseau — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ruisseau"
+        }
+      ]
+    },
+    {
+      "code": "SECTN",
+      "display": "Section",
+      "definition": "Section — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Section"
+        }
+      ]
+    },
+    {
+      "code": "SIDERD",
+      "display": "SideRoad",
+      "definition": "SideRoad — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "SideRoad"
+        }
+      ]
+    },
+    {
+      "code": "STROLL",
+      "display": "Stroll",
+      "definition": "Stroll — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stroll"
+        }
+      ]
+    },
+    {
+      "code": "SUMMIT",
+      "display": "Summit",
+      "definition": "Summit — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Summit"
+        }
+      ]
+    },
+    {
+      "code": "TILI",
+      "display": "Tili",
+      "definition": "Tili — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tili"
+        }
+      ]
+    },
+    {
+      "code": "TRACE",
+      "display": "Trace",
+      "definition": "Trace — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trace"
+        }
+      ]
+    },
+    {
+      "code": "TRUNK",
+      "display": "Trunk",
+      "definition": "Trunk — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trunk"
+        }
+      ]
+    },
+    {
+      "code": "UNION",
+      "display": "Union",
+      "definition": "Union — street type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Union"
+        }
+      ]
+    }
+  ]
+}

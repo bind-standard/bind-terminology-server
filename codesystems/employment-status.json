@@ -1,0 +1,166 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "employment-status",
+  "url": "https://bind.codes/employment-status",
+  "name": "EmploymentStatus",
+  "title": "Employment Status",
+  "status": "draft",
+  "language": "en",
+  "description": "Employment Status codes for insurance operations.",
+  "concept": [
+    {
+      "code": "full-time",
+      "display": "Full-time",
+      "definition": "Full-time — employment status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Temps plein"
+        }
+      ]
+    },
+    {
+      "code": "part-time",
+      "display": "Part-time",
+      "definition": "Part-time — employment status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Temps partiel"
+        }
+      ]
+    },
+    {
+      "code": "volunteer",
+      "display": "Volunteer",
+      "definition": "Volunteer — employment status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Volontaire"
+        }
+      ]
+    },
+    {
+      "code": "auxiliary",
+      "display": "Auxiliary",
+      "definition": "Auxiliary — employment status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Auxiliaire"
+        }
+      ]
+    },
+    {
+      "code": "permanent",
+      "display": "Permanent",
+      "definition": "Permanent — employment status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Permanent"
+        }
+      ]
+    },
+    {
+      "code": "seasonal",
+      "display": "Seasonal",
+      "definition": "Seasonal — employment status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Saisonnier"
+        }
+      ]
+    },
+    {
+      "code": "contract",
+      "display": "Contract",
+      "definition": "Contract — employment status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contractuel"
+        }
+      ]
+    },
+    {
+      "code": "temporary-casual",
+      "display": "Temporary/Casual",
+      "definition": "Temporary/Casual — employment status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intérimaire/extra"
+        }
+      ]
+    },
+    {
+      "code": "off-site",
+      "display": "Off-site",
+      "definition": "Off-site — employment status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors chantier"
+        }
+      ]
+    },
+    {
+      "code": "licensed",
+      "display": "Licensed",
+      "definition": "Licensed — employment status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avec permis"
+        }
+      ]
+    },
+    {
+      "code": "unlicensed",
+      "display": "Unlicensed",
+      "definition": "Unlicensed — employment status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sans permis"
+        }
+      ]
+    },
+    {
+      "code": "unknown",
+      "display": "Unknown",
+      "definition": "Unknown — employment status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        }
+      ]
+    },
+    {
+      "code": "none-no-status",
+      "display": "None -no status",
+      "definition": "None -no status — employment status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun - sans statut"
+        }
+      ]
+    },
+    {
+      "code": "other-no-code-available-see-description",
+      "display": "Other - no code available see description",
+      "definition": "Other - no code available see description — employment status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre - aucun code disponible, voir description"
+        }
+      ]
+    }
+  ]
+}

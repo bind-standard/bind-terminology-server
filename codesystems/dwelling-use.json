@@ -1,0 +1,111 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "dwelling-use",
+  "url": "https://bind.codes/dwelling-use",
+  "name": "DwellingUse",
+  "title": "Dwelling Use",
+  "status": "draft",
+  "language": "en",
+  "description": "Dwelling Use codes for insurance operations.",
+  "concept": [
+    {
+      "code": "primary-residence",
+      "display": "Primary Residence",
+      "definition": "Primary Residence — dwelling use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résidence principale"
+        }
+      ]
+    },
+    {
+      "code": "secondary-non-seasonal",
+      "display": "Secondary, Non seasonal",
+      "definition": "Secondary, Non seasonal — dwelling use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Secondaire, non saisonnière"
+        }
+      ]
+    },
+    {
+      "code": "secondary-seasonal",
+      "display": "Secondary, Seasonal",
+      "definition": "Secondary, Seasonal — dwelling use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Secondaire, saisonnière"
+        }
+      ]
+    },
+    {
+      "code": "rental",
+      "display": "Rental",
+      "definition": "Rental — dwelling use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Location"
+        }
+      ]
+    },
+    {
+      "code": "not-applicable",
+      "display": "Not Applicable",
+      "definition": "Not Applicable — dwelling use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sans objet"
+        }
+      ]
+    },
+    {
+      "code": "unoccupied",
+      "display": "Unoccupied",
+      "definition": "Unoccupied — dwelling use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inoccupée"
+        }
+      ]
+    },
+    {
+      "code": "vacant",
+      "display": "Vacant",
+      "definition": "Vacant — dwelling use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vacante"
+        }
+      ]
+    },
+    {
+      "code": "rented-to-third-party",
+      "display": "Rented To Third Party",
+      "definition": "Rented To Third Party — dwelling use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Louée à des tiers"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "display": "Under Construction",
+      "definition": "Under Construction — dwelling use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En construction"
+        }
+      ]
+    }
+  ]
+}

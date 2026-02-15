@@ -1,0 +1,89 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "reason-for-transfer",
+  "url": "https://bind.codes/reason-for-transfer",
+  "name": "ReasonForTransfer",
+  "title": "Reason For Transfer",
+  "status": "draft",
+  "language": "en",
+  "description": "Reason For Transfer codes for insurance operations.",
+  "concept": [
+    {
+      "code": "company-acquisition-where-a-company-acquires-another-companys-book-of-business",
+      "display": "Company Acquisition (Where a company acquires another company's book of business)",
+      "definition": "Company Acquisition (Where a company acquires another company's book of business) — reason for transfer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acquisition par un compagnie (lorsqu'une compagnie acquiert le portefeuille d'une autre compagnie)"
+        }
+      ]
+    },
+    {
+      "code": "replacement-of-policy-within-same-company",
+      "display": "Replacement of Policy (Within same company)",
+      "definition": "Replacement of Policy (Within same company) — reason for transfer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remplacement d'une police (au sein d'une même compagnie)"
+        }
+      ]
+    },
+    {
+      "code": "portfolio-transfer-where-a-broker-is-transferring-a-book-of-business-from-one-company-to-another",
+      "display": "Portfolio Transfer (Where a broker is transferring a book of business from one company to another)",
+      "definition": "Portfolio Transfer (Where a broker is transferring a book of business from one company to another) — reason for transfer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transfert de portefeuille (lorsqu'un courtier transfère un livre des affaires d'une compagnie à l'autre)"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — reason for transfer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "brokerage-acquisition-where-a-broker-acquires-another-brokers-book-of-business",
+      "display": "Brokerage Acquisition (Where a broker acquires another broker's book of business)",
+      "definition": "Brokerage Acquisition (Where a broker acquires another broker's book of business) — reason for transfer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Achat d'un cabinet de courtage (lorsqu'un courtier acquière le livre d'affaire d'un autre courtier)"
+        }
+      ]
+    },
+    {
+      "code": "new-business-to-the-broker",
+      "display": "New Business to the Broker",
+      "definition": "New Business to the Broker — reason for transfer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nouvelle affaire pour le courtier"
+        }
+      ]
+    },
+    {
+      "code": "remarketed-broker-is-transferring-a-single-policy-from-one-company-to-another",
+      "display": "Remarketed (Broker is transferring a single policy from one company to another)",
+      "definition": "Remarketed (Broker is transferring a single policy from one company to another) — reason for transfer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transférée à un autre assureur (le courtier transfère une seule police)"
+        }
+      ]
+    }
+  ]
+}

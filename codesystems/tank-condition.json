@@ -1,0 +1,122 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "tank-condition",
+  "url": "https://bind.codes/tank-condition",
+  "name": "TankCondition",
+  "title": "Tank Condition",
+  "status": "draft",
+  "language": "en",
+  "description": "Tank Condition codes for insurance operations.",
+  "concept": [
+    {
+      "code": "Corrosion",
+      "display": "Corrosion",
+      "definition": "Corrosion — tank condition code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Corrosion"
+        }
+      ]
+    },
+    {
+      "code": "Dents",
+      "display": "Dents",
+      "definition": "Dents — tank condition code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bosses"
+        }
+      ]
+    },
+    {
+      "code": "Drips",
+      "display": "Drips",
+      "definition": "Drips — tank condition code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ruisselement"
+        }
+      ]
+    },
+    {
+      "code": "Fumes",
+      "display": "Fumes",
+      "definition": "Fumes — tank condition code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fumées"
+        }
+      ]
+    },
+    {
+      "code": "Leaks",
+      "display": "Leaks",
+      "definition": "Leaks — tank condition code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fuites"
+        }
+      ]
+    },
+    {
+      "code": "Odours",
+      "display": "Odours",
+      "definition": "Odours — tank condition code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Odeurs"
+        }
+      ]
+    },
+    {
+      "code": "Rust",
+      "display": "Rust",
+      "definition": "Rust — tank condition code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rouille"
+        }
+      ]
+    },
+    {
+      "code": "Spills",
+      "display": "Spills",
+      "definition": "Spills — tank condition code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversements"
+        }
+      ]
+    },
+    {
+      "code": "Weeping",
+      "display": "Weeping",
+      "definition": "Weeping — tank condition code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Écoulement"
+        }
+      ]
+    },
+    {
+      "code": "WetSpots",
+      "display": "Wet Spots",
+      "definition": "Wet Spots — tank condition code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Taches Humides"
+        }
+      ]
+    }
+  ]
+}

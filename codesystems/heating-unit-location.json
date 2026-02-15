@@ -1,0 +1,155 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "heating-unit-location",
+  "url": "https://bind.codes/heating-unit-location",
+  "name": "HeatingUnitLocation",
+  "title": "Heating Unit Location",
+  "status": "draft",
+  "language": "en",
+  "description": "Heating Unit Location codes for insurance operations.",
+  "concept": [
+    {
+      "code": "kitchen",
+      "display": "Kitchen",
+      "definition": "Kitchen — heating unit location code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cuisine"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — heating unit location code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "unknown",
+      "display": "Unknown",
+      "definition": "Unknown — heating unit location code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        }
+      ]
+    },
+    {
+      "code": "attic",
+      "display": "Attic",
+      "definition": "Attic — heating unit location code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grenier"
+        }
+      ]
+    },
+    {
+      "code": "suspended",
+      "display": "Suspended",
+      "definition": "Suspended — heating unit location code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Suspendu"
+        }
+      ]
+    },
+    {
+      "code": "barn",
+      "display": "Barn",
+      "definition": "Barn — heating unit location code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grange"
+        }
+      ]
+    },
+    {
+      "code": "basement",
+      "display": "Basement",
+      "definition": "Basement — heating unit location code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous-sol"
+        }
+      ]
+    },
+    {
+      "code": "crawlspace",
+      "display": "Crawlspace",
+      "definition": "Crawlspace — heating unit location code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vide sanitaire"
+        }
+      ]
+    },
+    {
+      "code": "garage",
+      "display": "Garage",
+      "definition": "Garage — heating unit location code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage"
+        }
+      ]
+    },
+    {
+      "code": "main-floor",
+      "display": "Main Floor",
+      "definition": "Main Floor — heating unit location code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rez de chaussée"
+        }
+      ]
+    },
+    {
+      "code": "outside",
+      "display": "Outside",
+      "definition": "Outside — heating unit location code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Extérieur"
+        }
+      ]
+    },
+    {
+      "code": "rooftop",
+      "display": "Rooftop",
+      "definition": "Rooftop — heating unit location code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toit"
+        }
+      ]
+    },
+    {
+      "code": "second-floor",
+      "display": "Second Floor",
+      "definition": "Second Floor — heating unit location code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Deuxième étage"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "pool-construction",
+  "url": "https://bind.codes/pool-construction",
+  "name": "PoolConstruction",
+  "title": "Pool Construction",
+  "status": "draft",
+  "language": "en",
+  "description": "Pool Construction codes for insurance operations.",
+  "concept": [
+    {
+      "code": "reinforced-concrete",
+      "display": "Reinforced Concrete",
+      "definition": "Reinforced Concrete — pool construction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton armé"
+        }
+      ]
+    },
+    {
+      "code": "vinyl-liner",
+      "display": "Vinyl Liner",
+      "definition": "Vinyl Liner — pool construction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toile en vinyle"
+        }
+      ]
+    },
+    {
+      "code": "fiberglass",
+      "display": "Fiberglass",
+      "definition": "Fiberglass — pool construction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fibre de verre"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — pool construction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    }
+  ]
+}

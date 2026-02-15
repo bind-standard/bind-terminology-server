@@ -1,0 +1,1442 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "vehicle-body-type",
+  "url": "https://bind.codes/vehicle-body-type",
+  "name": "VehicleBodyType",
+  "title": "Vehicle Body Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Vehicle Body Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "bike-mini-bike-trailer",
+      "display": "Bike / Mini-Bike Trailer",
+      "definition": "Bike / Mini-Bike Trailer — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque pour cyclomoteur"
+        }
+      ]
+    },
+    {
+      "code": "converter-dolly",
+      "display": "Converter Dolly",
+      "definition": "Converter Dolly — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Diabolo convertisseur"
+        }
+      ]
+    },
+    {
+      "code": "dump-trailer-hauled-separately",
+      "display": "Dump Trailer Hauled Separately",
+      "definition": "Dump Trailer Hauled Separately — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Semi-remorque benne tirée séparément"
+        }
+      ]
+    },
+    {
+      "code": "dump-trailer-hauled-as-train",
+      "display": "Dump Trailer Hauled As Train",
+      "definition": "Dump Trailer Hauled As Train — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Semi-remorque benne faisant partie d'un convoi"
+        }
+      ]
+    },
+    {
+      "code": "equipment-trailer-hauled-separately",
+      "display": "Equipment Trailer Hauled Separately",
+      "definition": "Equipment Trailer Hauled Separately — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque pour équipement tirée séparément"
+        }
+      ]
+    },
+    {
+      "code": "equipment-trailer-hauled-as-train",
+      "display": "Equipment Trailer Hauled As Train",
+      "definition": "Equipment Trailer Hauled As Train — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque pour équipement faisant partie d'un convoi"
+        }
+      ]
+    },
+    {
+      "code": "gooseneck-trailer",
+      "display": "Gooseneck Trailer",
+      "definition": "Gooseneck Trailer — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque avec col-de-cygne"
+        }
+      ]
+    },
+    {
+      "code": "horse-trailer",
+      "display": "Horse Trailer",
+      "definition": "Horse Trailer — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque pour chevaux"
+        }
+      ]
+    },
+    {
+      "code": "mix-in-transit-trailer",
+      "display": "Mix In Transit Trailer",
+      "definition": "Mix In Transit Trailer — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque - Mélange en transit"
+        }
+      ]
+    },
+    {
+      "code": "office-trailer",
+      "display": "Office Trailer",
+      "definition": "Office Trailer — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque de bureau"
+        }
+      ]
+    },
+    {
+      "code": "pup-trailer",
+      "display": "Pup Trailer",
+      "definition": "Pup Trailer — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque d'appoint"
+        }
+      ]
+    },
+    {
+      "code": "semi-trailer-extra-trailer",
+      "display": "Semi-trailer Extra Trailer",
+      "definition": "Semi-trailer Extra Trailer — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Semi-remorque, remorque supplémentaire"
+        }
+      ]
+    },
+    {
+      "code": "stake-platform-trailer-hauled",
+      "display": "Stake/Platform Trailer Hauled",
+      "definition": "Stake/Platform Trailer Hauled — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Potelet/semi-remorque plateau tirée"
+        }
+      ]
+    },
+    {
+      "code": "stake-platform-trailer-train",
+      "display": "Stake/Platform Trailer Train",
+      "definition": "Stake/Platform Trailer Train — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Potelet/semi-remorque plateau faisant partie d'un convoi"
+        }
+      ]
+    },
+    {
+      "code": "tank-trailer-hauled-as-train",
+      "display": "Tank Trailer Hauled As Train",
+      "definition": "Tank Trailer Hauled As Train — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque-citerne faisant partie d'un convoi"
+        }
+      ]
+    },
+    {
+      "code": "tank-trailer-hauled-separately",
+      "display": "Tank Trailer Hauled Separately",
+      "definition": "Tank Trailer Hauled Separately — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque-citerne tirée séparément"
+        }
+      ]
+    },
+    {
+      "code": "trailer-other-load-carrying",
+      "display": "Trailer - Other Load Carrying",
+      "definition": "Trailer - Other Load Carrying — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque - Autre charge"
+        }
+      ]
+    },
+    {
+      "code": "trailer-with-premises-exposure-e-g-showroom-etc",
+      "display": "Trailer With Premises Exposure (e.g. Showroom, etc.)",
+      "definition": "Trailer With Premises Exposure (e.g. Showroom, etc.) — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque avec risque contigu (par ex. salle d'exposition, etc.)"
+        }
+      ]
+    },
+    {
+      "code": "van-trailer-hauled-as-train",
+      "display": "Van Trailer Hauled As Train",
+      "definition": "Van Trailer Hauled As Train — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Semi-remorque fourgon faisant partie d'un convoi"
+        }
+      ]
+    },
+    {
+      "code": "van-trailer-hauled-separately",
+      "display": "Van Trailer Hauled Separately",
+      "definition": "Van Trailer Hauled Separately — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Semi-remorque tirée séparément"
+        }
+      ]
+    },
+    {
+      "code": "watercraft-trailer",
+      "display": "Watercraft Trailer",
+      "definition": "Watercraft Trailer — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque pour bateaux"
+        }
+      ]
+    },
+    {
+      "code": "snowmobile-trailer",
+      "display": "Snowmobile Trailer",
+      "definition": "Snowmobile Trailer — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque pour motoneige"
+        }
+      ]
+    },
+    {
+      "code": "livestock-trailer",
+      "display": "Livestock Trailer",
+      "definition": "Livestock Trailer — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque pour bétail"
+        }
+      ]
+    },
+    {
+      "code": "3-wheel-motorcycle-excludes-2-rear-wheels",
+      "display": "3 Wheel Motorcycle (Excludes 2 rear wheels)",
+      "definition": "3 Wheel Motorcycle (Excludes 2 rear wheels) — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Motocyclette à 3 roues (excluant 2 roues arrière)"
+        }
+      ]
+    },
+    {
+      "code": "3-wheel-scooter-excludes-2-rear-wheels",
+      "display": "3 Wheel Scooter (Excludes 2 rear wheels)",
+      "definition": "3 Wheel Scooter (Excludes 2 rear wheels) — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Scooter à 3 roues (excluant 2 roues arrière)"
+        }
+      ]
+    },
+    {
+      "code": "adventure",
+      "display": "Adventure",
+      "definition": "Adventure — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aventurière"
+        }
+      ]
+    },
+    {
+      "code": "cabin-home-fifth-wheel",
+      "display": "Cabin/Home - Fifth Wheel",
+      "definition": "Cabin/Home - Fifth Wheel — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caravane à sellette"
+        }
+      ]
+    },
+    {
+      "code": "class-a",
+      "display": "Class A",
+      "definition": "Class A — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe A"
+        }
+      ]
+    },
+    {
+      "code": "class-b",
+      "display": "Class B",
+      "definition": "Class B — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe B"
+        }
+      ]
+    },
+    {
+      "code": "class-c",
+      "display": "Class C",
+      "definition": "Class C — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe C"
+        }
+      ]
+    },
+    {
+      "code": "cruiser",
+      "display": "Cruiser",
+      "definition": "Cruiser — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cruiser"
+        }
+      ]
+    },
+    {
+      "code": "deep-snow-mountain",
+      "display": "Deep snow / Mountain",
+      "definition": "Deep snow / Mountain — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Montagne"
+        }
+      ]
+    },
+    {
+      "code": "dual-purpose",
+      "display": "Dual Purpose",
+      "definition": "Dual Purpose — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Double usage"
+        }
+      ]
+    },
+    {
+      "code": "enduro",
+      "display": "Enduro",
+      "definition": "Enduro — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Enduro"
+        }
+      ]
+    },
+    {
+      "code": "heavy-duty",
+      "display": "Heavy Duty",
+      "definition": "Heavy Duty — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Très résistant"
+        }
+      ]
+    },
+    {
+      "code": "hybrid-crossover",
+      "display": "Hybrid / Crossover",
+      "definition": "Hybrid / Crossover — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hybride / Croisée"
+        }
+      ]
+    },
+    {
+      "code": "junior",
+      "display": "Junior",
+      "definition": "Junior — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pour jeunes"
+        }
+      ]
+    },
+    {
+      "code": "lite",
+      "display": "Lite",
+      "definition": "Lite — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Léger"
+        }
+      ]
+    },
+    {
+      "code": "monoski",
+      "display": "Monoski",
+      "definition": "Monoski — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mono-ski"
+        }
+      ]
+    },
+    {
+      "code": "motard-super-motard",
+      "display": "Motard / Super Motard",
+      "definition": "Motard / Super Motard — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Motard / Supermotard"
+        }
+      ]
+    },
+    {
+      "code": "naked-sport",
+      "display": "Naked Sport",
+      "definition": "Naked Sport — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sport dépouillée"
+        }
+      ]
+    },
+    {
+      "code": "off-road",
+      "display": "Off Road",
+      "definition": "Off Road — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors route"
+        }
+      ]
+    },
+    {
+      "code": "off-road-motocross",
+      "display": "Off Road Motocross",
+      "definition": "Off Road Motocross — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors route motocross"
+        }
+      ]
+    },
+    {
+      "code": "off-road-trials",
+      "display": "Off Road Trials",
+      "definition": "Off Road Trials — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors route trial"
+        }
+      ]
+    },
+    {
+      "code": "performance",
+      "display": "Performance",
+      "definition": "Performance — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Performance"
+        }
+      ]
+    },
+    {
+      "code": "recreational",
+      "display": "Recreational",
+      "definition": "Recreational — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Loisir"
+        }
+      ]
+    },
+    {
+      "code": "recreational-utility",
+      "display": "Recreational Utility",
+      "definition": "Recreational Utility — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Loisir utilitaire"
+        }
+      ]
+    },
+    {
+      "code": "sport",
+      "display": "Sport",
+      "definition": "Sport — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sport"
+        }
+      ]
+    },
+    {
+      "code": "sport-touring",
+      "display": "Sport Touring",
+      "definition": "Sport Touring — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Routière sportive"
+        }
+      ]
+    },
+    {
+      "code": "standard",
+      "display": "Standard",
+      "definition": "Standard — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Standard"
+        }
+      ]
+    },
+    {
+      "code": "standard-sidecar",
+      "display": "Standard Sidecar",
+      "definition": "Standard Sidecar — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Side-car standard"
+        }
+      ]
+    },
+    {
+      "code": "touring",
+      "display": "Touring",
+      "definition": "Touring — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tourisme"
+        }
+      ]
+    },
+    {
+      "code": "trail-sport",
+      "display": "Trail / Sport",
+      "definition": "Trail / Sport — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sentier / Sport"
+        }
+      ]
+    },
+    {
+      "code": "unknown",
+      "display": "Unknown",
+      "definition": "Unknown — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        }
+      ]
+    },
+    {
+      "code": "utility",
+      "display": "Utility",
+      "definition": "Utility — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Utilitaire"
+        }
+      ]
+    },
+    {
+      "code": "other-trailer",
+      "display": "Other Trailer",
+      "definition": "Other Trailer — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre remorque"
+        }
+      ]
+    },
+    {
+      "code": "A2",
+      "display": "All Terrain Cycle",
+      "definition": "All Terrain Cycle — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bicyclette tout terrain"
+        }
+      ]
+    },
+    {
+      "code": "A3",
+      "display": "All Terrain Tricycle",
+      "definition": "All Terrain Tricycle — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tricycle tout-terrain"
+        }
+      ]
+    },
+    {
+      "code": "A4",
+      "display": "All Terrain Vehicle (Four Wheel)",
+      "definition": "All Terrain Vehicle (Four Wheel) — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule tout-terrain (4 roues)"
+        }
+      ]
+    },
+    {
+      "code": "AA",
+      "display": "Antique Auto (Regular Plate)",
+      "definition": "Antique Auto (Regular Plate) — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Automobile ancienne (plaque régulière)"
+        }
+      ]
+    },
+    {
+      "code": "AB",
+      "display": "Ambulance",
+      "definition": "Ambulance — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ambulance"
+        }
+      ]
+    },
+    {
+      "code": "AH",
+      "display": "Antique Auto (Historic Plate)",
+      "definition": "Antique Auto (Historic Plate) — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Automobile ancienne (plaque historique)"
+        }
+      ]
+    },
+    {
+      "code": "AM",
+      "display": "Amphibious Vehicle",
+      "definition": "Amphibious Vehicle — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule amphibie"
+        }
+      ]
+    },
+    {
+      "code": "AT",
+      "display": "All Terrain Vehicle",
+      "definition": "All Terrain Vehicle — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule tout-terrain"
+        }
+      ]
+    },
+    {
+      "code": "BU",
+      "display": "Bus",
+      "definition": "Bus — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autobus"
+        }
+      ]
+    },
+    {
+      "code": "CB",
+      "display": "Detachable Camper Body",
+      "definition": "Detachable Camper Body — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caravane à carrosserie amovible"
+        }
+      ]
+    },
+    {
+      "code": "CG",
+      "display": "Catering Truck",
+      "definition": "Catering Truck — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion traiteur"
+        }
+      ]
+    },
+    {
+      "code": "CL",
+      "display": "Classic/Customized Auto (Rated by Price)",
+      "definition": "Classic/Customized Auto (Rated by Price) — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture classique/personnalisée (classée par prix)"
+        }
+      ]
+    },
+    {
+      "code": "CP",
+      "display": "Compactor",
+      "definition": "Compactor — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compacteur"
+        }
+      ]
+    },
+    {
+      "code": "CT",
+      "display": "Cabin or Home Trailer",
+      "definition": "Cabin or Home Trailer — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caravane classique"
+        }
+      ]
+    },
+    {
+      "code": "CV",
+      "display": "Camper Van",
+      "definition": "Camper Van — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fourgonnette de camping"
+        }
+      ]
+    },
+    {
+      "code": "CW",
+      "display": "Casket Wagon",
+      "definition": "Casket Wagon — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Char funèbre"
+        }
+      ]
+    },
+    {
+      "code": "DB",
+      "display": "Dune Buggy",
+      "definition": "Dune Buggy — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autodune"
+        }
+      ]
+    },
+    {
+      "code": "DU",
+      "display": "Dump truck",
+      "definition": "Dump truck — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion-benne"
+        }
+      ]
+    },
+    {
+      "code": "FL",
+      "display": "Fork Lift",
+      "definition": "Fork Lift — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chariot élévateur à fourche"
+        }
+      ]
+    },
+    {
+      "code": "FT",
+      "display": "Farm Trailer",
+      "definition": "Farm Trailer — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque pour ferme"
+        }
+      ]
+    },
+    {
+      "code": "GC",
+      "display": "Golf Cart",
+      "definition": "Golf Cart — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiturette de golf"
+        }
+      ]
+    },
+    {
+      "code": "HE",
+      "display": "Hearse",
+      "definition": "Hearse — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Corbillard"
+        }
+      ]
+    },
+    {
+      "code": "JP",
+      "display": "Jeep",
+      "definition": "Jeep — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Jeep"
+        }
+      ]
+    },
+    {
+      "code": "KT",
+      "display": "Kit Car",
+      "definition": "Kit Car — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture à assembler"
+        }
+      ]
+    },
+    {
+      "code": "LG",
+      "display": "Lugger",
+      "definition": "Lugger — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lougre"
+        }
+      ]
+    },
+    {
+      "code": "LI",
+      "display": "Limousine",
+      "definition": "Limousine — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Limousine"
+        }
+      ]
+    },
+    {
+      "code": "MB",
+      "display": "Motorized Bicycle",
+      "definition": "Motorized Bicycle — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bicyclette motorisée"
+        }
+      ]
+    },
+    {
+      "code": "MC",
+      "display": "Motorcycles over 50 cc",
+      "definition": "Motorcycles over 50 cc — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Motocyclettes plus de 50 cc"
+        }
+      ]
+    },
+    {
+      "code": "MH",
+      "display": "Motor Home (Recreational Use)",
+      "definition": "Motor Home (Recreational Use) — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autocaravane (usage récréatif)"
+        }
+      ]
+    },
+    {
+      "code": "MK",
+      "display": "Mini-bike, Trail Bike (Off Road)",
+      "definition": "Mini-bike, Trail Bike (Off Road) — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cyclomoteur, moto tout-terrain (hors route)"
+        }
+      ]
+    },
+    {
+      "code": "MP",
+      "display": "Moped",
+      "definition": "Moped — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cyclomoteur (moped)"
+        }
+      ]
+    },
+    {
+      "code": "MS",
+      "display": "Motorized Scooter",
+      "definition": "Motorized Scooter — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Scooter motorisé"
+        }
+      ]
+    },
+    {
+      "code": "MT",
+      "display": "Motorized Tricycle",
+      "definition": "Motorized Tricycle — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tricycle motorisé"
+        }
+      ]
+    },
+    {
+      "code": "MV",
+      "display": "Mini Van/Private Passenger",
+      "definition": "Mini Van/Private Passenger — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mini-fourgonnette/Voiture de tourisme"
+        }
+      ]
+    },
+    {
+      "code": "MW",
+      "display": "Motorcycle with Sidecar",
+      "definition": "Motorcycle with Sidecar — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Motocyclette avec nacelle latérale"
+        }
+      ]
+    },
+    {
+      "code": "NT",
+      "display": "Common Trailer (uses tongue and/or hitch)",
+      "definition": "Common Trailer (uses tongue and/or hitch) — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque commune"
+        }
+      ]
+    },
+    {
+      "code": "OT",
+      "display": "Other/Multi-Purpose Vehicle",
+      "definition": "Other/Multi-Purpose Vehicle — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre/véhicule polyvalent"
+        }
+      ]
+    },
+    {
+      "code": "P1",
+      "display": "Private Passenger - Convertible",
+      "definition": "Private Passenger - Convertible — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture de tourisme - cabriolet (décapotable)"
+        }
+      ]
+    },
+    {
+      "code": "P2",
+      "display": "Private Passenger - 2 Door Sedan/Hard Top",
+      "definition": "Private Passenger - 2 Door Sedan/Hard Top — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture de tourisme - Berline/toit rigide - 2 portes"
+        }
+      ]
+    },
+    {
+      "code": "P3",
+      "display": "Private Passenger - 3 Door Hatchback",
+      "definition": "Private Passenger - 3 Door Hatchback — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture de tourisme - À hayon - 3 portes"
+        }
+      ]
+    },
+    {
+      "code": "P4",
+      "display": "Private Passenger - 4 Door Sedan/Hard Top",
+      "definition": "Private Passenger - 4 Door Sedan/Hard Top — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture de tourisme - Berline/toit rigide - 4 portes"
+        }
+      ]
+    },
+    {
+      "code": "P5",
+      "display": "Private Passenger - 4 Door Hatchback",
+      "definition": "Private Passenger - 4 Door Hatchback — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture de tourisme - À hayon - 4 portes"
+        }
+      ]
+    },
+    {
+      "code": "P6",
+      "display": "Private Passenger - Station Wagon",
+      "definition": "Private Passenger - Station Wagon — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture de tourisme - Familiale"
+        }
+      ]
+    },
+    {
+      "code": "PV",
+      "display": "Pickup Truck",
+      "definition": "Pickup Truck — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camionnette (pick-up)"
+        }
+      ]
+    },
+    {
+      "code": "RC",
+      "display": "Race Car",
+      "definition": "Race Car — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture de course"
+        }
+      ]
+    },
+    {
+      "code": "RM",
+      "display": "Ready Mix Truck",
+      "definition": "Ready Mix Truck — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bétonneuse"
+        }
+      ]
+    },
+    {
+      "code": "RO",
+      "display": "Rolloff Truck",
+      "definition": "Rolloff Truck — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion porteur à faux-cadre basculant"
+        }
+      ]
+    },
+    {
+      "code": "RT",
+      "display": "Road Tractor Only",
+      "definition": "Road Tractor Only — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tracteur routier seulement"
+        }
+      ]
+    },
+    {
+      "code": "RW",
+      "display": "Road Tractor with Trailer",
+      "definition": "Road Tractor with Trailer — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tracteur routier avec remorque"
+        }
+      ]
+    },
+    {
+      "code": "SM",
+      "display": "Snowmobile",
+      "definition": "Snowmobile — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Motoneige"
+        }
+      ]
+    },
+    {
+      "code": "SP",
+      "display": "Stake or Platform Truck",
+      "definition": "Stake or Platform Truck — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Potelet ou camion-plate-forme"
+        }
+      ]
+    },
+    {
+      "code": "SS",
+      "display": "Snowmobile with Sled",
+      "definition": "Snowmobile with Sled — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Motoneige avec traîneau"
+        }
+      ]
+    },
+    {
+      "code": "ST",
+      "display": "Sport Utility Vehicle - Small Convertible (Soft Top)",
+      "definition": "Sport Utility Vehicle - Small Convertible (Soft Top) — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule utilitaire sport - Petit cabriolet (décapotable) (à toit souple)"
+        }
+      ]
+    },
+    {
+      "code": "SU",
+      "display": "Sport Utility Vehicle - Small and Medium (Hard Top)",
+      "definition": "Sport Utility Vehicle - Small and Medium (Hard Top) — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule utilitaire sport - Petit et moyen (toit rigide)"
+        }
+      ]
+    },
+    {
+      "code": "SW",
+      "display": "Sport Utility Vehicle - Large",
+      "definition": "Sport Utility Vehicle - Large — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule utilitaire sport - Grand"
+        }
+      ]
+    },
+    {
+      "code": "T1",
+      "display": "Truck - Heavy",
+      "definition": "Truck - Heavy — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion - lourd"
+        }
+      ]
+    },
+    {
+      "code": "T2",
+      "display": "Truck - Medium",
+      "definition": "Truck - Medium — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion - moyen"
+        }
+      ]
+    },
+    {
+      "code": "T3",
+      "display": "Truck - Light",
+      "definition": "Truck - Light — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion - léger"
+        }
+      ]
+    },
+    {
+      "code": "TA",
+      "display": "Tank Truck Non-pressurized",
+      "definition": "Tank Truck Non-pressurized — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion-citerne non pressurisé"
+        }
+      ]
+    },
+    {
+      "code": "TK",
+      "display": "Tank Truck Pressurized",
+      "definition": "Tank Truck Pressurized — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion-citerne pressurisé"
+        }
+      ]
+    },
+    {
+      "code": "TM",
+      "display": "Travelling Motor Home (Primary Residence)",
+      "definition": "Travelling Motor Home (Primary Residence) — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autocaravane (résidence principale)"
+        }
+      ]
+    },
+    {
+      "code": "TP",
+      "display": "Tow Truck with Platform",
+      "definition": "Tow Truck with Platform — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dépanneuse avec plate-forme"
+        }
+      ]
+    },
+    {
+      "code": "TR",
+      "display": "Farm Tractor",
+      "definition": "Farm Tractor — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tracteur de ferme"
+        }
+      ]
+    },
+    {
+      "code": "TT",
+      "display": "Tent Trailer",
+      "definition": "Tent Trailer — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tente-caravane"
+        }
+      ]
+    },
+    {
+      "code": "TW",
+      "display": "Tow Truck with Wrecker",
+      "definition": "Tow Truck with Wrecker — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dépanneuse avec dépanneuse lourde"
+        }
+      ]
+    },
+    {
+      "code": "TX",
+      "display": "Taxi",
+      "definition": "Taxi — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Taxi"
+        }
+      ]
+    },
+    {
+      "code": "UT",
+      "display": "Utility Trailer",
+      "definition": "Utility Trailer — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque utilitaire"
+        }
+      ]
+    },
+    {
+      "code": "VH",
+      "display": "Van -Heavy",
+      "definition": "Van -Heavy — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fourgon - lourd"
+        }
+      ]
+    },
+    {
+      "code": "VL",
+      "display": "Van - Light",
+      "definition": "Van - Light — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fourgon"
+        }
+      ]
+    },
+    {
+      "code": "entry-sport",
+      "display": "Entry Sport",
+      "definition": "Entry Sport — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entry Sport"
+        }
+      ]
+    },
+    {
+      "code": "entry-naked-sport",
+      "display": "Entry Naked Sport",
+      "definition": "Entry Naked Sport — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entry Naked Sport"
+        }
+      ]
+    },
+    {
+      "code": "super-sport",
+      "display": "Super Sport",
+      "definition": "Super Sport — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Super Sport"
+        }
+      ]
+    },
+    {
+      "code": "naked-super-sport",
+      "display": "Naked Super Sport",
+      "definition": "Naked Super Sport — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Naked Super Sport"
+        }
+      ]
+    },
+    {
+      "code": "CH",
+      "display": "Chopper",
+      "definition": "Chopper — vehicle body type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Choppeur"
+        }
+      ]
+    }
+  ]
+}

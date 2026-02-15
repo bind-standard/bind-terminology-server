@@ -1,0 +1,78 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "signed-by",
+  "url": "https://bind.codes/signed-by",
+  "name": "SignedBy",
+  "title": "Signed By",
+  "status": "draft",
+  "language": "en",
+  "description": "Signed By codes for insurance operations.",
+  "concept": [
+    {
+      "code": "A",
+      "display": "Authorized Representative",
+      "definition": "Authorized Representative — signed by code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Représentant autorisé"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "display": "Both Authorized Representative and Insured/Applicant",
+      "definition": "Both Authorized Representative and Insured/Applicant — signed by code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Représentant autorisé et assuré/proposant"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "display": "Insured/Applicant",
+      "definition": "Insured/Applicant — signed by code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assuré/proposant"
+        }
+      ]
+    },
+    {
+      "code": "N",
+      "display": "No Signature Required",
+      "definition": "No Signature Required — signed by code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucune signature requise"
+        }
+      ]
+    },
+    {
+      "code": "O",
+      "display": "Other (For Commercial Use Only)",
+      "definition": "Other (For Commercial Use Only) — signed by code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre (pour usage commercial seulement)"
+        }
+      ]
+    },
+    {
+      "code": "U",
+      "display": "Unsigned",
+      "definition": "Unsigned — signed by code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non signé"
+        }
+      ]
+    }
+  ]
+}

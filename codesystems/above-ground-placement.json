@@ -1,0 +1,45 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "above-ground-placement",
+  "url": "https://bind.codes/above-ground-placement",
+  "name": "AboveGroundPlacement",
+  "title": "Above Ground Placement",
+  "status": "draft",
+  "language": "en",
+  "description": "Above Ground Placement codes for insurance operations.",
+  "concept": [
+    {
+      "code": "A",
+      "display": "Above Ground",
+      "definition": "Above Ground — above ground placement code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors terre"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "display": "In Ground",
+      "definition": "In Ground — above ground placement code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Creusée"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "Semi In Ground",
+      "definition": "Semi In Ground — above ground placement code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Semi creusée"
+        }
+      ]
+    }
+  ]
+}

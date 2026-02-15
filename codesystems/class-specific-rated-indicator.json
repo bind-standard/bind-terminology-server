@@ -1,0 +1,67 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "class-specific-rated-indicator",
+  "url": "https://bind.codes/class-specific-rated-indicator",
+  "name": "ClassSpecificRatedIndicator",
+  "title": "Class Specific Rated Indicator",
+  "status": "draft",
+  "language": "en",
+  "description": "Class Specific Rated Indicator codes for insurance operations.",
+  "concept": [
+    {
+      "code": "B",
+      "display": "Basic",
+      "definition": "Basic — class specific rated indicator code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "De base"
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "display": "Deluxe",
+      "definition": "Deluxe — class specific rated indicator code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "De luxe"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Preferred",
+      "definition": "Preferred — class specific rated indicator code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Préférentiel"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "display": "Superior",
+      "definition": "Superior — class specific rated indicator code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Supérieur"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "Standard",
+      "definition": "Standard — class specific rated indicator code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Standard"
+        }
+      ]
+    }
+  ]
+}

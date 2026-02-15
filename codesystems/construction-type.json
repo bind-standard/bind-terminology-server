@@ -1,0 +1,201 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "construction-type",
+  "url": "https://bind.codes/construction-type",
+  "name": "ConstructionType",
+  "title": "Construction Type",
+  "status": "draft",
+  "description": "ISO construction classification types for property insurance underwriting.",
+  "concept": [
+    {
+      "code": "frame",
+      "display": "Frame",
+      "definition": "Wood or light-gauge steel frame construction (ISO Class 1)."
+    },
+    {
+      "code": "joisted-masonry",
+      "display": "Joisted Masonry",
+      "definition": "Masonry exterior walls with wood-joist floors and roof (ISO Class 2)."
+    },
+    {
+      "code": "non-combustible",
+      "display": "Non-Combustible",
+      "definition": "Metal or other non-combustible walls, floors, and roof (ISO Class 3)."
+    },
+    {
+      "code": "masonry-non-combustible",
+      "display": "Masonry Non-Combustible",
+      "definition": "Masonry exterior walls with non-combustible floors and roof (ISO Class 4)."
+    },
+    {
+      "code": "modified-fire-resistive",
+      "display": "Modified Fire Resistive",
+      "definition": "Walls, floors, and roof of masonry or fire-resistive materials with 1-hour rating (ISO Class 5)."
+    },
+    {
+      "code": "fire-resistive",
+      "display": "Fire Resistive",
+      "definition": "Walls, floors, and roof of masonry or fire-resistive materials with 2-hour+ rating (ISO Class 6)."
+    },
+    {
+      "code": "unknown",
+      "display": "Unknown",
+      "definition": "Unknown — construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        }
+      ]
+    },
+    {
+      "code": "log",
+      "display": "Log",
+      "definition": "Log — construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rondin"
+        }
+      ]
+    },
+    {
+      "code": "monocoque",
+      "display": "Monocoque",
+      "definition": "Monocoque — construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Monocoque"
+        }
+      ]
+    },
+    {
+      "code": "fiberglass",
+      "display": "Fiberglass",
+      "definition": "Fiberglass — construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fibre de verre"
+        }
+      ]
+    },
+    {
+      "code": "frame-post-and-beam",
+      "display": "Frame (Post and Beam)",
+      "definition": "Frame (Post and Beam) — construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charpente (poteaux et poutres)"
+        }
+      ]
+    },
+    {
+      "code": "frame-timber",
+      "display": "Frame (Timber)",
+      "definition": "Frame (Timber) — construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charpente (bois)"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "display": "Brick",
+      "definition": "Brick — construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Brique"
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "display": "Concrete Block",
+      "definition": "Concrete Block — construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charpente en blocs de béton"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "display": "Frame (Wood)",
+      "definition": "Frame (Wood) — construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charpente de bois"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "display": "Masonite",
+      "definition": "Masonite — construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aggloméré"
+        }
+      ]
+    },
+    {
+      "code": "L",
+      "display": "Aluminium",
+      "definition": "Aluminium — construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aluminium"
+        }
+      ]
+    },
+    {
+      "code": "N",
+      "display": "Stone",
+      "definition": "Stone — construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pierre"
+        }
+      ]
+    },
+    {
+      "code": "T",
+      "display": "Steel",
+      "definition": "Steel — construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acier"
+        }
+      ]
+    },
+    {
+      "code": "J",
+      "display": "Masonry Non-Combustible",
+      "definition": "Masonry Non-Combustible — construction type code."
+    }
+  ],
+  "language": "en"
+}

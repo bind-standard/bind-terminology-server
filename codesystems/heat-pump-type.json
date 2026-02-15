@@ -1,0 +1,89 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "heat-pump-type",
+  "url": "https://bind.codes/heat-pump-type",
+  "name": "HeatPumpType",
+  "title": "Heat Pump Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Heat Pump Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "A",
+      "display": "Central",
+      "definition": "Central — heat pump type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Central"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "display": "Mini-Split",
+      "definition": "Mini-Split — heat pump type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mini-Bibloc"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "display": "Multi-Split",
+      "definition": "Multi-Split — heat pump type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Multi-Bibloc"
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "display": "Closed Loop",
+      "definition": "Closed Loop — heat pump type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Circuit Fermé"
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "display": "Open Loop",
+      "definition": "Open Loop — heat pump type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Circuit Ouvert"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "display": "Direct Expansion",
+      "definition": "Direct Expansion — heat pump type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Expansion Directe"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "display": "Hydronic Distribution",
+      "definition": "Hydronic Distribution — heat pump type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Distribution Hydronique"
+        }
+      ]
+    }
+  ]
+}

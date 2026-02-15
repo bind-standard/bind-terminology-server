@@ -1,0 +1,67 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "travel-trailer",
+  "url": "https://bind.codes/travel-trailer",
+  "name": "TravelTrailer",
+  "title": "Travel Trailer",
+  "status": "draft",
+  "language": "en",
+  "description": "Travel Trailer codes for insurance operations.",
+  "concept": [
+    {
+      "code": "cabin-trailer",
+      "display": "Cabin trailer",
+      "definition": "Cabin trailer — travel trailer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caravane classique"
+        }
+      ]
+    },
+    {
+      "code": "camper-unit",
+      "display": "Camper Unit",
+      "definition": "Camper Unit — travel trailer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autocaravane séparable"
+        }
+      ]
+    },
+    {
+      "code": "fifth-wheel-cabin-trailer",
+      "display": "Fifth Wheel Cabin Trailer",
+      "definition": "Fifth Wheel Cabin Trailer — travel trailer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caravane à sellette"
+        }
+      ]
+    },
+    {
+      "code": "tent-trailer",
+      "display": "Tent Trailer",
+      "definition": "Tent Trailer — travel trailer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tente-caravane"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — travel trailer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "alarm-description",
+  "url": "https://bind.codes/alarm-description",
+  "name": "AlarmDescription",
+  "title": "Alarm Description",
+  "status": "draft",
+  "language": "en",
+  "description": "Alarm Description codes for insurance operations.",
+  "concept": [
+    {
+      "code": "unknown",
+      "display": "Unknown",
+      "definition": "Unknown — alarm description code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        }
+      ]
+    },
+    {
+      "code": "none-not-applicable",
+      "display": "None/Not Applicable",
+      "definition": "None/Not Applicable — alarm description code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun/Sans objet"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — alarm description code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "central-station",
+      "display": "Central Station",
+      "definition": "Central Station — alarm description code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Station centrale"
+        }
+      ]
+    },
+    {
+      "code": "monitoring-station-full-service",
+      "display": "Monitoring Station (Full Service)",
+      "definition": "Monitoring Station (Full Service) — alarm description code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Station monitrice (complète)"
+        }
+      ]
+    },
+    {
+      "code": "monitoring-station-shared-service",
+      "display": "Monitoring Station (Shared Service)",
+      "definition": "Monitoring Station (Shared Service) — alarm description code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Station monitrice (partielle)"
+        }
+      ]
+    },
+    {
+      "code": "local-alarm",
+      "display": "Local Alarm",
+      "definition": "Local Alarm — alarm description code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Alarme locale"
+        }
+      ]
+    },
+    {
+      "code": "visually-disabling-e-g-smokecloak",
+      "display": "Visually Disabling (e.g. Smokecloak)",
+      "definition": "Visually Disabling (e.g. Smokecloak) — alarm description code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aveuglant (ex. écran de fumée)"
+        }
+      ]
+    },
+    {
+      "code": "smart-alarm",
+      "display": "Smart Alarm",
+      "definition": "Smart Alarm — alarm description code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Alarme intelligente"
+        }
+      ]
+    }
+  ]
+}

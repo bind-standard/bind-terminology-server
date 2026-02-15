@@ -1,0 +1,243 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "address-type",
+  "url": "https://bind.codes/address-type",
+  "name": "AddressType",
+  "title": "Address Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Address Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "correspondence-mailing",
+      "display": "Correspondence/Mailing",
+      "definition": "Correspondence/Mailing — address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Correspondance/adressage"
+        }
+      ]
+    },
+    {
+      "code": "risk",
+      "display": "Risk",
+      "definition": "Risk — address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Risque"
+        }
+      ]
+    },
+    {
+      "code": "jobsite",
+      "display": "Jobsite",
+      "definition": "Jobsite — address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chantier"
+        }
+      ]
+    },
+    {
+      "code": "seasonal",
+      "display": "Seasonal",
+      "definition": "Seasonal — address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Saisonnière"
+        }
+      ]
+    },
+    {
+      "code": "secondary",
+      "display": "Secondary",
+      "definition": "Secondary — address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Secondaire"
+        }
+      ]
+    },
+    {
+      "code": "3rd-location",
+      "display": "3rd Location",
+      "definition": "3rd Location — address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "3e emplacement"
+        }
+      ]
+    },
+    {
+      "code": "4th-location",
+      "display": "4th Location",
+      "definition": "4th Location — address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "4e emplacement"
+        }
+      ]
+    },
+    {
+      "code": "5th-location",
+      "display": "5th Location",
+      "definition": "5th Location — address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "5e emplacement"
+        }
+      ]
+    },
+    {
+      "code": "temporary",
+      "display": "Temporary",
+      "definition": "Temporary — address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Temporaire"
+        }
+      ]
+    },
+    {
+      "code": "primary-principal",
+      "display": "Primary/Principal",
+      "definition": "Primary/Principal — address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Principale"
+        }
+      ]
+    },
+    {
+      "code": "branch",
+      "display": "Branch",
+      "definition": "Branch — address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Succursale"
+        }
+      ]
+    },
+    {
+      "code": "subsidiary",
+      "display": "Subsidiary",
+      "definition": "Subsidiary — address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Filiale"
+        }
+      ]
+    },
+    {
+      "code": "affiliate",
+      "display": "Affiliate",
+      "definition": "Affiliate — address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société affiliée"
+        }
+      ]
+    },
+    {
+      "code": "banking-location",
+      "display": "Banking Location",
+      "definition": "Banking Location — address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Emplacement bancaire"
+        }
+      ]
+    },
+    {
+      "code": "deposit-location",
+      "display": "Deposit Location",
+      "definition": "Deposit Location — address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Emplacement de consigne"
+        }
+      ]
+    },
+    {
+      "code": "furthest-truck-terminal",
+      "display": "Furthest Truck Terminal",
+      "definition": "Furthest Truck Terminal — address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terminal de camionnage le plus éloigné"
+        }
+      ]
+    },
+    {
+      "code": "furthest-destination",
+      "display": "Furthest Destination",
+      "definition": "Furthest Destination — address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Destination la plus éloignée"
+        }
+      ]
+    },
+    {
+      "code": "destination",
+      "display": "Destination",
+      "definition": "Destination — address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Destination"
+        }
+      ]
+    },
+    {
+      "code": "previous-address",
+      "display": "Previous Address",
+      "definition": "Previous Address — address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adresse précédente"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "business",
+      "display": "Business",
+      "definition": "Business — address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Affaires"
+        }
+      ]
+    }
+  ]
+}

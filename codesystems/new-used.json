@@ -1,0 +1,56 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "new-used",
+  "url": "https://bind.codes/new-used",
+  "name": "NewUsed",
+  "title": "New Used",
+  "status": "draft",
+  "language": "en",
+  "description": "New Used codes for insurance operations.",
+  "concept": [
+    {
+      "code": "new",
+      "display": "New",
+      "definition": "New — new used code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Neuf"
+        }
+      ]
+    },
+    {
+      "code": "used",
+      "display": "Used",
+      "definition": "Used — new used code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Usagé"
+        }
+      ]
+    },
+    {
+      "code": "demonstrator",
+      "display": "Demonstrator",
+      "definition": "Demonstrator — new used code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Démonstrateur"
+        }
+      ]
+    },
+    {
+      "code": "reconstructed",
+      "display": "Reconstructed",
+      "definition": "Reconstructed — new used code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Reconstruit"
+        }
+      ]
+    }
+  ]
+}

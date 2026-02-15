@@ -1,0 +1,122 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "inspection-status",
+  "url": "https://bind.codes/inspection-status",
+  "name": "InspectionStatus",
+  "title": "Inspection Status",
+  "status": "draft",
+  "language": "en",
+  "description": "Inspection Status codes for insurance operations.",
+  "concept": [
+    {
+      "code": "pre-inspection-completed",
+      "display": "Pre-inspection Completed",
+      "definition": "Pre-inspection Completed — inspection status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pré inspection terminée"
+        }
+      ]
+    },
+    {
+      "code": "pre-inspection-not-completed",
+      "display": "Pre-inspection Not Completed",
+      "definition": "Pre-inspection Not Completed — inspection status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Préinspection non terminée"
+        }
+      ]
+    },
+    {
+      "code": "pre-inspection-not-required",
+      "display": "Pre-inspection Not Required",
+      "definition": "Pre-inspection Not Required — inspection status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Préinspection non requise"
+        }
+      ]
+    },
+    {
+      "code": "Completed",
+      "display": "Completed",
+      "definition": "Completed — inspection status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terminé"
+        }
+      ]
+    },
+    {
+      "code": "Estimate",
+      "display": "Estimate (no inspection completed, based on submitted estimate)",
+      "definition": "Estimate (no inspection completed, based on submitted estimate) — inspection status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Estimé (aucune inspection terminée, selon estimé soumis)"
+        }
+      ]
+    },
+    {
+      "code": "NotCmplVerify",
+      "display": "Not Completed/Not Verified",
+      "definition": "Not Completed/Not Verified — inspection status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non terminé/non vérifié"
+        }
+      ]
+    },
+    {
+      "code": "NotOrdered",
+      "display": "Not Ordered",
+      "definition": "Not Ordered — inspection status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non commandé"
+        }
+      ]
+    },
+    {
+      "code": "NotRequired",
+      "display": "Not Required",
+      "definition": "Not Required — inspection status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non requis"
+        }
+      ]
+    },
+    {
+      "code": "Pending",
+      "display": "Pending",
+      "definition": "Pending — inspection status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En instance"
+        }
+      ]
+    },
+    {
+      "code": "Required",
+      "display": "Required",
+      "definition": "Required — inspection status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Requis"
+        }
+      ]
+    }
+  ]
+}

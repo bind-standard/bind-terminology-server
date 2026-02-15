@@ -1,0 +1,1519 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "attachment-type",
+  "url": "https://bind.codes/attachment-type",
+  "name": "AttachmentType",
+  "title": "Attachment Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Attachment Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "none",
+      "display": "None",
+      "definition": "None — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        }
+      ]
+    },
+    {
+      "code": "ADV",
+      "display": "Advertising Material",
+      "definition": "Advertising Material — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matériel publicitaire"
+        }
+      ]
+    },
+    {
+      "code": "AM",
+      "display": "Association/Membership",
+      "definition": "Association/Membership — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association/affiliation"
+        }
+      ]
+    },
+    {
+      "code": "ANR",
+      "display": "Annual Report",
+      "definition": "Annual Report — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rapport annuel"
+        }
+      ]
+    },
+    {
+      "code": "APP",
+      "display": "Appraisal",
+      "definition": "Appraisal — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Expertise"
+        }
+      ]
+    },
+    {
+      "code": "BAC",
+      "display": "Burglar Alarm Certificate",
+      "definition": "Burglar Alarm Certificate — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Certificat - système d'alarme"
+        }
+      ]
+    },
+    {
+      "code": "BEV",
+      "display": "Building Evaluator",
+      "definition": "Building Evaluator — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Évaluateur"
+        }
+      ]
+    },
+    {
+      "code": "BIP",
+      "display": "Business Interruption - Profits Worksheet",
+      "definition": "Business Interruption - Profits Worksheet — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pertes d'exploitation - Feuille de travail, profits"
+        }
+      ]
+    },
+    {
+      "code": "BKA",
+      "display": "Banking Authorization",
+      "definition": "Banking Authorization — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autorisation bancaire"
+        }
+      ]
+    },
+    {
+      "code": "BLA",
+      "display": "Blasting Questionnaire",
+      "definition": "Blasting Questionnaire — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Questionnaire - dynamitage"
+        }
+      ]
+    },
+    {
+      "code": "BLN",
+      "display": "Billing Notice",
+      "definition": "Billing Notice — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de facturation"
+        }
+      ]
+    },
+    {
+      "code": "BND",
+      "display": "Binder",
+      "definition": "Binder — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Note de couverture"
+        }
+      ]
+    },
+    {
+      "code": "BOS",
+      "display": "Bill of Sale",
+      "definition": "Bill of Sale — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contrat de vente"
+        }
+      ]
+    },
+    {
+      "code": "BRO",
+      "display": "Brochure",
+      "definition": "Brochure — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Brochure"
+        }
+      ]
+    },
+    {
+      "code": "BYL",
+      "display": "Bylaws",
+      "definition": "Bylaws — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Règlements"
+        }
+      ]
+    },
+    {
+      "code": "CAT",
+      "display": "Catalogue",
+      "definition": "Catalogue — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Catalogue"
+        }
+      ]
+    },
+    {
+      "code": "CGN",
+      "display": "Closing Notice",
+      "definition": "Closing Notice — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de clôture"
+        }
+      ]
+    },
+    {
+      "code": "CIR",
+      "display": "Claim Investigation Report",
+      "definition": "Claim Investigation Report — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rapport d'enquête"
+        }
+      ]
+    },
+    {
+      "code": "CRM",
+      "display": "Crime Application",
+      "definition": "Crime Application — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Proposition d'assurance contre le vol et le détournement"
+        }
+      ]
+    },
+    {
+      "code": "CRT",
+      "display": "Certificate",
+      "definition": "Certificate — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Certificat"
+        }
+      ]
+    },
+    {
+      "code": "CSW",
+      "display": "Class II Safe Warranty",
+      "definition": "Class II Safe Warranty — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garantie Classe II - coffres-forts"
+        }
+      ]
+    },
+    {
+      "code": "CTP",
+      "display": "Consumer and Trade Publication",
+      "definition": "Consumer and Trade Publication — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Publication - Consommation et commerce"
+        }
+      ]
+    },
+    {
+      "code": "DAO",
+      "display": "Directors and Officers Application",
+      "definition": "Directors and Officers Application — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Proposition d'assurance - Administrateurs et Dirigeants"
+        }
+      ]
+    },
+    {
+      "code": "DAY",
+      "display": "Daycare Application",
+      "definition": "Daycare Application — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Proposition d'assurance - Garderies"
+        }
+      ]
+    },
+    {
+      "code": "DDD",
+      "display": "Comprehensive Dishonesty, Disappearance & Destruction",
+      "definition": "Comprehensive Dishonesty, Disappearance & Destruction — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance 3 D (contre les détournements, la disparition et la destruction) - formule générale"
+        }
+      ]
+    },
+    {
+      "code": "DEC",
+      "display": "Policy Declaration",
+      "definition": "Policy Declaration — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déclaration de police"
+        }
+      ]
+    },
+    {
+      "code": "DRL",
+      "display": "Driver's Licence",
+      "definition": "Driver's Licence — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Permis de conduire"
+        }
+      ]
+    },
+    {
+      "code": "DRS",
+      "display": "Driver's List",
+      "definition": "Driver's List — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste du conducteur"
+        }
+      ]
+    },
+    {
+      "code": "DTC",
+      "display": "Driver Training Certificate",
+      "definition": "Driver Training Certificate — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Certificat de formation du conducteur"
+        }
+      ]
+    },
+    {
+      "code": "EAO",
+      "display": "Errors and Omissions Application",
+      "definition": "Errors and Omissions Application — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Proposition d'assurance - Responsabilité civile professionnelle"
+        }
+      ]
+    },
+    {
+      "code": "EDM",
+      "display": "Electronic Data Memorandum",
+      "definition": "Electronic Data Memorandum — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mémorandum données électroniques"
+        }
+      ]
+    },
+    {
+      "code": "EFT",
+      "display": "Signed Electronic Funds Transfer Form",
+      "definition": "Signed Electronic Funds Transfer Form — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire de virement automatique signé"
+        }
+      ]
+    },
+    {
+      "code": "ENG",
+      "display": "Engineering Report",
+      "definition": "Engineering Report — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rapport d'ingénierie"
+        }
+      ]
+    },
+    {
+      "code": "ERF",
+      "display": "Evaluation Request Form",
+      "definition": "Evaluation Request Form — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire de demande d'évaluation"
+        }
+      ]
+    },
+    {
+      "code": "EXP",
+      "display": "Expiring Policy",
+      "definition": "Expiring Policy — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police venant à échéance"
+        }
+      ]
+    },
+    {
+      "code": "FBN",
+      "display": "Final Bill Notice",
+      "definition": "Final Bill Notice — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dernier avis de facturation"
+        }
+      ]
+    },
+    {
+      "code": "FDN",
+      "display": "Fault Determination Notice",
+      "definition": "Fault Determination Notice — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de détermination de la responsabilité"
+        }
+      ]
+    },
+    {
+      "code": "FID",
+      "display": "Fidelity Bond Application",
+      "definition": "Fidelity Bond Application — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Proposition d'assurance contre les détournements"
+        }
+      ]
+    },
+    {
+      "code": "GOV",
+      "display": "Government Legislative Papers",
+      "definition": "Government Legislative Papers — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Documents législatifs gouvernementaux"
+        }
+      ]
+    },
+    {
+      "code": "IN",
+      "display": "Financial Statement",
+      "definition": "Financial Statement — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rapport financier"
+        }
+      ]
+    },
+    {
+      "code": "INS",
+      "display": "Inspection Report",
+      "definition": "Inspection Report — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rapport d'inspection"
+        }
+      ]
+    },
+    {
+      "code": "INT",
+      "display": "Instructions",
+      "definition": "Instructions — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Directives"
+        }
+      ]
+    },
+    {
+      "code": "INV",
+      "display": "Account Statement",
+      "definition": "Account Statement — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "État de compte"
+        }
+      ]
+    },
+    {
+      "code": "IOR",
+      "display": "Interim Organizational Report",
+      "definition": "Interim Organizational Report — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rapport organisationnel intérimaire"
+        }
+      ]
+    },
+    {
+      "code": "LAB",
+      "display": "Label",
+      "definition": "Label — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Étiquette"
+        }
+      ]
+    },
+    {
+      "code": "LAU",
+      "display": "Letter of Authorization",
+      "definition": "Letter of Authorization — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lettre d'autorisation"
+        }
+      ]
+    },
+    {
+      "code": "LEX",
+      "display": "Letter of Experience",
+      "definition": "Letter of Experience — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Antécédents d'un risque"
+        }
+      ]
+    },
+    {
+      "code": "LHI",
+      "display": "Loss History",
+      "definition": "Loss History — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Historique des sinistres"
+        }
+      ]
+    },
+    {
+      "code": "LIA",
+      "display": "Liability Application",
+      "definition": "Liability Application — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Proposition d'assurance responsabilité civile"
+        }
+      ]
+    },
+    {
+      "code": "LIC",
+      "display": "Liability certificates",
+      "definition": "Liability certificates — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Certificat de responsabilité civile"
+        }
+      ]
+    },
+    {
+      "code": "MED",
+      "display": "Medical Report",
+      "definition": "Medical Report — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rapport médical"
+        }
+      ]
+    },
+    {
+      "code": "MUN",
+      "display": "Municipality Application",
+      "definition": "Municipality Application — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Proposition d'assurance - Municipalité"
+        }
+      ]
+    },
+    {
+      "code": "MVR",
+      "display": "Motor Vehicle Report",
+      "definition": "Motor Vehicle Report — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rapport automobile"
+        }
+      ]
+    },
+    {
+      "code": "MVS",
+      "display": "Mission, Vision Statement",
+      "definition": "Mission, Vision Statement — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Énoncés de mission et vision"
+        }
+      ]
+    },
+    {
+      "code": "NEW",
+      "display": "Newspaper Article",
+      "definition": "Newspaper Article — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Article de journal"
+        }
+      ]
+    },
+    {
+      "code": "NSM",
+      "display": "Non-smoker Form",
+      "definition": "Non-smoker Form — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire non-fumeur"
+        }
+      ]
+    },
+    {
+      "code": "OGN",
+      "display": "Opening Notice",
+      "definition": "Opening Notice — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de clôture"
+        }
+      ]
+    },
+    {
+      "code": "OPN",
+      "display": "Overdue Payment Notice",
+      "definition": "Overdue Payment Notice — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rappel de paiement tardif"
+        }
+      ]
+    },
+    {
+      "code": "OTH",
+      "display": "Other",
+      "definition": "Other — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "OTQ",
+      "display": "Oil Tank Questionnaire",
+      "definition": "Oil Tank Questionnaire — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Questionnaire - Réservoir d'huile"
+        }
+      ]
+    },
+    {
+      "code": "OWN",
+      "display": "Ownership",
+      "definition": "Ownership — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Droit de propriété"
+        }
+      ]
+    },
+    {
+      "code": "PHO",
+      "display": "Photograph",
+      "definition": "Photograph — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Photographie"
+        }
+      ]
+    },
+    {
+      "code": "POL",
+      "display": "Pollution Permanent Record",
+      "definition": "Pollution Permanent Record — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dossier permanent sur la pollution"
+        }
+      ]
+    },
+    {
+      "code": "POP",
+      "display": "Proof of Purchase",
+      "definition": "Proof of Purchase — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Preuve d'achat"
+        }
+      ]
+    },
+    {
+      "code": "PPH",
+      "display": "Prior Policy History",
+      "definition": "Prior Policy History — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Historique des polices précédentes"
+        }
+      ]
+    },
+    {
+      "code": "PRE",
+      "display": "Pre-inspection report",
+      "definition": "Pre-inspection report — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rapport de pré-inspection"
+        }
+      ]
+    },
+    {
+      "code": "PRN",
+      "display": "Payment Reminder Notice",
+      "definition": "Payment Reminder Notice — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rappel de paiement"
+        }
+      ]
+    },
+    {
+      "code": "PRO",
+      "display": "Product Safety Survey",
+      "definition": "Product Safety Survey — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sondage sur la sécurité d'un produit"
+        }
+      ]
+    },
+    {
+      "code": "PRQ",
+      "display": "Products Questionnaire",
+      "definition": "Products Questionnaire — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Questionnaire sur les produits"
+        }
+      ]
+    },
+    {
+      "code": "QCP",
+      "display": "Quality Control Procedure",
+      "definition": "Quality Control Procedure — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Procédure de contrôle de la qualité"
+        }
+      ]
+    },
+    {
+      "code": "QST",
+      "display": "Questionnaire",
+      "definition": "Questionnaire — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Questionnaire"
+        }
+      ]
+    },
+    {
+      "code": "RCW",
+      "display": "Replacement Cost Worksheet(s)",
+      "definition": "Replacement Cost Worksheet(s) — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Feuille(s) de travail - Valeur à neuf"
+        }
+      ]
+    },
+    {
+      "code": "RET",
+      "display": "Declaration for Retiree Discount Form",
+      "definition": "Declaration for Retiree Discount Form — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déclaration - Formulaire de rabais pour les retraités"
+        }
+      ]
+    },
+    {
+      "code": "RFN",
+      "display": "Refund Notice",
+      "definition": "Refund Notice — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de remboursement"
+        }
+      ]
+    },
+    {
+      "code": "RNN",
+      "display": "Rental Notice",
+      "definition": "Rental Notice — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de location"
+        }
+      ]
+    },
+    {
+      "code": "ROI",
+      "display": "Release of Interest",
+      "definition": "Release of Interest — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Quittance du cessionnaire"
+        }
+      ]
+    },
+    {
+      "code": "RRN",
+      "display": "Return Rejection Notice",
+      "definition": "Return Rejection Notice — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Renvoi de l'avis de rejet"
+        }
+      ]
+    },
+    {
+      "code": "RSG",
+      "display": "Record of Student Grades",
+      "definition": "Record of Student Grades — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bulletin étudiant"
+        }
+      ]
+    },
+    {
+      "code": "RWL",
+      "display": "Renewal Application",
+      "definition": "Renewal Application — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Proposition de renouvellement"
+        }
+      ]
+    },
+    {
+      "code": "SAF",
+      "display": "Safety Certificate",
+      "definition": "Safety Certificate — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Certificat de sécurité"
+        }
+      ]
+    },
+    {
+      "code": "SBQ",
+      "display": "Sewer Backup Questionnaire",
+      "definition": "Sewer Backup Questionnaire — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Questionnaire - refoulement d'égouts"
+        }
+      ]
+    },
+    {
+      "code": "SCH",
+      "display": "Schedule",
+      "definition": "Schedule — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tableau"
+        }
+      ]
+    },
+    {
+      "code": "SIT",
+      "display": "Site Diagram",
+      "definition": "Site Diagram — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Diagramme des lieux"
+        }
+      ]
+    },
+    {
+      "code": "SKI",
+      "display": "Ski Resort Application",
+      "definition": "Ski Resort Application — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Proposition d'assurance pour les stations de ski"
+        }
+      ]
+    },
+    {
+      "code": "SLI",
+      "display": "Survey of (Liability) Hazards",
+      "definition": "Survey of (Liability) Hazards — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Estimation des risques (responsabilité civile)"
+        }
+      ]
+    },
+    {
+      "code": "SOL",
+      "display": "Solid Fuel Heating Questionnaire",
+      "definition": "Solid Fuel Heating Questionnaire — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Questionnaire sur le chauffage à combustible solide"
+        }
+      ]
+    },
+    {
+      "code": "SOV",
+      "display": "Statement of Values",
+      "definition": "Statement of Values — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "État des valeurs (déclaration des existences) OQLF"
+        }
+      ]
+    },
+    {
+      "code": "STD",
+      "display": "Standards Service Contract",
+      "definition": "Standards Service Contract — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contrat d'entretien"
+        }
+      ]
+    },
+    {
+      "code": "TLN",
+      "display": "Total Loss Notice",
+      "definition": "Total Loss Notice — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de perte totale"
+        }
+      ]
+    },
+    {
+      "code": "TRA",
+      "display": "Trade Magazine",
+      "definition": "Trade Magazine — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Magazine spécialisé"
+        }
+      ]
+    },
+    {
+      "code": "TRU",
+      "display": "Trust Indenture",
+      "definition": "Trust Indenture — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acte de fiducie"
+        }
+      ]
+    },
+    {
+      "code": "UMB",
+      "display": "Umbrella Application",
+      "definition": "Umbrella Application — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Proposition d'assurance responsabilité civile complémentaire"
+        }
+      ]
+    },
+    {
+      "code": "VC",
+      "display": "Void Cheque",
+      "definition": "Void Cheque — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chèque portant la mention \"annulé\""
+        }
+      ]
+    },
+    {
+      "code": "WDN",
+      "display": "Withdrawal Notice",
+      "definition": "Withdrawal Notice — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de rejet"
+        }
+      ]
+    },
+    {
+      "code": "WRN",
+      "display": "Withdrawal Rejection Notice",
+      "definition": "Withdrawal Rejection Notice — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Refus de l'avis de rejet"
+        }
+      ]
+    },
+    {
+      "code": "WRP",
+      "display": "Wrap-up Application",
+      "definition": "Wrap-up Application — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Proposition d'assurance responsabilité civile globale de chantier"
+        }
+      ]
+    },
+    {
+      "code": "YEL",
+      "display": "Yellow Pages",
+      "definition": "Yellow Pages — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pages Jaunes"
+        }
+      ]
+    },
+    {
+      "code": "BCE",
+      "display": "eDoc Billing Credit Card Expired",
+      "definition": "eDoc Billing Credit Card Expired — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Expiration de la carte de crédit utilisée pour effectuer les paiements"
+        }
+      ]
+    },
+    {
+      "code": "BCN",
+      "display": "eDoc Billing Collection Notice",
+      "definition": "eDoc Billing Collection Notice — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Avis de recouvrement"
+        }
+      ]
+    },
+    {
+      "code": "BFB",
+      "display": "eDoc Billing Final Bill Notice",
+      "definition": "eDoc Billing Final Bill Notice — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de facturation finale"
+        }
+      ]
+    },
+    {
+      "code": "BOB",
+      "display": "eDoc Payment Required Outstanding Balance",
+      "definition": "eDoc Payment Required Outstanding Balance — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Paiement du solde impayé requis"
+        }
+      ]
+    },
+    {
+      "code": "BOP",
+      "display": "eDoc Billing Overdue Payment Notice",
+      "definition": "eDoc Billing Overdue Payment Notice — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de paiement en retard"
+        }
+      ]
+    },
+    {
+      "code": "BRE",
+      "display": "eDoc Payment Received and Policy Reinstated",
+      "definition": "eDoc Payment Received and Policy Reinstated — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Paiement reçu et police remise en vigueur"
+        }
+      ]
+    },
+    {
+      "code": "BRI",
+      "display": "eDoc Billing Refund Issued",
+      "definition": "eDoc Billing Refund Issued — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Remboursement émis"
+        }
+      ]
+    },
+    {
+      "code": "BWR",
+      "display": "eDoc Billing Withdrawal Rejection Notice",
+      "definition": "eDoc Billing Withdrawal Rejection Notice — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Avis de refus du retrait de la facturation"
+        }
+      ]
+    },
+    {
+      "code": "CAA",
+      "display": "eDoc Claim Adjuster Assignment",
+      "definition": "eDoc Claim Adjuster Assignment — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Affectation d’un expert en sinistres"
+        }
+      ]
+    },
+    {
+      "code": "CCN",
+      "display": "eDoc Claim Closing Notice",
+      "definition": "eDoc Claim Closing Notice — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Avis de fermeture d’une demande de règlement"
+        }
+      ]
+    },
+    {
+      "code": "CFD",
+      "display": "eDoc Claim Auto Fault Determination Notice",
+      "definition": "eDoc Claim Auto Fault Determination Notice — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Avis de détermination de la responsabilité du sinistre automobile"
+        }
+      ]
+    },
+    {
+      "code": "CON",
+      "display": "eDoc Claim Opening Notice",
+      "definition": "eDoc Claim Opening Notice — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Avis d’ouverture d’une demande de règlement"
+        }
+      ]
+    },
+    {
+      "code": "CPN",
+      "display": "eDoc Claim Payment Notice",
+      "definition": "eDoc Claim Payment Notice — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Avis de paiement à la suite d’une réclamation"
+        }
+      ]
+    },
+    {
+      "code": "CRN",
+      "display": "eDoc Claim Auto Rental Notice",
+      "definition": "eDoc Claim Auto Rental Notice — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Avis de location de voiture"
+        }
+      ]
+    },
+    {
+      "code": "CTL",
+      "display": "eDoc Claim Total Loss Notice",
+      "definition": "eDoc Claim Total Loss Notice — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Avis de perte totale"
+        }
+      ]
+    },
+    {
+      "code": "NBD",
+      "display": "eDoc New Business Policy Declaration",
+      "definition": "eDoc New Business Policy Declaration — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Conditions particulières d’une nouvelle police d’assurance des entreprises"
+        }
+      ]
+    },
+    {
+      "code": "NBL",
+      "display": "eDoc New Business Liability Certificates",
+      "definition": "eDoc New Business Liability Certificates — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Certificats d’assurance responsabilité liés à une nouvelle police d’assurance des entreprises"
+        }
+      ]
+    },
+    {
+      "code": "NBP",
+      "display": "eDoc New Business Payment Schedule",
+      "definition": "eDoc New Business Payment Schedule — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Calendrier des paiements joint à une nouvelle police d’assurance des entreprises"
+        }
+      ]
+    },
+    {
+      "code": "NTP",
+      "display": "eDoc Payment Schedule No Policy Transaction",
+      "definition": "eDoc Payment Schedule No Policy Transaction — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Calendrier des paiements non joint à une opération sur police"
+        }
+      ]
+    },
+    {
+      "code": "PCD",
+      "display": "eDoc Policy Change Policy Declaration",
+      "definition": "eDoc Policy Change Policy Declaration — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Conditions particulières liées à une modification de police"
+        }
+      ]
+    },
+    {
+      "code": "PCL",
+      "display": "eDoc Policy Change Liability Certificates",
+      "definition": "eDoc Policy Change Liability Certificates — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Certificats d’assurance responsabilité liés à une police modifiée"
+        }
+      ]
+    },
+    {
+      "code": "PCP",
+      "display": "eDoc Policy Change Payment Schedule",
+      "definition": "eDoc Policy Change Payment Schedule — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Calendrier des paiements joint à une police modifiée"
+        }
+      ]
+    },
+    {
+      "code": "RED",
+      "display": "eDoc Renewal Policy Declaration",
+      "definition": "eDoc Renewal Policy Declaration — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Conditions particulières liées à une police renouvelée"
+        }
+      ]
+    },
+    {
+      "code": "REL",
+      "display": "eDoc Renewal Liability Certificates",
+      "definition": "eDoc Renewal Liability Certificates — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Certificats d’assurance responsabilité liés à une police renouvelée"
+        }
+      ]
+    },
+    {
+      "code": "REP",
+      "display": "eDoc Renewal Payment Schedule",
+      "definition": "eDoc Renewal Payment Schedule — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Calendrier des paiements joint à une police renouvelée"
+        }
+      ]
+    },
+    {
+      "code": "RND",
+      "display": "eDoc Reinstatement Policy Declaration",
+      "definition": "eDoc Reinstatement Policy Declaration — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Conditions particulières liées à une police remise en vigueur"
+        }
+      ]
+    },
+    {
+      "code": "RNL",
+      "display": "eDoc Reinstatement Liability Certificates",
+      "definition": "eDoc Reinstatement Liability Certificates — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Certificats d’assurance responsabilité liés à une police remise en vigueur"
+        }
+      ]
+    },
+    {
+      "code": "RNP",
+      "display": "eDoc Reinstatement Payment Schedule",
+      "definition": "eDoc Reinstatement Payment Schedule — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Calendrier des paiements joint à une police remise en vigueur"
+        }
+      ]
+    },
+    {
+      "code": "RRD",
+      "display": "eDoc Rewrite Policy Declaration",
+      "definition": "eDoc Rewrite Policy Declaration — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Conditions particulières liées à une police révisée"
+        }
+      ]
+    },
+    {
+      "code": "RRL",
+      "display": "eDoc Rewrite Liability Certificates",
+      "definition": "eDoc Rewrite Liability Certificates — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Certificats d’assurance responsabilité liés à une police révisée"
+        }
+      ]
+    },
+    {
+      "code": "RRP",
+      "display": "eDoc Rewrite Payment Schedule",
+      "definition": "eDoc Rewrite Payment Schedule — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Calendrier des paiements joint à une police révisée"
+        }
+      ]
+    },
+    {
+      "code": "RSD",
+      "display": "eDoc Reissue Policy Declaration",
+      "definition": "eDoc Reissue Policy Declaration — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Conditions particulières liées à une police réémise"
+        }
+      ]
+    },
+    {
+      "code": "RSL",
+      "display": "eDoc Reissue Liability Certificates",
+      "definition": "eDoc Reissue Liability Certificates — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Certificats d’assurance responsabilité liés à une police réémise"
+        }
+      ]
+    },
+    {
+      "code": "RSP",
+      "display": "eDoc Reissue Payment Schedule",
+      "definition": "eDoc Reissue Payment Schedule — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Calendrier des paiements joint à une police réémise"
+        }
+      ]
+    },
+    {
+      "code": "UWR",
+      "display": "eDoc Underwriting Request",
+      "definition": "eDoc Underwriting Request — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Demandes de souscription"
+        }
+      ]
+    },
+    {
+      "code": "XIN",
+      "display": "eDoc Cancelled by Insurer",
+      "definition": "eDoc Cancelled by Insurer — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Police annulée par l’assureur"
+        }
+      ]
+    },
+    {
+      "code": "XNR",
+      "display": "eDoc Insurer Cancellation with No Option to Reinstate",
+      "definition": "eDoc Insurer Cancellation with No Option to Reinstate — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Annulation par l’assureur sans possibilité de remise en vigueur"
+        }
+      ]
+    },
+    {
+      "code": "XOR",
+      "display": "eDoc Insurer Cancellation with Option to Reinstate",
+      "definition": "eDoc Insurer Cancellation with Option to Reinstate — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Annulation par l’assureur avec possibilité de remise en vigueur"
+        }
+      ]
+    },
+    {
+      "code": "XRI",
+      "display": "eDoc Cancellation Request by Insured",
+      "definition": "eDoc Cancellation Request by Insured — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Demande d’annulation par l’assuré"
+        }
+      ]
+    },
+    {
+      "code": "XRW",
+      "display": "eDoc Insurer Non-Renewal",
+      "definition": "eDoc Insurer Non-Renewal — attachment type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Non-renouvellement par l’assureur"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "quote-type",
+  "url": "https://bind.codes/quote-type",
+  "name": "QuoteType",
+  "title": "Quote Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Quote Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "F",
+      "display": "Full Quote",
+      "definition": "Full Quote — quote type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soumission complète"
+        }
+      ]
+    },
+    {
+      "code": "Q",
+      "display": "Quick Quote",
+      "definition": "Quick Quote — quote type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soumission rapide"
+        }
+      ]
+    }
+  ]
+}

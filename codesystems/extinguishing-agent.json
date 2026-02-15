@@ -1,0 +1,100 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "extinguishing-agent",
+  "url": "https://bind.codes/extinguishing-agent",
+  "name": "ExtinguishingAgent",
+  "title": "Extinguishing Agent",
+  "status": "draft",
+  "language": "en",
+  "description": "Extinguishing Agent codes for insurance operations.",
+  "concept": [
+    {
+      "code": "water",
+      "display": "Water",
+      "definition": "Water — extinguishing agent code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Eau"
+        }
+      ]
+    },
+    {
+      "code": "wet-chemical",
+      "display": "Wet Chemical",
+      "definition": "Wet Chemical — extinguishing agent code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produit chimique liquide"
+        }
+      ]
+    },
+    {
+      "code": "carbon-dioxide",
+      "display": "Carbon Dioxide",
+      "definition": "Carbon Dioxide — extinguishing agent code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dioxyde de carbone"
+        }
+      ]
+    },
+    {
+      "code": "foam",
+      "display": "Foam",
+      "definition": "Foam — extinguishing agent code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mousse"
+        }
+      ]
+    },
+    {
+      "code": "halon",
+      "display": "Halon",
+      "definition": "Halon — extinguishing agent code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Halon"
+        }
+      ]
+    },
+    {
+      "code": "dry-chemical",
+      "display": "Dry Chemical",
+      "definition": "Dry Chemical — extinguishing agent code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produit chimique sec"
+        }
+      ]
+    },
+    {
+      "code": "unknown",
+      "display": "Unknown",
+      "definition": "Unknown — extinguishing agent code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        }
+      ]
+    },
+    {
+      "code": "none-not-applicable",
+      "display": "None/Not applicable",
+      "definition": "None/Not applicable — extinguishing agent code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun/Non-applicable"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "protection-device",
+  "url": "https://bind.codes/protection-device",
+  "name": "ProtectionDevice",
+  "title": "Protection Device",
+  "status": "draft",
+  "language": "en",
+  "description": "Protection Device codes for insurance operations.",
+  "concept": [
+    {
+      "code": "automatic-sprinkler",
+      "display": "Automatic sprinkler",
+      "definition": "Automatic sprinkler — protection device code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gicleurs automatiques"
+        }
+      ]
+    },
+    {
+      "code": "carbon-monoxide-detector",
+      "display": "Carbon Monoxide Detector",
+      "definition": "Carbon Monoxide Detector — protection device code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détecteur de monoxyde de carbone"
+        }
+      ]
+    },
+    {
+      "code": "deluge-sprinkler",
+      "display": "Deluge Sprinkler",
+      "definition": "Deluge Sprinkler — protection device code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gicleurs déluge"
+        }
+      ]
+    },
+    {
+      "code": "detector",
+      "display": "Detector",
+      "definition": "Detector — protection device code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détecteur"
+        }
+      ]
+    },
+    {
+      "code": "dual-type-ultrasonic-and-passive-infrared-and-microwave-and-infrared-intrusion-detector",
+      "display": "Dual-type (ultrasonic & passive infrared and microwave & infrared) – Intrusion Detector",
+      "definition": "Dual-type (ultrasonic & passive infrared and microwave & infrared) – Intrusion Detector — protection device code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mixte (ultrasonique et infrarouge passif et micro-onde et infrarouge) - Détecteur d'intrusion"
+        }
+      ]
+    },
+    {
+      "code": "heat-sensor",
+      "display": "Heat Sensor",
+      "definition": "Heat Sensor — protection device code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détecteur de chaleur"
+        }
+      ]
+    },
+    {
+      "code": "magnetic-contacts",
+      "display": "Magnetic Contacts",
+      "definition": "Magnetic Contacts — protection device code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contacts magnétiques"
+        }
+      ]
+    },
+    {
+      "code": "manual-sprinkler",
+      "display": "Manual Sprinkler",
+      "definition": "Manual Sprinkler — protection device code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gicleurs manuels"
+        }
+      ]
+    },
+    {
+      "code": "microwave-intrusion-detector",
+      "display": "Microwave – Intrusion Detector",
+      "definition": "Microwave – Intrusion Detector — protection device code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Micro-ondes - Détecteur d'intrusion"
+        }
+      ]
+    },
+    {
+      "code": "panic-button",
+      "display": "Panic Button",
+      "definition": "Panic Button — protection device code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bouton d'urgence"
+        }
+      ]
+    },
+    {
+      "code": "photo-electric-intrusion-detector",
+      "display": "Photo-electric – Intrusion Detector",
+      "definition": "Photo-electric – Intrusion Detector — protection device code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cellule photoélectrique - Détecteur d'intrusion"
+        }
+      ]
+    },
+    {
+      "code": "sensor",
+      "display": "Sensor",
+      "definition": "Sensor — protection device code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détecteur"
+        }
+      ]
+    },
+    {
+      "code": "trip-wire",
+      "display": "Trip Wire",
+      "definition": "Trip Wire — protection device code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fil piège"
+        }
+      ]
+    },
+    {
+      "code": "ultrasonic-infrared-intrusion-detector",
+      "display": "Ultrasonic Infrared – Intrusion Detector",
+      "definition": "Ultrasonic Infrared – Intrusion Detector — protection device code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ultrasonore infrarouge - Détecteur d'intrusion"
+        }
+      ]
+    },
+    {
+      "code": "protective-wiring",
+      "display": "Protective wiring",
+      "definition": "Protective wiring — protection device code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Câblage protecteur"
+        }
+      ]
+    },
+    {
+      "code": "optical-detector",
+      "display": "Optical Detector",
+      "definition": "Optical Detector — protection device code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détecteur optique"
+        }
+      ]
+    },
+    {
+      "code": "ionization-detector",
+      "display": "Ionization Detector",
+      "definition": "Ionization Detector — protection device code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détecteur d'ionisation"
+        }
+      ]
+    },
+    {
+      "code": "none",
+      "display": "None",
+      "definition": "None — protection device code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — protection device code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "other-extinguishing-system",
+      "display": "Other Extinguishing System",
+      "definition": "Other Extinguishing System — protection device code."
+    }
+  ]
+}

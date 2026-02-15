@@ -1,0 +1,276 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "deductible-type",
+  "url": "https://bind.codes/deductible-type",
+  "name": "DeductibleType",
+  "title": "Deductible Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Deductible Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "minimum",
+      "display": "Minimum",
+      "definition": "Minimum — deductible type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Minimum"
+        }
+      ]
+    },
+    {
+      "code": "property-damage-deductible-per-person",
+      "display": "Property Damage Deductible Per Person",
+      "definition": "Property Damage Deductible Per Person — deductible type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise - Dommages matériels - Par personne"
+        }
+      ]
+    },
+    {
+      "code": "property-damage-deductible-per-occurrence",
+      "display": "Property Damage Deductible Per Occurrence",
+      "definition": "Property Damage Deductible Per Occurrence — deductible type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise - Dommages matériels - Par sinistre"
+        }
+      ]
+    },
+    {
+      "code": "bodily-injury-deductible-per-claimant",
+      "display": "Bodily Injury Deductible per Claimant",
+      "definition": "Bodily Injury Deductible per Claimant — deductible type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise - Lésions corporelles - Par demandeur"
+        }
+      ]
+    },
+    {
+      "code": "bodily-injury-deductible-per-occurrence",
+      "display": "Bodily Injury Deductible per Occurrence",
+      "definition": "Bodily Injury Deductible per Occurrence — deductible type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise - Lésions corporelles - Par sinistre"
+        }
+      ]
+    },
+    {
+      "code": "bi-pd-deductible-per-claimant",
+      "display": "BI/PD Deductible Per Claimant",
+      "definition": "BI/PD Deductible Per Claimant — deductible type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise LC/DM - Par demandeur"
+        }
+      ]
+    },
+    {
+      "code": "bi-pd-deductible-per-occurrence",
+      "display": "BI/PD Deductible Per Occurrence",
+      "definition": "BI/PD Deductible Per Occurrence — deductible type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise LC/DM - Par sinistre"
+        }
+      ]
+    },
+    {
+      "code": "bi-pd-coverage-a-applicable-supplementary-payments-also",
+      "display": "BI/PD-Coverage A-Applicable Supplementary Payments Also",
+      "definition": "BI/PD-Coverage A-Applicable Supplementary Payments Also — deductible type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "LC/DM-Garantie A-Applicables également aux paiements supplémentaires"
+        }
+      ]
+    },
+    {
+      "code": "pd-deduct-cover-a-applic-to-supplemt-payts-limit-clmt",
+      "display": "PD Deduct.Cover.A-Applic.to Supplem't Pay'ts-Limit/Clmt",
+      "definition": "PD Deduct.Cover.A-Applic.to Supplem't Pay'ts-Limit/Clmt — deductible type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise DM Garantie A-Applicables aux paiements supplémentaires/Limite/Demandeur"
+        }
+      ]
+    },
+    {
+      "code": "employee-benefits-administration-deductible-per-claim",
+      "display": "Employee Benefits Administration - Deductible per Claim",
+      "definition": "Employee Benefits Administration - Deductible per Claim — deductible type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise - Administration des avantages sociaux - Par réclamation"
+        }
+      ]
+    },
+    {
+      "code": "voluntary-medical-payment-per-person-per-accident",
+      "display": "Voluntary Medical Payment (per Person/per Accident)",
+      "definition": "Voluntary Medical Payment (per Person/per Accident) — deductible type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remboursement volontaire des frais médicaux (par personne/par accident)"
+        }
+      ]
+    },
+    {
+      "code": "municipal-property-damage-deductible",
+      "display": "Municipal Property Damage Deductible",
+      "definition": "Municipal Property Damage Deductible — deductible type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise - Dommages biens municipaux"
+        }
+      ]
+    },
+    {
+      "code": "pd-deduct-cover-d-tenants-legal-liab-per-occurrence",
+      "display": "PD Deduct.Cover.D -Tenants Legal Liab. (Per Occurrence)",
+      "definition": "PD Deduct.Cover.D -Tenants Legal Liab. (Per Occurrence) — deductible type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise DM Garantie D-Responsabilité civile des locataires (par sinistre)"
+        }
+      ]
+    },
+    {
+      "code": "insureds-participation",
+      "display": "Insured's Participation",
+      "definition": "Insured's Participation — deductible type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Participation de l'assuré"
+        }
+      ]
+    },
+    {
+      "code": "retained-limit-s-i-r-self-insured-retention",
+      "display": "Retained Limit/S.I.R. (Self Insured Retention)",
+      "definition": "Retained Limit/S.I.R. (Self Insured Retention) — deductible type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise retenue/franchise auto-assurée"
+        }
+      ]
+    },
+    {
+      "code": "disappearing",
+      "display": "Disappearing",
+      "definition": "Disappearing — deductible type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise décroissante"
+        }
+      ]
+    },
+    {
+      "code": "combined-minimum-dollar-amount-or-percentage",
+      "display": "Combined - Minimum Dollar Amount or Percentage",
+      "definition": "Combined - Minimum Dollar Amount or Percentage — deductible type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Combinée - Fixe ou pourcentage"
+        }
+      ]
+    },
+    {
+      "code": "none-no-deductible",
+      "display": "None - No Deductible",
+      "definition": "None - No Deductible — deductible type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun - aucune franchise"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — deductible type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "DI",
+      "display": "Disappearing Flat",
+      "definition": "Disappearing Flat — deductible type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Décroissante - Montant fixe"
+        }
+      ]
+    },
+    {
+      "code": "DP",
+      "display": "Disappearing Percent",
+      "definition": "Disappearing Percent — deductible type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Décroissante - Pourcentage"
+        }
+      ]
+    },
+    {
+      "code": "FL",
+      "display": "Flat, Whole Dollar",
+      "definition": "Flat, Whole Dollar — deductible type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dollar près"
+        }
+      ]
+    },
+    {
+      "code": "HR",
+      "display": "Hour",
+      "definition": "Hour — deductible type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Heure"
+        }
+      ]
+    },
+    {
+      "code": "PC",
+      "display": "Percent",
+      "definition": "Percent — deductible type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pourcentage"
+        }
+      ]
+    }
+  ]
+}

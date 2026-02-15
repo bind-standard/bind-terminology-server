@@ -1,0 +1,155 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "sewer-backup-prevention",
+  "url": "https://bind.codes/sewer-backup-prevention",
+  "name": "SewerBackupPrevention",
+  "title": "Sewer Backup Prevention",
+  "status": "draft",
+  "language": "en",
+  "description": "Sewer Backup Prevention codes for insurance operations.",
+  "concept": [
+    {
+      "code": "AB",
+      "display": "Alarmed Sump Pump with Battery Backup & Backup valve",
+      "definition": "Alarmed Sump Pump with Battery Backup & Backup valve — sewer backup prevention code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pompe d'épuisement avec alarme dotée d'une pile de secours et d'un chaplet de secours"
+        }
+      ]
+    },
+    {
+      "code": "AP",
+      "display": "Alarmed Sump Pump with Battery Backup",
+      "definition": "Alarmed Sump Pump with Battery Backup — sewer backup prevention code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pompe d'épuisement avec alarme dotée d'une pile de secours"
+        }
+      ]
+    },
+    {
+      "code": "AS",
+      "display": "Alarmed Sump Pump without Battery Backup",
+      "definition": "Alarmed Sump Pump without Battery Backup — sewer backup prevention code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pompe d'épuisement avec alarme, sans pile de secours"
+        }
+      ]
+    },
+    {
+      "code": "AV",
+      "display": "Alarmed Sump Pump with Back Up Valve but without Battery Back Up",
+      "definition": "Alarmed Sump Pump with Back Up Valve but without Battery Back Up — sewer backup prevention code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pompe d'épuisement avec alarme dotée d'un chaplet de secours, mais sans pile de secours"
+        }
+      ]
+    },
+    {
+      "code": "BB",
+      "display": "Back-up Valve & Sump Pump with Battery",
+      "definition": "Back-up Valve & Sump Pump with Battery — sewer backup prevention code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chaplet de secours et pompe d'épuisement avec pile"
+        }
+      ]
+    },
+    {
+      "code": "BF",
+      "display": "Back Up Valve with Flapper that Protects the Basement Plumbing and Catch Basin",
+      "definition": "Back Up Valve with Flapper that Protects the Basement Plumbing and Catch Basin — sewer backup prevention code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clapet anti-refoulement qui protège la plomberie au sous-sol et le bassin récepteur"
+        }
+      ]
+    },
+    {
+      "code": "BO",
+      "display": "Back Up Valve that Protects only the Catch Basin",
+      "definition": "Back Up Valve that Protects only the Catch Basin — sewer backup prevention code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clapet anti-refoulement qui protège seulement le bassin récepteur"
+        }
+      ]
+    },
+    {
+      "code": "BS",
+      "display": "Back-up Valve & Sump Pump",
+      "definition": "Back-up Valve & Sump Pump — sewer backup prevention code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chaplet de secours et pompe d'épuisement"
+        }
+      ]
+    },
+    {
+      "code": "BV",
+      "display": "Back-up Valve",
+      "definition": "Back-up Valve — sewer backup prevention code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chaplet de secours"
+        }
+      ]
+    },
+    {
+      "code": "OT",
+      "display": "Other",
+      "definition": "Other — sewer backup prevention code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "SB",
+      "display": "Sump pump with battery back up",
+      "definition": "Sump pump with battery back up — sewer backup prevention code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pompe d'épuisement dotée d'une pile de secours"
+        }
+      ]
+    },
+    {
+      "code": "SP",
+      "display": "Sump Pump",
+      "definition": "Sump Pump — sewer backup prevention code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pompe d'épuisement"
+        }
+      ]
+    },
+    {
+      "code": "WP",
+      "display": "Water Powered / Pressure Back Up Pump",
+      "definition": "Water Powered / Pressure Back Up Pump — sewer backup prevention code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pompe de secours alimentée à l'eau / pression"
+        }
+      ]
+    }
+  ]
+}

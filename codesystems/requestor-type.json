@@ -1,0 +1,56 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "requestor-type",
+  "url": "https://bind.codes/requestor-type",
+  "name": "RequestorType",
+  "title": "Requestor Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Requestor Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "A",
+      "display": "Agent",
+      "definition": "Agent — requestor type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agent"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "display": "Company",
+      "definition": "Company — requestor type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "display": "Insured",
+      "definition": "Insured — requestor type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assuré"
+        }
+      ]
+    },
+    {
+      "code": "O",
+      "display": "Other",
+      "definition": "Other — requestor type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    }
+  ]
+}

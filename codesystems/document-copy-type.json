@@ -1,0 +1,78 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "document-copy-type",
+  "url": "https://bind.codes/document-copy-type",
+  "name": "DocumentCopyType",
+  "title": "Document Copy Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Document Copy Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "A",
+      "display": "Agency Copy",
+      "definition": "Agency Copy — document copy type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copie de l’agence"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "display": "Insured Copy",
+      "definition": "Insured Copy — document copy type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copie de l’assuré"
+        }
+      ]
+    },
+    {
+      "code": "L",
+      "display": "Lienholder Copy",
+      "definition": "Lienholder Copy — document copy type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copie du titulaire de privilège"
+        }
+      ]
+    },
+    {
+      "code": "M",
+      "display": "Mortgagee Copy",
+      "definition": "Mortgagee Copy — document copy type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copie du créancier hypothécaire"
+        }
+      ]
+    },
+    {
+      "code": "O",
+      "display": "Other",
+      "definition": "Other — document copy type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "display": "Agency/Broker and Insured copy",
+      "definition": "Agency/Broker and Insured copy — document copy type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copie de l’agence ou du courtier et de l’assuré"
+        }
+      ]
+    }
+  ]
+}

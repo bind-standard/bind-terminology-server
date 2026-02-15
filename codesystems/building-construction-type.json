@@ -1,0 +1,111 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "building-construction-type",
+  "url": "https://bind.codes/building-construction-type",
+  "name": "BuildingConstructionType",
+  "title": "Building Construction Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Building Construction Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "fire-resistive",
+      "display": "Fire Resistive",
+      "definition": "Fire Resistive — building construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résistant au feu"
+        }
+      ]
+    },
+    {
+      "code": "non-combustible-with-masonry-walls",
+      "display": "Non-combustible with Masonry Walls",
+      "definition": "Non-combustible with Masonry Walls — building construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incombustible avec murs en maçonnerie"
+        }
+      ]
+    },
+    {
+      "code": "non-combustible-with-non-masonry-walls",
+      "display": "Non-combustible with Non-masonry Walls",
+      "definition": "Non-combustible with Non-masonry Walls — building construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incombustible avec murs autres que maçonnerie"
+        }
+      ]
+    },
+    {
+      "code": "masonry",
+      "display": "Masonry",
+      "definition": "Masonry — building construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maçonnerie"
+        }
+      ]
+    },
+    {
+      "code": "masonry-veneer",
+      "display": "Masonry Veneer",
+      "definition": "Masonry Veneer — building construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Parement de maçonnerie"
+        }
+      ]
+    },
+    {
+      "code": "frame-and-all-others",
+      "display": "Frame and All Others",
+      "definition": "Frame and All Others — building construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charpente de bois et tous les autres"
+        }
+      ]
+    },
+    {
+      "code": "not-applicable",
+      "display": "Not Applicable",
+      "definition": "Not Applicable — building construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sans objet"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — building construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "unknown",
+      "display": "Unknown",
+      "definition": "Unknown — building construction type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        }
+      ]
+    }
+  ]
+}

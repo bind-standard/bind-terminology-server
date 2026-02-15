@@ -1,0 +1,309 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "loss-kind",
+  "url": "https://bind.codes/loss-kind",
+  "name": "LossKind",
+  "title": "Loss Kind",
+  "status": "draft",
+  "language": "en",
+  "description": "Loss Kind codes for insurance operations.",
+  "concept": [
+    {
+      "code": "fire-buildings",
+      "display": "Fire - Buildings",
+      "definition": "Fire - Buildings — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Feu - Bâtiments"
+        }
+      ]
+    },
+    {
+      "code": "fire-contents",
+      "display": "Fire - Contents",
+      "definition": "Fire - Contents — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Feu - Contenus"
+        }
+      ]
+    },
+    {
+      "code": "windstorm-and-hail-standard-coverage-buildings",
+      "display": "Windstorm and Hail - Standard Coverage - Buildings",
+      "definition": "Windstorm and Hail - Standard Coverage - Buildings — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tempête de vent et grêle - Garantie Normale - Bâtiments"
+        }
+      ]
+    },
+    {
+      "code": "windstorm-and-hail-standard-coverage-contents",
+      "display": "Windstorm and Hail - Standard Coverage - Contents",
+      "definition": "Windstorm and Hail - Standard Coverage - Contents — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tempête de vent et grêle - Garantie Normale - Contenus"
+        }
+      ]
+    },
+    {
+      "code": "windstorm-and-hail-special-coverage-t-v-aerials-etc",
+      "display": "Windstorm and Hail - Special Coverage - T.V. Aerials, etc.",
+      "definition": "Windstorm and Hail - Special Coverage - T.V. Aerials, etc. — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tempête de vent et grêle - Garantie Normale - Antennes de télévisions, etc."
+        }
+      ]
+    },
+    {
+      "code": "water-damage-standard-coverage-buildings",
+      "display": "Water Damage - Standard Coverage - Buildings",
+      "definition": "Water Damage - Standard Coverage - Buildings — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dégat d'eau - Garantie Normale - Bâtiments"
+        }
+      ]
+    },
+    {
+      "code": "water-damage-standard-coverage-contents",
+      "display": "Water Damage - Standard Coverage - Contents",
+      "definition": "Water Damage - Standard Coverage - Contents — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dégat d'eau - Garantie Normale - Contenus"
+        }
+      ]
+    },
+    {
+      "code": "water-damage-special-coverage-sewer-backup",
+      "display": "Water Damage - Special Coverage - Sewer Backup",
+      "definition": "Water Damage - Special Coverage - Sewer Backup — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dégâts d’eau – Garantie spéciale – Refoulement d’égout"
+        }
+      ]
+    },
+    {
+      "code": "water-damage-special-coverage-flood-overland-water",
+      "display": "Water Damage - Special Coverage – Flood/Overland Water",
+      "definition": "Water Damage - Special Coverage – Flood/Overland Water — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dégâts d’eau – Garantie spéciale – Inondation/eaux de surface"
+        }
+      ]
+    },
+    {
+      "code": "water-damage-special-coverage-other",
+      "display": "Water Damage - Special Coverage – Other",
+      "definition": "Water Damage - Special Coverage – Other — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dégâts d’eau – Couverture spéciale – Divers"
+        }
+      ]
+    },
+    {
+      "code": "water-damage-special-coverage-sewer-backing-flood-etc",
+      "display": "Water Damage - Special Coverage - Sewer Backing, Flood, etc.",
+      "definition": "Water Damage - Special Coverage - Sewer Backing, Flood, etc. — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dégat d'eau - Garantie Normale - Refoulement d'égout, inondation"
+        }
+      ]
+    },
+    {
+      "code": "burglary-or-theft-on-premises-loss",
+      "display": "Burglary or Theft - On Premises Loss",
+      "definition": "Burglary or Theft - On Premises Loss — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cambriolage ou vol - Sur les lieux"
+        }
+      ]
+    },
+    {
+      "code": "burglary-or-theft-off-premises-loss",
+      "display": "Burglary or Theft - Off Premises Loss",
+      "definition": "Burglary or Theft - Off Premises Loss — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cambriolage ou vol - Hors des lieux"
+        }
+      ]
+    },
+    {
+      "code": "special-coverage-mysterious-disappearance-etc",
+      "display": "Special Coverage - mysterious disappearance, etc.",
+      "definition": "Special Coverage - mysterious disappearance, etc. — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garantie spéciale - disparition mystérieuse, etc."
+        }
+      ]
+    },
+    {
+      "code": "personal-liability-for-bodily-injury-or-death-including-employers-liability-voluntary-compensation-and-medical-payments",
+      "display": "Personal Liability - for Bodily Injury or Death, including Employer's Liability, Voluntary Compensation, and Medical Payments",
+      "definition": "Personal Liability - for Bodily Injury or Death, including Employer's Liability, Voluntary Compensation, and Medical Payments — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité personnelle - pour blessure physique ou mort incluant responsabilité de l'employeur, la compensation volontaire, et les paiements médicaux"
+        }
+      ]
+    },
+    {
+      "code": "personal-liability-for-property-damage",
+      "display": "Personal Liability - for Property Damage",
+      "definition": "Personal Liability - for Property Damage — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité personnelle - pour dommages sur la propriété"
+        }
+      ]
+    },
+    {
+      "code": "glass-breakage-50-deductible-or-greater",
+      "display": "Glass Breakage - $50 Deductible (or greater)",
+      "definition": "Glass Breakage - $50 Deductible (or greater) — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bris de vitre - Déductible de 50$ (ou plus)"
+        }
+      ]
+    },
+    {
+      "code": "collapse-of-building",
+      "display": "Collapse of Building",
+      "definition": "Collapse of Building — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Effondrement de bâtiment"
+        }
+      ]
+    },
+    {
+      "code": "collision-upset-or-overturn-of-carrying-vehicle",
+      "display": "Collision, Upset, or Overturn of Carrying Vehicle",
+      "definition": "Collision, Upset, or Overturn of Carrying Vehicle — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collision ou renversement d'un véhicule de transport"
+        }
+      ]
+    },
+    {
+      "code": "earthquake-damage",
+      "display": "Earthquake Damage",
+      "definition": "Earthquake Damage — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommages de tremblement de terre"
+        }
+      ]
+    },
+    {
+      "code": "smoke-damage-faulty-operation-of-heating-device",
+      "display": "Smoke Damage - Faulty Operation of Heating Device",
+      "definition": "Smoke Damage - Faulty Operation of Heating Device — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommages de fumée - Faute d'opération d'un dispositif de chauffage"
+        }
+      ]
+    },
+    {
+      "code": "vandalism-or-malicious-acts",
+      "display": "Vandalism or Malicious Acts",
+      "definition": "Vandalism or Malicious Acts — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vandalisme ou acte malicieux"
+        }
+      ]
+    },
+    {
+      "code": "glass-breakage-25-deductible",
+      "display": "Glass Breakage - $25 Deductible",
+      "definition": "Glass Breakage - $25 Deductible — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bris de vitre - Déductible de 25$"
+        }
+      ]
+    },
+    {
+      "code": "glass-breakage-10-deductible",
+      "display": "Glass Breakage - $10 Deductible",
+      "definition": "Glass Breakage - $10 Deductible — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bris de vitre - Déductible de 10$"
+        }
+      ]
+    },
+    {
+      "code": "glass-breakage-no-deductible",
+      "display": "Glass Breakage - No Deductible",
+      "definition": "Glass Breakage - No Deductible — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bris de vitre - Pas de déductible"
+        }
+      ]
+    },
+    {
+      "code": "mass-evacuation",
+      "display": "Mass Evacuation",
+      "definition": "Mass Evacuation — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Évacuation de masse"
+        }
+      ]
+    },
+    {
+      "code": "all-other-losses",
+      "display": "All Other Losses",
+      "definition": "All Other Losses — loss kind code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toutes autres pertes"
+        }
+      ]
+    }
+  ]
+}

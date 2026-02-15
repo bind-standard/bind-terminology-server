@@ -1,0 +1,122 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "reason-coverage-ceased",
+  "url": "https://bind.codes/reason-coverage-ceased",
+  "name": "ReasonCoverageCeased",
+  "title": "Reason Coverage Ceased",
+  "status": "draft",
+  "language": "en",
+  "description": "Reason Coverage Ceased codes for insurance operations.",
+  "concept": [
+    {
+      "code": "away-at-school",
+      "display": "Away at School",
+      "definition": "Away at School — reason coverage ceased code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aux études"
+        }
+      ]
+    },
+    {
+      "code": "driving-conviction",
+      "display": "Driving Conviction",
+      "definition": "Driving Conviction — reason coverage ceased code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Condamnation - conduite automobile"
+        }
+      ]
+    },
+    {
+      "code": "employers-vehicle",
+      "display": "Employers Vehicle",
+      "definition": "Employers Vehicle — reason coverage ceased code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule de l'employeur"
+        }
+      ]
+    },
+    {
+      "code": "illness",
+      "display": "Illness",
+      "definition": "Illness — reason coverage ceased code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maladie"
+        }
+      ]
+    },
+    {
+      "code": "license-suspension",
+      "display": "License Suspension",
+      "definition": "License Suspension — reason coverage ceased code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Permis suspendu"
+        }
+      ]
+    },
+    {
+      "code": "misrepresentation",
+      "display": "Misrepresentation",
+      "definition": "Misrepresentation — reason coverage ceased code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fausses déclarations"
+        }
+      ]
+    },
+    {
+      "code": "non-payment",
+      "display": "Non-payment",
+      "definition": "Non-payment — reason coverage ceased code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non-paiement"
+        }
+      ]
+    },
+    {
+      "code": "on-sabbatical",
+      "display": "On Sabbatical",
+      "definition": "On Sabbatical — reason coverage ceased code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En congé sabbatique"
+        }
+      ]
+    },
+    {
+      "code": "out-of-country",
+      "display": "Out of Country",
+      "definition": "Out of Country — reason coverage ceased code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors du pays"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — reason coverage ceased code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    }
+  ]
+}

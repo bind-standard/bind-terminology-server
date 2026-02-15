@@ -1,0 +1,34 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "responsibility",
+  "url": "https://bind.codes/responsibility",
+  "name": "Responsibility",
+  "title": "Responsibility",
+  "status": "draft",
+  "language": "en",
+  "description": "Responsibility codes for insurance operations.",
+  "concept": [
+    {
+      "code": "A",
+      "display": "Agency/Brokerage Responsibility",
+      "definition": "Agency/Brokerage Responsibility — responsibility code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité du courtier/cabinet de courtage"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "display": "Company Responsibility",
+      "definition": "Company Responsibility — responsibility code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité de l'assureur"
+        }
+      ]
+    }
+  ]
+}

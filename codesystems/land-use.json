@@ -1,0 +1,100 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "land-use",
+  "url": "https://bind.codes/land-use",
+  "name": "LandUse",
+  "title": "Land Use",
+  "status": "draft",
+  "language": "en",
+  "description": "Land Use codes for insurance operations.",
+  "concept": [
+    {
+      "code": "hospital",
+      "display": "Hospital",
+      "definition": "Hospital — land use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hôpital"
+        }
+      ]
+    },
+    {
+      "code": "moderate-or-densely-populated",
+      "display": "Moderate or Densely Populated",
+      "definition": "Moderate or Densely Populated — land use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À moyenne ou forte densité de population"
+        }
+      ]
+    },
+    {
+      "code": "park-or-recreation-area",
+      "display": "Park or Recreation Area",
+      "definition": "Park or Recreation Area — land use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Parc ou aire de récréation"
+        }
+      ]
+    },
+    {
+      "code": "body-of-water-or-natural-watercourse",
+      "display": "Body of Water or Natural Watercourse",
+      "definition": "Body of Water or Natural Watercourse — land use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Masse d'eau ou cours d'eau naturel"
+        }
+      ]
+    },
+    {
+      "code": "school",
+      "display": "School",
+      "definition": "School — land use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "École"
+        }
+      ]
+    },
+    {
+      "code": "farmland",
+      "display": "Farmland",
+      "definition": "Farmland — land use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrain agricole"
+        }
+      ]
+    },
+    {
+      "code": "vacant",
+      "display": "Vacant",
+      "definition": "Vacant — land use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vacant"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — land use code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "exterior-wall-material-type",
+  "url": "https://bind.codes/exterior-wall-material-type",
+  "name": "ExteriorWallMaterialType",
+  "title": "Exterior Wall Material Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Exterior Wall Material Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "unknown",
+      "display": "Unknown",
+      "definition": "Unknown — exterior wall material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        }
+      ]
+    },
+    {
+      "code": "thin-brick-siding",
+      "display": "Thin Brick Siding",
+      "definition": "Thin Brick Siding — exterior wall material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Parement en brique décorative"
+        }
+      ]
+    },
+    {
+      "code": "monocoque",
+      "display": "Monocoque",
+      "definition": "Monocoque — exterior wall material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Monocoque"
+        }
+      ]
+    },
+    {
+      "code": "fiberglass",
+      "display": "Fiberglass",
+      "definition": "Fiberglass — exterior wall material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fibre de verre"
+        }
+      ]
+    },
+    {
+      "code": "metal-siding",
+      "display": "Metal Siding",
+      "definition": "Metal Siding — exterior wall material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bardage en métal"
+        }
+      ]
+    },
+    {
+      "code": "same-as-construction-type",
+      "display": "Same as construction type",
+      "definition": "Same as construction type — exterior wall material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comme le type de construction"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — exterior wall material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "display": "Asbestos",
+      "definition": "Asbestos — exterior wall material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Amiante"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "display": "Cement",
+      "definition": "Cement — exterior wall material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ciment"
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "display": "Cement Fiber Board",
+      "definition": "Cement Fiber Board — exterior wall material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Panneau de fibre de ciment"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "display": "Aggregate",
+      "definition": "Aggregate — exterior wall material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Granulat"
+        }
+      ]
+    },
+    {
+      "code": "H",
+      "display": "Cement Fiber Shingle",
+      "definition": "Cement Fiber Shingle — exterior wall material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bardeau de fibre de ciment"
+        }
+      ]
+    },
+    {
+      "code": "K",
+      "display": "Cedar Siding",
+      "definition": "Cedar Siding — exterior wall material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bardage en cèdre"
+        }
+      ]
+    },
+    {
+      "code": "L",
+      "display": "Aluminium",
+      "definition": "Aluminium — exterior wall material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aluminium"
+        }
+      ]
+    },
+    {
+      "code": "O",
+      "display": "Stucco",
+      "definition": "Stucco — exterior wall material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stuc"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Log Siding",
+      "definition": "Log Siding — exterior wall material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bardage en rondins"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "Stone Veneer",
+      "definition": "Stone Veneer — exterior wall material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pierre plaquée sur bois"
+        }
+      ]
+    },
+    {
+      "code": "U",
+      "display": "Wood Exterior",
+      "definition": "Wood Exterior — exterior wall material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Extérieur en bois"
+        }
+      ]
+    },
+    {
+      "code": "W",
+      "display": "Brick Veneer",
+      "definition": "Brick Veneer — exterior wall material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lambris de brique"
+        }
+      ]
+    },
+    {
+      "code": "Y",
+      "display": "Vinyl",
+      "definition": "Vinyl — exterior wall material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vinyle"
+        }
+      ]
+    }
+  ]
+}

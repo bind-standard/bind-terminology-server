@@ -1,0 +1,254 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "roof-material-type",
+  "url": "https://bind.codes/roof-material-type",
+  "name": "RoofMaterialType",
+  "title": "Roof Material Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Roof Material Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "unknown",
+      "display": "Unknown",
+      "definition": "Unknown — roof material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        }
+      ]
+    },
+    {
+      "code": "none-not-applicable",
+      "display": "None/Not Applicable",
+      "definition": "None/Not Applicable — roof material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun/ Sans objet"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — roof material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "display": "Asphalt Shingles",
+      "definition": "Asphalt Shingles — roof material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bardeaux d'asphalte"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "display": "Aluminium",
+      "definition": "Aluminium — roof material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aluminium"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "display": "Clay Tile",
+      "definition": "Clay Tile — roof material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tuile d'argile"
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "display": "Laminated Shingles",
+      "definition": "Laminated Shingles — roof material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bardeaux laminés"
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "display": "Elastomeric",
+      "definition": "Elastomeric — roof material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Elastomer"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "display": "Mineral Fiber Shakes",
+      "definition": "Mineral Fiber Shakes — roof material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bardeaux en fibre minérale"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "display": "Green Roof",
+      "definition": "Green Roof — roof material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toit Vert"
+        }
+      ]
+    },
+    {
+      "code": "L",
+      "display": "Corrugated Steel",
+      "definition": "Corrugated Steel — roof material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tôle ondulée"
+        }
+      ]
+    },
+    {
+      "code": "M",
+      "display": "Metal Tile",
+      "definition": "Metal Tile — roof material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tuile métallique"
+        }
+      ]
+    },
+    {
+      "code": "N",
+      "display": "Concrete Tile",
+      "definition": "Concrete Tile — roof material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tuile en ciment"
+        }
+      ]
+    },
+    {
+      "code": "O",
+      "display": "Other Tile",
+      "definition": "Other Tile — roof material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre tuile"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Plastic",
+      "definition": "Plastic — roof material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plastique"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "display": "Asphalt Roll",
+      "definition": "Asphalt Roll — roof material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rouleau de bitume"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "Slate Tile",
+      "definition": "Slate Tile — roof material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tuile d'ardoise"
+        }
+      ]
+    },
+    {
+      "code": "T",
+      "display": "Tar and Gravel",
+      "definition": "Tar and Gravel — roof material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Goudron et gravier"
+        }
+      ]
+    },
+    {
+      "code": "U",
+      "display": "Rubber",
+      "definition": "Rubber — roof material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caoutchouc"
+        }
+      ]
+    },
+    {
+      "code": "W",
+      "display": "Wood Shakes",
+      "definition": "Wood Shakes — roof material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bardeaux de fente"
+        }
+      ]
+    },
+    {
+      "code": "X",
+      "display": "Wood Shingles",
+      "definition": "Wood Shingles — roof material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bardeaux de bois"
+        }
+      ]
+    },
+    {
+      "code": "Y",
+      "display": "Membrane (External)",
+      "definition": "Membrane (External) — roof material type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Membrane (externe)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "protection-extent",
+  "url": "https://bind.codes/protection-extent",
+  "name": "ProtectionExtent",
+  "title": "Protection Extent",
+  "status": "draft",
+  "language": "en",
+  "description": "Protection Extent codes for insurance operations.",
+  "concept": [
+    {
+      "code": "complete-full",
+      "display": "Complete/Full",
+      "definition": "Complete/Full — protection extent code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Complet/Plein"
+        }
+      ]
+    },
+    {
+      "code": "partial",
+      "display": "Partial",
+      "definition": "Partial — protection extent code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Partielle"
+        }
+      ]
+    },
+    {
+      "code": "all-openings",
+      "display": "All Openings",
+      "definition": "All Openings — protection extent code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toutes les ouvertures"
+        }
+      ]
+    },
+    {
+      "code": "L1",
+      "display": "Level I",
+      "definition": "Level I — protection extent code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Niveau I"
+        }
+      ]
+    },
+    {
+      "code": "L2",
+      "display": "Level II",
+      "definition": "Level II — protection extent code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Niveau II"
+        }
+      ]
+    },
+    {
+      "code": "L3",
+      "display": "Level III",
+      "definition": "Level III — protection extent code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Niveau III"
+        }
+      ]
+    },
+    {
+      "code": "L4",
+      "display": "Level IV",
+      "definition": "Level IV — protection extent code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Niveau IV"
+        }
+      ]
+    }
+  ]
+}

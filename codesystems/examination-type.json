@@ -1,0 +1,34 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "examination-type",
+  "url": "https://bind.codes/examination-type",
+  "name": "ExaminationType",
+  "title": "Examination Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Examination Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "Educational",
+      "display": "Educational Examination",
+      "definition": "Educational Examination — examination type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Examen scolaire"
+        }
+      ]
+    },
+    {
+      "code": "Medical",
+      "display": "Medical Exam",
+      "definition": "Medical Exam — examination type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Examen médical"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "foundation",
+  "url": "https://bind.codes/foundation",
+  "name": "Foundation",
+  "title": "Foundation",
+  "status": "draft",
+  "language": "en",
+  "description": "Foundation codes for insurance operations.",
+  "concept": [
+    {
+      "code": "concrete-masonry",
+      "display": "Concrete/Masonry",
+      "definition": "Concrete/Masonry — foundation code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton/maçonnerie"
+        }
+      ]
+    },
+    {
+      "code": "on-blocks",
+      "display": "On Blocks",
+      "definition": "On Blocks — foundation code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sur des blocs"
+        }
+      ]
+    },
+    {
+      "code": "on-wheels",
+      "display": "On Wheels",
+      "definition": "On Wheels — foundation code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sur des roues"
+        }
+      ]
+    },
+    {
+      "code": "on-timber",
+      "display": "On Timber",
+      "definition": "On Timber — foundation code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sur du bois de charpente"
+        }
+      ]
+    },
+    {
+      "code": "post-pier-on-slab",
+      "display": "Post/Pier on Slab",
+      "definition": "Post/Pier on Slab — foundation code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pilier sur dalle"
+        }
+      ]
+    },
+    {
+      "code": "basement",
+      "display": "Basement",
+      "definition": "Basement — foundation code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous-sol"
+        }
+      ]
+    },
+    {
+      "code": "crawlspace",
+      "display": "Crawlspace",
+      "definition": "Crawlspace — foundation code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vide sanitaire"
+        }
+      ]
+    },
+    {
+      "code": "slab-concrete-slab",
+      "display": "Slab/Concrete Slab",
+      "definition": "Slab/Concrete Slab — foundation code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dalle/Dalle de béton"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — foundation code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "display": "Brick",
+      "definition": "Brick — foundation code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Brique"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "display": "Concrete Blocks",
+      "definition": "Concrete Blocks — foundation code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton blocs"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Poured Concrete",
+      "definition": "Poured Concrete — foundation code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton coulé"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "display": "Reinforced Concrete",
+      "definition": "Reinforced Concrete — foundation code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton Renforcé"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "Stone",
+      "definition": "Stone — foundation code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pierre"
+        }
+      ]
+    }
+  ]
+}

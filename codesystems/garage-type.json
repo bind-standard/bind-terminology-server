@@ -1,0 +1,177 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "garage-type",
+  "url": "https://bind.codes/garage-type",
+  "name": "GarageType",
+  "title": "Garage Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Garage Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "none",
+      "display": "None",
+      "definition": "None — garage type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        }
+      ]
+    },
+    {
+      "code": "built-in",
+      "display": "Built in",
+      "definition": "Built in — garage type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Encastré, incorporé"
+        }
+      ]
+    },
+    {
+      "code": "basement",
+      "display": "Basement",
+      "definition": "Basement — garage type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous-sol"
+        }
+      ]
+    },
+    {
+      "code": "carport",
+      "display": "Carport",
+      "definition": "Carport — garage type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Abri d'auto"
+        }
+      ]
+    },
+    {
+      "code": "attached-frame",
+      "display": "Attached Frame",
+      "definition": "Attached Frame — garage type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Attachée - Charpente de bois"
+        }
+      ]
+    },
+    {
+      "code": "attached-masonry-or-masonry-veneer",
+      "display": "Attached Masonry or Masonry/Veneer",
+      "definition": "Attached Masonry or Masonry/Veneer — garage type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Attachée - Maçonnerie ou parement de maçonnerie"
+        }
+      ]
+    },
+    {
+      "code": "detached-frame",
+      "display": "Detached Frame",
+      "definition": "Detached Frame — garage type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Individuelle - Charpente de bois"
+        }
+      ]
+    },
+    {
+      "code": "detached-masonry-or-masonry-veneer",
+      "display": "Detached Masonry or Masonry/Veneer",
+      "definition": "Detached Masonry or Masonry/Veneer — garage type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Individuelle - Maçonnerie ou parement de maçonnerie"
+        }
+      ]
+    },
+    {
+      "code": "attached-masonry",
+      "display": "Attached - Masonry",
+      "definition": "Attached - Masonry — garage type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Attachée - Maçonnerie"
+        }
+      ]
+    },
+    {
+      "code": "basement-under-attached-garage",
+      "display": "Basement Under Attached Garage",
+      "definition": "Basement Under Attached Garage — garage type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous-sol sous garage attaché"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "display": "Carport With Storage",
+      "definition": "Carport With Storage — garage type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Abri d'auto avec espace de rangement"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "display": "Detached Garage - Masonry",
+      "definition": "Detached Garage - Masonry — garage type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage détaché - Maçonnerie"
+        }
+      ]
+    },
+    {
+      "code": "O",
+      "display": "Other",
+      "definition": "Other — garage type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "display": "Attached Garage - Other",
+      "definition": "Attached Garage - Other — garage type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage accolé - Autre"
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "display": "Detached Garage - Other",
+      "definition": "Detached Garage - Other — garage type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage isolé - Autre"
+        }
+      ]
+    }
+  ]
+}

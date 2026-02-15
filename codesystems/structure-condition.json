@@ -1,0 +1,78 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "structure-condition",
+  "url": "https://bind.codes/structure-condition",
+  "name": "StructureCondition",
+  "title": "Structure Condition",
+  "status": "draft",
+  "language": "en",
+  "description": "Structure Condition codes for insurance operations.",
+  "concept": [
+    {
+      "code": "excellent",
+      "display": "Excellent",
+      "definition": "Excellent — structure condition code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Excellent"
+        }
+      ]
+    },
+    {
+      "code": "very-good",
+      "display": "Very good",
+      "definition": "Very good — structure condition code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Très bon"
+        }
+      ]
+    },
+    {
+      "code": "good",
+      "display": "Good",
+      "definition": "Good — structure condition code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bon"
+        }
+      ]
+    },
+    {
+      "code": "average",
+      "display": "Average",
+      "definition": "Average — structure condition code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Moyen"
+        }
+      ]
+    },
+    {
+      "code": "fair",
+      "display": "Fair",
+      "definition": "Fair — structure condition code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Passable"
+        }
+      ]
+    },
+    {
+      "code": "poor",
+      "display": "Poor",
+      "definition": "Poor — structure condition code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Médiocre"
+        }
+      ]
+    }
+  ]
+}

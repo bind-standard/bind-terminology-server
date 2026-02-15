@@ -1,0 +1,78 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "engineering-service-type",
+  "url": "https://bind.codes/engineering-service-type",
+  "name": "EngineeringServiceType",
+  "title": "Engineering Service Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Engineering Service Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "chemical",
+      "display": "Chemical",
+      "definition": "Chemical — engineering service type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Génie chimique"
+        }
+      ]
+    },
+    {
+      "code": "civil",
+      "display": "Civil",
+      "definition": "Civil — engineering service type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Génie civil"
+        }
+      ]
+    },
+    {
+      "code": "electrical",
+      "display": "Electrical",
+      "definition": "Electrical — engineering service type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Génie électrique"
+        }
+      ]
+    },
+    {
+      "code": "environmental",
+      "display": "Environmental",
+      "definition": "Environmental — engineering service type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Génie environnemental"
+        }
+      ]
+    },
+    {
+      "code": "industrial",
+      "display": "Industrial",
+      "definition": "Industrial — engineering service type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Génie industriel"
+        }
+      ]
+    },
+    {
+      "code": "mechanical",
+      "display": "Mechanical",
+      "definition": "Mechanical — engineering service type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Génie mécanique"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "special-or-seasonal",
+  "url": "https://bind.codes/special-or-seasonal",
+  "name": "SpecialOrSeasonal",
+  "title": "Special Or Seasonal",
+  "status": "draft",
+  "language": "en",
+  "description": "Special Or Seasonal codes for insurance operations.",
+  "concept": [
+    {
+      "code": "none",
+      "display": "None",
+      "definition": "None — special or seasonal code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        }
+      ]
+    },
+    {
+      "code": "seasonal",
+      "display": "Seasonal",
+      "definition": "Seasonal — special or seasonal code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Saisonnier"
+        }
+      ]
+    },
+    {
+      "code": "special",
+      "display": "Special",
+      "definition": "Special — special or seasonal code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Spécial"
+        }
+      ]
+    }
+  ]
+}

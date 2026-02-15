@@ -1,0 +1,34 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "attachemnt-type",
+  "url": "https://bind.codes/attachemnt-type",
+  "name": "AttachemntType",
+  "title": "Attachemnt Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Attachemnt Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "AJA",
+      "display": "Adjuster Assignment",
+      "definition": "Adjuster Assignment — attachemnt type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Affectation des experts en sinistre"
+        }
+      ]
+    },
+    {
+      "code": "PMN",
+      "display": "Payment Notice",
+      "definition": "Payment Notice — attachemnt type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de paiement"
+        }
+      ]
+    }
+  ]
+}

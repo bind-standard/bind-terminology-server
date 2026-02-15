@@ -1,0 +1,111 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "premium-calculation-method",
+  "url": "https://bind.codes/premium-calculation-method",
+  "name": "PremiumCalculationMethod",
+  "title": "Premium Calculation Method",
+  "status": "draft",
+  "language": "en",
+  "description": "Premium Calculation Method codes for insurance operations.",
+  "concept": [
+    {
+      "code": "fully-earned-flat-charge-non-reporting",
+      "display": "Fully Earned/Flat Charge/Non-reporting",
+      "definition": "Fully Earned/Flat Charge/Non-reporting — premium calculation method code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Complètement acquise/prix fixe/sans déclaration"
+        }
+      ]
+    },
+    {
+      "code": "deposit",
+      "display": "Deposit",
+      "definition": "Deposit — premium calculation method code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dépôt"
+        }
+      ]
+    },
+    {
+      "code": "full-term",
+      "display": "Full Term",
+      "definition": "Full Term — premium calculation method code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Totale"
+        }
+      ]
+    },
+    {
+      "code": "additional",
+      "display": "Additional",
+      "definition": "Additional — premium calculation method code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Additionnelle"
+        }
+      ]
+    },
+    {
+      "code": "return",
+      "display": "Return",
+      "definition": "Return — premium calculation method code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Retour"
+        }
+      ]
+    },
+    {
+      "code": "minimum-retained",
+      "display": "Minimum Retained",
+      "definition": "Minimum Retained — premium calculation method code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Minimum conservé"
+        }
+      ]
+    },
+    {
+      "code": "adjustable-reporting",
+      "display": "Adjustable/Reporting",
+      "definition": "Adjustable/Reporting — premium calculation method code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ajustable/déclaration"
+        }
+      ]
+    },
+    {
+      "code": "target",
+      "display": "Target",
+      "definition": "Target — premium calculation method code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Objectif"
+        }
+      ]
+    },
+    {
+      "code": "estimated",
+      "display": "Estimated",
+      "definition": "Estimated — premium calculation method code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Estimé"
+        }
+      ]
+    }
+  ]
+}

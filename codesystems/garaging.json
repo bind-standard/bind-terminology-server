@@ -1,0 +1,78 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "garaging",
+  "url": "https://bind.codes/garaging",
+  "name": "Garaging",
+  "title": "Garaging",
+  "status": "draft",
+  "language": "en",
+  "description": "Garaging codes for insurance operations.",
+  "concept": [
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — garaging code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "display": "Secure Condo/Apt Garage or Lot",
+      "definition": "Secure Condo/Apt Garage or Lot — garaging code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage sécurisé de condo/d'appartements ou lot"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "display": "Unsecured Condo/Apt Garage or Lot",
+      "definition": "Unsecured Condo/Apt Garage or Lot — garaging code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage non-sécurisé de condo/d'appartements ou lot"
+        }
+      ]
+    },
+    {
+      "code": "H",
+      "display": "Underground Parking",
+      "definition": "Underground Parking — garaging code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stationnement sous-terrain"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "display": "Storage",
+      "definition": "Storage — garaging code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreposage"
+        }
+      ]
+    },
+    {
+      "code": "U",
+      "display": "Unknown",
+      "definition": "Unknown — garaging code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        }
+      ]
+    }
+  ]
+}

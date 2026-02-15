@@ -1,0 +1,89 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "filing-type",
+  "url": "https://bind.codes/filing-type",
+  "name": "FilingType",
+  "title": "Filing Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Filing Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "province",
+      "display": "Province",
+      "definition": "Province — filing type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Province"
+        }
+      ]
+    },
+    {
+      "code": "state",
+      "display": "State",
+      "definition": "State — filing type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "État"
+        }
+      ]
+    },
+    {
+      "code": "city",
+      "display": "City",
+      "definition": "City — filing type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ville"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "display": "ICC",
+      "definition": "ICC — filing type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "ICC"
+        }
+      ]
+    },
+    {
+      "code": "OT",
+      "display": "Other",
+      "definition": "Other — filing type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "PUC",
+      "definition": "PUC — filing type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "PUC"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "Public Safety Commission",
+      "definition": "Public Safety Commission — filing type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commission de la sécurité publique"
+        }
+      ]
+    }
+  ]
+}

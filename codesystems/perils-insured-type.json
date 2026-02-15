@@ -1,0 +1,89 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "perils-insured-type",
+  "url": "https://bind.codes/perils-insured-type",
+  "name": "PerilsInsuredType",
+  "title": "Perils Insured Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Perils Insured Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "broad-form",
+      "display": "Broad Form",
+      "definition": "Broad Form — perils insured type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formule étendue"
+        }
+      ]
+    },
+    {
+      "code": "fire-and-extended-coverage",
+      "display": "Fire & Extended Coverage",
+      "definition": "Fire & Extended Coverage — perils insured type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie et garanties annexes"
+        }
+      ]
+    },
+    {
+      "code": "named-perils",
+      "display": "Named Perils",
+      "definition": "Named Perils — perils insured type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Risques désignés"
+        }
+      ]
+    },
+    {
+      "code": "fire",
+      "display": "Fire",
+      "definition": "Fire — perils insured type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie"
+        }
+      ]
+    },
+    {
+      "code": "manuscript-wording",
+      "display": "Manuscript Wording",
+      "definition": "Manuscript Wording — perils insured type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Termes manuscrits"
+        }
+      ]
+    },
+    {
+      "code": "no-coverage",
+      "display": "No Coverage",
+      "definition": "No Coverage — perils insured type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucune garantie"
+        }
+      ]
+    },
+    {
+      "code": "robbery",
+      "display": "Robbery",
+      "definition": "Robbery — perils insured type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol qualifié"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "loss-location",
+  "url": "https://bind.codes/loss-location",
+  "name": "LossLocation",
+  "title": "Loss Location",
+  "status": "draft",
+  "language": "en",
+  "description": "Loss Location codes for insurance operations.",
+  "concept": [
+    {
+      "code": "I",
+      "display": "Insured's Address",
+      "definition": "Insured's Address — loss location code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adresse de l'assuré"
+        }
+      ]
+    },
+    {
+      "code": "N",
+      "display": "A Location Number",
+      "definition": "A Location Number — loss location code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Un numéro d'emplacement"
+        }
+      ]
+    },
+    {
+      "code": "O",
+      "display": "Other",
+      "definition": "Other — loss location code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Premises Address",
+      "definition": "Premises Address — loss location code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adresse du domicile"
+        }
+      ]
+    }
+  ]
+}

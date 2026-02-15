@@ -1,0 +1,232 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "valuation-type",
+  "url": "https://bind.codes/valuation-type",
+  "name": "ValuationType",
+  "title": "Valuation Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Valuation Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ACT",
+      "display": "Actual Loss Sustained",
+      "definition": "Actual Loss Sustained — valuation type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Perte réelle encourue"
+        }
+      ]
+    },
+    {
+      "code": "APR",
+      "display": "Appraised Cost",
+      "definition": "Appraised Cost — valuation type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coût estimé"
+        }
+      ]
+    },
+    {
+      "code": "AV",
+      "display": "Actual Cash Value",
+      "definition": "Actual Cash Value — valuation type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur au jour des sinistres"
+        }
+      ]
+    },
+    {
+      "code": "BC",
+      "display": "Basic Replacement Cost",
+      "definition": "Basic Replacement Cost — valuation type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur à neuf de base"
+        }
+      ]
+    },
+    {
+      "code": "BR",
+      "display": "Broad Replacement Cost",
+      "definition": "Broad Replacement Cost — valuation type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur à neuf étendue"
+        }
+      ]
+    },
+    {
+      "code": "FR",
+      "display": "Functional Replacement Cost",
+      "definition": "Functional Replacement Cost — valuation type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur à neuf fonctionnelle"
+        }
+      ]
+    },
+    {
+      "code": "FVR",
+      "display": "Full Value Replacement Cost",
+      "definition": "Full Value Replacement Cost — valuation type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur à neuf - Pleine valeur"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "display": "Agreed Amount",
+      "definition": "Agreed Amount — valuation type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Montant convenu"
+        }
+      ]
+    },
+    {
+      "code": "GR",
+      "display": "Guaranteed Replacement",
+      "definition": "Guaranteed Replacement — valuation type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur à neuf garantie"
+        }
+      ]
+    },
+    {
+      "code": "MKT",
+      "display": "Market Value",
+      "definition": "Market Value — valuation type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur marchande"
+        }
+      ]
+    },
+    {
+      "code": "ORG",
+      "display": "Original Cost",
+      "definition": "Original Cost — valuation type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coût d'origine"
+        }
+      ]
+    },
+    {
+      "code": "RC",
+      "display": "Replacement Cost",
+      "definition": "Replacement Cost — valuation type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur à neuf"
+        }
+      ]
+    },
+    {
+      "code": "REP",
+      "display": "Reproduction",
+      "definition": "Reproduction — valuation type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Reproduction"
+        }
+      ]
+    },
+    {
+      "code": "SA",
+      "display": "Stated Amount",
+      "definition": "Stated Amount — valuation type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Montant stipulé"
+        }
+      ]
+    },
+    {
+      "code": "SAR",
+      "display": "Stock - Annual Reporting",
+      "definition": "Stock - Annual Reporting — valuation type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marchandises - Rajustement annuel"
+        }
+      ]
+    },
+    {
+      "code": "SMR",
+      "display": "Stock - Monthly Reporting",
+      "definition": "Stock - Monthly Reporting — valuation type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marchandises - Rajustement mensuel"
+        }
+      ]
+    },
+    {
+      "code": "StatedAmt",
+      "display": "Stated Amount",
+      "definition": "Stated Amount — valuation type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Montant stipulé"
+        }
+      ]
+    },
+    {
+      "code": "STKI",
+      "display": "Stock - Selling Price",
+      "definition": "Stock - Selling Price — valuation type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marchandises - Prix de vente"
+        }
+      ]
+    },
+    {
+      "code": "TotalInsuredValue",
+      "display": "Total Insured value",
+      "definition": "Total Insured value — valuation type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur assurée totale"
+        }
+      ]
+    },
+    {
+      "code": "WRE",
+      "display": "Wreckage Value",
+      "definition": "Wreckage Value — valuation type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur des débris"
+        }
+      ]
+    }
+  ]
+}

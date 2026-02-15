@@ -1,0 +1,89 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "cooking-method-type",
+  "url": "https://bind.codes/cooking-method-type",
+  "name": "CookingMethodType",
+  "title": "Cooking Method Type Cd",
+  "status": "draft",
+  "language": "en",
+  "description": "Cooking Method codes for insurance operations.",
+  "concept": [
+    {
+      "code": "deep-fat-frying",
+      "display": "Deep Fat Frying",
+      "definition": "Deep Fat Frying — cooking method code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Friture à haute température"
+        }
+      ]
+    },
+    {
+      "code": "frying",
+      "display": "Frying",
+      "definition": "Frying — cooking method code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Friture"
+        }
+      ]
+    },
+    {
+      "code": "grilling",
+      "display": "Grilling",
+      "definition": "Grilling — cooking method code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grillage"
+        }
+      ]
+    },
+    {
+      "code": "wood-burning-oven",
+      "display": "Wood Burning Oven",
+      "definition": "Wood Burning Oven — cooking method code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fours à Bois"
+        }
+      ]
+    },
+    {
+      "code": "smokers",
+      "display": "Smokers",
+      "definition": "Smokers — cooking method code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fumeries"
+        }
+      ]
+    },
+    {
+      "code": "tableside-cooking",
+      "display": "Tableside Cooking",
+      "definition": "Tableside Cooking — cooking method code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cuisson à Table"
+        }
+      ]
+    },
+    {
+      "code": "none",
+      "display": "None",
+      "definition": "None — cooking method code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        }
+      ]
+    }
+  ]
+}

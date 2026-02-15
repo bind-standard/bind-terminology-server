@@ -1,0 +1,628 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "machinery-equipment",
+  "url": "https://bind.codes/machinery-equipment",
+  "name": "MachineryEquipment",
+  "title": "Machinery Equipment",
+  "status": "draft",
+  "language": "en",
+  "description": "Machinery Equipment codes for insurance operations.",
+  "concept": [
+    {
+      "code": "none",
+      "display": "None",
+      "definition": "None — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        }
+      ]
+    },
+    {
+      "code": "A1",
+      "display": "Armoured",
+      "definition": "Armoured — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Blindé"
+        }
+      ]
+    },
+    {
+      "code": "B1",
+      "display": "Bascule",
+      "definition": "Bascule — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Basculant"
+        }
+      ]
+    },
+    {
+      "code": "B2",
+      "display": "Blower",
+      "definition": "Blower — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ventilateur"
+        }
+      ]
+    },
+    {
+      "code": "B3",
+      "display": "Boiler",
+      "definition": "Boiler — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chaudière"
+        }
+      ]
+    },
+    {
+      "code": "B4",
+      "display": "Borer",
+      "definition": "Borer — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Perceuse"
+        }
+      ]
+    },
+    {
+      "code": "C1",
+      "display": "Cement Pump",
+      "definition": "Cement Pump — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pompe à béton"
+        }
+      ]
+    },
+    {
+      "code": "C2",
+      "display": "Closed Box",
+      "definition": "Closed Box — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poutre portante fermée"
+        }
+      ]
+    },
+    {
+      "code": "C3",
+      "display": "Combine-harvester",
+      "definition": "Combine-harvester — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Moissonneuse-batteuse"
+        }
+      ]
+    },
+    {
+      "code": "C4",
+      "display": "Concrete-mixer",
+      "definition": "Concrete-mixer — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bétonnière"
+        }
+      ]
+    },
+    {
+      "code": "C5",
+      "display": "Crane",
+      "definition": "Crane — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grue"
+        }
+      ]
+    },
+    {
+      "code": "C6",
+      "display": "Compressor",
+      "definition": "Compressor — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compresseur"
+        }
+      ]
+    },
+    {
+      "code": "D1",
+      "display": "Dislodger",
+      "definition": "Dislodger — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement à déloger"
+        }
+      ]
+    },
+    {
+      "code": "F1",
+      "display": "Fork-lift",
+      "definition": "Fork-lift — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chariot élévateur à fourche"
+        }
+      ]
+    },
+    {
+      "code": "G1",
+      "display": "Garbage Disposal Truck",
+      "definition": "Garbage Disposal Truck — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion à ordures"
+        }
+      ]
+    },
+    {
+      "code": "G2",
+      "display": "Generator",
+      "definition": "Generator — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Génératrice"
+        }
+      ]
+    },
+    {
+      "code": "G3",
+      "display": "Grain Mill",
+      "definition": "Grain Mill — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Moulin à grains"
+        }
+      ]
+    },
+    {
+      "code": "H1",
+      "display": "Heating Unit",
+      "definition": "Heating Unit — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Appareil de chauffage"
+        }
+      ]
+    },
+    {
+      "code": "H2",
+      "display": "Hydraulic Ladder",
+      "definition": "Hydraulic Ladder — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Échelle hydraulique"
+        }
+      ]
+    },
+    {
+      "code": "I1",
+      "display": "Industrial (No-registration)",
+      "definition": "Industrial (No-registration) — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Industriel (sans enregistrement)"
+        }
+      ]
+    },
+    {
+      "code": "L1",
+      "display": "Ladder",
+      "definition": "Ladder — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Échelle"
+        }
+      ]
+    },
+    {
+      "code": "L2",
+      "display": "Lawn-mower",
+      "definition": "Lawn-mower — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tondeuse"
+        }
+      ]
+    },
+    {
+      "code": "L3",
+      "display": "Leveller",
+      "definition": "Leveller — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Répartiteur"
+        }
+      ]
+    },
+    {
+      "code": "L4",
+      "display": "Loader",
+      "definition": "Loader — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chargeur"
+        }
+      ]
+    },
+    {
+      "code": "M1",
+      "display": "Machine-drill (Well)",
+      "definition": "Machine-drill (Well) — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foreuse (puits)"
+        }
+      ]
+    },
+    {
+      "code": "M2",
+      "display": "Machine-drill",
+      "definition": "Machine-drill — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foreuse"
+        }
+      ]
+    },
+    {
+      "code": "M3",
+      "display": "Manure-spreader",
+      "definition": "Manure-spreader — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Épandeuse de purin"
+        }
+      ]
+    },
+    {
+      "code": "M4",
+      "display": "Mechanical Road-sweeper",
+      "definition": "Mechanical Road-sweeper — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Balayeuse de voirie mécanique"
+        }
+      ]
+    },
+    {
+      "code": "M5",
+      "display": "Mixer",
+      "definition": "Mixer — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bétonnière"
+        }
+      ]
+    },
+    {
+      "code": "M6",
+      "display": "Mobile Canteen",
+      "definition": "Mobile Canteen — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cantine mobile"
+        }
+      ]
+    },
+    {
+      "code": "M7",
+      "display": "Mower",
+      "definition": "Mower — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Faucheuse"
+        }
+      ]
+    },
+    {
+      "code": "O1",
+      "display": "Office Trailer",
+      "definition": "Office Trailer — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque de bureau"
+        }
+      ]
+    },
+    {
+      "code": "P1",
+      "display": "Paver",
+      "definition": "Paver — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Finisseuse"
+        }
+      ]
+    },
+    {
+      "code": "P2",
+      "display": "Platform",
+      "definition": "Platform — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plate-forme"
+        }
+      ]
+    },
+    {
+      "code": "P3",
+      "display": "Pump",
+      "definition": "Pump — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pompe"
+        }
+      ]
+    },
+    {
+      "code": "P4",
+      "display": "Power Shovel",
+      "definition": "Power Shovel — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pelle mécanique"
+        }
+      ]
+    },
+    {
+      "code": "R1",
+      "display": "Refrigeration System",
+      "definition": "Refrigeration System — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Système de réfrigération"
+        }
+      ]
+    },
+    {
+      "code": "R2",
+      "display": "Road-roller",
+      "definition": "Road-roller — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rouleau compresseur"
+        }
+      ]
+    },
+    {
+      "code": "R3",
+      "display": "Roller",
+      "definition": "Roller — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rouleau compresseur"
+        }
+      ]
+    },
+    {
+      "code": "S1",
+      "display": "Sand-blast Machine",
+      "definition": "Sand-blast Machine — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sableuse"
+        }
+      ]
+    },
+    {
+      "code": "S2",
+      "display": "Shovel or Plow",
+      "definition": "Shovel or Plow — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pelle ou charrue"
+        }
+      ]
+    },
+    {
+      "code": "S3",
+      "display": "Shredder",
+      "definition": "Shredder — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déchiqueteuse"
+        }
+      ]
+    },
+    {
+      "code": "S4",
+      "display": "Skiff or Wherry",
+      "definition": "Skiff or Wherry — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Skiff ou nacelle"
+        }
+      ]
+    },
+    {
+      "code": "S5",
+      "display": "Sleigh Towed by a Snowmobile",
+      "definition": "Sleigh Towed by a Snowmobile — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Traîneau tirée par une motoneige"
+        }
+      ]
+    },
+    {
+      "code": "S6",
+      "display": "Snow-plough",
+      "definition": "Snow-plough — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déneigeuse"
+        }
+      ]
+    },
+    {
+      "code": "S7",
+      "display": "Snowblower",
+      "definition": "Snowblower — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Souffleuse à neige"
+        }
+      ]
+    },
+    {
+      "code": "S8",
+      "display": "Soldering-machine",
+      "definition": "Soldering-machine — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soudeuse"
+        }
+      ]
+    },
+    {
+      "code": "S9",
+      "display": "Sprinkler",
+      "definition": "Sprinkler — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gicleur"
+        }
+      ]
+    },
+    {
+      "code": "T1",
+      "display": "Tank",
+      "definition": "Tank — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réservoir"
+        }
+      ]
+    },
+    {
+      "code": "T2",
+      "display": "Tar Boiler",
+      "definition": "Tar Boiler — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chaudière à goudron"
+        }
+      ]
+    },
+    {
+      "code": "T3",
+      "display": "Tar-spreader",
+      "definition": "Tar-spreader — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Goudronneuse"
+        }
+      ]
+    },
+    {
+      "code": "T4",
+      "display": "Thawer",
+      "definition": "Thawer — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dégeleuse"
+        }
+      ]
+    },
+    {
+      "code": "T5",
+      "display": "Towing",
+      "definition": "Towing — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorqueuse"
+        }
+      ]
+    },
+    {
+      "code": "T6",
+      "display": "Trailer Towed by a Motorcycle",
+      "definition": "Trailer Towed by a Motorcycle — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque tirée par une motocyclette"
+        }
+      ]
+    },
+    {
+      "code": "W1",
+      "display": "Winch",
+      "definition": "Winch — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Treuil"
+        }
+      ]
+    },
+    {
+      "code": "ZZ",
+      "display": "Other",
+      "definition": "Other — machinery equipment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    }
+  ]
+}

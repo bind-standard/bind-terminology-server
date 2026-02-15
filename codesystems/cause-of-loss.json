@@ -1,0 +1,1684 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "cause-of-loss",
+  "url": "https://bind.codes/cause-of-loss",
+  "name": "CauseOfLoss",
+  "title": "Cause Of Loss",
+  "status": "draft",
+  "language": "en",
+  "description": "Cause Of Loss codes for insurance operations.",
+  "concept": [
+    {
+      "code": "appliance-malfunction",
+      "display": "Appliance - Malfunction",
+      "definition": "Appliance - Malfunction — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Appareils ménagers - Défaillance"
+        }
+      ]
+    },
+    {
+      "code": "bodily-injury",
+      "display": "Bodily Injury",
+      "definition": "Bodily Injury — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lésions corporelles"
+        }
+      ]
+    },
+    {
+      "code": "burglary",
+      "display": "Burglary",
+      "definition": "Burglary — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol avec effraction"
+        }
+      ]
+    },
+    {
+      "code": "collapse-above-ground-pool",
+      "display": "Collapse - Above Ground Pool",
+      "definition": "Collapse - Above Ground Pool — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Effondrement - Piscine hors terre"
+        }
+      ]
+    },
+    {
+      "code": "collapse-building",
+      "display": "Collapse - Building",
+      "definition": "Collapse - Building — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Effondrement - Édifice"
+        }
+      ]
+    },
+    {
+      "code": "collapse-inground-pool",
+      "display": "Collapse - Inground Pool",
+      "definition": "Collapse - Inground Pool — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Effondrement - Piscine creusée"
+        }
+      ]
+    },
+    {
+      "code": "collapse-weight-of-ice-snow",
+      "display": "Collapse - Weight of Ice/Snow",
+      "definition": "Collapse - Weight of Ice/Snow — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Effondrement - Poids de la glace/neige"
+        }
+      ]
+    },
+    {
+      "code": "collapse-unspecified",
+      "display": "Collapse - Unspecified",
+      "definition": "Collapse - Unspecified — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Effondrement - Non spécifié"
+        }
+      ]
+    },
+    {
+      "code": "consequential-loss",
+      "display": "Consequential Loss",
+      "definition": "Consequential Loss — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommage indirect"
+        }
+      ]
+    },
+    {
+      "code": "credit-card-forgery-and-counterfeit-money",
+      "display": "Credit Card Forgery and Counterfeit Money",
+      "definition": "Credit Card Forgery and Counterfeit Money — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contrefaçon de cartes de crédit et fausse monnaie"
+        }
+      ]
+    },
+    {
+      "code": "earthquake",
+      "display": "Earthquake",
+      "definition": "Earthquake — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tremblement de terre"
+        }
+      ]
+    },
+    {
+      "code": "electrical-power-interruption-power-surge",
+      "display": "Electrical Power Interruption/Power Surge",
+      "definition": "Electrical Power Interruption/Power Surge — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Interruption de courant/surtension"
+        }
+      ]
+    },
+    {
+      "code": "entrapment",
+      "display": "Entrapment",
+      "definition": "Entrapment — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Piégeage"
+        }
+      ]
+    },
+    {
+      "code": "fire-arson-arson-suspected",
+      "display": "Fire - Arson/Arson Suspected",
+      "definition": "Fire - Arson/Arson Suspected — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie - Incendie criminel/incendie criminel présumé"
+        }
+      ]
+    },
+    {
+      "code": "fire-careless-use-of-candles-matches",
+      "display": "Fire - Careless use of Candles/Matches",
+      "definition": "Fire - Careless use of Candles/Matches — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie - Utilisation imprudente de chandelles/allumettes"
+        }
+      ]
+    },
+    {
+      "code": "fire-careless-smoking",
+      "display": "Fire - Careless Smoking",
+      "definition": "Fire - Careless Smoking — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie - Insouciance des fumeurs"
+        }
+      ]
+    },
+    {
+      "code": "fire-cooking-operations-grease-fire",
+      "display": "Fire - Cooking Operations/Grease Fire",
+      "definition": "Fire - Cooking Operations/Grease Fire — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie - Cuisson/feu de friture"
+        }
+      ]
+    },
+    {
+      "code": "fire-electrical",
+      "display": "Fire - Electrical",
+      "definition": "Fire - Electrical — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie - Électrique"
+        }
+      ]
+    },
+    {
+      "code": "fire-fireplace-chimney",
+      "display": "Fire - Fireplace/Chimney",
+      "definition": "Fire - Fireplace/Chimney — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie - Foyer/cheminée"
+        }
+      ]
+    },
+    {
+      "code": "fire-portable-heater",
+      "display": "Fire - Portable Heater",
+      "definition": "Fire - Portable Heater — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie - Radiateur portatif"
+        }
+      ]
+    },
+    {
+      "code": "fire-woodstove-chimney",
+      "display": "Fire - Woodstove/Chimney",
+      "definition": "Fire - Woodstove/Chimney — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie - Poêle à bois/cheminée"
+        }
+      ]
+    },
+    {
+      "code": "fire-department-charges",
+      "display": "Fire Department Charges",
+      "definition": "Fire Department Charges — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais de service d'incendie"
+        }
+      ]
+    },
+    {
+      "code": "fire-improper-storage-and-handling-of-chemicals-fuels",
+      "display": "Fire - Improper Storage & Handling of Chemicals/Fuels",
+      "definition": "Fire - Improper Storage & Handling of Chemicals/Fuels — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie - Entreposage et maniement incorrects de produits chimiques/carburants"
+        }
+      ]
+    },
+    {
+      "code": "fire-unspecified",
+      "display": "Fire - Unspecified",
+      "definition": "Fire - Unspecified — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie - Non spécifié"
+        }
+      ]
+    },
+    {
+      "code": "forgery",
+      "display": "Forgery",
+      "definition": "Forgery — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contrefaçon"
+        }
+      ]
+    },
+    {
+      "code": "freezer-contents",
+      "display": "Freezer Contents",
+      "definition": "Freezer Contents — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contenu du congélateur"
+        }
+      ]
+    },
+    {
+      "code": "fuel-leakage-exterior-oil-storage-tank",
+      "display": "Fuel Leakage - Exterior Oil Storage Tank",
+      "definition": "Fuel Leakage - Exterior Oil Storage Tank — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fuites d'huile - Réservoir d'huile extérieur"
+        }
+      ]
+    },
+    {
+      "code": "fuel-leakage-interior-oil-storage-tank",
+      "display": "Fuel Leakage - Interior Oil Storage Tank",
+      "definition": "Fuel Leakage - Interior Oil Storage Tank — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fuites d'huile - Réservoir d'huile intérieur"
+        }
+      ]
+    },
+    {
+      "code": "glass-breakage-accidental",
+      "display": "Glass Breakage - Accidental",
+      "definition": "Glass Breakage - Accidental — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bris de verre - Accidentel"
+        }
+      ]
+    },
+    {
+      "code": "glass-breakage-vandalism",
+      "display": "Glass Breakage - Vandalism",
+      "definition": "Glass Breakage - Vandalism — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bris de verre - Vandalisme"
+        }
+      ]
+    },
+    {
+      "code": "glass-breakage-unspecified",
+      "display": "Glass Breakage - Unspecified",
+      "definition": "Glass Breakage - Unspecified — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bris de verre - Non spécifié"
+        }
+      ]
+    },
+    {
+      "code": "hail-damage",
+      "display": "Hail Damage",
+      "definition": "Hail Damage — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommage par la grêle"
+        }
+      ]
+    },
+    {
+      "code": "impact-aircraft",
+      "display": "Impact - Aircraft",
+      "definition": "Impact - Aircraft — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Impact - Avion"
+        }
+      ]
+    },
+    {
+      "code": "impact-land-vehicle-insured-operator",
+      "display": "Impact - Land Vehicle, Insured Operator",
+      "definition": "Impact - Land Vehicle, Insured Operator — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Impact - Véhicule terrestre, conducteur assuré"
+        }
+      ]
+    },
+    {
+      "code": "impact-land-vehicle-third-party-operator",
+      "display": "Impact - Land Vehicle, Third Party Operator",
+      "definition": "Impact - Land Vehicle, Third Party Operator — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Impact - Véhicule terrestre, conducteur tiers"
+        }
+      ]
+    },
+    {
+      "code": "lightning-antenna-dish",
+      "display": "Lightning - Antenna/Dish",
+      "definition": "Lightning - Antenna/Dish — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foudre - Antenne/soucoupe"
+        }
+      ]
+    },
+    {
+      "code": "lightning-chimney",
+      "display": "Lightning - Chimney",
+      "definition": "Lightning - Chimney — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foudre - Cheminée"
+        }
+      ]
+    },
+    {
+      "code": "lightning-electrical-equipment",
+      "display": "Lightning - Electrical Equipment",
+      "definition": "Lightning - Electrical Equipment — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foudre - Équipements électriques"
+        }
+      ]
+    },
+    {
+      "code": "lightning-unspecified",
+      "display": "Lightning - Unspecified",
+      "definition": "Lightning - Unspecified — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foudre - Non spécifié"
+        }
+      ]
+    },
+    {
+      "code": "loss-assessment-coverage",
+      "display": "Loss Assessment Coverage",
+      "definition": "Loss Assessment Coverage — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garantie - Évaluation des sinistres"
+        }
+      ]
+    },
+    {
+      "code": "lost-stolen-keys",
+      "display": "Lost/Stolen Keys",
+      "definition": "Lost/Stolen Keys — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clés perdues/volées"
+        }
+      ]
+    },
+    {
+      "code": "mass-evacuation",
+      "display": "Mass Evacuation",
+      "definition": "Mass Evacuation — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Évacuation de masse"
+        }
+      ]
+    },
+    {
+      "code": "mysterious-disappearance",
+      "display": "Mysterious Disappearance",
+      "definition": "Mysterious Disappearance — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Disparition inexpliquée"
+        }
+      ]
+    },
+    {
+      "code": "pollution-damage",
+      "display": "Pollution Damage",
+      "definition": "Pollution Damage — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommages causés par la pollution"
+        }
+      ]
+    },
+    {
+      "code": "pollution-liability",
+      "display": "Pollution Liability",
+      "definition": "Pollution Liability — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité civile pollution"
+        }
+      ]
+    },
+    {
+      "code": "prohibited-access-by-civil-authority",
+      "display": "Prohibited Access by Civil Authority",
+      "definition": "Prohibited Access by Civil Authority — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accès interdit par l'autorité civile"
+        }
+      ]
+    },
+    {
+      "code": "property-damage",
+      "display": "Property Damage",
+      "definition": "Property Damage — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommages matériels"
+        }
+      ]
+    },
+    {
+      "code": "riot",
+      "display": "Riot",
+      "definition": "Riot — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Émeute"
+        }
+      ]
+    },
+    {
+      "code": "robbery",
+      "display": "Robbery",
+      "definition": "Robbery — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol qualifié"
+        }
+      ]
+    },
+    {
+      "code": "sewer-backup",
+      "display": "Sewer Backup",
+      "definition": "Sewer Backup — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Refoulements d'égout"
+        }
+      ]
+    },
+    {
+      "code": "smoke-fire-in-adjacent-premises-building",
+      "display": "Smoke - Fire in Adjacent Premises/Building",
+      "definition": "Smoke - Fire in Adjacent Premises/Building — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fumée - Incendie dans des lieux/édifices contigus"
+        }
+      ]
+    },
+    {
+      "code": "smoke-heating-ventilation-malfunction",
+      "display": "Smoke - Heating/Ventilation Malfunction",
+      "definition": "Smoke - Heating/Ventilation Malfunction — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fumée - Défaillance système de chauffage/ventilation"
+        }
+      ]
+    },
+    {
+      "code": "smoke-unspecified",
+      "display": "Smoke - Unspecified",
+      "definition": "Smoke - Unspecified — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fumée - Non spécifié"
+        }
+      ]
+    },
+    {
+      "code": "tenants-legal-liability",
+      "display": "Tenants Legal Liability",
+      "definition": "Tenants Legal Liability — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité civile des locataires"
+        }
+      ]
+    },
+    {
+      "code": "theft-attempted-theft-off-premises-non-vehicle",
+      "display": "Theft/Attempted Theft - Off Premises, Non-vehicle",
+      "definition": "Theft/Attempted Theft - Off Premises, Non-vehicle — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol/tentative de vol - Hors des lieux assurés, autre que véhicule"
+        }
+      ]
+    },
+    {
+      "code": "theft-attempted-theft-off-premises-vehicle",
+      "display": "Theft/Attempted Theft - Off Premises, Vehicle",
+      "definition": "Theft/Attempted Theft - Off Premises, Vehicle — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol/tentative de vol - Hors des lieux assurés, véhicule"
+        }
+      ]
+    },
+    {
+      "code": "theft-attempted-theft-on-premises-non-forced-entry",
+      "display": "Theft/Attempted Theft - On Premises, Non-forced Entry",
+      "definition": "Theft/Attempted Theft - On Premises, Non-forced Entry — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol/tentative de vol - Sur les lieux assurés, pas d'effraction"
+        }
+      ]
+    },
+    {
+      "code": "transportation-collision-upset-overturn",
+      "display": "Transportation - Collision/Upset/Overturn",
+      "definition": "Transportation - Collision/Upset/Overturn — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transport - Collision/versement/capotage"
+        }
+      ]
+    },
+    {
+      "code": "transportation-unspecified",
+      "display": "Transportation - Unspecified",
+      "definition": "Transportation - Unspecified — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transport - Non spécifié"
+        }
+      ]
+    },
+    {
+      "code": "vandalism-malicious-damage-building-vacant",
+      "display": "Vandalism/Malicious Damage - Building Vacant",
+      "definition": "Vandalism/Malicious Damage - Building Vacant — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vandalisme/dommage volontaire - Bâtiment vacant"
+        }
+      ]
+    },
+    {
+      "code": "vandalism-malicious-damage-explosion",
+      "display": "Vandalism/Malicious Damage - Explosion",
+      "definition": "Vandalism/Malicious Damage - Explosion — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vandalisme/dommage volontaire - Explosion"
+        }
+      ]
+    },
+    {
+      "code": "vandalism-malicious-damage-insured-suspect",
+      "display": "Vandalism/Malicious Damage - Insured Suspect",
+      "definition": "Vandalism/Malicious Damage - Insured Suspect — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vandalisme/dommage volontaire - Assuré suspect (soupçonné)"
+        }
+      ]
+    },
+    {
+      "code": "vandalism-malicious-damage-unspecified",
+      "display": "Vandalism/Malicious Damage - Unspecified",
+      "definition": "Vandalism/Malicious Damage - Unspecified — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vandalisme/dommage volontaire - Non spécifié"
+        }
+      ]
+    },
+    {
+      "code": "voluntary-compensation",
+      "display": "Voluntary Compensation",
+      "definition": "Voluntary Compensation — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compensation volontaire"
+        }
+      ]
+    },
+    {
+      "code": "voluntary-medical-payment",
+      "display": "Voluntary Medical Payment",
+      "definition": "Voluntary Medical Payment — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remboursement volontaire des frais médicaux"
+        }
+      ]
+    },
+    {
+      "code": "voluntary-property-damage",
+      "display": "Voluntary Property Damage",
+      "definition": "Voluntary Property Damage — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Règlement volontaire des dommages matériels"
+        }
+      ]
+    },
+    {
+      "code": "water-damage-ice-build-up-on-roof",
+      "display": "Water Damage - Ice Build-up on Roof",
+      "definition": "Water Damage - Ice Build-up on Roof — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dégâts causés par l'eau - Accumulation de glace sur le toit"
+        }
+      ]
+    },
+    {
+      "code": "water-damage-unspecified",
+      "display": "Water Damage - Unspecified",
+      "definition": "Water Damage - Unspecified — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dégâts causés par l'eau - Non spécifié"
+        }
+      ]
+    },
+    {
+      "code": "water-escape-rupture-building",
+      "display": "Water Escape/Rupture - Building",
+      "definition": "Water Escape/Rupture - Building — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement - Bâtiment"
+        }
+      ]
+    },
+    {
+      "code": "water-escape-rupture-contents",
+      "display": "Water Escape/Rupture - Contents",
+      "definition": "Water Escape/Rupture - Contents — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement - Biens meubles"
+        }
+      ]
+    },
+    {
+      "code": "water-escape-rupture-eavestrough-or-downspout",
+      "display": "Water Escape/Rupture - Eavestrough or Downspout",
+      "definition": "Water Escape/Rupture - Eavestrough or Downspout — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement - Gouttière ou tuyau de descente d'eau pluviales"
+        }
+      ]
+    },
+    {
+      "code": "water-escape-rupture-freezing-building",
+      "display": "Water Escape/Rupture - Freezing Building",
+      "definition": "Water Escape/Rupture - Freezing Building — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement dû au gel - Bâtiment"
+        }
+      ]
+    },
+    {
+      "code": "water-escape-rupture-freezing-unheated-building",
+      "display": "Water Escape/Rupture - Freezing, Unheated Building",
+      "definition": "Water Escape/Rupture - Freezing, Unheated Building — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement dû au gel - Bâtiment non chauffé"
+        }
+      ]
+    },
+    {
+      "code": "water-escape-rupture-plumbing-system",
+      "display": "Water Escape/Rupture - Plumbing System",
+      "definition": "Water Escape/Rupture - Plumbing System — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement - Plomberie"
+        }
+      ]
+    },
+    {
+      "code": "water-escape-rupture-seepage-leakage",
+      "display": "Water Escape/Rupture - Seepage/Leakage",
+      "definition": "Water Escape/Rupture - Seepage/Leakage — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement - Suintement/déversement"
+        }
+      ]
+    },
+    {
+      "code": "water-escape-rupture-sewer-drain",
+      "display": "Water Escape/Rupture - Sewer/Drain",
+      "definition": "Water Escape/Rupture - Sewer/Drain — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement - Égout/drain"
+        }
+      ]
+    },
+    {
+      "code": "water-escape-rupture-sprinkler-system",
+      "display": "Water Escape/Rupture - Sprinkler System",
+      "definition": "Water Escape/Rupture - Sprinkler System — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement - Gicleurs"
+        }
+      ]
+    },
+    {
+      "code": "water-escape-rupture-sump-pump-failure",
+      "display": "Water Escape/Rupture - Sump Pump Failure",
+      "definition": "Water Escape/Rupture - Sump Pump Failure — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement - Défaillance de la pompe de vidange"
+        }
+      ]
+    },
+    {
+      "code": "water-escape-rupture-swimming-pool-equipment",
+      "display": "Water Escape/Rupture - Swimming Pool/Equipment",
+      "definition": "Water Escape/Rupture - Swimming Pool/Equipment — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement - Piscine/équipement"
+        }
+      ]
+    },
+    {
+      "code": "water-escape-rupture-waterbed",
+      "display": "Water Escape/Rupture - Waterbed",
+      "definition": "Water Escape/Rupture - Waterbed — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement - Lit d'eau"
+        }
+      ]
+    },
+    {
+      "code": "water-escape-rupture-unspecified",
+      "display": "Water Escape/Rupture - Unspecified",
+      "definition": "Water Escape/Rupture - Unspecified — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement - Non spécifié"
+        }
+      ]
+    },
+    {
+      "code": "windstorm-damage",
+      "display": "Windstorm Damage",
+      "definition": "Windstorm Damage — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommages causés par le vent"
+        }
+      ]
+    },
+    {
+      "code": "floater",
+      "display": "Floater",
+      "definition": "Floater — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Flottante"
+        }
+      ]
+    },
+    {
+      "code": "home-based-business",
+      "display": "Home Based Business",
+      "definition": "Home Based Business — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreprise basées à la maison"
+        }
+      ]
+    },
+    {
+      "code": "identity-theft",
+      "display": "Identity theft",
+      "definition": "Identity theft — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol d'identité"
+        }
+      ]
+    },
+    {
+      "code": "personal-accident",
+      "display": "Personal accident",
+      "definition": "Personal accident — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accident personnel"
+        }
+      ]
+    },
+    {
+      "code": "wildfire",
+      "display": "Wildfire",
+      "definition": "Wildfire — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Feux de forêt"
+        }
+      ]
+    },
+    {
+      "code": "mechanical-breakdown",
+      "display": "Mechanical Breakdown",
+      "definition": "Mechanical Breakdown — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bris mécanique"
+        }
+      ]
+    },
+    {
+      "code": "glass-scratching-or-marring",
+      "display": "Glass Scratching or Marring",
+      "definition": "Glass Scratching or Marring — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Égratignures ou marques sur le verre"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "backed-into-car",
+      "display": "Backed Into Car",
+      "definition": "Backed Into Car — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "A reculé dans un véhicule"
+        }
+      ]
+    },
+    {
+      "code": "disobeyed-stop-sign",
+      "display": "Disobeyed Stop Sign",
+      "definition": "Disobeyed Stop Sign — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "A omis de s'arrêter à un panneau d'arrêt"
+        }
+      ]
+    },
+    {
+      "code": "disobeyed-yield-sign",
+      "display": "Disobeyed Yield Sign",
+      "definition": "Disobeyed Yield Sign — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "A omis de céder le passage"
+        }
+      ]
+    },
+    {
+      "code": "disobeyed-red-light",
+      "display": "Disobeyed Red Light",
+      "definition": "Disobeyed Red Light — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "A omis de s'arrêter à un feu rouge"
+        }
+      ]
+    },
+    {
+      "code": "exits-parking-lot-road-street",
+      "display": "Exits Parking Lot - Road/Street",
+      "definition": "Exits Parking Lot - Road/Street — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sort d'un stationnement - Rue"
+        }
+      ]
+    },
+    {
+      "code": "explosion",
+      "display": "Explosion",
+      "definition": "Explosion — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Explosion"
+        }
+      ]
+    },
+    {
+      "code": "fire-damage-partial",
+      "display": "Fire Damage - Partial",
+      "definition": "Fire Damage - Partial — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommages incendie - perte partielle"
+        }
+      ]
+    },
+    {
+      "code": "fire-damage-total-loss",
+      "display": "Fire Damage - Total Loss",
+      "definition": "Fire Damage - Total Loss — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommages incendie - perte totale"
+        }
+      ]
+    },
+    {
+      "code": "flood",
+      "display": "Flood",
+      "definition": "Flood — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inondation"
+        }
+      ]
+    },
+    {
+      "code": "glass-windshield",
+      "display": "Glass/Windshield",
+      "definition": "Glass/Windshield — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vitre/pare-brise"
+        }
+      ]
+    },
+    {
+      "code": "hit-and-run",
+      "display": "Hit & Run",
+      "definition": "Hit & Run — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Délit de fuite"
+        }
+      ]
+    },
+    {
+      "code": "changed-lanes",
+      "display": "Changed Lanes",
+      "definition": "Changed Lanes — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "A changé de voie"
+        }
+      ]
+    },
+    {
+      "code": "hit-pedestrian",
+      "display": "Hit Pedestrian",
+      "definition": "Hit Pedestrian — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Happer un piéton"
+        }
+      ]
+    },
+    {
+      "code": "lightning",
+      "display": "Lightning",
+      "definition": "Lightning — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foudre"
+        }
+      ]
+    },
+    {
+      "code": "lost-control",
+      "display": "Lost Control",
+      "definition": "Lost Control — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Perte de contrôle"
+        }
+      ]
+    },
+    {
+      "code": "neutral-intersection",
+      "display": "Neutral Intersection",
+      "definition": "Neutral Intersection — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intersection neutre"
+        }
+      ]
+    },
+    {
+      "code": "opened-door",
+      "display": "Opened Door",
+      "definition": "Opened Door — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ouvert la portière"
+        }
+      ]
+    },
+    {
+      "code": "parking-lot",
+      "display": "Parking Lot",
+      "definition": "Parking Lot — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stationnement"
+        }
+      ]
+    },
+    {
+      "code": "passing-on-shoulder",
+      "display": "Passing On Shoulder",
+      "definition": "Passing On Shoulder — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dépassement sur l'accotement"
+        }
+      ]
+    },
+    {
+      "code": "pulled-out-from-curb",
+      "display": "Pulled Out From Curb",
+      "definition": "Pulled Out From Curb — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "A démarré à partir de la bordure de trottoir"
+        }
+      ]
+    },
+    {
+      "code": "riot-civil-commotion",
+      "display": "Riot/Civil Commotion",
+      "definition": "Riot/Civil Commotion — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Émeute/agitation civile"
+        }
+      ]
+    },
+    {
+      "code": "sideswipe",
+      "display": "Sideswipe",
+      "definition": "Sideswipe — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accrochage latéral"
+        }
+      ]
+    },
+    {
+      "code": "collision-with-animal",
+      "display": "Collision with Animal",
+      "definition": "Collision with Animal — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collision avec un animal"
+        }
+      ]
+    },
+    {
+      "code": "theft-entire-vehicle",
+      "display": "Theft - Entire Vehicle",
+      "definition": "Theft - Entire Vehicle — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol entier du véhicule"
+        }
+      ]
+    },
+    {
+      "code": "theft-partial-attempted",
+      "display": "Theft - Partial/Attempted",
+      "definition": "Theft - Partial/Attempted — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol partiel ou tentative de vol"
+        }
+      ]
+    },
+    {
+      "code": "turned-left-car-approaching",
+      "display": "Turned Left - Car Approaching",
+      "definition": "Turned Left - Car Approaching — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Virage à gauche - Voiture approchant"
+        }
+      ]
+    },
+    {
+      "code": "turned-left-car-passing",
+      "display": "Turned Left - Car Passing",
+      "definition": "Turned Left - Car Passing — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Virage à gauche - Voiture dépassant"
+        }
+      ]
+    },
+    {
+      "code": "vandalism",
+      "display": "Vandalism",
+      "definition": "Vandalism — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vandalisme"
+        }
+      ]
+    },
+    {
+      "code": "wind-hail-carried-spray",
+      "display": "Wind/Hail Carried Spray",
+      "definition": "Wind/Hail Carried Spray — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Embrun porté par le vent/grêle"
+        }
+      ]
+    },
+    {
+      "code": "windstorm-hail",
+      "display": "Windstorm/Hail",
+      "definition": "Windstorm/Hail — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tempête de vent/grêle"
+        }
+      ]
+    },
+    {
+      "code": "wrong-way-one-way-street",
+      "display": "Wrong Way - One-way Street",
+      "definition": "Wrong Way - One-way Street — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mauvaise direction  - Rue à sens unique"
+        }
+      ]
+    },
+    {
+      "code": "minor-at-fault-collision",
+      "display": "Minor At-Fault Collision",
+      "definition": "Minor At-Fault Collision — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collision mineure responsable"
+        }
+      ]
+    },
+    {
+      "code": "collision-single-vehicle",
+      "display": "Collision - Single Vehicle",
+      "definition": "Collision - Single Vehicle — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collision - Un seul véhicule"
+        }
+      ]
+    },
+    {
+      "code": "collision-head-on",
+      "display": "Collision - Head-on",
+      "definition": "Collision - Head-on — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collision - Frontale"
+        }
+      ]
+    },
+    {
+      "code": "collision-cyclist",
+      "display": "Collision - Cyclist",
+      "definition": "Collision - Cyclist — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collision - Cycliste"
+        }
+      ]
+    },
+    {
+      "code": "collision-not-at-fault",
+      "display": "Collision – Not at Fault",
+      "definition": "Collision – Not at Fault — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collision – pas de responsabilité"
+        }
+      ]
+    },
+    {
+      "code": "collision-rear-ended",
+      "display": "Collision - Rear-ended",
+      "definition": "Collision - Rear-ended — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collision - choc par l'arrière"
+        }
+      ]
+    },
+    {
+      "code": "domestic-pets",
+      "display": "Domestic Pets",
+      "definition": "Domestic Pets — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Animaux domestiques"
+        }
+      ]
+    },
+    {
+      "code": "employee-fraud",
+      "display": "Employee Fraud",
+      "definition": "Employee Fraud — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détournement (employé)"
+        }
+      ]
+    },
+    {
+      "code": "explosion-propane-natural-gas-appliance",
+      "display": "Explosion - Propane/Natural Gas Appliance",
+      "definition": "Explosion - Propane/Natural Gas Appliance — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Explosion - Appareils au propane/gaz naturel"
+        }
+      ]
+    },
+    {
+      "code": "explosion-unspecified",
+      "display": "Explosion - Unspecified",
+      "definition": "Explosion - Unspecified — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Explosion - Non spécifié"
+        }
+      ]
+    },
+    {
+      "code": "explosion-electric-arcing",
+      "display": "Explosion - Electric Arcing",
+      "definition": "Explosion - Electric Arcing — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Explosion - arc électrique"
+        }
+      ]
+    },
+    {
+      "code": "financial-fraud-identity-theft",
+      "display": "Financial Fraud - Identity Theft",
+      "definition": "Financial Fraud - Identity Theft — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fraude financière - Usurpation d'identité"
+        }
+      ]
+    },
+    {
+      "code": "fire-spread-from-third-party-property",
+      "display": "Fire- Spread from Third Party Property",
+      "definition": "Fire- Spread from Third Party Property — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Feu - Propagation provenant de la propriété d'un tiers"
+        }
+      ]
+    },
+    {
+      "code": "falling-object",
+      "display": "Falling Object",
+      "definition": "Falling Object — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chute d'objets"
+        }
+      ]
+    },
+    {
+      "code": "collision-multi-vehicle",
+      "display": "Collision - Multi-vehicle",
+      "definition": "Collision - Multi-vehicle — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collision - Plus d'un véhicule"
+        }
+      ]
+    },
+    {
+      "code": "vandalism-malicious-damage-illegal-substance-cultivation-and-manufacturing",
+      "display": "Vandalism/Malicious Damage - Illegal Substance Cultivation and Manufacturing",
+      "definition": "Vandalism/Malicious Damage - Illegal Substance Cultivation and Manufacturing — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vandalisme/dommage volontaire - Cultivation et fabrication de substance illégale"
+        }
+      ]
+    },
+    {
+      "code": "water-damage-infiltration",
+      "display": "Water Damage - Infiltration",
+      "definition": "Water Damage - Infiltration — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dégâts causés par l'eau - Infiltration"
+        }
+      ]
+    },
+    {
+      "code": "surface-water-surface-water-enters-structure-at-a-point-at-surface-of-ground-from-accumulation-of-heavy-rain-etc",
+      "display": "Surface Water - Surface water enters structure at a point at surface of ground from accumulation of heavy rain, etc.",
+      "definition": "Surface Water - Surface water enters structure at a point at surface of ground from accumulation of heavy rain, etc. — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Eau de surface - Eau de surface entre dans la structure à un point en haut du sol provenant de l'accumulation de pluies fortes, etc."
+        }
+      ]
+    },
+    {
+      "code": "exterior-water-line-breakage-of-the-exterior-fresh-potable-water-line",
+      "display": "Exterior Water Line - Breakage of the exterior fresh/potable water line.",
+      "definition": "Exterior Water Line - Breakage of the exterior fresh/potable water line. — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ligne d'eau extérieure - Bris de la ligne extérieure d'eau fraîche/potable."
+        }
+      ]
+    },
+    {
+      "code": "exterior-sewer-line-breakage-of-the-exterior-sewer-line",
+      "display": "Exterior Sewer Line - Breakage of the exterior sewer line.",
+      "definition": "Exterior Sewer Line - Breakage of the exterior sewer line. — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ligne d'égoût extérieure - Bris de la ligne extérieure d'égoût."
+        }
+      ]
+    },
+    {
+      "code": "ground-water-sudden-and-accidental-infiltration-of-water-through-a-foundation",
+      "display": "Ground Water  - Sudden and accidental infiltration of water through a foundation",
+      "definition": "Ground Water  - Sudden and accidental infiltration of water through a foundation — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Eau au sol - Infiltration soudaine et accidentale d'eau à travers la fondation."
+        }
+      ]
+    },
+    {
+      "code": "flood-water-flood-water-enters-structure-at-a-point-at-surface-of-ground-from-inland-water-overflow-etc",
+      "display": "Flood Water - Flood water enters structure at a point at surface of ground from inland water overflow, etc.",
+      "definition": "Flood Water - Flood water enters structure at a point at surface of ground from inland water overflow, etc. — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Eau d'inondation - Eau d'inondation entre dans la structure à un point en haut du sol provenant du débordement d'eau intérieure, etc."
+        }
+      ]
+    },
+    {
+      "code": "collision-insured-vehicle-parked",
+      "display": "Collision - Insured Vehicle Parked",
+      "definition": "Collision - Insured Vehicle Parked — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collision - Véhicule assuré stationné"
+        }
+      ]
+    },
+    {
+      "code": "collision-other",
+      "display": "Collision - Other",
+      "definition": "Collision - Other — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collision - autre"
+        }
+      ]
+    },
+    {
+      "code": "damage-caused-by-children-animals",
+      "display": "Damage Caused by Children/Animals",
+      "definition": "Damage Caused by Children/Animals — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommages causés par enfants/animaux"
+        }
+      ]
+    },
+    {
+      "code": "ransomware-cyber-extortion",
+      "display": "Ransomware/Cyber extortion",
+      "definition": "Ransomware/Cyber extortion — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rançongiciel/Cyber-extorsion"
+        }
+      ]
+    },
+    {
+      "code": "data-breach",
+      "display": "Data breach",
+      "definition": "Data breach — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Violation de données"
+        }
+      ]
+    },
+    {
+      "code": "denial-of-service-attack",
+      "display": "Denial of service attack",
+      "definition": "Denial of service attack — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Attaque par déni de service"
+        }
+      ]
+    },
+    {
+      "code": "malware-virus",
+      "display": "Malware/Virus",
+      "definition": "Malware/Virus — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Logiciels malveillants/virus"
+        }
+      ]
+    },
+    {
+      "code": "business-email-communication-compromise",
+      "display": "Business email/communication compromise",
+      "definition": "Business email/communication compromise — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courriel/communication professionnelle compromis"
+        }
+      ]
+    },
+    {
+      "code": "supply-chain-vulnerabilities",
+      "display": "Supply chain vulnerabilities",
+      "definition": "Supply chain vulnerabilities — cause of loss code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vulnérabilités de la chaîne d’approvisionnement"
+        }
+      ]
+    }
+  ]
+}

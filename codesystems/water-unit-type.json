@@ -1,0 +1,254 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "water-unit-type",
+  "url": "https://bind.codes/water-unit-type",
+  "name": "WaterUnitType",
+  "title": "Water Unit Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Water Unit Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "bass-boat",
+      "display": "Bass Boat",
+      "definition": "Bass Boat — water unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bateau style \"Bass\""
+        }
+      ]
+    },
+    {
+      "code": "cabin-cruiser",
+      "display": "Cabin Cruiser",
+      "definition": "Cabin Cruiser — water unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Yacht de croisière"
+        }
+      ]
+    },
+    {
+      "code": "deckboat",
+      "display": "Deckboat",
+      "definition": "Deckboat — water unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bateau ponté"
+        }
+      ]
+    },
+    {
+      "code": "high-performance-boat",
+      "display": "High Performance Boat",
+      "definition": "High Performance Boat — water unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bateau à haute performance"
+        }
+      ]
+    },
+    {
+      "code": "houseboat",
+      "display": "Houseboat",
+      "definition": "Houseboat — water unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caravane flottante"
+        }
+      ]
+    },
+    {
+      "code": "hovercraft",
+      "display": "Hovercraft",
+      "definition": "Hovercraft — water unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aéroglisseur"
+        }
+      ]
+    },
+    {
+      "code": "hydroplane",
+      "display": "Hydroplane",
+      "definition": "Hydroplane — water unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hydroplane"
+        }
+      ]
+    },
+    {
+      "code": "multi-hulled-vessels",
+      "display": "Multi-hulled Vessels",
+      "definition": "Multi-hulled Vessels — water unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vaisseaux multicoque"
+        }
+      ]
+    },
+    {
+      "code": "pontoon-boat",
+      "display": "Pontoon Boat",
+      "definition": "Pontoon Boat — water unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ponton"
+        }
+      ]
+    },
+    {
+      "code": "runabout-ski-boat",
+      "display": "Runabout/Ski Boat",
+      "definition": "Runabout/Ski Boat — water unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Runabout/embarcation pour le ski"
+        }
+      ]
+    },
+    {
+      "code": "cabin-trailer",
+      "display": "Cabin Trailer",
+      "definition": "Cabin Trailer — water unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caravane classique"
+        }
+      ]
+    },
+    {
+      "code": "camper-unit",
+      "display": "Camper Unit",
+      "definition": "Camper Unit — water unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autocaravane séparable"
+        }
+      ]
+    },
+    {
+      "code": "fifth-wheel-cabin-trailer",
+      "display": "Fifth Wheel Cabin Trailer",
+      "definition": "Fifth Wheel Cabin Trailer — water unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caravane à sellette"
+        }
+      ]
+    },
+    {
+      "code": "tent-trailer",
+      "display": "Tent Trailer",
+      "definition": "Tent Trailer — water unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tente-caravane"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — water unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "catamaran",
+      "display": "Catamaran",
+      "definition": "Catamaran — water unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Catamaran"
+        }
+      ]
+    },
+    {
+      "code": "fishing-boat",
+      "display": "Fishing Boat",
+      "definition": "Fishing Boat — water unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bateau de pêche"
+        }
+      ]
+    },
+    {
+      "code": "inflatable",
+      "display": "Inflatable",
+      "definition": "Inflatable — water unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bateau pneumatique"
+        }
+      ]
+    },
+    {
+      "code": "jet-boat",
+      "display": "Jet Boat",
+      "definition": "Jet Boat — water unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bateau à propulsion hydraulique"
+        }
+      ]
+    },
+    {
+      "code": "ski-boat",
+      "display": "Ski Boat",
+      "definition": "Ski Boat — water unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Embarcation pour le ski"
+        }
+      ]
+    },
+    {
+      "code": "sport-boat",
+      "display": "Sport Boat",
+      "definition": "Sport Boat — water unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Embarcation de sport"
+        }
+      ]
+    },
+    {
+      "code": "runabout",
+      "display": "Runabout",
+      "definition": "Runabout — water unit type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courir"
+        }
+      ]
+    }
+  ]
+}

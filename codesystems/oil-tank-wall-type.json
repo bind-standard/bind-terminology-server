@@ -1,0 +1,78 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "oil-tank-wall-type",
+  "url": "https://bind.codes/oil-tank-wall-type",
+  "name": "OilTankWallType",
+  "title": "Oil Tank Wall Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Oil Tank Wall Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "InnerBottom",
+      "display": "Inner Bottom",
+      "definition": "Inner Bottom — oil tank wall type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bas Interne"
+        }
+      ]
+    },
+    {
+      "code": "InnerHead",
+      "display": "Inner Head",
+      "definition": "Inner Head — oil tank wall type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Haut Interne"
+        }
+      ]
+    },
+    {
+      "code": "InnerShell",
+      "display": "Inner Shell",
+      "definition": "Inner Shell — oil tank wall type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coquille Interne"
+        }
+      ]
+    },
+    {
+      "code": "OuterBottom",
+      "display": "Outer Bottom",
+      "definition": "Outer Bottom — oil tank wall type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bas Externe"
+        }
+      ]
+    },
+    {
+      "code": "OuterHead",
+      "display": "Outer Head",
+      "definition": "Outer Head — oil tank wall type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Haut Externe"
+        }
+      ]
+    },
+    {
+      "code": "OuterShell",
+      "display": "Outer Shell",
+      "definition": "Outer Shell — oil tank wall type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coquille Externe"
+        }
+      ]
+    }
+  ]
+}

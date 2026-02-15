@@ -1,0 +1,45 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "cancellation-type",
+  "url": "https://bind.codes/cancellation-type",
+  "name": "CancellationType",
+  "title": "Cancellation Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Cancellation Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "F",
+      "display": "Flat Rate",
+      "definition": "Flat Rate — cancellation type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Taux forfaitaire"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Pro-rata",
+      "definition": "Pro-rata — cancellation type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Prorata"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "Short Rate",
+      "definition": "Short Rate — cancellation type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Taux à court terme"
+        }
+      ]
+    }
+  ]
+}

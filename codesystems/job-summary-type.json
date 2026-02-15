@@ -1,0 +1,45 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "job-summary-type",
+  "url": "https://bind.codes/job-summary-type",
+  "name": "JobSummaryType",
+  "title": "Job Summary Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Job Summary Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "current",
+      "display": "Current",
+      "definition": "Current — job summary type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courante"
+        }
+      ]
+    },
+    {
+      "code": "past",
+      "display": "Past",
+      "definition": "Past — job summary type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Passée"
+        }
+      ]
+    },
+    {
+      "code": "summary",
+      "display": "Summary",
+      "definition": "Summary — job summary type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sommaire"
+        }
+      ]
+    }
+  ]
+}

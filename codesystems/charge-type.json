@@ -1,0 +1,188 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "charge-type",
+  "url": "https://bind.codes/charge-type",
+  "name": "ChargeType",
+  "title": "Charge Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Charge Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CA",
+      "display": "Cancellation Charges",
+      "definition": "Cancellation Charges — charge type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais d'annulation"
+        }
+      ]
+    },
+    {
+      "code": "EN",
+      "display": "Endorsement",
+      "definition": "Endorsement — charge type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avenant"
+        }
+      ]
+    },
+    {
+      "code": "FF",
+      "display": "Filing Fee Including Taxes",
+      "definition": "Filing Fee Including Taxes — charge type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais de dépôt incluant les taxes"
+        }
+      ]
+    },
+    {
+      "code": "FI",
+      "display": "Finance Fee",
+      "definition": "Finance Fee — charge type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais financier"
+        }
+      ]
+    },
+    {
+      "code": "FS",
+      "display": "Fee for Service (Administrative)",
+      "definition": "Fee for Service (Administrative) — charge type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais de service (administration)"
+        }
+      ]
+    },
+    {
+      "code": "IN",
+      "display": "Installment Fee",
+      "definition": "Installment Fee — charge type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Versement frais"
+        }
+      ]
+    },
+    {
+      "code": "LA",
+      "display": "Late Charges",
+      "definition": "Late Charges — charge type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais de retard"
+        }
+      ]
+    },
+    {
+      "code": "MC",
+      "display": "Modified Commission",
+      "definition": "Modified Commission — charge type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commission modifiée"
+        }
+      ]
+    },
+    {
+      "code": "NB",
+      "display": "New Business",
+      "definition": "New Business — charge type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nouvelle affaire"
+        }
+      ]
+    },
+    {
+      "code": "NS",
+      "display": "NSF Charges",
+      "definition": "NSF Charges — charge type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais pour chèque sans provision"
+        }
+      ]
+    },
+    {
+      "code": "OT",
+      "display": "Other Charges",
+      "definition": "Other Charges — charge type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autres frais"
+        }
+      ]
+    },
+    {
+      "code": "RE",
+      "display": "Reinstatement Charges",
+      "definition": "Reinstatement Charges — charge type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais de rétablissement"
+        }
+      ]
+    },
+    {
+      "code": "RL",
+      "display": "Renewal",
+      "definition": "Renewal — charge type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Renouvellement"
+        }
+      ]
+    },
+    {
+      "code": "RP",
+      "display": "Return Payment Charges",
+      "definition": "Return Payment Charges — charge type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais - retour de paiement"
+        }
+      ]
+    },
+    {
+      "code": "RW",
+      "display": "Rewrite Charges",
+      "definition": "Rewrite Charges — charge type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais - Réenregistrement"
+        }
+      ]
+    },
+    {
+      "code": "TX",
+      "display": "Tax",
+      "definition": "Tax — charge type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Taxe"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,606 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "limit-applies",
+  "url": "https://bind.codes/limit-applies",
+  "name": "LimitApplies",
+  "title": "Limit Applies",
+  "status": "draft",
+  "language": "en",
+  "description": "Limit Applies codes for insurance operations.",
+  "concept": [
+    {
+      "code": "per-occurrence-or-accident",
+      "display": "Per Occurrence or Accident",
+      "definition": "Per Occurrence or Accident — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par sinistre ou accident"
+        }
+      ]
+    },
+    {
+      "code": "per-person",
+      "display": "Per Person",
+      "definition": "Per Person — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par personne"
+        }
+      ]
+    },
+    {
+      "code": "per-location",
+      "display": "Per Location",
+      "definition": "Per Location — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par emplacement"
+        }
+      ]
+    },
+    {
+      "code": "location-1-only",
+      "display": "Location #1 Only",
+      "definition": "Location #1 Only — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Emplacement #1 seulement"
+        }
+      ]
+    },
+    {
+      "code": "per-schedule-of-locations",
+      "display": "Per Schedule of Locations",
+      "definition": "Per Schedule of Locations — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par tableau des emplacements"
+        }
+      ]
+    },
+    {
+      "code": "third-party-liability",
+      "display": "Third Party Liability",
+      "definition": "Third Party Liability — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité civile vis-à-vis des tiers"
+        }
+      ]
+    },
+    {
+      "code": "weekly-benefits",
+      "display": "Weekly Benefits",
+      "definition": "Weekly Benefits — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Indemnités hebdomadaires"
+        }
+      ]
+    },
+    {
+      "code": "aggregate-limit",
+      "display": "Aggregate Limit",
+      "definition": "Aggregate Limit — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Montant d'assurance"
+        }
+      ]
+    },
+    {
+      "code": "maximum-per-item",
+      "display": "Maximum per Item",
+      "definition": "Maximum per Item — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maximum par article"
+        }
+      ]
+    },
+    {
+      "code": "maximum-per-day",
+      "display": "Maximum per Day",
+      "definition": "Maximum per Day — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maximum par jour"
+        }
+      ]
+    },
+    {
+      "code": "maximum-any-one-item",
+      "display": "Maximum Any One Item",
+      "definition": "Maximum Any One Item — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maximum tous les articles"
+        }
+      ]
+    },
+    {
+      "code": "catastrophe",
+      "display": "Catastrophe",
+      "definition": "Catastrophe — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Catastrophe"
+        }
+      ]
+    },
+    {
+      "code": "per-claim",
+      "display": "Per Claim",
+      "definition": "Per Claim — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par réclamation"
+        }
+      ]
+    },
+    {
+      "code": "on-premises",
+      "display": "On-premises",
+      "definition": "On-premises — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sur les lieux assurés"
+        }
+      ]
+    },
+    {
+      "code": "off-premises",
+      "display": "Off-premises",
+      "definition": "Off-premises — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors des lieux assurés"
+        }
+      ]
+    },
+    {
+      "code": "location-limit",
+      "display": "Location Limit",
+      "definition": "Location Limit — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Montant de garantie - Emplacement"
+        }
+      ]
+    },
+    {
+      "code": "annual-aggregate-per-location",
+      "display": "Annual Aggregate - Per Location",
+      "definition": "Annual Aggregate - Per Location — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Montant annuel - Par emplacement"
+        }
+      ]
+    },
+    {
+      "code": "annual-aggregate-total",
+      "display": "Annual Aggregate - Total",
+      "definition": "Annual Aggregate - Total — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Montant annuel - Total"
+        }
+      ]
+    },
+    {
+      "code": "as-per-biandi",
+      "display": "as per BI&I",
+      "definition": "as per BI&I — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "selon le BI & I (Boiler insurance and inspection)"
+        }
+      ]
+    },
+    {
+      "code": "general-aggregate",
+      "display": "General Aggregate",
+      "definition": "General Aggregate — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par période d'assurance"
+        }
+      ]
+    },
+    {
+      "code": "loss-inside",
+      "display": "Loss Inside",
+      "definition": "Loss Inside — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Perte intérieur"
+        }
+      ]
+    },
+    {
+      "code": "loss-outside",
+      "display": "Loss Outside",
+      "definition": "Loss Outside — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Perte extérieur"
+        }
+      ]
+    },
+    {
+      "code": "per-building",
+      "display": "Per Building",
+      "definition": "Per Building — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par édifice"
+        }
+      ]
+    },
+    {
+      "code": "percentage-of-limit",
+      "display": "Percentage of Limit",
+      "definition": "Percentage of Limit — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pourcentage de la limite"
+        }
+      ]
+    },
+    {
+      "code": "inside-building",
+      "display": "Inside Building",
+      "definition": "Inside Building — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intérieur du bâtiment"
+        }
+      ]
+    },
+    {
+      "code": "outside-building",
+      "display": "Outside Building",
+      "definition": "Outside Building — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'extérieur du bâtiment"
+        }
+      ]
+    },
+    {
+      "code": "per-package",
+      "display": "Per Package",
+      "definition": "Per Package — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par police multirisques"
+        }
+      ]
+    },
+    {
+      "code": "per-shipment",
+      "display": "Per Shipment",
+      "definition": "Per Shipment — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par envoi"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "BB",
+      "display": "Blanket",
+      "definition": "Blanket — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Global"
+        }
+      ]
+    },
+    {
+      "code": "BI",
+      "display": "Breakage Inclusion",
+      "definition": "Breakage Inclusion — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clause d'inclusion - Bris"
+        }
+      ]
+    },
+    {
+      "code": "CO",
+      "display": "Couple",
+      "definition": "Couple — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Couple"
+        }
+      ]
+    },
+    {
+      "code": "FA",
+      "display": "Family",
+      "definition": "Family — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Famille"
+        }
+      ]
+    },
+    {
+      "code": "FD",
+      "display": "Family Deluxe",
+      "definition": "Family Deluxe — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Famille deluxe"
+        }
+      ]
+    },
+    {
+      "code": "FE",
+      "display": "Fire and EC",
+      "definition": "Fire and EC — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie et garanties annexes"
+        }
+      ]
+    },
+    {
+      "code": "FT",
+      "display": "Both Fire and EC and Theft",
+      "definition": "Both Fire and EC and Theft — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol incluant incendie et garanties annexes"
+        }
+      ]
+    },
+    {
+      "code": "LE",
+      "display": "Loss of Use Extension",
+      "definition": "Loss of Use Extension — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Extension de la garantie - Privation de jouissance"
+        }
+      ]
+    },
+    {
+      "code": "LU",
+      "display": "Loss of Use Exclusion",
+      "definition": "Loss of Use Exclusion — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clause d'exclusion - Privation de jouissance"
+        }
+      ]
+    },
+    {
+      "code": "OLC",
+      "display": "Outside Loss - Custodial Home",
+      "definition": "Outside Loss - Custodial Home — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pertes à l'extérieur - Résidence en garde"
+        }
+      ]
+    },
+    {
+      "code": "OLP",
+      "display": "Outside Loss - Paymaster",
+      "definition": "Outside Loss - Paymaster — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pertes à l'extérieur - paie-maître"
+        }
+      ]
+    },
+    {
+      "code": "PA",
+      "display": "Per Animal",
+      "definition": "Per Animal — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par animal"
+        }
+      ]
+    },
+    {
+      "code": "PS",
+      "display": "Pair and Set",
+      "definition": "Pair and Set — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clause ensemble et paire"
+        }
+      ]
+    },
+    {
+      "code": "SB",
+      "display": "Scheduled and Blanket",
+      "definition": "Scheduled and Blanket — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Expressément assuré et global"
+        }
+      ]
+    },
+    {
+      "code": "SC",
+      "display": "Safe Credit",
+      "definition": "Safe Credit — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Crédit - Coffre-fort"
+        }
+      ]
+    },
+    {
+      "code": "SD",
+      "display": "Safety Deposit Box Credit",
+      "definition": "Safety Deposit Box Credit — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Crédit - Coffre en banque"
+        }
+      ]
+    },
+    {
+      "code": "SG",
+      "display": "Single",
+      "definition": "Single — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Simple"
+        }
+      ]
+    },
+    {
+      "code": "SL",
+      "display": "Scheduled",
+      "definition": "Scheduled — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Expressément assuré"
+        }
+      ]
+    },
+    {
+      "code": "TH",
+      "display": "Theft",
+      "definition": "Theft — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol"
+        }
+      ]
+    },
+    {
+      "code": "VC",
+      "display": "Vault Credit",
+      "definition": "Vault Credit — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Crédit - Voûte"
+        }
+      ]
+    },
+    {
+      "code": "XC",
+      "display": "Deletion of Coverage - Chimney",
+      "definition": "Deletion of Coverage - Chimney — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Suppression de la garantie - Cheminée"
+        }
+      ]
+    },
+    {
+      "code": "XF",
+      "display": "Deletion of Coverage - Free Form",
+      "definition": "Deletion of Coverage - Free Form — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Suppression de la garantie - Formule libre"
+        }
+      ]
+    },
+    {
+      "code": "XR",
+      "display": "Deletion of Coverage - Roof Shingles",
+      "definition": "Deletion of Coverage - Roof Shingles — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Suppression de la garantie - Bardeaux de toiture"
+        }
+      ]
+    },
+    {
+      "code": "XS",
+      "display": "Deletion of Coverage - Sewer, Sump, Septic Tanks",
+      "definition": "Deletion of Coverage - Sewer, Sump, Septic Tanks — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Suppression de la garantie - Égout, pompe de vidange, fosses septiques"
+        }
+      ]
+    },
+    {
+      "code": "XW",
+      "display": "Deletion of Coverage - Wood Burning Stove",
+      "definition": "Deletion of Coverage - Wood Burning Stove — limit applies code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Suppression de la garantie - Poêle à bois"
+        }
+      ]
+    }
+  ]
+}

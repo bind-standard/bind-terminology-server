@@ -1,0 +1,67 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "electronic-payment",
+  "url": "https://bind.codes/electronic-payment",
+  "name": "ElectronicPayment",
+  "title": "Electronic Payment",
+  "status": "draft",
+  "language": "en",
+  "description": "Electronic Payment codes for insurance operations.",
+  "concept": [
+    {
+      "code": "AT",
+      "display": "ATM (Automatic Teller Transaction)",
+      "definition": "ATM (Automatic Teller Transaction) — electronic payment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "GAB (Guichet automatique bancaire)"
+        }
+      ]
+    },
+    {
+      "code": "AW",
+      "display": "Automatic Withdrawal",
+      "definition": "Automatic Withdrawal — electronic payment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Retrait Automatique"
+        }
+      ]
+    },
+    {
+      "code": "BC",
+      "display": "Bank Counter",
+      "definition": "Bank Counter — electronic payment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comptoir bancaire"
+        }
+      ]
+    },
+    {
+      "code": "BP",
+      "display": "Banking by Phone",
+      "definition": "Banking by Phone — electronic payment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Opérations bancaires par téléphone"
+        }
+      ]
+    },
+    {
+      "code": "DC",
+      "display": "Debit Card (Interac Payment)",
+      "definition": "Debit Card (Interac Payment) — electronic payment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Carte de débit (paiement Interac)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "other-policy-type",
+  "url": "https://bind.codes/other-policy-type",
+  "name": "OtherPolicyType",
+  "title": "Other Policy Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Other Policy Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "Other",
+      "display": "Other",
+      "definition": "Other — other policy type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "Prior",
+      "display": "Prior Policy",
+      "definition": "Prior Policy — other policy type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police précédente"
+        }
+      ]
+    },
+    {
+      "code": "Replacing",
+      "display": "Replacing Policy",
+      "definition": "Replacing Policy — other policy type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remplace la police"
+        }
+      ]
+    },
+    {
+      "code": "Underly",
+      "display": "Underlying Policy",
+      "definition": "Underlying Policy — other policy type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police de base"
+        }
+      ]
+    }
+  ]
+}

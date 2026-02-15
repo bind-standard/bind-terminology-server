@@ -1,0 +1,1684 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "anti-theft-product",
+  "url": "https://bind.codes/anti-theft-product",
+  "name": "AntiTheftProduct",
+  "title": "Anti Theft Product",
+  "status": "draft",
+  "language": "en",
+  "description": "Anti Theft Product codes for insurance operations.",
+  "concept": [
+    {
+      "code": "vehicle-manufacturer-original-equipment-manufacturer",
+      "display": "Vehicle Manufacturer/Original Equipment Manufacturer",
+      "definition": "Vehicle Manufacturer/Original Equipment Manufacturer — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Constructeur automobile/équipementier"
+        }
+      ]
+    },
+    {
+      "code": "pro-tg",
+      "display": "PRO-TG",
+      "definition": "PRO-TG — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "PRO-TG"
+        }
+      ]
+    },
+    {
+      "code": "sherlock",
+      "display": "Sherlock",
+      "definition": "Sherlock — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sherlock"
+        }
+      ]
+    },
+    {
+      "code": "spav",
+      "display": "SPAV",
+      "definition": "SPAV — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "SPAV"
+        }
+      ]
+    },
+    {
+      "code": "super-duro-garde",
+      "display": "Super Duro-garde",
+      "definition": "Super Duro-garde — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Super Duro-garde"
+        }
+      ]
+    },
+    {
+      "code": "doc",
+      "display": "Doc",
+      "definition": "Doc — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Doc"
+        }
+      ]
+    },
+    {
+      "code": "auto-garde",
+      "display": "Auto-garde",
+      "definition": "Auto-garde — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Auto-garde"
+        }
+      ]
+    },
+    {
+      "code": "ramco",
+      "display": "RAMCO",
+      "definition": "RAMCO — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "RAMCO"
+        }
+      ]
+    },
+    {
+      "code": "apple",
+      "display": "Apple",
+      "definition": "Apple — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Apple"
+        }
+      ]
+    },
+    {
+      "code": "boomerang",
+      "display": "Boomerang",
+      "definition": "Boomerang — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boomerang"
+        }
+      ]
+    },
+    {
+      "code": "duro-vip",
+      "display": "Duro VIP",
+      "definition": "Duro VIP — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Duro VIP"
+        }
+      ]
+    },
+    {
+      "code": "vss-150",
+      "display": "VSS 150",
+      "definition": "VSS 150 — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "VSS150"
+        }
+      ]
+    },
+    {
+      "code": "automate",
+      "display": "Automate",
+      "definition": "Automate — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Automate"
+        }
+      ]
+    },
+    {
+      "code": "theftbuster-tb300v-vicc-approved",
+      "display": "Theftbuster TB300V (VICC approved)",
+      "definition": "Theftbuster TB300V (VICC approved) — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Theftbuster TB300V"
+        }
+      ]
+    },
+    {
+      "code": "autowatch-329ti-vicc-approved",
+      "display": "Autowatch 329Ti (VICC approved)",
+      "definition": "Autowatch 329Ti (VICC approved) — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autowatch 329Ti"
+        }
+      ]
+    },
+    {
+      "code": "magtec-6000-vicc-approved",
+      "display": "Magtec 6000 (VICC approved)",
+      "definition": "Magtec 6000 (VICC approved) — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Magtec 6000"
+        }
+      ]
+    },
+    {
+      "code": "powerlock-canada-vicc-approved",
+      "display": "Powerlock Canada (VICC approved)",
+      "definition": "Powerlock Canada (VICC approved) — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Powerlock Canada"
+        }
+      ]
+    },
+    {
+      "code": "alpine",
+      "display": "Alpine",
+      "definition": "Alpine — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Alpine"
+        }
+      ]
+    },
+    {
+      "code": "autostart",
+      "display": "Autostart",
+      "definition": "Autostart — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autostart"
+        }
+      ]
+    },
+    {
+      "code": "autowatch",
+      "display": "Autowatch",
+      "definition": "Autowatch — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autowatch"
+        }
+      ]
+    },
+    {
+      "code": "boomerang-i",
+      "display": "Boomerang I",
+      "definition": "Boomerang I — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boomerang I"
+        }
+      ]
+    },
+    {
+      "code": "boomerang-ii",
+      "display": "Boomerang II",
+      "definition": "Boomerang II — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boomerang II"
+        }
+      ]
+    },
+    {
+      "code": "carbine",
+      "display": "Carbine",
+      "definition": "Carbine — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Carbine"
+        }
+      ]
+    },
+    {
+      "code": "clifford",
+      "display": "Clifford",
+      "definition": "Clifford — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clifford"
+        }
+      ]
+    },
+    {
+      "code": "duro",
+      "display": "Duro",
+      "definition": "Duro — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Duro"
+        }
+      ]
+    },
+    {
+      "code": "intercepter",
+      "display": "Intercepter",
+      "definition": "Intercepter — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intercepter"
+        }
+      ]
+    },
+    {
+      "code": "magtec",
+      "display": "Magtec",
+      "definition": "Magtec — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Magtec"
+        }
+      ]
+    },
+    {
+      "code": "marksman",
+      "display": "Marksman",
+      "definition": "Marksman — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marksman"
+        }
+      ]
+    },
+    {
+      "code": "mobilus",
+      "display": "Mobilus",
+      "definition": "Mobilus — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mobilus"
+        }
+      ]
+    },
+    {
+      "code": "onstar",
+      "display": "Onstar",
+      "definition": "Onstar — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "OnStar"
+        }
+      ]
+    },
+    {
+      "code": "powerstart",
+      "display": "Powerstart",
+      "definition": "Powerstart — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Powerstart"
+        }
+      ]
+    },
+    {
+      "code": "prestige",
+      "display": "Prestige",
+      "definition": "Prestige — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Prestige"
+        }
+      ]
+    },
+    {
+      "code": "pursuit",
+      "display": "Pursuit",
+      "definition": "Pursuit — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pursuit"
+        }
+      ]
+    },
+    {
+      "code": "python",
+      "display": "Python",
+      "definition": "Python — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Python"
+        }
+      ]
+    },
+    {
+      "code": "spavtrack",
+      "display": "SPAVTrack",
+      "definition": "SPAVTrack — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "SPAVTrack"
+        }
+      ]
+    },
+    {
+      "code": "ssn",
+      "display": "SSN",
+      "definition": "SSN — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "SSN"
+        }
+      ]
+    },
+    {
+      "code": "ssn-mul-t-lock",
+      "display": "SSN (Mul-T-Lock)",
+      "definition": "SSN (Mul-T-Lock) — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "SSN (Mul-T-Lock)"
+        }
+      ]
+    },
+    {
+      "code": "tiger",
+      "display": "Tiger",
+      "definition": "Tiger — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tiger"
+        }
+      ]
+    },
+    {
+      "code": "ultracar",
+      "display": "Ultracar",
+      "definition": "Ultracar — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ultracar"
+        }
+      ]
+    },
+    {
+      "code": "ungo",
+      "display": "Ungo",
+      "definition": "Ungo — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ungo"
+        }
+      ]
+    },
+    {
+      "code": "vigil",
+      "display": "Vigil",
+      "definition": "Vigil — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vigil"
+        }
+      ]
+    },
+    {
+      "code": "viper",
+      "display": "Viper",
+      "definition": "Viper — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Viper"
+        }
+      ]
+    },
+    {
+      "code": "other-cellular-based-technology",
+      "display": "Other Cellular based Technology",
+      "definition": "Other Cellular based Technology — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre technologie cellulaire"
+        }
+      ]
+    },
+    {
+      "code": "other-gps-based-system",
+      "display": "Other GPS based System",
+      "definition": "Other GPS based System — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre système de repérage GPS"
+        }
+      ]
+    },
+    {
+      "code": "astrolock",
+      "display": "Astrolock",
+      "definition": "Astrolock — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Astrolock"
+        }
+      ]
+    },
+    {
+      "code": "audiovox",
+      "display": "Audiovox",
+      "definition": "Audiovox — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Audiovox"
+        }
+      ]
+    },
+    {
+      "code": "collard-steadfast",
+      "display": "Collard Steadfast",
+      "definition": "Collard Steadfast — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collard Steadfast"
+        }
+      ]
+    },
+    {
+      "code": "doc-4000",
+      "display": "Doc 4000",
+      "definition": "Doc 4000 — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Doc 4000"
+        }
+      ]
+    },
+    {
+      "code": "duro-garde",
+      "display": "Duro Garde",
+      "definition": "Duro Garde — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Duro Garde"
+        }
+      ]
+    },
+    {
+      "code": "gemni-skylink-gps",
+      "display": "Gemni (Skylink GPS)",
+      "definition": "Gemni (Skylink GPS) — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gemni (Skylink GPS)"
+        }
+      ]
+    },
+    {
+      "code": "hornet",
+      "display": "Hornet",
+      "definition": "Hornet — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hornet"
+        }
+      ]
+    },
+    {
+      "code": "investiguard",
+      "display": "Investiguard",
+      "definition": "Investiguard — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Investiguard"
+        }
+      ]
+    },
+    {
+      "code": "lynx",
+      "display": "Lynx",
+      "definition": "Lynx — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lynx"
+        }
+      ]
+    },
+    {
+      "code": "micro-protec",
+      "display": "Micro-protec",
+      "definition": "Micro-protec — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Micro-protec"
+        }
+      ]
+    },
+    {
+      "code": "otomax",
+      "display": "Otomax",
+      "definition": "Otomax — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Otomax"
+        }
+      ]
+    },
+    {
+      "code": "planet-track",
+      "display": "Planet Track",
+      "definition": "Planet Track — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Planet Track"
+        }
+      ]
+    },
+    {
+      "code": "pro-gard",
+      "display": "Pro-Gard",
+      "definition": "Pro-Gard — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pro-Gard"
+        }
+      ]
+    },
+    {
+      "code": "stealstopper",
+      "display": "Stealstopper",
+      "definition": "Stealstopper — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stealstopper"
+        }
+      ]
+    },
+    {
+      "code": "tiger-1000",
+      "display": "Tiger 1000",
+      "definition": "Tiger 1000 — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tiger 1000"
+        }
+      ]
+    },
+    {
+      "code": "datadot",
+      "display": "Datadot",
+      "definition": "Datadot — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Datadot"
+        }
+      ]
+    },
+    {
+      "code": "vinlock",
+      "display": "Vinlock",
+      "definition": "Vinlock — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vinlock"
+        }
+      ]
+    },
+    {
+      "code": "mastergard-m6000",
+      "display": "MasterGard M6000",
+      "definition": "MasterGard M6000 — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "MasterGard M6000"
+        }
+      ]
+    },
+    {
+      "code": "mastergard-tk",
+      "display": "MasterGard TK",
+      "definition": "MasterGard TK — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "MasterGard TK"
+        }
+      ]
+    },
+    {
+      "code": "canam",
+      "display": "Canam",
+      "definition": "Canam — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canam"
+        }
+      ]
+    },
+    {
+      "code": "pro-tg-x000",
+      "display": "PRO-TG X000",
+      "definition": "PRO-TG X000 — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "PRO-TG X000"
+        }
+      ]
+    },
+    {
+      "code": "spav-06",
+      "display": "Spav 06",
+      "definition": "Spav 06 — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Spav 06"
+        }
+      ]
+    },
+    {
+      "code": "doc-1000-2000",
+      "display": "Doc 1000 / 2000",
+      "definition": "Doc 1000 / 2000 — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Doc 1000 / 2000"
+        }
+      ]
+    },
+    {
+      "code": "doc-x000",
+      "display": "Doc X000",
+      "definition": "Doc X000 — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Doc X000"
+        }
+      ]
+    },
+    {
+      "code": "otoprotec",
+      "display": "Otoprotec",
+      "definition": "Otoprotec — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Otoprotec"
+        }
+      ]
+    },
+    {
+      "code": "pass-key",
+      "display": "Pass-Key",
+      "definition": "Pass-Key — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pass-Key"
+        }
+      ]
+    },
+    {
+      "code": "navlynx",
+      "display": "NavLynx",
+      "definition": "NavLynx — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "NavLynx"
+        }
+      ]
+    },
+    {
+      "code": "boomerang-espion-alert",
+      "display": "Boomerang Espion Alert",
+      "definition": "Boomerang Espion Alert — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boomerang Espion Alert"
+        }
+      ]
+    },
+    {
+      "code": "boomerang-espion",
+      "display": "Boomerang Espion",
+      "definition": "Boomerang Espion — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boomerang Espion"
+        }
+      ]
+    },
+    {
+      "code": "viper-200max",
+      "display": "Viper 200Max",
+      "definition": "Viper 200Max — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Viper 200Max"
+        }
+      ]
+    },
+    {
+      "code": "viper-220max",
+      "display": "Viper 220Max",
+      "definition": "Viper 220Max — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Viper 220Max"
+        }
+      ]
+    },
+    {
+      "code": "triumph-with-siren",
+      "display": "Triumph with siren",
+      "definition": "Triumph with siren — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Triumph with siren"
+        }
+      ]
+    },
+    {
+      "code": "merlin-2000",
+      "display": "Merlin 2000",
+      "definition": "Merlin 2000 — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Merlin 2000"
+        }
+      ]
+    },
+    {
+      "code": "harley-with-siren",
+      "display": "Harley with siren",
+      "definition": "Harley with siren — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Harley with siren"
+        }
+      ]
+    },
+    {
+      "code": "bmw",
+      "display": "BMW",
+      "definition": "BMW — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "BMW"
+        }
+      ]
+    },
+    {
+      "code": "scorpio-sr1500s",
+      "display": "Scorpio SR1500S",
+      "definition": "Scorpio SR1500S — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Scorpio SR1500S"
+        }
+      ]
+    },
+    {
+      "code": "scorpio-sr1500e",
+      "display": "Scorpio SR1500E",
+      "definition": "Scorpio SR1500E — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Scorpio SR1500E"
+        }
+      ]
+    },
+    {
+      "code": "tridion-t2",
+      "display": "Tridion T2",
+      "definition": "Tridion T2 — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tridion T2"
+        }
+      ]
+    },
+    {
+      "code": "autoluck",
+      "display": "Autoluck",
+      "definition": "Autoluck — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autoluck"
+        }
+      ]
+    },
+    {
+      "code": "guardian",
+      "display": "Guardian",
+      "definition": "Guardian — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Guardian"
+        }
+      ]
+    },
+    {
+      "code": "larlock",
+      "display": "Larlock",
+      "definition": "Larlock — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Larlock"
+        }
+      ]
+    },
+    {
+      "code": "kolombo-urb-1500",
+      "display": "Kolombo URB 1500",
+      "definition": "Kolombo URB 1500 — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Kolombo URB 1500"
+        }
+      ]
+    },
+    {
+      "code": "kolombo-urb-2000",
+      "display": "Kolombo URB 2000",
+      "definition": "Kolombo URB 2000 — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Kolombo URB 2000"
+        }
+      ]
+    },
+    {
+      "code": "boomerang-express",
+      "display": "Boomerang Express",
+      "definition": "Boomerang Express — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boomerang Express"
+        }
+      ]
+    },
+    {
+      "code": "econotrack",
+      "display": "Econotrack",
+      "definition": "Econotrack — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Econotrack"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "none",
+      "display": "None",
+      "definition": "None — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        }
+      ]
+    },
+    {
+      "code": "1A",
+      "display": "Auto Gravure",
+      "definition": "Auto Gravure — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Auto Gravure"
+        }
+      ]
+    },
+    {
+      "code": "1B",
+      "display": "Auto Tatou",
+      "definition": "Auto Tatou — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Auto Tatou"
+        }
+      ]
+    },
+    {
+      "code": "1C",
+      "display": "Autoblock",
+      "definition": "Autoblock — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autoblock"
+        }
+      ]
+    },
+    {
+      "code": "1D",
+      "display": "Autographe",
+      "definition": "Autographe — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autographe"
+        }
+      ]
+    },
+    {
+      "code": "1E",
+      "display": "Autotrack",
+      "definition": "Autotrack — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autotrack"
+        }
+      ]
+    },
+    {
+      "code": "1F",
+      "display": "CelluTrak Peace",
+      "definition": "CelluTrak Peace — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "CelluTrak Peace"
+        }
+      ]
+    },
+    {
+      "code": "1G",
+      "display": "CelluTrak Recovery",
+      "definition": "CelluTrak Recovery — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "CelluTrak Recovery"
+        }
+      ]
+    },
+    {
+      "code": "1H",
+      "display": "Centraxx",
+      "definition": "Centraxx — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Centraxx"
+        }
+      ]
+    },
+    {
+      "code": "1I",
+      "display": "Club",
+      "definition": "Club — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Club"
+        }
+      ]
+    },
+    {
+      "code": "1J",
+      "display": "Factory",
+      "definition": "Factory — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Manufacturier"
+        }
+      ]
+    },
+    {
+      "code": "1K",
+      "display": "Harisson Starter",
+      "definition": "Harisson Starter — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Harisson Starter"
+        }
+      ]
+    },
+    {
+      "code": "1L",
+      "display": "Invisiguard",
+      "definition": "Invisiguard — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Invisiguard"
+        }
+      ]
+    },
+    {
+      "code": "1M",
+      "display": "Kill",
+      "definition": "Kill — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Kill"
+        }
+      ]
+    },
+    {
+      "code": "1N",
+      "display": "Mobicom",
+      "definition": "Mobicom — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mobicom"
+        }
+      ]
+    },
+    {
+      "code": "1O",
+      "display": "Mobiguard",
+      "definition": "Mobiguard — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mobiguard"
+        }
+      ]
+    },
+    {
+      "code": "1P",
+      "display": "Ranger",
+      "definition": "Ranger — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ranger"
+        }
+      ]
+    },
+    {
+      "code": "1Q",
+      "display": "Tag",
+      "definition": "Tag — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tag"
+        }
+      ]
+    },
+    {
+      "code": "1R",
+      "display": "Aprilla",
+      "definition": "Aprilla — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aprilla"
+        }
+      ]
+    },
+    {
+      "code": "1S",
+      "display": "Armed Guard",
+      "definition": "Armed Guard — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Armed Guard"
+        }
+      ]
+    },
+    {
+      "code": "1T",
+      "display": "Autowatch 500 Rli",
+      "definition": "Autowatch 500 Rli — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autowatch 500 Rli"
+        }
+      ]
+    },
+    {
+      "code": "1U",
+      "display": "Autowatch 500",
+      "definition": "Autowatch 500 — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autowatch 500"
+        }
+      ]
+    },
+    {
+      "code": "1V",
+      "display": "Banshee",
+      "definition": "Banshee — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Banshee"
+        }
+      ]
+    },
+    {
+      "code": "1W",
+      "display": "CelluTrak Bikeguard",
+      "definition": "CelluTrak Bikeguard — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "CelluTrak Bikeguard"
+        }
+      ]
+    },
+    {
+      "code": "1X",
+      "display": "CelluTrak Control",
+      "definition": "CelluTrak Control — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "CelluTrak Control"
+        }
+      ]
+    },
+    {
+      "code": "1Y",
+      "display": "Ducati",
+      "definition": "Ducati — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ducati"
+        }
+      ]
+    },
+    {
+      "code": "1Z",
+      "display": "Espion - Lojack",
+      "definition": "Espion - Lojack — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Espion - Lojack"
+        }
+      ]
+    },
+    {
+      "code": "2A",
+      "display": "Espion Alert - Lojack",
+      "definition": "Espion Alert - Lojack — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Espion Alert - Lojack"
+        }
+      ]
+    },
+    {
+      "code": "2B",
+      "display": "Espion Alert Plus - Lojack",
+      "definition": "Espion Alert Plus - Lojack — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Espion Alert Plus - Lojack"
+        }
+      ]
+    },
+    {
+      "code": "2C",
+      "display": "Excel 300",
+      "definition": "Excel 300 — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Excel 300"
+        }
+      ]
+    },
+    {
+      "code": "2D",
+      "display": "Gorilla",
+      "definition": "Gorilla — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gorilla"
+        }
+      ]
+    },
+    {
+      "code": "2E",
+      "display": "Harley without siren",
+      "definition": "Harley without siren — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Harley sans sirène"
+        }
+      ]
+    },
+    {
+      "code": "2F",
+      "display": "Harley-Davidson",
+      "definition": "Harley-Davidson — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Harley-Davidson"
+        }
+      ]
+    },
+    {
+      "code": "2G",
+      "display": "Hawk 100",
+      "definition": "Hawk 100 — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hawk 100"
+        }
+      ]
+    },
+    {
+      "code": "2H",
+      "display": "Hawk 200",
+      "definition": "Hawk 200 — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hawk 200"
+        }
+      ]
+    },
+    {
+      "code": "2I",
+      "display": "Icalock",
+      "definition": "Icalock — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Icalock"
+        }
+      ]
+    },
+    {
+      "code": "2J",
+      "display": "Kolombo",
+      "definition": "Kolombo — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Kolombo"
+        }
+      ]
+    },
+    {
+      "code": "2K",
+      "display": "KTM",
+      "definition": "KTM — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "KTM"
+        }
+      ]
+    },
+    {
+      "code": "2L",
+      "display": "LoJack Alert",
+      "definition": "LoJack Alert — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "LoJack Alert"
+        }
+      ]
+    },
+    {
+      "code": "2M",
+      "display": "LoJack C",
+      "definition": "LoJack C — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "LoJack C"
+        }
+      ]
+    },
+    {
+      "code": "2N",
+      "display": "LoJack",
+      "definition": "LoJack — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "LoJack"
+        }
+      ]
+    },
+    {
+      "code": "2O",
+      "display": "Merlin",
+      "definition": "Merlin — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Merlin"
+        }
+      ]
+    },
+    {
+      "code": "2P",
+      "display": "M-link",
+      "definition": "M-link — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "M-link"
+        }
+      ]
+    },
+    {
+      "code": "2Q",
+      "display": "Mul-T-Lock",
+      "definition": "Mul-T-Lock — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mul-T-Lock"
+        }
+      ]
+    },
+    {
+      "code": "2R",
+      "display": "PFK Autowatch 329 Ti",
+      "definition": "PFK Autowatch 329 Ti — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "PFK Autowatch 329 Ti"
+        }
+      ]
+    },
+    {
+      "code": "2S",
+      "display": "Phantom X",
+      "definition": "Phantom X — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Phantom X"
+        }
+      ]
+    },
+    {
+      "code": "2T",
+      "display": "RLiBB",
+      "definition": "RLiBB — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "RLiBB"
+        }
+      ]
+    },
+    {
+      "code": "2U",
+      "display": "Scorpio",
+      "definition": "Scorpio — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Scorpio"
+        }
+      ]
+    },
+    {
+      "code": "2V",
+      "display": "Snyper MX-7",
+      "definition": "Snyper MX-7 — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Snyper MX-7"
+        }
+      ]
+    },
+    {
+      "code": "2W",
+      "display": "Triumph",
+      "definition": "Triumph — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Triumph"
+        }
+      ]
+    },
+    {
+      "code": "2Y",
+      "display": "Guardian Cadenas",
+      "definition": "Guardian Cadenas — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Guardian Cadenas"
+        }
+      ]
+    },
+    {
+      "code": "2Z",
+      "display": "Yamaha",
+      "definition": "Yamaha — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Yamaha"
+        }
+      ]
+    },
+    {
+      "code": "boomerang-lojack-espion-radio-frequency-technology",
+      "display": "Boomerang / LoJack Espion (radio frequency technology)",
+      "definition": "Boomerang / LoJack Espion (radio frequency technology) — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boomerang / LoJack Espion (technologie radiofréquence)"
+        }
+      ]
+    },
+    {
+      "code": "boomerang-lojack-espion-alert-radio-frequency-technology",
+      "display": "Boomerang / LoJack Espion Alert (radio frequency technology)",
+      "definition": "Boomerang / LoJack Espion Alert (radio frequency technology) — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boomerang / LoJack Espion Alert (technologie radiofréquence)"
+        }
+      ]
+    },
+    {
+      "code": "boomerang-lojack-espion-alert-plus-radio-frequency-technology",
+      "display": "Boomerang / LoJack Espion Alert Plus (radio frequency technology)",
+      "definition": "Boomerang / LoJack Espion Alert Plus (radio frequency technology) — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boomerang / LoJack Espion Alert Plus (technologie radiofréquence)"
+        }
+      ]
+    },
+    {
+      "code": "3rd-eye-tracking",
+      "display": "3rd Eye Tracking",
+      "definition": "3rd Eye Tracking — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "3rd Eye Tracking"
+        }
+      ]
+    },
+    {
+      "code": "orca",
+      "display": "Orca",
+      "definition": "Orca — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Orca"
+        }
+      ]
+    },
+    {
+      "code": "m-link",
+      "display": "M-Link",
+      "definition": "M-Link — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "M-Link"
+        }
+      ]
+    },
+    {
+      "code": "astus",
+      "display": "Astus",
+      "definition": "Astus — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Astus"
+        }
+      ]
+    },
+    {
+      "code": "3A",
+      "display": "KYCS Global Inc.",
+      "definition": "KYCS Global Inc. — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "KYCS Global Inc."
+        }
+      ]
+    },
+    {
+      "code": "3B",
+      "display": "Domino",
+      "definition": "Domino — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Domino"
+        }
+      ]
+    },
+    {
+      "code": "3C",
+      "display": "Globali",
+      "definition": "Globali — anti theft product code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Globali"
+        }
+      ]
+    }
+  ]
+}

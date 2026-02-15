@@ -1,0 +1,122 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "line-security",
+  "url": "https://bind.codes/line-security",
+  "name": "LineSecurity",
+  "title": "Line Security",
+  "status": "draft",
+  "language": "en",
+  "description": "Line Security codes for insurance operations.",
+  "concept": [
+    {
+      "code": "level-i-line-security",
+      "display": "Level I line security",
+      "definition": "Level I line security — line security code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Protection de la ligne de niveau I"
+        }
+      ]
+    },
+    {
+      "code": "level-ii-line-security",
+      "display": "Level II line security",
+      "definition": "Level II line security — line security code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Protection de la ligne de niveau II"
+        }
+      ]
+    },
+    {
+      "code": "level-iii-line-security",
+      "display": "Level III line security",
+      "definition": "Level III line security — line security code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Protection de la ligne de niveau III"
+        }
+      ]
+    },
+    {
+      "code": "level-iv-line-security",
+      "display": "Level IV line security",
+      "definition": "Level IV line security — line security code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Protection de la ligne de niveau IV"
+        }
+      ]
+    },
+    {
+      "code": "level-v-line-security",
+      "display": "Level V line security",
+      "definition": "Level V line security — line security code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Protection de la ligne de niveau V"
+        }
+      ]
+    },
+    {
+      "code": "level-vi-line-security",
+      "display": "Level VI line security",
+      "definition": "Level VI line security — line security code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Protection de la ligne de niveau VI"
+        }
+      ]
+    },
+    {
+      "code": "level-vii-line-security",
+      "display": "Level VII line security",
+      "definition": "Level VII line security — line security code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Protection de la ligne de niveau VII"
+        }
+      ]
+    },
+    {
+      "code": "level-0-not-ulc-rated",
+      "display": "Level 0 - not ULC rated",
+      "definition": "Level 0 - not ULC rated — line security code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Niveau 0 - Aucune classification ULC"
+        }
+      ]
+    },
+    {
+      "code": "unknown",
+      "display": "Unknown",
+      "definition": "Unknown — line security code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        }
+      ]
+    },
+    {
+      "code": "none",
+      "display": "None",
+      "definition": "None — line security code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        }
+      ]
+    }
+  ]
+}

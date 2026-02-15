@@ -1,0 +1,56 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "tank-status",
+  "url": "https://bind.codes/tank-status",
+  "name": "TankStatus",
+  "title": "Tank Status",
+  "status": "draft",
+  "language": "en",
+  "description": "Tank Status codes for insurance operations.",
+  "concept": [
+    {
+      "code": "in-use",
+      "display": "In use",
+      "definition": "In use — tank status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En usage"
+        }
+      ]
+    },
+    {
+      "code": "inactive-drained",
+      "display": "Inactive drained",
+      "definition": "Inactive drained — tank status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inactif vidé"
+        }
+      ]
+    },
+    {
+      "code": "inactive-with-oil",
+      "display": "Inactive with oil",
+      "definition": "Inactive with oil — tank status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inactif avec huile"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — tank status code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "settlement-type",
+  "url": "https://bind.codes/settlement-type",
+  "name": "SettlementType",
+  "title": "Settlement Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Settlement Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "AV",
+      "display": "Actual Cash Value",
+      "definition": "Actual Cash Value — settlement type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur au jour du sinistre"
+        }
+      ]
+    },
+    {
+      "code": "BC",
+      "display": "Basic Replacement Cost",
+      "definition": "Basic Replacement Cost — settlement type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur à neuf de base"
+        }
+      ]
+    },
+    {
+      "code": "BR",
+      "display": "Broad Replacement Cost",
+      "definition": "Broad Replacement Cost — settlement type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur à neuf étendue"
+        }
+      ]
+    },
+    {
+      "code": "GR",
+      "display": "Guaranteed Replacement",
+      "definition": "Guaranteed Replacement — settlement type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remplacement garanti"
+        }
+      ]
+    },
+    {
+      "code": "RC",
+      "display": "Replacement Cost",
+      "definition": "Replacement Cost — settlement type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur à neuf"
+        }
+      ]
+    },
+    {
+      "code": "SA",
+      "display": "Stated Amount",
+      "definition": "Stated Amount — settlement type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Montant stipulé"
+        }
+      ]
+    }
+  ]
+}

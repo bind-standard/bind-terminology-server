@@ -1,0 +1,276 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "restriction",
+  "url": "https://bind.codes/restriction",
+  "name": "Restriction",
+  "title": "Restriction",
+  "status": "draft",
+  "language": "en",
+  "description": "Restriction codes for insurance operations.",
+  "concept": [
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — restriction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "vehicle-must-be-equipped-with-hand-controls",
+      "display": "Vehicle must be equipped with hand controls",
+      "definition": "Vehicle must be equipped with hand controls — restriction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Le véhicule doit être équipé de commandes manuelles"
+        }
+      ]
+    },
+    {
+      "code": "ignition-interlock-applicable-on-reinstatement",
+      "display": "Ignition interlock applicable on reinstatement",
+      "definition": "Ignition interlock applicable on reinstatement — restriction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Antidémarreur requis lors de la remise en vigueur"
+        }
+      ]
+    },
+    {
+      "code": "requires-corrective-lenses",
+      "display": "Requires corrective lenses",
+      "definition": "Requires corrective lenses — restriction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Verres de correction requis"
+        }
+      ]
+    },
+    {
+      "code": "mandatory-ignition-interlock-required",
+      "display": "Mandatory ignition interlock required",
+      "definition": "Mandatory ignition interlock required — restriction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Antidémarreur obligatoire"
+        }
+      ]
+    },
+    {
+      "code": "can-operate-a-commercial-vehicle-in-canada-only",
+      "display": "Can operate a commercial vehicle in Canada only",
+      "definition": "Can operate a commercial vehicle in Canada only — restriction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Peut opérer un véhicule commercial au Canada seulement"
+        }
+      ]
+    },
+    {
+      "code": "requires-special-controls-for-the-hand",
+      "display": "Requires special controls for the hand",
+      "definition": "Requires special controls for the hand — restriction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exige des commandes manuelles spéciales"
+        }
+      ]
+    },
+    {
+      "code": "requires-special-controls-for-the-foot",
+      "display": "Requires special controls for the foot",
+      "definition": "Requires special controls for the foot — restriction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exige des commandes au pied spéciales"
+        }
+      ]
+    },
+    {
+      "code": "requires-special-hand-and-foot-control",
+      "display": "Requires special hand and foot control",
+      "definition": "Requires special hand and foot control — restriction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exige des commandes manuelles et au pied spéciales"
+        }
+      ]
+    },
+    {
+      "code": "00Z",
+      "display": "Endorsement to operate air brake vehicles",
+      "definition": "Endorsement to operate air brake vehicles — restriction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avenant pour opérer des véhicules munis de freins à air"
+        }
+      ]
+    },
+    {
+      "code": "requires-hearing-device",
+      "display": "Requires hearing device",
+      "definition": "Requires hearing device — restriction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aide auditive requise"
+        }
+      ]
+    },
+    {
+      "code": "requires-visual-device",
+      "display": "Requires visual device",
+      "definition": "Requires visual device — restriction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aide visuelle requise"
+        }
+      ]
+    },
+    {
+      "code": "restriction-for-giving-driver-instruction-exists",
+      "display": "Restriction for giving driver instruction exists",
+      "definition": "Restriction for giving driver instruction exists — restriction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Restriction sur le fait de fournir des renseignements au chauffeur existe"
+        }
+      ]
+    },
+    {
+      "code": "commercial-vehicle-operation-restriction-in-effect",
+      "display": "Commercial vehicle operation restriction in effect",
+      "definition": "Commercial vehicle operation restriction in effect — restriction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Restriction d'opération de véhicule commercial en vigueur"
+        }
+      ]
+    },
+    {
+      "code": "special-name-and-address-requirements-exist",
+      "display": "Special name & address requirements exist",
+      "definition": "Special name & address requirements exist — restriction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exigences spéciales sur le nom et l'adresse existent"
+        }
+      ]
+    },
+    {
+      "code": "special-vehicle-controls-required-by-driver",
+      "display": "Special vehicle controls required by driver",
+      "definition": "Special vehicle controls required by driver — restriction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commandes spéciales pour le véhicule requises par le conducteur"
+        }
+      ]
+    },
+    {
+      "code": "motorcycle-restriction-s-in-effect",
+      "display": "Motorcycle restriction (s) in effect",
+      "definition": "Motorcycle restriction (s) in effect — restriction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Restriction(s) motocyclette en vigueur"
+        }
+      ]
+    },
+    {
+      "code": "class-a-vehicle-restriction-in-effect",
+      "display": "Class \"A\" vehicle restriction in effect",
+      "definition": "Class \"A\" vehicle restriction in effect — restriction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Restriction véhicule classe \"A\" en vigueur"
+        }
+      ]
+    },
+    {
+      "code": "category-s-is-for-internal-test-use-only",
+      "display": "Category \"S\" is for internal test use only",
+      "definition": "Category \"S\" is for internal test use only — restriction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Catégorie \"S\" requise aux fins d'essais à l'interne seulement"
+        }
+      ]
+    },
+    {
+      "code": "air-brake-endorsement",
+      "display": "Air brake endorsement",
+      "definition": "Air brake endorsement — restriction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avenant - Freins à air"
+        }
+      ]
+    },
+    {
+      "code": "driver-may-only-operate-vehicle-with-hand-controls",
+      "display": "Driver may only operate vehicle with hand controls",
+      "definition": "Driver may only operate vehicle with hand controls — restriction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Le conducteur peut opérer un véhicule seulement avec des commandes manuelles"
+        }
+      ]
+    },
+    {
+      "code": "more-conditions-exist",
+      "display": "More conditions exist",
+      "definition": "More conditions exist — restriction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "D'autres conditions existent"
+        }
+      ]
+    },
+    {
+      "code": "entry-level-class-a-completed",
+      "display": "Entry-Level Class A Completed",
+      "definition": "Entry-Level Class A Completed — restriction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Débutant classe A complété"
+        }
+      ]
+    },
+    {
+      "code": "class-a-road-test-completed",
+      "display": "Class A Road Test Completed",
+      "definition": "Class A Road Test Completed — restriction code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Test routier classe A complété"
+        }
+      ]
+    }
+  ]
+}

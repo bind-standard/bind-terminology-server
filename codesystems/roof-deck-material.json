@@ -1,0 +1,133 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "roof-deck-material",
+  "url": "https://bind.codes/roof-deck-material",
+  "name": "RoofDeckMaterial",
+  "title": "Roof Deck Material",
+  "status": "draft",
+  "language": "en",
+  "description": "Roof Deck Material codes for insurance operations.",
+  "concept": [
+    {
+      "code": "frame-on-steel-joists",
+      "display": "Frame on Steel Joists",
+      "definition": "Frame on Steel Joists — roof deck material code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charpente sur solives en acier"
+        }
+      ]
+    },
+    {
+      "code": "frame-on-wood-joists",
+      "display": "Frame on Wood Joists",
+      "definition": "Frame on Wood Joists — roof deck material code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charpente sur solives en bois"
+        }
+      ]
+    },
+    {
+      "code": "heavy-beam-or-mill",
+      "display": "Heavy Beam or \"Mill\"",
+      "definition": "Heavy Beam or \"Mill\" — roof deck material code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grosse poutre ou \"Mill\""
+        }
+      ]
+    },
+    {
+      "code": "poured-concrete",
+      "display": "Poured Concrete",
+      "definition": "Poured Concrete — roof deck material code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton coulé"
+        }
+      ]
+    },
+    {
+      "code": "steel-beam",
+      "display": "Steel Beam",
+      "definition": "Steel Beam — roof deck material code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poutre d'acier"
+        }
+      ]
+    },
+    {
+      "code": "steel-deck",
+      "display": "Steel deck",
+      "definition": "Steel deck — roof deck material code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coffrage métallique"
+        }
+      ]
+    },
+    {
+      "code": "protected-steel",
+      "display": "Protected Steel",
+      "definition": "Protected Steel — roof deck material code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acier protégé"
+        }
+      ]
+    },
+    {
+      "code": "concrete-on-steel",
+      "display": "Concrete on Steel",
+      "definition": "Concrete on Steel — roof deck material code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton sur acier"
+        }
+      ]
+    },
+    {
+      "code": "not-applicable",
+      "display": "Not applicable",
+      "definition": "Not applicable — roof deck material code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sans objet"
+        }
+      ]
+    },
+    {
+      "code": "O",
+      "display": "Other",
+      "definition": "Other — roof deck material code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "W",
+      "display": "Wood",
+      "definition": "Wood — roof deck material code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "glass-type",
+  "url": "https://bind.codes/glass-type",
+  "name": "GlassType",
+  "title": "Glass Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Glass Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "thermopane",
+      "display": "Thermopane",
+      "definition": "Thermopane — glass type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vitrage Thermopane"
+        }
+      ]
+    },
+    {
+      "code": "ordinary",
+      "display": "Ordinary",
+      "definition": "Ordinary — glass type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ordinaire"
+        }
+      ]
+    },
+    {
+      "code": "bulletproof",
+      "display": "Bulletproof",
+      "definition": "Bulletproof — glass type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'épreuve des balles"
+        }
+      ]
+    },
+    {
+      "code": "stained-glass",
+      "display": "Stained glass",
+      "definition": "Stained glass — glass type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vitrail"
+        }
+      ]
+    },
+    {
+      "code": "lexon",
+      "display": "Lexon",
+      "definition": "Lexon — glass type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lexan"
+        }
+      ]
+    },
+    {
+      "code": "wired-glass",
+      "display": "Wired Glass",
+      "definition": "Wired Glass — glass type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Verre armé"
+        }
+      ]
+    },
+    {
+      "code": "tinted",
+      "display": "Tinted",
+      "definition": "Tinted — glass type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Teinté"
+        }
+      ]
+    },
+    {
+      "code": "single-pane",
+      "display": "Single Pane",
+      "definition": "Single Pane — glass type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À vitrage simple"
+        }
+      ]
+    },
+    {
+      "code": "double-pane",
+      "display": "Double Pane",
+      "definition": "Double Pane — glass type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À vitrage double"
+        }
+      ]
+    },
+    {
+      "code": "gas-filled",
+      "display": "Gas Filled",
+      "definition": "Gas Filled — glass type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rempli de gaz"
+        }
+      ]
+    },
+    {
+      "code": "triple-pane",
+      "display": "Triple Pane",
+      "definition": "Triple Pane — glass type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À triple vitrage"
+        }
+      ]
+    },
+    {
+      "code": "plexiglass",
+      "display": "Plexiglass",
+      "definition": "Plexiglass — glass type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plexiglass"
+        }
+      ]
+    },
+    {
+      "code": "unknown",
+      "display": "Unknown",
+      "definition": "Unknown — glass type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        }
+      ]
+    },
+    {
+      "code": "none",
+      "display": "None",
+      "definition": "None — glass type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — glass type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    }
+  ]
+}

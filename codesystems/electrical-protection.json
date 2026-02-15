@@ -1,0 +1,27 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "electrical-protection",
+  "url": "https://bind.codes/electrical-protection",
+  "name": "ElectricalProtection",
+  "title": "Electrical Protection",
+  "status": "draft",
+  "language": "en",
+  "description": "Electrical Protection codes for insurance operations.",
+  "concept": [
+    {
+      "code": "LightningArrest",
+      "display": "Lightning Arrestor",
+      "definition": "Lightning Arrestor — electrical protection code."
+    },
+    {
+      "code": "LightningRod",
+      "display": "Lightning Rod",
+      "definition": "Lightning Rod — electrical protection code."
+    },
+    {
+      "code": "SurgeArrestor",
+      "display": "Surge Arrestor",
+      "definition": "Surge Arrestor — electrical protection code."
+    }
+  ]
+}

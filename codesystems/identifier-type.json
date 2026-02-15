@@ -1,0 +1,254 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "identifier-type",
+  "url": "https://bind.codes/identifier-type",
+  "name": "IdentifierType",
+  "title": "Identifier Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Identifier Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ADI",
+      "display": "Authority Division ID/Number",
+      "definition": "Authority Division ID/Number — identifier type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "No de la division"
+        }
+      ]
+    },
+    {
+      "code": "ALI",
+      "display": "Authority Location ID/Number",
+      "definition": "Authority Location ID/Number — identifier type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "No d'emplacement"
+        }
+      ]
+    },
+    {
+      "code": "ASI",
+      "display": "Authority Fire Station ID/Number",
+      "definition": "Authority Fire Station ID/Number — identifier type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "No du poste de pompiers"
+        }
+      ]
+    },
+    {
+      "code": "AuthorityBadge",
+      "display": "Authority Badge or ID Number",
+      "definition": "Authority Badge or ID Number — identifier type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "No d'insigne ou no d'identification"
+        }
+      ]
+    },
+    {
+      "code": "CAWCInsurer",
+      "display": "California Workers Comp Insurer",
+      "definition": "California Workers Comp Insurer — identifier type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "California Workers Comp Insurer"
+        }
+      ]
+    },
+    {
+      "code": "ClaimFile",
+      "display": "Claim File Number",
+      "definition": "Claim File Number — identifier type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Numéro de dossier de la réclamation"
+        }
+      ]
+    },
+    {
+      "code": "CsioNetId",
+      "display": "CSIOnet Id",
+      "definition": "CSIOnet Id — identifier type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Identifiant CSIOnet"
+        }
+      ]
+    },
+    {
+      "code": "CustId",
+      "display": "Customer ID",
+      "definition": "Customer ID — identifier type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "No identification du client"
+        }
+      ]
+    },
+    {
+      "code": "DriverId",
+      "display": "Driver Identifier",
+      "definition": "Driver Identifier — identifier type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Identifiant conducteur"
+        }
+      ]
+    },
+    {
+      "code": "ESN",
+      "display": "Electronic Serial Number",
+      "definition": "Electronic Serial Number — identifier type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Numéro de série électronique"
+        }
+      ]
+    },
+    {
+      "code": "FleetUnit",
+      "display": "Fleet Unit Number",
+      "definition": "Fleet Unit Number — identifier type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Numéro d'unité de la flotte"
+        }
+      ]
+    },
+    {
+      "code": "Insured",
+      "display": "Insured",
+      "definition": "Insured — identifier type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assuré"
+        }
+      ]
+    },
+    {
+      "code": "Jurisdiction",
+      "display": "Jurisdiction",
+      "definition": "Jurisdiction — identifier type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Juridiction"
+        }
+      ]
+    },
+    {
+      "code": "MachineAddress",
+      "display": "CSIO Machine Address",
+      "definition": "CSIO Machine Address — identifier type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adresse absolue pour CSIO"
+        }
+      ]
+    },
+    {
+      "code": "MGA",
+      "display": "Managing General Agency",
+      "definition": "Managing General Agency — identifier type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agence générale de gestion"
+        }
+      ]
+    },
+    {
+      "code": "NCCICovProvider",
+      "display": "NCCI Coverage Provider",
+      "definition": "NCCI Coverage Provider — identifier type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fournisseur de garantie NCCI"
+        }
+      ]
+    },
+    {
+      "code": "OSHA",
+      "display": "Occupational Safety and Health Administration",
+      "definition": "Occupational Safety and Health Administration — identifier type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Loi sur la santé et la sécurité du travail"
+        }
+      ]
+    },
+    {
+      "code": "PFC",
+      "display": "Premium Finance Company",
+      "definition": "Premium Finance Company — identifier type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société financière Premium"
+        }
+      ]
+    },
+    {
+      "code": "PriorTPA",
+      "display": "Prior Third Party Administrator",
+      "definition": "Prior Third Party Administrator — identifier type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Administrateur précédent tiers"
+        }
+      ]
+    },
+    {
+      "code": "SalesReceipt",
+      "display": "Sales Receipt",
+      "definition": "Sales Receipt — identifier type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Recettes"
+        }
+      ]
+    },
+    {
+      "code": "ThirdParty",
+      "display": "Third Party",
+      "definition": "Third Party — identifier type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tiers"
+        }
+      ]
+    },
+    {
+      "code": "TSP",
+      "display": "Telematics Service Provider",
+      "definition": "Telematics Service Provider — identifier type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fournisseur de service télématiques"
+        }
+      ]
+    }
+  ]
+}

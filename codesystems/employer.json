@@ -1,0 +1,870 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "employer",
+  "url": "https://bind.codes/employer",
+  "name": "Employer",
+  "title": "Employer",
+  "status": "draft",
+  "language": "en",
+  "description": "Employer codes for insurance operations.",
+  "concept": [
+    {
+      "code": "A0210",
+      "display": "Veterinary Office",
+      "definition": "Veterinary Office — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau de vétérinaire"
+        }
+      ]
+    },
+    {
+      "code": "A0230",
+      "display": "Agronomist Office",
+      "definition": "Agronomist Office — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau d'agronome"
+        }
+      ]
+    },
+    {
+      "code": "A3700",
+      "display": "Chemist's Office",
+      "definition": "Chemist's Office — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau de chimiste"
+        }
+      ]
+    },
+    {
+      "code": "A6030",
+      "display": "Pharmacy",
+      "definition": "Pharmacy — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pharmacie"
+        }
+      ]
+    },
+    {
+      "code": "A7000",
+      "display": "Financial Institution",
+      "definition": "Financial Institution — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Institution financière"
+        }
+      ]
+    },
+    {
+      "code": "A7200",
+      "display": "Credit Union",
+      "definition": "Credit Union — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caisse d'économie"
+        }
+      ]
+    },
+    {
+      "code": "A7300",
+      "display": "Insurance Company",
+      "definition": "Insurance Company — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie d'assurance"
+        }
+      ]
+    },
+    {
+      "code": "A7610",
+      "display": "General Insurance Brokerage",
+      "definition": "General Insurance Brokerage — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cabinet de courtage en assurance de dommages"
+        }
+      ]
+    },
+    {
+      "code": "A7615",
+      "display": "Stock/Bond Brokerage",
+      "definition": "Stock/Bond Brokerage — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cabinet de courtage en valeurs mobilières"
+        }
+      ]
+    },
+    {
+      "code": "A7730",
+      "display": "Accounting Firm",
+      "definition": "Accounting Firm — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comptable (cabinet)"
+        }
+      ]
+    },
+    {
+      "code": "A7750",
+      "display": "Engineering Firm",
+      "definition": "Engineering Firm — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ingénieur (firme)"
+        }
+      ]
+    },
+    {
+      "code": "A7751",
+      "display": "Architect Firm",
+      "definition": "Architect Firm — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Architecte (firme)"
+        }
+      ]
+    },
+    {
+      "code": "A7752",
+      "display": "Land-surveyor Firm",
+      "definition": "Land-surveyor Firm — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Arpenteur-géomètre (firme)"
+        }
+      ]
+    },
+    {
+      "code": "A7760",
+      "display": "Notary Office",
+      "definition": "Notary Office — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Notaire (cabinet)"
+        }
+      ]
+    },
+    {
+      "code": "A7761",
+      "display": "Law Office",
+      "definition": "Law Office — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avocat (cabinet)"
+        }
+      ]
+    },
+    {
+      "code": "A7790",
+      "display": "Chartered Administration Firm",
+      "definition": "Chartered Administration Firm — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Administrateur agréé (firme)"
+        }
+      ]
+    },
+    {
+      "code": "A7791",
+      "display": "Actuary Firm",
+      "definition": "Actuary Firm — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Actuaire (firme)"
+        }
+      ]
+    },
+    {
+      "code": "A8260",
+      "display": "School Board",
+      "definition": "School Board — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commission scolaire"
+        }
+      ]
+    },
+    {
+      "code": "A8300",
+      "display": "Municipality",
+      "definition": "Municipality — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Municipalité"
+        }
+      ]
+    },
+    {
+      "code": "A8301",
+      "display": "Urban Community",
+      "definition": "Urban Community — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Communauté urbaine"
+        }
+      ]
+    },
+    {
+      "code": "A8510",
+      "display": "Seminary",
+      "definition": "Seminary — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Séminaire"
+        }
+      ]
+    },
+    {
+      "code": "A8520",
+      "display": "College",
+      "definition": "College — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collège"
+        }
+      ]
+    },
+    {
+      "code": "A8521",
+      "display": "Professional School",
+      "definition": "Professional School — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "École professionnelle"
+        }
+      ]
+    },
+    {
+      "code": "A8522",
+      "display": "High School",
+      "definition": "High School — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "École secondaire"
+        }
+      ]
+    },
+    {
+      "code": "A8530",
+      "display": "University",
+      "definition": "University — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Université"
+        }
+      ]
+    },
+    {
+      "code": "A8610",
+      "display": "Hospital",
+      "definition": "Hospital — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hôpital"
+        }
+      ]
+    },
+    {
+      "code": "A8650",
+      "display": "Doctor Office",
+      "definition": "Doctor Office — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Médecin (cabinet)"
+        }
+      ]
+    },
+    {
+      "code": "A8651",
+      "display": "Dentist Office",
+      "definition": "Dentist Office — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dentiste (cabinet)"
+        }
+      ]
+    },
+    {
+      "code": "A8660",
+      "display": "Chiropractor Office",
+      "definition": "Chiropractor Office — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chiropraticien (cabinet)"
+        }
+      ]
+    },
+    {
+      "code": "A8661",
+      "display": "Optometrist Office",
+      "definition": "Optometrist Office — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Optométriste (cabinet)"
+        }
+      ]
+    },
+    {
+      "code": "A8662",
+      "display": "Dietician Office",
+      "definition": "Dietician Office — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Diététicien (cabinet)"
+        }
+      ]
+    },
+    {
+      "code": "A8663",
+      "display": "Optician Office",
+      "definition": "Optician Office — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Opticien (cabinet)"
+        }
+      ]
+    },
+    {
+      "code": "A8664",
+      "display": "Denturologist Office",
+      "definition": "Denturologist Office — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Denturologiste (cabinet)"
+        }
+      ]
+    },
+    {
+      "code": "A8665",
+      "display": "Audio-practician Office",
+      "definition": "Audio-practician Office — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Audio-omnipraticien (cabinet)"
+        }
+      ]
+    },
+    {
+      "code": "A8666",
+      "display": "Podiatrist Office",
+      "definition": "Podiatrist Office — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Podiatre (cabinet)"
+        }
+      ]
+    },
+    {
+      "code": "A8670",
+      "display": "Psychologist Office",
+      "definition": "Psychologist Office — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Psychologue (cabinet)"
+        }
+      ]
+    },
+    {
+      "code": "A9210",
+      "display": "Restaurant",
+      "definition": "Restaurant — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Restaurant"
+        }
+      ]
+    },
+    {
+      "code": "A9211",
+      "display": "Hotel/Motel",
+      "definition": "Hotel/Motel — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hôtel/motel"
+        }
+      ]
+    },
+    {
+      "code": "A9212",
+      "display": "Bar/Disco/Brasserie",
+      "definition": "Bar/Disco/Brasserie — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bar/discothèque/brasserie"
+        }
+      ]
+    },
+    {
+      "code": "A9810",
+      "display": "Parish Church",
+      "definition": "Parish Church — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Église paroissiale"
+        }
+      ]
+    },
+    {
+      "code": "A9990",
+      "display": "Private Society (more than 25 employees)",
+      "definition": "Private Society (more than 25 employees) — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société privée (plus de 25 employés)"
+        }
+      ]
+    },
+    {
+      "code": "B4810",
+      "display": "Bell Canada",
+      "definition": "Bell Canada — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bell Canada"
+        }
+      ]
+    },
+    {
+      "code": "B4811",
+      "display": "Northern Telecom",
+      "definition": "Northern Telecom — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Northern Telecom"
+        }
+      ]
+    },
+    {
+      "code": "B4812",
+      "display": "Quebec Telephone",
+      "definition": "Quebec Telephone — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Québec-Téléphone"
+        }
+      ]
+    },
+    {
+      "code": "B4813",
+      "display": "Telebec",
+      "definition": "Telebec — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Télébec"
+        }
+      ]
+    },
+    {
+      "code": "B4840",
+      "display": "Canada Post Corporation",
+      "definition": "Canada Post Corporation — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société canadienne des postes"
+        }
+      ]
+    },
+    {
+      "code": "B4910",
+      "display": "Hydro Quebec",
+      "definition": "Hydro Quebec — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hydro-Québec"
+        }
+      ]
+    },
+    {
+      "code": "B6020",
+      "display": "Quebec Liquor Board",
+      "definition": "Quebec Liquor Board — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société des Alcools du Québec"
+        }
+      ]
+    },
+    {
+      "code": "B7050",
+      "display": "Desjardins Group",
+      "definition": "Desjardins Group — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Groupe Desjardins"
+        }
+      ]
+    },
+    {
+      "code": "B7210",
+      "display": "Quebec Investment Society",
+      "definition": "Quebec Investment Society — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société d'investissement du Québec"
+        }
+      ]
+    },
+    {
+      "code": "B8110",
+      "display": "Canadian Armed Forces",
+      "definition": "Canadian Armed Forces — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Forces armées canadiennes"
+        }
+      ]
+    },
+    {
+      "code": "B8150",
+      "display": "Federal Government (Ministry or Department)",
+      "definition": "Federal Government (Ministry or Department) — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gouvernement fédéral (ministère ou département)"
+        }
+      ]
+    },
+    {
+      "code": "B8190",
+      "display": "Federal Government (Other)",
+      "definition": "Federal Government (Other) — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gouvernement fédéral (autre)"
+        }
+      ]
+    },
+    {
+      "code": "B8220",
+      "display": "Quebec Surety",
+      "definition": "Quebec Surety — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sûreté du Québec"
+        }
+      ]
+    },
+    {
+      "code": "B8250",
+      "display": "Provincial Government (Ministry or Department)",
+      "definition": "Provincial Government (Ministry or Department) — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gouvernement provincial (ministère ou département)"
+        }
+      ]
+    },
+    {
+      "code": "B8290",
+      "display": "Provincial Government (Other)",
+      "definition": "Provincial Government (Other) — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gouvernement provincial (autre)"
+        }
+      ]
+    },
+    {
+      "code": "B8611",
+      "display": "Honore-Mercier Hospital",
+      "definition": "Honore-Mercier Hospital — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hôpital Honoré-Mercier"
+        }
+      ]
+    },
+    {
+      "code": "B8670",
+      "display": "CLSC (Centre Local de Services Communautaires/Local Community Centre)",
+      "definition": "CLSC (Centre Local de Services Communautaires/Local Community Centre) — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "CLSC (Centre local de services communautaires)"
+        }
+      ]
+    },
+    {
+      "code": "B9820",
+      "display": "ATEQ (Assoc. des Transport d’Écoliers du Quebec/Assoc. Of Quebec Schoolbus Drivers",
+      "definition": "ATEQ (Assoc. des Transport d’Écoliers du Quebec/Assoc. Of Quebec Schoolbus Drivers — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "ATEQ (Association du transport écolier du Québec)"
+        }
+      ]
+    },
+    {
+      "code": "B9840",
+      "display": "ASPPCQ (Assoc. des Syndicats des Professionnelles et Professionnels de Collège du Quebec/Quebec College Professionals Unions Assoc.)",
+      "definition": "ASPPCQ (Assoc. des Syndicats des Professionnelles et Professionnels de Collège du Quebec/Quebec College Professionals Unions Assoc.) — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "ASPPCQ (Association des syndicats des professionnelles et professionnels des collèges du Québec)"
+        }
+      ]
+    },
+    {
+      "code": "B9900",
+      "display": "Self-employed",
+      "definition": "Self-employed — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travailleur autonome"
+        }
+      ]
+    },
+    {
+      "code": "B9901",
+      "display": "Un-employed",
+      "definition": "Un-employed — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sans emploi"
+        }
+      ]
+    },
+    {
+      "code": "B9999",
+      "display": "Other",
+      "definition": "Other — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "C0001",
+      "display": "APAVQ",
+      "definition": "APAVQ — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "APAVQ"
+        }
+      ]
+    },
+    {
+      "code": "C0003",
+      "display": "Caisse Economie",
+      "definition": "Caisse Economie — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caisse d'économie"
+        }
+      ]
+    },
+    {
+      "code": "C0004",
+      "display": "Construction Company",
+      "definition": "Construction Company — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie de construction"
+        }
+      ]
+    },
+    {
+      "code": "C0005",
+      "display": "Day Care Institution",
+      "definition": "Day Care Institution — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Établissement de soins de jour"
+        }
+      ]
+    },
+    {
+      "code": "C0006",
+      "display": "Education Institution",
+      "definition": "Education Institution — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Établissement d'enseignement"
+        }
+      ]
+    },
+    {
+      "code": "C0007",
+      "display": "Federation, Conf., Ins. & Corporation",
+      "definition": "Federation, Conf., Ins. & Corporation — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fédération, conf., instit. et corporation"
+        }
+      ]
+    },
+    {
+      "code": "C0008",
+      "display": "Medical Clinic",
+      "definition": "Medical Clinic — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clinique médicale"
+        }
+      ]
+    },
+    {
+      "code": "C0010",
+      "display": "National Association of Retirees",
+      "definition": "National Association of Retirees — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association nationale de retraités"
+        }
+      ]
+    },
+    {
+      "code": "C0011",
+      "display": "Oil and Gas Company",
+      "definition": "Oil and Gas Company — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie de pétrole et de gaz"
+        }
+      ]
+    },
+    {
+      "code": "C0012",
+      "display": "Phone Company",
+      "definition": "Phone Company — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie de téléphone"
+        }
+      ]
+    },
+    {
+      "code": "C0013",
+      "display": "R.C.M.P.",
+      "definition": "R.C.M.P. — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "GRC"
+        }
+      ]
+    },
+    {
+      "code": "C0014",
+      "display": "Retail",
+      "definition": "Retail — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente au détail"
+        }
+      ]
+    },
+    {
+      "code": "C0015",
+      "display": "Scientific Institution",
+      "definition": "Scientific Institution — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Établissement scientifique"
+        }
+      ]
+    },
+    {
+      "code": "C0016",
+      "display": "Trust Company",
+      "definition": "Trust Company — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société de fiducie"
+        }
+      ]
+    },
+    {
+      "code": "C0017",
+      "display": "Forestry Company",
+      "definition": "Forestry Company — employer code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie forestière"
+        }
+      ]
+    }
+  ]
+}

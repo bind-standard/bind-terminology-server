@@ -1,0 +1,133 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "detached-structure-type",
+  "url": "https://bind.codes/detached-structure-type",
+  "name": "DetachedStructureType",
+  "title": "Detached Structure Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Detached Structure Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "built-in",
+      "display": "Built in",
+      "definition": "Built in — detached structure type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Encastré"
+        }
+      ]
+    },
+    {
+      "code": "basement",
+      "display": "Basement",
+      "definition": "Basement — detached structure type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous-sol"
+        }
+      ]
+    },
+    {
+      "code": "carport",
+      "display": "Carport",
+      "definition": "Carport — detached structure type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Abri d'auto"
+        }
+      ]
+    },
+    {
+      "code": "attached-frame",
+      "display": "Attached Frame",
+      "definition": "Attached Frame — detached structure type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Attachée - Charpente de bois"
+        }
+      ]
+    },
+    {
+      "code": "attached-masonry-or-masonry-veneer",
+      "display": "Attached Masonry or Masonry/Veneer",
+      "definition": "Attached Masonry or Masonry/Veneer — detached structure type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Attachée - Maçonnerie ou parement de maçonnerie"
+        }
+      ]
+    },
+    {
+      "code": "detached-frame",
+      "display": "Detached Frame",
+      "definition": "Detached Frame — detached structure type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détachée - en bois"
+        }
+      ]
+    },
+    {
+      "code": "detached-masonry-or-masonry-veneer",
+      "display": "Detached Masonry or Masonry/Veneer",
+      "definition": "Detached Masonry or Masonry/Veneer — detached structure type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détachée - Maçonnerie ou parement de maçonnerie"
+        }
+      ]
+    },
+    {
+      "code": "attached-masonry",
+      "display": "Attached - Masonry",
+      "definition": "Attached - Masonry — detached structure type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Attachée - Maçonnerie"
+        }
+      ]
+    },
+    {
+      "code": "basement-under-attached-garage",
+      "display": "Basement Under Attached Garage",
+      "definition": "Basement Under Attached Garage — detached structure type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous-sol sous garage attaché"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "display": "Carport With Storage",
+      "definition": "Carport With Storage — detached structure type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Abri d'auto avec espace de rangement"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "display": "Detached Garage - Masonry",
+      "definition": "Detached Garage - Masonry — detached structure type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage détaché - Maçonnerie"
+        }
+      ]
+    }
+  ]
+}

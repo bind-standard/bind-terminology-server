@@ -1,0 +1,67 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "background-check",
+  "url": "https://bind.codes/background-check",
+  "name": "BackgroundCheck",
+  "title": "Background Check",
+  "status": "draft",
+  "language": "en",
+  "description": "Background Check codes for insurance operations.",
+  "concept": [
+    {
+      "code": "credit-check",
+      "display": "Credit Check",
+      "definition": "Credit Check — background check code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vérification de crédit"
+        }
+      ]
+    },
+    {
+      "code": "criminal-check",
+      "display": "Criminal Check",
+      "definition": "Criminal Check — background check code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vérification du casier judiciaire"
+        }
+      ]
+    },
+    {
+      "code": "employment-check",
+      "display": "Employment Check",
+      "definition": "Employment Check — background check code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vérification de l’emploi"
+        }
+      ]
+    },
+    {
+      "code": "references",
+      "display": "References",
+      "definition": "References — background check code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Références"
+        }
+      ]
+    },
+    {
+      "code": "none",
+      "display": "None",
+      "definition": "None — background check code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        }
+      ]
+    }
+  ]
+}

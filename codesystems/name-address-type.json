@@ -1,0 +1,166 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "name-address-type",
+  "url": "https://bind.codes/name-address-type",
+  "name": "NameAddressType",
+  "title": "Name Address Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Name Address Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "employer",
+      "display": "Employer",
+      "definition": "Employer — name address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employeur"
+        }
+      ]
+    },
+    {
+      "code": "brokers",
+      "display": "Brokers",
+      "definition": "Brokers — name address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courtiers"
+        }
+      ]
+    },
+    {
+      "code": "dispatchers",
+      "display": "Dispatchers",
+      "definition": "Dispatchers — name address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Répartiteurs"
+        }
+      ]
+    },
+    {
+      "code": "vehicle-lessees",
+      "display": "Vehicle Lessees",
+      "definition": "Vehicle Lessees — name address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Locataires de véhicule"
+        }
+      ]
+    },
+    {
+      "code": "plate-lessees",
+      "display": "Plate Lessees",
+      "definition": "Plate Lessees — name address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Locataires de plaques d'immatriculation"
+        }
+      ]
+    },
+    {
+      "code": "name-and-address-on-filing-certificate",
+      "display": "Name and Address on Filing Certificate",
+      "definition": "Name and Address on Filing Certificate — name address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nom et adresse sur le certificat de dépôt"
+        }
+      ]
+    },
+    {
+      "code": "spouse",
+      "display": "Spouse",
+      "definition": "Spouse — name address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Époux - Épouse - Conjoint(e)"
+        }
+      ]
+    },
+    {
+      "code": "dependant",
+      "display": "Dependant",
+      "definition": "Dependant — name address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Personne à charge"
+        }
+      ]
+    },
+    {
+      "code": "co-habitant",
+      "display": "Co-habitant",
+      "definition": "Co-habitant — name address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cohabitant"
+        }
+      ]
+    },
+    {
+      "code": "other-previous-mailing-address",
+      "display": "Other Previous Mailing Address",
+      "definition": "Other Previous Mailing Address — name address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre adresse postale précédente"
+        }
+      ]
+    },
+    {
+      "code": "storage-facility",
+      "display": "Storage Facility",
+      "definition": "Storage Facility — name address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreposage"
+        }
+      ]
+    },
+    {
+      "code": "financial-institution",
+      "display": "Financial Institution",
+      "definition": "Financial Institution — name address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Institution financière"
+        }
+      ]
+    },
+    {
+      "code": "account-holder",
+      "display": "Account Holder",
+      "definition": "Account Holder — name address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Titulaire de compte"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — name address type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    }
+  ]
+}

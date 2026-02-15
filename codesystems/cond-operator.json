@@ -1,0 +1,89 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "cond-operator",
+  "url": "https://bind.codes/cond-operator",
+  "name": "CondOperator",
+  "title": "Cond Operator",
+  "status": "draft",
+  "language": "en",
+  "description": "Cond Operator codes for insurance operations.",
+  "concept": [
+    {
+      "code": "EQ",
+      "display": "Equal",
+      "definition": "Equal — cond operator code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Égal"
+        }
+      ]
+    },
+    {
+      "code": "GT",
+      "display": "Greater than",
+      "definition": "Greater than — cond operator code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plus grand que"
+        }
+      ]
+    },
+    {
+      "code": "GTE",
+      "display": "Greater than or equal",
+      "definition": "Greater than or equal — cond operator code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plus grand que ou égal"
+        }
+      ]
+    },
+    {
+      "code": "IN",
+      "display": "In",
+      "definition": "In — cond operator code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dans"
+        }
+      ]
+    },
+    {
+      "code": "LT",
+      "display": "Less than",
+      "definition": "Less than — cond operator code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plus petit que"
+        }
+      ]
+    },
+    {
+      "code": "LTE",
+      "display": "Less than or equal",
+      "definition": "Less than or equal — cond operator code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plus petit que ou égal"
+        }
+      ]
+    },
+    {
+      "code": "NEQ",
+      "display": "Not Equal",
+      "definition": "Not Equal — cond operator code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pas égal"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "method-of-payment",
+  "url": "https://bind.codes/method-of-payment",
+  "name": "MethodOfPayment",
+  "title": "Method Of Payment",
+  "status": "draft",
+  "language": "en",
+  "description": "Method Of Payment codes for insurance operations.",
+  "concept": [
+    {
+      "code": "american-express-amex",
+      "display": "American Express (AMEX)",
+      "definition": "American Express (AMEX) — method of payment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "American Express (AMEX)"
+        }
+      ]
+    },
+    {
+      "code": "mastercard",
+      "display": "MasterCard",
+      "definition": "MasterCard — method of payment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "MasterCard"
+        }
+      ]
+    },
+    {
+      "code": "visa",
+      "display": "Visa",
+      "definition": "Visa — method of payment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Visa"
+        }
+      ]
+    },
+    {
+      "code": "diners-club",
+      "display": "Diners Club",
+      "definition": "Diners Club — method of payment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Diners Club"
+        }
+      ]
+    },
+    {
+      "code": "discover-card",
+      "display": "Discover Card",
+      "definition": "Discover Card — method of payment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Discover Card"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — method of payment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "CC",
+      "display": "Cash, Cheque, Money Order",
+      "definition": "Cash, Cheque, Money Order — method of payment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Argent comptant, chèque, mandat-poste"
+        }
+      ]
+    },
+    {
+      "code": "CD",
+      "display": "Credit Card",
+      "definition": "Credit Card — method of payment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Carte de crédit"
+        }
+      ]
+    },
+    {
+      "code": "DC",
+      "display": "Debit Card",
+      "definition": "Debit Card — method of payment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Carte de débit"
+        }
+      ]
+    },
+    {
+      "code": "EF",
+      "display": "Electronic Funds Transfer",
+      "definition": "Electronic Funds Transfer — method of payment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transfert électronique de fonds"
+        }
+      ]
+    },
+    {
+      "code": "SD",
+      "display": "Salary Deduction",
+      "definition": "Salary Deduction — method of payment code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Retenue salariale"
+        }
+      ]
+    }
+  ]
+}

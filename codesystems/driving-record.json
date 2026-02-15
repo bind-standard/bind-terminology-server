@@ -1,0 +1,947 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "driving-record",
+  "url": "https://bind.codes/driving-record",
+  "name": "DrivingRecord",
+  "title": "Driving Record",
+  "status": "draft",
+  "language": "en",
+  "description": "Driving Record codes for insurance operations.",
+  "concept": [
+    {
+      "code": "A",
+      "display": "Accident Related",
+      "definition": "Accident Related — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En rapport avec l'accident"
+        }
+      ]
+    },
+    {
+      "code": "ACC",
+      "display": "Accident",
+      "definition": "Accident — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accident"
+        }
+      ]
+    },
+    {
+      "code": "ACCAF",
+      "display": "At Fault Accident",
+      "definition": "At Fault Accident — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accident responsable"
+        }
+      ]
+    },
+    {
+      "code": "ACCNF",
+      "display": "Not At fault Accident",
+      "definition": "Not At fault Accident — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accident non responsable"
+        }
+      ]
+    },
+    {
+      "code": "ADMOV",
+      "display": "All other moving violations.",
+      "definition": "All other moving violations. — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toutes autres infractions aux règles de la circulation"
+        }
+      ]
+    },
+    {
+      "code": "ADV",
+      "display": "All other non-moving violations.",
+      "definition": "All other non-moving violations. — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toute autre infraction - véhicule stationnaire"
+        }
+      ]
+    },
+    {
+      "code": "BIACC",
+      "display": "Leaving scene of accident resulting in bodily injury",
+      "definition": "Leaving scene of accident resulting in bodily injury — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Quitter les lieux de l'accident causant des lésions corporelles"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "display": "Criminal Code Conviction",
+      "definition": "Criminal Code Conviction — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Condamnation selon le code criminel"
+        }
+      ]
+    },
+    {
+      "code": "CARE",
+      "display": "Careless Driving",
+      "definition": "Careless Driving — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite négligente"
+        }
+      ]
+    },
+    {
+      "code": "CIT",
+      "display": "Citation was issued",
+      "definition": "Citation was issued — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Émission d'un avertissement"
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "display": "Driving While Under the Influence (Drugs or Alcohol)",
+      "definition": "Driving While Under the Influence (Drugs or Alcohol) — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite avec facultés affaiblies (drogues ou alcool)"
+        }
+      ]
+    },
+    {
+      "code": "DBA",
+      "display": "Driving with Blood Level of .10 or 1% or more",
+      "definition": "Driving with Blood Level of .10 or 1% or more — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite avec un niveau sanguin de .10 ou 1% ou supérieur"
+        }
+      ]
+    },
+    {
+      "code": "DBT",
+      "display": "Breath Test Failure",
+      "definition": "Breath Test Failure — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Échec de l'alcootest"
+        }
+      ]
+    },
+    {
+      "code": "DOC",
+      "display": "Drugs - Open Container",
+      "definition": "Drugs - Open Container — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Drogues - contenant ouvert"
+        }
+      ]
+    },
+    {
+      "code": "DPO",
+      "display": "Possession of Drugs or Alcohol",
+      "definition": "Possession of Drugs or Alcohol — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Possession de drogues ou d'alcool"
+        }
+      ]
+    },
+    {
+      "code": "DTS",
+      "display": "Transporting Illegal Drugs",
+      "definition": "Transporting Illegal Drugs — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transport de drogues illicites"
+        }
+      ]
+    },
+    {
+      "code": "DWI",
+      "display": "Driving while intoxicated or under the influence of drugs.",
+      "definition": "Driving while intoxicated or under the influence of drugs. — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite en état d'ébriété ou sous l'effet de drogues"
+        }
+      ]
+    },
+    {
+      "code": "DWIDD",
+      "display": "Driving while under the influence of drugs",
+      "definition": "Driving while under the influence of drugs — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite sous l'effet d'une drogue"
+        }
+      ]
+    },
+    {
+      "code": "DWLS",
+      "display": "Driving while license is suspended or revoked or without a valid drivers license.",
+      "definition": "Driving while license is suspended or revoked or without a valid drivers license. — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite avec permis de conduire suspendu ou retiré ou sans permis de conduire"
+        }
+      ]
+    },
+    {
+      "code": "ENDGR",
+      "display": "Operating to endanger",
+      "definition": "Operating to endanger — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite dangereuse"
+        }
+      ]
+    },
+    {
+      "code": "EQUIP",
+      "display": "Motor Vehicle equipment violation",
+      "definition": "Motor Vehicle equipment violation — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction équipement de véhicule automobile"
+        }
+      ]
+    },
+    {
+      "code": "FFC",
+      "display": "Filing False Claim",
+      "definition": "Filing False Claim — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déposer une fausse réclamation"
+        }
+      ]
+    },
+    {
+      "code": "FFD",
+      "display": "Filing False Document",
+      "definition": "Filing False Document — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déposer un faux document"
+        }
+      ]
+    },
+    {
+      "code": "FRP",
+      "display": "Filing False Report",
+      "definition": "Filing False Report — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déposer un faux rapport"
+        }
+      ]
+    },
+    {
+      "code": "FSRL",
+      "display": "Failure to stop at red light.",
+      "definition": "Failure to stop at red light. — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de s'arrêter à un feu rouge"
+        }
+      ]
+    },
+    {
+      "code": "FSSS",
+      "display": "Failure to stop at a stop sign.",
+      "definition": "Failure to stop at a stop sign. — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de s'arrêter à un panneau d'arrêt"
+        }
+      ]
+    },
+    {
+      "code": "FTSSB",
+      "display": "Failure to stop for a school bus",
+      "definition": "Failure to stop for a school bus — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de s'arrêter pour un autobus scolaire"
+        }
+      ]
+    },
+    {
+      "code": "HOM",
+      "display": "Manslaughter, homicide, or assault arising out of the operation of a motor vehicle or criminal negligence in the operation of motor vehicle resulting in death.",
+      "definition": "Manslaughter, homicide, or assault arising out of the operation of a motor vehicle or criminal negligence in the operation of motor vehicle resulting in death. — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Homicide involontaire, homicide, ou assaut provenant de l'opération d'un véhicule automobile ou de négligence criminelle dans le fonctionnement d'un véhicule automobile causant la mort."
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "display": "Operating Without Insurance",
+      "definition": "Operating Without Insurance — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduire sans assurance"
+        }
+      ]
+    },
+    {
+      "code": "JEO",
+      "display": "Eluding a police officer",
+      "definition": "Eluding a police officer — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Éluder un policier"
+        }
+      ]
+    },
+    {
+      "code": "JFE",
+      "display": "Felony involving the use of a vehicle",
+      "definition": "Felony involving the use of a vehicle — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Crime impliquant l'usage d'un véhicule"
+        }
+      ]
+    },
+    {
+      "code": "JMA",
+      "display": "Manslaughter",
+      "definition": "Manslaughter — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Homicide involontaire"
+        }
+      ]
+    },
+    {
+      "code": "JND",
+      "display": "Negligent Driving",
+      "definition": "Negligent Driving — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite négligente"
+        }
+      ]
+    },
+    {
+      "code": "JNH",
+      "display": "Negligent Homicide",
+      "definition": "Negligent Homicide — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Homicide par négligence"
+        }
+      ]
+    },
+    {
+      "code": "L",
+      "display": "Operating Without a license",
+      "definition": "Operating Without a license — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduire sans permis"
+        }
+      ]
+    },
+    {
+      "code": "LAL",
+      "display": "Operating with Altered Drivers License",
+      "definition": "Operating with Altered Drivers License — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduire avec un permis de conduire falsifié"
+        }
+      ]
+    },
+    {
+      "code": "LBS",
+      "display": "Operating with Borrowed or Stolen License",
+      "definition": "Operating with Borrowed or Stolen License — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduire avec un permis emprunté ou volé"
+        }
+      ]
+    },
+    {
+      "code": "LDR",
+      "display": "Limited driving experience.",
+      "definition": "Limited driving experience. — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Expérience de conduite limitée"
+        }
+      ]
+    },
+    {
+      "code": "LEX",
+      "display": "Expired License",
+      "definition": "Expired License — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Permis échu"
+        }
+      ]
+    },
+    {
+      "code": "LMR",
+      "display": "Obtaining a license by Misrepresentation",
+      "definition": "Obtaining a license by Misrepresentation — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Obtenir un permis en faisant de fausses déclarations"
+        }
+      ]
+    },
+    {
+      "code": "LNL",
+      "display": "No Operator's License Exists",
+      "definition": "No Operator's License Exists — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Permis de conducteur inexistant"
+        }
+      ]
+    },
+    {
+      "code": "LSR",
+      "display": "License suspended or revocation due to any violation",
+      "definition": "License suspended or revocation due to any violation — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Permis suspendu ou retrait suite à une infraction"
+        }
+      ]
+    },
+    {
+      "code": "LXL",
+      "display": "Expired License Plate",
+      "definition": "Expired License Plate — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plaque d'immatriculation échue"
+        }
+      ]
+    },
+    {
+      "code": "M",
+      "display": "Medical Reasons",
+      "definition": "Medical Reasons — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Raisons médicales"
+        }
+      ]
+    },
+    {
+      "code": "MBV",
+      "display": "Seat Belt Violation",
+      "definition": "Seat Belt Violation — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction - Ceinture de sécurité"
+        }
+      ]
+    },
+    {
+      "code": "MFC",
+      "display": "Failure to Control Vehicle",
+      "definition": "Failure to Control Vehicle — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de contrôler le véhicule"
+        }
+      ]
+    },
+    {
+      "code": "MIB",
+      "display": "Improper Backing",
+      "definition": "Improper Backing — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marche arrière incorrecte"
+        }
+      ]
+    },
+    {
+      "code": "MID",
+      "display": "Impaired Driving",
+      "definition": "Impaired Driving — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite avec facultés affaiblies"
+        }
+      ]
+    },
+    {
+      "code": "MIL",
+      "display": "Improper Lane Violation",
+      "definition": "Improper Lane Violation — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction - Voie incorrecte"
+        }
+      ]
+    },
+    {
+      "code": "MIN",
+      "display": "Driving without Insurance",
+      "definition": "Driving without Insurance — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite sans assurance"
+        }
+      ]
+    },
+    {
+      "code": "MTC",
+      "display": "Following Too Close",
+      "definition": "Following Too Close — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Talonnage"
+        }
+      ]
+    },
+    {
+      "code": "MTO",
+      "display": "Towing Improper Load Size",
+      "definition": "Towing Improper Load Size — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorquage - Chargement de taille irrégulière"
+        }
+      ]
+    },
+    {
+      "code": "MUN",
+      "display": "Permitting Unlicensed Driver to Drive",
+      "definition": "Permitting Unlicensed Driver to Drive — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Permettre à un conducteur sans permis, de conduire"
+        }
+      ]
+    },
+    {
+      "code": "MWS",
+      "display": "Driving on Wrong Side of Road",
+      "definition": "Driving on Wrong Side of Road — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite du mauvais côté de la route"
+        }
+      ]
+    },
+    {
+      "code": "MYP",
+      "display": "Failure to Yield to a Pedestrian",
+      "definition": "Failure to Yield to a Pedestrian — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de céder le passage à un piéton"
+        }
+      ]
+    },
+    {
+      "code": "MYR",
+      "display": "Failure to Yield Right of Way",
+      "definition": "Failure to Yield Right of Way — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de céder le passage"
+        }
+      ]
+    },
+    {
+      "code": "NVIO",
+      "display": "No violation",
+      "definition": "No violation — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucune infraction"
+        }
+      ]
+    },
+    {
+      "code": "O",
+      "display": "Other",
+      "definition": "Other — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "OT",
+      "display": "Other",
+      "definition": "Other — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "OWI",
+      "display": "Operating Without Insurance",
+      "definition": "Operating Without Insurance — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduire sans assurance"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Points Accumulation",
+      "definition": "Points Accumulation — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accumulation de points de démérite"
+        }
+      ]
+    },
+    {
+      "code": "PARK",
+      "display": "Parking Violation",
+      "definition": "Parking Violation — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction - stationnement"
+        }
+      ]
+    },
+    {
+      "code": "PASS",
+      "display": "Passing Violation",
+      "definition": "Passing Violation — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction - dépassement"
+        }
+      ]
+    },
+    {
+      "code": "PDACC",
+      "display": "Leaving scene of accident resulting in property damage",
+      "definition": "Leaving scene of accident resulting in property damage — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Quitter les lieux de l'accident causant des dommages matériels"
+        }
+      ]
+    },
+    {
+      "code": "PNTS",
+      "display": "Points",
+      "definition": "Points — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Points"
+        }
+      ]
+    },
+    {
+      "code": "POL",
+      "display": "Failure to obey police officer",
+      "definition": "Failure to obey police officer — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Refus d'obéir à un policier"
+        }
+      ]
+    },
+    {
+      "code": "Q",
+      "display": "Administration License Suspension",
+      "definition": "Administration License Suspension — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Suspension de licence d'administration"
+        }
+      ]
+    },
+    {
+      "code": "RACE",
+      "display": "Speed contest on public road.",
+      "definition": "Speed contest on public road. — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Concours de vitesse sur la voie publique"
+        }
+      ]
+    },
+    {
+      "code": "RECKL",
+      "display": "Reckless driving or negligent driving.",
+      "definition": "Reckless driving or negligent driving. — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite imprudente ou conduite négligente"
+        }
+      ]
+    },
+    {
+      "code": "RFRF",
+      "display": "Required to file financial responsibility filing.",
+      "definition": "Required to file financial responsibility filing. — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Doit déposer une demande de responsabilité financière"
+        }
+      ]
+    },
+    {
+      "code": "RL",
+      "display": "Restricted License.",
+      "definition": "Restricted License. — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Permis restreint"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "Speeding",
+      "definition": "Speeding — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Excès de vitesse"
+        }
+      ]
+    },
+    {
+      "code": "SEN",
+      "display": "Energy Speed Zone",
+      "definition": "Energy Speed Zone — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Zone de vitesse énergie"
+        }
+      ]
+    },
+    {
+      "code": "SOBR",
+      "display": "Refusal to take sobriety test",
+      "definition": "Refusal to take sobriety test — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Refus de subir un test de dépistage d'alcool"
+        }
+      ]
+    },
+    {
+      "code": "SPEED",
+      "display": "Speeding",
+      "definition": "Speeding — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Excès de vitesse"
+        }
+      ]
+    },
+    {
+      "code": "SRWI",
+      "display": "Driving a motor vehicle at an excessive rate of speed or reckless manner where injury to person or damage to property actually results therefrom.",
+      "definition": "Driving a motor vehicle at an excessive rate of speed or reckless manner where injury to person or damage to property actually results therefrom. — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduire un véhicule à moteur à un rapport de vitesse excessif ou la façon insouciante où les dommages à la personne ou aux dommages à la propriété résultent réellement de là."
+        }
+      ]
+    },
+    {
+      "code": "STF",
+      "display": "Driving Too Fast for Conditions",
+      "definition": "Driving Too Fast for Conditions — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vitesse excessive pour les conditions atmosphériques"
+        }
+      ]
+    },
+    {
+      "code": "STOP",
+      "display": "Failure to stop and report when involved in an accident.",
+      "definition": "Failure to stop and report when involved in an accident. — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de s'arrêter et de faire rapport lorsqu'impliqué dans un accident"
+        }
+      ]
+    },
+    {
+      "code": "T",
+      "display": "Unpaid Ticket",
+      "definition": "Unpaid Ticket — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contravention impayée"
+        }
+      ]
+    },
+    {
+      "code": "THEFT",
+      "display": "Vehicle theft.",
+      "definition": "Vehicle theft. — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol de véhicule"
+        }
+      ]
+    },
+    {
+      "code": "TURN",
+      "display": "Turning Violation",
+      "definition": "Turning Violation — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction - Virement interdit"
+        }
+      ]
+    },
+    {
+      "code": "VIN",
+      "display": "Remove or Falsify VIN",
+      "definition": "Remove or Falsify VIN — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "NIV enlevé ou falsifié"
+        }
+      ]
+    },
+    {
+      "code": "VIO",
+      "display": "Violation",
+      "definition": "Violation — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction"
+        }
+      ]
+    },
+    {
+      "code": "VNC",
+      "display": "Violation was committed but no citation was issued",
+      "definition": "Violation was committed but no citation was issued — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction commise mais aucune citation émise"
+        }
+      ]
+    },
+    {
+      "code": "VRL",
+      "display": "Driving in violation of provisions of restricted license.",
+      "definition": "Driving in violation of provisions of restricted license. — driving record code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite en contravention aux dispositions d'un permis restreint."
+        }
+      ]
+    }
+  ]
+}

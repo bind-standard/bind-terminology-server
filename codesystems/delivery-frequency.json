@@ -1,0 +1,45 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "delivery-frequency",
+  "url": "https://bind.codes/delivery-frequency",
+  "name": "DeliveryFrequency",
+  "title": "Delivery Frequency",
+  "status": "draft",
+  "language": "en",
+  "description": "Delivery Frequency codes for insurance operations.",
+  "concept": [
+    {
+      "code": "full-time",
+      "display": "Full-time",
+      "definition": "Full-time — delivery frequency code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Temps plein"
+        }
+      ]
+    },
+    {
+      "code": "incidental",
+      "display": "Incidental",
+      "definition": "Incidental — delivery frequency code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Occasionnel"
+        }
+      ]
+    },
+    {
+      "code": "seasonal",
+      "display": "Seasonal",
+      "definition": "Seasonal — delivery frequency code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Saisonnier"
+        }
+      ]
+    }
+  ]
+}

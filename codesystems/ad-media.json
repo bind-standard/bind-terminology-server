@@ -1,0 +1,122 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ad-media",
+  "url": "https://bind.codes/ad-media",
+  "name": "AdMedia",
+  "title": "Ad Media",
+  "status": "draft",
+  "language": "en",
+  "description": "Ad Media codes for insurance operations.",
+  "concept": [
+    {
+      "code": "billboard",
+      "display": "Billboard",
+      "definition": "Billboard — ad media code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Panneau-réclame"
+        }
+      ]
+    },
+    {
+      "code": "blimp-airplane-banner",
+      "display": "Blimp/Airplane Banner",
+      "definition": "Blimp/Airplane Banner — ad media code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dirigeable / Bannière d'avion"
+        }
+      ]
+    },
+    {
+      "code": "internet-website",
+      "display": "Internet/Website",
+      "definition": "Internet/Website — ad media code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Internet/Site Web"
+        }
+      ]
+    },
+    {
+      "code": "printed-publication",
+      "display": "Printed Publication",
+      "definition": "Printed Publication — ad media code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Imprimé"
+        }
+      ]
+    },
+    {
+      "code": "radio",
+      "display": "Radio",
+      "definition": "Radio — ad media code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Radio"
+        }
+      ]
+    },
+    {
+      "code": "television",
+      "display": "Television",
+      "definition": "Television — ad media code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Télévision"
+        }
+      ]
+    },
+    {
+      "code": "hot-air-balloon",
+      "display": "Hot Air Balloon",
+      "definition": "Hot Air Balloon — ad media code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Montgolfière"
+        }
+      ]
+    },
+    {
+      "code": "flyer-leaflet-pamphlet",
+      "display": "Flyer/Leaflet/Pamphlet",
+      "definition": "Flyer/Leaflet/Pamphlet — ad media code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Encart/prospectus/dépliant"
+        }
+      ]
+    },
+    {
+      "code": "t-shirt-or-other-clothing",
+      "display": "T-Shirt or Other Clothing",
+      "definition": "T-Shirt or Other Clothing — ad media code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tee-shirt ou autre vêtement"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — ad media code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    }
+  ]
+}

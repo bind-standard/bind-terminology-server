@@ -1,0 +1,1266 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "code-list-owner",
+  "url": "https://bind.codes/code-list-owner",
+  "name": "CodeListOwner",
+  "title": "Code List Owner",
+  "status": "draft",
+  "language": "en",
+  "description": "Code List Owner codes for insurance operations.",
+  "concept": [
+    {
+      "code": "AAI",
+      "display": "Alliance of American Insurers",
+      "definition": "Alliance of American Insurers — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Alliance of American Insurers"
+        }
+      ]
+    },
+    {
+      "code": "AAMVAnet",
+      "display": "American Association of Motor Vehicle Administrators",
+      "definition": "American Association of Motor Vehicle Administrators — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "American Association of Motor Vehicle Administrators"
+        }
+      ]
+    },
+    {
+      "code": "AASCIF",
+      "display": "American Association of State Compensation Insurance Funds",
+      "definition": "American Association of State Compensation Insurance Funds — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "American Association of State Compensation Insurance Funds"
+        }
+      ]
+    },
+    {
+      "code": "ABI",
+      "display": "Association of British Insurers",
+      "definition": "Association of British Insurers — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association of British Insurers"
+        }
+      ]
+    },
+    {
+      "code": "ACORD",
+      "display": "ACORD",
+      "definition": "ACORD — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "ACORD"
+        }
+      ]
+    },
+    {
+      "code": "AHC",
+      "display": "ACTIVEX for Healthcare",
+      "definition": "ACTIVEX for Healthcare — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "ACTIVEX for Healthcare"
+        }
+      ]
+    },
+    {
+      "code": "AIA",
+      "display": "American Insurance Association",
+      "definition": "American Insurance Association — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "American Insurance Association"
+        }
+      ]
+    },
+    {
+      "code": "AIIM",
+      "display": "The Association for Information and Image Management",
+      "definition": "The Association for Information and Image Management — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "The Association for Information and Image Management"
+        }
+      ]
+    },
+    {
+      "code": "ANSI",
+      "display": "American National Standards Institute",
+      "definition": "American National Standards Institute — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "American National Standards Institute"
+        }
+      ]
+    },
+    {
+      "code": "ANSIX12",
+      "display": "Insurance, Healthcare, and Finance Task Groups and Subcommittees",
+      "definition": "Insurance, Healthcare, and Finance Task Groups and Subcommittees — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Insurance, Healthcare, and Finance Task Groups and Subcommittees"
+        }
+      ]
+    },
+    {
+      "code": "APS",
+      "display": "Associacao Portuguesa de Seguradores",
+      "definition": "Associacao Portuguesa de Seguradores — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Associacao Portuguesa de Seguradores"
+        }
+      ]
+    },
+    {
+      "code": "ASA",
+      "display": "Automotive Service Association",
+      "definition": "Automotive Service Association — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Automotive Service Association"
+        }
+      ]
+    },
+    {
+      "code": "ASTM",
+      "display": "American Society for Testing and Materials",
+      "definition": "American Society for Testing and Materials — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "American Society for Testing and Materials"
+        }
+      ]
+    },
+    {
+      "code": "AWG",
+      "display": "Andover Working Group",
+      "definition": "Andover Working Group — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Andover Working Group"
+        }
+      ]
+    },
+    {
+      "code": "BC",
+      "display": "Biometrics Consortium",
+      "definition": "Biometrics Consortium — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Biometrics Consortium"
+        }
+      ]
+    },
+    {
+      "code": "BLS",
+      "display": "Bureau of Labor Statistics",
+      "definition": "Bureau of Labor Statistics — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau of Labor Statistics"
+        }
+      ]
+    },
+    {
+      "code": "BT",
+      "display": "BizTalk",
+      "definition": "BizTalk — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "BizTalk"
+        }
+      ]
+    },
+    {
+      "code": "CAA",
+      "display": "California Autobody Association",
+      "definition": "California Autobody Association — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "California Autobody Association"
+        }
+      ]
+    },
+    {
+      "code": "CAP",
+      "display": "Canada Post",
+      "definition": "Canada Post — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Postes Canada"
+        }
+      ]
+    },
+    {
+      "code": "CCOW",
+      "display": "Clinical Context Object Workgroup",
+      "definition": "Clinical Context Object Workgroup — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clinical Context Object Workgroup"
+        }
+      ]
+    },
+    {
+      "code": "CEFACTUNEDIFACT",
+      "display": "Insurance, Healthcare and Finance Subworking Groups",
+      "definition": "Insurance, Healthcare and Finance Subworking Groups — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Insurance, Healthcare and Finance Subworking Groups"
+        }
+      ]
+    },
+    {
+      "code": "CENISSS",
+      "display": "Information Society Standardization System",
+      "definition": "Information Society Standardization System — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Information Society Standardization System"
+        }
+      ]
+    },
+    {
+      "code": "CIC",
+      "display": "Collision Industry Conference",
+      "definition": "Collision Industry Conference — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collision Industry Conference"
+        }
+      ]
+    },
+    {
+      "code": "CIECA",
+      "display": "Collision Industry Electronic Commerce Association",
+      "definition": "Collision Industry Electronic Commerce Association — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collision Industry Electronic Commerce Association"
+        }
+      ]
+    },
+    {
+      "code": "CLIEDIS",
+      "display": "Canadian Life Electronic Data Interchange Standards",
+      "definition": "Canadian Life Electronic Data Interchange Standards — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canadian Life Electronic Data Interchange Standards"
+        }
+      ]
+    },
+    {
+      "code": "CO",
+      "display": "Commerce one",
+      "definition": "Commerce one — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commerce one"
+        }
+      ]
+    },
+    {
+      "code": "CORBAmed",
+      "display": "Common Object Request Broker Architecture (in healthcare)",
+      "definition": "Common Object Request Broker Architecture (in healthcare) — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Common Object Request Broker Architecture (in healthcare)"
+        }
+      ]
+    },
+    {
+      "code": "CPEX",
+      "display": "Customer Profile Exchange",
+      "definition": "Customer Profile Exchange — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Customer Profile Exchange"
+        }
+      ]
+    },
+    {
+      "code": "CRESTA",
+      "display": "Catastrophe Risk Evaluating and Standardizing Target Accumulations",
+      "definition": "Catastrophe Risk Evaluating and Standardizing Target Accumulations — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Catastrophe Risk Evaluating and Standardizing Target Accumulations"
+        }
+      ]
+    },
+    {
+      "code": "CSIO",
+      "display": "Centre for Study of Insurance Operations",
+      "definition": "Centre for Study of Insurance Operations — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Centre d'Étude de la Pratique d'Assurance"
+        }
+      ]
+    },
+    {
+      "code": "CTSB",
+      "display": "Information and Communications Technology Standards Board",
+      "definition": "Information and Communications Technology Standards Board — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Information and Communications Technology Standards Board"
+        }
+      ]
+    },
+    {
+      "code": "DICOM",
+      "display": "Digital Imaging and Communications in Medicine",
+      "definition": "Digital Imaging and Communications in Medicine — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Digital Imaging and Communications in Medicine"
+        }
+      ]
+    },
+    {
+      "code": "DISA",
+      "display": "Digital Interchange Standards Association",
+      "definition": "Digital Interchange Standards Association — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Digital Interchange Standards Association"
+        }
+      ]
+    },
+    {
+      "code": "DLS",
+      "display": "Department of Labor and Statistics",
+      "definition": "Department of Labor and Statistics — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Department of Labor and Statistics"
+        }
+      ]
+    },
+    {
+      "code": "DTCC",
+      "display": "Depository Trust and Clearing Corporation",
+      "definition": "Depository Trust and Clearing Corporation — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Depository Trust and Clearing Corporation"
+        }
+      ]
+    },
+    {
+      "code": "ebXML",
+      "display": "electronic business eXtensible Markup Language",
+      "definition": "electronic business eXtensible Markup Language — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "electronic business eXtensible Markup Language"
+        }
+      ]
+    },
+    {
+      "code": "ECMA",
+      "display": "European Computer Manufacturers Association",
+      "definition": "European Computer Manufacturers Association — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association européenne de constructeurs d'ordinateurs"
+        }
+      ]
+    },
+    {
+      "code": "eEG7",
+      "display": "Western European EDIFACT Group for Insurance",
+      "definition": "Western European EDIFACT Group for Insurance — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Western European EDIFACT Group for Insurance"
+        }
+      ]
+    },
+    {
+      "code": "FBI",
+      "display": "Federal Bureau of Investigation",
+      "definition": "Federal Bureau of Investigation — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Federal Bureau of Investigation"
+        }
+      ]
+    },
+    {
+      "code": "FESG",
+      "display": "FUNDSERV Electronic Standards Group",
+      "definition": "FUNDSERV Electronic Standards Group — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "FUNDSERV Electronic Standards Group"
+        }
+      ]
+    },
+    {
+      "code": "FHA",
+      "display": "Federal Highway Administration",
+      "definition": "Federal Highway Administration — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Administration fédérale des autoroutes"
+        }
+      ]
+    },
+    {
+      "code": "FIPA",
+      "display": "Foundation for Intelligent Physical Agents",
+      "definition": "Foundation for Intelligent Physical Agents — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foundation for Intelligent Physical Agents"
+        }
+      ]
+    },
+    {
+      "code": "FIX",
+      "display": "Financial Information eXchange Protocol",
+      "definition": "Financial Information eXchange Protocol — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Financial Information eXchange Protocol"
+        }
+      ]
+    },
+    {
+      "code": "FMCSA",
+      "display": "Federal Motor Carrier Safety Administration",
+      "definition": "Federal Motor Carrier Safety Administration — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Federal Motor Carrier Safety Administration"
+        }
+      ]
+    },
+    {
+      "code": "FpML",
+      "display": "Financial Products Markup Language",
+      "definition": "Financial Products Markup Language — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Langage FpML (Financial Products Markup Language)"
+        }
+      ]
+    },
+    {
+      "code": "GSTPA",
+      "display": "Global Straight Through Processing Association",
+      "definition": "Global Straight Through Processing Association — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Global Straight Through Processing Association"
+        }
+      ]
+    },
+    {
+      "code": "HEG",
+      "display": "Healthcare EDIFACT Group",
+      "definition": "Healthcare EDIFACT Group — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Healthcare EDIFACT Group"
+        }
+      ]
+    },
+    {
+      "code": "HL7",
+      "display": "Health Level Seven",
+      "definition": "Health Level Seven — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Health Level Seven"
+        }
+      ]
+    },
+    {
+      "code": "HRXMLConsortium",
+      "display": "Human Resources Extensible Markup Language Vocabularies",
+      "definition": "Human Resources Extensible Markup Language Vocabularies — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Human Resources Extensible Markup Language Vocabularies"
+        }
+      ]
+    },
+    {
+      "code": "I3STF",
+      "display": "Insurance Industry Internet Task Force",
+      "definition": "Insurance Industry Internet Task Force — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Insurance Industry Internet Task Force"
+        }
+      ]
+    },
+    {
+      "code": "IAA",
+      "display": "Insurance Application Architecture",
+      "definition": "Insurance Application Architecture — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Insurance Application Architecture"
+        }
+      ]
+    },
+    {
+      "code": "IAIABC",
+      "display": "International Association of Industrial Accident Boards and Commissions",
+      "definition": "International Association of Industrial Accident Boards and Commissions — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association internationale des régies et commissions des accidents du travail"
+        }
+      ]
+    },
+    {
+      "code": "IAO",
+      "display": "Insurer's Advisory Organization Inc.",
+      "definition": "Insurer's Advisory Organization Inc. — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Groupement technique des assureurs"
+        }
+      ]
+    },
+    {
+      "code": "IBC",
+      "display": "Insurance Bureau of Canada",
+      "definition": "Insurance Bureau of Canada — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau d'assurance du Canada"
+        }
+      ]
+    },
+    {
+      "code": "IDA",
+      "display": "Investment Dealers Association of Canada",
+      "definition": "Investment Dealers Association of Canada — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association canadienne des courtiers en valeurs mobilières"
+        }
+      ]
+    },
+    {
+      "code": "IDMA",
+      "display": "Insurance Data Management Association",
+      "definition": "Insurance Data Management Association — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Insurance Data Management Association"
+        }
+      ]
+    },
+    {
+      "code": "IEEE",
+      "display": "Institute of Electrical and Electronics Engineers, Inc.",
+      "definition": "Institute of Electrical and Electronics Engineers, Inc. — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Institute of Electrical and Electronics Engineers, Inc."
+        }
+      ]
+    },
+    {
+      "code": "IETF",
+      "display": "Internet Engineering Task Force",
+      "definition": "Internet Engineering Task Force — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Internet Engineering Task Force"
+        }
+      ]
+    },
+    {
+      "code": "IFIC",
+      "display": "Investment Funds Institute of Canada",
+      "definition": "Investment Funds Institute of Canada — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Institut des fonds d'investissement du Canada"
+        }
+      ]
+    },
+    {
+      "code": "IFX",
+      "display": "Interactive Financial Exchange Forum",
+      "definition": "Interactive Financial Exchange Forum — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Interactive Financial Exchange Forum"
+        }
+      ]
+    },
+    {
+      "code": "IICC",
+      "display": "IICC Advisory Council for the Uninsured Vehicle Project",
+      "definition": "IICC Advisory Council for the Uninsured Vehicle Project — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "IICC Advisory Council for the Uninsured Vehicle Project"
+        }
+      ]
+    },
+    {
+      "code": "III",
+      "display": "Institute for Information Industry",
+      "definition": "Institute for Information Industry — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Institute for Information Industry"
+        }
+      ]
+    },
+    {
+      "code": "INS",
+      "display": "Immigration and Naturalization Services",
+      "definition": "Immigration and Naturalization Services — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Immigration and Naturalization Services"
+        }
+      ]
+    },
+    {
+      "code": "ISAC",
+      "display": "Canadian Industry Standards Advisory Committee",
+      "definition": "Canadian Industry Standards Advisory Committee — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comité consultatif sur les normes de l'industrie canadien"
+        }
+      ]
+    },
+    {
+      "code": "ISITC",
+      "display": "Industry Standardization for Institutional Trade Communication",
+      "definition": "Industry Standardization for Institutional Trade Communication — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Industry Standardization for Institutional Trade Communication"
+        }
+      ]
+    },
+    {
+      "code": "ISO",
+      "display": "International Organization for Standardization",
+      "definition": "International Organization for Standardization — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Organisation internationale de normalisation"
+        }
+      ]
+    },
+    {
+      "code": "ISOUS",
+      "display": "Insurance Services Office",
+      "definition": "Insurance Services Office — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Insurance Services Office"
+        }
+      ]
+    },
+    {
+      "code": "IVANS",
+      "display": "Insurance Value Added Network",
+      "definition": "Insurance Value Added Network — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Insurance Value Added Network"
+        }
+      ]
+    },
+    {
+      "code": "JV",
+      "display": "Joint Venture for International Insurance and Reinsurance",
+      "definition": "Joint Venture for International Insurance and Reinsurance — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Joint Venture for International Insurance and Reinsurance"
+        }
+      ]
+    },
+    {
+      "code": "MIB",
+      "display": "Medical Information Bureau",
+      "definition": "Medical Information Bureau — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Medical Information Bureau"
+        }
+      ]
+    },
+    {
+      "code": "MISMO",
+      "display": "Mortgage Industry Data Standards Maintenance Organization",
+      "definition": "Mortgage Industry Data Standards Maintenance Organization — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mortgage Industry Data Standards Maintenance Organization"
+        }
+      ]
+    },
+    {
+      "code": "MMCF",
+      "display": "Multimedia Communications Forum",
+      "definition": "Multimedia Communications Forum — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Multimedia Communications Forum"
+        }
+      ]
+    },
+    {
+      "code": "NACHA",
+      "display": "National Automated Clearinghouse Association",
+      "definition": "National Automated Clearinghouse Association — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "National Automated Clearinghouse Association"
+        }
+      ]
+    },
+    {
+      "code": "NAGS",
+      "display": "National Auto Glass Specifications",
+      "definition": "National Auto Glass Specifications — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "National Auto Glass Specifications"
+        }
+      ]
+    },
+    {
+      "code": "NAIC",
+      "display": "National Association of Insurance Commissioners",
+      "definition": "National Association of Insurance Commissioners — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "National Association of Insurance Commissioners"
+        }
+      ]
+    },
+    {
+      "code": "NAII",
+      "display": "National Association of Independent Insurers",
+      "definition": "National Association of Independent Insurers — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "National Association of Independent Insurers"
+        }
+      ]
+    },
+    {
+      "code": "NAILBA",
+      "display": "National Association of Life Brokerage Agencies",
+      "definition": "National Association of Life Brokerage Agencies — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "National Association of Life Brokerage Agencies"
+        }
+      ]
+    },
+    {
+      "code": "NAVA",
+      "display": "National Association of Variable Annuities",
+      "definition": "National Association of Variable Annuities — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "National Association of Variable Annuities"
+        }
+      ]
+    },
+    {
+      "code": "NCCI",
+      "display": "National Council on Compensation Insurance",
+      "definition": "National Council on Compensation Insurance — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "National Council on Compensation Insurance"
+        }
+      ]
+    },
+    {
+      "code": "NCITS",
+      "display": "National Committee for Information Technology Standards",
+      "definition": "National Committee for Information Technology Standards — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "National Committee for Information Technology Standards"
+        }
+      ]
+    },
+    {
+      "code": "NCPDP",
+      "display": "National Council for Prescription Drug Programs",
+      "definition": "National Council for Prescription Drug Programs — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "National Council for Prescription Drug Programs"
+        }
+      ]
+    },
+    {
+      "code": "NHTSA",
+      "display": "National Highway Traffic Safety Administration",
+      "definition": "National Highway Traffic Safety Administration — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "National Highway Traffic Safety Administration"
+        }
+      ]
+    },
+    {
+      "code": "NICB",
+      "display": "National Insurance Crime Bureau",
+      "definition": "National Insurance Crime Bureau — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "National Insurance Crime Bureau"
+        }
+      ]
+    },
+    {
+      "code": "NISO",
+      "display": "National Information Standards Organization",
+      "definition": "National Information Standards Organization — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "National Information Standards Organization"
+        }
+      ]
+    },
+    {
+      "code": "NSIT",
+      "display": "National Institute for Standards Technology",
+      "definition": "National Institute for Standards Technology — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "National Institute for Standards Technology"
+        }
+      ]
+    },
+    {
+      "code": "OAG",
+      "display": "Open Applications Group",
+      "definition": "Open Applications Group — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Open Applications Group"
+        }
+      ]
+    },
+    {
+      "code": "OASIS",
+      "display": "Organization for the Advancement of Structured Information Standards",
+      "definition": "Organization for the Advancement of Structured Information Standards — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Organization for the Advancement of Structured Information Standards"
+        }
+      ]
+    },
+    {
+      "code": "OBI",
+      "display": "Open Buying on the Internet",
+      "definition": "Open Buying on the Internet — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Libre achat sur Internet"
+        }
+      ]
+    },
+    {
+      "code": "OFX",
+      "display": "Open Financial Exchange",
+      "definition": "Open Financial Exchange — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Libre échange financier"
+        }
+      ]
+    },
+    {
+      "code": "OMG",
+      "display": "Object Management Group",
+      "definition": "Object Management Group — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Object Management Group"
+        }
+      ]
+    },
+    {
+      "code": "ORIGO",
+      "display": "Origo Limited",
+      "definition": "Origo Limited — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Origo Limited"
+        }
+      ]
+    },
+    {
+      "code": "OSHA",
+      "display": "Occupational Safety and Health Administration",
+      "definition": "Occupational Safety and Health Administration — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Occupational Safety and Health Administration"
+        }
+      ]
+    },
+    {
+      "code": "PRDP",
+      "display": "Public Risk Database Project",
+      "definition": "Public Risk Database Project — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Projet Base de données publique du risque"
+        }
+      ]
+    },
+    {
+      "code": "RAA",
+      "display": "Reinsurance Association of America",
+      "definition": "Reinsurance Association of America — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Reinsurance Association of America"
+        }
+      ]
+    },
+    {
+      "code": "REDX",
+      "display": "Retail Enterprise Data in XML",
+      "definition": "Retail Enterprise Data in XML — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Retail Enterprise Data in XML"
+        }
+      ]
+    },
+    {
+      "code": "RN",
+      "display": "Rosettanet",
+      "definition": "Rosettanet — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rosettanet"
+        }
+      ]
+    },
+    {
+      "code": "SCRS",
+      "display": "Society of Collision Repair Specialists",
+      "definition": "Society of Collision Repair Specialists — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Society of Collision Repair Specialists"
+        }
+      ]
+    },
+    {
+      "code": "SEMI",
+      "display": "Semiconductor Equipment and Material International",
+      "definition": "Semiconductor Equipment and Material International — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Semiconductor Equipment and Material International"
+        }
+      ]
+    },
+    {
+      "code": "SWIFT",
+      "display": "Society for Worldwide Interbank Financial Telecommunications",
+      "definition": "Society for Worldwide Interbank Financial Telecommunications — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Society for Worldwide Interbank Financial Telecommunications"
+        }
+      ]
+    },
+    {
+      "code": "TEG",
+      "display": "Transport EDIFACT Group",
+      "definition": "Transport EDIFACT Group — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transport EDIFACT Group"
+        }
+      ]
+    },
+    {
+      "code": "TMForum",
+      "display": "TeleManagement Forum",
+      "definition": "TeleManagement Forum — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "TeleManagement Forum"
+        }
+      ]
+    },
+    {
+      "code": "TMWG",
+      "display": "Techniques and Methodologies Working Group",
+      "definition": "Techniques and Methodologies Working Group — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Techniques and Methodologies Working Group"
+        }
+      ]
+    },
+    {
+      "code": "UCC",
+      "display": "Uniform Code Council",
+      "definition": "Uniform Code Council — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Uniform Code Council"
+        }
+      ]
+    },
+    {
+      "code": "UNCITL",
+      "display": "UN Conference on International Trade Law",
+      "definition": "UN Conference on International Trade Law — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conférence des Nations Unies sur le droit commercial international"
+        }
+      ]
+    },
+    {
+      "code": "UNCTD",
+      "display": "UN Conference on Trade and development",
+      "definition": "UN Conference on Trade and development — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conférence des Nations Unies sur le commerce et le développement"
+        }
+      ]
+    },
+    {
+      "code": "USNBTCSJSU",
+      "display": "U.S. National Biometric Test Center at San Jose State University",
+      "definition": "U.S. National Biometric Test Center at San Jose State University — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "U.S. National Biometric Test Center at San Jose State University"
+        }
+      ]
+    },
+    {
+      "code": "USSS",
+      "display": "U.S. Secret Service",
+      "definition": "U.S. Secret Service — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "U.S. Secret Service"
+        }
+      ]
+    },
+    {
+      "code": "W3C",
+      "display": "World Wide Web Consortium",
+      "definition": "World Wide Web Consortium — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consortium World Wide Web"
+        }
+      ]
+    },
+    {
+      "code": "WCIO",
+      "display": "Workers Compensation Insurance Organizations",
+      "definition": "Workers Compensation Insurance Organizations — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Workers Compensation Insurance Organizations"
+        }
+      ]
+    },
+    {
+      "code": "WCO",
+      "display": "World Customs Organization",
+      "definition": "World Customs Organization — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Organisation mondiale des douanes"
+        }
+      ]
+    },
+    {
+      "code": "WFMC",
+      "display": "WorkFlow Management Consortium",
+      "definition": "WorkFlow Management Consortium — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "WorkFlow Management Consortium"
+        }
+      ]
+    },
+    {
+      "code": "WISe",
+      "display": "Worldwide Insurance eCommerce",
+      "definition": "Worldwide Insurance eCommerce — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Worldwide Insurance eCommerce"
+        }
+      ]
+    },
+    {
+      "code": "WTO",
+      "display": "World Trade Organization",
+      "definition": "World Trade Organization — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Organisation mondiale du commerce"
+        }
+      ]
+    },
+    {
+      "code": "XBRL",
+      "display": "extensible Business Reporting Language",
+      "definition": "extensible Business Reporting Language — code list owner code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "extensible Business Reporting Language"
+        }
+      ]
+    }
+  ]
+}

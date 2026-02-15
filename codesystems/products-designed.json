@@ -1,0 +1,45 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "products-designed",
+  "url": "https://bind.codes/products-designed",
+  "name": "ProductsDesigned",
+  "title": "Products Designed",
+  "status": "draft",
+  "language": "en",
+  "description": "Products Designed codes for insurance operations.",
+  "concept": [
+    {
+      "code": "to-the-customer-s-specifications",
+      "display": "To the customer’s specifications",
+      "definition": "To the customer’s specifications — products designed code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aux spécifications du clients"
+        }
+      ]
+    },
+    {
+      "code": "made-to-an-outside-consultant-s-design",
+      "display": "Made to an outside consultant’s design",
+      "definition": "Made to an outside consultant’s design — products designed code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fait à partir du design d’un consultant externe"
+        }
+      ]
+    },
+    {
+      "code": "by-the-insured",
+      "display": "By the insured",
+      "definition": "By the insured — products designed code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par l’assuré"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "elevator-type",
+  "url": "https://bind.codes/elevator-type",
+  "name": "ElevatorType",
+  "title": "Elevator Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Elevator Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "freight",
+      "display": "Freight",
+      "definition": "Freight — elevator type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Monte-charge"
+        }
+      ]
+    },
+    {
+      "code": "passenger",
+      "display": "Passenger",
+      "definition": "Passenger — elevator type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ascenseur"
+        }
+      ]
+    },
+    {
+      "code": "combined-passenger-and-freight",
+      "display": "Combined, Passenger and Freight",
+      "definition": "Combined, Passenger and Freight — elevator type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Combiné, ascenseur et monte-charge"
+        }
+      ]
+    },
+    {
+      "code": "vehicle",
+      "display": "Vehicle",
+      "definition": "Vehicle — elevator type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule"
+        }
+      ]
+    },
+    {
+      "code": "escalators",
+      "display": "Escalators",
+      "definition": "Escalators — elevator type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Escaliers mécaniques"
+        }
+      ]
+    },
+    {
+      "code": "rolling-sidewalk-pedway",
+      "display": "Rolling Sidewalk/Pedway",
+      "definition": "Rolling Sidewalk/Pedway — elevator type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trottoir roulant/passage piétonnier"
+        }
+      ]
+    },
+    {
+      "code": "conveyor",
+      "display": "Conveyor",
+      "definition": "Conveyor — elevator type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Convoyeur"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other — elevator type code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    }
+  ]
+}

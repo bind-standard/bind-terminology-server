@@ -1,0 +1,89 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "year-identifier",
+  "url": "https://bind.codes/year-identifier",
+  "name": "YearIdentifier",
+  "title": "Year Identifier",
+  "status": "draft",
+  "language": "en",
+  "description": "Year Identifier codes for insurance operations.",
+  "concept": [
+    {
+      "code": "Current",
+      "display": "Current Year",
+      "definition": "Current Year — year identifier code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exercice courant"
+        }
+      ]
+    },
+    {
+      "code": "Last",
+      "display": "Last Year",
+      "definition": "Last Year — year identifier code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Année passée"
+        }
+      ]
+    },
+    {
+      "code": "Last12",
+      "display": "Last 12 months",
+      "definition": "Last 12 months — year identifier code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Au cours des 12 derniers mois"
+        }
+      ]
+    },
+    {
+      "code": "Next",
+      "display": "Next Year",
+      "definition": "Next Year — year identifier code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Année prochaine"
+        }
+      ]
+    },
+    {
+      "code": "Next12",
+      "display": "Next 12 months",
+      "definition": "Next 12 months — year identifier code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dans les prochains 12 mois"
+        }
+      ]
+    },
+    {
+      "code": "ThreeAgo",
+      "display": "Three Years Ago",
+      "definition": "Three Years Ago — year identifier code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Depuis 3 ans"
+        }
+      ]
+    },
+    {
+      "code": "TwoAgo",
+      "display": "Two Years Ago",
+      "definition": "Two Years Ago — year identifier code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Depuis 2 ans"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "legal-entity",
+  "url": "https://bind.codes/legal-entity",
+  "name": "LegalEntity",
+  "title": "Legal Entity",
+  "status": "draft",
+  "language": "en",
+  "description": "Legal Entity codes for insurance operations.",
+  "concept": [
+    {
+      "code": "non-profit-organization",
+      "display": "Non-profit Organization",
+      "definition": "Non-profit Organization — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Organisme à but non lucratif"
+        }
+      ]
+    },
+    {
+      "code": "organization",
+      "display": "Organization",
+      "definition": "Organization — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Organisme"
+        }
+      ]
+    },
+    {
+      "code": "parishes",
+      "display": "Parishes",
+      "definition": "Parishes — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Paroisses"
+        }
+      ]
+    },
+    {
+      "code": "town",
+      "display": "Town",
+      "definition": "Town — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ville"
+        }
+      ]
+    },
+    {
+      "code": "village",
+      "display": "Village",
+      "definition": "Village — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Village"
+        }
+      ]
+    },
+    {
+      "code": "region",
+      "display": "Region",
+      "definition": "Region — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Région"
+        }
+      ]
+    },
+    {
+      "code": "city",
+      "display": "City",
+      "definition": "City — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ville"
+        }
+      ]
+    },
+    {
+      "code": "charity-registered",
+      "display": "Charity, Registered",
+      "definition": "Charity, Registered — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Oeuvre de  de bienfaisance, enregistrée"
+        }
+      ]
+    },
+    {
+      "code": "charity-non-registered",
+      "display": "Charity, Non-registered",
+      "definition": "Charity, Non-registered — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Œuvre de bienfaisance, non enregistrée"
+        }
+      ]
+    },
+    {
+      "code": "condominium-corporation",
+      "display": "Condominium Corporation",
+      "definition": "Condominium Corporation — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copropriétés d'immeubles"
+        }
+      ]
+    },
+    {
+      "code": "AS",
+      "display": "Association",
+      "definition": "Association — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association"
+        }
+      ]
+    },
+    {
+      "code": "CC",
+      "display": "City Commission",
+      "definition": "City Commission — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commission municipale"
+        }
+      ]
+    },
+    {
+      "code": "CD",
+      "display": "City Department",
+      "definition": "City Department — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Département municipal"
+        }
+      ]
+    },
+    {
+      "code": "CE",
+      "display": "Co-employers",
+      "definition": "Co-employers — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coemployeurs"
+        }
+      ]
+    },
+    {
+      "code": "CH",
+      "display": "Church",
+      "definition": "Church — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Église"
+        }
+      ]
+    },
+    {
+      "code": "CP",
+      "display": "Corporation",
+      "definition": "Corporation — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Personne morale"
+        }
+      ]
+    },
+    {
+      "code": "CS",
+      "display": "Corporations (More Than One)",
+      "definition": "Corporations (More Than One) — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Personnes morales (plus d'une)"
+        }
+      ]
+    },
+    {
+      "code": "CY",
+      "display": "County",
+      "definition": "County — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comté"
+        }
+      ]
+    },
+    {
+      "code": "ES",
+      "display": "Estate of",
+      "definition": "Estate of — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Succession de"
+        }
+      ]
+    },
+    {
+      "code": "FR",
+      "display": "Fraternity",
+      "definition": "Fraternity — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fraternité"
+        }
+      ]
+    },
+    {
+      "code": "GA",
+      "display": "Government Agency",
+      "definition": "Government Agency — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agence gouvernementale"
+        }
+      ]
+    },
+    {
+      "code": "HO",
+      "display": "Hospital",
+      "definition": "Hospital — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hôpital"
+        }
+      ]
+    },
+    {
+      "code": "IN",
+      "display": "Individual",
+      "definition": "Individual — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Individu"
+        }
+      ]
+    },
+    {
+      "code": "IS",
+      "display": "Individuals (more than one)",
+      "definition": "Individuals (more than one) — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Individus (plus d'un)"
+        }
+      ]
+    },
+    {
+      "code": "JV",
+      "display": "Joint Venture",
+      "definition": "Joint Venture — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société en participation"
+        }
+      ]
+    },
+    {
+      "code": "LL",
+      "display": "Limited Liability Company",
+      "definition": "Limited Liability Company — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société à responsabilité limitée"
+        }
+      ]
+    },
+    {
+      "code": "LP",
+      "display": "Limited Partnership",
+      "definition": "Limited Partnership — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société en commandite simple"
+        }
+      ]
+    },
+    {
+      "code": "MU",
+      "display": "Municipality",
+      "definition": "Municipality — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Municipalité"
+        }
+      ]
+    },
+    {
+      "code": "OT",
+      "display": "Other",
+      "definition": "Other — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "PA",
+      "display": "Parish",
+      "definition": "Parish — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Paroisse"
+        }
+      ]
+    },
+    {
+      "code": "PE",
+      "display": "Registered Private Enterprise",
+      "definition": "Registered Private Enterprise — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreprise privée enregistrée"
+        }
+      ]
+    },
+    {
+      "code": "PR",
+      "display": "Proprietorship",
+      "definition": "Proprietorship — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreprise individuelle"
+        }
+      ]
+    },
+    {
+      "code": "PT",
+      "display": "Partnership",
+      "definition": "Partnership — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société de personnes"
+        }
+      ]
+    },
+    {
+      "code": "RE",
+      "display": "Individuals Related",
+      "definition": "Individuals Related — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Individus apparentés"
+        }
+      ]
+    },
+    {
+      "code": "SB",
+      "display": "School Board",
+      "definition": "School Board — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commission scolaire"
+        }
+      ]
+    },
+    {
+      "code": "SC",
+      "display": "School",
+      "definition": "School — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "École"
+        }
+      ]
+    },
+    {
+      "code": "SO",
+      "display": "Sorority",
+      "definition": "Sorority — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sororité"
+        }
+      ]
+    },
+    {
+      "code": "SY",
+      "display": "Synagogue",
+      "definition": "Synagogue — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Synagogue"
+        }
+      ]
+    },
+    {
+      "code": "TN",
+      "display": "Township",
+      "definition": "Township — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canton"
+        }
+      ]
+    },
+    {
+      "code": "TR",
+      "display": "Trust",
+      "definition": "Trust — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fiducie"
+        }
+      ]
+    },
+    {
+      "code": "UA",
+      "display": "Unincorporated Association",
+      "definition": "Unincorporated Association — legal entity code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association sans personnalité morale"
+        }
+      ]
+    }
+  ]
+}
