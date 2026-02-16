@@ -46,7 +46,7 @@ export const LookupResultSchema = z
     system: z.string(),
     code: z.string(),
     display: z.string(),
-    definition: z.string(),
+    definition: z.string().optional(),
     designation: z.array(DesignationSchema).optional(),
   })
   .openapi("LookupResult");

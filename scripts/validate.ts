@@ -21,7 +21,7 @@ const URL_PATTERN = /^https:\/\/bind\.codes\/[a-z][a-z0-9-]*$/;
 interface Concept {
   code: string;
   display: string;
-  definition: string;
+  definition?: string;
 }
 
 let errors = 0;
@@ -116,10 +116,6 @@ async function main(): Promise<void> {
       }
       if (!concept.display || typeof concept.display !== "string") {
         fail(file, `Concept "${concept.code}": missing or empty 'display'`);
-        fileOk = false;
-      }
-      if (!concept.definition || typeof concept.definition !== "string") {
-        fail(file, `Concept "${concept.code}": missing or empty 'definition'`);
         fileOk = false;
       }
       if (codes.has(concept.code)) {
