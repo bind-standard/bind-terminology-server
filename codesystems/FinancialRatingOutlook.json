@@ -1,0 +1,57 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "FinancialRatingOutlook",
+  "url": "https://bind.codes/FinancialRatingOutlook",
+  "name": "FinancialRatingOutlook",
+  "title": "Financial Rating Outlook",
+  "status": "draft",
+  "language": "en",
+  "description": "Directional indicators published by rating agencies on the expected trajectory of a financial strength rating.",
+  "concept": [
+    {
+      "code": "STBL",
+      "display": "Stable",
+      "definition": "The rating is expected to remain at its current level.",
+      "designation": [
+        { "language": "fr-CA", "value": "Stable" },
+        { "language": "es-MX", "value": "Estable" }
+      ]
+    },
+    {
+      "code": "POSV",
+      "display": "Positive",
+      "definition": "The rating may be upgraded in the near term.",
+      "designation": [
+        { "language": "fr-CA", "value": "Positif" },
+        { "language": "es-MX", "value": "Positivo" }
+      ]
+    },
+    {
+      "code": "NEGV",
+      "display": "Negative",
+      "definition": "The rating may be downgraded in the near term.",
+      "designation": [
+        { "language": "fr-CA", "value": "Négatif" },
+        { "language": "es-MX", "value": "Negativo" }
+      ]
+    },
+    {
+      "code": "DEVL",
+      "display": "Developing",
+      "definition": "The rating could move in any direction due to unresolved events or transactions.",
+      "designation": [
+        { "language": "fr-CA", "value": "En développement" },
+        { "language": "es-MX", "value": "En desarrollo" }
+      ]
+    },
+    {
+      "code": "URVW",
+      "display": "Under Review",
+      "definition": "The rating is being re-evaluated and may change imminently.",
+      "designation": [
+        { "language": "fr-CA", "value": "En cours de révision" },
+        { "language": "es-MX", "value": "Bajo revisión" }
+      ]
+    }
+  ]
+}

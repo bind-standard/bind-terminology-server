@@ -1,0 +1,57 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "GeneratorIdentifier",
+  "url": "https://bind.codes/GeneratorIdentifier",
+  "name": "GeneratorIdentifier",
+  "title": "Generator Identifier",
+  "status": "draft",
+  "language": "en",
+  "description": "Generator Identifier codes for insurance operations.",
+  "concept": [
+    {
+      "code": "AUTO",
+      "display": "Automatic",
+      "definition": "The identifier is generated automatically by a system without human intervention.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Automatique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Automático"
+        }
+      ]
+    },
+    {
+      "code": "MANL",
+      "display": "Manual",
+      "definition": "The identifier is generated manually by a user or operator.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Manuel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Manual"
+        }
+      ]
+    },
+    {
+      "code": "SEMI",
+      "display": "Semi-Automatic",
+      "definition": "The identifier is generated with partial automation, requiring some user input or confirmation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Semi-automatique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Semiautomático"
+        }
+      ]
+    }
+  ]
+}

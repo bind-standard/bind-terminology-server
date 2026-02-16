@@ -1,0 +1,72 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Responsibility",
+  "url": "https://bind.codes/Responsibility",
+  "name": "Responsibility",
+  "title": "Responsibility",
+  "status": "draft",
+  "language": "en",
+  "description": "Responsibility codes for insurance operations.",
+  "concept": [
+    {
+      "code": "AGCY",
+      "display": "Agency/Brokerage Responsibility",
+      "definition": "Indicates that the agency or brokerage is responsible for the action, task, or decision.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité du courtier/cabinet de courtage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad de la agencia/correduría"
+        }
+      ]
+    },
+    {
+      "code": "COMP",
+      "display": "Company Responsibility",
+      "definition": "Indicates that the company or carrier is responsible for the action, task, or decision.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité de l'assureur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad de la compañía"
+        }
+      ]
+    },
+    {
+      "code": "SHRD",
+      "display": "Shared Responsibility",
+      "definition": "Indicates that responsibility is shared between multiple parties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité partagée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad compartida"
+        }
+      ]
+    },
+    {
+      "code": "INSD",
+      "display": "Insured Responsibility",
+      "definition": "Indicates that the insured party is responsible for the action, task, or decision.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité de l'assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad del asegurado"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1167 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "RetailStoreType",
+  "url": "https://bind.codes/RetailStoreType",
+  "name": "RetailStoreType",
+  "title": "Retail Store Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Retail Store Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "AICN",
+      "display": "Air Conditioning",
+      "definition": "Stores specializing in air conditioning systems, parts, and related cooling equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Climatisation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aire Acondicionado"
+        }
+      ]
+    },
+    {
+      "code": "PLHT",
+      "display": "Plumbing and Heating",
+      "definition": "Retailers selling plumbing fixtures, pipes, heating systems, and related components.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plomberie et chauffage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Plomería y Calefacción"
+        }
+      ]
+    },
+    {
+      "code": "KTCW",
+      "display": "Kitchenware",
+      "definition": "Stores selling cookware, utensils, kitchen gadgets, and culinary tools.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Articles de cuisine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Artículos de Cocina"
+        }
+      ]
+    },
+    {
+      "code": "GIFT",
+      "display": "Gift and Novelty",
+      "definition": "Retailers specializing in gift items, novelty goods, and decorative merchandise.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cadeaux et articles de fantaisie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Regalos y Novedades"
+        }
+      ]
+    },
+    {
+      "code": "CERM",
+      "display": "Ceramics",
+      "definition": "Stores selling ceramic products, pottery, and related decorative items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Céramiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cerámica"
+        }
+      ]
+    },
+    {
+      "code": "LITE",
+      "display": "Lighting",
+      "definition": "Retailers specializing in lighting fixtures, bulbs, and illumination products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Éclairage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Iluminación"
+        }
+      ]
+    },
+    {
+      "code": "CNDY",
+      "display": "Retail Candy",
+      "definition": "Stores primarily selling candies, confections, and sweet treats.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente au détail de bonbons"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dulcería"
+        }
+      ]
+    },
+    {
+      "code": "BVRG",
+      "display": "Beverage",
+      "definition": "Retailers selling beverages including alcoholic and non-alcoholic drinks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boissons"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bebidas"
+        }
+      ]
+    },
+    {
+      "code": "SUPR",
+      "display": "Supermarket",
+      "definition": "Large-scale retail establishments selling groceries, household items, and food products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Supermarché"
+        },
+        {
+          "language": "es-MX",
+          "value": "Supermercado"
+        }
+      ]
+    },
+    {
+      "code": "BTCH",
+      "display": "Butcher",
+      "definition": "Shops specializing in fresh meats, poultry, and related meat products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boucher"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carnicería"
+        }
+      ]
+    },
+    {
+      "code": "DELI",
+      "display": "Delicatessen",
+      "definition": "Specialty food stores offering prepared meats, cheeses, and gourmet food items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Épicerie fine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Delicatessen"
+        }
+      ]
+    },
+    {
+      "code": "HLTH",
+      "display": "Health Food",
+      "definition": "Stores specializing in organic foods, supplements, and natural health products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aliments naturels"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alimentos Naturales"
+        }
+      ]
+    },
+    {
+      "code": "OPTC",
+      "display": "Optical",
+      "definition": "Retailers selling eyeglasses, contact lenses, and vision-related products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lunettes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Óptica"
+        }
+      ]
+    },
+    {
+      "code": "MILL",
+      "display": "Millinery",
+      "definition": "Stores specializing in hats, headwear, and related accessories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chapellerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sombrerería"
+        }
+      ]
+    },
+    {
+      "code": "FURN",
+      "display": "Furniture and Heavy Appliances",
+      "definition": "Retailers selling furniture, large household appliances like refrigerators, washers, and dryers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mobilier et gros appareils"
+        },
+        {
+          "language": "es-MX",
+          "value": "Muebles y Electrodomésticos Pesados"
+        }
+      ]
+    },
+    {
+      "code": "LAMP",
+      "display": "Lamps and Lighting Fixtures",
+      "definition": "Stores specializing in decorative and functional lamps, chandeliers, and lighting accessories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lampes et appareils d'éclairage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lámparas y Accesorios de Iluminación"
+        }
+      ]
+    },
+    {
+      "code": "MATT",
+      "display": "Mattress",
+      "definition": "Retailers specializing in mattresses, box springs, and sleep-related products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matelas"
+        },
+        {
+          "language": "es-MX",
+          "value": "Colchones"
+        }
+      ]
+    },
+    {
+      "code": "ELEC",
+      "display": "Electrical Equipment",
+      "definition": "Stores selling electrical components, wiring, switches, and electrical supplies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement électrique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo Eléctrico"
+        }
+      ]
+    },
+    {
+      "code": "CAMP",
+      "display": "Camping Equipment and Supplies",
+      "definition": "Retailers selling tents, sleeping bags, camping gear, and outdoor equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement et fournitures de camping"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo y Suministros para Acampar"
+        }
+      ]
+    },
+    {
+      "code": "HRSE",
+      "display": "Horseback Riding Supplies",
+      "definition": "Stores selling saddles, bridles, riding apparel, and equestrian equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fournitures d'équitation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Suministros de Equitación"
+        }
+      ]
+    },
+    {
+      "code": "FBRC",
+      "display": "Fabric and Dry Goods",
+      "definition": "Retailers selling fabrics, textiles, sewing materials, and craft supplies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tissus et textiles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Telas y Mercería"
+        }
+      ]
+    },
+    {
+      "code": "WOOL",
+      "display": "Wool",
+      "definition": "Stores specializing in wool products, yarn, and knitting supplies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Laine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lana"
+        }
+      ]
+    },
+    {
+      "code": "LTHR",
+      "display": "Leather Goods",
+      "definition": "Retailers selling leather products including bags, wallets, belts, and accessories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Articles en cuir"
+        },
+        {
+          "language": "es-MX",
+          "value": "Artículos de Cuero"
+        }
+      ]
+    },
+    {
+      "code": "LUGG",
+      "display": "Luggage and Handbags (No Leather)",
+      "definition": "Stores selling non-leather travel bags, suitcases, and handbags made from synthetic materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bagages et sacs à main (sans cuir)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipaje y Bolsos (Sin Cuero)"
+        }
+      ]
+    },
+    {
+      "code": "HBBY",
+      "display": "Hobby and Handicrafts",
+      "definition": "Retailers selling craft supplies, hobby materials, and artistic tools.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bricolage et artisanat"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pasatiempos y Manualidades"
+        }
+      ]
+    },
+    {
+      "code": "BATH",
+      "display": "Bath",
+      "definition": "Stores selling bathtubs, shower fixtures, bathroom accessories, and related products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Baignoires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Baño"
+        }
+      ]
+    },
+    {
+      "code": "BDRM",
+      "display": "Bedroom and Bedding",
+      "definition": "Retailers selling bed linens, pillows, blankets, and bedroom furnishings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chambres et lits"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dormitorio y Ropa de Cama"
+        }
+      ]
+    },
+    {
+      "code": "TOYS",
+      "display": "Toy",
+      "definition": "Stores specializing in toys, games, and children's play items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Jouets"
+        },
+        {
+          "language": "es-MX",
+          "value": "Juguetes"
+        }
+      ]
+    },
+    {
+      "code": "BEAU",
+      "display": "Hair and Beauty Products",
+      "definition": "Retailers selling cosmetics, hair care products, and beauty supplies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits de beauté et pour cheveux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Productos de Belleza y Cuidado del Cabello"
+        }
+      ]
+    },
+    {
+      "code": "TRPH",
+      "display": "Trophies",
+      "definition": "Stores selling awards, trophies, plaques, and engraving services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trophées"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trofeos"
+        }
+      ]
+    },
+    {
+      "code": "MUSC",
+      "display": "Musical Instruments",
+      "definition": "Retailers selling musical instruments, sheet music, and related accessories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Instruments de musique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instrumentos Musicales"
+        }
+      ]
+    },
+    {
+      "code": "RELG",
+      "display": "Religious Goods",
+      "definition": "Stores selling religious articles, books, vestments, and spiritual items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Articles religieux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Artículos Religiosos"
+        }
+      ]
+    },
+    {
+      "code": "FLEA",
+      "display": "Flea Market",
+      "definition": "Outdoor or indoor markets with multiple vendors selling second-hand goods and miscellaneous items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marché aux puces"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mercado de Pulgas"
+        }
+      ]
+    },
+    {
+      "code": "MISC",
+      "display": "Other Miscellaneous Retail",
+      "definition": "Retail stores selling a variety of goods not classified in other specific categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autres produits de détail divers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otros Comercios Minoristas Diversos"
+        }
+      ]
+    },
+    {
+      "code": "LIQD",
+      "display": "Liquidation",
+      "definition": "Stores selling surplus, closeout, or discounted merchandise from various sources.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liquidation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Liquidación"
+        }
+      ]
+    },
+    {
+      "code": "AUTC",
+      "display": "Auto Accessories",
+      "definition": "Retailers selling car parts, accessories, and automotive aftermarket products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accessoires d'automobiles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Accesorios para Automóviles"
+        }
+      ]
+    },
+    {
+      "code": "LUBE",
+      "display": "Lube",
+      "definition": "Stores selling automotive lubricants, oils, and related fluids.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lubrifiants"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lubricantes"
+        }
+      ]
+    },
+    {
+      "code": "PHOT",
+      "display": "Photography Supplies",
+      "definition": "Retailers selling cameras, lenses, film, darkroom equipment, and photography accessories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fournitures de photographie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Suministros de Fotografía"
+        }
+      ]
+    },
+    {
+      "code": "CHLD",
+      "display": "Children's Clothing",
+      "definition": "Stores specializing in apparel and footwear for children.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vêtements pour enfants"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ropa para Niños"
+        }
+      ]
+    },
+    {
+      "code": "BOOK",
+      "display": "Bookstore",
+      "definition": "Retailers selling books, magazines, and printed publications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Librairie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Librería"
+        }
+      ]
+    },
+    {
+      "code": "DNTL",
+      "display": "Dental Supplies and Equipment",
+      "definition": "Stores selling dental instruments, materials, and professional dental equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fournitures et équipement dentaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Suministros y Equipo Dental"
+        }
+      ]
+    },
+    {
+      "code": "WCKR",
+      "display": "Basket, Willow and Wicker Ware",
+      "definition": "Retailers selling woven baskets, wicker furniture, and willow products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Paniers et autres articles de vannerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cestas, Artículos de Mimbre y Sauce"
+        }
+      ]
+    },
+    {
+      "code": "FISH",
+      "display": "Fish Tackle Supplies",
+      "definition": "Stores selling fishing rods, reels, bait, lures, and angling equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fournitures d'appât pour le poisson"
+        },
+        {
+          "language": "es-MX",
+          "value": "Suministros de Pesca"
+        }
+      ]
+    },
+    {
+      "code": "VCUM",
+      "display": "Vacuum Cleaner",
+      "definition": "Retailers specializing in vacuum cleaners, parts, and cleaning equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aspirateurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aspiradoras"
+        }
+      ]
+    },
+    {
+      "code": "MARN",
+      "display": "Marine Supplies",
+      "definition": "Stores selling boat equipment, nautical gear, and marine hardware.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Articles d'accastillage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Suministros Marinos"
+        }
+      ]
+    },
+    {
+      "code": "GOLF",
+      "display": "Golf Pro",
+      "definition": "Professional golf shops selling clubs, balls, apparel, and golfing accessories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boutique du professionnel du golf"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda Profesional de Golf"
+        }
+      ]
+    },
+    {
+      "code": "SKII",
+      "display": "Ski",
+      "definition": "Stores selling skis, snowboards, winter sports equipment, and related apparel.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ski"
+        },
+        {
+          "language": "es-MX",
+          "value": "Esquí"
+        }
+      ]
+    },
+    {
+      "code": "SOFT",
+      "display": "Computer Software",
+      "definition": "Retailers selling computer programs, applications, and digital software products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Logiciels"
+        },
+        {
+          "language": "es-MX",
+          "value": "Software de Computadora"
+        }
+      ]
+    },
+    {
+      "code": "OFMC",
+      "display": "Office Machine",
+      "definition": "Stores selling copiers, printers, typewriters, and office equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Machines de bureau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Máquinas de Oficina"
+        }
+      ]
+    },
+    {
+      "code": "DRPR",
+      "display": "Blinds and Draperies",
+      "definition": "Retailers selling window blinds, curtains, drapes, and window treatment products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stores et tentures"
+        },
+        {
+          "language": "es-MX",
+          "value": "Persianas y Cortinas"
+        }
+      ]
+    },
+    {
+      "code": "CRPT",
+      "display": "Carpet and Area Rugs",
+      "definition": "Stores selling floor coverings including carpets, rugs, and related installation services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tapis et carpettes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alfombras y Tapetes"
+        }
+      ]
+    },
+    {
+      "code": "ADLT",
+      "display": "Adult Videos",
+      "definition": "Retailers selling adult-oriented video content and related products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vidéos pour adultes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Videos para Adultos"
+        }
+      ]
+    },
+    {
+      "code": "POOL",
+      "display": "Swimming Pool Supplies",
+      "definition": "Stores selling pool chemicals, cleaning equipment, accessories, and maintenance supplies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fournitures pour piscine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Suministros para Piscinas"
+        }
+      ]
+    },
+    {
+      "code": "CIGR",
+      "display": "Specialty Cigar",
+      "definition": "Stores specializing in premium cigars, humidors, and smoking accessories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cigares de luxe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cigarros Especiales"
+        }
+      ]
+    },
+    {
+      "code": "VAPE",
+      "display": "Specialty Electronic Cigarette/Vape",
+      "definition": "Retailers selling electronic cigarettes, vaping devices, e-liquids, and related accessories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cigarettes électroniques spéciales/vapoteuses"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cigarrillos Electrónicos/Vapeadores Especializados"
+        }
+      ]
+    },
+    {
+      "code": "SCIN",
+      "display": "Scientific Instruments",
+      "definition": "Stores selling laboratory equipment, measuring devices, and scientific apparatus.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Instruments scientifiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instrumentos Científicos"
+        }
+      ]
+    },
+    {
+      "code": "FLOR",
+      "display": "Florist",
+      "definition": "Shops selling fresh flowers, plants, floral arrangements, and gardening supplies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fleuriste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Floristería"
+        }
+      ]
+    },
+    {
+      "code": "STAT",
+      "display": "Stationery",
+      "definition": "Retailers selling paper goods, writing instruments, office supplies, and greeting cards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Papeterie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Papelería"
+        }
+      ]
+    },
+    {
+      "code": "CMRA",
+      "display": "Cameras",
+      "definition": "Stores specializing in photographic cameras, video cameras, and imaging equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Appareils photo et caméras"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cámaras"
+        }
+      ]
+    },
+    {
+      "code": "HRDW",
+      "display": "Hardware",
+      "definition": "Stores selling tools, building materials, fasteners, and home improvement supplies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matériel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ferretería"
+        }
+      ]
+    },
+    {
+      "code": "SHPC",
+      "display": "Ship Chandler",
+      "definition": "Specialized retailers providing provisions, supplies, and equipment for maritime vessels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Approvisionneur de navires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Proveedor de Buques"
+        }
+      ]
+    },
+    {
+      "code": "AUPH",
+      "display": "Auto Upholstery",
+      "definition": "Shops specializing in vehicle interior upholstery, seat covers, and automotive fabric work.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garnissage automobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tapicería Automotriz"
+        }
+      ]
+    },
+    {
+      "code": "BVNA",
+      "display": "Beverage - Non-Alcoholic",
+      "definition": "Stores selling soft drinks, juices, water, and other non-alcoholic beverages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boissons non alcoolisées"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bebidas No Alcohólicas"
+        }
+      ]
+    },
+    {
+      "code": "ARCH",
+      "display": "Archery Equipment",
+      "definition": "Retailers selling bows, arrows, targets, and archery accessories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement de tir à l'arc"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo de Tiro con Arco"
+        }
+      ]
+    },
+    {
+      "code": "FIRE",
+      "display": "Fireplace, Wood or Pellet Burning Stoves",
+      "definition": "Stores selling fireplaces, wood stoves, pellet stoves, and related heating appliances.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foyer, poêles à bois ou à granules"
+        },
+        {
+          "language": "es-MX",
+          "value": "Chimeneas, Estufas de Leña o Pellets"
+        }
+      ]
+    },
+    {
+      "code": "FYRW",
+      "display": "Fireworks",
+      "definition": "Retailers selling pyrotechnic devices and fireworks for celebrations and displays.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Feux d'artifice"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fuegos Artificiales"
+        }
+      ]
+    },
+    {
+      "code": "CHKC",
+      "display": "Cheque Cashing or Paycheque Loan Services",
+      "definition": "Financial service locations offering cheque cashing, payday loans, and short-term credit services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services d'encaissement de chèques ou de prêt par chèque de paie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de Cambio de Cheques o Préstamos de Nómina"
+        }
+      ]
+    },
+    {
+      "code": "GAST",
+      "display": "Gas Station",
+      "definition": "Fuel stations selling gasoline, diesel, and related automotive fluids.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Station-service"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gasolinera"
+        }
+      ]
+    },
+    {
+      "code": "CWSH",
+      "display": "Self-Service Car Wash",
+      "definition": "Facilities where customers wash their vehicles using provided equipment and supplies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lave-auto en libre-service"
+        },
+        {
+          "language": "es-MX",
+          "value": "Autolavado de Autoservicio"
+        }
+      ]
+    },
+    {
+      "code": "PHRM",
+      "display": "Pharmacy",
+      "definition": "Stores selling prescription medications, over-the-counter drugs, and health-related products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pharmacie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Farmacia"
+        }
+      ]
+    },
+    {
+      "code": "JWLY",
+      "display": "Jewelry",
+      "definition": "Retailers selling fine jewelry, watches, gemstones, and precious metals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bijouterie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Joyería"
+        }
+      ]
+    },
+    {
+      "code": "SHOE",
+      "display": "Shoe Store",
+      "definition": "Retailers specializing in footwear for men, women, and children.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Magasin de chaussures"
+        },
+        {
+          "language": "es-MX",
+          "value": "Zapatería"
+        }
+      ]
+    },
+    {
+      "code": "ELCN",
+      "display": "Electronics",
+      "definition": "Stores selling consumer electronics, computers, televisions, and digital devices.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Électronique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Electrónica"
+        }
+      ]
+    },
+    {
+      "code": "DEPT",
+      "display": "Department Store",
+      "definition": "Large retail establishments selling a wide variety of goods across multiple departments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grand magasin"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda Departamental"
+        }
+      ]
+    },
+    {
+      "code": "CNVN",
+      "display": "Convenience Store",
+      "definition": "Small retail stores offering everyday items, snacks, and beverages with extended hours.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dépanneur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda de Conveniencia"
+        }
+      ]
+    },
+    {
+      "code": "APPL",
+      "display": "Appliance Store",
+      "definition": "Retailers specializing in household appliances such as stoves, refrigerators, and microwaves.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Magasin d'électroménagers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda de Electrodomésticos"
+        }
+      ]
+    },
+    {
+      "code": "SPRT",
+      "display": "Sporting Goods",
+      "definition": "Stores selling athletic equipment, sports apparel, and fitness-related products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Articles de sport"
+        },
+        {
+          "language": "es-MX",
+          "value": "Artículos Deportivos"
+        }
+      ]
+    }
+  ]
+}

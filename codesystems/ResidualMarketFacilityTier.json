@@ -1,0 +1,57 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ResidualMarketFacilityTier",
+  "url": "https://bind.codes/ResidualMarketFacilityTier",
+  "name": "ResidualMarketFacilityTier",
+  "title": "Residual Market Facility Tier",
+  "status": "draft",
+  "language": "en",
+  "description": "Residual Market Facility Tier codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CA:SRCH",
+      "display": "Surcharged Tier",
+      "definition": "A tier classification for applicants who are assessed higher charges due to elevated risk factors or claims history.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Palier majoré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nivel con recargo"
+        }
+      ]
+    },
+    {
+      "code": "CA:BASC",
+      "display": "Basic Tier",
+      "definition": "A standard tier classification for applicants who meet typical eligibility criteria without additional risk factors.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Palier de base"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nivel básico"
+        }
+      ]
+    },
+    {
+      "code": "CA:DISC",
+      "display": "Discounted Tier",
+      "definition": "A tier classification for applicants who qualify for reduced charges due to favorable risk characteristics or claims-free history.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Palier réduit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nivel con descuento"
+        }
+      ]
+    }
+  ]
+}

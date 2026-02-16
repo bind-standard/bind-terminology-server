@@ -1,0 +1,192 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ElectronicPayment",
+  "url": "https://bind.codes/ElectronicPayment",
+  "name": "ElectronicPayment",
+  "title": "Electronic Payment",
+  "status": "draft",
+  "language": "en",
+  "description": "Electronic Payment codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ATMX",
+      "display": "ATM (Automatic Teller Transaction)",
+      "definition": "A payment transaction conducted through an automated teller machine.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "GAB (Guichet automatique bancaire)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cajero automático"
+        }
+      ]
+    },
+    {
+      "code": "AUTW",
+      "display": "Automatic Withdrawal",
+      "definition": "A pre-authorized recurring withdrawal from a bank account on a scheduled basis.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Retrait automatique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Retiro automático"
+        }
+      ]
+    },
+    {
+      "code": "BNKT",
+      "display": "Bank Counter",
+      "definition": "A payment transaction processed in-person at a bank branch counter.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comptoir bancaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mostrador bancario"
+        }
+      ]
+    },
+    {
+      "code": "PHBN",
+      "display": "Banking by Phone",
+      "definition": "A payment transaction conducted through telephone banking services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Opérations bancaires par téléphone"
+        },
+        {
+          "language": "es-MX",
+          "value": "Banca telefónica"
+        }
+      ]
+    },
+    {
+      "code": "DBCD",
+      "display": "Debit Card",
+      "definition": "A payment made using a debit card that directly debits funds from a bank account.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Carte de débit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tarjeta de débito"
+        }
+      ]
+    },
+    {
+      "code": "CRCD",
+      "display": "Credit Card",
+      "definition": "A payment made using a credit card account.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Carte de crédit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tarjeta de crédito"
+        }
+      ]
+    },
+    {
+      "code": "WIRE",
+      "display": "Wire Transfer",
+      "definition": "An electronic transfer of funds between bank accounts using a wire transfer network.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Virement bancaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transferencia bancaria"
+        }
+      ]
+    },
+    {
+      "code": "ETRN",
+      "display": "Electronic Transfer",
+      "definition": "A direct electronic transfer of funds between accounts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transfert électronique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transferencia electrónica"
+        }
+      ]
+    },
+    {
+      "code": "CHEK",
+      "display": "Electronic Check",
+      "definition": "A digital version of a paper check processed through electronic payment systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chèque électronique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cheque electrónico"
+        }
+      ]
+    },
+    {
+      "code": "ONBN",
+      "display": "Online Banking",
+      "definition": "A payment transaction conducted through internet banking platforms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Opérations bancaires en ligne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Banca en línea"
+        }
+      ]
+    },
+    {
+      "code": "MBNK",
+      "display": "Mobile Banking",
+      "definition": "A payment transaction conducted through mobile banking applications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Opérations bancaires mobiles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Banca móvil"
+        }
+      ]
+    },
+    {
+      "code": "EWLT",
+      "display": "E-Wallet",
+      "definition": "A payment made through a digital wallet or mobile payment application.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Portefeuille électronique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Billetera electrónica"
+        }
+      ]
+    }
+  ]
+}

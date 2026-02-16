@@ -1,0 +1,132 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ReasonLiabilityRefused",
+  "url": "https://bind.codes/ReasonLiabilityRefused",
+  "name": "ReasonLiabilityRefused",
+  "title": "Reason Liability Refused",
+  "status": "draft",
+  "language": "en",
+  "description": "Reason Liability Refused codes for insurance operations.",
+  "concept": [
+    {
+      "code": "RGPL",
+      "display": "Referred to a Garage Policy",
+      "definition": "Vehicle requires coverage under a garage policy instead of standard auto liability",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référé à une police des garagistes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referido a una póliza de garaje"
+        }
+      ]
+    },
+    {
+      "code": "RCGL",
+      "display": "Referred to a Commercial General Liability Policy",
+      "definition": "Risk requires coverage under a commercial general liability policy rather than auto liability",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référé à une police en responsabilité civile des entreprises"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referido a una póliza de responsabilidad civil general comercial"
+        }
+      ]
+    },
+    {
+      "code": "PRMG",
+      "display": "Permanent Garaging",
+      "definition": "Vehicle stored indefinitely without operation on public roads",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remisage permanent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Almacenamiento permanente"
+        }
+      ]
+    },
+    {
+      "code": "TMPG",
+      "display": "Temporary Garaging",
+      "definition": "Vehicle stored for a limited period without operation on public roads",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remisage temporaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Almacenamiento temporal"
+        }
+      ]
+    },
+    {
+      "code": "WNTG",
+      "display": "Winter Garaging",
+      "definition": "Vehicle stored during winter months without operation on public roads",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreposage pour l'hiver"
+        },
+        {
+          "language": "es-MX",
+          "value": "Almacenamiento de invierno"
+        }
+      ]
+    },
+    {
+      "code": "SMRC",
+      "display": "Snowmobile Referred to Commercial General Liability",
+      "definition": "Snowmobile operation requires coverage under commercial general liability rather than standard auto liability",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Motoneige - Référé en responsabilité civile des entreprises"
+        },
+        {
+          "language": "es-MX",
+          "value": "Moto de nieve referida a responsabilidad civil general comercial"
+        }
+      ]
+    },
+    {
+      "code": "OFRD",
+      "display": "Off-Road Use Only",
+      "definition": "Vehicle restricted to off-road use and not eligible for public road liability coverage",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Usage hors route seulement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Uso fuera de carretera solamente"
+        }
+      ]
+    },
+    {
+      "code": "NOOP",
+      "display": "Non-Operational Vehicle",
+      "definition": "Vehicle is not in operating condition",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule non opérationnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo no operacional"
+        }
+      ]
+    }
+  ]
+}

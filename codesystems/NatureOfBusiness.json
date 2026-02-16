@@ -1,0 +1,1572 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "NatureOfBusiness",
+  "url": "https://bind.codes/NatureOfBusiness",
+  "name": "NatureOfBusiness",
+  "title": "Nature Of Business",
+  "status": "draft",
+  "language": "en",
+  "description": "Nature Of Business codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ARTN",
+      "display": "Artisan",
+      "definition": "A skilled tradesperson who creates products through manual craft or specialized skills.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Artisan"
+        },
+        {
+          "language": "es-MX",
+          "value": "Artesano"
+        }
+      ]
+    },
+    {
+      "code": "RSKA",
+      "display": "Associated Risk/Activity",
+      "definition": "A specific activity or hazard associated with a business operation that affects exposure assessment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Risque inhérent/activité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Riesgo/Actividad asociada"
+        }
+      ]
+    },
+    {
+      "code": "CTRC",
+      "display": "Contracting Class",
+      "definition": "Classification category for businesses engaged in contracted construction, installation, or project-based work.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe de sous-traitance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clase de contratación"
+        }
+      ]
+    },
+    {
+      "code": "WRAP",
+      "display": "Wrap-up Policy",
+      "definition": "A consolidated coverage approach where a single policy covers all parties involved in a construction project.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police globale de chantier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Póliza integral de obra"
+        }
+      ]
+    },
+    {
+      "code": "SUBC",
+      "display": "Employment of Subtrade/Subcontractor/Indep.Contractor",
+      "definition": "Hiring of subcontractors, independent contractors, or specialized trades to perform work on behalf of the principal business.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Embauche de sous-traitant/entrepreneur indépendant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empleo de subcontratista/contratista independiente"
+        }
+      ]
+    },
+    {
+      "code": "DAYC",
+      "display": "Day Care/Nursery",
+      "definition": "Facilities providing supervised care and activities for children during daytime hours.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garderie/jardin d'enfants"
+        },
+        {
+          "language": "es-MX",
+          "value": "Guardería infantil"
+        }
+      ]
+    },
+    {
+      "code": "MFGP",
+      "display": "Manufacturing/Processing",
+      "definition": "Production and transformation of raw materials or components into finished goods through industrial processes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fabrication"
+        },
+        {
+          "language": "es-MX",
+          "value": "Manufactura/Procesamiento"
+        }
+      ]
+    },
+    {
+      "code": "FRGN",
+      "display": "USA/Foreign Products/Operations",
+      "definition": "Business operations or products originating from or sold to United States or international markets outside of Canada.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "États-Unis/produits étrangers/exploitation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Productos/Operaciones EE.UU./Extranjeros"
+        }
+      ]
+    },
+    {
+      "code": "PRMV",
+      "display": "Premises/Operations Visitors",
+      "definition": "Individuals visiting business property or operational sites, distinct from employees or contractors.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Visiteurs sur les lieux assurés/bâtiments"
+        },
+        {
+          "language": "es-MX",
+          "value": "Visitantes de instalaciones/operaciones"
+        }
+      ]
+    },
+    {
+      "code": "PASM",
+      "display": "Product After Sale Delivery/Install/Service/Maintain",
+      "definition": "Post-purchase activities including delivery, installation, servicing, and ongoing maintenance of products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Livraison/installation/service/entretien de produits après vente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entrega/Instalación/Servicio/Mantenimiento postventa"
+        }
+      ]
+    },
+    {
+      "code": "LIQR",
+      "display": "Liquor Sales",
+      "definition": "Retail or wholesale sale of alcoholic beverages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ventes d'alcool"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta de bebidas alcohólicas"
+        }
+      ]
+    },
+    {
+      "code": "SNRC",
+      "display": "Convalescent/Nursing/Senior Citizen Home",
+      "definition": "Residential facilities providing medical care, assisted living, or long-term care for elderly or recovering individuals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maison de convalescence/soins infirmiers/personne du troisième âge"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hogar de convalecencia/enfermería/adultos mayores"
+        }
+      ]
+    },
+    {
+      "code": "RSRT",
+      "display": "Resort",
+      "definition": "Recreational destination facility offering lodging, dining, and leisure activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Centre de villégiature"
+        },
+        {
+          "language": "es-MX",
+          "value": "Centro turístico"
+        }
+      ]
+    },
+    {
+      "code": "PHMC",
+      "display": "Drug/Medical Device/Cosmetic Products and/or Operations",
+      "definition": "Manufacturing, distribution, or sale of pharmaceuticals, medical equipment, or cosmetic products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Médicaments/appareils médicaux/cosmétiques et/ou exploitations"
+        },
+        {
+          "language": "es-MX",
+          "value": "Productos farmacéuticos/dispositivos médicos/cosméticos y/u operaciones"
+        }
+      ]
+    },
+    {
+      "code": "CLUB",
+      "display": "Club or Association Operation",
+      "definition": "Operations of membership-based organizations, clubs, or associations providing services or activities to members.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exploitation de club/association"
+        },
+        {
+          "language": "es-MX",
+          "value": "Operación de club o asociación"
+        }
+      ]
+    },
+    {
+      "code": "FUND",
+      "display": "Fund-raising",
+      "definition": "Activities organized to solicit and collect monetary donations or contributions for a cause or organization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Levée de fonds"
+        },
+        {
+          "language": "es-MX",
+          "value": "Recaudación de fondos"
+        }
+      ]
+    },
+    {
+      "code": "SPNS",
+      "display": "Sponsorship",
+      "definition": "Financial or material support provided to an event, organization, or individual in exchange for promotional benefits.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commandite"
+        },
+        {
+          "language": "es-MX",
+          "value": "Patrocinio"
+        }
+      ]
+    },
+    {
+      "code": "ADVT",
+      "display": "Advertising",
+      "definition": "Creation and placement of promotional content to market products, services, or brands.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Publicité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Publicidad"
+        }
+      ]
+    },
+    {
+      "code": "LOGM",
+      "display": "Logging and Lumber",
+      "definition": "Harvesting timber and processing wood into lumber products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exploitation forestière et Bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tala y madera"
+        }
+      ]
+    },
+    {
+      "code": "MINE",
+      "display": "Mining",
+      "definition": "Extraction of minerals, ores, or other geological materials from the earth.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exploitation minière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Minería"
+        }
+      ]
+    },
+    {
+      "code": "CONS",
+      "display": "Construction/Erection/Installation",
+      "definition": "Building, assembling, or installing structures, equipment, or systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Construction/montage/installation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Construcción/Montaje/Instalación"
+        }
+      ]
+    },
+    {
+      "code": "POLL",
+      "display": "Pollution",
+      "definition": "Operations involving emission, discharge, or creation of environmental contaminants.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pollution"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contaminación"
+        }
+      ]
+    },
+    {
+      "code": "SPRY",
+      "display": "Spraying",
+      "definition": "Application of liquids or chemicals through atomization for agricultural, industrial, or cosmetic purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pulvérisation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fumigación"
+        }
+      ]
+    },
+    {
+      "code": "WHLS",
+      "display": "Wholesale Trade and/or Private Storage",
+      "definition": "Bulk sale of goods to retailers or businesses, and/or storage of goods in private facilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commerce de gros et/ou entreposage privé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comercio mayorista y/o almacenamiento privado"
+        }
+      ]
+    },
+    {
+      "code": "HOSP",
+      "display": "Hospitality Services",
+      "definition": "Provision of accommodations, food service, and guest services in hotels, restaurants, or tourism establishments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de tourisme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de hospitalidad"
+        }
+      ]
+    },
+    {
+      "code": "AMSR",
+      "display": "Amusement and Recreation",
+      "definition": "Entertainment and leisure activities including theme parks, sports facilities, and recreational venues.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Divertissements et loisirs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entretenimiento y recreación"
+        }
+      ]
+    },
+    {
+      "code": "EDUC",
+      "display": "Education",
+      "definition": "Instruction and training services provided by schools, colleges, or training institutions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Educación"
+        }
+      ]
+    },
+    {
+      "code": "GOVT",
+      "display": "Government",
+      "definition": "Public sector organizations and agencies providing governmental services and administration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gouvernement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gobierno"
+        }
+      ]
+    },
+    {
+      "code": "NEWC",
+      "display": "New Construction",
+      "definition": "Building of structures from the ground up, as opposed to renovation or alteration of existing buildings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nouvelle construction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Construcción nueva"
+        }
+      ]
+    },
+    {
+      "code": "WAST",
+      "display": "Waste Disposal",
+      "definition": "Collection, treatment, and disposal of refuse, garbage, or hazardous materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Élimination des déchets"
+        },
+        {
+          "language": "es-MX",
+          "value": "Eliminación de residuos"
+        }
+      ]
+    },
+    {
+      "code": "SUBA",
+      "display": "Sub-activity",
+      "definition": "A secondary or subsidiary business activity performed in addition to the primary business operation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous-activité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Subactividad"
+        }
+      ]
+    },
+    {
+      "code": "WATR",
+      "display": "Waterworks/Water Treatment",
+      "definition": "Facilities and operations for purifying, distributing, or treating water for municipal or industrial use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Station de production d'eau potable/traitement des eaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Planta de tratamiento de agua"
+        }
+      ]
+    },
+    {
+      "code": "REAL",
+      "display": "Realty",
+      "definition": "Real estate brokerage, property management, or real property transactions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Immobilier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bienes raíces"
+        }
+      ]
+    },
+    {
+      "code": "BLST",
+      "display": "Blasting",
+      "definition": "Use of explosives to break rock, demolish structures, or excavate.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dynamitage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Voladura"
+        }
+      ]
+    },
+    {
+      "code": "STOR",
+      "display": "Private Storage",
+      "definition": "Warehousing or storage of goods in privately-owned or operated facilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreposage privé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Almacenamiento privado"
+        }
+      ]
+    },
+    {
+      "code": "RETL",
+      "display": "Retail Trade",
+      "definition": "Sale of goods directly to consumers through stores, markets, or online platforms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commerce de détail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comercio minorista"
+        }
+      ]
+    },
+    {
+      "code": "INSR",
+      "display": "Insurance",
+      "definition": "Provision of coverage products, underwriting, brokerage, or claims administration services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguros"
+        }
+      ]
+    },
+    {
+      "code": "UGND",
+      "display": "Underground Activity",
+      "definition": "Work performed below ground level such as tunneling, mining, or underground construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Activité souterraine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Actividad subterránea"
+        }
+      ]
+    },
+    {
+      "code": "WTBR",
+      "display": "Water or Waterborne Activity",
+      "definition": "Operations conducted on, in, or involving water bodies including marine, lake, or river activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Activité maritime"
+        },
+        {
+          "language": "es-MX",
+          "value": "Actividad acuática o marítima"
+        }
+      ]
+    },
+    {
+      "code": "BPSV",
+      "display": "Business & Personal Services",
+      "definition": "Professional or personal services provided to businesses or individuals, excluding retail trade.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services commerciaux & personnels"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios comerciales y personales"
+        }
+      ]
+    },
+    {
+      "code": "BUSS",
+      "display": "Bus Service",
+      "definition": "Passenger transportation provided by bus for public transit, charter, or school routes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service d'autobus"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de autobús"
+        }
+      ]
+    },
+    {
+      "code": "CEIN",
+      "display": "Construction, Erection & Installation",
+      "definition": "Building, assembling, or installing structures, equipment, or systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Construction, montage et installation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Construcción, montaje e instalación"
+        }
+      ]
+    },
+    {
+      "code": "CMCR",
+      "display": "Common Carriers",
+      "definition": "Transportation companies offering services to the general public under regulatory obligation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transporteurs publics"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transportistas públicos"
+        }
+      ]
+    },
+    {
+      "code": "CTCR",
+      "display": "Contract Carriers",
+      "definition": "Transportation companies operating under specific contracts with individual clients rather than serving the general public.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transporteurs contractuels"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transportistas contractuales"
+        }
+      ]
+    },
+    {
+      "code": "COUR",
+      "display": "Courier Service",
+      "definition": "Express delivery of parcels, documents, or goods with tracking and expedited service.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service de messageries"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de mensajería"
+        }
+      ]
+    },
+    {
+      "code": "DLVR",
+      "display": "Delivery, Retail",
+      "definition": "Transportation and delivery of retail goods from seller to end consumer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Livraison, vente au détail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entrega minorista"
+        }
+      ]
+    },
+    {
+      "code": "DRSC",
+      "display": "Driving School",
+      "definition": "Instruction in vehicle operation and road safety for student drivers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "École de conduite"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escuela de manejo"
+        }
+      ]
+    },
+    {
+      "code": "DLVW",
+      "display": "Delivery, Wholesale",
+      "definition": "Transportation and delivery of goods in bulk from wholesalers to retailers or businesses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Livraison, vente en gros"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entrega mayorista"
+        }
+      ]
+    },
+    {
+      "code": "FCST",
+      "display": "Farming - Custom",
+      "definition": "Specialized agricultural services provided on a contract basis, such as custom harvesting or planting.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agriculture spécialisée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agricultura especializada"
+        }
+      ]
+    },
+    {
+      "code": "FISH",
+      "display": "Fishing",
+      "definition": "Commercial harvesting of fish or seafood from marine or freshwater sources.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pêcheries"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pesca"
+        }
+      ]
+    },
+    {
+      "code": "FARM",
+      "display": "Farming",
+      "definition": "Cultivation of crops or raising of livestock for food, fiber, or other agricultural products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agriculture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agricultura"
+        }
+      ]
+    },
+    {
+      "code": "GENC",
+      "display": "General Contractor",
+      "definition": "Primary contractor responsible for overall coordination and execution of construction projects.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entrepreneur général"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contratista general"
+        }
+      ]
+    },
+    {
+      "code": "HLTH",
+      "display": "Health Services",
+      "definition": "Medical care, treatment, or health-related services provided by healthcare professionals or facilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de santé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de salud"
+        }
+      ]
+    },
+    {
+      "code": "LOGG",
+      "display": "Logging",
+      "definition": "Cutting, felling, and transporting of trees from forests for commercial purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exploitation forestière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tala forestal"
+        }
+      ]
+    },
+    {
+      "code": "MEMB",
+      "display": "Member Organizations",
+      "definition": "Groups or associations operating on a membership basis to serve members' interests or provide collective benefits.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Organisations membres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Organizaciones de miembros"
+        }
+      ]
+    },
+    {
+      "code": "PKUP",
+      "display": "Pick Up Customers Goods",
+      "definition": "Collection and retrieval of customer-owned items or merchandise for transport or service.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ramassage de marchandises"
+        },
+        {
+          "language": "es-MX",
+          "value": "Recolección de mercancías del cliente"
+        }
+      ]
+    },
+    {
+      "code": "PVCR",
+      "display": "Private Carriers",
+      "definition": "Transportation companies operating their own vehicles to move their own goods, not for hire.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transporteurs privés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transportistas privados"
+        }
+      ]
+    },
+    {
+      "code": "ROAD",
+      "display": "Road Construction",
+      "definition": "Building, paving, or repair of roads, highways, and street surfaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Construction de routes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Construcción de carreteras"
+        }
+      ]
+    },
+    {
+      "code": "RECR",
+      "display": "Recreation",
+      "definition": "Leisure activities, sports facilities, or entertainment venues for public enjoyment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Activité récréative"
+        },
+        {
+          "language": "es-MX",
+          "value": "Recreación"
+        }
+      ]
+    },
+    {
+      "code": "TAXI",
+      "display": "Taxis/Limos",
+      "definition": "Passenger transportation services using taxis, limousines, or similar hired vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Taxis/limousines"
+        },
+        {
+          "language": "es-MX",
+          "value": "Taxis/limusinas"
+        }
+      ]
+    },
+    {
+      "code": "TOWS",
+      "display": "Towing Service",
+      "definition": "Removal and transport of disabled, illegally parked, or impounded vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service de remorquage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de grúa"
+        }
+      ]
+    },
+    {
+      "code": "TRNS",
+      "display": "Transport",
+      "definition": "Movement of goods or passengers from one location to another by various means.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transport"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transporte"
+        }
+      ]
+    },
+    {
+      "code": "UTIL",
+      "display": "Utilities",
+      "definition": "Public service infrastructure providing electricity, gas, water, telecommunications, or sewage services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services publics"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios públicos"
+        }
+      ]
+    },
+    {
+      "code": "WRHS",
+      "display": "Warehousing",
+      "definition": "Storage and management of goods in warehouse facilities for commercial purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreposage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Almacenamiento"
+        }
+      ]
+    },
+    {
+      "code": "ALSE",
+      "display": "Automobile Leasing (To Others)",
+      "definition": "Rental or leasing of vehicles to third parties for short-term or long-term use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Location de véhicules (à des tiers)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arrendamiento de automóviles (a terceros)"
+        }
+      ]
+    },
+    {
+      "code": "RELG",
+      "display": "Religious Institution",
+      "definition": "Organizations dedicated to religious worship, spiritual services, or faith-based community activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Institution religieuse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Institución religiosa"
+        }
+      ]
+    },
+    {
+      "code": "RESD",
+      "display": "Residential",
+      "definition": "Properties or operations related to housing and dwelling units for personal living.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résidentiel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Residencial"
+        }
+      ]
+    },
+    {
+      "code": "COML",
+      "display": "Commercial",
+      "definition": "Properties or operations used for business, trade, or commercial activities rather than residential purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commercial"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comercial"
+        }
+      ]
+    },
+    {
+      "code": "AUTO",
+      "display": "Automotive Services",
+      "definition": "Repair, maintenance, or servicing of motor vehicles and automotive equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services automobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios automotrices"
+        }
+      ]
+    },
+    {
+      "code": "BPRF",
+      "display": "Business and Professional",
+      "definition": "Professional services, consulting, or business support operations requiring specialized expertise.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Affaires et professionnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Negocios y profesional"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Business activities not classified under standard categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "PUBV",
+      "display": "Public Vehicles",
+      "definition": "Vehicles operated for public transportation or municipal services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicules publics"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículos públicos"
+        }
+      ]
+    },
+    {
+      "code": "FRMW",
+      "display": "Form Work",
+      "definition": "Construction of temporary molds or structures to shape poured concrete.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coffrage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Encofrado"
+        }
+      ]
+    },
+    {
+      "code": "BLSC",
+      "display": "Blasting",
+      "definition": "Use of explosives to break rock, demolish structures, or excavate in construction operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dynamitage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Voladura"
+        }
+      ]
+    },
+    {
+      "code": "EXCV",
+      "display": "Excavating",
+      "definition": "Digging and removal of earth or rock for construction, mining, or site preparation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Excavation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Excavación"
+        }
+      ]
+    },
+    {
+      "code": "PILE",
+      "display": "Pile Driving",
+      "definition": "Driving vertical support columns into the ground for building foundations or structural support.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fonçage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hincado de pilotes"
+        }
+      ]
+    },
+    {
+      "code": "SHOR",
+      "display": "Shoring",
+      "definition": "Installation of temporary support structures to prevent collapse of excavations or existing structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Étayage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Apuntalamiento"
+        }
+      ]
+    },
+    {
+      "code": "RIGG",
+      "display": "Rigging",
+      "definition": "Setup and operation of lifting equipment, cables, and support systems for moving heavy loads.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gréage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aparejamiento"
+        }
+      ]
+    },
+    {
+      "code": "GRAD",
+      "display": "Grading",
+      "definition": "Leveling and shaping of land surfaces to establish proper elevation and drainage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nivellement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nivelación"
+        }
+      ]
+    },
+    {
+      "code": "RDCS",
+      "display": "Road Construction",
+      "definition": "Building, paving, or repair of roads, highways, and street surfaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Construction routière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Construcción de carreteras"
+        }
+      ]
+    },
+    {
+      "code": "PNTG",
+      "display": "Painting",
+      "definition": "Application of paint or coatings to buildings, structures, or surfaces for protection or decoration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Peinture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pintura"
+        }
+      ]
+    },
+    {
+      "code": "PLST",
+      "display": "Plastering",
+      "definition": "Application of plaster to walls and ceilings for finishing interior or exterior surfaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plâtrage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Enyesado"
+        }
+      ]
+    },
+    {
+      "code": "DEMO",
+      "display": "Demolition/Wrecking",
+      "definition": "Tearing down or dismantling of buildings, structures, or installations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Démolition"
+        },
+        {
+          "language": "es-MX",
+          "value": "Demolición"
+        }
+      ]
+    },
+    {
+      "code": "CONC",
+      "display": "Concrete Work",
+      "definition": "Mixing, pouring, and finishing of concrete for construction projects.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Construction en béton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajo de concreto"
+        }
+      ]
+    },
+    {
+      "code": "UNDP",
+      "display": "Underpinning",
+      "definition": "Strengthening or stabilizing the foundation of an existing structure by extending support to deeper or more stable soil.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Reprise en sous-œuvre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Recalce"
+        }
+      ]
+    },
+    {
+      "code": "WELD",
+      "display": "Welding",
+      "definition": "Joining metal parts together using heat and pressure or fusion techniques.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soudage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Soldadura"
+        }
+      ]
+    },
+    {
+      "code": "TUNL",
+      "display": "Tunnelling",
+      "definition": "Excavation and construction of underground passages through earth or rock.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Creusage de tunnels"
+        },
+        {
+          "language": "es-MX",
+          "value": "Construcción de túneles"
+        }
+      ]
+    },
+    {
+      "code": "HTAR",
+      "display": "Hot Tarring",
+      "definition": "Application of heated tar or asphalt for waterproofing or paving purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Goudronnage à chaud"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alquitranado en caliente"
+        }
+      ]
+    },
+    {
+      "code": "CAIS",
+      "display": "Caisson Work",
+      "definition": "Construction using watertight chambers for building foundations underwater or in waterlogged soil.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travaux de caisson"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajo de cajón"
+        }
+      ]
+    },
+    {
+      "code": "RSMV",
+      "display": "Raising or Moving",
+      "definition": "Lifting or relocating entire buildings or large structures to new positions or elevations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soulèvement ou déplacement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Elevación o traslado"
+        }
+      ]
+    },
+    {
+      "code": "SPNT",
+      "display": "Spray Painting",
+      "definition": "Application of paint or coatings using spray equipment for industrial or commercial purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Peinture au fusil"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pintura con pistola"
+        }
+      ]
+    },
+    {
+      "code": "ADDN",
+      "display": "Additions",
+      "definition": "Expansion or extension of existing structures by adding new rooms, floors, or sections.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Additions"
+        },
+        {
+          "language": "es-MX",
+          "value": "Adiciones"
+        }
+      ]
+    },
+    {
+      "code": "FOUN",
+      "display": "Foundation",
+      "definition": "Construction of structural bases that support buildings or other structures and transfer loads to the ground.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fondations"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cimentación"
+        }
+      ]
+    },
+    {
+      "code": "CARP",
+      "display": "Carpentry",
+      "definition": "Skilled trade of cutting, shaping, and installing wood for building structures and fixtures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Menuiserie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carpintería"
+        }
+      ]
+    },
+    {
+      "code": "MASN",
+      "display": "Masonry",
+      "definition": "Construction using brick, stone, concrete blocks, or similar materials bonded with mortar.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maçonnerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mampostería"
+        }
+      ]
+    },
+    {
+      "code": "SSTL",
+      "display": "Structural Steel",
+      "definition": "Fabrication and erection of steel frameworks for buildings and structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charpente d'acier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acero estructural"
+        }
+      ]
+    },
+    {
+      "code": "ROOF",
+      "display": "Roofing",
+      "definition": "Installation, repair, or replacement of roof coverings and waterproofing systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toiture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Techado"
+        }
+      ]
+    },
+    {
+      "code": "ELEC",
+      "display": "Electrical Wiring",
+      "definition": "Installation and maintenance of electrical systems, circuits, and wiring in buildings or structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Câblage électrique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cableado eléctrico"
+        }
+      ]
+    },
+    {
+      "code": "DRDG",
+      "display": "Dredging",
+      "definition": "Removal of sediment, debris, or material from the bottom of waterways, harbors, or other water bodies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dragage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dragado"
+        }
+      ]
+    },
+    {
+      "code": "LCLR",
+      "display": "Landclearing",
+      "definition": "Removal of trees, vegetation, and obstacles from land to prepare it for development or cultivation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défrichement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desmonte"
+        }
+      ]
+    },
+    {
+      "code": "MNFR",
+      "display": "Manufacturing",
+      "definition": "Large-scale production of goods using machinery and assembly processes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fabrication"
+        },
+        {
+          "language": "es-MX",
+          "value": "Manufactura"
+        }
+      ]
+    },
+    {
+      "code": "DIST",
+      "display": "Distribution",
+      "definition": "Storage and delivery of goods from manufacturers or wholesalers to retailers or end users.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Distribution"
+        },
+        {
+          "language": "es-MX",
+          "value": "Distribución"
+        }
+      ]
+    },
+    {
+      "code": "LNDS",
+      "display": "Landscaping",
+      "definition": "Design, installation, and maintenance of outdoor spaces including plants, lawns, and decorative features.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aménagement paysager"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paisajismo"
+        }
+      ]
+    },
+    {
+      "code": "SNOW",
+      "display": "Snow Removal",
+      "definition": "Clearing snow and ice from roads, parking lots, driveways, and walkways.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déneigement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remoción de nieve"
+        }
+      ]
+    }
+  ]
+}

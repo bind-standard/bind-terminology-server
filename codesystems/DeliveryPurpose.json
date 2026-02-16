@@ -1,0 +1,117 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "DeliveryPurpose",
+  "url": "https://bind.codes/DeliveryPurpose",
+  "name": "DeliveryPurpose",
+  "title": "Delivery Purpose",
+  "status": "draft",
+  "language": "en",
+  "description": "Delivery Purpose codes for insurance operations.",
+  "concept": [
+    {
+      "code": "NODL",
+      "display": "No Delivery",
+      "definition": "Vehicle is not used for delivery of goods or services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucune livraison"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin entrega"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Delivery purpose not otherwise specified.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "RETL",
+      "display": "Retail Delivery",
+      "definition": "Vehicle used for delivering goods directly to individual consumers or end users.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Livraison au détail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entrega al por menor"
+        }
+      ]
+    },
+    {
+      "code": "WHSL",
+      "display": "Wholesale Delivery",
+      "definition": "Vehicle used for delivering goods in bulk to businesses or retailers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Livraison en gros"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entrega al por mayor"
+        }
+      ]
+    },
+    {
+      "code": "MOVE",
+      "display": "Moving or Storage",
+      "definition": "Vehicle used for transporting household or business goods for relocation or storage purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déménagement ou entreposage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mudanza o almacenamiento"
+        }
+      ]
+    },
+    {
+      "code": "FOOD",
+      "display": "Food Delivery",
+      "definition": "Vehicle used for delivering prepared meals or food items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Livraison de nourriture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entrega de alimentos"
+        }
+      ]
+    },
+    {
+      "code": "PRSL",
+      "display": "Parcel or Package Delivery",
+      "definition": "Vehicle used for delivering parcels, packages, or courier services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Livraison de colis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entrega de paquetes"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,446 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "IndustrySegment",
+  "url": "https://bind.codes/IndustrySegment",
+  "name": "IndustrySegment",
+  "title": "Industry Segment",
+  "status": "draft",
+  "language": "en",
+  "description": "Industry Segment codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ARSP",
+      "display": "Aerospace Services",
+      "definition": "Organizations involved in the design, manufacturing, maintenance, and operation of aircraft and spacecraft.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services aérospatiaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios aeroespaciales"
+        }
+      ]
+    },
+    {
+      "code": "AUTO",
+      "display": "Automobile Services",
+      "definition": "Businesses providing vehicle sales, repair, maintenance, and related automotive services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services automobiles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios automotrices"
+        }
+      ]
+    },
+    {
+      "code": "BPRO",
+      "display": "Business Professional Services",
+      "definition": "Professional service providers including consulting, accounting, legal, marketing, and other business support services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services commerciaux professionnels"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios profesionales de negocios"
+        }
+      ]
+    },
+    {
+      "code": "CONS",
+      "display": "Construction, Erection & Installation Services",
+      "definition": "Contractors and trades involved in building construction, structural assembly, and installation of systems and equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de construction, de montage et d'installation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de construcción, montaje e instalación"
+        }
+      ]
+    },
+    {
+      "code": "EDUC",
+      "display": "Education Services",
+      "definition": "Institutions and organizations providing educational instruction, training, and related services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services d'éducation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios educativos"
+        }
+      ]
+    },
+    {
+      "code": "EMRG",
+      "display": "Emergency Services",
+      "definition": "Organizations providing immediate response services including fire, rescue, and emergency medical services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services d'urgence"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de emergencia"
+        }
+      ]
+    },
+    {
+      "code": "FARM",
+      "display": "Farming Services",
+      "definition": "Agricultural operations and services including crop production, livestock raising, and farm support activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services agricoles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios agrícolas"
+        }
+      ]
+    },
+    {
+      "code": "FISH",
+      "display": "Fishing & Hunting",
+      "definition": "Commercial and recreational fishing, hunting, and trapping operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chasse et pêche"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pesca y caza"
+        }
+      ]
+    },
+    {
+      "code": "GAME",
+      "display": "Gaming, Lottery & Casino Services",
+      "definition": "Establishments operating gambling, lottery, and gaming entertainment facilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de casino, de loterie et de jeux de hasard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de casino, lotería y juegos de azar"
+        }
+      ]
+    },
+    {
+      "code": "GOVT",
+      "display": "Government Services",
+      "definition": "Public sector entities providing governmental administration, regulatory, and public services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services gouvernementaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios gubernamentales"
+        }
+      ]
+    },
+    {
+      "code": "HLTH",
+      "display": "Health Services",
+      "definition": "Healthcare providers, medical facilities, and health-related service organizations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de santé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de salud"
+        }
+      ]
+    },
+    {
+      "code": "HOSP",
+      "display": "Hospitality Services",
+      "definition": "Hotels, restaurants, catering, and other guest service establishments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services d'accueil"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de hospitalidad"
+        }
+      ]
+    },
+    {
+      "code": "LOGG",
+      "display": "Logging Services",
+      "definition": "Timber harvesting, forest management, and wood processing operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de débardage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de explotación forestal"
+        }
+      ]
+    },
+    {
+      "code": "MANU",
+      "display": "Manufacturing & Processing Services",
+      "definition": "Facilities and operations involved in the production, assembly, and processing of goods and materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de fabrication et de transformation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de fabricación y procesamiento"
+        }
+      ]
+    },
+    {
+      "code": "MEMB",
+      "display": "Member Organization Services",
+      "definition": "Associations, unions, clubs, and other membership-based organizations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services aux membres et à l'organisation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de organizaciones de miembros"
+        }
+      ]
+    },
+    {
+      "code": "MILT",
+      "display": "Military Services",
+      "definition": "Armed forces and defense-related operations and support services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services militaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios militares"
+        }
+      ]
+    },
+    {
+      "code": "MINE",
+      "display": "Mining Services",
+      "definition": "Mineral extraction, quarrying, and mining support operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services miniers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios mineros"
+        }
+      ]
+    },
+    {
+      "code": "OILG",
+      "display": "Oil & Gas Services",
+      "definition": "Petroleum and natural gas exploration, extraction, refining, and distribution operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services pétroliers et gaziers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de petróleo y gas"
+        }
+      ]
+    },
+    {
+      "code": "REAL",
+      "display": "Real Estate & Property",
+      "definition": "Property management, real estate brokerage, development, and related property services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Biens immobiliers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bienes raíces y propiedades"
+        }
+      ]
+    },
+    {
+      "code": "RECR",
+      "display": "Recreation Services",
+      "definition": "Entertainment, sports, leisure, and recreational activity providers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services des loisirs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios recreativos"
+        }
+      ]
+    },
+    {
+      "code": "RETL",
+      "display": "Retail Services",
+      "definition": "Businesses selling goods directly to consumers through stores or other retail channels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de détail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios minoristas"
+        }
+      ]
+    },
+    {
+      "code": "TECH",
+      "display": "Technology Services",
+      "definition": "Information technology services, software development, IT consulting, and technology support operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services technologiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios tecnológicos"
+        }
+      ]
+    },
+    {
+      "code": "TELE",
+      "display": "Telecommunication Services",
+      "definition": "Communications infrastructure and service providers including telephone, internet, and broadcasting.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de télécommunications"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de telecomunicaciones"
+        }
+      ]
+    },
+    {
+      "code": "TRNS",
+      "display": "Transportation Services",
+      "definition": "Passenger and freight transportation by land, air, or water, including logistics and delivery services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de transports"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de transporte"
+        }
+      ]
+    },
+    {
+      "code": "UTIL",
+      "display": "Utilities Services",
+      "definition": "Public and private utilities providing electricity, water, gas, and waste management services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services publics"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios públicos"
+        }
+      ]
+    },
+    {
+      "code": "WRHS",
+      "display": "Warehousing Services",
+      "definition": "Storage facilities and inventory management services for goods and materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services d'entreposage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de almacenamiento"
+        }
+      ]
+    },
+    {
+      "code": "WHSL",
+      "display": "Wholesale Services",
+      "definition": "Businesses distributing goods in bulk to retailers, commercial users, or other wholesalers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de gros"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios mayoristas"
+        }
+      ]
+    },
+    {
+      "code": "FINC",
+      "display": "Financial Services",
+      "definition": "Banking, investment, lending, and other financial institutions and services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services financiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios financieros"
+        }
+      ]
+    },
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    }
+  ]
+}

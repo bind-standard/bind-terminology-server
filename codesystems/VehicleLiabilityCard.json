@@ -1,0 +1,72 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "VehicleLiabilityCard",
+  "url": "https://bind.codes/VehicleLiabilityCard",
+  "name": "VehicleLiabilityCard",
+  "title": "Vehicle Liability Card",
+  "status": "draft",
+  "language": "en",
+  "description": "Types of liability cards issued to vehicle owners as proof of financial responsibility.",
+  "concept": [
+    {
+      "code": "TEMP",
+      "display": "Temporary",
+      "definition": "A short-term liability card issued for a limited period, typically used during policy inception or vehicle acquisition.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Temporaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Temporal"
+        }
+      ]
+    },
+    {
+      "code": "PERM",
+      "display": "Permanent",
+      "definition": "A long-term liability card valid for the full policy term, serving as proof of financial responsibility.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Permanent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Permanente"
+        }
+      ]
+    },
+    {
+      "code": "NOIS",
+      "display": "No Card Issued",
+      "definition": "Indicates that no physical or digital liability card has been issued for the vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucune carte émise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin tarjeta emitida"
+        }
+      ]
+    },
+    {
+      "code": "DIGI",
+      "display": "Digital Only",
+      "definition": "A digital-only liability card provided electronically without a physical card counterpart.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Numérique seulement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Solo digital"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "LeakDetectionMonitoringType",
+  "url": "https://bind.codes/LeakDetectionMonitoringType",
+  "name": "LeakDetectionMonitoringType",
+  "title": "Leak Detection Monitoring Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Leak Detection Monitoring Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CNTR",
+      "display": "Central Monitoring",
+      "definition": "A leak detection system monitored at a central station that can alert authorities or designated contacts when a water leak is detected.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Surveillance centralisée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Monitoreo central"
+        }
+      ]
+    },
+    {
+      "code": "MOBL",
+      "display": "Mobile Monitoring",
+      "definition": "A leak detection system that sends alerts to a mobile device or application when a water leak is detected.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Surveillance mobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Monitoreo móvil"
+        }
+      ]
+    },
+    {
+      "code": "LOCL",
+      "display": "Local Alarm Only",
+      "definition": "A leak detection system that activates a local audible or visual alarm at the property when a leak is detected, without remote notification.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Alarme locale seulement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alarma local únicamente"
+        }
+      ]
+    },
+    {
+      "code": "SELF",
+      "display": "Self-Monitoring",
+      "definition": "A leak detection system where the property owner manually checks the system's status and indicators without automated alerts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Auto-surveillance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Automonitoreo"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ElectricalProtection",
+  "url": "https://bind.codes/ElectricalProtection",
+  "name": "ElectricalProtection",
+  "title": "Electrical Protection",
+  "status": "draft",
+  "language": "en",
+  "description": "Electrical Protection codes for insurance operations.",
+  "concept": [
+    {
+      "code": "LTAR",
+      "display": "Lightning Arrestor",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Parafoudre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pararrayos"
+        }
+      ],
+      "definition": "A device that protects electrical systems and equipment from voltage spikes caused by lightning strikes by diverting the excess current to ground."
+    },
+    {
+      "code": "LTRD",
+      "display": "Lightning Rod",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Paratonnerre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pararrayos"
+        }
+      ],
+      "definition": "A metal rod mounted on a structure to intercept lightning strikes and conduct the electrical charge safely to ground, protecting the building from fire and structural damage."
+    },
+    {
+      "code": "SGAR",
+      "display": "Surge Arrestor",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Parasurtenseur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Supresor de Sobretensiones"
+        }
+      ],
+      "definition": "A device that protects electrical circuits from transient voltage surges by limiting the voltage and diverting surge current away from sensitive equipment."
+    },
+    {
+      "code": "GFCI",
+      "display": "Ground Fault Circuit Interrupter",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Disjoncteur de Fuite à la Terre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Interruptor de Falla a Tierra"
+        }
+      ],
+      "definition": "A device that monitors the flow of electrical current and quickly shuts off power when it detects an imbalance between incoming and outgoing current, preventing electrical shock."
+    },
+    {
+      "code": "AFCI",
+      "display": "Arc Fault Circuit Interrupter",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Disjoncteur de Détection d'Arc"
+        },
+        {
+          "language": "es-MX",
+          "value": "Interruptor de Falla de Arco"
+        }
+      ],
+      "definition": "A device that detects dangerous electrical arcing in wiring and immediately interrupts the circuit to prevent electrical fires."
+    },
+    {
+      "code": "CBKR",
+      "display": "Circuit Breaker",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Disjoncteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Interruptor Automático"
+        }
+      ],
+      "definition": "An automatically operated electrical switch that protects an electrical circuit from damage caused by overcurrent or short circuit by interrupting the flow of electricity."
+    }
+  ]
+}

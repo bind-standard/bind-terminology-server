@@ -1,0 +1,87 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TripRadius",
+  "url": "https://bind.codes/TripRadius",
+  "name": "TripRadius",
+  "title": "Trip Radius",
+  "status": "draft",
+  "language": "en",
+  "description": "Trip Radius codes for insurance operations.",
+  "concept": [
+    {
+      "code": "NRML",
+      "display": "Normal",
+      "definition": "A standard operating distance range from the base of operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Normal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Normal"
+        }
+      ]
+    },
+    {
+      "code": "MXMM",
+      "display": "Maximum",
+      "definition": "The furthest allowable distance range from the base of operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maximum"
+        },
+        {
+          "language": "es-MX",
+          "value": "Máximo"
+        }
+      ]
+    },
+    {
+      "code": "LOCL",
+      "display": "Local",
+      "definition": "Operations limited to the immediate vicinity of the base location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Local"
+        },
+        {
+          "language": "es-MX",
+          "value": "Local"
+        }
+      ]
+    },
+    {
+      "code": "INTM",
+      "display": "Intermediate",
+      "definition": "A mid-range operating distance extending beyond local but not to maximum range.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intermédiaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Intermedio"
+        }
+      ]
+    },
+    {
+      "code": "UNLT",
+      "display": "Unlimited",
+      "definition": "No restriction on operating distance from the base of operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Illimité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ilimitado"
+        }
+      ]
+    }
+  ]
+}

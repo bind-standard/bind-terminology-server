@@ -1,65 +1,144 @@
 {
   "resourceType": "CodeSystem",
-  "id": "access",
-  "url": "https://bind.codes/access",
+  "id": "Access",
+  "url": "https://bind.codes/Access",
   "name": "Access",
   "title": "Access",
   "status": "draft",
   "language": "en",
-  "description": "Access codes for insurance operations.",
+  "description": "Property access classification codes.",
   "concept": [
     {
-      "code": "easy-access-road",
+      "code": "EARD",
       "display": "Easy Access Road",
-      "definition": "Easy Access Road — access code.",
+      "definition": "Property is accessible via a paved or well-maintained road with no significant obstacles or terrain challenges.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Accès par route facile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acceso por carretera fácil"
         }
       ]
     },
     {
-      "code": "difficult-access-road",
+      "code": "DARD",
       "display": "Difficult Access Road",
-      "definition": "Difficult Access Road — access code.",
+      "definition": "Property is accessible via road but may involve unpaved surfaces, steep grades, narrow passages, or seasonal limitations.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Accès par route difficile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acceso por carretera difícil"
         }
       ]
     },
     {
-      "code": "island",
+      "code": "BOAT",
+      "display": "Boat Only",
+      "definition": "Property is accessible only by watercraft, with no road or bridge access available.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accès par bateau seulement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Solo por barco"
+        }
+      ]
+    },
+    {
+      "code": "ISLA",
       "display": "Island",
-      "definition": "Island — access code.",
+      "definition": "Property is located on an island, which may require ferry, bridge, or private watercraft access.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Île"
+        },
+        {
+          "language": "es-MX",
+          "value": "Isla"
         }
       ]
     },
     {
-      "code": "isolated-rural",
+      "code": "ISRU",
       "display": "Isolated Rural",
-      "definition": "Isolated Rural — access code.",
+      "definition": "Property is in a remote rural location with limited nearby infrastructure, services, or emergency response access.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Rural isolé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rural aislado"
         }
       ]
     },
     {
-      "code": "other-send-in-remarks-to-specify",
-      "display": "Other (Send in Remarks to specify)",
-      "definition": "Other (Send in Remarks to specify) — access code.",
+      "code": "SEAS",
+      "display": "Seasonal Access",
+      "definition": "Property access is limited to certain times of year due to weather conditions, ice roads, or other seasonal factors.",
       "designation": [
         {
           "language": "fr-CA",
-          "value": "Autre"
+          "value": "Accès saisonnier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acceso estacional"
+        }
+      ]
+    },
+    {
+      "code": "HELO",
+      "display": "Helicopter Only",
+      "definition": "Property is accessible only by helicopter due to terrain or absence of ground-level access routes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accès par hélicoptère seulement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Solo por helicóptero"
+        }
+      ]
+    },
+    {
+      "code": "GATE",
+      "display": "Gated Community",
+      "definition": "Property is located within a controlled-access community requiring authorization or escort for entry.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Communauté fermée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comunidad cerrada"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other (Send in Remarks to specify)",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre (à préciser dans les remarques)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro (especificar en comentarios)"
         }
       ]
     }

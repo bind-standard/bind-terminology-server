@@ -1,0 +1,71 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ChimneyBuiltFrom",
+  "url": "https://bind.codes/ChimneyBuiltFrom",
+  "name": "ChimneyBuiltFrom",
+  "title": "Chimney Built From",
+  "status": "draft",
+  "language": "en",
+  "description": "Chimney Built From codes for insurance operations.",
+  "concept": [
+    {
+      "code": "GRND",
+      "display": "Ground",
+      "definition": "Chimney structure that extends directly from ground level.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sol"
+        },
+        {
+          "language": "es-MX",
+          "value": "Suelo"
+        }
+      ]
+    },
+    {
+      "code": "FNDN",
+      "display": "Foundation",
+      "definition": "Chimney structure that is built starting from the building's foundation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fondation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cimentación"
+        }
+      ]
+    },
+    {
+      "code": "ROOF",
+      "display": "Roof",
+      "definition": "Chimney structure that is mounted on or extends from the roof.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Techo"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "PaymentType",
+  "url": "https://bind.codes/PaymentType",
+  "name": "PaymentType",
+  "title": "Payment Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Payment Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "SLVG",
+      "display": "Salvage",
+      "definition": "Recovery of value from damaged property by selling or recycling it after a claim has been settled.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sauvetage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Salvamento"
+        }
+      ]
+    },
+    {
+      "code": "EXGR",
+      "display": "Ex-gratia",
+      "definition": "A voluntary payment made without legal obligation, typically as a gesture of goodwill.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À titre gracieux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ex gratia"
+        }
+      ]
+    },
+    {
+      "code": "WPRE",
+      "display": "Without Prejudice",
+      "definition": "A payment made while reserving the right to dispute liability or contest the claim at a later time.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous toutes réserves"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin perjuicio"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "ADEX",
+      "display": "Adjustment Expense",
+      "definition": "Costs incurred to investigate, evaluate, and settle a claim, including adjuster fees and administrative expenses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dépense d'ajustement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gasto de ajuste"
+        }
+      ]
+    },
+    {
+      "code": "FINL",
+      "display": "Final Payment",
+      "definition": "The concluding payment that fully settles a claim with no further amounts due.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Paiement final"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pago final"
+        }
+      ]
+    },
+    {
+      "code": "LRSV",
+      "display": "Loss Reserve",
+      "definition": "Funds set aside to cover anticipated future claim payments based on reported losses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Provision pour sinistres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reserva de pérdidas"
+        }
+      ]
+    },
+    {
+      "code": "PYMT",
+      "display": "Payment",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Paiement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pago"
+        }
+      ]
+    },
+    {
+      "code": "PART",
+      "display": "Partial Payment",
+      "definition": "An interim payment that covers part of the total claim amount, with additional payments to follow.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Paiement partiel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pago parcial"
+        }
+      ]
+    },
+    {
+      "code": "SUBR",
+      "display": "Subrogation Recovery",
+      "definition": "Amount recovered from a third party who is responsible for the loss, after the claim has been paid.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Recouvrement par subrogation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Recuperación por subrogación"
+        }
+      ]
+    },
+    {
+      "code": "DEDU",
+      "display": "Deductible",
+      "definition": "The portion of the claim that the policyholder is responsible for paying before coverage applies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Deducible"
+        }
+      ]
+    },
+    {
+      "code": "ADVN",
+      "display": "Advance Payment",
+      "definition": "An early payment provided to the claimant before the final claim settlement is determined.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Paiement anticipé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pago adelantado"
+        }
+      ]
+    }
+  ]
+}

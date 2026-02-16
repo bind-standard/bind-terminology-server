@@ -1,0 +1,72 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "AmbulanceUse",
+  "url": "https://bind.codes/AmbulanceUse",
+  "name": "AmbulanceUse",
+  "title": "Ambulance Use",
+  "status": "draft",
+  "language": "en",
+  "description": "Ambulance Use codes for insurance operations.",
+  "concept": [
+    {
+      "code": "PRIV",
+      "display": "Private",
+      "definition": "Ambulance service operated by a private company or organization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Privé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Privado"
+        }
+      ]
+    },
+    {
+      "code": "PUBL",
+      "display": "Public",
+      "definition": "Ambulance service operated by a government or publicly-funded entity.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Public"
+        },
+        {
+          "language": "es-MX",
+          "value": "Público"
+        }
+      ]
+    },
+    {
+      "code": "AIRA",
+      "display": "Air Ambulance",
+      "definition": "Ambulance service using aircraft (helicopter or fixed-wing) for emergency medical transportation, typically for long distances or remote locations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ambulance aérienne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ambulancia aérea"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "Non-Emergency",
+      "definition": "Ambulance service for scheduled or non-urgent medical transport, such as transfers between facilities or to appointments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non-urgence"
+        },
+        {
+          "language": "es-MX",
+          "value": "No urgente"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CancellationType",
+  "url": "https://bind.codes/CancellationType",
+  "name": "CancellationType",
+  "title": "Cancellation Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Cancellation Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "FLAT",
+      "display": "Flat Rate",
+      "definition": "A fixed fee that does not vary based on the duration of service.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Taux forfaitaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tarifa fija"
+        }
+      ]
+    },
+    {
+      "code": "PROR",
+      "display": "Pro-rata",
+      "definition": "Calculation method based on the exact proportion of time elapsed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Prorata"
+        },
+        {
+          "language": "es-MX",
+          "value": "Prorrata"
+        }
+      ]
+    },
+    {
+      "code": "SHRT",
+      "display": "Short Rate",
+      "definition": "Calculation method with a penalty applied, resulting in a reduced amount.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Taux à court terme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tarifa corta"
+        }
+      ]
+    },
+    {
+      "code": "NREF",
+      "display": "Non-refundable",
+      "definition": "No amount is returned upon cancellation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non remboursable"
+        },
+        {
+          "language": "es-MX",
+          "value": "No reembolsable"
+        }
+      ]
+    }
+  ]
+}

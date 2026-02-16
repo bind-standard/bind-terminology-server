@@ -1,0 +1,3977 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CodeLists",
+  "url": "https://bind.codes/CodeLists",
+  "name": "CodeLists",
+  "title": "Code Lists",
+  "status": "draft",
+  "language": "en",
+  "description": "Code Lists codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ACTN",
+      "display": "Action Code List",
+      "definition": "Categorization of actions that can be performed within a system or process.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de code d'actions"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de códigos de acción"
+        }
+      ]
+    },
+    {
+      "code": "ADSG",
+      "display": "Address Designation Code List",
+      "definition": "Standardized address designations used to classify or describe address components.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de désignations d'adresse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de designaciones de dirección"
+        }
+      ]
+    },
+    {
+      "code": "ADFT",
+      "display": "Address Format Code List",
+      "definition": "Formatting standards for structured address presentation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de formats d'adresse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de formatos de dirección"
+        }
+      ]
+    },
+    {
+      "code": "ADTY",
+      "display": "Address Type List",
+      "definition": "Classification of address types such as residential, commercial, or mailing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types d'adresse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de dirección"
+        }
+      ]
+    },
+    {
+      "code": "ADMD",
+      "display": "Advertising Media List",
+      "definition": "Types of media channels used for advertising purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de médias publicitaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de medios publicitarios"
+        }
+      ]
+    },
+    {
+      "code": "ABST",
+      "display": "Air Bag Status Code List",
+      "definition": "Status indicators for vehicle airbag systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de statuts de sac gonflable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de estados de bolsa de aire"
+        }
+      ]
+    },
+    {
+      "code": "ABTY",
+      "display": "Air Bag Type Code List",
+      "definition": "Classification of airbag types installed in vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de sac gonflable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de bolsa de aire"
+        }
+      ]
+    },
+    {
+      "code": "ACAT",
+      "display": "Air Conditioning Agent Type Code List",
+      "definition": "Types of refrigerant agents used in air conditioning systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types d'agent de climatisation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de agente de aire acondicionado"
+        }
+      ]
+    },
+    {
+      "code": "ALDC",
+      "display": "Alarm Description Code List",
+      "definition": "Descriptive categories for alarm system types and features.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de descriptions d'alarme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de descripciones de alarma"
+        }
+      ]
+    },
+    {
+      "code": "ALMT",
+      "display": "Alarm Type Code List",
+      "definition": "Classification of alarm systems by their primary function.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types d'alarme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de alarma"
+        }
+      ]
+    },
+    {
+      "code": "AMTY",
+      "display": "Amount Type Code List",
+      "definition": "Classification of monetary amount types within transactions or records.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de montant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de monto"
+        }
+      ]
+    },
+    {
+      "code": "ANML",
+      "display": "Animal Type Code List",
+      "definition": "Classification of animal types relevant to property or liability considerations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types d'animaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de animales"
+        }
+      ]
+    },
+    {
+      "code": "ATPM",
+      "display": "Anti-Theft Product Manufacturer Code List",
+      "definition": "Manufacturers of anti-theft devices and security products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de fabricants de produits antivol"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de fabricantes de productos antirrobo"
+        }
+      ]
+    },
+    {
+      "code": "APLI",
+      "display": "Applicant Liability List",
+      "definition": "Categories of liability exposure associated with an applicant.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de responsabilités du demandeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de responsabilidades del solicitante"
+        }
+      ]
+    },
+    {
+      "code": "APST",
+      "display": "Approval Status Code List",
+      "definition": "Status indicators for approval processes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de statuts d'approbation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de estados de aprobación"
+        }
+      ]
+    },
+    {
+      "code": "ASOC",
+      "display": "Association Code List",
+      "definition": "Professional or industry associations and membership organizations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'associations"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de asociaciones"
+        }
+      ]
+    },
+    {
+      "code": "ATST",
+      "display": "Attachment Status Code List",
+      "definition": "Status indicators for document or file attachments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de statuts de pièce jointe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de estados de adjunto"
+        }
+      ]
+    },
+    {
+      "code": "ATTY",
+      "display": "Attachment Type Code List",
+      "definition": "Classification of attachment types by content or purpose.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de pièce jointe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de adjunto"
+        }
+      ]
+    },
+    {
+      "code": "AUMT",
+      "display": "Audit Method Type Code List",
+      "definition": "Methodologies used for conducting audits.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de méthode d'audit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de método de auditoría"
+        }
+      ]
+    },
+    {
+      "code": "AURD",
+      "display": "Audit Rendered Code List",
+      "definition": "Outcomes or results rendered from an audit process.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de résultats d'audit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de resultados de auditoría"
+        }
+      ]
+    },
+    {
+      "code": "AUSR",
+      "display": "Audit Source Code List",
+      "definition": "Sources from which audit information is obtained.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de sources d'audit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de fuentes de auditoría"
+        }
+      ]
+    },
+    {
+      "code": "AUTT",
+      "display": "Audit Transaction Type Code List",
+      "definition": "Types of transactions subject to audit review.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de transaction d'audit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de transacción de auditoría"
+        }
+      ]
+    },
+    {
+      "code": "AUTY",
+      "display": "Audit Type List",
+      "definition": "Classification of audit types by scope or purpose.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types d'audit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de auditoría"
+        }
+      ]
+    },
+    {
+      "code": "AATC",
+      "display": "Auto Anti Theft Characteristic Code List",
+      "definition": "Characteristics of anti-theft systems installed in vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de caractéristiques antivol automobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de características antirrobo de automóvil"
+        }
+      ]
+    },
+    {
+      "code": "AATD",
+      "display": "Auto AntiTheft Device Code List",
+      "definition": "Specific anti-theft devices installed in vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de dispositifs antivol automobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de dispositivos antirrobo de automóvil"
+        }
+      ]
+    },
+    {
+      "code": "BTTY",
+      "display": "Bathroom Type Code List",
+      "definition": "Classification of bathroom types by size, fixtures, or configuration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de salle de bain"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de baño"
+        }
+      ]
+    },
+    {
+      "code": "BACS",
+      "display": "Billing Account Status Code List",
+      "definition": "Status indicators for billing accounts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de statuts de compte de facturation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de estados de cuenta de facturación"
+        }
+      ]
+    },
+    {
+      "code": "BLAC",
+      "display": "Billing Activity Code List",
+      "definition": "Types of billing-related activities or transactions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'activités de facturation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de actividades de facturación"
+        }
+      ]
+    },
+    {
+      "code": "BLMT",
+      "display": "Billing Method Code List",
+      "definition": "Methods used for billing and invoicing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de méthodes de facturation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de métodos de facturación"
+        }
+      ]
+    },
+    {
+      "code": "BNPR",
+      "display": "Binder Purpose Code List",
+      "definition": "Purpose or reason for issuing a coverage binder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de finalités de note de couverture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de propósitos de carpeta"
+        }
+      ]
+    },
+    {
+      "code": "BDTR",
+      "display": "Bond Terms Code List",
+      "definition": "Terms and conditions applicable to surety bonds.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de conditions de cautionnement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de términos de fianza"
+        }
+      ]
+    },
+    {
+      "code": "BDTY",
+      "display": "Bond Type Code List",
+      "definition": "Classification of bond types by purpose or structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de cautionnement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de fianza"
+        }
+      ]
+    },
+    {
+      "code": "BLBZ",
+      "display": "Broad Line Business Code List",
+      "definition": "High-level business line classifications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de grandes catégories d'entreprise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de líneas de negocio amplias"
+        }
+      ]
+    },
+    {
+      "code": "BCTY",
+      "display": "Building Construction Type Code List",
+      "definition": "Classification of building construction methods and materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de construction de bâtiment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de construcción de edificios"
+        }
+      ]
+    },
+    {
+      "code": "BEGT",
+      "display": "Building Effectiveness Grade Type Code List",
+      "definition": "Grading systems for assessing building structural effectiveness.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de cote d'efficacité du bâtiment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de grado de efectividad del edificio"
+        }
+      ]
+    },
+    {
+      "code": "BEXP",
+      "display": "Building Exposure List",
+      "definition": "Types of external exposures affecting buildings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'expositions du bâtiment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de exposiciones del edificio"
+        }
+      ]
+    },
+    {
+      "code": "BSYS",
+      "display": "Building System List",
+      "definition": "Major systems within a building such as HVAC, electrical, or plumbing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de systèmes du bâtiment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de sistemas del edificio"
+        }
+      ]
+    },
+    {
+      "code": "BUSE",
+      "display": "Building Use Type Code List",
+      "definition": "Classification of building usage by occupancy or purpose.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types d'utilisation du bâtiment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de uso del edificio"
+        }
+      ]
+    },
+    {
+      "code": "BRET",
+      "display": "Bullet Resisting Enclosure Type Code List",
+      "definition": "Types of bullet-resistant enclosures or security barriers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types d'enceinte pare-balles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de recinto resistente a balas"
+        }
+      ]
+    },
+    {
+      "code": "BITB",
+      "display": "Business Income Type of Business Code List",
+      "definition": "Business types relevant to business income coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types d'entreprise pour revenu d'entreprise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de negocio para ingresos comerciales"
+        }
+      ]
+    },
+    {
+      "code": "CEVO",
+      "display": "Cancel Evidence Obtained Code List",
+      "definition": "Types of evidence collected to support a cancellation decision.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de preuves obtenues pour annulation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de evidencia obtenida de cancelación"
+        }
+      ]
+    },
+    {
+      "code": "CANR",
+      "display": "Cancellation Reason Code List",
+      "definition": "Reasons for policy or coverage cancellation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de raisons d'annulation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de razones de cancelación"
+        }
+      ]
+    },
+    {
+      "code": "CANT",
+      "display": "Cancellation Type Code List",
+      "definition": "Types of cancellation processes or methods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types d'annulation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de cancelación"
+        }
+      ]
+    },
+    {
+      "code": "CADE",
+      "display": "Cancelled Declined Code List",
+      "definition": "Status indicators for cancelled or declined items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'annulés ou refusés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de cancelados o rechazados"
+        }
+      ]
+    },
+    {
+      "code": "CATY",
+      "display": "Carrier Type Code List",
+      "definition": "Classification of carrier types in transportation or logistics.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de transporteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de transportista"
+        }
+      ]
+    },
+    {
+      "code": "COLS",
+      "display": "Cause Of Loss Code List",
+      "definition": "Specific causes or perils that result in loss or damage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de causes de sinistre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de causas de pérdida"
+        }
+      ]
+    },
+    {
+      "code": "CETY",
+      "display": "Certificate Type Code List",
+      "definition": "Types of certificates issued for various purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de certificat"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de certificado"
+        }
+      ]
+    },
+    {
+      "code": "CREN",
+      "display": "Certifying Entity Code List",
+      "definition": "Organizations or bodies authorized to issue certifications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'entités de certification"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de entidades certificadoras"
+        }
+      ]
+    },
+    {
+      "code": "CHSS",
+      "display": "Change Status Source Code List",
+      "definition": "Sources that trigger or initiate status changes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de sources de changement de statut"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de fuentes de cambio de estado"
+        }
+      ]
+    },
+    {
+      "code": "CHPH",
+      "display": "Chapters Handled Code List",
+      "definition": "Bankruptcy chapters or legal proceedings handled.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de chapitres traités"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de capítulos manejados"
+        }
+      ]
+    },
+    {
+      "code": "CHTY",
+      "display": "Charge Type Code List",
+      "definition": "Classification of charge types in billing or accounting.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de frais"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de cargo"
+        }
+      ]
+    },
+    {
+      "code": "CHIM",
+      "display": "Chimney Code List",
+      "definition": "Types and configurations of chimney structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de cheminées"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de chimeneas"
+        }
+      ]
+    },
+    {
+      "code": "CHBF",
+      "display": "Chimney Built From Code List",
+      "definition": "Materials used in chimney construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de matériaux de construction de cheminée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de materiales de construcción de chimenea"
+        }
+      ]
+    },
+    {
+      "code": "CLMS",
+      "display": "Claimant Status Code List",
+      "definition": "Status indicators for claimants in a claims process.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de statuts de réclamant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de estados de reclamante"
+        }
+      ]
+    },
+    {
+      "code": "CHRS",
+      "display": "Claim History Report Status Code List",
+      "definition": "Status of claim history report requests or results.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de statuts de rapport d'historique de réclamations"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de estados de informe de historial de reclamos"
+        }
+      ]
+    },
+    {
+      "code": "CLNT",
+      "display": "Claim Notice List",
+      "definition": "Types of notices related to claim processing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'avis de réclamation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de avisos de reclamo"
+        }
+      ]
+    },
+    {
+      "code": "CLPB",
+      "display": "Claim Paid Back Code List",
+      "definition": "Methods or status of claim payment reimbursement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de remboursements de réclamation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de reembolsos de reclamos"
+        }
+      ]
+    },
+    {
+      "code": "CPLC",
+      "display": "Claims Party Location List",
+      "definition": "Physical locations associated with claim parties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de lieux des parties à la réclamation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de ubicaciones de partes del reclamo"
+        }
+      ]
+    },
+    {
+      "code": "CPRL",
+      "display": "Claims Party Role List",
+      "definition": "Roles played by various parties in the claims process.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de rôles des parties à la réclamation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de roles de partes del reclamo"
+        }
+      ]
+    },
+    {
+      "code": "CLST",
+      "display": "Claim Status List",
+      "definition": "Status indicators for claims throughout their lifecycle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de statuts de réclamation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de estados de reclamo"
+        }
+      ]
+    },
+    {
+      "code": "CSRI",
+      "display": "Class Specific Rated Indicator Code List",
+      "definition": "Indicators for class-specific rating methodologies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'indicateurs de tarification par classe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de indicadores de tarificación específica por clase"
+        }
+      ]
+    },
+    {
+      "code": "CLRF",
+      "display": "Clearance From Code List",
+      "definition": "Starting points or reference locations for clearance measurements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de dégagement à partir de"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de distancia desde"
+        }
+      ]
+    },
+    {
+      "code": "CLRT",
+      "display": "Clearance To Code List",
+      "definition": "Endpoints or target locations for clearance measurements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de dégagement jusqu'à"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de distancia hasta"
+        }
+      ]
+    },
+    {
+      "code": "CLOM",
+      "display": "Closure Method Code List",
+      "definition": "Methods used to close or seal openings or containers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de méthodes de fermeture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de métodos de cierre"
+        }
+      ]
+    },
+    {
+      "code": "CLOW",
+      "display": "Code List Owner List",
+      "definition": "Organizations or entities that maintain code lists.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de propriétaires de liste de codes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de propietarios de lista de códigos"
+        }
+      ]
+    },
+    {
+      "code": "CDLS",
+      "display": "Code Lists",
+      "definition": "Registry of available code lists within the system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Listes de codes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Listas de códigos"
+        }
+      ]
+    },
+    {
+      "code": "CBPS",
+      "display": "Collateral Benefits Plan Source Code List",
+      "definition": "Sources of collateral benefits plans.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de sources de plan de prestations accessoires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de fuentes de plan de beneficios colaterales"
+        }
+      ]
+    },
+    {
+      "code": "CIMC",
+      "display": "Commercial Inland Marine Class Code List",
+      "definition": "Classification codes for commercial inland marine coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de classes de transport maritime intérieur commercial"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de clases de marina interior comercial"
+        }
+      ]
+    },
+    {
+      "code": "COMD",
+      "display": "Commodity Code List",
+      "definition": "Types of commodities or goods being transported or stored.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de marchandises"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de mercancías"
+        }
+      ]
+    },
+    {
+      "code": "COMU",
+      "display": "Communication Use List",
+      "definition": "Purposes or contexts for communication methods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'utilisations de communication"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de usos de comunicación"
+        }
+      ]
+    },
+    {
+      "code": "COMP",
+      "display": "Company Code List",
+      "definition": "Companies or organizations relevant to the system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de compagnies"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de compañías"
+        }
+      ]
+    },
+    {
+      "code": "CMTY",
+      "display": "Component Type Code List",
+      "definition": "Types of components within a larger system or structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de composant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de componente"
+        }
+      ]
+    },
+    {
+      "code": "CDTY",
+      "display": "Condition Type Code List",
+      "definition": "Types of conditions or states applied to policies or items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de condition"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de condición"
+        }
+      ]
+    },
+    {
+      "code": "CSCL",
+      "display": "Construction Class Code List",
+      "definition": "Classification of construction by quality or fire resistance class.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de classes de construction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de clases de construcción"
+        }
+      ]
+    },
+    {
+      "code": "CSTY",
+      "display": "Construction Style List",
+      "definition": "Architectural or structural styles of construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de styles de construction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de estilos de construcción"
+        }
+      ]
+    },
+    {
+      "code": "CNTY",
+      "display": "Construction Type Code List",
+      "definition": "Methods and materials used in construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de construction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de construcción"
+        }
+      ]
+    },
+    {
+      "code": "CTLC",
+      "display": "Contents Location Code List",
+      "definition": "Locations where contents or personal property are situated.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de lieux du contenu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de ubicaciones de contenido"
+        }
+      ]
+    },
+    {
+      "code": "CNTT",
+      "display": "Content Type Code List",
+      "definition": "Classification of content by type or format.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de contenu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de contenido"
+        }
+      ]
+    },
+    {
+      "code": "CTCV",
+      "display": "Continuous Coverage Code List",
+      "definition": "Status or periods of continuous coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de couverture continue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de cobertura continua"
+        }
+      ]
+    },
+    {
+      "code": "CTIN",
+      "display": "Continuous Insurance List",
+      "definition": "Status or documentation of continuous coverage history.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'assurance continue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de seguro continuo"
+        }
+      ]
+    },
+    {
+      "code": "CONV",
+      "display": "Conveyance Code List",
+      "definition": "Methods or vehicles used for transportation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de modes de transport"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de medios de transporte"
+        }
+      ]
+    },
+    {
+      "code": "CONC",
+      "display": "Conviction Code List",
+      "definition": "Types of criminal or traffic convictions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de condamnations"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de condenas"
+        }
+      ]
+    },
+    {
+      "code": "CPOW",
+      "display": "Copyright Owner Code List",
+      "definition": "Entities holding copyright ownership.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de détenteurs de droits d'auteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de propietarios de derechos de autor"
+        }
+      ]
+    },
+    {
+      "code": "CNTM",
+      "display": "Count Method Code List",
+      "definition": "Methods used for counting or enumeration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de méthodes de comptage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de métodos de conteo"
+        }
+      ]
+    },
+    {
+      "code": "CRTY",
+      "display": "Court Type Code List",
+      "definition": "Types of courts by jurisdiction or level.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de tribunal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de tribunal"
+        }
+      ]
+    },
+    {
+      "code": "CVOP",
+      "display": "Coverage Option Code List",
+      "definition": "Optional coverage features or endorsements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'options de couverture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de opciones de cobertura"
+        }
+      ]
+    },
+    {
+      "code": "COVG",
+      "display": "Coverages Code List",
+      "definition": "Types of coverage available within policies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de couvertures"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de coberturas"
+        }
+      ]
+    },
+    {
+      "code": "CA:CVOR",
+      "display": "CVOR (Commercial Vehicle Operator Record) Safety Code List",
+      "definition": "Safety ratings for commercial vehicle operators under CVOR in Ontario.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de sécurité CVOR (Dossier d'exploitant de véhicule utilitaire)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de seguridad CVOR (Registro de operador de vehículo comercial)"
+        }
+      ]
+    },
+    {
+      "code": "CYBP",
+      "display": "Cycle Business Purpose Code List",
+      "definition": "Business purposes for motorcycle or cycle usage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de finalités commerciales de moto"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de propósitos comerciales de ciclo"
+        }
+      ]
+    },
+    {
+      "code": "DNGD",
+      "display": "Dangerous Goods Code List",
+      "definition": "Classification of dangerous or hazardous goods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de marchandises dangereuses"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de mercancías peligrosas"
+        }
+      ]
+    },
+    {
+      "code": "DTYP",
+      "display": "Data Type List",
+      "definition": "Data types used in system fields or databases.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de données"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de datos"
+        }
+      ]
+    },
+    {
+      "code": "DKMT",
+      "display": "Deck Material Type Code List",
+      "definition": "Materials used for deck construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de matériaux de terrasse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de material de cubierta"
+        }
+      ]
+    },
+    {
+      "code": "DDAP",
+      "display": "Deductible Applies Code List",
+      "definition": "Conditions under which a deductible is applied.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'application de franchise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de aplicación de deducible"
+        }
+      ]
+    },
+    {
+      "code": "DDBS",
+      "display": "Deductible Basis Code List",
+      "definition": "Basis on which deductibles are calculated.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de base de franchise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de base de deducible"
+        }
+      ]
+    },
+    {
+      "code": "DDTY",
+      "display": "Deductible Type Code List",
+      "definition": "Types of deductibles by structure or application.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de franchise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de deducible"
+        }
+      ]
+    },
+    {
+      "code": "DFCT",
+      "display": "Defense Category Code List",
+      "definition": "Categories of legal defense or protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de catégories de défense"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de categorías de defensa"
+        }
+      ]
+    },
+    {
+      "code": "DFDI",
+      "display": "Defensive Driver Indicator Code List",
+      "definition": "Indicators showing completion of defensive driving training.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'indicateurs de conduite défensive"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de indicadores de conducción defensiva"
+        }
+      ]
+    },
+    {
+      "code": "DLFQ",
+      "display": "Delivery Frequency Code List",
+      "definition": "Frequency schedules for deliveries or shipments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de fréquences de livraison"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de frecuencias de entrega"
+        }
+      ]
+    },
+    {
+      "code": "DLMT",
+      "display": "Delivery Method Code List",
+      "definition": "Methods used for delivering goods or documents.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de méthodes de livraison"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de métodos de entrega"
+        }
+      ]
+    },
+    {
+      "code": "DLPR",
+      "display": "Delivery Purpose Code List",
+      "definition": "Purposes or reasons for delivery activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de finalités de livraison"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de propósitos de entrega"
+        }
+      ]
+    },
+    {
+      "code": "DPTY",
+      "display": "Deposit Type Code List",
+      "definition": "Types of deposits or down payments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de dépôt"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de depósito"
+        }
+      ]
+    },
+    {
+      "code": "DTST",
+      "display": "Detached Structures Type Code List",
+      "definition": "Types of structures detached from the main building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de structures détachées"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de estructuras independientes"
+        }
+      ]
+    },
+    {
+      "code": "DIRT",
+      "display": "Direction Type List",
+      "definition": "Directional indicators or compass directions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de direction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de dirección"
+        }
+      ]
+    },
+    {
+      "code": "DSAS",
+      "display": "Disaster Assistance List",
+      "definition": "Types of disaster relief or assistance programs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'assistance en cas de catastrophe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de asistencia por desastre"
+        }
+      ]
+    },
+    {
+      "code": "DSTY",
+      "display": "Distance Type List",
+      "definition": "Types of distance measurements or proximity classifications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de distance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de distancia"
+        }
+      ]
+    },
+    {
+      "code": "DOGP",
+      "display": "Dog Type Code List",
+      "definition": "Breeds or types of dogs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de chien"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de perro"
+        }
+      ]
+    },
+    {
+      "code": "DRCT",
+      "display": "Door Chest Type Code List",
+      "definition": "Types of door chest configurations for safes or vaults.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de coffre de porte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de cofre de puerta"
+        }
+      ]
+    },
+    {
+      "code": "DRLT",
+      "display": "Door Lock Type Code List",
+      "definition": "Types of door locking mechanisms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de serrure de porte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de cerradura de puerta"
+        }
+      ]
+    },
+    {
+      "code": "DOTY",
+      "display": "Door Type Code List",
+      "definition": "Classification of door types by material or style.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de porte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de puerta"
+        }
+      ]
+    },
+    {
+      "code": "DLEX",
+      "display": "Driver License Exception Code List",
+      "definition": "Exceptions or restrictions on driver licenses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'exceptions de permis de conduire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de excepciones de licencia de conducir"
+        }
+      ]
+    },
+    {
+      "code": "DRRT",
+      "display": "Driver Relates to Code List",
+      "definition": "Relationships between drivers and vehicles or policyholders.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de relations du conducteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de relaciones del conductor"
+        }
+      ]
+    },
+    {
+      "code": "DRTR",
+      "display": "Driver Training Code List",
+      "definition": "Types of driver training programs or courses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de formations de conducteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de capacitación de conductor"
+        }
+      ]
+    },
+    {
+      "code": "DRTY",
+      "display": "Driver Type Code List",
+      "definition": "Classification of drivers by usage or status.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de conducteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de conductor"
+        }
+      ]
+    },
+    {
+      "code": "DVRC",
+      "display": "Driving Record Code List",
+      "definition": "Classification of driving records or abstracts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de dossiers de conduite"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de registros de conducción"
+        }
+      ]
+    },
+    {
+      "code": "DSCT",
+      "display": "Driving School Type Code List",
+      "definition": "Types of driving schools or training institutions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types d'école de conduite"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de escuela de manejo"
+        }
+      ]
+    },
+    {
+      "code": "DWST",
+      "display": "Dwelling Style Code List",
+      "definition": "Architectural styles of residential dwellings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de styles de logement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de estilos de vivienda"
+        }
+      ]
+    },
+    {
+      "code": "DWUS",
+      "display": "Dwelling Use Code List",
+      "definition": "Primary uses or occupancy types for dwellings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'utilisations de logement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de usos de vivienda"
+        }
+      ]
+    },
+    {
+      "code": "EQBG",
+      "display": "Earthquake Building Ground Code List",
+      "definition": "Ground conditions affecting earthquake exposure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de sol de bâtiment pour tremblements de terre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de suelo de edificio para terremotos"
+        }
+      ]
+    },
+    {
+      "code": "EQRT",
+      "display": "Earthquake Retrofit List",
+      "definition": "Types of earthquake retrofitting measures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de renforcements parasismiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de modernizaciones sísmicas"
+        }
+      ]
+    },
+    {
+      "code": "ELAP",
+      "display": "Elected Appointed Code List",
+      "definition": "Status as elected or appointed official.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'élus ou nommés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de elegidos o designados"
+        }
+      ]
+    },
+    {
+      "code": "ELPA",
+      "display": "Electrical Panel Code List",
+      "definition": "Types of electrical service panels or systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de panneaux électriques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de paneles eléctricos"
+        }
+      ]
+    },
+    {
+      "code": "ELPR",
+      "display": "Electrical Protection Code List",
+      "definition": "Electrical protection devices or methods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de protections électriques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de protecciones eléctricas"
+        }
+      ]
+    },
+    {
+      "code": "EPAY",
+      "display": "Electronic Payment Code List",
+      "definition": "Methods of electronic payment processing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de paiements électroniques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de pagos electrónicos"
+        }
+      ]
+    },
+    {
+      "code": "ELVT",
+      "display": "Elevator Type Code List",
+      "definition": "Types of elevator or lift systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types d'ascenseur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de ascensor"
+        }
+      ]
+    },
+    {
+      "code": "EMCT",
+      "display": "Employee Country Type List",
+      "definition": "Countries where employees are located.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de pays d'employés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de países de empleados"
+        }
+      ]
+    },
+    {
+      "code": "EMST",
+      "display": "Employee Schedule Type List",
+      "definition": "Types of employee work schedules.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types d'horaire d'employé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de horario de empleado"
+        }
+      ]
+    },
+    {
+      "code": "EMSU",
+      "display": "Employee Subject To List",
+      "definition": "Labor regulations or jurisdictions employees are subject to.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'employés assujettis à"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de empleados sujetos a"
+        }
+      ]
+    },
+    {
+      "code": "EMPL",
+      "display": "Employer Code List",
+      "definition": "Employer classifications or types.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'employeurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de empleadores"
+        }
+      ]
+    },
+    {
+      "code": "EMPS",
+      "display": "Employment Status Code List",
+      "definition": "Employment status categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de statuts d'emploi"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de estados de empleo"
+        }
+      ]
+    },
+    {
+      "code": "ENUS",
+      "display": "Enclosure Usage Code List",
+      "definition": "Purposes or uses of enclosures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'utilisations d'enceinte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de usos de recinto"
+        }
+      ]
+    },
+    {
+      "code": "ENCT",
+      "display": "Encryption Type List",
+      "definition": "Types of data encryption methods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de chiffrement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de cifrado"
+        }
+      ]
+    },
+    {
+      "code": "ENGT",
+      "display": "Engine Type Code List",
+      "definition": "Types of engines or powerplants.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de moteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de motor"
+        }
+      ]
+    },
+    {
+      "code": "ENTY",
+      "display": "Entity Type List",
+      "definition": "Classification of legal or business entities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types d'entité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de entidad"
+        }
+      ]
+    },
+    {
+      "code": "EQTY",
+      "display": "Equipment Type Code List",
+      "definition": "Types of equipment or machinery.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types d'équipement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de equipo"
+        }
+      ]
+    },
+    {
+      "code": "EVNT",
+      "display": "Event List",
+      "definition": "Types of events or occurrences.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'événements"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de eventos"
+        }
+      ]
+    },
+    {
+      "code": "EXMT",
+      "display": "Examination Type Code List",
+      "definition": "Types of examinations or inspections.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types d'examen"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de examen"
+        }
+      ]
+    },
+    {
+      "code": "EXTR",
+      "display": "Exchange Traded List",
+      "definition": "Indicators for exchange-traded securities or instruments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de négociés en bourse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de negociados en bolsa"
+        }
+      ]
+    },
+    {
+      "code": "EXPS",
+      "display": "Exposures Code List",
+      "definition": "Types of exposures or hazards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'expositions"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de exposiciones"
+        }
+      ]
+    },
+    {
+      "code": "EXST",
+      "display": "Extended Status Text List",
+      "definition": "Extended status descriptions or messages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de textes de statut étendu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de textos de estado extendido"
+        }
+      ]
+    },
+    {
+      "code": "EXAG",
+      "display": "Extinguishing Agent Code List",
+      "definition": "Types of fire extinguishing agents or suppressants.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'agents extincteurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de agentes extintores"
+        }
+      ]
+    },
+    {
+      "code": "FMBY",
+      "display": "Farmed By Code List",
+      "definition": "Identification of who operates or farms the land.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'exploitant agricole"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de cultivado por"
+        }
+      ]
+    },
+    {
+      "code": "FRTY",
+      "display": "Farm Ranch Type Code List",
+      "definition": "Types of farm or ranch operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de ferme ou ranch"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de granja o rancho"
+        }
+      ]
+    },
+    {
+      "code": "FLUS",
+      "display": "Field Usage List",
+      "definition": "Usage contexts or purposes for data fields.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'utilisations de champ"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de usos de campo"
+        }
+      ]
+    },
+    {
+      "code": "FITY",
+      "display": "Filing Type Code List",
+      "definition": "Types of regulatory or legal filings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de dépôt"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de archivo"
+        }
+      ]
+    },
+    {
+      "code": "FRFG",
+      "display": "Financial Responsibility Filings Code List",
+      "definition": "Types of financial responsibility filings required by law.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de dépôts de responsabilité financière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de archivos de responsabilidad financiera"
+        }
+      ]
+    },
+    {
+      "code": "FRFS",
+      "display": "Financial Responsibility Filing Status Code List",
+      "definition": "Status of financial responsibility filing submissions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de statuts de dépôt de responsabilité financière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de estados de archivo de responsabilidad financiera"
+        }
+      ]
+    },
+    {
+      "code": "FNTY",
+      "display": "Financial Type List",
+      "definition": "Classification of financial instruments or transaction types.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types financiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos financieros"
+        }
+      ]
+    },
+    {
+      "code": "FPTY",
+      "display": "Fireplace Type Code List",
+      "definition": "Types of fireplace installations and configurations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de foyer"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de chimenea"
+        }
+      ]
+    },
+    {
+      "code": "FLCN",
+      "display": "Floor Construction Code List",
+      "definition": "Methods and materials used in floor construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de constructions de plancher"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de construcciones de piso"
+        }
+      ]
+    },
+    {
+      "code": "FLID",
+      "display": "Floor Identifier Code List",
+      "definition": "Identifiers for building floors or levels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'identificateurs d'étage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de identificadores de piso"
+        }
+      ]
+    },
+    {
+      "code": "FMTY",
+      "display": "Form Type Code List",
+      "definition": "Types of forms or documents.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de formulaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de formulario"
+        }
+      ]
+    },
+    {
+      "code": "FOUN",
+      "display": "Foundation Code List",
+      "definition": "Types of building foundation structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de fondations"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de cimientos"
+        }
+      ]
+    },
+    {
+      "code": "FWST",
+      "display": "Framework Status List",
+      "definition": "Status indicators for framework or project states.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de statuts de cadre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de estados de marco"
+        }
+      ]
+    },
+    {
+      "code": "FREQ",
+      "display": "Frequency Code List",
+      "definition": "Frequency intervals or recurrence patterns.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de fréquences"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de frecuencias"
+        }
+      ]
+    },
+    {
+      "code": "FUTK",
+      "display": "Fuel Tank Code List",
+      "definition": "Types and configurations of fuel storage tanks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de réservoirs de carburant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tanques de combustible"
+        }
+      ]
+    },
+    {
+      "code": "FUTY",
+      "display": "Fuel Type Code List",
+      "definition": "Types of fuel or energy sources.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de carburant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de combustible"
+        }
+      ]
+    },
+    {
+      "code": "GRTY",
+      "display": "Garage Type Code List",
+      "definition": "Types and configurations of garage structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de garage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de garaje"
+        }
+      ]
+    },
+    {
+      "code": "GARG",
+      "display": "Garaging Code List",
+      "definition": "Garaging locations and arrangements for vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de remisage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de estacionamiento"
+        }
+      ]
+    },
+    {
+      "code": "GNDR",
+      "display": "Gender Code List",
+      "definition": "Gender classifications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de genres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de géneros"
+        }
+      ]
+    },
+    {
+      "code": "GNSH",
+      "display": "General Shape Code List",
+      "definition": "General geometric shapes or configurations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de formes générales"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de formas generales"
+        }
+      ]
+    },
+    {
+      "code": "GNID",
+      "display": "GeneratorIdentifier Code List",
+      "definition": "Identifiers for backup power generators.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'identificateurs de générateur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de identificadores de generador"
+        }
+      ]
+    },
+    {
+      "code": "GLTY",
+      "display": "Glass Type Code List",
+      "definition": "Types of glass by composition or treatment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de verre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de vidrio"
+        }
+      ]
+    },
+    {
+      "code": "GSDI",
+      "display": "Good Student Indicator Code List",
+      "definition": "Indicators showing good student status for discounts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'indicateurs de bon étudiant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de indicadores de buen estudiante"
+        }
+      ]
+    },
+    {
+      "code": "HTCL",
+      "display": "Heating and Cooling Code List",
+      "definition": "Types of heating and cooling systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de chauffage et climatisation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de calefacción y refrigeración"
+        }
+      ]
+    },
+    {
+      "code": "HTUN",
+      "display": "Heating Unit Code List",
+      "definition": "Specific heating units or equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'unités de chauffage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de unidades de calefacción"
+        }
+      ]
+    },
+    {
+      "code": "HTUL",
+      "display": "Heating Unit Location Code List",
+      "definition": "Locations where heating units are installed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de lieux d'unité de chauffage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de ubicaciones de unidad de calefacción"
+        }
+      ]
+    },
+    {
+      "code": "HTUT",
+      "display": "Heating Unit Type Code List",
+      "definition": "Types of heating units by mechanism or fuel.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types d'unité de chauffage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de unidad de calefacción"
+        }
+      ]
+    },
+    {
+      "code": "HTSR",
+      "display": "Heat Source Code List",
+      "definition": "Primary sources of heat energy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de sources de chaleur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de fuentes de calor"
+        }
+      ]
+    },
+    {
+      "code": "HORC",
+      "display": "Homeowners Rating Credit Code List",
+      "definition": "Rating credits applicable to homeowners policies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de crédits de tarification des propriétaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de créditos de tarificación de propietarios"
+        }
+      ]
+    },
+    {
+      "code": "HKCD",
+      "display": "Housekeeping Condition Code List",
+      "definition": "Assessment of housekeeping or maintenance conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de conditions d'entretien ménager"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de condiciones de limpieza"
+        }
+      ]
+    },
+    {
+      "code": "HLDT",
+      "display": "Hull Design Type Code List",
+      "definition": "Design types for watercraft hulls.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de conception de coque"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de diseño de casco"
+        }
+      ]
+    },
+    {
+      "code": "HLMT",
+      "display": "Hull Material Type Code List",
+      "definition": "Materials used in hull construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de matériau de coque"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de material de casco"
+        }
+      ]
+    },
+    {
+      "code": "HYDT",
+      "display": "Hydrant Type Code List",
+      "definition": "Types of fire hydrants by configuration or capacity.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de borne-fontaine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de hidrante"
+        }
+      ]
+    },
+    {
+      "code": "IDTY",
+      "display": "Identifier Type Code List",
+      "definition": "Types of identifiers or identification numbers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types d'identificateur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de identificador"
+        }
+      ]
+    },
+    {
+      "code": "IMPR",
+      "display": "Improvement Code List",
+      "definition": "Types of property improvements or upgrades.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'améliorations"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de mejoras"
+        }
+      ]
+    },
+    {
+      "code": "INCI",
+      "display": "Included Excluded Indicator Code List",
+      "definition": "Indicators showing inclusion or exclusion status.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'indicateurs inclus ou exclus"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de indicadores incluidos o excluidos"
+        }
+      ]
+    },
+    {
+      "code": "INDT",
+      "display": "Indemnity Type Code List",
+      "definition": "Types of indemnity provisions or agreements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types d'indemnité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de indemnización"
+        }
+      ]
+    },
+    {
+      "code": "INDR",
+      "display": "Indoor Code List",
+      "definition": "Indoor location indicators or classifications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'intérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de interior"
+        }
+      ]
+    },
+    {
+      "code": "INFS",
+      "display": "Information Source Code List",
+      "definition": "Sources from which information is obtained.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de sources d'information"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de fuentes de información"
+        }
+      ]
+    },
+    {
+      "code": "INTR",
+      "display": "Initial Treatment List",
+      "definition": "Types of initial medical treatment provided.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de traitements initiaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tratamientos iniciales"
+        }
+      ]
+    },
+    {
+      "code": "IQTR",
+      "display": "Inquiry Terms Code List",
+      "definition": "Terms and conditions for inquiries.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de conditions d'enquête"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de términos de consulta"
+        }
+      ]
+    },
+    {
+      "code": "IQTY",
+      "display": "Inquiry Type Code List",
+      "definition": "Types of inquiries or information requests.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types d'enquête"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de consulta"
+        }
+      ]
+    },
+    {
+      "code": "INOT",
+      "display": "Inside Outside Sign Code List",
+      "definition": "Indicators for inside versus outside placement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de signes intérieur ou extérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de señales interior o exterior"
+        }
+      ]
+    },
+    {
+      "code": "IPRS",
+      "display": "Inspection Report Source Code List",
+      "definition": "Sources providing inspection reports.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de sources de rapport d'inspection"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de fuentes de informe de inspección"
+        }
+      ]
+    },
+    {
+      "code": "IPST",
+      "display": "Inspection Status List",
+      "definition": "Status indicators for inspection processes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de statuts d'inspection"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de estados de inspección"
+        }
+      ]
+    },
+    {
+      "code": "IPTY",
+      "display": "Inspection Type List",
+      "definition": "Types of inspections by purpose or scope.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types d'inspection"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de inspección"
+        }
+      ]
+    },
+    {
+      "code": "INST",
+      "display": "Installation Code List",
+      "definition": "Types of installations or setup configurations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'installations"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de instalaciones"
+        }
+      ]
+    },
+    {
+      "code": "ISTY",
+      "display": "Insulation Type List",
+      "definition": "Types of insulation materials or methods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types d'isolation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de aislamiento"
+        }
+      ]
+    },
+    {
+      "code": "IPRT",
+      "display": "Insured Principal Role Type List",
+      "definition": "Roles of principals in the covered entity.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste de types de rôle de principal assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de tipos de rol de principal asegurado"
+        }
+      ]
+    },
+    {
+      "code": "INTT",
+      "display": "Interest Code List",
+      "definition": "Types of insurable interests in property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liste d'intérêts"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lista de intereses"
+        }
+      ]
+    },
+    {
+      "code": "InteriorBuiltIns",
+      "display": "Interior Built-Ins Code List",
+      "definition": "Interior Built-Ins Code List — code lists code."
+    },
+    {
+      "code": "InteriorComponent",
+      "display": "Interior Component Code List",
+      "definition": "Interior Component Code List — code lists code."
+    },
+    {
+      "code": "InventoryAccountingMethod",
+      "display": "Inventory Accounting Method List",
+      "definition": "Inventory Accounting Method List — code lists code."
+    },
+    {
+      "code": "ItemDefinitionType",
+      "display": "Item Definition Type Code List",
+      "definition": "Item Definition Type Code List — code lists code."
+    },
+    {
+      "code": "ItemLocation",
+      "display": "Item Location List",
+      "definition": "Item Location List — code lists code."
+    },
+    {
+      "code": "JobBasis",
+      "display": "Job Basis Code List",
+      "definition": "Job Basis Code List — code lists code."
+    },
+    {
+      "code": "JobType",
+      "display": "Job Type Code List",
+      "definition": "Job Type Code List — code lists code."
+    },
+    {
+      "code": "LandUse",
+      "display": "Land Use Code List",
+      "definition": "Land Use Code List — code lists code."
+    },
+    {
+      "code": "LayUpType",
+      "display": "LayUp Type Code List",
+      "definition": "LayUp Type Code List — code lists code."
+    },
+    {
+      "code": "LegalAddress",
+      "display": "Legal Address List",
+      "definition": "Legal Address List — code lists code."
+    },
+    {
+      "code": "LegalEntity",
+      "display": "Legal Entity Code List",
+      "definition": "Legal Entity Code List — code lists code."
+    },
+    {
+      "code": "LiabilityCargoAuthorityType",
+      "display": "Liability Cargo Authority Type Code List",
+      "definition": "Liability Cargo Authority Type Code List — code lists code."
+    },
+    {
+      "code": "LicenseStatus",
+      "display": "License Status Code List",
+      "definition": "License Status Code List — code lists code."
+    },
+    {
+      "code": "LicenseType",
+      "display": "License Type Code List",
+      "definition": "License Type Code List — code lists code."
+    },
+    {
+      "code": "LimitApplies",
+      "display": "Limit Applies Code List",
+      "definition": "Limit Applies Code List — code lists code."
+    },
+    {
+      "code": "LimitBasis",
+      "display": "Limit Basis Code List",
+      "definition": "Limit Basis Code List — code lists code."
+    },
+    {
+      "code": "LineOfBusiness",
+      "display": "Line of Business Code List",
+      "definition": "Line of Business Code List — code lists code."
+    },
+    {
+      "code": "LineOfBusinessSubCode",
+      "display": "Line of Business SubCode List",
+      "definition": "Line of Business SubCode List — code lists code."
+    },
+    {
+      "code": "LineSecurity",
+      "display": "Line Security Code List",
+      "definition": "Line Security Code List — code lists code."
+    },
+    {
+      "code": "Lining",
+      "display": "Lining Code List",
+      "definition": "Lining Code List — code lists code."
+    },
+    {
+      "code": "LitigationDisposition",
+      "display": "Litigation Disposition Code List",
+      "definition": "Litigation Disposition Code List — code lists code."
+    },
+    {
+      "code": "LitigationStatus",
+      "display": "Litigation Status Code List",
+      "definition": "Litigation Status Code List — code lists code."
+    },
+    {
+      "code": "LocationRelationshipType",
+      "display": "Location Relationship Type List",
+      "definition": "Location Relationship Type List — code lists code."
+    },
+    {
+      "code": "LocationType",
+      "display": "Location Type Code List",
+      "definition": "Location Type Code List — code lists code."
+    },
+    {
+      "code": "LossKind",
+      "display": "Loss Kind List",
+      "definition": "Loss Kind List — code lists code."
+    },
+    {
+      "code": "LossLocation",
+      "display": "Loss Location Code List",
+      "definition": "Loss Location Code List — code lists code."
+    },
+    {
+      "code": "LossSource",
+      "display": "Loss Source Code List",
+      "definition": "Loss Source Code List — code lists code."
+    },
+    {
+      "code": "LossSummaryType",
+      "display": "Loss Summary Type Code List",
+      "definition": "Loss Summary Type Code List — code lists code."
+    },
+    {
+      "code": "MachineryEquipment",
+      "display": "Machinery Equipment Code List",
+      "definition": "Machinery Equipment Code List — code lists code."
+    },
+    {
+      "code": "ManufactureMethod",
+      "display": "Manufacture Method Code List",
+      "definition": "Manufacture Method Code List — code lists code."
+    },
+    {
+      "code": "MaritalStatus",
+      "display": "Marital Status Code List",
+      "definition": "Marital Status Code List — code lists code."
+    },
+    {
+      "code": "MaterialType",
+      "display": "Material Type Code List",
+      "definition": "Material Type Code List — code lists code."
+    },
+    {
+      "code": "MediaType",
+      "display": "Media Type Code List",
+      "definition": "Media Type Code List — code lists code."
+    },
+    {
+      "code": "MercantileBusinessType",
+      "display": "Mercantile Business Type Code List",
+      "definition": "Mercantile Business Type Code List — code lists code."
+    },
+    {
+      "code": "MessageError",
+      "display": "Message Error List",
+      "definition": "Message Error List — code lists code."
+    },
+    {
+      "code": "MessageStatus",
+      "display": "Message Status List",
+      "definition": "Message Status List — code lists code."
+    },
+    {
+      "code": "MetalStorageContainer",
+      "display": "Metal Storage Container Code List",
+      "definition": "Metal Storage Container Code List — code lists code."
+    },
+    {
+      "code": "MethodOfPayment",
+      "display": "Method of Payment Code List",
+      "definition": "Method of Payment Code List — code lists code."
+    },
+    {
+      "code": "MinMax",
+      "display": "Min Max Code List",
+      "definition": "Min Max Code List — code lists code."
+    },
+    {
+      "code": "MultiplePolicyDiscount",
+      "display": "Multiple Policy Discount Code List",
+      "definition": "Multiple Policy Discount Code List — code lists code."
+    },
+    {
+      "code": "MVRReportStatus",
+      "display": "MVR Report Status Code List",
+      "definition": "MVR Report Status Code List — code lists code."
+    },
+    {
+      "code": "NameAddressType",
+      "display": "Name Address Type Code List",
+      "definition": "Name Address Type Code List — code lists code."
+    },
+    {
+      "code": "NatureOfBusiness",
+      "display": "Nature of Business Code List",
+      "definition": "Nature of Business Code List — code lists code."
+    },
+    {
+      "code": "NatureOperations",
+      "display": "Nature Operations Code List",
+      "definition": "Nature Operations Code List — code lists code."
+    },
+    {
+      "code": "NewUsed",
+      "display": "New Used Code List",
+      "definition": "New Used Code List — code lists code."
+    },
+    {
+      "code": "NonOwnedAutoCategory",
+      "display": "NonOwned Auto Category Code List",
+      "definition": "NonOwned Auto Category Code List — code lists code."
+    },
+    {
+      "code": "NonPaymentDetail",
+      "display": "Non Payment Detail Code List",
+      "definition": "Non Payment Detail Code List — code lists code."
+    },
+    {
+      "code": "NonTaxIdType",
+      "display": "Non Tax Id Type List",
+      "definition": "Non Tax Id Type List — code lists code."
+    },
+    {
+      "code": "NumberOfStories",
+      "display": "Number Of Stories Code List",
+      "definition": "Number Of Stories Code List — code lists code."
+    },
+    {
+      "code": "Occupancy",
+      "display": "Occupancy Code List",
+      "definition": "Occupancy Code List — code lists code."
+    },
+    {
+      "code": "OccupancyType",
+      "display": "Occupancy Type Code List",
+      "definition": "Occupancy Type Code List — code lists code."
+    },
+    {
+      "code": "OccupationClass",
+      "display": "Occupation Class Code List",
+      "definition": "Occupation Class Code List — code lists code."
+    },
+    {
+      "code": "OccurredPremises",
+      "display": "Occurred Premises List",
+      "definition": "Occurred Premises List — code lists code."
+    },
+    {
+      "code": "OnPremisesLocation",
+      "display": "On Premises Location List",
+      "definition": "On Premises Location List — code lists code."
+    },
+    {
+      "code": "Operator",
+      "display": "Operator Code List",
+      "definition": "Operator Code List — code lists code."
+    },
+    {
+      "code": "OptionBenefit",
+      "display": "Option Benefit Code List",
+      "definition": "Option Benefit Code List — code lists code."
+    },
+    {
+      "code": "OptionDesc",
+      "display": "Option Description Code List",
+      "definition": "Option Description Code List — code lists code."
+    },
+    {
+      "code": "OrganizationIdentifier",
+      "display": "Organization Identifier Code List",
+      "definition": "Organization Identifier Code List — code lists code."
+    },
+    {
+      "code": "OtherPolicyType",
+      "display": "Other Policy Type Code List",
+      "definition": "Other Policy Type Code List — code lists code."
+    },
+    {
+      "code": "Ownership",
+      "display": "Ownership Code List",
+      "definition": "Ownership Code List — code lists code."
+    },
+    {
+      "code": "PaintedPlates",
+      "display": "Painted Plates Code List",
+      "definition": "Painted Plates Code List — code lists code."
+    },
+    {
+      "code": "PaintType",
+      "display": "Paint Type Code List",
+      "definition": "Paint Type Code List — code lists code."
+    },
+    {
+      "code": "ParkType",
+      "display": "Park Type Code List",
+      "definition": "Park Type Code List — code lists code."
+    },
+    {
+      "code": "PayDetermination",
+      "display": "Pay Determination List",
+      "definition": "Pay Determination List — code lists code."
+    },
+    {
+      "code": "PayKind",
+      "display": "Pay Kind List",
+      "definition": "Pay Kind List — code lists code."
+    },
+    {
+      "code": "PaymentType",
+      "display": "Payment Type List",
+      "definition": "Payment Type List — code lists code."
+    },
+    {
+      "code": "Payor",
+      "display": "Payor Code List",
+      "definition": "Payor Code List — code lists code."
+    },
+    {
+      "code": "PerformedFor",
+      "display": "Performed For Code List",
+      "definition": "Performed For Code List — code lists code."
+    },
+    {
+      "code": "PerilsInsuredType",
+      "display": "Perils Insured Code List",
+      "definition": "Perils Insured Code List — code lists code."
+    },
+    {
+      "code": "PhoneType",
+      "display": "Phone Type List",
+      "definition": "Phone Type List — code lists code."
+    },
+    {
+      "code": "PipeConstruction",
+      "display": "Pipe Construction Code List",
+      "definition": "Pipe Construction Code List — code lists code."
+    },
+    {
+      "code": "PipeVentStyle",
+      "display": "Pipe Vent Style Code List",
+      "definition": "Pipe Vent Style Code List — code lists code."
+    },
+    {
+      "code": "Placement",
+      "display": "Placement Code List",
+      "definition": "Placement Code List — code lists code."
+    },
+    {
+      "code": "PlayingSurface",
+      "display": "Playing Surface Code List",
+      "definition": "Playing Surface Code List — code lists code."
+    },
+    {
+      "code": "PlumbingType",
+      "display": "Plumbing Type Code List",
+      "definition": "Plumbing Type Code List — code lists code."
+    },
+    {
+      "code": "PolicyStatus",
+      "display": "Policy Status Code List",
+      "definition": "Policy Status Code List — code lists code."
+    },
+    {
+      "code": "PolicyType",
+      "display": "Policy Type Code List",
+      "definition": "Policy Type Code List — code lists code."
+    },
+    {
+      "code": "PoolConstruction",
+      "display": "Pool Construction Code List",
+      "definition": "Pool Construction Code List — code lists code."
+    },
+    {
+      "code": "PorchBreezewayType",
+      "display": "Porch - Breezeway Type Code List",
+      "definition": "Porch - Breezeway Type Code List — code lists code."
+    },
+    {
+      "code": "PreInspectionNotRequired",
+      "display": "PreInspection Not Required Code List",
+      "definition": "PreInspection Not Required Code List — code lists code."
+    },
+    {
+      "code": "PremisesAccessSecurity",
+      "display": "Premises Access Security Code List",
+      "definition": "Premises Access Security Code List — code lists code."
+    },
+    {
+      "code": "PremiumAccountingType",
+      "display": "Premium Accounting Type Code List",
+      "definition": "Premium Accounting Type Code List — code lists code."
+    },
+    {
+      "code": "PremiumBase",
+      "display": "Premium Base Code List",
+      "definition": "Premium Base Code List — code lists code."
+    },
+    {
+      "code": "PremiumCalculationMethod",
+      "display": "Premium Calculation Method Code List",
+      "definition": "Premium Calculation Method Code List — code lists code."
+    },
+    {
+      "code": "PremiumCategory",
+      "display": "Premium Category Code List",
+      "definition": "Premium Category Code List — code lists code."
+    },
+    {
+      "code": "PremiumType",
+      "display": "Premium Type Code List",
+      "definition": "Premium Type Code List — code lists code."
+    },
+    {
+      "code": "PreviousWCCoverageSource",
+      "display": "Previous WC Coverage Source Code List",
+      "definition": "Previous WC Coverage Source Code List — code lists code."
+    },
+    {
+      "code": "PrivacyActConsent",
+      "display": "Privacy Act Consent Code List",
+      "definition": "Privacy Act Consent Code List — code lists code."
+    },
+    {
+      "code": "PrivateBusUsage",
+      "display": "Private Bus Usage Code List",
+      "definition": "Private Bus Usage Code List — code lists code."
+    },
+    {
+      "code": "ProducerRole",
+      "display": "Producer Role List",
+      "definition": "Producer Role List — code lists code."
+    },
+    {
+      "code": "PropulsionType",
+      "display": "Propulsion Type Code List",
+      "definition": "Propulsion Type Code List — code lists code."
+    },
+    {
+      "code": "ProtectionDevice",
+      "display": "Protection Device Code List",
+      "definition": "Protection Device Code List — code lists code."
+    },
+    {
+      "code": "ProtectionExtent",
+      "display": "Protection Extent Code List",
+      "definition": "Protection Extent Code List — code lists code."
+    },
+    {
+      "code": "ProtectionType",
+      "display": "Protection Type Code List",
+      "definition": "Protection Type Code List — code lists code."
+    },
+    {
+      "code": "ProtectionUse",
+      "display": "Protection Use Code List",
+      "definition": "Protection Use Code List — code lists code."
+    },
+    {
+      "code": "ProtectiveMaterial",
+      "display": "Protective Material Code List",
+      "definition": "Protective Material Code List — code lists code."
+    },
+    {
+      "code": "PublicVehicleService",
+      "display": "Public Vehicle Service Code List",
+      "definition": "Public Vehicle Service Code List — code lists code."
+    },
+    {
+      "code": "QuoteType",
+      "display": "Quote Type Code List",
+      "definition": "Quote Type Code List — code lists code."
+    },
+    {
+      "code": "RaduisRange",
+      "display": "Radius Range Code List",
+      "definition": "Radius Range Code List — code lists code."
+    },
+    {
+      "code": "RateScaleType",
+      "display": "Rate Scale Type Code List",
+      "definition": "Rate Scale Type Code List — code lists code."
+    },
+    {
+      "code": "RatingPreference",
+      "display": "Rating Preference Code List",
+      "definition": "Rating Preference Code List — code lists code."
+    },
+    {
+      "code": "RatingType",
+      "display": "Rating Type Code List",
+      "definition": "Rating Type Code List — code lists code."
+    },
+    {
+      "code": "RealEstateType",
+      "display": "Real Estate Code List",
+      "definition": "Real Estate Code List — code lists code."
+    },
+    {
+      "code": "ReasonCoverageCeased",
+      "display": "Reason Coverage Ceased Code List",
+      "definition": "Reason Coverage Ceased Code List — code lists code."
+    },
+    {
+      "code": "ReasonForTerminationWeeklyIndemnity",
+      "display": "Reason For Termination Weekly Indemnity Code List",
+      "definition": "Reason For Termination Weekly Indemnity Code List — code lists code."
+    },
+    {
+      "code": "ReasonForTransfer",
+      "display": "Reason For Transfer Code List",
+      "definition": "Reason For Transfer Code List — code lists code."
+    },
+    {
+      "code": "ReasonLiabilityRefused",
+      "display": "Reason Liability Refused Code List",
+      "definition": "Reason Liability Refused Code List — code lists code."
+    },
+    {
+      "code": "ReasonTerminated",
+      "display": "Reason Terminated Code",
+      "definition": "Reason Terminated Code — code lists code."
+    },
+    {
+      "code": "ReferralType",
+      "display": "Referral Type Code List",
+      "definition": "Referral Type Code List — code lists code."
+    },
+    {
+      "code": "RefName",
+      "display": "Reference Name List",
+      "definition": "Reference Name List — code lists code."
+    },
+    {
+      "code": "ReinstatementReason",
+      "display": "Reinstatement Reason Code List",
+      "definition": "Reinstatement Reason Code List — code lists code."
+    },
+    {
+      "code": "ReinstatementType",
+      "display": "Reinstatement Type Code List",
+      "definition": "Reinstatement Type Code List — code lists code."
+    },
+    {
+      "code": "RenewalMethod",
+      "display": "Renewal Method Code List",
+      "definition": "Renewal Method Code List — code lists code."
+    },
+    {
+      "code": "ReplacementCostEvaluationMethod",
+      "display": "Replacement Cost Evaluation Method Code List",
+      "definition": "Replacement Cost Evaluation Method Code List — code lists code."
+    },
+    {
+      "code": "ReplacementCostEvaluationSystem",
+      "display": "Replacement Cost Evaluation System Codes Code List",
+      "definition": "Replacement Cost Evaluation System Codes Code List — code lists code."
+    },
+    {
+      "code": "ReplacementType",
+      "display": "Replacement Type Code List",
+      "definition": "Replacement Type Code List — code lists code."
+    },
+    {
+      "code": "RequestorType",
+      "display": "Requestor Type Code List",
+      "definition": "Requestor Type Code List — code lists code."
+    },
+    {
+      "code": "ReserveFundingStatus",
+      "display": "Reserve Funding Status Code List",
+      "definition": "Reserve Funding Status Code List — code lists code."
+    },
+    {
+      "code": "ReservesStatusInFinancialStatements",
+      "display": "Reserves Status in Financial Statements Code List",
+      "definition": "Reserves Status in Financial Statements Code List — code lists code."
+    },
+    {
+      "code": "ResidenceType",
+      "display": "Residence Type Code List",
+      "definition": "Residence Type Code List — code lists code."
+    },
+    {
+      "code": "ResidualMarketFacilityTier",
+      "display": "Residual Market Facility Tier Code List",
+      "definition": "Residual Market Facility Tier Code List — code lists code."
+    },
+    {
+      "code": "Response",
+      "display": "Response Code List",
+      "definition": "Response Code List — code lists code."
+    },
+    {
+      "code": "ResponseIndicator",
+      "display": "Response Indicator Code List",
+      "definition": "Response Indicator Code List — code lists code."
+    },
+    {
+      "code": "Responsibility",
+      "display": "Responsibility Code List",
+      "definition": "Responsibility Code List — code lists code."
+    },
+    {
+      "code": "Restriction",
+      "display": "Restriction Code List",
+      "definition": "Restriction Code List — code lists code."
+    },
+    {
+      "code": "Risk",
+      "display": "Risk Code List",
+      "definition": "Risk Code List — code lists code."
+    },
+    {
+      "code": "RiskClassification",
+      "display": "Risk Classification Code List",
+      "definition": "Risk Classification Code List — code lists code."
+    },
+    {
+      "code": "RiskQualifier",
+      "display": "Risk Qualifier Code List",
+      "definition": "Risk Qualifier Code List — code lists code."
+    },
+    {
+      "code": "RoleType",
+      "display": "Role Type List",
+      "definition": "Role Type List — code lists code."
+    },
+    {
+      "code": "RoofCoverAttachment",
+      "display": "Roof Cover Attachment Code List",
+      "definition": "Roof Cover Attachment Code List — code lists code."
+    },
+    {
+      "code": "RoofDeckAttachment",
+      "display": "Roof Deck Attachment Code List",
+      "definition": "Roof Deck Attachment Code List — code lists code."
+    },
+    {
+      "code": "RoofDeckMaterial",
+      "display": "Roof Deck Material Code List",
+      "definition": "Roof Deck Material Code List — code lists code."
+    },
+    {
+      "code": "RoofGeometryType",
+      "display": "Roof Geometry Type Code List",
+      "definition": "Roof Geometry Type Code List — code lists code."
+    },
+    {
+      "code": "RoofMaterialType",
+      "display": "Roof Material Type Code List",
+      "definition": "Roof Material Type Code List — code lists code."
+    },
+    {
+      "code": "RoofWallAttachment",
+      "display": "Roof Wall Attachment Code List",
+      "definition": "Roof Wall Attachment Code List — code lists code."
+    },
+    {
+      "code": "RuralFireProtectionDistrict",
+      "display": "Rural Fire Protection District Code List",
+      "definition": "Rural Fire Protection District Code List — code lists code."
+    },
+    {
+      "code": "SafeDoorType",
+      "display": "Safe Door Type Code List",
+      "definition": "Safe Door Type Code List — code lists code."
+    },
+    {
+      "code": "SafeLabel",
+      "display": "Safe Label Code List",
+      "definition": "Safe Label Code List — code lists code."
+    },
+    {
+      "code": "SafeVaultClass",
+      "display": "Safe Vault Class Code List",
+      "definition": "Safe Vault Class Code List — code lists code."
+    },
+    {
+      "code": "SalesReceiptAppraisals",
+      "display": "Sales Receipt Appraisals Code List",
+      "definition": "Sales Receipt Appraisals Code List — code lists code."
+    },
+    {
+      "code": "ScheduleType",
+      "display": "Schedule Type Code List",
+      "definition": "Schedule Type Code List — code lists code."
+    },
+    {
+      "code": "SeacoastOrOtherBodyOfWaterProximity",
+      "display": "Seacoast Or Other Body of Water Proximity Code List",
+      "definition": "Seacoast Or Other Body of Water Proximity Code List — code lists code."
+    },
+    {
+      "code": "SearchBasis",
+      "display": "Search Basis Code List",
+      "definition": "Search Basis Code List — code lists code."
+    },
+    {
+      "code": "SearchCriteria",
+      "display": "Search Criteria Code List",
+      "definition": "Search Criteria Code List — code lists code."
+    },
+    {
+      "code": "SeatBeltType",
+      "display": "Seat Belt Type Code List",
+      "definition": "Seat Belt Type Code List — code lists code."
+    },
+    {
+      "code": "SelfInsuredRetentionType",
+      "display": "Self Insured Retention Type List",
+      "definition": "Self Insured Retention Type List — code lists code."
+    },
+    {
+      "code": "SettlementType",
+      "display": "Settlement Type Code List",
+      "definition": "Settlement Type Code List — code lists code."
+    },
+    {
+      "code": "SharesType",
+      "display": "Shares Type List",
+      "definition": "Shares Type List — code lists code."
+    },
+    {
+      "code": "ShipperType",
+      "display": "Shipper Type Code List",
+      "definition": "Shipper Type Code List — code lists code."
+    },
+    {
+      "code": "ShortTermPremiumMethod",
+      "display": "Short Term Premium Method Code List",
+      "definition": "Short Term Premium Method Code List — code lists code."
+    },
+    {
+      "code": "SignatureFormType",
+      "display": "Signature Form Type Code List",
+      "definition": "Signature Form Type Code List — code lists code."
+    },
+    {
+      "code": "SignedBy",
+      "display": "Signed By Code List",
+      "definition": "Signed By Code List — code lists code."
+    },
+    {
+      "code": "SignonRole",
+      "display": "Signon Role List",
+      "definition": "Signon Role List — code lists code."
+    },
+    {
+      "code": "SkirtType",
+      "display": "Skirt Type Code List",
+      "definition": "Skirt Type Code List — code lists code."
+    },
+    {
+      "code": "SmokeDetectionType",
+      "display": "Smoke Detection Type Code List",
+      "definition": "Smoke Detection Type Code List — code lists code."
+    },
+    {
+      "code": "SpecialProgram",
+      "display": "Special Program Code List",
+      "definition": "Special Program Code List — code lists code."
+    },
+    {
+      "code": "SpecialtyRooms",
+      "display": "Specialty Rooms Code List",
+      "definition": "Specialty Rooms Code List — code lists code."
+    },
+    {
+      "code": "SpecificTest",
+      "display": "Specific Test Type List",
+      "definition": "Specific Test Type List — code lists code."
+    },
+    {
+      "code": "StorageLocation",
+      "display": "Storage Location Code List",
+      "definition": "Storage Location Code List — code lists code."
+    },
+    {
+      "code": "StormShutterType",
+      "display": "Storm Shutter Type Code List",
+      "definition": "Storm Shutter Type Code List — code lists code."
+    },
+    {
+      "code": "StreetType",
+      "display": "Street Type Code List",
+      "definition": "Street Type Code List — code lists code."
+    },
+    {
+      "code": "StructureCondition",
+      "display": "Structure Condition Code List",
+      "definition": "Structure Condition Code List — code lists code."
+    },
+    {
+      "code": "StructureType",
+      "display": "Structure Type Code List",
+      "definition": "Structure Type Code List — code lists code."
+    },
+    {
+      "code": "SubRisk",
+      "display": "SubRisk Code List",
+      "definition": "SubRisk Code List — code lists code."
+    },
+    {
+      "code": "SubRoleType",
+      "display": "Sub Role Type List",
+      "definition": "Sub Role Type List — code lists code."
+    },
+    {
+      "code": "SubstructureType",
+      "display": "Substructure Code List",
+      "definition": "Substructure Code List — code lists code."
+    },
+    {
+      "code": "SupplementaryNameType",
+      "display": "Supplementary Name Type List",
+      "definition": "Supplementary Name Type List — code lists code."
+    },
+    {
+      "code": "SuretyTermsType",
+      "display": "Surety Terms Type Code List",
+      "definition": "Surety Terms Type Code List — code lists code."
+    },
+    {
+      "code": "Surveillance",
+      "display": "Surveillance Code List",
+      "definition": "Surveillance Code List — code lists code."
+    },
+    {
+      "code": "SvcMsg",
+      "display": "Service Message Code List",
+      "definition": "Service Message Code List — code lists code."
+    },
+    {
+      "code": "TankStatus",
+      "display": "Tank Status Code List",
+      "definition": "Tank Status Code List — code lists code."
+    },
+    {
+      "code": "TaxExemptEntity",
+      "display": "Tax Exempt Entity Code List",
+      "definition": "Tax Exempt Entity Code List — code lists code."
+    },
+    {
+      "code": "TaxExemptionType",
+      "display": "Tax Exemption Type Code List",
+      "definition": "Tax Exemption Type Code List — code lists code."
+    },
+    {
+      "code": "TaxFilingStatus",
+      "display": "Tax Filing Status List",
+      "definition": "Tax Filing Status List — code lists code."
+    },
+    {
+      "code": "TaxIdType",
+      "display": "Tax Id Type List",
+      "definition": "Tax Id Type List — code lists code."
+    },
+    {
+      "code": "TaxType",
+      "display": "Tax Type List",
+      "definition": "Tax Type List — code lists code."
+    },
+    {
+      "code": "TestingType",
+      "display": "Testing Type List",
+      "definition": "Testing Type List — code lists code."
+    },
+    {
+      "code": "TestType",
+      "display": "Test Type List",
+      "definition": "Test Type List — code lists code."
+    },
+    {
+      "code": "ThimbleThrough",
+      "display": "Thimble Through Code List",
+      "definition": "Thimble Through Code List — code lists code."
+    },
+    {
+      "code": "ThirdPartyVehicle",
+      "display": "Third Party Vehicle Code List",
+      "definition": "Third Party Vehicle Code List — code lists code."
+    },
+    {
+      "code": "ThresholdType",
+      "display": "Threshold Type Code List",
+      "definition": "Threshold Type Code List — code lists code."
+    },
+    {
+      "code": "TieDown",
+      "display": "Tie Down Code List",
+      "definition": "Tie Down Code List — code lists code."
+    },
+    {
+      "code": "TimePeriod",
+      "display": "Time Period Code List",
+      "definition": "Time Period Code List — code lists code."
+    },
+    {
+      "code": "TitleRelationship",
+      "display": "Title Relationship Code List",
+      "definition": "Title Relationship Code List — code lists code."
+    },
+    {
+      "code": "TravelTrailer",
+      "display": "Travel Trailer Code List",
+      "definition": "Travel Trailer Code List — code lists code."
+    },
+    {
+      "code": "Treatment",
+      "display": "Treatment List",
+      "definition": "Treatment List — code lists code."
+    },
+    {
+      "code": "TreatmentAdministrationMethod",
+      "display": "Treatment Administration Method List",
+      "definition": "Treatment Administration Method List — code lists code."
+    },
+    {
+      "code": "UnderlyingGeneralLiability",
+      "display": "Underlying General Liability List",
+      "definition": "Underlying General Liability List — code lists code."
+    },
+    {
+      "code": "UnitLocation",
+      "display": "Unit Location Code List",
+      "definition": "Unit Location Code List — code lists code."
+    },
+    {
+      "code": "Usage",
+      "display": "Usage List",
+      "definition": "Usage List — code lists code."
+    },
+    {
+      "code": "Use",
+      "display": "Use Code List",
+      "definition": "Use Code List — code lists code."
+    },
+    {
+      "code": "VacantOccupiedIndicator",
+      "display": "Vacant Unoccupied Indicator Code List",
+      "definition": "Vacant Unoccupied Indicator Code List — code lists code."
+    },
+    {
+      "code": "ValuationMethod",
+      "display": "Valuation Method Code List",
+      "definition": "Valuation Method Code List — code lists code."
+    },
+    {
+      "code": "ValuationProduct",
+      "display": "Valuation Product Code List",
+      "definition": "Valuation Product Code List — code lists code."
+    },
+    {
+      "code": "ValuationType",
+      "display": "Valuation Type Code List",
+      "definition": "Valuation Type Code List — code lists code."
+    },
+    {
+      "code": "ValueAppliesTo",
+      "display": "Value Applies To Code List",
+      "definition": "Value Applies To Code List — code lists code."
+    },
+    {
+      "code": "ValueType",
+      "display": "Value Type Code List",
+      "definition": "Value Type Code List — code lists code."
+    },
+    {
+      "code": "VehAntiTheftEngravingDevMfr",
+      "display": "Vehicle Anti-Theft Device Manufacturer Code List",
+      "definition": "Vehicle Anti-Theft Device Manufacturer Code List — code lists code."
+    },
+    {
+      "code": "VehicleAlterations",
+      "display": "Vehicle Alterations Code List",
+      "definition": "Vehicle Alterations Code List — code lists code."
+    },
+    {
+      "code": "VehicleBodyType",
+      "display": "Vehicle Body Type Code List",
+      "definition": "Vehicle Body Type Code List — code lists code."
+    },
+    {
+      "code": "VehicleDamageability",
+      "display": "Vehicle Damageability Code List",
+      "definition": "Vehicle Damageability Code List — code lists code."
+    },
+    {
+      "code": "VehicleInspectionStatus",
+      "display": "Vehicle Inspection Status Code List",
+      "definition": "Vehicle Inspection Status Code List — code lists code."
+    },
+    {
+      "code": "VehicleLeased",
+      "display": "Vehicle Leased Code List",
+      "definition": "Vehicle Leased Code List — code lists code."
+    },
+    {
+      "code": "VehicleLiabilityCard",
+      "display": "Vehicle Liability Card Code List",
+      "definition": "Vehicle Liability Card Code List — code lists code."
+    },
+    {
+      "code": "VehiclePerformance",
+      "display": "Vehicle Performance Code List",
+      "definition": "Vehicle Performance Code List — code lists code."
+    },
+    {
+      "code": "VehiclePermission",
+      "display": "Vehicle Permission Code List",
+      "definition": "Vehicle Permission Code List — code lists code."
+    },
+    {
+      "code": "VehicleSpecialUse",
+      "display": "Vehicle Special Use Code List",
+      "definition": "Vehicle Special Use Code List — code lists code."
+    },
+    {
+      "code": "VehicleType",
+      "display": "Vehicle Type Code List",
+      "definition": "Vehicle Type Code List — code lists code."
+    },
+    {
+      "code": "VehicleUse",
+      "display": "Vehicle Use Code List",
+      "definition": "Vehicle Use Code List — code lists code."
+    },
+    {
+      "code": "WaitingPeriod",
+      "display": "Waiting Period List",
+      "definition": "Waiting Period List — code lists code."
+    },
+    {
+      "code": "WallShieldMaterial",
+      "display": "Wall Shield Material Code List",
+      "definition": "Wall Shield Material Code List — code lists code."
+    },
+    {
+      "code": "WallType",
+      "display": "Wall Type Code List",
+      "definition": "Wall Type Code List — code lists code."
+    },
+    {
+      "code": "WatchPersonFactorCredit",
+      "display": "Watch Person Factor Credit Code List",
+      "definition": "Watch Person Factor Credit Code List — code lists code."
+    },
+    {
+      "code": "WatercraftLocation",
+      "display": "Watercraft Location Code List",
+      "definition": "Watercraft Location Code List — code lists code."
+    },
+    {
+      "code": "WatercraftStorage",
+      "display": "Watercraft Storage Code List",
+      "definition": "Watercraft Storage Code List — code lists code."
+    },
+    {
+      "code": "WatersNavigated",
+      "display": "Waters Navigated Code List",
+      "definition": "Waters Navigated Code List — code lists code."
+    },
+    {
+      "code": "WaterUnitType",
+      "display": "Water Unit Type Code List",
+      "definition": "Water Unit Type Code List — code lists code."
+    },
+    {
+      "code": "WCClaimType",
+      "display": "WC Claim Type List",
+      "definition": "WC Claim Type List — code lists code."
+    },
+    {
+      "code": "WindClass",
+      "display": "Wind Class Code List",
+      "definition": "Wind Class Code List — code lists code."
+    },
+    {
+      "code": "WindowBars",
+      "display": "Window Bars List",
+      "definition": "Window Bars List — code lists code."
+    },
+    {
+      "code": "WiringType",
+      "display": "Wiring Type Code List",
+      "definition": "Wiring Type Code List — code lists code."
+    },
+    {
+      "code": "WorkContracted",
+      "display": "Work Contracted Code List",
+      "definition": "Work Contracted Code List — code lists code."
+    },
+    {
+      "code": "YearIdentifier",
+      "display": "Year Identifier Code List",
+      "definition": "Year Identifier Code List — code lists code."
+    }
+  ]
+}

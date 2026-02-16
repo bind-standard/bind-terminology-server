@@ -1,0 +1,102 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "FloorIdentifier",
+  "url": "https://bind.codes/FloorIdentifier",
+  "name": "FloorIdentifier",
+  "title": "Floor Identifier",
+  "status": "draft",
+  "language": "en",
+  "description": "Floor Identifier codes for insurance operations.",
+  "concept": [
+    {
+      "code": "GRND",
+      "display": "Ground Floor",
+      "definition": "The floor level at street or ground level, typically the main entrance level of a building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rez-de-chaussée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Planta baja"
+        }
+      ]
+    },
+    {
+      "code": "BSMT",
+      "display": "Basement",
+      "definition": "A floor level below ground level, typically partially or fully underground.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous-sol"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sótano"
+        }
+      ]
+    },
+    {
+      "code": "2FLR",
+      "display": "Second Floor",
+      "definition": "The floor level immediately above the ground floor.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Deuxième étage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Segundo piso"
+        }
+      ]
+    },
+    {
+      "code": "3FLR",
+      "display": "Third Floor",
+      "definition": "The floor level two levels above the ground floor.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Troisième étage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tercer piso"
+        }
+      ]
+    },
+    {
+      "code": "UPLV",
+      "display": "Upper Level",
+      "definition": "Any floor level above the ground floor, typically used when the specific floor number is not specified.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Niveau supérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nivel superior"
+        }
+      ]
+    },
+    {
+      "code": "PENT",
+      "display": "Penthouse",
+      "definition": "The uppermost floor or apartment in a building, often featuring premium amenities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Penthouse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ático"
+        }
+      ]
+    }
+  ]
+}

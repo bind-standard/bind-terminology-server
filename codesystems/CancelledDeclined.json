@@ -1,0 +1,176 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CancelledDeclined",
+  "url": "https://bind.codes/CancelledDeclined",
+  "name": "CancelledDeclined",
+  "title": "Cancelled Declined",
+  "status": "draft",
+  "language": "en",
+  "description": "Cancelled Declined codes for insurance operations.",
+  "concept": [
+    {
+      "code": "FRAU",
+      "display": "Insurance Fraud",
+      "definition": "Intentional deception or false statements made to obtain benefits or coverage fraudulently.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fraude"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fraude de Seguros"
+        }
+      ]
+    },
+    {
+      "code": "MREP",
+      "display": "Material Misrepresentation",
+      "definition": "False or misleading information provided that would have affected the decision to issue coverage or the terms offered.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fausses déclarations influant sur l'opinion du risque"
+        },
+        {
+          "language": "es-MX",
+          "value": "Declaración Falsa Material"
+        }
+      ]
+    },
+    {
+      "code": "NPAY",
+      "display": "Non-payment",
+      "definition": "Failure to pay by the due date.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non-paiement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de Pago"
+        }
+      ]
+    },
+    {
+      "code": "LHST",
+      "display": "Loss History",
+      "definition": "A record of previous claims or losses that exceeds acceptable thresholds.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Historique des sinistres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Historial de Siniestros"
+        }
+      ]
+    },
+    {
+      "code": "NPRI",
+      "display": "No Prior Insurance",
+      "definition": "Absence of continuous previous coverage, indicating a gap in coverage history.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pas d'assureur précédent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin Seguro Previo"
+        }
+      ]
+    },
+    {
+      "code": "NDIS",
+      "display": "Non-disclosure",
+      "definition": "Failure to disclose relevant information required during the application or coverage period.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non divulgation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de Divulgación"
+        }
+      ]
+    },
+    {
+      "code": "IHST",
+      "display": "Insufficient Coverage History",
+      "definition": "Inadequate duration or continuity of previous coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Historique de couverture insuffisant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Historial de Cobertura Insuficiente"
+        }
+      ]
+    },
+    {
+      "code": "UWGL",
+      "display": "Underwriting Guidelines",
+      "definition": "Profile that does not meet established criteria or guidelines.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Directives de souscription"
+        },
+        {
+          "language": "es-MX",
+          "value": "Directrices de Suscripción"
+        }
+      ]
+    },
+    {
+      "code": "PVIO",
+      "display": "Policy Violation",
+      "definition": "Breach of the terms, conditions, or requirements specified in the policy contract.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Violation de police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Violación de Póliza"
+        }
+      ]
+    },
+    {
+      "code": "IREQ",
+      "display": "Insured Request",
+      "definition": "Voluntary request by the policyholder to cancel or not renew the coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Demande de l'assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Solicitud del Asegurado"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

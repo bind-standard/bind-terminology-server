@@ -1,0 +1,176 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "RideSharingCompany",
+  "url": "https://bind.codes/RideSharingCompany",
+  "name": "RideSharingCompany",
+  "title": "Ride Sharing Company",
+  "status": "draft",
+  "language": "en",
+  "description": "Ride Sharing Company codes for insurance operations.",
+  "concept": [
+    {
+      "code": "FACE",
+      "display": "Facedrive",
+      "definition": "A Canadian eco-friendly ride-sharing and food delivery platform.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facedrive"
+        },
+        {
+          "language": "es-MX",
+          "value": "Facedrive"
+        }
+      ]
+    },
+    {
+      "code": "INST",
+      "display": "InstaRyde",
+      "definition": "A ride-sharing service operating in Canada.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "InstaRyde"
+        },
+        {
+          "language": "es-MX",
+          "value": "InstaRyde"
+        }
+      ]
+    },
+    {
+      "code": "LYFT",
+      "display": "Lyft",
+      "definition": "A major ride-sharing platform operating primarily in the United States and Canada.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lyft"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lyft"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "A ride-sharing company not listed in the predefined options.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "REDR",
+      "display": "Red Ride",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Red Ride"
+        },
+        {
+          "language": "es-MX",
+          "value": "Red Ride"
+        }
+      ]
+    },
+    {
+      "code": "RDCO",
+      "display": "RideCo",
+      "definition": "A transportation technology company providing ride-sharing and transit software solutions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "RideCo"
+        },
+        {
+          "language": "es-MX",
+          "value": "RideCo"
+        }
+      ]
+    },
+    {
+      "code": "TAPP",
+      "display": "TappCar",
+      "definition": "A Canadian ride-sharing service connecting drivers and passengers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "TappCar"
+        },
+        {
+          "language": "es-MX",
+          "value": "TappCar"
+        }
+      ]
+    },
+    {
+      "code": "BOLT",
+      "display": "Bolt",
+      "definition": "A ride-sharing and micromobility platform operating internationally.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bolt"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bolt"
+        }
+      ]
+    },
+    {
+      "code": "UBER",
+      "display": "Uber",
+      "definition": "The world's largest ride-sharing platform connecting riders with drivers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Uber"
+        },
+        {
+          "language": "es-MX",
+          "value": "Uber"
+        }
+      ]
+    },
+    {
+      "code": "URID",
+      "display": "Uride",
+      "definition": "A Canadian ride-sharing service operating in various provinces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Uride"
+        },
+        {
+          "language": "es-MX",
+          "value": "Uride"
+        }
+      ]
+    },
+    {
+      "code": "DIDI",
+      "display": "DiDi",
+      "definition": "A global ride-sharing platform with operations in Latin America and other regions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "DiDi"
+        },
+        {
+          "language": "es-MX",
+          "value": "DiDi"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "HeatingAndCooling",
+  "url": "https://bind.codes/HeatingAndCooling",
+  "name": "HeatingAndCooling",
+  "title": "Heating And Cooling",
+  "status": "draft",
+  "language": "en",
+  "description": "Heating And Cooling codes for insurance operations.",
+  "concept": [
+    {
+      "code": "NOAC",
+      "display": "No Air Conditioning",
+      "definition": "Property has no air conditioning system installed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucune climatisation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin aire acondicionado"
+        }
+      ]
+    },
+    {
+      "code": "HTDC",
+      "display": "Uses Heat Ducts",
+      "definition": "Air conditioning system that uses existing heating ductwork for cool air distribution.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Utilise les conduits de chauffage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Usa conductos de calefacción"
+        }
+      ]
+    },
+    {
+      "code": "SPDC",
+      "display": "Uses Separate Duct System",
+      "definition": "Air conditioning system with dedicated ductwork separate from the heating system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Utilise des conduits séparés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Usa sistema de conductos separado"
+        }
+      ]
+    },
+    {
+      "code": "RMAC",
+      "display": "Room Air Conditioner",
+      "definition": "Self-contained air conditioning unit designed to cool a single room.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Climatiseur individuel de pièce"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acondicionador de aire de habitación"
+        }
+      ]
+    },
+    {
+      "code": "HTPM",
+      "display": "Heat Pump",
+      "definition": "HVAC system that provides both heating and cooling by transferring heat between indoor and outdoor environments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Thermopompe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bomba de calor"
+        }
+      ]
+    },
+    {
+      "code": "UGAC",
+      "display": "Underground Unit",
+      "definition": "Geothermal or ground-source HVAC system with components installed underground.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Unité souterraine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Unidad subterránea"
+        }
+      ]
+    },
+    {
+      "code": "WLAC",
+      "display": "Through the Wall Unit",
+      "definition": "Air conditioning unit installed through an exterior wall opening, with components inside and outside the building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Unité murale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Unidad de pared"
+        }
+      ]
+    },
+    {
+      "code": "WNAC",
+      "display": "Window Unit",
+      "definition": "Portable or semi-permanent air conditioner mounted in a window opening.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Unité de fenêtre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Unidad de ventana"
+        }
+      ]
+    },
+    {
+      "code": "RFAC",
+      "display": "Roof Top Unit",
+      "definition": "Packaged HVAC system mounted on the roof of a building, commonly used in commercial properties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Unité sur le toit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Unidad en el techo"
+        }
+      ]
+    },
+    {
+      "code": "CTAC",
+      "display": "Central Air",
+      "definition": "Whole-home air conditioning system with a central unit and distribution through ductwork.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Climatisation centrale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aire central"
+        }
+      ]
+    },
+    {
+      "code": "MNSP",
+      "display": "Mini-Split",
+      "definition": "Ductless air conditioning system with an outdoor compressor and one or more indoor air handlers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Système bibloc"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mini-split"
+        }
+      ]
+    },
+    {
+      "code": "EVAP",
+      "display": "Evaporative Cooler",
+      "definition": "Cooling system that uses water evaporation to lower air temperature, also known as swamp cooler.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Refroidisseur évaporatif"
+        },
+        {
+          "language": "es-MX",
+          "value": "Enfriador evaporativo"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

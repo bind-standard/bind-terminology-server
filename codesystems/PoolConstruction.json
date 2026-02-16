@@ -1,0 +1,102 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "PoolConstruction",
+  "url": "https://bind.codes/PoolConstruction",
+  "name": "PoolConstruction",
+  "title": "Pool Construction",
+  "status": "draft",
+  "language": "en",
+  "description": "Pool Construction codes for insurance operations.",
+  "concept": [
+    {
+      "code": "RNFC",
+      "display": "Reinforced Concrete",
+      "definition": "Pool structure built with steel-reinforced concrete, providing durability and strength through a framework of rebar embedded in concrete.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton armé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Concreto reforzado"
+        }
+      ]
+    },
+    {
+      "code": "VNYL",
+      "display": "Vinyl Liner",
+      "definition": "Pool construction method using a flexible vinyl membrane as the interior surface, installed over a frame structure of steel, aluminum, or polymer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toile en vinyle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Revestimiento de vinilo"
+        }
+      ]
+    },
+    {
+      "code": "FBRG",
+      "display": "Fiberglass",
+      "definition": "Pre-formed pool shell manufactured from fiberglass-reinforced plastic, molded as a single piece and installed as a complete unit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fibre de verre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fibra de vidrio"
+        }
+      ]
+    },
+    {
+      "code": "GNIT",
+      "display": "Gunite",
+      "definition": "Pool construction using pneumatically applied concrete (gunite or shotcrete), sprayed at high velocity onto a rebar framework to form the pool shell.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gunite"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gunita"
+        }
+      ]
+    },
+    {
+      "code": "STLP",
+      "display": "Steel Panel",
+      "definition": "Above-ground pool construction using corrugated or flat steel panels assembled to form the pool walls, typically with a vinyl liner interior.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Panneau d'acier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Panel de acero"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Pool construction types not covered by standard categories, including hybrid materials or specialized construction methods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

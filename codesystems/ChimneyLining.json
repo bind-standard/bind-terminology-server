@@ -1,0 +1,102 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ChimneyLining",
+  "url": "https://bind.codes/ChimneyLining",
+  "name": "ChimneyLining",
+  "title": "Chimney Lining",
+  "status": "draft",
+  "language": "en",
+  "description": "Types of chimney lining materials.",
+  "concept": [
+    {
+      "code": "FLTL",
+      "display": "Flue Tile",
+      "definition": "Clay tiles used to line the interior of a chimney flue, providing protection and insulation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boisseaux d'argile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Baldosa de chimenea"
+        }
+      ]
+    },
+    {
+      "code": "STNL",
+      "display": "Stainless Steel",
+      "definition": "Stainless steel liner installed in a chimney to provide a durable, corrosion-resistant flue.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acier inoxydable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acero inoxidable"
+        }
+      ]
+    },
+    {
+      "code": "BRFP",
+      "display": "Brick with Fireproof Tiles",
+      "definition": "Brick construction lined with fire-resistant tiles for enhanced heat protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Brique avec tuiles ignifuges"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ladrillo con azulejos refractarios"
+        }
+      ]
+    },
+    {
+      "code": "CAST",
+      "display": "Cast-in-Place",
+      "definition": "Cement-based lining material poured and formed directly inside the chimney.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coulé sur place"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vaciado in situ"
+        }
+      ]
+    },
+    {
+      "code": "ALUM",
+      "display": "Aluminum",
+      "definition": "Aluminum liner typically used for gas or oil heating systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aluminium"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aluminio"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Chimney lining material not classified in standard categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

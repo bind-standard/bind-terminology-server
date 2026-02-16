@@ -1,0 +1,189 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BuildingConstructionType",
+  "url": "https://bind.codes/BuildingConstructionType",
+  "name": "BuildingConstructionType",
+  "title": "Building Construction Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Building Construction Type codes.",
+  "concept": [
+    {
+      "code": "FRES",
+      "display": "Fire Resistive",
+      "definition": "Construction using fire-rated materials such as concrete, steel, and masonry, designed to withstand fire for extended periods without structural failure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résistant au feu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Resistente al fuego"
+        }
+      ]
+    },
+    {
+      "code": "NCMW",
+      "display": "Non-combustible with Masonry Walls",
+      "definition": "Construction using non-combustible materials with exterior walls made of brick, stone, concrete block, or similar masonry materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incombustible avec murs en maçonnerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incombustible con paredes de mampostería"
+        }
+      ]
+    },
+    {
+      "code": "NCNM",
+      "display": "Non-combustible with Non-masonry Walls",
+      "definition": "Construction using non-combustible materials with exterior walls made of metal, glass, or other non-masonry materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incombustible avec murs autres que maçonnerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incombustible con paredes no de mampostería"
+        }
+      ]
+    },
+    {
+      "code": "MASN",
+      "display": "Masonry",
+      "definition": "Construction where load-bearing walls are built primarily of brick, stone, concrete block, or similar masonry materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maçonnerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mampostería"
+        }
+      ]
+    },
+    {
+      "code": "MSVN",
+      "display": "Masonry Veneer",
+      "definition": "Construction with a structural frame (typically wood or steel) and a non-load-bearing exterior layer of brick or stone for aesthetic and weather protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Parement de maçonnerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Revestimiento de mampostería"
+        }
+      ]
+    },
+    {
+      "code": "FRMO",
+      "display": "Frame and All Others",
+      "definition": "Construction with a wood or light steel frame structure, or any construction type not classified in the other categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charpente de bois et tous les autres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Armazón y todos los demás"
+        }
+      ]
+    },
+    {
+      "code": "NAPP",
+      "display": "Not Applicable",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sans objet"
+        },
+        {
+          "language": "es-MX",
+          "value": "No aplicable"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "HVTM",
+      "display": "Heavy Timber",
+      "definition": "Construction with large dimension wood members and minimal use of concealed spaces, offering better fire resistance than ordinary frame construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois d'œuvre de forte dimension"
+        },
+        {
+          "language": "es-MX",
+          "value": "Madera pesada"
+        }
+      ]
+    },
+    {
+      "code": "RCON",
+      "display": "Reinforced Concrete",
+      "definition": "Construction using concrete reinforced with steel rebar or mesh, providing structural strength and fire resistance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton armé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Concreto reforzado"
+        }
+      ]
+    },
+    {
+      "code": "STLF",
+      "display": "Steel Frame",
+      "definition": "Construction with a structural steel framework, typically with fire protection applied to steel members.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charpente d'acier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Armazón de acero"
+        }
+      ]
+    }
+  ]
+}

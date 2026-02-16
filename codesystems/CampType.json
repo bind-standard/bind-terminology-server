@@ -1,0 +1,146 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CampType",
+  "url": "https://bind.codes/CampType",
+  "name": "CampType",
+  "title": "Camp Type Cd",
+  "status": "draft",
+  "language": "en",
+  "description": "Camp codes for insurance operations.",
+  "concept": [
+    {
+      "code": "SUMC",
+      "display": "Summer Camp",
+      "definition": "Seasonal recreational facility operating during summer months, typically offering organized activities and accommodations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camp d'été"
+        },
+        {
+          "language": "es-MX",
+          "value": "Campamento de Verano"
+        }
+      ]
+    },
+    {
+      "code": "DRCH",
+      "display": "Dude Ranch",
+      "definition": "Guest ranch offering horseback riding, western activities, and accommodation for tourists.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ranch de tourisme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rancho turístico"
+        }
+      ]
+    },
+    {
+      "code": "FSHC",
+      "display": "Fishing Camp",
+      "definition": "Facility providing accommodation and access to fishing activities, typically in remote or waterfront locations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camp de pêche"
+        },
+        {
+          "language": "es-MX",
+          "value": "Campamento de pesca"
+        }
+      ]
+    },
+    {
+      "code": "HNTC",
+      "display": "Hunting Camp",
+      "definition": "Facility providing accommodation and access to hunting activities, typically in remote wilderness areas.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camp de chasse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Campamento de caza"
+        }
+      ]
+    },
+    {
+      "code": "CHDC",
+      "display": "Children's Camp",
+      "definition": "Organized recreational facility providing supervised activities and accommodation for children.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camp pour enfants"
+        },
+        {
+          "language": "es-MX",
+          "value": "Campamento para niños"
+        }
+      ]
+    },
+    {
+      "code": "DAYC",
+      "display": "Day Camp",
+      "definition": "Recreational facility offering organized activities for participants who return home daily rather than staying overnight.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camp de jour"
+        },
+        {
+          "language": "es-MX",
+          "value": "Campamento de día"
+        }
+      ]
+    },
+    {
+      "code": "WLDC",
+      "display": "Wilderness Camp",
+      "definition": "Rustic facility located in remote natural areas, offering outdoor experiences with minimal modern amenities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camp sauvage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Campamento silvestre"
+        }
+      ]
+    },
+    {
+      "code": "RVCP",
+      "display": "RV Camp",
+      "definition": "Facility providing spaces and services for recreational vehicles, including hookups and amenities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camping pour véhicules récréatifs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Campamento para vehículos recreativos"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CertifyingEntity",
+  "url": "https://bind.codes/CertifyingEntity",
+  "name": "CertifyingEntity",
+  "title": "Certifying Entity",
+  "status": "draft",
+  "language": "en",
+  "description": "Certifying Entity codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CA:CNSA",
+      "display": "Canadian Standards Association (CSA)",
+      "definition": "An accredited standards development organization that tests and certifies products, systems, and services to ensure they meet safety and performance standards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association Canadienne de Normalisation (CSA)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación Canadiense de Estándares (CSA)"
+        }
+      ]
+    },
+    {
+      "code": "CA:WHPS",
+      "display": "Warnock-Hersey Professional Service Ltd.",
+      "definition": "A Canadian certification organization that provides product testing and certification services for building materials, fire protection systems, and electrical equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Warnock-Hersey Professional Service Ltd."
+        },
+        {
+          "language": "es-MX",
+          "value": "Warnock-Hersey Professional Service Ltd."
+        }
+      ]
+    },
+    {
+      "code": "CA:ULCA",
+      "display": "Underwriters' Laboratories of Canada",
+      "definition": "The Canadian division of UL, providing safety certification and testing services for products, materials, and components.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Les Laboratoires des Assureurs du Canada"
+        },
+        {
+          "language": "es-MX",
+          "value": "Laboratorios de Aseguradores de Canadá"
+        }
+      ]
+    },
+    {
+      "code": "ULAB",
+      "display": "Underwriters Laboratories (UL)",
+      "definition": "A global safety certification organization that tests and certifies products for safety and performance standards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Laboratoires des Assureurs (UL)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Laboratorios de Aseguradores (UL)"
+        }
+      ]
+    },
+    {
+      "code": "ANSI",
+      "display": "American National Standards Institute (ANSI)",
+      "definition": "A private organization that oversees the development of voluntary consensus standards for products, services, and systems in the United States.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Institut américain de normalisation (ANSI)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instituto Nacional Estadounidense de Estándares (ANSI)"
+        }
+      ]
+    },
+    {
+      "code": "INTK",
+      "display": "Intertek",
+      "definition": "An international testing, inspection, and certification company that provides services for products and systems across multiple industries.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intertek"
+        },
+        {
+          "language": "es-MX",
+          "value": "Intertek"
+        }
+      ]
+    },
+    {
+      "code": "TUVG",
+      "display": "TÜV",
+      "definition": "A German certification body that provides testing, inspection, and certification services for technical equipment and systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "TÜV"
+        },
+        {
+          "language": "es-MX",
+          "value": "TÜV"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

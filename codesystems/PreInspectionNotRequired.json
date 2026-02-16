@@ -1,0 +1,252 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "PreInspectionNotRequired",
+  "url": "https://bind.codes/PreInspectionNotRequired",
+  "name": "PreInspectionNotRequired",
+  "title": "Pre Inspection Not Required",
+  "status": "draft",
+  "language": "en",
+  "description": "Pre Inspection Not Required codes for insurance operations.",
+  "concept": [
+    {
+      "code": "PFAT",
+      "display": "Policy Transferred from Affiliate to Current Insurer",
+      "definition": "A policy that has been transferred from an affiliated company within the same corporate group to the current insurer without a break in coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police transférée du groupe à l'assureur actuel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Póliza transferida de afiliado al asegurador actual"
+        }
+      ]
+    },
+    {
+      "code": "CB5Y",
+      "display": "Continuous Insurance with Broker for Past 5 Years",
+      "definition": "The insured has maintained continuous coverage through the same broker for a minimum of five consecutive years.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance continue avec le courtier depuis les 5 dernières années"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro continuo con corredor durante los últimos 5 años"
+        }
+      ]
+    },
+    {
+      "code": "CICI",
+      "display": "Continuous Ins.with Current Insurer throughout: (i) the preceding 3 years, if the policy is being issued before January 1, this year, or (ii) the preceding 4 years, if the policy is being issued after December 31, 1997 and before January 1, 1999, or (iii) the preceding 5 years, if the policy is being issued on or after January 1,1999.",
+      "definition": "The insured has maintained continuous coverage with the current insurer for the required period based on the policy issue date: 3 years for policies issued before January 1 of the current year, 4 years for policies issued between January 1, 1998 and December 31, 1998, or 5 years for policies issued on or after January 1, 1999.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance continue avec l'assureur actuel depuis : (i) les 3 dernières années, si la police est émise avant le 1er janvier de l'année courante, ou (ii) les 4 dernières années, si la police est émise après le 31 décembre 1997 et avant le 1er janvier 1999, ou (iii) les 5 dernières années, si la police est émise le ou après le 1er janvier 1999."
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro continuo con el asegurador actual durante: (i) los 3 años anteriores, si la póliza se emite antes del 1 de enero del año actual, o (ii) los 4 años anteriores, si la póliza se emite después del 31 de diciembre de 1997 y antes del 1 de enero de 1999, o (iii) los 5 años anteriores, si la póliza se emite el 1 de enero de 1999 o después."
+        }
+      ]
+    },
+    {
+      "code": "NVPL",
+      "display": "Purchased/Leased New, and (i) 12000 Km or Less, and (ii) Policy Issued in Conjunction with the Purchase or Lease, and (iii) Bill of Sale/Lease Provided.",
+      "definition": "A new vehicle that has been purchased or leased with 12,000 kilometers or less on the odometer, the coverage was obtained at the time of acquisition, and supporting documentation (bill of sale or lease agreement) has been provided.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acheté/loué neuf, et (i) 12 000 km ou moins, et (ii) police émise en même temps que l'achat ou la location, et (iii) acte de vente/location fourni."
+        },
+        {
+          "language": "es-MX",
+          "value": "Comprado/arrendado nuevo, y (i) 12,000 km o menos, y (ii) póliza emitida en conjunto con la compra o arrendamiento, y (iii) factura de venta/arrendamiento proporcionada."
+        }
+      ]
+    },
+    {
+      "code": "CPFT",
+      "display": "Company Portfolio Transfer",
+      "definition": "Transfer of a block of policies from one company to another company, typically during acquisitions, mergers, or strategic restructuring.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transfert du portefeuille de l'assureur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transferencia de cartera de la compañía"
+        }
+      ]
+    },
+    {
+      "code": "NRCI",
+      "display": "Not Renewed by Current Insurer",
+      "definition": "The current insurer chose not to renew the policy at expiration, requiring the insured to seek coverage elsewhere.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non renouvelé par l'assureur actuel"
+        },
+        {
+          "language": "es-MX",
+          "value": "No renovado por el asegurador actual"
+        }
+      ]
+    },
+    {
+      "code": "BPFT",
+      "display": "Broker Portfolio Transfer",
+      "definition": "Transfer of a block of policies from one broker to another broker, typically during broker consolidations or business acquisitions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transfert du portefeuille du courtier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transferencia de cartera del corredor"
+        }
+      ]
+    },
+    {
+      "code": "V10Y",
+      "display": "Vehicle over 10 Years Old",
+      "definition": "A vehicle whose model year makes it more than 10 years old from the current year.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule de plus de 10 ans"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo de más de 10 años"
+        }
+      ]
+    },
+    {
+      "code": "I30D",
+      "display": "Inspection Completed within last 30 Days - Another Insurer provided Copy",
+      "definition": "A vehicle inspection was conducted within the past 30 days by another insurer and a copy of the inspection report has been provided to the current insurer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inspection faite depuis les derniers 30 jours - autre assureur a fourni une copie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inspección completada en los últimos 30 días - otro asegurador proporcionó copia"
+        }
+      ]
+    },
+    {
+      "code": "COMU",
+      "display": "Commercial Use",
+      "definition": "The vehicle is used for commercial or business purposes rather than personal use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Utilisation commerciale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Uso comercial"
+        }
+      ]
+    },
+    {
+      "code": "LRUC",
+      "display": "Large Urban Center",
+      "definition": "The vehicle is garaged or primarily operated in a major metropolitan area with high population density.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grand centre urbain"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gran centro urbano"
+        }
+      ]
+    },
+    {
+      "code": "RECV",
+      "display": "Recreational Vehicle",
+      "definition": "A vehicle designed and used primarily for recreational purposes, such as motorhomes, travel trailers, or camping vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule récréatif"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo recreativo"
+        }
+      ]
+    },
+    {
+      "code": "V5NR",
+      "display": "Vehicle over 5 years old and not restricted",
+      "definition": "A vehicle whose model year makes it more than 5 years old and does not have any usage restrictions applied to the coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule de plus de 5 ans et non restreint"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo de más de 5 años y sin restricciones"
+        }
+      ]
+    },
+    {
+      "code": "V5NP",
+      "display": "Vehicle over 5 years old and not ceded to Risk Sharing Pool",
+      "definition": "A vehicle whose model year makes it more than 5 years old and has not been assigned to the risk sharing pool mechanism.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule de plus de 5 ans et non cédé au pool de partage des risques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo de más de 5 años y no cedido al fondo común de riesgos"
+        }
+      ]
+    },
+    {
+      "code": "V5NS",
+      "display": "Vehicle over 5 years old and no salvage history",
+      "definition": "A vehicle whose model year makes it more than 5 years old and has never been declared a total loss or branded with a salvage title.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule de plus de 5 ans et aucun historique de sauvetage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo de más de 5 años y sin historial de salvamento"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "A reason for waiving the pre-inspection requirement that does not fit into the standard categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

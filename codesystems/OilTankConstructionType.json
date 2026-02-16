@@ -1,0 +1,160 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "OilTankConstructionType",
+  "url": "https://bind.codes/OilTankConstructionType",
+  "name": "OilTankConstructionType",
+  "title": "Oil Tank Construction Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Oil Tank Construction Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "FBRG",
+      "display": "Fiberglass",
+      "definition": "Tank constructed from fiberglass composite material.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fibre de verre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fibra de vidrio"
+        }
+      ]
+    },
+    {
+      "code": "METL",
+      "display": "Metal",
+      "definition": "Tank constructed from metal materials without further specification of wall or bottom configuration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Métal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Metal"
+        }
+      ]
+    },
+    {
+      "code": "SWSB",
+      "display": "Single-Walled and Single-Bottom Steel",
+      "definition": "Steel tank with a single wall layer and single bottom layer construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acier à paroi simple et fond simple"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acero de pared simple y fondo simple"
+        }
+      ]
+    },
+    {
+      "code": "DWDB",
+      "display": "Double-Walled and Double-Bottom Steel",
+      "definition": "Steel tank with double wall layers and double bottom layers providing enhanced containment protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acier à double paroi et fond double"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acero de doble pared y fondo doble"
+        }
+      ]
+    },
+    {
+      "code": "SWDB",
+      "display": "Single-Walled and Double-Bottom Steel",
+      "definition": "Steel tank with a single wall layer but double bottom layers for added base protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acier à paroi simple et fond double"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acero de pared simple y fondo doble"
+        }
+      ]
+    },
+    {
+      "code": "DWSB",
+      "display": "Double-Walled and Single-Bottom Steel",
+      "definition": "Steel tank with double wall layers but a single bottom layer construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acier à double paroi et fond simple"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acero de doble pared y fondo simple"
+        }
+      ]
+    },
+    {
+      "code": "PLST",
+      "display": "Plastic",
+      "definition": "Tank constructed from plastic or polymer materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plastique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Plástico"
+        }
+      ]
+    },
+    {
+      "code": "CONC",
+      "display": "Concrete",
+      "definition": "Tank constructed from reinforced concrete.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Concreto"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

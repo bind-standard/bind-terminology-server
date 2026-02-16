@@ -1,0 +1,2201 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Conviction",
+  "url": "https://bind.codes/Conviction",
+  "name": "Conviction",
+  "title": "Conviction",
+  "status": "draft",
+  "language": "en",
+  "description": "Traffic and driving-related conviction codes.",
+  "concept": [
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "CA:ACGX",
+      "display": "Excess blood alcohol while accompanying license class G1 driver",
+      "definition": "Operating with blood alcohol content exceeding the legal limit while supervising a novice driver with a G1 learner's permit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe G1 cond. accomp. - taux d'alcoolémie supérieur à la limite"
+        },
+        {
+          "language": "es-MX",
+          "value": "Exceso de alcohol en sangre al acompañar conductor clase G1"
+        }
+      ]
+    },
+    {
+      "code": "BALX",
+      "display": "Blood alcohol over legal limit",
+      "definition": "Operating a vehicle with blood alcohol concentration exceeding the legal threshold.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Taux d'alcoolémie supérieur à la limite légale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alcohol en sangre sobre el límite legal"
+        }
+      ]
+    },
+    {
+      "code": "OLIQ",
+      "display": "Open liquor in vehicle",
+      "definition": "Possessing an opened alcohol container within a motor vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contenant d'alcool ouvert dans le véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Licor abierto en vehículo"
+        }
+      ]
+    },
+    {
+      "code": "IBAK",
+      "display": "Improper backing-up",
+      "definition": "Reversing a vehicle in an unsafe or prohibited manner.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marche arrière incorrecte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reversa incorrecta"
+        }
+      ]
+    },
+    {
+      "code": "BIKX",
+      "display": "Interfering with bicyclist",
+      "definition": "Impeding or endangering a cyclist's safe passage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Interférer avec cycliste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Interferir con ciclista"
+        }
+      ]
+    },
+    {
+      "code": "BUSL",
+      "display": "Improper driving in a bus lane",
+      "definition": "Unauthorized use of a dedicated bus lane by a non-transit vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite interdite dans une voie réservée aux autobus"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducción indebida en carril de autobús"
+        }
+      ]
+    },
+    {
+      "code": "PVIX",
+      "display": "Public vehicle infraction",
+      "definition": "Violation of regulations governing commercial or public transit vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction - véhicule public"
+        },
+        {
+          "language": "es-MX",
+          "value": "Infracción de vehículo público"
+        }
+      ]
+    },
+    {
+      "code": "CA:CDAB",
+      "display": "Careless Driving (Highway Traffic Act - Alberta Only)",
+      "definition": "Operating a vehicle without due care and attention as defined under Alberta's Highway Traffic Act.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite imprudente (Highway Traffic Act - Alberta seulement)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducción descuidada (Ley de Tránsito - solo Alberta)"
+        }
+      ]
+    },
+    {
+      "code": "CA:CDCC",
+      "display": "Careless Driving, without due care or attention (Criminal Code of Canada)",
+      "definition": "Operating a vehicle without due care and attention, or without reasonable consideration for other persons, as defined in the Criminal Code of Canada.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite imprudente (Code criminel du Canada)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducción descuidada (Código Penal de Canadá)"
+        }
+      ]
+    },
+    {
+      "code": "CRNX",
+      "display": "Criminal negligence",
+      "definition": "Showing wanton or reckless disregard for the lives or safety of other persons while operating a vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Négligence criminelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Negligencia criminal"
+        }
+      ]
+    },
+    {
+      "code": "HHLD",
+      "display": "Prohibited Use of Hand-Held Device",
+      "definition": "Operating a vehicle while holding or using a handheld communication or entertainment device.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Usage interdit d'un appareil tenu en main"
+        },
+        {
+          "language": "es-MX",
+          "value": "Uso prohibido de dispositivo portátil"
+        }
+      ]
+    },
+    {
+      "code": "CA:LRAB",
+      "display": "License class (restricted) drive with alcohol in blood",
+      "definition": "Operating under a restricted license class while having any measurable alcohol in the bloodstream.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe (restreinte) - conduite présence d'alcool dans le sang"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clase de licencia (restringida) conducir con alcohol en sangre"
+        }
+      ]
+    },
+    {
+      "code": "DNGX",
+      "display": "Dangerous goods offense",
+      "definition": "Violation of regulations governing the transportation of hazardous materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction - matières dangereuses"
+        },
+        {
+          "language": "es-MX",
+          "value": "Infracción de mercancías peligrosas"
+        }
+      ]
+    },
+    {
+      "code": "DBKX",
+      "display": "Defective brakes",
+      "definition": "Operating a vehicle with braking systems that fail to meet safety standards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Freins défectueux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Frenos defectuosos"
+        }
+      ]
+    },
+    {
+      "code": "DBWX",
+      "display": "Driving on a bet or wager",
+      "definition": "Operating a vehicle as part of a gambling arrangement or challenge.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite résultant d'un pari ou d'une gageure"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducción en apuesta"
+        }
+      ]
+    },
+    {
+      "code": "DDBH",
+      "display": "Dangerous driving including bodily harm",
+      "definition": "Operating a vehicle in a manner dangerous to the public causing bodily injury to another person.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite dangereuse causant lésions corporelles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducción peligrosa causando lesiones corporales"
+        }
+      ]
+    },
+    {
+      "code": "CA:CURF",
+      "display": "Driving during curfew",
+      "definition": "Operating a vehicle during restricted hours specified by a graduated licensing program.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite durant un couvre-feu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducción durante toque de queda"
+        }
+      ]
+    },
+    {
+      "code": "CA:LRXP",
+      "display": "License class (restricted) drive with excess passengers",
+      "definition": "Operating under a restricted license class with more passengers than permitted.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe (restreinte) - conduite de véhicule avec passagers excédentaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clase de licencia (restringida) conducir con pasajeros excesivos"
+        }
+      ]
+    },
+    {
+      "code": "CA:G1BR",
+      "display": "License class G1 accomp. driver - fail/refuse provide breath test",
+      "definition": "Supervising driver of a G1 learner failing or refusing to provide a breath sample when requested.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe G1 cond. accomp. - défaut/refus de subir test d'haleine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conductor acompañante clase G1 - falta/negativa a proporcionar prueba de aliento"
+        }
+      ]
+    },
+    {
+      "code": "CA:G1FS",
+      "display": "License class G1 drive with front seat passenger",
+      "definition": "Operating with a G1 learner's permit while carrying a passenger in the front seat.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe G1 - conduite avec passager sur siège avant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Licencia clase G1 conducir con pasajero en asiento delantero"
+        }
+      ]
+    },
+    {
+      "code": "CA:GXID",
+      "display": "License class G1/G2 accompanying driver - failure to identify",
+      "definition": "Supervising driver of a G1/G2 learner failing to provide identification when requested.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe G1/G2 cond. accompagnateur - refus de s'identifier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conductor acompañante clase G1/G2 - falta de identificación"
+        }
+      ]
+    },
+    {
+      "code": "IDHW",
+      "display": "Improper use of divided highway",
+      "definition": "Crossing a median, driving in the wrong direction, or otherwise misusing a divided roadway.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Utilisation incorrecte voies publiques multiples"
+        },
+        {
+          "language": "es-MX",
+          "value": "Uso indebido de carretera dividida"
+        }
+      ]
+    },
+    {
+      "code": "DTAX",
+      "display": "Driver has been involved in traffic accident (Non-chargeable)",
+      "definition": "Driver participation in a traffic collision where no fault or violation was assigned.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conducteur impliqué dans un accident de la circulation (non responsable)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conductor involucrado en accidente de tráfico (no imputable)"
+        }
+      ]
+    },
+    {
+      "code": "DLCX",
+      "display": "Drive left of centre",
+      "definition": "Crossing the centerline or driving on the wrong side of the roadway.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite à gauche du centre de la voie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducir a la izquierda del centro"
+        }
+      ]
+    },
+    {
+      "code": "CA:M1PX",
+      "display": "License class M1 drive motorcycle with passenger",
+      "definition": "Operating a motorcycle with an M1 learner's permit while carrying a passenger.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe M1 - conduite de motocyclette avec passager"
+        },
+        {
+          "language": "es-MX",
+          "value": "Licencia clase M1 conducir motocicleta con pasajero"
+        }
+      ]
+    },
+    {
+      "code": "CA:M1PH",
+      "display": "License class M1 drive motorcycle on prohibited highway",
+      "definition": "Operating a motorcycle with an M1 learner's permit on a restricted roadway such as a highway.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe M1 - conduite de motocyclette sur voie publique prohibée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Licencia clase M1 conducir motocicleta en autopista prohibida"
+        }
+      ]
+    },
+    {
+      "code": "MCUV",
+      "display": "Driving motorcycle - usage violation",
+      "definition": "Operating a motorcycle in violation of usage restrictions or regulations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction - conduite de motocyclette (utilisation)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducción de motocicleta - violación de uso"
+        }
+      ]
+    },
+    {
+      "code": "DOFF",
+      "display": "Drive on sidewalk/footpath/ditch/median/closed road",
+      "definition": "Operating a vehicle on pedestrian walkways, roadway shoulders, medians, or roads closed to traffic.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite sur trottoir/chemin piétonnier/fossé/terre-plein/route fermée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducir en acera/sendero/zanja/mediana/camino cerrado"
+        }
+      ]
+    },
+    {
+      "code": "CA:G1PH",
+      "display": "License class G1 drive on prohibited highway",
+      "definition": "Operating with a G1 learner's permit on a restricted roadway such as a highway.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe G1 - conduite sur voie publique prohibée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Licencia clase G1 conducir en autopista prohibida"
+        }
+      ]
+    },
+    {
+      "code": "DRDX",
+      "display": "Driver distraction",
+      "definition": "Operating a vehicle while engaged in activities that divert attention from driving.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Distraction du conducteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Distracción del conductor"
+        }
+      ]
+    },
+    {
+      "code": "CRDS",
+      "display": "Crowding drivers seat",
+      "definition": "Operating with excessive occupants interfering with the driver's control area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Encombrement du siège du conducteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aglomeración en asiento del conductor"
+        }
+      ]
+    },
+    {
+      "code": "DSVX",
+      "display": "Drive a suspended vehicle (fail to meet safety requirements)",
+      "definition": "Operating a vehicle that has been deemed unfit for road use due to safety deficiencies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite de véhicule non conforme (aux exigences de sécurité)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducir vehículo suspendido (no cumple requisitos de seguridad)"
+        }
+      ]
+    },
+    {
+      "code": "CA:LRUH",
+      "display": "License class (restricted) drive at unlawful hour",
+      "definition": "Operating under a restricted license class during prohibited time periods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe (restreinte) - conduite pendant heures interdites"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clase de licencia (restringida) conducir en hora ilegal"
+        }
+      ]
+    },
+    {
+      "code": "CA:LRUQ",
+      "display": "License class (restricted) drive unaccompanied by qualified driver",
+      "definition": "Operating under a learner's permit without a licensed supervising driver present.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe (restreinte) - conduite non accompagnée d'un conducteur qualifié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clase de licencia (restringida) conducir sin acompañante calificado"
+        }
+      ]
+    },
+    {
+      "code": "DWSX",
+      "display": "Driving while under suspension",
+      "definition": "Operating a vehicle during a period when driving privileges have been suspended.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite pendant la suspension du permis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducir mientras está suspendido"
+        }
+      ]
+    },
+    {
+      "code": "DWUA",
+      "display": "Driving while Unauthorized",
+      "definition": "Operating a vehicle without valid authorization or proper licensing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite non autorisée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducir sin autorización"
+        }
+      ]
+    },
+    {
+      "code": "WOID",
+      "display": "Driving without an interlock device",
+      "definition": "Operating a vehicle without a court-mandated ignition interlock device.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite sans dispositif de verrouillage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducir sin dispositivo de bloqueo"
+        }
+      ]
+    },
+    {
+      "code": "EPHX",
+      "display": "Entering prohibited highway",
+      "definition": "Accessing a roadway that is restricted to certain vehicle types or license classes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entrer dans voie publique prohibée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entrar en autopista prohibida"
+        }
+      ]
+    },
+    {
+      "code": "RVRW",
+      "display": "Drive recreational vehicle on prohibited roadway",
+      "definition": "Operating an off-road or recreational vehicle on a road where such use is not permitted.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite de véhicule récréatif sur voie publique prohibée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducir vehículo recreativo en camino prohibido"
+        }
+      ]
+    },
+    {
+      "code": "XSPD",
+      "display": "Exceed speed for established time period",
+      "definition": "Exceeding posted speed limits during designated time periods such as school zones or construction hours.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Excès de vitesse durant une période de temps établie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Exceder velocidad durante período establecido"
+        }
+      ]
+    },
+    {
+      "code": "FLSX",
+      "display": "False statement re-insurance",
+      "definition": "Making a fraudulent or misleading statement regarding vehicle coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fausse déclaration réassurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Declaración falsa sobre seguro"
+        }
+      ]
+    },
+    {
+      "code": "FCIX",
+      "display": "Failure to carry or have insurance card",
+      "definition": "Not possessing proof of vehicle coverage when operating a vehicle or when requested by authorities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de détenir ou détenir sur soi preuve d'assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de portar o tener tarjeta de seguro"
+        }
+      ]
+    },
+    {
+      "code": "CA:FCRP",
+      "display": "Failure to complete remedial programme",
+      "definition": "Not completing a court-ordered or licensing authority-mandated driver improvement program.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut d'avoir complété un programme de rattrapage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de completar programa correctivo"
+        }
+      ]
+    },
+    {
+      "code": "FDHX",
+      "display": "Failure to report damage to highway property",
+      "definition": "Not reporting damage caused to public road infrastructure or property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de déclarer dommages causés aux biens de la route"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de reportar daños a propiedad de la carretera"
+        }
+      ]
+    },
+    {
+      "code": "FDPX",
+      "display": "Failure to disclose particulars",
+      "definition": "Not providing required information about a vehicle, driver, or incident when lawfully requested.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de fournir détails"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de divulgar particulares"
+        }
+      ]
+    },
+    {
+      "code": "FBBT",
+      "display": "Failure to pass breath or blood test",
+      "definition": "Exceeding the legal limit on a breathalyzer or blood alcohol test.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de subir test d'haleine ou sanguin"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de pasar prueba de aliento o sangre"
+        }
+      ]
+    },
+    {
+      "code": "FPIX",
+      "display": "Failure to produce evidence of insurance",
+      "definition": "Unable to provide valid proof of vehicle coverage when requested.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de présenter preuve d'assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de presentar evidencia de seguro"
+        }
+      ]
+    },
+    {
+      "code": "FPHX",
+      "display": "Failure to proceed onto highway safely",
+      "definition": "Entering a roadway without ensuring it is safe to do so, creating a hazard for other traffic.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut d'accéder à la voie publique de façon sécuritaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de ingresar a la carretera de forma segura"
+        }
+      ]
+    },
+    {
+      "code": "FPRX",
+      "display": "Failure to produce - recreational vehicle",
+      "definition": "Not providing required documentation for an off-road or recreational vehicle when requested.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de présenter - véhicule récréatif"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de presentar - vehículo recreativo"
+        }
+      ]
+    },
+    {
+      "code": "FRAX",
+      "display": "Failure to report accident/damage",
+      "definition": "Not reporting a collision or property damage to authorities as required by law.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de signaler un accident/dommages"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de reportar accidente/daños"
+        }
+      ]
+    },
+    {
+      "code": "FRSX",
+      "display": "Failure or refusal to surrender license",
+      "definition": "Not surrendering a driver's license when required by a court order or licensing authority.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut ou refus de présenter permis de conduire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta o negativa de entregar licencia"
+        }
+      ]
+    },
+    {
+      "code": "FSEV",
+      "display": "Fail to slow/change lane for stationary emergency vehicle",
+      "definition": "Not reducing speed or moving to an adjacent lane when passing a stopped emergency vehicle with lights activated.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de ralentir/changer de voie pour un véhicule d'urgence immobilisé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de reducir velocidad/cambiar carril para vehículo de emergencia estacionario"
+        }
+      ]
+    },
+    {
+      "code": "FSLX",
+      "display": "Failure to stop at level crossing when driving school bus etc.",
+      "definition": "Not stopping at a railway crossing while operating a school bus or other designated vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Omission d'arrêter à un passage à niveau - autobus scolaire, etc."
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de detenerse en cruce ferroviario conduciendo autobús escolar, etc."
+        }
+      ]
+    },
+    {
+      "code": "FSRX",
+      "display": "Failure to share road",
+      "definition": "Not allowing adequate space for other road users such as cyclists or pedestrians.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de partager la route"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de compartir el camino"
+        }
+      ]
+    },
+    {
+      "code": "FTCX",
+      "display": "Following too closely",
+      "definition": "Traveling at an unsafe distance behind another vehicle, commonly known as tailgating.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite - suivre un véhicule de trop près"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguir demasiado cerca"
+        }
+      ]
+    },
+    {
+      "code": "FGNX",
+      "display": "Failure to give name/address information",
+      "definition": "Refusing or failing to provide identification or contact information when lawfully required.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de déclarer nom et adresse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de proporcionar información de nombre/dirección"
+        }
+      ]
+    },
+    {
+      "code": "FMVS",
+      "display": "Failure to meet vehicle safety standards",
+      "definition": "Operating a vehicle that does not comply with required safety equipment or mechanical standards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de suivre les normes de sécurité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de cumplir normas de seguridad vehicular"
+        }
+      ]
+    },
+    {
+      "code": "FPAX",
+      "display": "Failure to provide access",
+      "definition": "Refusing to allow inspection or access to a vehicle when lawfully required.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de fournir accès"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de proporcionar acceso"
+        }
+      ]
+    },
+    {
+      "code": "FPPX",
+      "display": "Failure to permit passing",
+      "definition": "Not allowing faster-moving vehicles to pass safely when reasonable to do so.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de permettre le passage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de permitir rebase"
+        }
+      ]
+    },
+    {
+      "code": "FTRX",
+      "display": "Failure to remain",
+      "definition": "Leaving the scene of a collision without fulfilling legal obligations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de rester sur les lieux d'un accident"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de permanecer"
+        }
+      ]
+    },
+    {
+      "code": "FTAX",
+      "display": "Failure to render all possible assistance",
+      "definition": "Not providing aid to injured persons at the scene of a collision.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de fournir toute assistance nécessaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de brindar toda la asistencia posible"
+        }
+      ]
+    },
+    {
+      "code": "FTSX",
+      "display": "Failure to signal",
+      "definition": "Not using turn signals or hand signals when changing lanes, turning, or stopping.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de signaler ses manœuvres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de señalizar"
+        }
+      ]
+    },
+    {
+      "code": "CA:FPLS",
+      "display": "Failure to stop for police resulting in license suspension",
+      "definition": "Fleeing from or not complying with a police stop signal, leading to administrative license suspension.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de s'arrêter sur l'ordre d'un policier - suspension du permis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de detenerse para policía resultando en suspensión de licencia"
+        }
+      ]
+    },
+    {
+      "code": "FPOX",
+      "display": "Failure to stop at the request of a police officer",
+      "definition": "Not stopping when signaled or directed to do so by a law enforcement officer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de s'arrêter sur l'ordre d'un policier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de detenerse a solicitud de oficial de policía"
+        }
+      ]
+    },
+    {
+      "code": "FSAX",
+      "display": "Failure to stop at scene of accident",
+      "definition": "Leaving a collision scene without stopping as required by law.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de s'arrêter sur les lieux de l'accident"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de detenerse en escena de accidente"
+        }
+      ]
+    },
+    {
+      "code": "FSTX",
+      "display": "Failure to stop",
+      "definition": "Not stopping at a stop sign, red light, or other legally required stopping point.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de s'arrêter"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de detenerse"
+        }
+      ]
+    },
+    {
+      "code": "FTTX",
+      "display": "Failure to turn",
+      "definition": "Not completing a required or signaled turn properly.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut d'effectuer un virage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de girar"
+        }
+      ]
+    },
+    {
+      "code": "FTYX",
+      "display": "Failure to yield",
+      "definition": "Not giving right-of-way to vehicles or pedestrians that have priority.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de céder le passage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de ceder el paso"
+        }
+      ]
+    },
+    {
+      "code": "CA:G1VL",
+      "display": "License class G1 violation",
+      "definition": "Violation of conditions or restrictions imposed on a G1 learner's permit holder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe G1 - infraction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Infracción de licencia clase G1"
+        }
+      ]
+    },
+    {
+      "code": "CA:G2VL",
+      "display": "License class G2 violation",
+      "definition": "Violation of conditions or restrictions imposed on a G2 intermediate license holder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe G2 - infraction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Infracción de licencia clase G2"
+        }
+      ]
+    },
+    {
+      "code": "HMTX",
+      "display": "Failure of motorcyclist to wear helmet",
+      "definition": "Operating a motorcycle without wearing an approved protective helmet.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de porter casque protecteur (motocycliste)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de motociclista de usar casco"
+        }
+      ]
+    },
+    {
+      "code": "HDLX",
+      "display": "Headlight offense",
+      "definition": "Violation related to vehicle headlights, such as improper use, defective lights, or failure to use lights when required.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction - phares"
+        },
+        {
+          "language": "es-MX",
+          "value": "Infracción de faros"
+        }
+      ]
+    },
+    {
+      "code": "ILCX",
+      "display": "Improper lane change",
+      "definition": "Changing lanes unsafely, without signaling, or when prohibited.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Changement de voie incorrect"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cambio de carril indebido"
+        }
+      ]
+    },
+    {
+      "code": "IMPX",
+      "display": "Impaired driving",
+      "definition": "Operating a vehicle while ability is impaired by alcohol, drugs, or a combination of both.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite avec facultés affaiblies"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducción en estado de ebriedad"
+        }
+      ]
+    },
+    {
+      "code": "IPRX",
+      "display": "Imprudent Driver",
+      "definition": "Operating a vehicle without reasonable caution or prudence.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conducteur imprudent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conductor imprudente"
+        }
+      ]
+    },
+    {
+      "code": "NIRV",
+      "display": "No insurance - recreational vehicle",
+      "definition": "Operating an off-road or recreational vehicle without required coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sans assurance - véhicule récréatif"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin seguro - vehículo recreativo"
+        }
+      ]
+    },
+    {
+      "code": "IODX",
+      "display": "Improper opening of door",
+      "definition": "Opening a vehicle door into traffic without ensuring it is safe to do so.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ouverture imprudente de la portière d'un véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Apertura indebida de puerta"
+        }
+      ]
+    },
+    {
+      "code": "IPSX",
+      "display": "Improper passing (including weaving, zigzagging, etc.)",
+      "definition": "Overtaking another vehicle in an unsafe manner, location, or through erratic lane changes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dépassement incorrect (entrecroisement, zigzaguer, etc.)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rebase indebido (incluyendo zigzagueo, etc.)"
+        }
+      ]
+    },
+    {
+      "code": "ISBX",
+      "display": "Insufficient space between vehicles",
+      "definition": "Not maintaining adequate following distance or lateral spacing between vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Espace insuffisant entre les véhicules"
+        },
+        {
+          "language": "es-MX",
+          "value": "Espacio insuficiente entre vehículos"
+        }
+      ]
+    },
+    {
+      "code": "ITRN",
+      "display": "Improper turn",
+      "definition": "Executing a turn from the wrong lane, without signaling, or in an unsafe manner.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Virage incorrect"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vuelta indebida"
+        }
+      ]
+    },
+    {
+      "code": "IUEX",
+      "display": "Improper use of emergency equipment or markings",
+      "definition": "Unauthorized use of emergency lights, sirens, or vehicle markings reserved for emergency vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Usage irrégulier de l'équipement d'urgence ou marques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Uso indebido de equipo o marcas de emergencia"
+        }
+      ]
+    },
+    {
+      "code": "ILDX",
+      "display": "Insecure load",
+      "definition": "Transporting cargo that is not properly secured or protected, posing a safety hazard.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chargement non arrimé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carga insegura"
+        }
+      ]
+    },
+    {
+      "code": "CVLL",
+      "display": "Drive commercial vehicle in left lane",
+      "definition": "Operating a commercial vehicle in the passing lane where prohibited.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite de véhicule utilitaire sur voie de gauche"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducir vehículo comercial en carril izquierdo"
+        }
+      ]
+    },
+    {
+      "code": "DLVX",
+      "display": "Driver's license violation",
+      "definition": "Violation related to licensing requirements, such as expired, suspended, or invalid license.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction - permis de conduire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Infracción de licencia de conducir"
+        }
+      ]
+    },
+    {
+      "code": "LPOX",
+      "display": "License plate offense",
+      "definition": "Violation related to vehicle registration plates, such as obscured, missing, or fraudulent plates.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction - plaques d'immatriculation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Infracción de placa de matrícula"
+        }
+      ]
+    },
+    {
+      "code": "CA:M1VL",
+      "display": "License class M1 violation",
+      "definition": "Violation of conditions or restrictions imposed on an M1 motorcycle learner's permit holder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe M1 - infraction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Infracción de licencia clase M1"
+        }
+      ]
+    },
+    {
+      "code": "CA:M2VL",
+      "display": "License class M2 violation",
+      "definition": "Violation of conditions or restrictions imposed on an M2 intermediate motorcycle license holder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe M2 - infraction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Infracción de licencia clase M2"
+        }
+      ]
+    },
+    {
+      "code": "MJRX",
+      "display": "Major conviction (not specified)",
+      "definition": "Serious traffic violation not otherwise categorized.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Condamnation majeure (non spécifiée)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Condena mayor (no especificada)"
+        }
+      ]
+    },
+    {
+      "code": "MNRX",
+      "display": "Minor conviction (not specified)",
+      "definition": "Less serious traffic violation not otherwise categorized.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Condamnation mineure (non spécifiée)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Condena menor (no especificada)"
+        }
+      ]
+    },
+    {
+      "code": "MFSX",
+      "display": "Make false statement",
+      "definition": "Providing fraudulent or misleading information to authorities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fausse déclaration"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hacer declaración falsa"
+        }
+      ]
+    },
+    {
+      "code": "MMSX",
+      "display": "Motor manslaughter",
+      "definition": "Causing the death of another person through dangerous or impaired operation of a vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite dangereuse causant la mort"
+        },
+        {
+          "language": "es-MX",
+          "value": "Homicidio vehicular"
+        }
+      ]
+    },
+    {
+      "code": "MOPX",
+      "display": "Motor assisted bicycle infraction",
+      "definition": "Violation related to the operation of a moped or motorized bicycle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction - cyclomoteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Infracción de bicicleta motorizada"
+        }
+      ]
+    },
+    {
+      "code": "NDLX",
+      "display": "No driver's license or improper class of driver's license",
+      "definition": "Operating a vehicle without a valid license or with a license class inappropriate for the vehicle type.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sans permis de conduire ou classe de permis non conforme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin licencia de conducir o clase incorrecta de licencia"
+        }
+      ]
+    },
+    {
+      "code": "NDRX",
+      "display": "No drivers license - recreational vehicle",
+      "definition": "Operating a recreational vehicle without the required operator's license.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sans permis de conduire - véhicule récréatif"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin licencia de conducir - vehículo recreativo"
+        }
+      ]
+    },
+    {
+      "code": "CA:NVBR",
+      "display": "Novice driver fail/refuse breath sample",
+      "definition": "Novice or graduated license holder failing or refusing to provide a breath sample when tested.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cond. débutant - défaut/refus de subir test d'haleine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conductor novato falla/niega muestra de aliento"
+        }
+      ]
+    },
+    {
+      "code": "NSPX",
+      "display": "No special permit or placard",
+      "definition": "Operating without required special authorization such as oversize load permits or accessible parking placards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sans permis spécial ou enseigne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin permiso especial o placa"
+        }
+      ]
+    },
+    {
+      "code": "OVLX",
+      "display": "Overload violation",
+      "definition": "Exceeding the maximum weight capacity for a vehicle or axle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction - chargement excessif"
+        },
+        {
+          "language": "es-MX",
+          "value": "Infracción de sobrecarga"
+        }
+      ]
+    },
+    {
+      "code": "NOIX",
+      "display": "Operate motor vehicle - no insurance",
+      "definition": "Operating a motor vehicle without valid liability coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Opération d'un véhicule automobile - sans assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Operar vehículo automotor - sin seguro"
+        }
+      ]
+    },
+    {
+      "code": "OBTX",
+      "display": "Obstructing traffic",
+      "definition": "Blocking or impeding the normal flow of traffic through improper parking, slow driving, or other actions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Obstruction de la circulation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Obstrucción del tráfico"
+        }
+      ]
+    },
+    {
+      "code": "OWWX",
+      "display": "Wrong way on one way",
+      "definition": "Driving in the opposite direction on a one-way street or roadway.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite en sens inverse dans une voie à sens unique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sentido contrario en vía de un solo sentido"
+        }
+      ]
+    },
+    {
+      "code": "PRKX",
+      "display": "Parking, standing or stopping",
+      "definition": "Parking, standing, or stopping a vehicle in a prohibited location or manner.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stationnement, attente ou arrêt en zone interdite"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estacionamiento, parada o detención"
+        }
+      ]
+    },
+    {
+      "code": "CA:PNVX",
+      "display": "Permit novice drive in contravention of conductor restrictions",
+      "definition": "Allowing a novice driver to operate a vehicle in violation of graduated licensing restrictions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cond. débutant - conduite contrevenant aux restrictions du permis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Permitir conducir novato en contravención de restricciones"
+        }
+      ]
+    },
+    {
+      "code": "PFEX",
+      "display": "Produce false evidence",
+      "definition": "Presenting fraudulent or falsified documents or information to authorities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produire des fausses preuves"
+        },
+        {
+          "language": "es-MX",
+          "value": "Presentar evidencia falsa"
+        }
+      ]
+    },
+    {
+      "code": "PFIX",
+      "display": "Produce false insurance",
+      "definition": "Presenting fraudulent or falsified proof of vehicle coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produire de l'assurance falsifiée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Presentar seguro falso"
+        }
+      ]
+    },
+    {
+      "code": "PRCX",
+      "display": "Intersect procession in motion",
+      "definition": "Interrupting or driving through a funeral procession or other authorized convoy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Interruption d'un cortège funèbre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Interrumpir procesión en movimiento"
+        }
+      ]
+    },
+    {
+      "code": "PSBX",
+      "display": "School bus - improper passing or fail to stop",
+      "definition": "Passing a school bus with activated stop signals or failing to stop when required.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autobus scolaire - dépassement interdit ou omission d'arrêter"
+        },
+        {
+          "language": "es-MX",
+          "value": "Autobús escolar - rebase indebido o falta de detenerse"
+        }
+      ]
+    },
+    {
+      "code": "PSGX",
+      "display": "School playground - improper passing",
+      "definition": "Passing another vehicle unsafely within a school zone or playground area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dépassement incorrect - zone scolaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rebase indebido - zona escolar"
+        }
+      ]
+    },
+    {
+      "code": "PUTX",
+      "display": "Prohibited use of tunnel by vehicle carrying dangerous substance",
+      "definition": "Operating a vehicle transporting hazardous materials through a tunnel where such transport is restricted.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Utilisation interdite d'un tunnel - véhicule transportant matières dangereuses"
+        },
+        {
+          "language": "es-MX",
+          "value": "Uso prohibido de túnel por vehículo con sustancias peligrosas"
+        }
+      ]
+    },
+    {
+      "code": "FYPX",
+      "display": "Failure to yield to pedestrian/cyclist",
+      "definition": "Not giving right-of-way to pedestrians or cyclists at crosswalks or intersections.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de céder le passage à un piéton/cycliste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de ceder el paso a peatón/ciclista"
+        }
+      ]
+    },
+    {
+      "code": "RACX",
+      "display": "Racing",
+      "definition": "Engaging in speed contests or drag racing on public roadways.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Course"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carreras"
+        }
+      ]
+    },
+    {
+      "code": "RADX",
+      "display": "Radar warning device in vehicle",
+      "definition": "Possessing or using a radar detector or jammer in a jurisdiction where prohibited.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détecteur de radar dans le véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dispositivo de advertencia de radar en vehículo"
+        }
+      ]
+    },
+    {
+      "code": "RBSX",
+      "display": "Refuse breathalyser/provide blood sample",
+      "definition": "Refusing to submit to breathalyzer testing or provide a blood sample when lawfully required.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Refus de subir l'alcootest ou de fournir un échantillon de sang"
+        },
+        {
+          "language": "es-MX",
+          "value": "Negarse a alcoholímetro/proporcionar muestra de sangre"
+        }
+      ]
+    },
+    {
+      "code": "RUVX",
+      "display": "Refusal examination of unsafe vehicle",
+      "definition": "Refusing to allow inspection of a vehicle suspected of safety violations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Refus d'inspection d'un véhicule non sécuritaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Negativa a examen de vehículo inseguro"
+        }
+      ]
+    },
+    {
+      "code": "RINX",
+      "display": "Reinstated",
+      "definition": "Driver's license or vehicle registration restored following suspension or revocation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remis en vigueur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Restablecido"
+        }
+      ]
+    },
+    {
+      "code": "RRXX",
+      "display": "Railway crossing",
+      "definition": "Violation at a railway crossing such as failing to stop, ignoring signals, or crossing unsafely.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Passage à niveau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cruce ferroviario"
+        }
+      ]
+    },
+    {
+      "code": "SBTX",
+      "display": "Seat belt violation",
+      "definition": "Operating or riding in a vehicle without wearing a seatbelt as required by law.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction - ceinture de sécurité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Infracción de cinturón de seguridad"
+        }
+      ]
+    },
+    {
+      "code": "CA:SBPX",
+      "display": "Driver failure to properly secure passenger under 16 yrs or 23kg",
+      "definition": "Not ensuring that child passengers are properly restrained in appropriate car seats or restraint systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conducteur - défaut de s'assurer qu'un passager de moins de 16 ans ou de moins de 23 kg est attaché correctement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conductor falla en asegurar pasajero menor de 16 años o 23kg"
+        }
+      ]
+    },
+    {
+      "code": "SCBX",
+      "display": "School bus infractions",
+      "definition": "Violations specific to the operation or equipment of school buses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction - autobus scolaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Infracciones de autobús escolar"
+        }
+      ]
+    },
+    {
+      "code": "SCSX",
+      "display": "School crossing stop signal-failure to obey",
+      "definition": "Not stopping for a crossing guard or school crossing signal.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de s'immobiliser a un signal d'arrêt - passage pour écoliers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Señal de parada de cruce escolar - falta de obedecer"
+        }
+      ]
+    },
+    {
+      "code": "USDX",
+      "display": "Unnecessary slow driving",
+      "definition": "Operating at an unreasonably slow speed that impedes normal traffic flow.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite à une vitesse anormalement réduite"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducción innecesariamente lenta"
+        }
+      ]
+    },
+    {
+      "code": "SRIX",
+      "display": "Serious conviction (not specified)",
+      "definition": "Severe traffic violation not otherwise categorized.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Condamnation grave (non spécifiée)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Condena grave (no especificada)"
+        }
+      ]
+    },
+    {
+      "code": "SOLX",
+      "display": "Soliciting offense",
+      "definition": "Using a vehicle for illegal solicitation activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction - sollicitation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Infracción de solicitación"
+        }
+      ]
+    },
+    {
+      "code": "SPDX",
+      "display": "Speeding (enter the number of km over the limit)",
+      "definition": "Exceeding the posted speed limit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Excès de vitesse (entrer nb de km au-dessus de la limite)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Exceso de velocidad (ingresar km sobre el límite)"
+        }
+      ]
+    },
+    {
+      "code": "SPZX",
+      "display": "Speeding-in alley/crown property/flashing light",
+      "definition": "Exceeding speed limits in restricted areas such as alleys, government property, or areas with active warning lights.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Excès de vitesse-dans une ruelle/propriété de la Couronne/feu clignotant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Exceso de velocidad-en callejón/propiedad gubernamental/luz intermitente"
+        }
+      ]
+    },
+    {
+      "code": "SPOX",
+      "display": "Speeding Over (Company Major Conviction)",
+      "definition": "Excessive speeding deemed a major violation by the insurer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Excès de vitesse (condamnation majeure de l'assureur)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Exceso de velocidad (condena mayor de la aseguradora)"
+        }
+      ]
+    },
+    {
+      "code": "SSTX",
+      "display": "Stop sign",
+      "definition": "Failing to come to a complete stop at a stop sign.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Panneau d'arrêt"
+        },
+        {
+          "language": "es-MX",
+          "value": "Señal de alto"
+        }
+      ]
+    },
+    {
+      "code": "SSZX",
+      "display": "Speed-school zone/playground",
+      "definition": "Exceeding posted speed limits in school zones or playground areas.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Excès de vitesse - zone scolaire/terrain de jeu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Velocidad-zona escolar/área de juegos"
+        }
+      ]
+    },
+    {
+      "code": "STNX",
+      "display": "Stunting",
+      "definition": "Performing dangerous maneuvers such as wheelies, burnouts, or drifting on public roads.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cascade"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acrobacias"
+        }
+      ]
+    },
+    {
+      "code": "CA:SUPX",
+      "display": "Suspended (enter the number of months suspended)",
+      "definition": "Driver's license temporarily revoked for a specified period.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Suspension de permis (entrer le nb de mois de suspension)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Suspendido (ingresar número de meses suspendido)"
+        }
+      ]
+    },
+    {
+      "code": "CA:SPLF",
+      "display": "Suspended for life",
+      "definition": "Permanent revocation of driving privileges.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Suspension à vie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Suspendido de por vida"
+        }
+      ]
+    },
+    {
+      "code": "TLVX",
+      "display": "Traffic lane violation",
+      "definition": "Improper use of traffic lanes, such as straddling lane markings or using turn-only lanes incorrectly.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction - ligne de démarcation de voie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Infracción de carril de tráfico"
+        }
+      ]
+    },
+    {
+      "code": "TRPX",
+      "display": "Trailer passenger",
+      "definition": "Transporting passengers in a trailer or towed vehicle not designed for passenger transport.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite de véhicule avec passager(s) dans la remorque"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pasajero en remolque"
+        }
+      ]
+    },
+    {
+      "code": "TRLX",
+      "display": "Trailer offense",
+      "definition": "Violations related to trailer safety, connection, lighting, or operation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction - remorque"
+        },
+        {
+          "language": "es-MX",
+          "value": "Infracción de remolque"
+        }
+      ]
+    },
+    {
+      "code": "DTSX",
+      "display": "Disobey traffic sign or signal",
+      "definition": "Failing to comply with traffic control devices such as signs, signals, or pavement markings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ne pas se conformer au panneau ou feu de signalisation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desobedecer señal o semáforo de tráfico"
+        }
+      ]
+    },
+    {
+      "code": "ITWX",
+      "display": "Improper towing, persons on sled, bicycle, etc.",
+      "definition": "Towing persons on sleds, skateboards, bicycles, or other devices behind a vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorquage interdit de personnes, par exemple sur luge, bicyclette, etc."
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque indebido, personas en trineo, bicicleta, etc."
+        }
+      ]
+    },
+    {
+      "code": "UDWX",
+      "display": "Unsafe Driving due to weather/road conditions",
+      "definition": "Operating at a speed or manner inappropriate for existing weather or road surface conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite dangereuse due à la température/conditions de la route"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducción insegura debido a clima/condiciones del camino"
+        }
+      ]
+    },
+    {
+      "code": "USMX",
+      "display": "Unsafe move",
+      "definition": "Executing a maneuver such as a lane change or turn without ensuring it is safe to do so.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Manœuvre dangereuse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Maniobra insegura"
+        }
+      ]
+    },
+    {
+      "code": "UNNX",
+      "display": "Unnecessary noise",
+      "definition": "Operating a vehicle with excessive exhaust noise, horn use, or audio system volume.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bruit excessif"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ruido innecesario"
+        }
+      ]
+    },
+    {
+      "code": "UUTX",
+      "display": "Unsafe or prohibited U-turn",
+      "definition": "Making a U-turn where prohibited or in a manner that creates a hazard.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Demi-tour dangereux ou interdit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vuelta en U insegura o prohibida"
+        }
+      ]
+    },
+    {
+      "code": "USVX",
+      "display": "Unsafe Vehicle",
+      "definition": "Operating a vehicle with mechanical defects or safety issues that render it unfit for road use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule non sécuritaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo inseguro"
+        }
+      ]
+    },
+    {
+      "code": "VINX",
+      "display": "Vehicle inspection",
+      "definition": "Failure to obtain required vehicle inspection or operating with an expired inspection certificate.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inspection du véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inspección de vehículo"
+        }
+      ]
+    },
+    {
+      "code": "VWIX",
+      "display": "Vehicle owner without insurance",
+      "definition": "Owning a vehicle without maintaining required liability coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriétaire de véhicule sans assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propietario de vehículo sin seguro"
+        }
+      ]
+    },
+    {
+      "code": "VROX",
+      "display": "Vehicle registration offense",
+      "definition": "Operating with expired, missing, or fraudulent vehicle registration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction - immatriculation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Infracción de registro de vehículo"
+        }
+      ]
+    },
+    {
+      "code": "VOBX",
+      "display": "View obstructed",
+      "definition": "Operating with windshield, windows, or mirrors obstructed by objects, ice, or tinting.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vue obstruée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vista obstruida"
+        }
+      ]
+    },
+    {
+      "code": "PEDX",
+      "display": "Pedestrian violation",
+      "definition": "Violation committed by a pedestrian such as jaywalking or ignoring traffic signals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction - piéton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Infracción de peatón"
+        }
+      ]
+    }
+  ]
+}

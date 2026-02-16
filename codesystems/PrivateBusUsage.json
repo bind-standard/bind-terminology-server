@@ -1,0 +1,147 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "PrivateBusUsage",
+  "url": "https://bind.codes/PrivateBusUsage",
+  "name": "PrivateBusUsage",
+  "title": "Private Bus Usage",
+  "status": "draft",
+  "language": "en",
+  "description": "Private Bus Usage codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ASCH",
+      "display": "Association",
+      "definition": "Use of a private bus for transporting members of a club, society, or association.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación"
+        }
+      ]
+    },
+    {
+      "code": "ADCH",
+      "display": "Adults and Children",
+      "definition": "Transportation of a mixed group of adults and children.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adultes et enfants"
+        },
+        {
+          "language": "es-MX",
+          "value": "Adultos y niños"
+        }
+      ]
+    },
+    {
+      "code": "CHON",
+      "display": "Children Only",
+      "definition": "Transportation exclusively for children, such as school trips or youth group activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Enfants seulement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Solo niños"
+        }
+      ]
+    },
+    {
+      "code": "CHCH",
+      "display": "Church Charitable Organization",
+      "definition": "Use of a private bus for church or charitable organization activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Œuvre de bienfaisance (Église)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Organización benéfica de la iglesia"
+        }
+      ]
+    },
+    {
+      "code": "EVCA",
+      "display": "Evacuation by Civil Authority",
+      "definition": "Use of a private bus for emergency evacuations ordered by civil authorities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Évacuation par les autorités civiles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Evacuación por autoridad civil"
+        }
+      ]
+    },
+    {
+      "code": "SPEV",
+      "display": "Sporting Events",
+      "definition": "Transportation to or from sporting events or athletic competitions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Événements sportifs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Eventos deportivos"
+        }
+      ]
+    },
+    {
+      "code": "EMPL",
+      "display": "Employee Transportation",
+      "definition": "Transportation of employees to and from work locations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transport des employés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transporte de empleados"
+        }
+      ]
+    },
+    {
+      "code": "SNTR",
+      "display": "Senior Transportation",
+      "definition": "Transportation services specifically for senior citizens or elderly passengers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transport des aînés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transporte de personas mayores"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Private bus usage not covered by other specific categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

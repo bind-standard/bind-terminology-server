@@ -1,0 +1,120 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ProfessionalDesignation",
+  "url": "https://bind.codes/ProfessionalDesignation",
+  "name": "ProfessionalDesignation",
+  "title": "Professional Designation",
+  "status": "draft",
+  "language": "en",
+  "description": "Industry-recognized professional designations and certifications for practitioners in the property and casualty field.",
+  "concept": [
+    {
+      "code": "CPCU",
+      "display": "CPCU",
+      "definition": "Chartered Property Casualty Underwriter — an advanced designation covering underwriting, risk management, and ethics.",
+      "designation": [
+        { "language": "fr-CA", "value": "CPCU" },
+        { "language": "es-MX", "value": "CPCU" }
+      ]
+    },
+    {
+      "code": "ARMM",
+      "display": "ARM",
+      "definition": "Associate in Risk Management — focuses on identifying, analyzing, and treating organizational exposures.",
+      "designation": [
+        { "language": "fr-CA", "value": "ARM" },
+        { "language": "es-MX", "value": "ARM" }
+      ]
+    },
+    {
+      "code": "CICC",
+      "display": "CIC",
+      "definition": "Certified Insurance Counselor — a practitioner-oriented program emphasizing commercial and personal lines expertise.",
+      "designation": [
+        { "language": "fr-CA", "value": "CIC" },
+        { "language": "es-MX", "value": "CIC" }
+      ]
+    },
+    {
+      "code": "AUCU",
+      "display": "AU",
+      "definition": "Associate in Commercial Underwriting — focuses on commercial lines underwriting principles and practices.",
+      "designation": [
+        { "language": "fr-CA", "value": "AU" },
+        { "language": "es-MX", "value": "AU" }
+      ]
+    },
+    {
+      "code": "AINS",
+      "display": "AINS",
+      "definition": "Associate in General Insurance — an introductory designation covering foundational industry knowledge.",
+      "designation": [
+        { "language": "fr-CA", "value": "AINS" },
+        { "language": "es-MX", "value": "AINS" }
+      ]
+    },
+    {
+      "code": "AAII",
+      "display": "AAI",
+      "definition": "Accredited Adviser in Insurance — focuses on agency management and advanced sales techniques.",
+      "designation": [
+        { "language": "fr-CA", "value": "AAI" },
+        { "language": "es-MX", "value": "AAI" }
+      ]
+    },
+    {
+      "code": "AICC",
+      "display": "AIC",
+      "definition": "Associate in Claims — focuses on claims handling, investigation, and settlement.",
+      "designation": [
+        { "language": "fr-CA", "value": "AIC" },
+        { "language": "es-MX", "value": "AIC" }
+      ]
+    },
+    {
+      "code": "RPLU",
+      "display": "RPLU",
+      "definition": "Registered Professional Liability Underwriter — specializes in professional liability and errors & omissions coverage.",
+      "designation": [
+        { "language": "fr-CA", "value": "RPLU" },
+        { "language": "es-MX", "value": "RPLU" }
+      ]
+    },
+    {
+      "code": "CRMM",
+      "display": "CRM",
+      "definition": "Certified Risk Manager — focuses on enterprise risk management practices.",
+      "designation": [
+        { "language": "fr-CA", "value": "CRM" },
+        { "language": "es-MX", "value": "CRM" }
+      ]
+    },
+    {
+      "code": "CISR",
+      "display": "CISR",
+      "definition": "Certified Insurance Service Representative — an entry-level designation for agency customer service professionals.",
+      "designation": [
+        { "language": "fr-CA", "value": "CISR" },
+        { "language": "es-MX", "value": "CISR" }
+      ]
+    },
+    {
+      "code": "CA:CIP",
+      "display": "CIP",
+      "definition": "Chartered Insurance Professional — a Canadian designation administered by the Insurance Institute of Canada.",
+      "designation": [
+        { "language": "fr-CA", "value": "PAA" },
+        { "language": "es-MX", "value": "CIP" }
+      ]
+    },
+    {
+      "code": "CA:FCIP",
+      "display": "FCIP",
+      "definition": "Fellow Chartered Insurance Professional — the advanced Canadian designation from the Insurance Institute of Canada.",
+      "designation": [
+        { "language": "fr-CA", "value": "FPAA" },
+        { "language": "es-MX", "value": "FCIP" }
+      ]
+    }
+  ]
+}

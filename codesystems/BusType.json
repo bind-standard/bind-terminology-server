@@ -1,0 +1,146 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BusType",
+  "url": "https://bind.codes/BusType",
+  "name": "BusType",
+  "title": "Bus Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Bus Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "HTCL",
+      "display": "Hotel or Country Club",
+      "definition": "Bus used primarily for transporting guests or members of hospitality or recreational facilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hôtel ou Club de Loisirs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hotel o Club Campestre"
+        }
+      ]
+    },
+    {
+      "code": "PASN",
+      "display": "Private - Association",
+      "definition": "Bus operated by a private organization or association for its members or specific groups.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Privé - Association"
+        },
+        {
+          "language": "es-MX",
+          "value": "Privado - Asociación"
+        }
+      ]
+    },
+    {
+      "code": "SCHL",
+      "display": "School",
+      "definition": "Bus used for transporting students to and from educational institutions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "École"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escuela"
+        }
+      ]
+    },
+    {
+      "code": "PUBL",
+      "display": "Public",
+      "definition": "Bus operating on fixed routes and schedules available to the general public for fare.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Public"
+        },
+        {
+          "language": "es-MX",
+          "value": "Público"
+        }
+      ]
+    },
+    {
+      "code": "CHTR",
+      "display": "Charter",
+      "definition": "Bus hired for specific trips or events by private parties or organizations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Affrètement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Chárter"
+        }
+      ]
+    },
+    {
+      "code": "TOUR",
+      "display": "Tour",
+      "definition": "Bus used for sightseeing or travel excursions with organized tours.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Touristique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Turístico"
+        }
+      ]
+    },
+    {
+      "code": "CHRC",
+      "display": "Church or Religious",
+      "definition": "Bus operated by religious organizations for transporting congregation members.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Église ou Religieux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Iglesia o Religioso"
+        }
+      ]
+    },
+    {
+      "code": "SNRC",
+      "display": "Senior or Care Facility",
+      "definition": "Bus used for transporting residents of senior living or care facilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résidence pour Personnes Âgées ou Centre de Soins"
+        },
+        {
+          "language": "es-MX",
+          "value": "Centro de Mayores o Cuidados"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

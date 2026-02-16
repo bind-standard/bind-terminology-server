@@ -1,0 +1,162 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "PrivacyActConsent",
+  "url": "https://bind.codes/PrivacyActConsent",
+  "name": "PrivacyActConsent",
+  "title": "Privacy Act Consent",
+  "status": "draft",
+  "language": "en",
+  "description": "Privacy Act Consent codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CA:NASK",
+      "display": "Not Asked",
+      "definition": "Consent status indicating that permission to collect, use, or disclose personal information has not yet been requested from the individual.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non demandé"
+        },
+        {
+          "language": "es-MX",
+          "value": "No solicitado"
+        }
+      ]
+    },
+    {
+      "code": "CA:WRIT",
+      "display": "In Writing",
+      "definition": "Consent provided in written form by the individual.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par écrit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por escrito"
+        }
+      ]
+    },
+    {
+      "code": "CA:IMPL",
+      "display": "Implied",
+      "definition": "Consent inferred from an individual's action or inaction in circumstances where it is reasonable to conclude that consent has been given.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous-entendu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Implícito"
+        }
+      ]
+    },
+    {
+      "code": "CA:DENY",
+      "display": "Denied",
+      "definition": "Consent explicitly refused or withdrawn by the individual.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Refusé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Denegado"
+        }
+      ]
+    },
+    {
+      "code": "CA:SIGN",
+      "display": "Signed Form",
+      "definition": "Consent documented through a signed physical or electronic form.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire signé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Formulario firmado"
+        }
+      ]
+    },
+    {
+      "code": "CA:VERB",
+      "display": "Verbal OK",
+      "definition": "Consent provided orally by the individual.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entente verbale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consentimiento verbal"
+        }
+      ]
+    },
+    {
+      "code": "CA:NOML",
+      "display": "Consent-No Mailings",
+      "definition": "Consent granted with specific restriction prohibiting the use of personal information for marketing or promotional mailings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consentement-Pas de publipostage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consentimiento-Sin envíos postales"
+        }
+      ]
+    },
+    {
+      "code": "CA:PRXY",
+      "display": "Proxy",
+      "definition": "Consent provided by an authorized representative acting on behalf of the individual.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Procuration"
+        },
+        {
+          "language": "es-MX",
+          "value": "Representante autorizado"
+        }
+      ]
+    },
+    {
+      "code": "CA:ELEC",
+      "display": "Electronic Consent",
+      "definition": "Consent provided through electronic means such as online forms, email confirmation, or digital acceptance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consentement électronique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consentimiento electrónico"
+        }
+      ]
+    },
+    {
+      "code": "CA:EXPR",
+      "display": "Express Consent",
+      "definition": "Explicit and unambiguous consent clearly communicated by the individual, either verbally or in writing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consentement exprès"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consentimiento expreso"
+        }
+      ]
+    }
+  ]
+}

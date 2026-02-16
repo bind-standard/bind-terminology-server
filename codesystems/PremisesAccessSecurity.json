@@ -1,0 +1,160 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "PremisesAccessSecurity",
+  "url": "https://bind.codes/PremisesAccessSecurity",
+  "name": "PremisesAccessSecurity",
+  "title": "Premises Access Security",
+  "status": "draft",
+  "language": "en",
+  "description": "Premises Access Security codes for insurance operations.",
+  "concept": [
+    {
+      "code": "NONE",
+      "display": "None",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "INTC",
+      "display": "Intercom",
+      "definition": "Communication device allowing controlled audio or video interaction between visitors and occupants before granting entry.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Interphone"
+        },
+        {
+          "language": "es-MX",
+          "value": "Intercomunicador"
+        }
+      ]
+    },
+    {
+      "code": "SEC24",
+      "display": "24 Hour Security",
+      "definition": "Continuous on-site security personnel present at all times throughout day and night.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sécurité jour et nuit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguridad 24 horas"
+        }
+      ]
+    },
+    {
+      "code": "PTSI",
+      "display": "Part Time Security and Intercom",
+      "definition": "Combination of scheduled security personnel during specific hours and intercom system for controlled access.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sécurité partielle et interphone"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguridad parcial e intercomunicador"
+        }
+      ]
+    },
+    {
+      "code": "GATE",
+      "display": "Gated Community Security",
+      "definition": "Perimeter barrier with controlled entry points restricting access to authorized residents and visitors.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Quartier à accès contrôlé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguridad de comunidad cerrada"
+        }
+      ]
+    },
+    {
+      "code": "ATND",
+      "display": "Security Attendant",
+      "definition": "Staffed security desk or booth monitoring and controlling access to the premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gardien de sécurité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vigilante de seguridad"
+        }
+      ]
+    },
+    {
+      "code": "SECD",
+      "display": "Secured Entrance",
+      "definition": "Entry point equipped with access control mechanisms such as locks, card readers, keypads, or biometric systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entrée sécurisée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entrada asegurada"
+        }
+      ]
+    },
+    {
+      "code": "CCTV",
+      "display": "CCTV Surveillance",
+      "definition": "Video surveillance system monitoring entry points and common areas of the premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Surveillance par caméra"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vigilancia CCTV"
+        }
+      ]
+    },
+    {
+      "code": "ACRD",
+      "display": "Access Card System",
+      "definition": "Electronic access control requiring authorized credentials such as key cards, fobs, or proximity badges.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Système de carte d'accès"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sistema de tarjeta de acceso"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

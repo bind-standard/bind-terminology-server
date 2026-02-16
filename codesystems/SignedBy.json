@@ -1,0 +1,117 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "SignedBy",
+  "url": "https://bind.codes/SignedBy",
+  "name": "SignedBy",
+  "title": "Signed By",
+  "status": "draft",
+  "language": "en",
+  "description": "Indicates the party or parties who signed a document, application, or agreement.",
+  "concept": [
+    {
+      "code": "AURP",
+      "display": "Authorized Representative",
+      "definition": "A person legally authorized to act on behalf of the applicant or policyholder, such as a power of attorney, guardian, or corporate officer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Représentant autorisé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Representante autorizado"
+        }
+      ]
+    },
+    {
+      "code": "BOTH",
+      "display": "Both Authorized Representative and Insured/Applicant",
+      "definition": "Document signed by both the authorized representative and the insured or applicant jointly.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Représentant autorisé et assuré/proposant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Representante autorizado y asegurado/solicitante"
+        }
+      ]
+    },
+    {
+      "code": "INSD",
+      "display": "Insured/Applicant",
+      "definition": "The person or entity seeking coverage or named on the policy who signed the document.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assuré/proposant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asegurado/solicitante"
+        }
+      ]
+    },
+    {
+      "code": "NSRQ",
+      "display": "No Signature Required",
+      "definition": "Indicates that no physical or electronic signature is required for the document or transaction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucune signature requise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin firma requerida"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Signed by a party not otherwise specified, such as a co-applicant, beneficiary, or third-party stakeholder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "UNSN",
+      "display": "Unsigned",
+      "definition": "The document or form has not yet been signed by any party.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non signé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin firmar"
+        }
+      ]
+    },
+    {
+      "code": "BRKR",
+      "display": "Broker/Agent",
+      "definition": "The licensed broker or agent who signed the document on behalf of the applicant or as a witness to the transaction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courtier/agent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corredor/agente"
+        }
+      ]
+    }
+  ]
+}

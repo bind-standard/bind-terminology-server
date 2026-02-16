@@ -1,0 +1,147 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ProtectionExtent",
+  "url": "https://bind.codes/ProtectionExtent",
+  "name": "ProtectionExtent",
+  "title": "Protection Extent",
+  "status": "draft",
+  "language": "en",
+  "description": "Protection Extent codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CMPL",
+      "display": "Complete/Full",
+      "definition": "All doors, windows, and structural openings are protected with security measures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Complet/Plein"
+        },
+        {
+          "language": "es-MX",
+          "value": "Completo/Pleno"
+        }
+      ]
+    },
+    {
+      "code": "PART",
+      "display": "Partial",
+      "definition": "Only some doors, windows, or structural openings are protected with security measures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Partielle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Parcial"
+        }
+      ]
+    },
+    {
+      "code": "AOPN",
+      "display": "All Openings",
+      "definition": "Every accessible opening in the structure is secured.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toutes les ouvertures"
+        },
+        {
+          "language": "es-MX",
+          "value": "Todas las aberturas"
+        }
+      ]
+    },
+    {
+      "code": "LVL1",
+      "display": "Level I",
+      "definition": "Basic level of protection coverage with minimal security measures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Niveau I"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nivel I"
+        }
+      ]
+    },
+    {
+      "code": "LVL2",
+      "display": "Level II",
+      "definition": "Moderate level of protection coverage with standard security measures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Niveau II"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nivel II"
+        }
+      ]
+    },
+    {
+      "code": "LVL3",
+      "display": "Level III",
+      "definition": "Enhanced level of protection coverage with comprehensive security measures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Niveau III"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nivel III"
+        }
+      ]
+    },
+    {
+      "code": "LVL4",
+      "display": "Level IV",
+      "definition": "Maximum level of protection coverage with advanced security measures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Niveau IV"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nivel IV"
+        }
+      ]
+    },
+    {
+      "code": "GNFL",
+      "display": "Ground Floor Only",
+      "definition": "Security protection is applied only to ground-level access points.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rez-de-chaussée seulement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Planta baja solamente"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None",
+      "definition": "No security protection measures are in place.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucune"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguna"
+        }
+      ]
+    }
+  ]
+}

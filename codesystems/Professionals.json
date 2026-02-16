@@ -1,0 +1,807 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Professionals",
+  "url": "https://bind.codes/Professionals",
+  "name": "Professionals",
+  "title": "Professionals",
+  "status": "draft",
+  "language": "en",
+  "description": "Healthcare and medical professionals classification codes.",
+  "concept": [
+    {
+      "code": "AMES",
+      "display": "Ambulances (Emergency Service)",
+      "definition": "Emergency medical transport services providing urgent patient care and transportation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ambulances (service d'urgence)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ambulancias (servicio de emergencia)"
+        }
+      ]
+    },
+    {
+      "code": "AMPT",
+      "display": "Ambulances (Patient Transfer, Non-Emergency)",
+      "definition": "Non-emergency medical transport services for scheduled patient transfers between facilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ambulances (transfert de patients, situations non urgentes)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ambulancias (traslado de pacientes, sin emergencia)"
+        }
+      ]
+    },
+    {
+      "code": "ANST",
+      "display": "Anesthetists",
+      "definition": "Medical specialists who administer anesthesia and manage pain during surgical procedures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Anesthésistes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Anestesistas"
+        }
+      ]
+    },
+    {
+      "code": "CHPD",
+      "display": "Chiropodists",
+      "definition": "Healthcare professionals specializing in the assessment and treatment of foot disorders.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chiropodistes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Quiropodistas"
+        }
+      ]
+    },
+    {
+      "code": "CHPR",
+      "display": "Chiropractors",
+      "definition": "Healthcare practitioners focusing on diagnosis and treatment of neuromuscular disorders through manual adjustment of the spine.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chiropraticiens"
+        },
+        {
+          "language": "es-MX",
+          "value": "Quiroprácticos"
+        }
+      ]
+    },
+    {
+      "code": "DNHY",
+      "display": "Dental Hygienists",
+      "definition": "Licensed oral health professionals who provide preventive dental care and patient education.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hygiénistes dentaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Higienistas dentales"
+        }
+      ]
+    },
+    {
+      "code": "DENT",
+      "display": "Dentists",
+      "definition": "Licensed practitioners who diagnose and treat conditions affecting teeth, gums, and oral structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dentistes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dentistas"
+        }
+      ]
+    },
+    {
+      "code": "DERM",
+      "display": "Dermatologists",
+      "definition": "Medical specialists who diagnose and treat skin, hair, and nail conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dermatologues"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dermatólogos"
+        }
+      ]
+    },
+    {
+      "code": "DIET",
+      "display": "Dieticians",
+      "definition": "Regulated health professionals who assess, diagnose, and treat nutritional and dietary problems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Diététiciens"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dietistas"
+        }
+      ]
+    },
+    {
+      "code": "GYOB",
+      "display": "Gynaecologists, Obstetricians",
+      "definition": "Medical specialists focusing on women's reproductive health, pregnancy, and childbirth.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gynécologues, obstétriciens"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ginecólogos, obstetras"
+        }
+      ]
+    },
+    {
+      "code": "HAUD",
+      "display": "Hearing Aid Services/Audiologists",
+      "definition": "Professionals who assess hearing function and provide hearing aid devices and auditory rehabilitation services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de prothèse auditive/audiologistes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de audífonos/audiólogos"
+        }
+      ]
+    },
+    {
+      "code": "HOLA",
+      "display": "Holistic / Alternative Medicine",
+      "definition": "Practitioners offering complementary and integrative approaches to health and wellness.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Médecine holistique/alternative"
+        },
+        {
+          "language": "es-MX",
+          "value": "Medicina holística/alternativa"
+        }
+      ]
+    },
+    {
+      "code": "KINE",
+      "display": "Kinesiologists",
+      "definition": "Movement specialists who use exercise and physical activity to promote health and treat injury or disease.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Kinésiologues"
+        },
+        {
+          "language": "es-MX",
+          "value": "Kinesiólogos"
+        }
+      ]
+    },
+    {
+      "code": "MHOC",
+      "display": "Medical / Health Services - Not Otherwise Classified",
+      "definition": "Healthcare services and professionals that do not fit into other defined categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services médicaux/de santé – non classifiés ailleurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios médicos/de salud - no clasificados de otra manera"
+        }
+      ]
+    },
+    {
+      "code": "MRAD",
+      "display": "Medical Radiation Technologist",
+      "definition": "Technologists who operate imaging equipment such as X-ray, CT, and MRI machines to produce diagnostic images.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Technologue en radiation médicale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tecnólogo en radiología médica"
+        }
+      ]
+    },
+    {
+      "code": "NRLP",
+      "display": "Nurses - Licensed Practical Nurse (L.P.N., R.P.N., R.N.A.)",
+      "definition": "Licensed nurses who provide basic nursing care under the supervision of registered nurses or physicians.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infirmières – Infirmière auxiliaire autorisée (IAA)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Enfermeras - enfermera práctica licenciada"
+        }
+      ]
+    },
+    {
+      "code": "NRNP",
+      "display": "Nurses - Nurse Practitioner (N.P.)",
+      "definition": "Advanced practice registered nurses with extended authority to diagnose, order tests, and prescribe medications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Personnel infirmier – Infirmière praticienne (IP)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Enfermeras - enfermera especializada"
+        }
+      ]
+    },
+    {
+      "code": "OCTH",
+      "display": "Occupational Therapists",
+      "definition": "Therapists who help individuals develop or recover skills needed for daily living and working through therapeutic activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ergothérapeutes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terapeutas ocupacionales"
+        }
+      ]
+    },
+    {
+      "code": "OCOP",
+      "display": "Oculists, Ophthalmologists",
+      "definition": "Medical doctors specializing in eye and vision care, including surgery and treatment of eye diseases.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Oculistes, ophtalmologistes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Oculistas, oftalmólogos"
+        }
+      ]
+    },
+    {
+      "code": "OPTI",
+      "display": "Opticians",
+      "definition": "Professionals who design, fit, and dispense corrective lenses and eyewear based on prescriptions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Opticiens"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ópticos"
+        }
+      ]
+    },
+    {
+      "code": "OPTM",
+      "display": "Optometrists",
+      "definition": "Primary eye care providers who examine eyes, prescribe corrective lenses, and detect certain eye conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Optométristes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Optometristas"
+        }
+      ]
+    },
+    {
+      "code": "OSTE",
+      "display": "Osteopaths",
+      "definition": "Healthcare practitioners who use manual techniques to diagnose and treat musculoskeletal conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ostéopathes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Osteópatas"
+        }
+      ]
+    },
+    {
+      "code": "PFTR",
+      "display": "Personal Fitness Trainers",
+      "definition": "Certified professionals who design and deliver individualized exercise programs to improve physical fitness.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entraîneurs de conditionnement physique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entrenadores personales de acondicionamiento físico"
+        }
+      ]
+    },
+    {
+      "code": "PSPW",
+      "display": "Personal Support Worker (PSW)",
+      "definition": "Caregivers who provide assistance with activities of daily living for individuals who need support due to age, illness, or disability.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Préposé aux services de soutien à la personne (PSP)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajador de apoyo personal"
+        }
+      ]
+    },
+    {
+      "code": "PHNS",
+      "display": "Physicians, Surgeons Not Specialist in Surgery",
+      "definition": "General medical practitioners and physicians who are not specialized surgeons.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Médecins, chirurgiens non spécialisés en chirurgie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Médicos, cirujanos no especialistas en cirugía"
+        }
+      ]
+    },
+    {
+      "code": "PHYS",
+      "display": "Physiotherapists",
+      "definition": "Licensed therapists who use physical methods such as exercise, massage, and manipulation to treat injury and disease.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Physiothérapeutes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fisioterapeutas"
+        }
+      ]
+    },
+    {
+      "code": "PODI",
+      "display": "Podiatrists",
+      "definition": "Healthcare professionals specializing in the diagnosis and treatment of foot, ankle, and lower leg conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Podiatres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Podiatras"
+        }
+      ]
+    },
+    {
+      "code": "PSYC",
+      "display": "Psychiatrists",
+      "definition": "Medical doctors specializing in the diagnosis and treatment of mental health disorders, with authority to prescribe medication.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Psychiatres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Psiquiatras"
+        }
+      ]
+    },
+    {
+      "code": "RDSP",
+      "display": "Radiology Specialists (incl X-Ray / Ultrasound)",
+      "definition": "Medical specialists who interpret medical images including X-rays, ultrasounds, CT scans, and MRIs for diagnostic purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Spécialistes en radiologie (y compris les radiographies et les échographies)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Especialistas en radiología (incluye rayos X/ultrasonido)"
+        }
+      ]
+    },
+    {
+      "code": "RMTH",
+      "display": "Registered Massage Therapists",
+      "definition": "Licensed professionals who manipulate soft tissues to treat musculoskeletal conditions and promote relaxation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Massothérapeutes autorisés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terapeutas de masaje registrados"
+        }
+      ]
+    },
+    {
+      "code": "RGNR",
+      "display": "Registered Nurses",
+      "definition": "Licensed nurses who provide and coordinate patient care, educate patients, and provide health counseling.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infirmières autorisées"
+        },
+        {
+          "language": "es-MX",
+          "value": "Enfermeras registradas"
+        }
+      ]
+    },
+    {
+      "code": "RSTE",
+      "display": "Respiratory Technologist",
+      "definition": "Healthcare professionals who provide care for patients with breathing or cardiopulmonary disorders.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Technologue en inhalothérapie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tecnólogo respiratorio"
+        }
+      ]
+    },
+    {
+      "code": "SRSP",
+      "display": "Surgeon Specialists",
+      "definition": "Medical doctors who have completed specialized training in surgical procedures for specific body systems or conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chirurgiens spécialistes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cirujanos especialistas"
+        }
+      ]
+    },
+    {
+      "code": "ACUP",
+      "display": "Acupuncturist",
+      "definition": "Practitioners who use thin needles inserted at specific points on the body to treat various health conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acupuncteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acupunturista"
+        }
+      ]
+    },
+    {
+      "code": "NUTR",
+      "display": "Nutritionist",
+      "definition": "Health professionals who provide advice on food, nutrition, and dietary planning for health promotion.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nutritionniste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nutricionista"
+        }
+      ]
+    },
+    {
+      "code": "AMTH",
+      "display": "Art or Music Therapist",
+      "definition": "Therapists who use creative arts or music as therapeutic tools to improve mental, emotional, and physical well-being.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Art- ou musicothérapeute"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terapeuta de arte o música"
+        }
+      ]
+    },
+    {
+      "code": "COUN",
+      "display": "Counsellor",
+      "definition": "Professional who provides guidance and support to individuals dealing with personal, social, or psychological challenges.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conseiller"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consejero"
+        }
+      ]
+    },
+    {
+      "code": "GRCN",
+      "display": "Grief Counsellors",
+      "definition": "Specialized counsellors who support individuals coping with loss and bereavement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conseillers de personnes en deuil"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consejeros de duelo"
+        }
+      ]
+    },
+    {
+      "code": "MFCN",
+      "display": "Marriage/Family Counselling Services",
+      "definition": "Therapeutic services focused on relationship dynamics and family systems to resolve interpersonal conflicts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de counseling conjugal/familial"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de consejería matrimonial/familiar"
+        }
+      ]
+    },
+    {
+      "code": "PSYG",
+      "display": "Psychologist",
+      "definition": "Licensed professionals who study mental processes and behavior, providing psychological assessment and therapy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Psychologue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Psicólogo"
+        }
+      ]
+    },
+    {
+      "code": "PSYT",
+      "display": "Psychotherapist",
+      "definition": "Trained professionals who treat mental health issues through talk therapy and other therapeutic interventions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Psychothérapeute"
+        },
+        {
+          "language": "es-MX",
+          "value": "Psicoterapeuta"
+        }
+      ]
+    },
+    {
+      "code": "SCCS",
+      "display": "Social / Counselling / Consulting Services",
+      "definition": "Professional services providing social support, counseling, and consultation for personal and community well-being.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services sociaux, de counseling et de consultation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios sociales/de consejería/consultoría"
+        }
+      ]
+    },
+    {
+      "code": "SPTH",
+      "display": "Speech Therapists",
+      "definition": "Professionals who assess and treat communication and swallowing disorders.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Orthophonistes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terapeutas del habla"
+        }
+      ]
+    },
+    {
+      "code": "NEPH",
+      "display": "Nephrologists",
+      "definition": "Medical specialists who diagnose and treat kidney diseases and conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Néphrologues"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nefrólogos"
+        }
+      ]
+    },
+    {
+      "code": "CARD",
+      "display": "Cardiologists",
+      "definition": "Medical specialists who diagnose and treat disorders of the heart and blood vessels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cardiologues"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cardiólogos"
+        }
+      ]
+    },
+    {
+      "code": "ONCO",
+      "display": "Oncologists",
+      "definition": "Medical specialists who diagnose and treat cancer using chemotherapy, immunotherapy, and other treatments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Oncologues"
+        },
+        {
+          "language": "es-MX",
+          "value": "Oncólogos"
+        }
+      ]
+    },
+    {
+      "code": "ENDO",
+      "display": "Endocrinologists",
+      "definition": "Medical specialists who treat disorders of the endocrine system and hormonal imbalances.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Endocrinologues"
+        },
+        {
+          "language": "es-MX",
+          "value": "Endocrinólogos"
+        }
+      ]
+    },
+    {
+      "code": "NEUR",
+      "display": "Neurologists",
+      "definition": "Medical specialists who diagnose and treat disorders of the nervous system including the brain and spinal cord.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Neurologues"
+        },
+        {
+          "language": "es-MX",
+          "value": "Neurólogos"
+        }
+      ]
+    },
+    {
+      "code": "PEDI",
+      "display": "Pediatricians",
+      "definition": "Medical doctors specializing in the health and medical care of infants, children, and adolescents.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pédiatres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pediatras"
+        }
+      ]
+    },
+    {
+      "code": "GERI",
+      "display": "Geriatricians",
+      "definition": "Medical specialists focusing on healthcare for elderly patients and age-related conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gériatres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Geriatras"
+        }
+      ]
+    },
+    {
+      "code": "NATS",
+      "display": "Naturopaths",
+      "definition": "Practitioners who use natural therapies and holistic approaches to support the body's self-healing processes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Naturopathes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Naturópatas"
+        }
+      ]
+    },
+    {
+      "code": "MIDW",
+      "display": "Midwives",
+      "definition": "Healthcare professionals who provide care to women during pregnancy, labor, birth, and the postpartum period.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sages-femmes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Parteras"
+        }
+      ]
+    },
+    {
+      "code": "PHAR",
+      "display": "Pharmacists",
+      "definition": "Licensed healthcare professionals who prepare and dispense medications and provide pharmaceutical care.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pharmaciens"
+        },
+        {
+          "language": "es-MX",
+          "value": "Farmacéuticos"
+        }
+      ]
+    }
+  ]
+}

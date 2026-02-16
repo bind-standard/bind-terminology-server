@@ -1,0 +1,66 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ProducerType",
+  "url": "https://bind.codes/ProducerType",
+  "name": "ProducerType",
+  "title": "Producer Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Subtypes of producers based on their distribution role and relationship to the carrier.",
+  "concept": [
+    {
+      "code": "PRAG",
+      "display": "Producing Agent",
+      "definition": "The agent who originates and writes the business.",
+      "designation": [
+        { "language": "fr-CA", "value": "Agent producteur" },
+        { "language": "es-MX", "value": "Agente productor" }
+      ]
+    },
+    {
+      "code": "SVAG",
+      "display": "Servicing Agent",
+      "definition": "The agent responsible for ongoing policy service and client relationship, who may differ from the producing agent.",
+      "designation": [
+        { "language": "fr-CA", "value": "Agent de service" },
+        { "language": "es-MX", "value": "Agente de servicio" }
+      ]
+    },
+    {
+      "code": "SUBP",
+      "display": "Sub-Producer",
+      "definition": "A downstream agent operating under the appointment of another producing agent.",
+      "designation": [
+        { "language": "fr-CA", "value": "Sous-producteur" },
+        { "language": "es-MX", "value": "Sub-productor" }
+      ]
+    },
+    {
+      "code": "WHSL",
+      "display": "Wholesaler",
+      "definition": "An intermediary who places business between retail brokers and carriers, typically for specialty or hard-to-place accounts.",
+      "designation": [
+        { "language": "fr-CA", "value": "Grossiste" },
+        { "language": "es-MX", "value": "Mayorista" }
+      ]
+    },
+    {
+      "code": "IDAG",
+      "display": "Independent Agent",
+      "definition": "An agent who represents multiple carriers and is not contractually bound to write exclusively with one.",
+      "designation": [
+        { "language": "fr-CA", "value": "Agent indépendant" },
+        { "language": "es-MX", "value": "Agente independiente" }
+      ]
+    },
+    {
+      "code": "CPAG",
+      "display": "Captive Agent",
+      "definition": "An agent who writes exclusively or primarily for a single carrier.",
+      "designation": [
+        { "language": "fr-CA", "value": "Agent captif" },
+        { "language": "es-MX", "value": "Agente cautivo" }
+      ]
+    }
+  ]
+}

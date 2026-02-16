@@ -1,0 +1,57 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "InsuredType",
+  "url": "https://bind.codes/InsuredType",
+  "name": "InsuredType",
+  "title": "Insured Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Classification of the named insured by entity type.",
+  "concept": [
+    {
+      "code": "INDV",
+      "display": "Individual",
+      "definition": "A natural person acting in their own capacity.",
+      "designation": [
+        { "language": "fr-CA", "value": "Particulier" },
+        { "language": "es-MX", "value": "Individuo" }
+      ]
+    },
+    {
+      "code": "ORGN",
+      "display": "Organization",
+      "definition": "A business, corporation, partnership, or other legal entity.",
+      "designation": [
+        { "language": "fr-CA", "value": "Organisation" },
+        { "language": "es-MX", "value": "Organización" }
+      ]
+    },
+    {
+      "code": "TRST",
+      "display": "Trust",
+      "definition": "A legal arrangement in which assets are held by a trustee for the benefit of beneficiaries.",
+      "designation": [
+        { "language": "fr-CA", "value": "Fiducie" },
+        { "language": "es-MX", "value": "Fideicomiso" }
+      ]
+    },
+    {
+      "code": "ESTT",
+      "display": "Estate",
+      "definition": "The total property and obligations of a deceased person, managed by an executor or administrator.",
+      "designation": [
+        { "language": "fr-CA", "value": "Succession" },
+        { "language": "es-MX", "value": "Herencia" }
+      ]
+    },
+    {
+      "code": "JONT",
+      "display": "Joint",
+      "definition": "Multiple named insureds sharing coverage under a single policy.",
+      "designation": [
+        { "language": "fr-CA", "value": "Conjoint" },
+        { "language": "es-MX", "value": "Conjunto" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "PoolType",
+  "url": "https://bind.codes/PoolType",
+  "name": "PoolType",
+  "title": "Pool Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Types of swimming pools classified by installation method. Distinct from pool construction material.",
+  "concept": [
+    {
+      "code": "INGR",
+      "display": "In-Ground",
+      "definition": "A pool permanently installed below the surrounding grade level.",
+      "designation": [
+        { "language": "fr-CA", "value": "Creusée" },
+        { "language": "es-MX", "value": "Enterrada" }
+      ]
+    },
+    {
+      "code": "ABGR",
+      "display": "Above-Ground",
+      "definition": "A pool installed on the surface with walls extending above grade, typically removable.",
+      "designation": [
+        { "language": "fr-CA", "value": "Hors terre" },
+        { "language": "es-MX", "value": "Sobre el suelo" }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "No Pool",
+      "definition": "The property does not have a swimming pool.",
+      "designation": [
+        { "language": "fr-CA", "value": "Aucune piscine" },
+        { "language": "es-MX", "value": "Sin piscina" }
+      ]
+    }
+  ]
+}

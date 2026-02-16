@@ -1,0 +1,87 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Installation",
+  "url": "https://bind.codes/Installation",
+  "name": "Installation",
+  "title": "Installation",
+  "status": "draft",
+  "language": "en",
+  "description": "Installation codes for insurance operations.",
+  "concept": [
+    {
+      "code": "PROF",
+      "display": "Professional Installation",
+      "definition": "Installation performed by a licensed or certified professional tradesperson, contractor, or technician.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Installation professionnelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instalación profesional"
+        }
+      ]
+    },
+    {
+      "code": "NPRV",
+      "display": "Non-Professional Installation",
+      "definition": "Installation performed by the property owner, tenant, or other non-certified individual without professional credentials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Installation non professionnelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instalación no profesional"
+        }
+      ]
+    },
+    {
+      "code": "UNKN",
+      "display": "Unknown Installer",
+      "definition": "The installer's professional status or identity cannot be determined or is not documented.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Installateur inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instalador desconocido"
+        }
+      ]
+    },
+    {
+      "code": "SELF",
+      "display": "Self-Installed",
+      "definition": "Installation performed by the property owner themselves without third-party assistance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Auto-installation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Autoinstalación"
+        }
+      ]
+    },
+    {
+      "code": "MFGR",
+      "display": "Manufacturer Installation",
+      "definition": "Installation performed by the equipment or product manufacturer or their authorized representative.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Installation par le fabricant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instalación del fabricante"
+        }
+      ]
+    }
+  ]
+}

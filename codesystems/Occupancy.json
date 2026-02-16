@@ -1,0 +1,552 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Occupancy",
+  "url": "https://bind.codes/Occupancy",
+  "name": "Occupancy",
+  "title": "Occupancy",
+  "status": "draft",
+  "language": "en",
+  "description": "Occupancy codes for insurance operations.",
+  "concept": [
+    {
+      "code": "APMC",
+      "display": "Apartment Building (With Mercantile Occupancies)",
+      "definition": "A multi-unit residential building that contains retail or commercial spaces on the ground floor or within the structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Immeuble d'appartements (avec commerces)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Edificio de apartamentos (con ocupaciones comerciales)"
+        }
+      ]
+    },
+    {
+      "code": "APNM",
+      "display": "Apartment Building (No Mercantile Occupancies)",
+      "definition": "A multi-unit residential building used exclusively for residential purposes without any retail or commercial spaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Immeuble d'appartements (sans commerces)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Edificio de apartamentos (sin ocupaciones comerciales)"
+        }
+      ]
+    },
+    {
+      "code": "RCNM",
+      "display": "Residential Condominium (No Mercantile Occupancies)",
+      "definition": "A condominium property used solely for residential purposes without any commercial or retail units.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copropriété résidentielle (sans commerces)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Condominio residencial (sin ocupaciones comerciales)"
+        }
+      ]
+    },
+    {
+      "code": "RCMC",
+      "display": "Residential Condominium (With Mercantile Occupancies)",
+      "definition": "A condominium property that includes both residential units and commercial or retail spaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copropriété résidentielle (avec commerces)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Condominio residencial (con ocupaciones comerciales)"
+        }
+      ]
+    },
+    {
+      "code": "IRCD",
+      "display": "Industrial/Retail Condominium",
+      "definition": "A condominium property designated for industrial or retail commercial use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copropriété industrielle/commerciale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Condominio industrial/comercial"
+        }
+      ]
+    },
+    {
+      "code": "DWEL",
+      "display": "Dwelling",
+      "definition": "A standalone single-family residential structure used as a primary or secondary residence.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Habitation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vivienda"
+        }
+      ]
+    },
+    {
+      "code": "TWNH",
+      "display": "Townhouse(s)",
+      "definition": "Attached multi-level residential units that share common walls with adjacent properties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maison(s) de ville"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casa(s) adosada(s)"
+        }
+      ]
+    },
+    {
+      "code": "STPL",
+      "display": "Strip Plaza",
+      "definition": "A row of retail stores with a shared facade and common parking area, typically single-story.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Centre commercial linéaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Plaza comercial en línea"
+        }
+      ]
+    },
+    {
+      "code": "INML",
+      "display": "Industrial Mall",
+      "definition": "A commercial complex containing multiple industrial or warehouse units for lease or sale.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Centre commercial industriel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Centro comercial industrial"
+        }
+      ]
+    },
+    {
+      "code": "ENML",
+      "display": "Enclosed Mall",
+      "definition": "A fully enclosed multi-tenant shopping center with climate-controlled interior walkways connecting retail stores.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Galerie marchande"
+        },
+        {
+          "language": "es-MX",
+          "value": "Centro comercial cerrado"
+        }
+      ]
+    },
+    {
+      "code": "OFBG",
+      "display": "Office Building",
+      "definition": "A structure designed primarily for professional or administrative business activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Immeuble de bureaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Edificio de oficinas"
+        }
+      ]
+    },
+    {
+      "code": "SMOC",
+      "display": "Single Mercantile Occupancy",
+      "definition": "A building or space occupied by a single retail or commercial tenant.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Affectation commerciale simple"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ocupación comercial única"
+        }
+      ]
+    },
+    {
+      "code": "MMOC",
+      "display": "Multiple Mercantile Occupancy",
+      "definition": "A building or space containing two or more distinct retail or commercial tenants.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Affectation commerciale multiple"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ocupación comercial múltiple"
+        }
+      ]
+    },
+    {
+      "code": "BARN",
+      "display": "Barn",
+      "definition": "An agricultural outbuilding used for storage of farm products, equipment, or housing of livestock.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grange"
+        },
+        {
+          "language": "es-MX",
+          "value": "Granero"
+        }
+      ]
+    },
+    {
+      "code": "SHED",
+      "display": "Shed",
+      "definition": "A simple structure used for storage or shelter, typically smaller than a barn.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hangar"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cobertizo"
+        }
+      ]
+    },
+    {
+      "code": "GARG",
+      "display": "Garage",
+      "definition": "A structure or enclosed space designed for parking and storing vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Garaje"
+        }
+      ]
+    },
+    {
+      "code": "MFGP",
+      "display": "Manufacturing Plant",
+      "definition": "A facility where raw materials are processed or assembled into finished goods through industrial operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Usine de fabrication"
+        },
+        {
+          "language": "es-MX",
+          "value": "Planta de fabricación"
+        }
+      ]
+    },
+    {
+      "code": "STRF",
+      "display": "Storage Facility",
+      "definition": "A building or complex designed for warehousing goods, materials, or personal belongings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreposage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instalación de almacenamiento"
+        }
+      ]
+    },
+    {
+      "code": "LABO",
+      "display": "Laboratory",
+      "definition": "A facility equipped for scientific research, testing, analysis, or experimentation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Laboratoire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Laboratorio"
+        }
+      ]
+    },
+    {
+      "code": "SCHL",
+      "display": "School",
+      "definition": "An educational facility for teaching students at primary, secondary, or specialized levels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "École"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escuela"
+        }
+      ]
+    },
+    {
+      "code": "HOTL",
+      "display": "Hotel/Motel",
+      "definition": "A commercial establishment providing temporary lodging accommodations for travelers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hôtel/motel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hotel/motel"
+        }
+      ]
+    },
+    {
+      "code": "RECR",
+      "display": "Recreational/Sport Complex",
+      "definition": "A facility designed for athletic activities, fitness programs, or leisure entertainment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Complexe de loisirs/sports"
+        },
+        {
+          "language": "es-MX",
+          "value": "Complejo recreativo/deportivo"
+        }
+      ]
+    },
+    {
+      "code": "WRSP",
+      "display": "House of Worship",
+      "definition": "A building dedicated to religious ceremonies and gatherings, such as a church, mosque, temple, or synagogue.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maison de prières"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casa de culto"
+        }
+      ]
+    },
+    {
+      "code": "HALL",
+      "display": "Hall/Reception Facility",
+      "definition": "A venue designed for hosting events, gatherings, celebrations, or meetings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Salle de réception"
+        },
+        {
+          "language": "es-MX",
+          "value": "Salón/instalación para recepciones"
+        }
+      ]
+    },
+    {
+      "code": "TRLR",
+      "display": "Trailer",
+      "definition": "A mobile or semi-permanent structure that can be towed and used for residential, recreational, or commercial purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque"
+        }
+      ]
+    },
+    {
+      "code": "LOGC",
+      "display": "Log Cabin",
+      "definition": "A dwelling constructed primarily from horizontal logs, typically found in rural or recreational settings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maison en bois rond"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cabaña de troncos"
+        }
+      ]
+    },
+    {
+      "code": "CABN",
+      "display": "Cabin",
+      "definition": "A small, simple dwelling often used as a vacation or seasonal residence in rural areas.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cabane"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cabaña"
+        }
+      ]
+    },
+    {
+      "code": "TOSH",
+      "display": "Toolshed",
+      "definition": "A small storage structure specifically designed for housing tools and equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remise à outils"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cobertizo de herramientas"
+        }
+      ]
+    },
+    {
+      "code": "GDSH",
+      "display": "Garden Shed",
+      "definition": "A small outdoor structure used for storing gardening supplies, tools, and equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remise de jardin"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cobertizo de jardín"
+        }
+      ]
+    },
+    {
+      "code": "RESZ",
+      "display": "Residential",
+      "definition": "Property primarily used for living purposes, encompassing single-family homes, multi-family dwellings, and condominiums.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résidentiel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Residencial"
+        }
+      ]
+    },
+    {
+      "code": "COMZ",
+      "display": "Commercial",
+      "definition": "Property used for business activities including retail, office, hospitality, or service operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commercial"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comercial"
+        }
+      ]
+    },
+    {
+      "code": "INDZ",
+      "display": "Industrial",
+      "definition": "Property used for manufacturing, production, assembly, warehousing, or distribution activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Industriel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Industrial"
+        }
+      ]
+    },
+    {
+      "code": "MIXD",
+      "display": "Mixed-Use",
+      "definition": "Property that combines two or more types of occupancy, such as residential units with commercial spaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Usage mixte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Uso mixto"
+        }
+      ]
+    },
+    {
+      "code": "AGRI",
+      "display": "Agricultural",
+      "definition": "Property used for farming operations, crop production, livestock raising, or other agricultural activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agricole"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agrícola"
+        }
+      ]
+    },
+    {
+      "code": "HLTH",
+      "display": "Healthcare Facility",
+      "definition": "A building used for medical services, patient care, clinical treatment, or health administration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Établissement de santé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instalación de atención médica"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "An occupancy type not classified under standard categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

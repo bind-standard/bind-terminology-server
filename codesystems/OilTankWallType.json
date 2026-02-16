@@ -1,0 +1,102 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "OilTankWallType",
+  "url": "https://bind.codes/OilTankWallType",
+  "name": "OilTankWallType",
+  "title": "Oil Tank Wall Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Oil Tank Wall Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "INBT",
+      "display": "Inner Bottom",
+      "definition": "The bottom interior wall or floor section of a storage tank.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bas Interne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fondo Interior"
+        }
+      ]
+    },
+    {
+      "code": "INHD",
+      "display": "Inner Head",
+      "definition": "The top interior wall or cap section of a storage tank.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Haut Interne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cabeza Interior"
+        }
+      ]
+    },
+    {
+      "code": "INSH",
+      "display": "Inner Shell",
+      "definition": "The cylindrical interior wall section of a storage tank.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coquille Interne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carcasa Interior"
+        }
+      ]
+    },
+    {
+      "code": "OTBT",
+      "display": "Outer Bottom",
+      "definition": "The bottom exterior wall or floor section of a storage tank.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bas Externe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fondo Exterior"
+        }
+      ]
+    },
+    {
+      "code": "OTHD",
+      "display": "Outer Head",
+      "definition": "The top exterior wall or cap section of a storage tank.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Haut Externe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cabeza Exterior"
+        }
+      ]
+    },
+    {
+      "code": "OTSH",
+      "display": "Outer Shell",
+      "definition": "The cylindrical exterior wall section of a storage tank.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coquille Externe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carcasa Exterior"
+        }
+      ]
+    }
+  ]
+}

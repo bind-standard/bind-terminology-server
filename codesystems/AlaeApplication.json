@@ -1,0 +1,39 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "AlaeApplication",
+  "url": "https://bind.codes/AlaeApplication",
+  "name": "AlaeApplication",
+  "title": "ALAE Application",
+  "status": "draft",
+  "language": "en",
+  "description": "How allocated loss adjustment expenses (ALAE) interact with the deductible or retention.",
+  "concept": [
+    {
+      "code": "LSOL",
+      "display": "Loss Only",
+      "definition": "ALAE is handled separately and does not erode or count against the deductible amount.",
+      "designation": [
+        { "language": "fr-CA", "value": "Sinistre seulement" },
+        { "language": "es-MX", "value": "Solo pérdida" }
+      ]
+    },
+    {
+      "code": "ALIN",
+      "display": "ALAE Inclusive",
+      "definition": "ALAE counts against and erodes the deductible — the insured's total obligation includes both loss and adjustment expenses.",
+      "designation": [
+        { "language": "fr-CA", "value": "Frais d'ajustement inclus" },
+        { "language": "es-MX", "value": "ALAE incluido" }
+      ]
+    },
+    {
+      "code": "ALEX",
+      "display": "ALAE Exclusive",
+      "definition": "ALAE does not erode the deductible — the carrier covers adjustment expenses on top of the insured's deductible obligation.",
+      "designation": [
+        { "language": "fr-CA", "value": "Frais d'ajustement exclus" },
+        { "language": "es-MX", "value": "ALAE excluido" }
+      ]
+    }
+  ]
+}

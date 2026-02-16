@@ -1,0 +1,75 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "RelationshipToInsured",
+  "url": "https://bind.codes/RelationshipToInsured",
+  "name": "RelationshipToInsured",
+  "title": "Relationship to Insured",
+  "status": "draft",
+  "language": "en",
+  "description": "The relationship of a person (e.g., a driver or household member) to the named insured on a policy.",
+  "concept": [
+    {
+      "code": "SPSE",
+      "display": "Spouse",
+      "definition": "The named insured's legally married partner.",
+      "designation": [
+        { "language": "fr-CA", "value": "Conjoint(e)" },
+        { "language": "es-MX", "value": "Cónyuge" }
+      ]
+    },
+    {
+      "code": "CHLD",
+      "display": "Child",
+      "definition": "A child of the named insured, including biological, adopted, or stepchildren.",
+      "designation": [
+        { "language": "fr-CA", "value": "Enfant" },
+        { "language": "es-MX", "value": "Hijo(a)" }
+      ]
+    },
+    {
+      "code": "PRNT",
+      "display": "Parent",
+      "definition": "A parent of the named insured.",
+      "designation": [
+        { "language": "fr-CA", "value": "Parent" },
+        { "language": "es-MX", "value": "Padre/Madre" }
+      ]
+    },
+    {
+      "code": "HHMB",
+      "display": "Household Member",
+      "definition": "A person residing in the same household as the named insured.",
+      "designation": [
+        { "language": "fr-CA", "value": "Membre du foyer" },
+        { "language": "es-MX", "value": "Miembro del hogar" }
+      ]
+    },
+    {
+      "code": "EMPL",
+      "display": "Employee",
+      "definition": "A person employed by the named insured.",
+      "designation": [
+        { "language": "fr-CA", "value": "Employé(e)" },
+        { "language": "es-MX", "value": "Empleado(a)" }
+      ]
+    },
+    {
+      "code": "DMPN",
+      "display": "Domestic Partner",
+      "definition": "The named insured's domestic partner or common-law spouse.",
+      "designation": [
+        { "language": "fr-CA", "value": "Conjoint(e) de fait" },
+        { "language": "es-MX", "value": "Pareja doméstica" }
+      ]
+    },
+    {
+      "code": "SIBL",
+      "display": "Sibling",
+      "definition": "A brother or sister of the named insured.",
+      "designation": [
+        { "language": "fr-CA", "value": "Frère/Sœur" },
+        { "language": "es-MX", "value": "Hermano(a)" }
+      ]
+    }
+  ]
+}

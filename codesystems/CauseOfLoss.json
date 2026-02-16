@@ -1,0 +1,2292 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CauseOfLoss",
+  "url": "https://bind.codes/CauseOfLoss",
+  "name": "CauseOfLoss",
+  "title": "Cause Of Loss",
+  "status": "draft",
+  "language": "en",
+  "description": "Cause Of Loss codes for insurance operations.",
+  "concept": [
+    {
+      "code": "APML",
+      "display": "Appliance - Malfunction",
+      "definition": "Damage resulting from the failure or improper functioning of household appliances such as washing machines, dishwashers, or refrigerators.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Appareils ménagers - Défaillance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Electrodomésticos - Mal funcionamiento"
+        }
+      ]
+    },
+    {
+      "code": "BODI",
+      "display": "Bodily Injury",
+      "definition": "Physical injury to a person's body.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lésions corporelles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lesiones corporales"
+        }
+      ]
+    },
+    {
+      "code": "BRGL",
+      "display": "Burglary",
+      "definition": "Unauthorized entry into a building or structure with the intent to commit theft or another crime.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol avec effraction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Robo con allanamiento"
+        }
+      ]
+    },
+    {
+      "code": "CAPL",
+      "display": "Collapse - Above Ground Pool",
+      "definition": "Structural failure or collapse of an above-ground swimming pool.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Effondrement - Piscine hors terre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Colapso - Piscina sobre el suelo"
+        }
+      ]
+    },
+    {
+      "code": "CBLD",
+      "display": "Collapse - Building",
+      "definition": "Sudden failure or falling down of a building or part of a building structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Effondrement - Édifice"
+        },
+        {
+          "language": "es-MX",
+          "value": "Colapso - Edificio"
+        }
+      ]
+    },
+    {
+      "code": "CIPL",
+      "display": "Collapse - Inground Pool",
+      "definition": "Structural failure or collapse of an in-ground swimming pool.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Effondrement - Piscine creusée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Colapso - Piscina enterrada"
+        }
+      ]
+    },
+    {
+      "code": "CWIS",
+      "display": "Collapse - Weight of Ice/Snow",
+      "definition": "Structural collapse caused by the accumulated weight of ice or snow on a roof or structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Effondrement - Poids de la glace/neige"
+        },
+        {
+          "language": "es-MX",
+          "value": "Colapso - Peso de hielo/nieve"
+        }
+      ]
+    },
+    {
+      "code": "CUNS",
+      "display": "Collapse - Unspecified",
+      "definition": "Collapse or structural failure where the specific cause has not been determined.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Effondrement - Non spécifié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Colapso - No especificado"
+        }
+      ]
+    },
+    {
+      "code": "CNQL",
+      "display": "Consequential Loss",
+      "definition": "Secondary or indirect damage that results as a consequence of an initial covered event.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommage indirect"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pérdida consecuencial"
+        }
+      ]
+    },
+    {
+      "code": "CCFG",
+      "display": "Credit Card Forgery and Counterfeit Money",
+      "definition": "Loss arising from fraudulent credit cards or acceptance of counterfeit currency.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contrefaçon de cartes de crédit et fausse monnaie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falsificación de tarjetas de crédito y dinero falso"
+        }
+      ]
+    },
+    {
+      "code": "EQKE",
+      "display": "Earthquake",
+      "definition": "Ground shaking or tremors caused by seismic activity.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tremblement de terre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terremoto"
+        }
+      ]
+    },
+    {
+      "code": "EPSG",
+      "display": "Electrical Power Interruption/Power Surge",
+      "definition": "Loss of electrical power or damage caused by sudden voltage spikes in electrical systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Interruption de courant/surtension"
+        },
+        {
+          "language": "es-MX",
+          "value": "Interrupción de energía eléctrica/sobretensión"
+        }
+      ]
+    },
+    {
+      "code": "ENTR",
+      "display": "Entrapment",
+      "definition": "Being trapped or confined within a space or structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Piégeage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Atrapamiento"
+        }
+      ]
+    },
+    {
+      "code": "FARS",
+      "display": "Fire - Arson/Arson Suspected",
+      "definition": "Fire that was deliberately set or is suspected to have been intentionally ignited.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie - Incendie criminel/incendie criminel présumé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incendio - Incendio provocado/sospecha de incendio provocado"
+        }
+      ]
+    },
+    {
+      "code": "FCDN",
+      "display": "Fire - Careless use of Candles/Matches",
+      "definition": "Fire caused by improper or negligent use of candles or matches.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie - Utilisation imprudente de chandelles/allumettes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incendio - Uso descuidado de velas/cerillas"
+        }
+      ]
+    },
+    {
+      "code": "FSMK",
+      "display": "Fire - Careless Smoking",
+      "definition": "Fire caused by improper disposal of smoking materials or careless smoking behavior.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie - Insouciance des fumeurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incendio - Fumar con descuido"
+        }
+      ]
+    },
+    {
+      "code": "FCKG",
+      "display": "Fire - Cooking Operations/Grease Fire",
+      "definition": "Fire originating from cooking activities or ignition of cooking oils and grease.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie - Cuisson/feu de friture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incendio - Operaciones de cocina/incendio de grasa"
+        }
+      ]
+    },
+    {
+      "code": "FELC",
+      "display": "Fire - Electrical",
+      "definition": "Fire caused by electrical wiring, equipment, or appliances.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie - Électrique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incendio - Eléctrico"
+        }
+      ]
+    },
+    {
+      "code": "FFPC",
+      "display": "Fire - Fireplace/Chimney",
+      "definition": "Fire originating in or spreading from a fireplace or chimney structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie - Foyer/cheminée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incendio - Chimenea/hogar"
+        }
+      ]
+    },
+    {
+      "code": "FPHT",
+      "display": "Fire - Portable Heater",
+      "definition": "Fire caused by or originating from a portable heating device.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie - Radiateur portatif"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incendio - Calentador portátil"
+        }
+      ]
+    },
+    {
+      "code": "FWDS",
+      "display": "Fire - Woodstove/Chimney",
+      "definition": "Fire originating in or spreading from a wood-burning stove or its chimney.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie - Poêle à bois/cheminée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incendio - Estufa de leña/chimenea"
+        }
+      ]
+    },
+    {
+      "code": "FDCH",
+      "display": "Fire Department Charges",
+      "definition": "Costs incurred for fire department services responding to a fire incident.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais de service d'incendie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cargos del departamento de bomberos"
+        }
+      ]
+    },
+    {
+      "code": "FCHM",
+      "display": "Fire - Improper Storage & Handling of Chemicals/Fuels",
+      "definition": "Fire resulting from unsafe storage or handling of hazardous chemicals or fuels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie - Entreposage et maniement incorrects de produits chimiques/carburants"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incendio - Almacenamiento y manejo inadecuado de químicos/combustibles"
+        }
+      ]
+    },
+    {
+      "code": "FUNS",
+      "display": "Fire - Unspecified",
+      "definition": "Fire where the specific cause or origin has not been determined.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie - Non spécifié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incendio - No especificado"
+        }
+      ]
+    },
+    {
+      "code": "FORG",
+      "display": "Forgery",
+      "definition": "Fraudulent creation, alteration, or imitation of documents or signatures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contrefaçon"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falsificación"
+        }
+      ]
+    },
+    {
+      "code": "FRZR",
+      "display": "Freezer Contents",
+      "definition": "Spoilage or loss of food stored in a freezer due to power failure or equipment malfunction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contenu du congélateur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contenido del congelador"
+        }
+      ]
+    },
+    {
+      "code": "FLEX",
+      "display": "Fuel Leakage - Exterior Oil Storage Tank",
+      "definition": "Leakage of heating oil or fuel from an outdoor storage tank.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fuites d'huile - Réservoir d'huile extérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fuga de combustible - Tanque de almacenamiento exterior"
+        }
+      ]
+    },
+    {
+      "code": "FLIN",
+      "display": "Fuel Leakage - Interior Oil Storage Tank",
+      "definition": "Leakage of heating oil or fuel from an indoor storage tank.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fuites d'huile - Réservoir d'huile intérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fuga de combustible - Tanque de almacenamiento interior"
+        }
+      ]
+    },
+    {
+      "code": "GBAC",
+      "display": "Glass Breakage - Accidental",
+      "definition": "Unintentional breaking of glass windows, doors, or other glass fixtures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bris de verre - Accidentel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rotura de vidrio - Accidental"
+        }
+      ]
+    },
+    {
+      "code": "GBVN",
+      "display": "Glass Breakage - Vandalism",
+      "definition": "Intentional breaking of glass by malicious acts or vandalism.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bris de verre - Vandalisme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rotura de vidrio - Vandalismo"
+        }
+      ]
+    },
+    {
+      "code": "GBUN",
+      "display": "Glass Breakage - Unspecified",
+      "definition": "Glass breakage where the specific cause has not been determined.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bris de verre - Non spécifié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rotura de vidrio - No especificado"
+        }
+      ]
+    },
+    {
+      "code": "HAIL",
+      "display": "Hail Damage",
+      "definition": "Damage caused by falling ice pellets during a hailstorm.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommage par la grêle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Daño por granizo"
+        }
+      ]
+    },
+    {
+      "code": "IMAC",
+      "display": "Impact - Aircraft",
+      "definition": "Damage caused by collision with or impact from an aircraft or its parts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Impact - Avion"
+        },
+        {
+          "language": "es-MX",
+          "value": "Impacto - Aeronave"
+        }
+      ]
+    },
+    {
+      "code": "IMVI",
+      "display": "Impact - Land Vehicle, Insured Operator",
+      "definition": "Impact by a land vehicle operated by the insured party.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Impact - Véhicule terrestre, conducteur assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Impacto - Vehículo terrestre, operador asegurado"
+        }
+      ]
+    },
+    {
+      "code": "IMVT",
+      "display": "Impact - Land Vehicle, Third Party Operator",
+      "definition": "Impact by a land vehicle operated by someone other than the insured.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Impact - Véhicule terrestre, conducteur tiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Impacto - Vehículo terrestre, operador tercero"
+        }
+      ]
+    },
+    {
+      "code": "LIAN",
+      "display": "Lightning - Antenna/Dish",
+      "definition": "Lightning strike damage to antennas or satellite dishes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foudre - Antenne/soucoupe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rayo - Antena/Plato"
+        }
+      ]
+    },
+    {
+      "code": "LICH",
+      "display": "Lightning - Chimney",
+      "definition": "Lightning strike damage to a chimney structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foudre - Cheminée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rayo - Chimenea"
+        }
+      ]
+    },
+    {
+      "code": "LIEL",
+      "display": "Lightning - Electrical Equipment",
+      "definition": "Damage to electrical equipment caused by lightning strike or electrical surge from lightning.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foudre - Équipements électriques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rayo - Equipo eléctrico"
+        }
+      ]
+    },
+    {
+      "code": "LIUN",
+      "display": "Lightning - Unspecified",
+      "definition": "Lightning damage where the specific point of strike or affected item has not been specified.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foudre - Non spécifié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rayo - No especificado"
+        }
+      ]
+    },
+    {
+      "code": "LASC",
+      "display": "Loss Assessment Coverage",
+      "definition": "Assessment charged to a unit owner by a condominium corporation or homeowners association for damage to common property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garantie - Évaluation des sinistres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cobertura de evaluación de pérdidas"
+        }
+      ]
+    },
+    {
+      "code": "LKEY",
+      "display": "Lost/Stolen Keys",
+      "definition": "Loss or theft of keys necessitating lock replacement or re-keying.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clés perdues/volées"
+        },
+        {
+          "language": "es-MX",
+          "value": "Llaves perdidas/robadas"
+        }
+      ]
+    },
+    {
+      "code": "MEVC",
+      "display": "Mass Evacuation",
+      "definition": "Large-scale evacuation ordered by civil authorities due to an emergency or disaster.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Évacuation de masse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Evacuación masiva"
+        }
+      ]
+    },
+    {
+      "code": "MDIS",
+      "display": "Mysterious Disappearance",
+      "definition": "Loss of property where the cause or circumstances of disappearance cannot be explained.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Disparition inexpliquée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desaparición misteriosa"
+        }
+      ]
+    },
+    {
+      "code": "PLDM",
+      "display": "Pollution Damage",
+      "definition": "Damage to property caused by contamination or pollution from hazardous substances.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommages causés par la pollution"
+        },
+        {
+          "language": "es-MX",
+          "value": "Daño por contaminación"
+        }
+      ]
+    },
+    {
+      "code": "PLLI",
+      "display": "Pollution Liability",
+      "definition": "Legal liability for environmental contamination or pollution caused by the insured.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité civile pollution"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad por contaminación"
+        }
+      ]
+    },
+    {
+      "code": "PACA",
+      "display": "Prohibited Access by Civil Authority",
+      "definition": "Denial of access to premises by order of civil authorities due to an emergency or hazard.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accès interdit par l'autorité civile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acceso prohibido por autoridad civil"
+        }
+      ]
+    },
+    {
+      "code": "PRDM",
+      "display": "Property Damage",
+      "definition": "Physical damage to tangible property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommages matériels"
+        },
+        {
+          "language": "es-MX",
+          "value": "Daño a la propiedad"
+        }
+      ]
+    },
+    {
+      "code": "RIOT",
+      "display": "Riot",
+      "definition": "Violent disturbance by a crowd resulting in property damage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Émeute"
+        },
+        {
+          "language": "es-MX",
+          "value": "Disturbio"
+        }
+      ]
+    },
+    {
+      "code": "ROBB",
+      "display": "Robbery",
+      "definition": "Theft involving force, violence, or threat of harm to a person.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol qualifié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Robo con violencia"
+        }
+      ]
+    },
+    {
+      "code": "SEWB",
+      "display": "Sewer Backup",
+      "definition": "Backup of sewage or water from drains or sewers into a building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Refoulements d'égout"
+        },
+        {
+          "language": "es-MX",
+          "value": "Respaldo de alcantarillado"
+        }
+      ]
+    },
+    {
+      "code": "SMKF",
+      "display": "Smoke - Fire in Adjacent Premises/Building",
+      "definition": "Smoke damage resulting from a fire in a neighboring property or building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fumée - Incendie dans des lieux/édifices contigus"
+        },
+        {
+          "language": "es-MX",
+          "value": "Humo - Incendio en local/edificio adyacente"
+        }
+      ]
+    },
+    {
+      "code": "SMKH",
+      "display": "Smoke - Heating/Ventilation Malfunction",
+      "definition": "Smoke damage caused by malfunction of heating or ventilation systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fumée - Défaillance système de chauffage/ventilation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Humo - Mal funcionamiento de calefacción/ventilación"
+        }
+      ]
+    },
+    {
+      "code": "SMKU",
+      "display": "Smoke - Unspecified",
+      "definition": "Smoke damage where the specific source has not been determined.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fumée - Non spécifié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Humo - No especificado"
+        }
+      ]
+    },
+    {
+      "code": "TLLI",
+      "display": "Tenants Legal Liability",
+      "definition": "Tenant's legal responsibility for damage to rented premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité civile des locataires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad legal de inquilinos"
+        }
+      ]
+    },
+    {
+      "code": "THON",
+      "display": "Theft/Attempted Theft - Off Premises, Non-vehicle",
+      "definition": "Theft or attempted theft of property away from the insured premises, excluding theft from vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol/tentative de vol - Hors des lieux assurés, autre que véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Robo/intento de robo - Fuera de las instalaciones, no vehicular"
+        }
+      ]
+    },
+    {
+      "code": "THOV",
+      "display": "Theft/Attempted Theft - Off Premises, Vehicle",
+      "definition": "Theft or attempted theft of property from a vehicle away from the insured premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol/tentative de vol - Hors des lieux assurés, véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Robo/intento de robo - Fuera de las instalaciones, vehicular"
+        }
+      ]
+    },
+    {
+      "code": "THNF",
+      "display": "Theft/Attempted Theft - On Premises, Non-forced Entry",
+      "definition": "Theft or attempted theft at the insured premises without signs of forced entry.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol/tentative de vol - Sur les lieux assurés, pas d'effraction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Robo/intento de robo - En las instalaciones, sin entrada forzada"
+        }
+      ]
+    },
+    {
+      "code": "TRCO",
+      "display": "Transportation - Collision/Upset/Overturn",
+      "definition": "Damage to goods during transportation due to collision, upset, or vehicle overturn.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transport - Collision/versement/capotage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transporte - Colisión/vuelco/volcadura"
+        }
+      ]
+    },
+    {
+      "code": "TRUN",
+      "display": "Transportation - Unspecified",
+      "definition": "Damage to goods during transportation where the specific cause has not been determined.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transport - Non spécifié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transporte - No especificado"
+        }
+      ]
+    },
+    {
+      "code": "VNBV",
+      "display": "Vandalism/Malicious Damage - Building Vacant",
+      "definition": "Intentional damage to property while the building was unoccupied.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vandalisme/dommage volontaire - Bâtiment vacant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vandalismo/daño malicioso - Edificio vacante"
+        }
+      ]
+    },
+    {
+      "code": "VNEX",
+      "display": "Vandalism/Malicious Damage - Explosion",
+      "definition": "Intentional damage caused by detonation of explosives or incendiary devices.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vandalisme/dommage volontaire - Explosion"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vandalismo/daño malicioso - Explosión"
+        }
+      ]
+    },
+    {
+      "code": "VNIS",
+      "display": "Vandalism/Malicious Damage - Insured Suspect",
+      "definition": "Intentional damage where the insured party is suspected of involvement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vandalisme/dommage volontaire - Assuré suspect (soupçonné)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vandalismo/daño malicioso - Asegurado sospechoso"
+        }
+      ]
+    },
+    {
+      "code": "VNUN",
+      "display": "Vandalism/Malicious Damage - Unspecified",
+      "definition": "Intentional damage to property where the specific method has not been specified.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vandalisme/dommage volontaire - Non spécifié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vandalismo/daño malicioso - No especificado"
+        }
+      ]
+    },
+    {
+      "code": "VLCP",
+      "display": "Voluntary Compensation",
+      "definition": "Voluntary payment made by the insured without establishing legal liability.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compensation volontaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compensación voluntaria"
+        }
+      ]
+    },
+    {
+      "code": "VLMD",
+      "display": "Voluntary Medical Payment",
+      "definition": "Voluntary payment of medical expenses without establishing legal liability.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remboursement volontaire des frais médicaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pago médico voluntario"
+        }
+      ]
+    },
+    {
+      "code": "VLPD",
+      "display": "Voluntary Property Damage",
+      "definition": "Voluntary payment for property damage without establishing legal liability.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Règlement volontaire des dommages matériels"
+        },
+        {
+          "language": "es-MX",
+          "value": "Daño voluntario a la propiedad"
+        }
+      ]
+    },
+    {
+      "code": "WDIR",
+      "display": "Water Damage - Ice Build-up on Roof",
+      "definition": "Water damage resulting from ice accumulation on roof surfaces, often causing ice dams.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dégâts causés par l'eau - Accumulation de glace sur le toit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Daño por agua - Acumulación de hielo en el techo"
+        }
+      ]
+    },
+    {
+      "code": "WDUN",
+      "display": "Water Damage - Unspecified",
+      "definition": "Water damage where the specific source or cause has not been determined.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dégâts causés par l'eau - Non spécifié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Daño por agua - No especificado"
+        }
+      ]
+    },
+    {
+      "code": "WRBG",
+      "display": "Water Escape/Rupture - Building",
+      "definition": "Water escape or pipe rupture affecting the building structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement - Bâtiment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escape/ruptura de agua - Edificio"
+        }
+      ]
+    },
+    {
+      "code": "WRCT",
+      "display": "Water Escape/Rupture - Contents",
+      "definition": "Water escape or pipe rupture causing damage to building contents.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement - Biens meubles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escape/ruptura de agua - Contenidos"
+        }
+      ]
+    },
+    {
+      "code": "WREV",
+      "display": "Water Escape/Rupture - Eavestrough or Downspout",
+      "definition": "Water escape or rupture from gutters or downspouts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement - Gouttière ou tuyau de descente d'eau pluviales"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escape/ruptura de agua - Canaleta o bajante"
+        }
+      ]
+    },
+    {
+      "code": "WRFB",
+      "display": "Water Escape/Rupture - Freezing Building",
+      "definition": "Water escape or pipe rupture in a building due to freezing conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement dû au gel - Bâtiment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escape/ruptura de agua - Congelación del edificio"
+        }
+      ]
+    },
+    {
+      "code": "WRFU",
+      "display": "Water Escape/Rupture - Freezing, Unheated Building",
+      "definition": "Water escape or pipe rupture due to freezing in a building without adequate heating.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement dû au gel - Bâtiment non chauffé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escape/ruptura de agua - Congelación, edificio sin calefacción"
+        }
+      ]
+    },
+    {
+      "code": "WRPL",
+      "display": "Water Escape/Rupture - Plumbing System",
+      "definition": "Water escape or rupture from plumbing pipes or fixtures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement - Plomberie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escape/ruptura de agua - Sistema de plomería"
+        }
+      ]
+    },
+    {
+      "code": "WRSL",
+      "display": "Water Escape/Rupture - Seepage/Leakage",
+      "definition": "Gradual water infiltration or slow leakage through surfaces or joints.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement - Suintement/déversement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escape/ruptura de agua - Filtración/fuga"
+        }
+      ]
+    },
+    {
+      "code": "WRSD",
+      "display": "Water Escape/Rupture - Sewer/Drain",
+      "definition": "Water escape or rupture from sewer lines or drainage systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement - Égout/drain"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escape/ruptura de agua - Alcantarillado/drenaje"
+        }
+      ]
+    },
+    {
+      "code": "WRSP",
+      "display": "Water Escape/Rupture - Sprinkler System",
+      "definition": "Water escape or rupture from fire suppression sprinkler systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement - Gicleurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escape/ruptura de agua - Sistema de rociadores"
+        }
+      ]
+    },
+    {
+      "code": "WRSU",
+      "display": "Water Escape/Rupture - Sump Pump Failure",
+      "definition": "Water damage resulting from malfunction or failure of a sump pump.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement - Défaillance de la pompe de vidange"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escape/ruptura de agua - Fallo de bomba de sumidero"
+        }
+      ]
+    },
+    {
+      "code": "WRSW",
+      "display": "Water Escape/Rupture - Swimming Pool/Equipment",
+      "definition": "Water escape or rupture from swimming pool structures or equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement - Piscine/équipement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escape/ruptura de agua - Piscina/equipo"
+        }
+      ]
+    },
+    {
+      "code": "WRWB",
+      "display": "Water Escape/Rupture - Waterbed",
+      "definition": "Water escape or rupture from a waterbed mattress.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement - Lit d'eau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escape/ruptura de agua - Cama de agua"
+        }
+      ]
+    },
+    {
+      "code": "WRUN",
+      "display": "Water Escape/Rupture - Unspecified",
+      "definition": "Water escape or rupture where the specific source has not been determined.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversement d'eau/éclatement - Non spécifié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escape/ruptura de agua - No especificado"
+        }
+      ]
+    },
+    {
+      "code": "WIND",
+      "display": "Windstorm Damage",
+      "definition": "Damage caused by high winds, hurricanes, tornadoes, or severe windstorms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommages causés par le vent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Daño por vendaval"
+        }
+      ]
+    },
+    {
+      "code": "FLOT",
+      "display": "Floater",
+      "definition": "Scheduled coverage for specific valuable items that may be moved between locations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Flottante"
+        },
+        {
+          "language": "es-MX",
+          "value": "Flotante"
+        }
+      ]
+    },
+    {
+      "code": "HBBS",
+      "display": "Home Based Business",
+      "definition": "Loss related to business operations conducted from a residential property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreprise basées à la maison"
+        },
+        {
+          "language": "es-MX",
+          "value": "Negocio desde el hogar"
+        }
+      ]
+    },
+    {
+      "code": "IDTH",
+      "display": "Identity theft",
+      "definition": "Fraudulent use of personal information to impersonate another individual.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol d'identité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Robo de identidad"
+        }
+      ]
+    },
+    {
+      "code": "PACC",
+      "display": "Personal accident",
+      "definition": "Accidental injury to an individual.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accident personnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Accidente personal"
+        }
+      ]
+    },
+    {
+      "code": "WLDF",
+      "display": "Wildfire",
+      "definition": "Uncontrolled fire in wildland areas, forests, or grasslands.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Feux de forêt"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incendio forestal"
+        }
+      ]
+    },
+    {
+      "code": "MCHB",
+      "display": "Mechanical Breakdown",
+      "definition": "Failure or malfunction of mechanical equipment or machinery.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bris mécanique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Avería mecánica"
+        }
+      ]
+    },
+    {
+      "code": "GSCR",
+      "display": "Glass Scratching or Marring",
+      "definition": "Surface damage to glass that creates scratches or marks without complete breakage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Égratignures ou marques sur le verre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rayado o marcado de vidrio"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Cause of loss not classified under standard categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "BKIC",
+      "display": "Backed Into Car",
+      "definition": "Collision caused by backing a vehicle into another vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "A reculé dans un véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Retroceso hacia un automóvil"
+        }
+      ]
+    },
+    {
+      "code": "DSTP",
+      "display": "Disobeyed Stop Sign",
+      "definition": "Collision resulting from failure to stop at a stop sign.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "A omis de s'arrêter à un panneau d'arrêt"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desobedeció señal de alto"
+        }
+      ]
+    },
+    {
+      "code": "DYLD",
+      "display": "Disobeyed Yield Sign",
+      "definition": "Collision resulting from failure to yield right-of-way at a yield sign.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "A omis de céder le passage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desobedeció señal de ceda el paso"
+        }
+      ]
+    },
+    {
+      "code": "DRED",
+      "display": "Disobeyed Red Light",
+      "definition": "Collision resulting from proceeding through a red traffic light.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "A omis de s'arrêter à un feu rouge"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desobedeció luz roja"
+        }
+      ]
+    },
+    {
+      "code": "EXLT",
+      "display": "Exits Parking Lot - Road/Street",
+      "definition": "Collision occurring when exiting a parking lot onto a road or street.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sort d'un stationnement - Rue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sale de estacionamiento - Carretera/calle"
+        }
+      ]
+    },
+    {
+      "code": "EXPL",
+      "display": "Explosion",
+      "definition": "Sudden and violent release of energy causing damage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Explosion"
+        },
+        {
+          "language": "es-MX",
+          "value": "Explosión"
+        }
+      ]
+    },
+    {
+      "code": "FDPR",
+      "display": "Fire Damage - Partial",
+      "definition": "Fire damage to a vehicle where repair is economically feasible.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommages incendie - perte partielle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Daño por incendio - Pérdida parcial"
+        }
+      ]
+    },
+    {
+      "code": "FDTL",
+      "display": "Fire Damage - Total Loss",
+      "definition": "Complete destruction of a vehicle by fire rendering it a total loss.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommages incendie - perte totale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Daño por incendio - Pérdida total"
+        }
+      ]
+    },
+    {
+      "code": "FLOD",
+      "display": "Flood",
+      "definition": "Overflow of water onto normally dry land from rivers, lakes, or heavy rainfall.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inondation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inundación"
+        }
+      ]
+    },
+    {
+      "code": "GWND",
+      "display": "Glass/Windshield",
+      "definition": "Damage to vehicle glass or windshield.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vitre/pare-brise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vidrio/parabrisas"
+        }
+      ]
+    },
+    {
+      "code": "HITR",
+      "display": "Hit & Run",
+      "definition": "Collision where the at-fault party leaves the scene without providing information.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Délit de fuite"
+        },
+        {
+          "language": "es-MX",
+          "value": "Choque y fuga"
+        }
+      ]
+    },
+    {
+      "code": "CHLN",
+      "display": "Changed Lanes",
+      "definition": "Collision occurring during a lane change maneuver.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "A changé de voie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cambió de carril"
+        }
+      ]
+    },
+    {
+      "code": "HPED",
+      "display": "Hit Pedestrian",
+      "definition": "Vehicle collision with a person walking or standing on or near a roadway.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Happer un piéton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Atropelló a peatón"
+        }
+      ]
+    },
+    {
+      "code": "LTNG",
+      "display": "Lightning",
+      "definition": "Electrical discharge from the atmosphere striking a vehicle or property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foudre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rayo"
+        }
+      ]
+    },
+    {
+      "code": "LCTL",
+      "display": "Lost Control",
+      "definition": "Loss of vehicle control leading to a collision or single-vehicle accident.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Perte de contrôle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Perdió el control"
+        }
+      ]
+    },
+    {
+      "code": "NINT",
+      "display": "Neutral Intersection",
+      "definition": "Collision at an uncontrolled intersection where neither party has clear right-of-way.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intersection neutre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Intersección neutral"
+        }
+      ]
+    },
+    {
+      "code": "OPDR",
+      "display": "Opened Door",
+      "definition": "Collision caused by opening a vehicle door into traffic or another vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ouvert la portière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Abrió la puerta"
+        }
+      ]
+    },
+    {
+      "code": "PRKG",
+      "display": "Parking Lot",
+      "definition": "Collision occurring within a parking lot or parking area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stationnement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estacionamiento"
+        }
+      ]
+    },
+    {
+      "code": "PSSH",
+      "display": "Passing On Shoulder",
+      "definition": "Collision resulting from attempting to pass another vehicle using the road shoulder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dépassement sur l'accotement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rebase por el acotamiento"
+        }
+      ]
+    },
+    {
+      "code": "PLCB",
+      "display": "Pulled Out From Curb",
+      "definition": "Collision when pulling away from a curb into traffic.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "A démarré à partir de la bordure de trottoir"
+        },
+        {
+          "language": "es-MX",
+          "value": "Salió desde la acera"
+        }
+      ]
+    },
+    {
+      "code": "RICC",
+      "display": "Riot/Civil Commotion",
+      "definition": "Damage resulting from civil unrest, riots, or violent public disturbances.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Émeute/agitation civile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Disturbio/conmoción civil"
+        }
+      ]
+    },
+    {
+      "code": "SDSW",
+      "display": "Sideswipe",
+      "definition": "Collision where the sides of two vehicles make contact.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accrochage latéral"
+        },
+        {
+          "language": "es-MX",
+          "value": "Roce lateral"
+        }
+      ]
+    },
+    {
+      "code": "CANM",
+      "display": "Collision with Animal",
+      "definition": "Collision between a vehicle and an animal.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collision avec un animal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Colisión con animal"
+        }
+      ]
+    },
+    {
+      "code": "THEV",
+      "display": "Theft - Entire Vehicle",
+      "definition": "Complete theft of a motor vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol entier du véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Robo - Vehículo completo"
+        }
+      ]
+    },
+    {
+      "code": "THPA",
+      "display": "Theft - Partial/Attempted",
+      "definition": "Theft of vehicle parts or components, or unsuccessful attempt to steal a vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol partiel ou tentative de vol"
+        },
+        {
+          "language": "es-MX",
+          "value": "Robo - Parcial/intento"
+        }
+      ]
+    },
+    {
+      "code": "TLCA",
+      "display": "Turned Left - Car Approaching",
+      "definition": "Collision when turning left in front of oncoming traffic.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Virage à gauche - Voiture approchant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Giro a la izquierda - Auto aproximándose"
+        }
+      ]
+    },
+    {
+      "code": "TLCP",
+      "display": "Turned Left - Car Passing",
+      "definition": "Collision when turning left while another vehicle is overtaking.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Virage à gauche - Voiture dépassant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Giro a la izquierda - Auto rebasando"
+        }
+      ]
+    },
+    {
+      "code": "VAND",
+      "display": "Vandalism",
+      "definition": "Intentional damage or defacement of property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vandalisme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vandalismo"
+        }
+      ]
+    },
+    {
+      "code": "WHCS",
+      "display": "Wind/Hail Carried Spray",
+      "definition": "Damage from water or debris carried by wind or hail.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Embrun porté par le vent/grêle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rocío llevado por viento/granizo"
+        }
+      ]
+    },
+    {
+      "code": "WNDH",
+      "display": "Windstorm/Hail",
+      "definition": "Combined damage from high winds and hail.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tempête de vent/grêle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vendaval/granizo"
+        }
+      ]
+    },
+    {
+      "code": "WROW",
+      "display": "Wrong Way - One-way Street",
+      "definition": "Collision resulting from traveling in the wrong direction on a one-way street.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mauvaise direction  - Rue à sens unique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dirección incorrecta - Calle de un solo sentido"
+        }
+      ]
+    },
+    {
+      "code": "MAFC",
+      "display": "Minor At-Fault Collision",
+      "definition": "Low-severity collision where the insured is determined to be at fault.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collision mineure responsable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Colisión menor con culpa"
+        }
+      ]
+    },
+    {
+      "code": "CLSV",
+      "display": "Collision - Single Vehicle",
+      "definition": "Accident involving only one vehicle with no other vehicles involved.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collision - Un seul véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Colisión - Vehículo único"
+        }
+      ]
+    },
+    {
+      "code": "CLHO",
+      "display": "Collision - Head-on",
+      "definition": "Direct frontal collision between two vehicles traveling in opposite directions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collision - Frontale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Colisión - Frontal"
+        }
+      ]
+    },
+    {
+      "code": "CLCY",
+      "display": "Collision - Cyclist",
+      "definition": "Collision between a vehicle and a bicycle or cyclist.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collision - Cycliste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Colisión - Ciclista"
+        }
+      ]
+    },
+    {
+      "code": "CLNF",
+      "display": "Collision – Not at Fault",
+      "definition": "Collision where the insured is determined to not be responsible for the accident.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collision – pas de responsabilité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Colisión – sin culpa"
+        }
+      ]
+    },
+    {
+      "code": "CLRE",
+      "display": "Collision - Rear-ended",
+      "definition": "Collision where a vehicle is struck from behind by another vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collision - choc par l'arrière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Colisión - Choque por detrás"
+        }
+      ]
+    },
+    {
+      "code": "DPET",
+      "display": "Domestic Pets",
+      "definition": "Damage caused by household pets such as cats or dogs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Animaux domestiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mascotas domésticas"
+        }
+      ]
+    },
+    {
+      "code": "EMFR",
+      "display": "Employee Fraud",
+      "definition": "Theft or fraudulent acts committed by an employee.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détournement (employé)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fraude de empleado"
+        }
+      ]
+    },
+    {
+      "code": "EXPG",
+      "display": "Explosion - Propane/Natural Gas Appliance",
+      "definition": "Explosion caused by propane or natural gas appliances or fuel systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Explosion - Appareils au propane/gaz naturel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Explosión - Aparato de propano/gas natural"
+        }
+      ]
+    },
+    {
+      "code": "EXUN",
+      "display": "Explosion - Unspecified",
+      "definition": "Explosion where the specific cause or source has not been determined.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Explosion - Non spécifié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Explosión - No especificada"
+        }
+      ]
+    },
+    {
+      "code": "EXAR",
+      "display": "Explosion - Electric Arcing",
+      "definition": "Explosion caused by electrical arcing or short circuit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Explosion - arc électrique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Explosión - Arco eléctrico"
+        }
+      ]
+    },
+    {
+      "code": "FFIT",
+      "display": "Financial Fraud - Identity Theft",
+      "definition": "Financial loss resulting from identity theft or fraudulent use of personal information.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fraude financière - Usurpation d'identité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fraude financiero - Robo de identidad"
+        }
+      ]
+    },
+    {
+      "code": "FSTP",
+      "display": "Fire- Spread from Third Party Property",
+      "definition": "Fire that originated on another person's property and spread to the insured property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Feu - Propagation provenant de la propriété d'un tiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incendio - Propagación desde propiedad de terceros"
+        }
+      ]
+    },
+    {
+      "code": "FLOB",
+      "display": "Falling Object",
+      "definition": "Damage caused by objects falling from above, such as trees, branches, or debris.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chute d'objets"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caída de objeto"
+        }
+      ]
+    },
+    {
+      "code": "CLMV",
+      "display": "Collision - Multi-vehicle",
+      "definition": "Accident involving three or more vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collision - Plus d'un véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Colisión - Múltiples vehículos"
+        }
+      ]
+    },
+    {
+      "code": "VNDR",
+      "display": "Vandalism/Malicious Damage - Illegal Substance Cultivation and Manufacturing",
+      "definition": "Damage to property from illegal drug cultivation or manufacturing operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vandalisme/dommage volontaire - Cultivation et fabrication de substance illégale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vandalismo/daño malicioso - Cultivo y fabricación de sustancias ilegales"
+        }
+      ]
+    },
+    {
+      "code": "WDIF",
+      "display": "Water Damage - Infiltration",
+      "definition": "Water damage from gradual penetration through building materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dégâts causés par l'eau - Infiltration"
+        },
+        {
+          "language": "es-MX",
+          "value": "Daño por agua - Infiltración"
+        }
+      ]
+    },
+    {
+      "code": "SWSR",
+      "display": "Surface Water - Surface water enters structure at a point at surface of ground from accumulation of heavy rain, etc.",
+      "definition": "Water entering a building at ground level due to accumulated surface water from heavy rain or runoff.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Eau de surface - Eau de surface entre dans la structure à un point en haut du sol provenant de l'accumulation de pluies fortes, etc."
+        },
+        {
+          "language": "es-MX",
+          "value": "Agua superficial - Agua superficial entra a la estructura a nivel del suelo por acumulación de lluvia intensa, etc."
+        }
+      ]
+    },
+    {
+      "code": "EWLB",
+      "display": "Exterior Water Line - Breakage of the exterior fresh/potable water line.",
+      "definition": "Rupture of the external water supply line connecting the property to the municipal water system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ligne d'eau extérieure - Bris de la ligne extérieure d'eau fraîche/potable."
+        },
+        {
+          "language": "es-MX",
+          "value": "Línea de agua exterior - Ruptura de la línea exterior de agua potable/fresca."
+        }
+      ]
+    },
+    {
+      "code": "ESLB",
+      "display": "Exterior Sewer Line - Breakage of the exterior sewer line.",
+      "definition": "Rupture of the external sewer line connecting the property to the municipal sewer system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ligne d'égoût extérieure - Bris de la ligne extérieure d'égoût."
+        },
+        {
+          "language": "es-MX",
+          "value": "Línea de alcantarillado exterior - Ruptura de la línea exterior de alcantarillado."
+        }
+      ]
+    },
+    {
+      "code": "GWIF",
+      "display": "Ground Water  - Sudden and accidental infiltration of water through a foundation",
+      "definition": "Unexpected penetration of groundwater through foundation walls or floor.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Eau au sol - Infiltration soudaine et accidentelle d'eau à travers la fondation."
+        },
+        {
+          "language": "es-MX",
+          "value": "Agua subterránea - Infiltración súbita y accidental de agua a través de la cimentación"
+        }
+      ]
+    },
+    {
+      "code": "FLWD",
+      "display": "Flood Water - Flood water enters structure at a point at surface of ground from inland water overflow, etc.",
+      "definition": "Entry of floodwater into a structure at ground level from overflow of rivers, lakes, or other inland water bodies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Eau d'inondation - Eau d'inondation entre dans la structure à un point en haut du sol provenant du débordement d'eau intérieure, etc."
+        },
+        {
+          "language": "es-MX",
+          "value": "Agua de inundación - Agua de inundación entra a la estructura a nivel del suelo por desbordamiento de aguas interiores, etc."
+        }
+      ]
+    },
+    {
+      "code": "CIVP",
+      "display": "Collision - Insured Vehicle Parked",
+      "definition": "Collision with the insured vehicle while it was parked and unoccupied.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collision - Véhicule assuré stationné"
+        },
+        {
+          "language": "es-MX",
+          "value": "Colisión - Vehículo asegurado estacionado"
+        }
+      ]
+    },
+    {
+      "code": "CLOT",
+      "display": "Collision - Other",
+      "definition": "Collision not classified under standard collision categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collision - autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Colisión - otro"
+        }
+      ]
+    },
+    {
+      "code": "DCHD",
+      "display": "Damage Caused by Children/Animals",
+      "definition": "Damage resulting from actions of children or animals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommages causés par enfants/animaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Daños causados por niños/animales"
+        }
+      ]
+    },
+    {
+      "code": "RCEX",
+      "display": "Ransomware/Cyber extortion",
+      "definition": "Malicious software that encrypts data and demands payment for decryption, or cyber extortion demanding payment to prevent attacks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rançongiciel/Cyber-extorsion"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ransomware/Extorsión cibernética"
+        }
+      ]
+    },
+    {
+      "code": "DABR",
+      "display": "Data breach",
+      "definition": "Unauthorized access or exposure of confidential or sensitive data.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Violation de données"
+        },
+        {
+          "language": "es-MX",
+          "value": "Violación de datos"
+        }
+      ]
+    },
+    {
+      "code": "DDOS",
+      "display": "Denial of service attack",
+      "definition": "Cyberattack that disrupts normal operations by overwhelming systems with traffic, preventing legitimate access to services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Attaque par déni de service"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ataque de denegación de servicio"
+        }
+      ]
+    },
+    {
+      "code": "MLWR",
+      "display": "Malware/Virus",
+      "definition": "Malicious software designed to damage, disrupt, or gain unauthorized access to computer systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Logiciels malveillants/virus"
+        },
+        {
+          "language": "es-MX",
+          "value": "Malware/Virus"
+        }
+      ]
+    },
+    {
+      "code": "BECC",
+      "display": "Business email/communication compromise",
+      "definition": "Fraudulent scheme where attackers compromise business email accounts to conduct unauthorized financial transactions or data theft.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courriel/communication professionnelle compromis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compromiso de correo/comunicación empresarial"
+        }
+      ]
+    },
+    {
+      "code": "SCVL",
+      "display": "Supply chain vulnerabilities",
+      "definition": "Security weaknesses in third-party vendors, suppliers, or partners that can be exploited to compromise systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vulnérabilités de la chaîne d'approvisionnement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vulnerabilidades de la cadena de suministro"
+        }
+      ]
+    }
+  ]
+}

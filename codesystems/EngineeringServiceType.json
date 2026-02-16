@@ -1,0 +1,132 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "EngineeringServiceType",
+  "url": "https://bind.codes/EngineeringServiceType",
+  "name": "EngineeringServiceType",
+  "title": "Engineering Service Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Engineering Service Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CHME",
+      "display": "Chemical",
+      "definition": "Engineering services involving the application of chemistry, physics, and biology to design, develop, and operate processes that transform raw materials into valuable chemical products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Génie chimique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ingeniería química"
+        }
+      ]
+    },
+    {
+      "code": "CIVL",
+      "display": "Civil",
+      "definition": "Engineering services focused on the design, construction, and maintenance of infrastructure such as roads, bridges, buildings, dams, and water supply systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Génie civil"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ingeniería civil"
+        }
+      ]
+    },
+    {
+      "code": "ELEC",
+      "display": "Electrical",
+      "definition": "Engineering services related to the study, design, and application of electrical systems, electronics, and electromagnetism.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Génie électrique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ingeniería eléctrica"
+        }
+      ]
+    },
+    {
+      "code": "ENVR",
+      "display": "Environmental",
+      "definition": "Engineering services focused on protecting the environment by reducing waste and pollution, developing sustainable solutions, and ensuring compliance with environmental regulations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Génie environnemental"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ingeniería ambiental"
+        }
+      ]
+    },
+    {
+      "code": "INDU",
+      "display": "Industrial",
+      "definition": "Engineering services concerned with optimizing complex processes, systems, or organizations by developing, improving, and implementing integrated systems of people, materials, information, equipment, and energy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Génie industriel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ingeniería industrial"
+        }
+      ]
+    },
+    {
+      "code": "MECH",
+      "display": "Mechanical",
+      "definition": "Engineering services involving the design, analysis, manufacturing, and maintenance of mechanical systems including engines, machines, and thermal systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Génie mécanique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ingeniería mecánica"
+        }
+      ]
+    },
+    {
+      "code": "STRU",
+      "display": "Structural",
+      "definition": "Engineering services specializing in the analysis and design of structures that support or resist loads, ensuring buildings and other constructions are safe and stable.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Génie des structures"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ingeniería estructural"
+        }
+      ]
+    },
+    {
+      "code": "GEOS",
+      "display": "Geotechnical",
+      "definition": "Engineering services focused on the behavior of earth materials, including soil and rock mechanics, foundation design, and slope stability analysis.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Génie géotechnique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ingeniería geotécnica"
+        }
+      ]
+    }
+  ]
+}

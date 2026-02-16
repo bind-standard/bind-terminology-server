@@ -1,0 +1,207 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "FloorConstruction",
+  "url": "https://bind.codes/FloorConstruction",
+  "name": "FloorConstruction",
+  "title": "Floor Construction",
+  "status": "draft",
+  "language": "en",
+  "description": "Floor Construction codes for insurance operations.",
+  "concept": [
+    {
+      "code": "PCFR",
+      "display": "Poured Concrete or Fire resistive material",
+      "definition": "Floor constructed with poured concrete or materials specifically designed to resist fire and heat transmission.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton coulé ou matériaux résistants au feu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Concreto vertido o material resistente al fuego"
+        }
+      ]
+    },
+    {
+      "code": "NCSM",
+      "display": "Non-combustible (steel) with masonry",
+      "definition": "Steel structural floor system incorporating masonry components, providing non-combustible construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "(Acier) incombustible avec maçonnerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "(Acero) incombustible con mampostería"
+        }
+      ]
+    },
+    {
+      "code": "NCSO",
+      "display": "Non-combustible (steel) without masonry",
+      "definition": "Steel structural floor system without masonry components, using only non-combustible materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "(Acier) incombustible sans maçonnerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "(Acero) incombustible sin mampostería"
+        }
+      ]
+    },
+    {
+      "code": "MASN",
+      "display": "Masonry",
+      "definition": "Floor constructed primarily with brick, stone, concrete block, or similar masonry units.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maçonnerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mampostería"
+        }
+      ]
+    },
+    {
+      "code": "MWSC",
+      "display": "Masonry on wood structure or other combustible material",
+      "definition": "Masonry floor finish or covering laid over a wood or other combustible structural frame.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maçonnerie sur structure de bois ou autres matériaux inflammables"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mampostería sobre estructura de madera u otro material combustible"
+        }
+      ]
+    },
+    {
+      "code": "FRAM",
+      "display": "Frame",
+      "definition": "Floor constructed with wood framing members such as joists, beams, and subflooring.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charpente de bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estructura de madera"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "All Other",
+      "definition": "Floor construction type not categorized in standard classifications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tous les autres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Todos los demás"
+        }
+      ]
+    },
+    {
+      "code": "CPSS",
+      "display": "Concrete panels on steel structure",
+      "definition": "Precast or pre-stressed concrete panels supported by a steel structural frame.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Panneaux de béton sur structure d'acier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paneles de concreto sobre estructura de acero"
+        }
+      ]
+    },
+    {
+      "code": "STEL",
+      "display": "Steel",
+      "definition": "Floor constructed entirely with steel components including beams, decking, and structural supports.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acero"
+        }
+      ]
+    },
+    {
+      "code": "HBML",
+      "display": "Heavy Beam or \"Mill\"",
+      "definition": "Floor constructed with large dimensional lumber beams, commonly found in older industrial mill buildings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grosse poutre ou \"Mill\""
+        },
+        {
+          "language": "es-MX",
+          "value": "Viga pesada o \"Mill\""
+        }
+      ]
+    },
+    {
+      "code": "WOOD",
+      "display": "Wood",
+      "definition": "Floor constructed with wood materials including planks, beams, or engineered wood products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Madera"
+        }
+      ]
+    },
+    {
+      "code": "BRST",
+      "display": "Brick or Stone",
+      "definition": "Floor constructed with brick or natural stone materials, typically laid in mortar.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Brique ou pierre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ladrillo o piedra"
+        }
+      ]
+    },
+    {
+      "code": "CMPZ",
+      "display": "Composite",
+      "definition": "Floor system combining multiple materials such as concrete and steel to create an integrated structural system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Composite"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compuesto"
+        }
+      ]
+    }
+  ]
+}

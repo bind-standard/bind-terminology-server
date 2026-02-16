@@ -1,0 +1,111 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CoverageExtensionType",
+  "url": "https://bind.codes/CoverageExtensionType",
+  "name": "CoverageExtensionType",
+  "title": "Coverage Extension Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Types of supplemental coverage features that can be added to a base policy.",
+  "concept": [
+    {
+      "code": "HNOA",
+      "display": "Hired & Non-Owned Auto",
+      "definition": "Covers liability arising from vehicles hired or borrowed by the insured, or personal vehicles used for business purposes.",
+      "designation": [
+        { "language": "fr-CA", "value": "Auto loué et non possédé" },
+        { "language": "es-MX", "value": "Auto alquilado y no propio" }
+      ]
+    },
+    {
+      "code": "EBLB",
+      "display": "Employee Benefits Liability",
+      "definition": "Covers errors and omissions in the administration of employee benefit plans.",
+      "designation": [
+        { "language": "fr-CA", "value": "Responsabilité avantages sociaux" },
+        { "language": "es-MX", "value": "Responsabilidad de beneficios de empleados" }
+      ]
+    },
+    {
+      "code": "BKAI",
+      "display": "Blanket Additional Insured",
+      "definition": "Extends coverage to any party required by contract to be named as additional insured, without scheduling each individually.",
+      "designation": [
+        { "language": "fr-CA", "value": "Assuré additionnel global" },
+        { "language": "es-MX", "value": "Asegurado adicional general" }
+      ]
+    },
+    {
+      "code": "EQBD",
+      "display": "Equipment Breakdown",
+      "definition": "Covers sudden and accidental breakdown of mechanical, electrical, and pressure equipment.",
+      "designation": [
+        { "language": "fr-CA", "value": "Bris d'équipement" },
+        { "language": "es-MX", "value": "Falla de equipo" }
+      ]
+    },
+    {
+      "code": "CYLB",
+      "display": "Cyber Liability Extension",
+      "definition": "Adds coverage for data breaches, cyber-attacks, and related liabilities to a non-cyber policy.",
+      "designation": [
+        { "language": "fr-CA", "value": "Extension cybersécurité" },
+        { "language": "es-MX", "value": "Extensión de responsabilidad cibernética" }
+      ]
+    },
+    {
+      "code": "EPLB",
+      "display": "Employment Practices",
+      "definition": "Covers claims alleging wrongful termination, discrimination, harassment, or other employment-related torts.",
+      "designation": [
+        { "language": "fr-CA", "value": "Pratiques d'emploi" },
+        { "language": "es-MX", "value": "Prácticas laborales" }
+      ]
+    },
+    {
+      "code": "IDTH",
+      "display": "Identity Theft",
+      "definition": "Covers expenses incurred in restoring identity and credit after unauthorized use of personal information.",
+      "designation": [
+        { "language": "fr-CA", "value": "Vol d'identité" },
+        { "language": "es-MX", "value": "Robo de identidad" }
+      ]
+    },
+    {
+      "code": "WTBK",
+      "display": "Water Backup",
+      "definition": "Covers damage caused by water or sewage backing up through drains, sewers, or sump pumps.",
+      "designation": [
+        { "language": "fr-CA", "value": "Refoulement d'eau" },
+        { "language": "es-MX", "value": "Respaldo de agua" }
+      ]
+    },
+    {
+      "code": "OLWC",
+      "display": "Ordinance or Law",
+      "definition": "Covers the increased cost to rebuild in compliance with current building codes after a covered loss.",
+      "designation": [
+        { "language": "fr-CA", "value": "Ordonnance ou loi" },
+        { "language": "es-MX", "value": "Ordenanza o ley" }
+      ]
+    },
+    {
+      "code": "INFG",
+      "display": "Inflation Guard",
+      "definition": "Automatically increases coverage limits at a set rate to keep pace with construction cost inflation.",
+      "designation": [
+        { "language": "fr-CA", "value": "Protection contre l'inflation" },
+        { "language": "es-MX", "value": "Protección contra inflación" }
+      ]
+    },
+    {
+      "code": "RCCT",
+      "display": "Replacement Cost on Contents",
+      "definition": "Values personal property at the cost to replace with new items of similar kind and quality, without deduction for depreciation.",
+      "designation": [
+        { "language": "fr-CA", "value": "Valeur de remplacement du contenu" },
+        { "language": "es-MX", "value": "Costo de reposición del contenido" }
+      ]
+    }
+  ]
+}

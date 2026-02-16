@@ -1,0 +1,101 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "WatersNavigated",
+  "url": "https://bind.codes/WatersNavigated",
+  "name": "WatersNavigated",
+  "title": "Waters Navigated",
+  "status": "draft",
+  "language": "en",
+  "description": "Waters Navigated codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CSTL",
+      "display": "Coastal (Saltwater)",
+      "definition": "Saltwater areas near shorelines, including bays, estuaries, and ocean waters within proximity to land.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Côtière (mer)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Costera (agua salada)"
+        }
+      ]
+    },
+    {
+      "code": "INLD",
+      "display": "Inland",
+      "definition": "Freshwater bodies such as lakes, rivers, and canals located within land boundaries.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intérieure"
+        },
+        {
+          "language": "es-MX",
+          "value": "Interior"
+        }
+      ]
+    },
+    {
+      "code": "TERR",
+      "display": "Territorial",
+      "definition": "Waters within a nation's territorial jurisdiction, typically extending up to 12 nautical miles from the coastline.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Territoriales"
+        },
+        {
+          "language": "es-MX",
+          "value": "Territorial"
+        }
+      ]
+    },
+    {
+      "code": "INTL",
+      "display": "International",
+      "definition": "Waters beyond territorial limits, also known as international or high seas.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Internationales"
+        },
+        {
+          "language": "es-MX",
+          "value": "Internacional"
+        }
+      ]
+    },
+    {
+      "code": "GRTL",
+      "display": "Great Lakes",
+      "definition": "The system of five interconnected freshwater lakes on the Canada-United States border.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grands Lacs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grandes Lagos"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

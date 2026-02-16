@@ -1,0 +1,162 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "DriverType",
+  "url": "https://bind.codes/DriverType",
+  "name": "DriverType",
+  "title": "Driver Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Driver Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "OCFM",
+      "display": "Occasional (female)",
+      "definition": "A driver who operates the vehicle infrequently and is identified as female.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Occasionnelle (féminin)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ocasional (femenino)"
+        }
+      ]
+    },
+    {
+      "code": "OCML",
+      "display": "Occasional (male)",
+      "definition": "A driver who operates the vehicle infrequently and is identified as male.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Occasionnel (masculin)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ocasional (masculino)"
+        }
+      ]
+    },
+    {
+      "code": "DFRD",
+      "display": "Deferred Driver",
+      "definition": "A driver whose rating or classification has been postponed or delayed pending additional information or review.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conducteur différé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conductor diferido"
+        }
+      ]
+    },
+    {
+      "code": "EXCL",
+      "display": "Excluded",
+      "definition": "A driver who is explicitly prohibited from operating the insured vehicle and not covered under the policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exclu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Excluido"
+        }
+      ]
+    },
+    {
+      "code": "UNRT",
+      "display": "Unrated Driver",
+      "definition": "A driver who has not been assigned a rating classification.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conducteur sans cote"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conductor sin calificación"
+        }
+      ]
+    },
+    {
+      "code": "PRIM",
+      "display": "Primary",
+      "definition": "The principal driver who operates the vehicle most frequently.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Principal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Principal"
+        }
+      ]
+    },
+    {
+      "code": "SCND",
+      "display": "Secondary",
+      "definition": "A driver who operates the vehicle regularly but less frequently than the primary driver.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Secondaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Secundario"
+        }
+      ]
+    },
+    {
+      "code": "UNLC",
+      "display": "Unlicensed",
+      "definition": "A driver who does not possess a valid driver's license.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sans permis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin licencia"
+        }
+      ]
+    },
+    {
+      "code": "OCUN",
+      "display": "Occasional (Unspecified)",
+      "definition": "A driver who operates the vehicle infrequently without gender specification.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Occasionnel (non précisé)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ocasional (no especificado)"
+        }
+      ]
+    },
+    {
+      "code": "PRIN",
+      "display": "Principal Operator",
+      "definition": "The main designated operator of the vehicle who has exclusive or predominant use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Opérateur principal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Operador principal"
+        }
+      ]
+    }
+  ]
+}

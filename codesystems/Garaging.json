@@ -1,0 +1,161 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Garaging",
+  "url": "https://bind.codes/Garaging",
+  "name": "Garaging",
+  "title": "Garaging",
+  "status": "draft",
+  "language": "en",
+  "description": "Garaging codes for insurance operations.",
+  "concept": [
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "A garaging location type that does not fit into standard categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "SCGL",
+      "display": "Secure Condo/Apt Garage or Lot",
+      "definition": "A secured garage or parking lot associated with a condominium or apartment building, with controlled access or security measures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage sécurisé de condo/d'appartements ou lot"
+        },
+        {
+          "language": "es-MX",
+          "value": "Garaje o estacionamiento seguro de condominio/apartamento"
+        }
+      ]
+    },
+    {
+      "code": "UCGL",
+      "display": "Unsecured Condo/Apt Garage or Lot",
+      "definition": "An unsecured garage or parking lot associated with a condominium or apartment building, without controlled access or security measures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage non-sécurisé de condo/d'appartements ou lot"
+        },
+        {
+          "language": "es-MX",
+          "value": "Garaje o estacionamiento no seguro de condominio/apartamento"
+        }
+      ]
+    },
+    {
+      "code": "UGND",
+      "display": "Underground Parking",
+      "definition": "A parking facility located below ground level, typically within a building structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stationnement sous-terrain"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estacionamiento subterráneo"
+        }
+      ]
+    },
+    {
+      "code": "STOR",
+      "display": "Storage",
+      "definition": "A dedicated storage facility where a vehicle is kept when not in use for an extended period.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreposage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Almacenamiento"
+        }
+      ]
+    },
+    {
+      "code": "PVDR",
+      "display": "Private Driveway",
+      "definition": "A personal driveway on private residential property where a vehicle is parked.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entrée privée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entrada privada"
+        }
+      ]
+    },
+    {
+      "code": "PVGR",
+      "display": "Private Garage",
+      "definition": "An enclosed garage structure on private residential property, typically attached or detached from the home.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage privé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Garaje privado"
+        }
+      ]
+    },
+    {
+      "code": "STRT",
+      "display": "Street Parking",
+      "definition": "A vehicle parked on a public street or roadway, exposed to public access.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stationnement dans la rue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estacionamiento en la calle"
+        }
+      ]
+    },
+    {
+      "code": "CPRT",
+      "display": "Carport",
+      "definition": "A covered but not fully enclosed structure for parking a vehicle, typically attached to a residence.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Abri d'auto"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cochera"
+        }
+      ]
+    },
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CommissionSchedule",
+  "url": "https://bind.codes/CommissionSchedule",
+  "name": "CommissionSchedule",
+  "title": "Commission Schedule",
+  "status": "draft",
+  "language": "en",
+  "description": "When commission payments are earned or payable to the intermediary.",
+  "concept": [
+    {
+      "code": "ONBD",
+      "display": "On Binding",
+      "definition": "Commission is earned when the policy is bound.",
+      "designation": [
+        { "language": "fr-CA", "value": "À la souscription" },
+        { "language": "es-MX", "value": "Al vincular" }
+      ]
+    },
+    {
+      "code": "ONEF",
+      "display": "On Effective Date",
+      "definition": "Commission is earned when the policy effective date is reached.",
+      "designation": [
+        { "language": "fr-CA", "value": "À la date d'effet" },
+        { "language": "es-MX", "value": "En la fecha efectiva" }
+      ]
+    },
+    {
+      "code": "ONCL",
+      "display": "On Collection",
+      "definition": "Commission is earned only after the premium has been collected from the policyholder.",
+      "designation": [
+        { "language": "fr-CA", "value": "À l'encaissement" },
+        { "language": "es-MX", "value": "Al cobro" }
+      ]
+    },
+    {
+      "code": "INST",
+      "display": "Installment",
+      "definition": "Commission is paid proportionally as each premium installment is received.",
+      "designation": [
+        { "language": "fr-CA", "value": "Par versement" },
+        { "language": "es-MX", "value": "Por cuota" }
+      ]
+    },
+    {
+      "code": "ERND",
+      "display": "As Earned",
+      "definition": "Commission accrues ratably over the policy period as premium is earned.",
+      "designation": [
+        { "language": "fr-CA", "value": "Au fur et à mesure" },
+        { "language": "es-MX", "value": "Según se devenga" }
+      ]
+    }
+  ]
+}

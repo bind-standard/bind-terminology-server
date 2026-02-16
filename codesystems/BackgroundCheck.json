@@ -1,0 +1,146 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BackgroundCheck",
+  "url": "https://bind.codes/BackgroundCheck",
+  "name": "BackgroundCheck",
+  "title": "Background Check",
+  "status": "draft",
+  "language": "en",
+  "description": "Background Check codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CRDT",
+      "display": "Credit Check",
+      "definition": "Verification of an individual's credit history, including credit score, payment patterns, outstanding debts, and financial behavior.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vérification de crédit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Verificación de crédito"
+        }
+      ]
+    },
+    {
+      "code": "CRIM",
+      "display": "Criminal Check",
+      "definition": "Verification of an individual's criminal record history, including convictions, charges, and pending legal matters.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vérification du casier judiciaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Verificación de antecedentes penales"
+        }
+      ]
+    },
+    {
+      "code": "EMPL",
+      "display": "Employment Check",
+      "definition": "Verification of an individual's employment history, including past employers, positions held, dates of employment, and work performance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vérification de l'emploi"
+        },
+        {
+          "language": "es-MX",
+          "value": "Verificación de empleo"
+        }
+      ]
+    },
+    {
+      "code": "EDUC",
+      "display": "Education Check",
+      "definition": "Verification of an individual's educational credentials, including degrees obtained, institutions attended, and dates of attendance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vérification des études"
+        },
+        {
+          "language": "es-MX",
+          "value": "Verificación de educación"
+        }
+      ]
+    },
+    {
+      "code": "DRIV",
+      "display": "Driving Record Check",
+      "definition": "Verification of an individual's driving history, including violations, accidents, license status, and suspensions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vérification du dossier de conduite"
+        },
+        {
+          "language": "es-MX",
+          "value": "Verificación de antecedentes de conducción"
+        }
+      ]
+    },
+    {
+      "code": "IDEN",
+      "display": "Identity Verification",
+      "definition": "Confirmation of an individual's identity through government-issued identification documents and other official records.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vérification d'identité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Verificación de identidad"
+        }
+      ]
+    },
+    {
+      "code": "PLIC",
+      "display": "Professional License Check",
+      "definition": "Verification of professional licenses, certifications, and registrations required for specific occupations or practices.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vérification de permis professionnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Verificación de licencia profesional"
+        }
+      ]
+    },
+    {
+      "code": "REFS",
+      "display": "References",
+      "definition": "Contact with individuals who can provide information about the subject's character, work history, or qualifications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Références"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencias"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    }
+  ]
+}

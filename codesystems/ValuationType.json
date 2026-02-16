@@ -1,0 +1,312 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ValuationType",
+  "url": "https://bind.codes/ValuationType",
+  "name": "ValuationType",
+  "title": "Valuation Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Valuation Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ALSS",
+      "display": "Actual Loss Sustained",
+      "definition": "The actual financial loss incurred, measured after the loss event has occurred.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Perte réelle encourue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pérdida real sostenida"
+        }
+      ]
+    },
+    {
+      "code": "APRV",
+      "display": "Appraised Cost",
+      "definition": "The value determined by a professional appraiser's assessment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coût estimé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Costo tasado"
+        }
+      ]
+    },
+    {
+      "code": "ACVL",
+      "display": "Actual Cash Value",
+      "definition": "The current value of property at the time of loss, accounting for depreciation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur au jour des sinistres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Valor real en efectivo"
+        }
+      ]
+    },
+    {
+      "code": "BARC",
+      "display": "Basic Replacement Cost",
+      "definition": "The cost to replace property with new property of similar kind and quality, without any extensions or upgrades.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur à neuf de base"
+        },
+        {
+          "language": "es-MX",
+          "value": "Costo de reposición básico"
+        }
+      ]
+    },
+    {
+      "code": "BRRC",
+      "display": "Broad Replacement Cost",
+      "definition": "The cost to replace property with coverage that extends beyond basic replacement, often including upgrades or enhanced specifications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur à neuf étendue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Costo de reposición amplio"
+        }
+      ]
+    },
+    {
+      "code": "FNRC",
+      "display": "Functional Replacement Cost",
+      "definition": "The cost to replace property with functionally equivalent property, which may differ in materials or design but serves the same purpose.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur à neuf fonctionnelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Costo de reposición funcional"
+        }
+      ]
+    },
+    {
+      "code": "FVRC",
+      "display": "Full Value Replacement Cost",
+      "definition": "The complete cost to replace property with new property of like kind and quality, without depreciation or limit caps.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur à neuf - Pleine valeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Costo de reposición de valor completo"
+        }
+      ]
+    },
+    {
+      "code": "AGAM",
+      "display": "Agreed Amount",
+      "definition": "A predetermined value agreed upon by both parties before the policy period.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Montant convenu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Monto acordado"
+        }
+      ]
+    },
+    {
+      "code": "GARP",
+      "display": "Guaranteed Replacement",
+      "definition": "A guarantee to replace property regardless of cost, without an upper limit on the replacement value.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur à neuf garantie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reposición garantizada"
+        }
+      ]
+    },
+    {
+      "code": "MKTV",
+      "display": "Market Value",
+      "definition": "The price that property would sell for on the open market between a willing buyer and seller.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur marchande"
+        },
+        {
+          "language": "es-MX",
+          "value": "Valor de mercado"
+        }
+      ]
+    },
+    {
+      "code": "ORGC",
+      "display": "Original Cost",
+      "definition": "The initial purchase price or construction cost when the property was first acquired.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coût d'origine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Costo original"
+        }
+      ]
+    },
+    {
+      "code": "RPLC",
+      "display": "Replacement Cost",
+      "definition": "The cost to replace property with new property of like kind and quality, without deduction for depreciation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur à neuf"
+        },
+        {
+          "language": "es-MX",
+          "value": "Costo de reposición"
+        }
+      ]
+    },
+    {
+      "code": "REPR",
+      "display": "Reproduction",
+      "definition": "The cost to reproduce property using the same materials, design, and construction methods as the original.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Reproduction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reproducción"
+        }
+      ]
+    },
+    {
+      "code": "STAM",
+      "display": "Stated Amount",
+      "definition": "A specific value declared in the policy, typically representing the maximum payable for a loss.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Montant stipulé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Monto declarado"
+        }
+      ]
+    },
+    {
+      "code": "STKR",
+      "display": "Stock - Annual Reporting",
+      "definition": "Inventory valuation method where stock levels are reported and adjusted annually.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marchandises - Rajustement annuel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inventario - Reporte anual"
+        }
+      ]
+    },
+    {
+      "code": "STKM",
+      "display": "Stock - Monthly Reporting",
+      "definition": "Inventory valuation method where stock levels are reported and adjusted monthly.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marchandises - Rajustement mensuel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inventario - Reporte mensual"
+        }
+      ]
+    },
+    {
+      "code": "STKS",
+      "display": "Stock - Selling Price",
+      "definition": "Inventory valued at the price at which it would be sold to customers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marchandises - Prix de vente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inventario - Precio de venta"
+        }
+      ]
+    },
+    {
+      "code": "TIVL",
+      "display": "Total Insured Value",
+      "definition": "The aggregate sum of all values covered under a policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur assurée totale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Valor total asegurado"
+        }
+      ]
+    },
+    {
+      "code": "WRKV",
+      "display": "Wreckage Value",
+      "definition": "The salvage value of damaged property or debris remaining after a total loss.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur des débris"
+        },
+        {
+          "language": "es-MX",
+          "value": "Valor de restos"
+        }
+      ]
+    },
+    {
+      "code": "BKVL",
+      "display": "Book Value",
+      "definition": "The value of an asset as recorded on the balance sheet, calculated as original cost minus accumulated depreciation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur comptable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Valor en libros"
+        }
+      ]
+    }
+  ]
+}

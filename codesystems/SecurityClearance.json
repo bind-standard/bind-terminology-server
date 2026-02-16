@@ -1,0 +1,72 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "SecurityClearance",
+  "url": "https://bind.codes/SecurityClearance",
+  "name": "SecurityClearance",
+  "title": "Security Clearance",
+  "status": "draft",
+  "language": "en",
+  "description": "Security Clearance codes for insurance operations.",
+  "concept": [
+    {
+      "code": "RSTR",
+      "display": "Restricted",
+      "definition": "Access limited to authorized personnel only with specific security credentials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Restreint"
+        },
+        {
+          "language": "es-MX",
+          "value": "Restringido"
+        }
+      ]
+    },
+    {
+      "code": "NRST",
+      "display": "Non-Restricted",
+      "definition": "Access available without specific security clearance requirements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non-restreint"
+        },
+        {
+          "language": "es-MX",
+          "value": "No restringido"
+        }
+      ]
+    },
+    {
+      "code": "DUAL",
+      "display": "Both",
+      "definition": "Applicable to both restricted and non-restricted access levels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Les deux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ambos"
+        }
+      ]
+    },
+    {
+      "code": "CONF",
+      "display": "Confidential",
+      "definition": "Sensitive information requiring heightened security protocols and limited distribution.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Confidentiel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Confidencial"
+        }
+      ]
+    }
+  ]
+}

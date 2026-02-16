@@ -1,0 +1,415 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "HeatingUnit",
+  "url": "https://bind.codes/HeatingUnit",
+  "name": "HeatingUnit",
+  "title": "Heating Unit",
+  "status": "draft",
+  "language": "en",
+  "description": "Heating Unit codes for insurance operations.",
+  "concept": [
+    {
+      "code": "SFHU",
+      "display": "Solid Fuel Heating Unit",
+      "definition": "A heating system that burns solid fuels such as wood, coal, or pellets to generate heat.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Unité de chauffage à combustion solide"
+        },
+        {
+          "language": "es-MX",
+          "value": "Unidad de calefacción de combustible sólido"
+        }
+      ]
+    },
+    {
+      "code": "RADC",
+      "display": "Radiant Ceiling",
+      "definition": "A heating system installed in the ceiling that radiates heat downward into the room.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chauffage radiant - plafond"
+        },
+        {
+          "language": "es-MX",
+          "value": "Techo radiante"
+        }
+      ]
+    },
+    {
+      "code": "RCHT",
+      "display": "Recessed Heater",
+      "definition": "A heating unit installed into a wall or floor cavity rather than surface-mounted.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plinthe électrique encastrée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Calefactor empotrado"
+        }
+      ]
+    },
+    {
+      "code": "PWAF",
+      "display": "Pipeless Warm Air Furnace",
+      "definition": "A furnace that heats air and distributes it through a single large register without ductwork.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fournaise à air chaud sans conduit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Horno de aire caliente sin tuberías"
+        }
+      ]
+    },
+    {
+      "code": "RADF",
+      "display": "Radiant Floor",
+      "definition": "A heating system embedded in the floor that radiates heat upward into the room.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chauffage radiant - plancher"
+        },
+        {
+          "language": "es-MX",
+          "value": "Piso radiante"
+        }
+      ]
+    },
+    {
+      "code": "SOLR",
+      "display": "Solar Panels",
+      "definition": "Solar thermal panels that convert sunlight into heat for building heating purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Panneaux solaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paneles solares"
+        }
+      ]
+    },
+    {
+      "code": "GRVF",
+      "display": "Gravity Furnace",
+      "definition": "A furnace that uses natural convection to circulate warm air without fans or blowers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fournaise à gravité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Horno de gravedad"
+        }
+      ]
+    },
+    {
+      "code": "HVAC",
+      "display": "HVAC System",
+      "definition": "An integrated system providing heating, ventilation, and air conditioning.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Système CVC"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sistema HVAC"
+        }
+      ]
+    },
+    {
+      "code": "CFWD",
+      "display": "Furnace (Central) with Add-on Wood Burning Unit",
+      "definition": "A central forced-air furnace supplemented with an additional wood-burning heating component.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fournaise (centrale) avec appareil d'appoint au bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Horno (central) con unidad adicional de leña"
+        }
+      ]
+    },
+    {
+      "code": "HWST",
+      "display": "Hot Water/Steam/Boiler Unit",
+      "definition": "A boiler system that heats water or generates steam to distribute heat through radiators or pipes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Eau chaude/Vapeur/Chaudière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Unidad de agua caliente/vapor/caldera"
+        }
+      ]
+    },
+    {
+      "code": "FPIN",
+      "display": "Fireplace Insert",
+      "definition": "A heating unit installed into an existing fireplace opening to improve efficiency.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foyer encastrable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inserto de chimenea"
+        }
+      ]
+    },
+    {
+      "code": "BSBD",
+      "display": "Baseboard Heater",
+      "definition": "An electric or hydronic heating unit mounted along the baseboard of a wall.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plinthe électrique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Calefactor de zócalo"
+        }
+      ]
+    },
+    {
+      "code": "FCEN",
+      "display": "Furnace (Central)",
+      "definition": "A central heating system that distributes heated air through ductwork to multiple rooms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fournaise (centrale)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Horno (central)"
+        }
+      ]
+    },
+    {
+      "code": "BIEN",
+      "display": "Bi-energy/Combination",
+      "definition": "A heating system that uses two different energy sources, typically switching based on efficiency or cost.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Biénergie/mixte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bienergía/combinado"
+        }
+      ]
+    },
+    {
+      "code": "FRPL",
+      "display": "Fireplace",
+      "definition": "A traditional masonry or prefabricated structure for burning wood or gas to provide heat.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foyer en maçonnerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Chimenea"
+        }
+      ]
+    },
+    {
+      "code": "ELEF",
+      "display": "Electric Furnace (Pipeless Warm Air Furnace / Recessed Heater / Gravity Furnace)",
+      "definition": "An electric heating system that may operate without ductwork, be recessed into walls, or use gravity circulation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fournaise électrique (Sans conduits à air chaud / Chauffage encastré / fournaise à air chaud par gravité)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Horno eléctrico (Sin conductos de aire caliente / Calefactor empotrado / Horno de gravedad)"
+        }
+      ]
+    },
+    {
+      "code": "FLRF",
+      "display": "Floor Furnace",
+      "definition": "A furnace installed beneath the floor with a grated opening for heat distribution.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fournaise de plancher"
+        },
+        {
+          "language": "es-MX",
+          "value": "Horno de piso"
+        }
+      ]
+    },
+    {
+      "code": "WHTR",
+      "display": "Water Heaters",
+      "definition": "Appliances that heat water for domestic use, sometimes also used as a supplementary heating source.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chauffe-eau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Calentadores de agua"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "HPMP",
+      "display": "Heat Pump",
+      "definition": "A device that transfers heat from a cooler space to a warmer one using refrigeration cycle, providing both heating and cooling.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Thermopompe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bomba de calor"
+        }
+      ]
+    },
+    {
+      "code": "WALF",
+      "display": "Wall Furnace",
+      "definition": "A heating unit mounted on or recessed into a wall, typically vented to the outside.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Unité murale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Horno de pared"
+        }
+      ]
+    },
+    {
+      "code": "SPCH",
+      "display": "Space Heater",
+      "definition": "A portable or fixed heating device designed to warm a specific area or room.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Appareil de chauffage autonome"
+        },
+        {
+          "language": "es-MX",
+          "value": "Calefactor de espacio"
+        }
+      ]
+    },
+    {
+      "code": "COLS",
+      "display": "Coal Burning Stove, Magazine Type",
+      "definition": "A stove with a magazine-feed mechanism for burning coal, allowing extended operation without frequent refueling.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poêle à charbon de bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estufa de carbón tipo magazine"
+        }
+      ]
+    },
+    {
+      "code": "GEOT",
+      "display": "Geothermal Heat Pump",
+      "definition": "A heat pump system that uses the stable temperature of the earth as a heat source or sink.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Thermopompe géothermique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bomba de calor geotérmica"
+        }
+      ]
+    },
+    {
+      "code": "PELS",
+      "display": "Pellet Stove",
+      "definition": "A stove that burns compressed wood or biomass pellets for heating.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poêle à granules"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estufa de pellets"
+        }
+      ]
+    },
+    {
+      "code": "WDST",
+      "display": "Wood Stove",
+      "definition": "A freestanding heating appliance that burns wood for heat.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poêle à bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estufa de leña"
+        }
+      ]
+    }
+  ]
+}

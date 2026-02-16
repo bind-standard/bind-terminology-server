@@ -1,0 +1,93 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TransactionType",
+  "url": "https://bind.codes/TransactionType",
+  "name": "TransactionType",
+  "title": "Transaction Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Types of lifecycle transactions that occur on a policy.",
+  "concept": [
+    {
+      "code": "NWBS",
+      "display": "New Business",
+      "definition": "The initial issuance of a policy for a new account or exposure.",
+      "designation": [
+        { "language": "fr-CA", "value": "Nouvelle affaire" },
+        { "language": "es-MX", "value": "Negocio nuevo" }
+      ]
+    },
+    {
+      "code": "ENDR",
+      "display": "Endorsement",
+      "definition": "A mid-term amendment that modifies the terms, coverages, or conditions of an existing policy.",
+      "designation": [
+        { "language": "fr-CA", "value": "Avenant" },
+        { "language": "es-MX", "value": "Endoso" }
+      ]
+    },
+    {
+      "code": "RNWL",
+      "display": "Renewal",
+      "definition": "The continuation of a policy for a new term at expiration.",
+      "designation": [
+        { "language": "fr-CA", "value": "Renouvellement" },
+        { "language": "es-MX", "value": "Renovación" }
+      ]
+    },
+    {
+      "code": "RNST",
+      "display": "Reinstatement",
+      "definition": "The restoration of a previously cancelled or lapsed policy to active status.",
+      "designation": [
+        { "language": "fr-CA", "value": "Remise en vigueur" },
+        { "language": "es-MX", "value": "Reinstalación" }
+      ]
+    },
+    {
+      "code": "REIS",
+      "display": "Reissue",
+      "definition": "The re-issuance of a policy, typically to correct errors or change the issuing entity.",
+      "designation": [
+        { "language": "fr-CA", "value": "Réémission" },
+        { "language": "es-MX", "value": "Reemisión" }
+      ]
+    },
+    {
+      "code": "CNCL",
+      "display": "Cancellation",
+      "definition": "The termination of a policy before its natural expiration date.",
+      "designation": [
+        { "language": "fr-CA", "value": "Annulation" },
+        { "language": "es-MX", "value": "Cancelación" }
+      ]
+    },
+    {
+      "code": "NRNW",
+      "display": "Non-Renewal",
+      "definition": "The decision not to renew a policy at its natural expiration date.",
+      "designation": [
+        { "language": "fr-CA", "value": "Non-renouvellement" },
+        { "language": "es-MX", "value": "No renovación" }
+      ]
+    },
+    {
+      "code": "AUDT",
+      "display": "Premium Audit",
+      "definition": "A review of actual exposure data to determine the final earned premium for an auditable policy.",
+      "designation": [
+        { "language": "fr-CA", "value": "Vérification de prime" },
+        { "language": "es-MX", "value": "Auditoría de prima" }
+      ]
+    },
+    {
+      "code": "FLCN",
+      "display": "Flat Cancellation",
+      "definition": "Cancellation effective from inception, resulting in a full return of premium as if the policy never existed.",
+      "designation": [
+        { "language": "fr-CA", "value": "Annulation à plat" },
+        { "language": "es-MX", "value": "Cancelación plana" }
+      ]
+    }
+  ]
+}

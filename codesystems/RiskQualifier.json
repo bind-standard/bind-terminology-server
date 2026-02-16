@@ -1,0 +1,938 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "RiskQualifier",
+  "url": "https://bind.codes/RiskQualifier",
+  "name": "RiskQualifier",
+  "title": "Risk Qualifier",
+  "status": "draft",
+  "language": "en",
+  "description": "Risk Qualifier codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CVPA",
+      "display": "20%-40%-80%-100%",
+      "definition": "Co-insurance percentage tiers for policy participation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "20%-40%-80%-100%"
+        },
+        {
+          "language": "es-MX",
+          "value": "20%-40%-80%-100%"
+        }
+      ]
+    },
+    {
+      "code": "CVPB",
+      "display": "25%-50%-75%-100%",
+      "definition": "Co-insurance percentage tiers for policy participation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "25%-50%-75%-100%"
+        },
+        {
+          "language": "es-MX",
+          "value": "25%-50%-75%-100%"
+        }
+      ]
+    },
+    {
+      "code": "CVPC",
+      "display": "30%-60%-90%-100%",
+      "definition": "Co-insurance percentage tiers for policy participation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "30%-60%-90%-100%"
+        },
+        {
+          "language": "es-MX",
+          "value": "30%-60%-90%-100%"
+        }
+      ]
+    },
+    {
+      "code": "CVPD",
+      "display": "35%-70%-100%",
+      "definition": "Co-insurance percentage tiers for policy participation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "35%-70%-100%"
+        },
+        {
+          "language": "es-MX",
+          "value": "35%-70%-100%"
+        }
+      ]
+    },
+    {
+      "code": "CVPE",
+      "display": "40%-80%-100%",
+      "definition": "Co-insurance percentage tiers for policy participation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "40%-80%-100%"
+        },
+        {
+          "language": "es-MX",
+          "value": "40%-80%-100%"
+        }
+      ]
+    },
+    {
+      "code": "FULL",
+      "display": "100%-100%-100%",
+      "definition": "Full value co-insurance across all tiers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "100%-100%-100%"
+        },
+        {
+          "language": "es-MX",
+          "value": "100%-100%-100%"
+        }
+      ]
+    },
+    {
+      "code": "AGCM",
+      "display": "Above Ground Pool - Concrete or Metal",
+      "definition": "Pool structure installed above ground level, constructed with concrete or metal materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Piscine hors-terre - Béton ou métal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Piscina sobre tierra - Hormigón o metal"
+        }
+      ]
+    },
+    {
+      "code": "AGOT",
+      "display": "Above Ground Pool - Other Materials",
+      "definition": "Pool structure installed above ground level, constructed with materials other than concrete or metal such as fiberglass or vinyl.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Piscine hors-terre - Autres matériaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Piscina sobre tierra - Otros materiales"
+        }
+      ]
+    },
+    {
+      "code": "APTS",
+      "display": "Apartment",
+      "definition": "Residential dwelling unit within a multi-unit building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Appartement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Apartamento"
+        }
+      ]
+    },
+    {
+      "code": "ALRS",
+      "display": "All Risk",
+      "definition": "Coverage providing protection against all causes of loss except those specifically excluded, commonly applied to valuable items such as firearms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tous risques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Todo riesgo"
+        }
+      ]
+    },
+    {
+      "code": "BLCN",
+      "display": "Building and Contents",
+      "definition": "Combined coverage for both the physical structure and the personal property contained within.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bâtiment et biens meubles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Edificio y contenido"
+        }
+      ]
+    },
+    {
+      "code": "BKEX",
+      "display": "Breakage Exclusion Buy-Back",
+      "definition": "Optional coverage that removes the standard exclusion for breakage of certain items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rachat de l'exclusion de casse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Recompra de exclusión de rotura"
+        }
+      ]
+    },
+    {
+      "code": "BFPS",
+      "display": "Broad Form Pair and Set",
+      "definition": "Coverage method for items that are part of a matched pair or set, providing enhanced valuation when one piece is damaged or lost.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formule étendue - Paire et ensemble"
+        },
+        {
+          "language": "es-MX",
+          "value": "Forma amplia - Par y conjunto"
+        }
+      ]
+    },
+    {
+      "code": "BLDG",
+      "display": "Building",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bâtiment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Edificio"
+        }
+      ]
+    },
+    {
+      "code": "BRCM",
+      "display": "Broadcasting Equipment - Metal Construction",
+      "definition": "Telecommunication antenna or broadcasting equipment constructed primarily of metal materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement de radiodiffusion - Métal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo de radiodifusión - Metal"
+        }
+      ]
+    },
+    {
+      "code": "BPBI",
+      "display": "Building, Personal Property and Business Income",
+      "definition": "Combined coverage for the structure, contents, and loss of revenue due to business interruption.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bâtiment, biens meubles et revenus d'entreprise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Edificio, propiedad personal e ingresos comerciales"
+        }
+      ]
+    },
+    {
+      "code": "BRDF",
+      "display": "Broad Form",
+      "definition": "Coverage providing protection against named perils with broader scope than basic form, commonly applied to valuable items such as firearms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formule étendue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Forma amplia"
+        }
+      ]
+    },
+    {
+      "code": "BRCW",
+      "display": "Broadcasting Equipment - Wood Construction",
+      "definition": "Telecommunication antenna or broadcasting equipment constructed primarily of wood materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement de radiodiffusion - Bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo de radiodifusión - Madera"
+        }
+      ]
+    },
+    {
+      "code": "CNTS",
+      "display": "Contents",
+      "definition": "Personal property and belongings within a structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contenu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contenido"
+        }
+      ]
+    },
+    {
+      "code": "DEPR",
+      "display": "Depreciated Value",
+      "definition": "Valuation method based on actual cash value accounting for age, wear, and deterioration, commonly applied to items such as furs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur dépréciée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Valor depreciado"
+        }
+      ]
+    },
+    {
+      "code": "LMED",
+      "display": "Limited Edition",
+      "definition": "Items produced in restricted quantities with numbered or authenticated status.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Édition à tirage limité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Edición limitada"
+        }
+      ]
+    },
+    {
+      "code": "EXHI",
+      "display": "High Exposure",
+      "definition": "Items subject to elevated susceptibility to loss or damage due to their nature, use, or storage conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Degré d'exposition élevé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Exposición alta"
+        }
+      ]
+    },
+    {
+      "code": "INCL",
+      "display": "Limit Included",
+      "definition": "Coverage limit automatically incorporated within the base policy without requiring separate scheduling.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Limite incluse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Límite incluido"
+        }
+      ]
+    },
+    {
+      "code": "IGCM",
+      "display": "In-Ground Pool - Concrete or Metal",
+      "definition": "Pool structure excavated into the ground, constructed with concrete or metal materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Piscine creusée - Béton ou métal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Piscina enterrada - Hormigón o metal"
+        }
+      ]
+    },
+    {
+      "code": "IGOT",
+      "display": "In-Ground Pool - Other Materials",
+      "definition": "Pool structure excavated into the ground, constructed with materials other than concrete or metal such as fiberglass or vinyl.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Piscine creusée - Autres matériaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Piscina enterrada - Otros materiales"
+        }
+      ]
+    },
+    {
+      "code": "LSRN",
+      "display": "Laser Engraved",
+      "definition": "Items marked with permanent identification or design using laser technology.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gravé au laser"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grabado con láser"
+        }
+      ]
+    },
+    {
+      "code": "EXLO",
+      "display": "Low Exposure",
+      "definition": "Items subject to minimal susceptibility to loss or damage due to their nature, use, or storage conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Degré d'exposition faible"
+        },
+        {
+          "language": "es-MX",
+          "value": "Exposición baja"
+        }
+      ]
+    },
+    {
+      "code": "EXMD",
+      "display": "Medium Exposure",
+      "definition": "Items subject to moderate susceptibility to loss or damage due to their nature, use, or storage conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Degré d'exposition moyen"
+        },
+        {
+          "language": "es-MX",
+          "value": "Exposición media"
+        }
+      ]
+    },
+    {
+      "code": "METL",
+      "display": "Metal",
+      "definition": "Construction or composition primarily of metallic materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Métal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Metal"
+        }
+      ]
+    },
+    {
+      "code": "NAPL",
+      "display": "Not Applicable",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sans objet"
+        },
+        {
+          "language": "es-MX",
+          "value": "No aplica"
+        }
+      ]
+    },
+    {
+      "code": "NINC",
+      "display": "Not Included",
+      "definition": "Coverage or limit explicitly excluded from the base policy and requiring separate endorsement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non compris"
+        },
+        {
+          "language": "es-MX",
+          "value": "No incluido"
+        }
+      ]
+    },
+    {
+      "code": "NMOR",
+      "display": "Non-Mobile Organ",
+      "definition": "Musical pipe organ that is permanently installed and not designed for transport.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Orgue non portable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Órgano no móvil"
+        }
+      ]
+    },
+    {
+      "code": "NSTD",
+      "display": "Non-Standard",
+      "definition": "Deviation from typical or standard policy terms, conditions, or procedures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non standard"
+        },
+        {
+          "language": "es-MX",
+          "value": "No estándar"
+        }
+      ]
+    },
+    {
+      "code": "OFFC",
+      "display": "Office",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Oficina"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "PPOT",
+      "display": "Personal Property of Others",
+      "definition": "Property belonging to third parties that is temporarily in the care, custody, or control of the insured.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Biens meubles appartenant à des tiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propiedad personal de otros"
+        }
+      ]
+    },
+    {
+      "code": "RVCM",
+      "display": "Receiving Equipment - Metal Construction",
+      "definition": "Telecommunication antenna or receiving equipment constructed primarily of metal materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement de réception - Métal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo de recepción - Metal"
+        }
+      ]
+    },
+    {
+      "code": "RVCW",
+      "display": "Receiving Equipment - Wood Construction",
+      "definition": "Telecommunication antenna or receiving equipment constructed primarily of wood materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement de réception - Bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo de recepción - Madera"
+        }
+      ]
+    },
+    {
+      "code": "SCBL",
+      "display": "Scheduled and Blanket",
+      "definition": "Combined coverage approach listing specific items individually while also providing aggregate coverage for categories of property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Expressément assuré et globale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Programado y general"
+        }
+      ]
+    },
+    {
+      "code": "SFCR",
+      "display": "Safe Credit",
+      "definition": "Rate reduction or premium adjustment granted for the presence and use of a safe for storing valuables.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Crédit - Coffre-fort"
+        },
+        {
+          "language": "es-MX",
+          "value": "Crédito - Caja fuerte"
+        }
+      ]
+    },
+    {
+      "code": "SPSL",
+      "display": "Spoilage at Selling Price",
+      "definition": "Valuation basis for spoiled perishable goods calculated at their retail selling price rather than cost.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pertes assurées au prix de vente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Deterioro al precio de venta"
+        }
+      ]
+    },
+    {
+      "code": "SEPH",
+      "display": "Separate Heat Plant",
+      "definition": "Standalone heating facility located in a separate structure from the main building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Usine de chaleur distincte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Planta de calefacción separada"
+        }
+      ]
+    },
+    {
+      "code": "SKEQ",
+      "display": "Skiing Equipment",
+      "definition": "Equipment specifically used for skiing activities including skis, boots, poles, and related gear.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement de ski"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo de esquí"
+        }
+      ]
+    },
+    {
+      "code": "SCDL",
+      "display": "Scheduled",
+      "definition": "Items individually listed on the policy with specific descriptions and declared values.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Expressément assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Programado"
+        }
+      ]
+    },
+    {
+      "code": "SGSV",
+      "display": "Single Supervisor",
+      "definition": "Property management arrangement where one individual oversees the entire premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Un seul superviseur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Supervisor único"
+        }
+      ]
+    },
+    {
+      "code": "SSHP",
+      "display": "Single Supervisor with Separate Heat Plant",
+      "definition": "Property management arrangement combining one oversight individual with a standalone heating facility.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Un seul superviseur et usine de chaleur distincte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Supervisor único con planta de calefacción separada"
+        }
+      ]
+    },
+    {
+      "code": "TIR1",
+      "display": "Tier 1",
+      "definition": "First level in a multi-tier classification system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Niveau 1"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nivel 1"
+        }
+      ]
+    },
+    {
+      "code": "TIR2",
+      "display": "Tier 2",
+      "definition": "Second level in a multi-tier classification system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Niveau 2"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nivel 2"
+        }
+      ]
+    },
+    {
+      "code": "TIR3",
+      "display": "Tier 3",
+      "definition": "Third level in a multi-tier classification system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Niveau 3"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nivel 3"
+        }
+      ]
+    },
+    {
+      "code": "TIR4",
+      "display": "Tier 4",
+      "definition": "Fourth level in a multi-tier classification system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Niveau 4"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nivel 4"
+        }
+      ]
+    },
+    {
+      "code": "TIR5",
+      "display": "Tier 5",
+      "definition": "Fifth level in a multi-tier classification system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Niveau 5"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nivel 5"
+        }
+      ]
+    },
+    {
+      "code": "TIR6",
+      "display": "Tier 6",
+      "definition": "Sixth level in a multi-tier classification system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Niveau 6"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nivel 6"
+        }
+      ]
+    },
+    {
+      "code": "TIR7",
+      "display": "Tier 7",
+      "definition": "Seventh level in a multi-tier classification system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Niveau 7"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nivel 7"
+        }
+      ]
+    },
+    {
+      "code": "TIR8",
+      "display": "Tier 8",
+      "definition": "Eighth level in a multi-tier classification system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Niveau 8"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nivel 8"
+        }
+      ]
+    },
+    {
+      "code": "TIR9",
+      "display": "Tier 9",
+      "definition": "Ninth level in a multi-tier classification system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Niveau 9"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nivel 9"
+        }
+      ]
+    },
+    {
+      "code": "TMEL",
+      "display": "Time Element",
+      "definition": "Coverage component addressing loss of income or extra expenses incurred during a period of restoration following a covered loss.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facteur temps"
+        },
+        {
+          "language": "es-MX",
+          "value": "Elemento temporal"
+        }
+      ]
+    },
+    {
+      "code": "UNAU",
+      "display": "Unattended Vehicle",
+      "definition": "Vehicle left without supervision or monitoring by the owner or driver.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule non surveillé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo desatendido"
+        }
+      ]
+    },
+    {
+      "code": "VLCR",
+      "display": "Vault Credit",
+      "definition": "Rate reduction or premium adjustment granted for the presence and use of a vault for storing valuables.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Crédit - Voûte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Crédito - Bóveda"
+        }
+      ]
+    },
+    {
+      "code": "WOOD",
+      "display": "Wood",
+      "definition": "Construction or composition primarily of wooden materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Madera"
+        }
+      ]
+    },
+    {
+      "code": "BLNK",
+      "display": "Blanket",
+      "definition": "Coverage providing an aggregate limit for a category of property without individual item specification.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Globale"
+        },
+        {
+          "language": "es-MX",
+          "value": "General"
+        }
+      ]
+    },
+    {
+      "code": "REPL",
+      "display": "Replacement Cost",
+      "definition": "Valuation method based on the cost to replace damaged or destroyed property with new items of similar kind and quality, without deduction for depreciation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur de remplacement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Costo de reemplazo"
+        }
+      ]
+    },
+    {
+      "code": "ACVL",
+      "display": "Actual Cash Value",
+      "definition": "Valuation method based on replacement cost less depreciation for age, wear, and condition.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur réelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Valor real en efectivo"
+        }
+      ]
+    }
+  ]
+}

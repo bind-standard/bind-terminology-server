@@ -1,0 +1,252 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ClearanceTo",
+  "url": "https://bind.codes/ClearanceTo",
+  "name": "ClearanceTo",
+  "title": "Clearance To",
+  "status": "draft",
+  "language": "en",
+  "description": "Clearance To codes for insurance operations.",
+  "concept": [
+    {
+      "code": "AIVT",
+      "display": "Air Intake Vent",
+      "definition": "Ventilation opening that draws fresh air into a building's HVAC system or combustion appliance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Prise d'air extérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ventilación de admisión de aire"
+        }
+      ]
+    },
+    {
+      "code": "CORN",
+      "display": "Corner",
+      "definition": "Intersection of two walls or property boundaries where structural elements or equipment may be positioned.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coin"
+        },
+        {
+          "language": "es-MX",
+          "value": "Esquina"
+        }
+      ]
+    },
+    {
+      "code": "DOOR",
+      "display": "Door",
+      "definition": "Entry or exit point in a building structure, relevant for measuring clearances to equipment or hazards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Porte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Puerta"
+        }
+      ]
+    },
+    {
+      "code": "DRDT",
+      "display": "Drainage Ditch",
+      "definition": "Excavated channel designed to direct water runoff away from a property or structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fossé filtrant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Zanja de drenaje"
+        }
+      ]
+    },
+    {
+      "code": "FDSP",
+      "display": "Floor Drain or Sump",
+      "definition": "Drainage fixture or pit installed in a floor to collect and remove water or other liquids.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avaloir de sol ou puisard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desagüe de piso o sumidero"
+        }
+      ]
+    },
+    {
+      "code": "DWEL",
+      "display": "Drilled Well",
+      "definition": "Water well created by drilling or boring into the ground to access groundwater.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Puits foré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pozo perforado"
+        }
+      ]
+    },
+    {
+      "code": "FFAP",
+      "display": "Fuel Fired Appliance",
+      "definition": "Equipment that burns fuel (oil, gas, propane) to generate heat or power.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Appareil de combustion au combustible"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aparato de combustión"
+        }
+      ]
+    },
+    {
+      "code": "MHCV",
+      "display": "Manhole Cover",
+      "definition": "Removable plate covering an opening to underground utility infrastructure or sewage systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Couvercle de trou de visite"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tapa de alcantarilla"
+        }
+      ]
+    },
+    {
+      "code": "OWSR",
+      "display": "Open Water Source",
+      "definition": "Natural or man-made body of water exposed to the atmosphere such as a pond, lake, or reservoir.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Source d'eau ouverte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fuente de agua abierta"
+        }
+      ]
+    },
+    {
+      "code": "PRLN",
+      "display": "Property Line",
+      "definition": "Legal boundary that defines the limits of a parcel of land or real estate.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Limite de propriété"
+        },
+        {
+          "language": "es-MX",
+          "value": "Línea de propiedad"
+        }
+      ]
+    },
+    {
+      "code": "SPBD",
+      "display": "Septic Bed",
+      "definition": "Subsurface wastewater disposal area where effluent from a septic tank is distributed and filtered through soil.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Champ d'épuration"
+        },
+        {
+          "language": "es-MX",
+          "value": "Campo de drenaje séptico"
+        }
+      ]
+    },
+    {
+      "code": "STDR",
+      "display": "Storm Drain",
+      "definition": "Drainage system designed to carry rainwater and surface runoff away from developed areas.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collecteur d'eaux pluviales"
+        },
+        {
+          "language": "es-MX",
+          "value": "Drenaje pluvial"
+        }
+      ]
+    },
+    {
+      "code": "WNDW",
+      "display": "Window",
+      "definition": "Opening in a wall fitted with glass, relevant for measuring clearances to equipment or structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fenêtre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ventana"
+        }
+      ]
+    },
+    {
+      "code": "BLDG",
+      "display": "Building",
+      "definition": "Permanent or temporary structure with walls and a roof.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bâtiment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Edificio"
+        }
+      ]
+    },
+    {
+      "code": "UTIL",
+      "display": "Utility Line",
+      "definition": "Overhead or underground infrastructure for electrical, gas, water, or telecommunications services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ligne de service public"
+        },
+        {
+          "language": "es-MX",
+          "value": "Línea de servicios públicos"
+        }
+      ]
+    },
+    {
+      "code": "SEPT",
+      "display": "Septic Tank",
+      "definition": "Underground chamber for primary treatment of wastewater through biological decomposition and drainage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fosse septique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fosa séptica"
+        }
+      ]
+    }
+  ]
+}

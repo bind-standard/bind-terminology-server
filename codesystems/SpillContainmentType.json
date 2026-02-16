@@ -1,0 +1,191 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "SpillContainmentType",
+  "url": "https://bind.codes/SpillContainmentType",
+  "name": "SpillContainmentType",
+  "title": "Spill Containment Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Spill Containment Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None",
+      "definition": "No spill containment system is in place.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "BERM",
+      "display": "Berms (concrete or plastic box)",
+      "definition": "Raised barriers made of concrete or plastic materials designed to contain and control liquid spills.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vallonnements (béton ou bac de plastique)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bermas (caja de concreto o plástico)"
+        }
+      ]
+    },
+    {
+      "code": "CADY",
+      "display": "Caddy",
+      "definition": "Mobile container or cart with built-in spill containment capacity for transporting liquid containers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plateau de chargement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carrito de contención"
+        }
+      ]
+    },
+    {
+      "code": "CTRY",
+      "display": "Containment Tray",
+      "definition": "Shallow pan or tray designed to catch and contain minor spills or leaks from equipment or containers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plateau de rétention"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bandeja de contención"
+        }
+      ]
+    },
+    {
+      "code": "GEOM",
+      "display": "Geo-Membrane Bag / Bladder Tank",
+      "definition": "Flexible, collapsible storage system made from synthetic materials designed to contain large volumes of liquids.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sac géo-membrane / réservoir souple"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bolsa geomembrana / tanque flexible"
+        }
+      ]
+    },
+    {
+      "code": "SDCK",
+      "display": "Spill Deck",
+      "definition": "Platform with integrated containment basin for storing drums or containers above ground level.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pont de déversement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Plataforma de derrames"
+        }
+      ]
+    },
+    {
+      "code": "SPLT",
+      "display": "Spill Pallets",
+      "definition": "Pallets with built-in sump to contain spills from drums, containers, or equipment placed on top.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Palettes de déversement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paletas de derrames"
+        }
+      ]
+    },
+    {
+      "code": "TNKT",
+      "display": "Tank Tub",
+      "definition": "Secondary containment vessel designed to hold the entire contents of a primary tank in case of failure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bac citerne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tina de tanque"
+        }
+      ]
+    },
+    {
+      "code": "DBLW",
+      "display": "Double-Wall Tank",
+      "definition": "Tank with two walls where the space between them provides secondary containment for leak detection and spill prevention.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réservoir à double paroi"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tanque de doble pared"
+        }
+      ]
+    },
+    {
+      "code": "DYKE",
+      "display": "Dike System",
+      "definition": "Earthen or constructed barrier surrounding storage areas to contain large-scale spills.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Système de digue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sistema de dique"
+        }
+      ]
+    },
+    {
+      "code": "SMAT",
+      "display": "Spill Mat / Absorbent Pad",
+      "definition": "Absorbent material placed under equipment to capture and contain minor drips and leaks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tapis absorbant / tampon absorbant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tapete absorbente / almohadilla absorbente"
+        }
+      ]
+    }
+  ]
+}

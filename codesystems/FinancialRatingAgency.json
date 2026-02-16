@@ -1,0 +1,66 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "FinancialRatingAgency",
+  "url": "https://bind.codes/FinancialRatingAgency",
+  "name": "FinancialRatingAgency",
+  "title": "Financial Rating Agency",
+  "status": "draft",
+  "language": "en",
+  "description": "Organizations that evaluate and publish financial strength ratings for carriers.",
+  "concept": [
+    {
+      "code": "AMBS",
+      "display": "A.M. Best",
+      "definition": "A rating agency specializing in the financial strength assessment of carriers worldwide.",
+      "designation": [
+        { "language": "fr-CA", "value": "A.M. Best" },
+        { "language": "es-MX", "value": "A.M. Best" }
+      ]
+    },
+    {
+      "code": "SPGR",
+      "display": "S&P Global Ratings",
+      "definition": "A global credit rating agency that also rates the financial strength of carriers.",
+      "designation": [
+        { "language": "fr-CA", "value": "S&P Global Ratings" },
+        { "language": "es-MX", "value": "S&P Global Ratings" }
+      ]
+    },
+    {
+      "code": "MDYS",
+      "display": "Moody's",
+      "definition": "A credit rating agency providing financial strength assessments for carriers and other financial institutions.",
+      "designation": [
+        { "language": "fr-CA", "value": "Moody's" },
+        { "language": "es-MX", "value": "Moody's" }
+      ]
+    },
+    {
+      "code": "FTCH",
+      "display": "Fitch Ratings",
+      "definition": "A global credit rating agency that publishes financial strength opinions on carriers.",
+      "designation": [
+        { "language": "fr-CA", "value": "Fitch Ratings" },
+        { "language": "es-MX", "value": "Fitch Ratings" }
+      ]
+    },
+    {
+      "code": "DMTC",
+      "display": "Demotech",
+      "definition": "A rating agency focused on regional and specialty carriers in the United States.",
+      "designation": [
+        { "language": "fr-CA", "value": "Demotech" },
+        { "language": "es-MX", "value": "Demotech" }
+      ]
+    },
+    {
+      "code": "KBRA",
+      "display": "Kroll Bond Rating Agency",
+      "definition": "A credit rating agency providing ratings for financial institutions including carriers.",
+      "designation": [
+        { "language": "fr-CA", "value": "Kroll Bond Rating Agency" },
+        { "language": "es-MX", "value": "Kroll Bond Rating Agency" }
+      ]
+    }
+  ]
+}

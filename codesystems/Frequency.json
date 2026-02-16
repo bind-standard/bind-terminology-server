@@ -1,0 +1,773 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Frequency",
+  "url": "https://bind.codes/Frequency",
+  "name": "Frequency",
+  "title": "Frequency",
+  "status": "draft",
+  "language": "en",
+  "description": "Frequency codes for insurance operations.",
+  "concept": [
+    {
+      "code": "SNGL",
+      "display": "1 Payment",
+      "definition": "A single lump sum payment for the entire amount.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "1 paiement"
+        },
+        {
+          "language": "es-MX",
+          "value": "1 pago"
+        }
+      ]
+    },
+    {
+      "code": "DUEQ",
+      "display": "2 Payments (Equal) - 50% per payment",
+      "definition": "Two equal installments, each representing 50% of the total amount.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "2 paiements (égaux) - 50% chaque paiement"
+        },
+        {
+          "language": "es-MX",
+          "value": "2 pagos (iguales) - 50% por pago"
+        }
+      ]
+    },
+    {
+      "code": "TREQ",
+      "display": "3 Payments (Equal) - 33.3% per payment",
+      "definition": "Three equal installments, each representing approximately one-third of the total amount.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "3 paiements (égaux) - 33.3% chaque paiement"
+        },
+        {
+          "language": "es-MX",
+          "value": "3 pagos (iguales) - 33.3% por pago"
+        }
+      ]
+    },
+    {
+      "code": "QDEQ",
+      "display": "4 Payments (Equal) - 25% per payment",
+      "definition": "Four equal installments, each representing 25% of the total amount.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "4 paiements (égaux) - 25% chaque paiement"
+        },
+        {
+          "language": "es-MX",
+          "value": "4 pagos (iguales) - 25% por pago"
+        }
+      ]
+    },
+    {
+      "code": "TR52",
+      "display": "3 Payments (50% 1st Payment, 25% for the next 2 Payments)",
+      "definition": "Three installments with 50% down payment followed by two equal payments of 25% each.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "3 paiements (50% 1er paiement, 25% pour les 2 prochains paiements)"
+        },
+        {
+          "language": "es-MX",
+          "value": "3 pagos (50% 1er pago, 25% para los próximos 2 pagos)"
+        }
+      ]
+    },
+    {
+      "code": "TR43",
+      "display": "3 Payments (40% 1st Payment, 30% for the next 2 Payments)",
+      "definition": "Three installments with 40% down payment followed by two equal payments of 30% each.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "3 paiements (40% 1er paiement, 30% pour les 2 prochains paiements)"
+        },
+        {
+          "language": "es-MX",
+          "value": "3 pagos (40% 1er pago, 30% para los próximos 2 pagos)"
+        }
+      ]
+    },
+    {
+      "code": "DPAY",
+      "display": "Down Payment",
+      "definition": "An initial partial payment made at the start of a contract or transaction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acompte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pago inicial"
+        }
+      ]
+    },
+    {
+      "code": "TY3A",
+      "display": "3 Year (Annual Installments)",
+      "definition": "A three-year term paid through annual installments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "3 ans (versements annuels)"
+        },
+        {
+          "language": "es-MX",
+          "value": "3 años (cuotas anuales)"
+        }
+      ]
+    },
+    {
+      "code": "TY3L",
+      "display": "3 Year (Lump Sum Payments)",
+      "definition": "A three-year term paid as a single lump sum payment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "3 ans (paiements forfaitaires)"
+        },
+        {
+          "language": "es-MX",
+          "value": "3 años (pagos de suma global)"
+        }
+      ]
+    },
+    {
+      "code": "JOBJ",
+      "display": "Job by Job Basis",
+      "definition": "Payment or activity occurring separately for each individual job or project.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sur une base d'emploi par emploi"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sobre la base de trabajo por trabajo"
+        }
+      ]
+    },
+    {
+      "code": "ASRQ",
+      "display": "As Required",
+      "definition": "Occurring on an as-needed basis without a fixed schedule.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tel que requis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Según se requiera"
+        }
+      ]
+    },
+    {
+      "code": "HDAY",
+      "display": "Holiday",
+      "definition": "On public holidays or designated holiday periods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Jour férié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Día festivo"
+        }
+      ]
+    },
+    {
+      "code": "DALY",
+      "display": "Daily",
+      "definition": "Every day or once per day.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Journalier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Diario"
+        }
+      ]
+    },
+    {
+      "code": "WEND",
+      "display": "Weekend",
+      "definition": "On weekends (Saturday and Sunday).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fin de semaine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fin de semana"
+        }
+      ]
+    },
+    {
+      "code": "SEVT",
+      "display": "Single Event",
+      "definition": "A one-time occurrence or event.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Événement unique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Evento único"
+        }
+      ]
+    },
+    {
+      "code": "PLCH",
+      "display": "Any Policy Change",
+      "definition": "Whenever any modification is made to a policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Modification de police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cualquier cambio de póliza"
+        }
+      ]
+    },
+    {
+      "code": "HRLY",
+      "display": "Hourly",
+      "definition": "Every hour or on an hourly basis.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Horaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por hora"
+        }
+      ]
+    },
+    {
+      "code": "BIAN",
+      "display": "Bi-annually",
+      "definition": "Twice per year or every six months.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Semestrielle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Semestral"
+        }
+      ]
+    },
+    {
+      "code": "INFR",
+      "display": "Infrequent",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Occasionnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Poco frecuente"
+        }
+      ]
+    },
+    {
+      "code": "IRRG",
+      "display": "Irregular",
+      "definition": "Without a consistent or predictable pattern.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Irrégulière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Irregular"
+        }
+      ]
+    },
+    {
+      "code": "MDAY",
+      "display": "More Than Once a Day",
+      "definition": "Multiple times within a single day.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plus d'une fois par jour"
+        },
+        {
+          "language": "es-MX",
+          "value": "Más de una vez al día"
+        }
+      ]
+    },
+    {
+      "code": "SDAY",
+      "display": "At the Same Time Each Day",
+      "definition": "At a consistent, fixed time every day.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À la même heure chaque jour"
+        },
+        {
+          "language": "es-MX",
+          "value": "A la misma hora cada día"
+        }
+      ]
+    },
+    {
+      "code": "VDAY",
+      "display": "Varied Each Day",
+      "definition": "At different times from day to day without a fixed schedule.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Variable chaque jour"
+        },
+        {
+          "language": "es-MX",
+          "value": "Varía cada día"
+        }
+      ]
+    },
+    {
+      "code": "NGHT",
+      "display": "Nightly",
+      "definition": "Every night or once per night.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À toutes les nuits"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cada noche"
+        }
+      ]
+    },
+    {
+      "code": "PTRP",
+      "display": "Per Trip",
+      "definition": "Once for each trip or journey.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par voyage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por viaje"
+        }
+      ]
+    },
+    {
+      "code": "UNAN",
+      "display": "Unannounced (Visits)",
+      "definition": "Without prior notice or scheduling.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Impromptues (visites)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin previo aviso (visitas)"
+        }
+      ]
+    },
+    {
+      "code": "CONT",
+      "display": "Continuous",
+      "definition": "Without interruption or ongoing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Continue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Continuo"
+        }
+      ]
+    },
+    {
+      "code": "UNKN",
+      "display": "Not Known",
+      "definition": "The frequency is unknown or has not been determined.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "ALWY",
+      "display": "Always (any change)",
+      "definition": "Every time, without exception, particularly when any change occurs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toujours (toute modification)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Siempre (cualquier cambio)"
+        }
+      ]
+    },
+    {
+      "code": "ANNU",
+      "display": "Annual",
+      "definition": "Once per year or yearly.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Annuelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Anual"
+        }
+      ]
+    },
+    {
+      "code": "BIMO",
+      "display": "Bi-monthly (every 2 months)",
+      "definition": "Every two months or six times per year.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bimensuelle (à tous les 2 mois)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bimestral (cada 2 meses)"
+        }
+      ]
+    },
+    {
+      "code": "BIWK",
+      "display": "Bi-weekly",
+      "definition": "Every two weeks or 26 times per year.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À toutes les 2 semaines"
+        },
+        {
+          "language": "es-MX",
+          "value": "Quincenal"
+        }
+      ]
+    },
+    {
+      "code": "ISSU",
+      "display": "When Issued Only",
+      "definition": "Only at the time of initial issuance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lorsqu'émis seulement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sólo cuando se emite"
+        }
+      ]
+    },
+    {
+      "code": "MNTH",
+      "display": "Monthly",
+      "definition": "Once per month or 12 times per year.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mensuelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mensual"
+        }
+      ]
+    },
+    {
+      "code": "NEVR",
+      "display": "Never",
+      "definition": "Not at any time or not occurring.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Jamais"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nunca"
+        }
+      ]
+    },
+    {
+      "code": "NSTD",
+      "display": "Non standard",
+      "definition": "A frequency that does not follow standard or typical patterns.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Spécial"
+        },
+        {
+          "language": "es-MX",
+          "value": "No estándar"
+        }
+      ]
+    },
+    {
+      "code": "OCAS",
+      "display": "Occasional",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Occasionnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ocasional"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "PWFL",
+      "display": "Power Failure",
+      "definition": "When electrical power is lost or interrupted.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Panne de courant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corte de energía"
+        }
+      ]
+    },
+    {
+      "code": "QRTR",
+      "display": "Quarterly",
+      "definition": "Four times per year or every three months.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trimestriel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trimestral"
+        }
+      ]
+    },
+    {
+      "code": "RENW",
+      "display": "Renewal Only",
+      "definition": "Only at the time of contract or policy renewal.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Renouvellement seulement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sólo en renovación"
+        }
+      ]
+    },
+    {
+      "code": "REGL",
+      "display": "Regularly",
+      "definition": "At consistent, predictable intervals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Régulièrement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Regularmente"
+        }
+      ]
+    },
+    {
+      "code": "SESN",
+      "display": "Seasonal",
+      "definition": "During specific seasons or times of the year.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Saisonnière"
+        },
+        {
+          "language": "es-MX",
+          "value": "De temporada"
+        }
+      ]
+    },
+    {
+      "code": "SM1P",
+      "display": "Six month Policy Single Payment",
+      "definition": "A six-month policy term paid as a single lump sum.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contrat d'une durée de six mois - Paiement à versement unique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Póliza de seis meses - Pago único"
+        }
+      ]
+    },
+    {
+      "code": "SM2P",
+      "display": "Six month Policy Two Equal Payments",
+      "definition": "A six-month policy term paid in two equal installments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contrat d'une durée de six mois - Deux paiements égaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Póliza de seis meses - Dos pagos iguales"
+        }
+      ]
+    },
+    {
+      "code": "SM3P",
+      "display": "Six month Policy Three Equal Payments",
+      "definition": "A six-month policy term paid in three equal installments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contrat d'une durée de six mois - Trois paiements égaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Póliza de seis meses - Tres pagos iguales"
+        }
+      ]
+    },
+    {
+      "code": "SM4P",
+      "display": "Six month Policy Four Equal Payments",
+      "definition": "A six-month policy term paid in four equal installments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contrat d'une durée de six mois - Quatre paiements égaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Póliza de seis meses - Cuatro pagos iguales"
+        }
+      ]
+    },
+    {
+      "code": "SM6P",
+      "display": "Six Month Policy Six Equal Payments",
+      "definition": "A six-month policy term paid in six equal monthly installments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contrat d'une durée de six mois - Six paiements égaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Póliza de seis meses - Seis pagos iguales"
+        }
+      ]
+    },
+    {
+      "code": "SANN",
+      "display": "Semi annual",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Semestriel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Semestral"
+        }
+      ]
+    },
+    {
+      "code": "WEEK",
+      "display": "Weekly",
+      "definition": "Once per week or 52 times per year.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hebdomadaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Semanal"
+        }
+      ]
+    },
+    {
+      "code": "SMON",
+      "display": "Semi-monthly",
+      "definition": "Twice per month or 24 times per year.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bimensuel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Quincenal"
+        }
+      ]
+    }
+  ]
+}

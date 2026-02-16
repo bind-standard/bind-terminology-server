@@ -1,0 +1,191 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "DwellingUse",
+  "url": "https://bind.codes/DwellingUse",
+  "name": "DwellingUse",
+  "title": "Dwelling Use",
+  "status": "draft",
+  "language": "en",
+  "description": "Dwelling Use codes for insurance operations.",
+  "concept": [
+    {
+      "code": "PRIM",
+      "display": "Primary Residence",
+      "definition": "A dwelling that serves as the main home where the owner or occupant lives most of the time.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résidence principale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Residencia principal"
+        }
+      ]
+    },
+    {
+      "code": "SCNS",
+      "display": "Secondary, Non-Seasonal",
+      "definition": "A dwelling that is occupied year-round but is not the primary residence.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Secondaire, non saisonnière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Secundaria, no estacional"
+        }
+      ]
+    },
+    {
+      "code": "SCSS",
+      "display": "Secondary, Seasonal",
+      "definition": "A dwelling used only during certain times of the year, such as a cottage or vacation home.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Secondaire, saisonnière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Secundaria, estacional"
+        }
+      ]
+    },
+    {
+      "code": "RENT",
+      "display": "Rental",
+      "definition": "A dwelling that is rented out to tenants by the property owner.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Location"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alquiler"
+        }
+      ]
+    },
+    {
+      "code": "RNST",
+      "display": "Short-Term Rental",
+      "definition": "A dwelling that is rented out on a temporary basis, typically for vacation stays.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Location à court terme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alquiler a corto plazo"
+        }
+      ]
+    },
+    {
+      "code": "UOCC",
+      "display": "Unoccupied",
+      "definition": "A dwelling that is temporarily not lived in but is furnished and ready for occupancy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inoccupée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desocupada"
+        }
+      ]
+    },
+    {
+      "code": "VACA",
+      "display": "Vacant",
+      "definition": "A dwelling that is empty, unfurnished, and not in active use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vacante"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vacante"
+        }
+      ]
+    },
+    {
+      "code": "RNTP",
+      "display": "Rented to Third Party",
+      "definition": "A dwelling that is leased to individuals or entities not related to the property owner.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Louée à des tiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alquilada a terceros"
+        }
+      ]
+    },
+    {
+      "code": "CONS",
+      "display": "Under Construction",
+      "definition": "A dwelling that is currently being built and is not yet completed or habitable.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En construction"
+        },
+        {
+          "language": "es-MX",
+          "value": "En construcción"
+        }
+      ]
+    },
+    {
+      "code": "RENV",
+      "display": "Under Renovation",
+      "definition": "A dwelling that is undergoing significant repairs or improvements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En rénovation"
+        },
+        {
+          "language": "es-MX",
+          "value": "En renovación"
+        }
+      ]
+    },
+    {
+      "code": "FRMS",
+      "display": "Farm or Agricultural Use",
+      "definition": "A dwelling located on a farm property and used in connection with agricultural operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ferme ou usage agricole"
+        },
+        {
+          "language": "es-MX",
+          "value": "Granja o uso agrícola"
+        }
+      ]
+    },
+    {
+      "code": "NAPP",
+      "display": "Not Applicable",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sans objet"
+        },
+        {
+          "language": "es-MX",
+          "value": "No aplica"
+        }
+      ]
+    }
+  ]
+}

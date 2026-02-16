@@ -1,0 +1,147 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CoverageLimitType",
+  "url": "https://bind.codes/CoverageLimitType",
+  "name": "CoverageLimitType",
+  "title": "Coverage Limit Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Types of coverage limits that define the maximum amount payable under a policy section.",
+  "concept": [
+    {
+      "code": "EOCC",
+      "display": "Each Occurrence",
+      "definition": "The maximum payable for a single occurrence or event.",
+      "designation": [
+        { "language": "fr-CA", "value": "Par sinistre" },
+        { "language": "es-MX", "value": "Por ocurrencia" }
+      ]
+    },
+    {
+      "code": "GAGG",
+      "display": "General Aggregate",
+      "definition": "The cumulative maximum payable across all occurrences during the policy period.",
+      "designation": [
+        { "language": "fr-CA", "value": "Agrégat général" },
+        { "language": "es-MX", "value": "Agregado general" }
+      ]
+    },
+    {
+      "code": "PAGG",
+      "display": "Products/Completed Operations Aggregate",
+      "definition": "The cumulative maximum payable for all products and completed operations claims during the policy period.",
+      "designation": [
+        { "language": "fr-CA", "value": "Agrégat produits/opérations complétées" },
+        { "language": "es-MX", "value": "Agregado de productos/operaciones completadas" }
+      ]
+    },
+    {
+      "code": "PADV",
+      "display": "Personal & Advertising Injury",
+      "definition": "The maximum payable per person or organization for personal and advertising injury.",
+      "designation": [
+        { "language": "fr-CA", "value": "Préjudice personnel et publicitaire" },
+        { "language": "es-MX", "value": "Daño personal y publicitario" }
+      ]
+    },
+    {
+      "code": "PRPN",
+      "display": "Per Person",
+      "definition": "The maximum payable for injuries to a single person in one occurrence.",
+      "designation": [
+        { "language": "fr-CA", "value": "Par personne" },
+        { "language": "es-MX", "value": "Por persona" }
+      ]
+    },
+    {
+      "code": "PACC",
+      "display": "Per Accident",
+      "definition": "The maximum payable for all injuries resulting from a single accident.",
+      "designation": [
+        { "language": "fr-CA", "value": "Par accident" },
+        { "language": "es-MX", "value": "Por accidente" }
+      ]
+    },
+    {
+      "code": "PDMG",
+      "display": "Property Damage",
+      "definition": "The maximum payable for damage to third-party property per occurrence.",
+      "designation": [
+        { "language": "fr-CA", "value": "Dommages matériels" },
+        { "language": "es-MX", "value": "Daños a la propiedad" }
+      ]
+    },
+    {
+      "code": "CSGL",
+      "display": "Combined Single Limit",
+      "definition": "A single amount covering both bodily injury and property damage for an occurrence, rather than separate sublimits.",
+      "designation": [
+        { "language": "fr-CA", "value": "Limite unique combinée" },
+        { "language": "es-MX", "value": "Límite único combinado" }
+      ]
+    },
+    {
+      "code": "MPMT",
+      "display": "Medical Payments",
+      "definition": "The maximum payable per person for medical expenses regardless of fault.",
+      "designation": [
+        { "language": "fr-CA", "value": "Frais médicaux" },
+        { "language": "es-MX", "value": "Pagos médicos" }
+      ]
+    },
+    {
+      "code": "UIMB",
+      "display": "Uninsured/Underinsured Motorist",
+      "definition": "The maximum payable when the at-fault party has insufficient or no coverage.",
+      "designation": [
+        { "language": "fr-CA", "value": "Automobiliste non assuré/sous-assuré" },
+        { "language": "es-MX", "value": "Motorista sin seguro/con seguro insuficiente" }
+      ]
+    },
+    {
+      "code": "DRPR",
+      "display": "Damage to Rented Premises",
+      "definition": "The maximum payable for the insured's liability for damage to a rented premises per occurrence.",
+      "designation": [
+        { "language": "fr-CA", "value": "Dommages aux locaux loués" },
+        { "language": "es-MX", "value": "Daño a instalaciones arrendadas" }
+      ]
+    },
+    {
+      "code": "EEMP",
+      "display": "Each Employee",
+      "definition": "The maximum payable per employee for work-related claims.",
+      "designation": [
+        { "language": "fr-CA", "value": "Par employé" },
+        { "language": "es-MX", "value": "Por empleado" }
+      ]
+    },
+    {
+      "code": "PLIM",
+      "display": "Policy Limit",
+      "definition": "The overall maximum payable under the entire policy for the term.",
+      "designation": [
+        { "language": "fr-CA", "value": "Limite de police" },
+        { "language": "es-MX", "value": "Límite de póliza" }
+      ]
+    },
+    {
+      "code": "DEEM",
+      "display": "Disease — Each Employee",
+      "definition": "The maximum payable per employee for occupational disease claims.",
+      "designation": [
+        { "language": "fr-CA", "value": "Maladie — Par employé" },
+        { "language": "es-MX", "value": "Enfermedad — Por empleado" }
+      ]
+    },
+    {
+      "code": "DAGG",
+      "display": "Disease — Policy Limit",
+      "definition": "The cumulative maximum payable for all occupational disease claims during the policy period.",
+      "designation": [
+        { "language": "fr-CA", "value": "Maladie — Limite de police" },
+        { "language": "es-MX", "value": "Enfermedad — Límite de póliza" }
+      ]
+    }
+  ]
+}

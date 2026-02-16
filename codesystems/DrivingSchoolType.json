@@ -1,0 +1,87 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "DrivingSchoolType",
+  "url": "https://bind.codes/DrivingSchoolType",
+  "name": "DrivingSchoolType",
+  "title": "Driving School Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Driving School Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CDPP",
+      "display": "Commercial Driving School - Private Passenger Vehicles",
+      "definition": "A commercial driving school that provides instruction for operating private passenger vehicles such as cars and light-duty vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "École de conduite commerciale - véhicules de tourisme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escuela de manejo comercial - vehículos de pasajeros privados"
+        }
+      ]
+    },
+    {
+      "code": "CDCV",
+      "display": "Commercial Driving School - Commercial Vehicles",
+      "definition": "A commercial driving school that provides instruction for operating commercial vehicles such as trucks, buses, and heavy equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "École de conduite commerciale - véhicules utilitaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escuela de manejo comercial - vehículos comerciales"
+        }
+      ]
+    },
+    {
+      "code": "EDDT",
+      "display": "School/College/University Driver Training Course",
+      "definition": "A driver training course offered by an educational institution such as a school, college, or university as part of their curriculum or continuing education programs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cours de conduite - école/cégep/université"
+        },
+        {
+          "language": "es-MX",
+          "value": "Curso de capacitación de conductores - escuela/colegio/universidad"
+        }
+      ]
+    },
+    {
+      "code": "PRIV",
+      "display": "Private Driver Training",
+      "definition": "Driver instruction provided by a private individual instructor who is not affiliated with a commercial driving school or educational institution.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formation de conduite privée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Capacitación de conducción privada"
+        }
+      ]
+    },
+    {
+      "code": "DEFN",
+      "display": "Defensive Driving Course",
+      "definition": "A specialized course focused on teaching defensive driving techniques to improve safety and reduce accidents.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cours de conduite défensive"
+        },
+        {
+          "language": "es-MX",
+          "value": "Curso de manejo defensivo"
+        }
+      ]
+    }
+  ]
+}

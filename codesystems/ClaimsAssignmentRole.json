@@ -1,0 +1,75 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ClaimsAssignmentRole",
+  "url": "https://bind.codes/ClaimsAssignmentRole",
+  "name": "ClaimsAssignmentRole",
+  "title": "Claims Assignment Role",
+  "status": "draft",
+  "language": "en",
+  "description": "Roles of parties assigned to handle or support a claim.",
+  "concept": [
+    {
+      "code": "ADJR",
+      "display": "Adjuster",
+      "definition": "The person responsible for investigating, evaluating, and settling the claim.",
+      "designation": [
+        { "language": "fr-CA", "value": "Expert en sinistres" },
+        { "language": "es-MX", "value": "Ajustador" }
+      ]
+    },
+    {
+      "code": "APPR",
+      "display": "Appraiser",
+      "definition": "A specialist who determines the value of damaged property or the scope of repairs.",
+      "designation": [
+        { "language": "fr-CA", "value": "Évaluateur" },
+        { "language": "es-MX", "value": "Perito valuador" }
+      ]
+    },
+    {
+      "code": "INVS",
+      "display": "Investigator",
+      "definition": "A person assigned to investigate the facts and circumstances of a claim, including potential fraud.",
+      "designation": [
+        { "language": "fr-CA", "value": "Enquêteur" },
+        { "language": "es-MX", "value": "Investigador" }
+      ]
+    },
+    {
+      "code": "DFCN",
+      "display": "Defense Counsel",
+      "definition": "An attorney engaged to defend the insured or carrier in litigation arising from the claim.",
+      "designation": [
+        { "language": "fr-CA", "value": "Avocat de la défense" },
+        { "language": "es-MX", "value": "Abogado defensor" }
+      ]
+    },
+    {
+      "code": "EXPT",
+      "display": "Expert / Consultant",
+      "definition": "A subject-matter specialist retained to provide technical opinions (engineering, medical, forensic, etc.).",
+      "designation": [
+        { "language": "fr-CA", "value": "Expert / Consultant" },
+        { "language": "es-MX", "value": "Experto / Consultor" }
+      ]
+    },
+    {
+      "code": "NCMG",
+      "display": "Nurse Case Manager",
+      "definition": "A nurse who coordinates medical treatment and return-to-work plans for injured claimants.",
+      "designation": [
+        { "language": "fr-CA", "value": "Infirmière gestionnaire de cas" },
+        { "language": "es-MX", "value": "Enfermera gestora de casos" }
+      ]
+    },
+    {
+      "code": "IADJ",
+      "display": "Independent Adjuster",
+      "definition": "An adjuster contracted from an outside firm rather than employed directly by the carrier.",
+      "designation": [
+        { "language": "fr-CA", "value": "Expert en sinistres indépendant" },
+        { "language": "es-MX", "value": "Ajustador independiente" }
+      ]
+    }
+  ]
+}

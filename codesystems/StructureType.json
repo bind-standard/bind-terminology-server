@@ -1,0 +1,597 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "StructureType",
+  "url": "https://bind.codes/StructureType",
+  "name": "StructureType",
+  "title": "Structure Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Structure Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "APTC",
+      "display": "Apartment/Co-op",
+      "definition": "A multi-unit residential building where units are either rented (apartment) or owned collectively by residents (co-operative).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Appartement/coopérative d'habitation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Apartamento/cooperativa"
+        }
+      ]
+    },
+    {
+      "code": "APTM",
+      "display": "Apartment including Mercantile",
+      "definition": "A multi-unit residential building that includes commercial retail space on the ground floor or within the structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Appartement incluant commerce"
+        },
+        {
+          "language": "es-MX",
+          "value": "Apartamento incluyendo comercio"
+        }
+      ]
+    },
+    {
+      "code": "APRT",
+      "display": "Apartment",
+      "definition": "A multi-unit residential building with individual dwelling units.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Appartement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Apartamento"
+        }
+      ]
+    },
+    {
+      "code": "BARN",
+      "display": "Barn",
+      "definition": "An agricultural structure used for storage of crops, equipment, or housing of livestock.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grange"
+        },
+        {
+          "language": "es-MX",
+          "value": "Granero"
+        }
+      ]
+    },
+    {
+      "code": "BOAT",
+      "display": "Boathouse",
+      "definition": "A structure built at the water's edge for storing boats and marine equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Abri à bateaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cobertizo para botes"
+        }
+      ]
+    },
+    {
+      "code": "BLDG",
+      "display": "Building",
+      "definition": "A general structure category when the specific type is not determined or applicable.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bâtiment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Edificio"
+        }
+      ]
+    },
+    {
+      "code": "CHKN",
+      "display": "Chicken Coop",
+      "definition": "A small agricultural structure for housing chickens and collecting eggs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poulailler"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gallinero"
+        }
+      ]
+    },
+    {
+      "code": "COTG",
+      "display": "Cottage",
+      "definition": "A seasonal or secondary residence, typically located in a rural or recreational area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chalet"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cabaña"
+        }
+      ]
+    },
+    {
+      "code": "DTCH",
+      "display": "Detached",
+      "definition": "A single-family dwelling that stands alone and does not share walls with other structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Isolée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Independiente"
+        }
+      ]
+    },
+    {
+      "code": "DWEL",
+      "display": "Dwelling",
+      "definition": "A general residential structure used for habitation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Habitation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vivienda"
+        }
+      ]
+    },
+    {
+      "code": "DPLX",
+      "display": "Duplex",
+      "definition": "A residential building divided into two separate dwelling units, either side-by-side or stacked.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Duplex"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dúplex"
+        }
+      ]
+    },
+    {
+      "code": "FOLD",
+      "display": "Folding Home",
+      "definition": "A prefabricated structure with collapsible walls designed for easy transport and assembly.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Habitation pliable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casa plegable"
+        }
+      ]
+    },
+    {
+      "code": "GARG",
+      "display": "Garage",
+      "definition": "A structure for parking and storing vehicles, either attached or detached from the main dwelling.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Garaje"
+        }
+      ]
+    },
+    {
+      "code": "GRNH",
+      "display": "Greenhouse",
+      "definition": "A climate-controlled structure with transparent walls for growing plants year-round.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Serre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Invernadero"
+        }
+      ]
+    },
+    {
+      "code": "HIRS",
+      "display": "High Rise",
+      "definition": "A tall multi-story residential building, typically exceeding six stories in height.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tour d'habitation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Edificio alto"
+        }
+      ]
+    },
+    {
+      "code": "LORS",
+      "display": "Low Rise",
+      "definition": "A multi-unit residential building with fewer than six stories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Petit immeuble"
+        },
+        {
+          "language": "es-MX",
+          "value": "Edificio bajo"
+        }
+      ]
+    },
+    {
+      "code": "MODL",
+      "display": "Modular Home",
+      "definition": "A prefabricated dwelling constructed in factory-built sections and assembled on-site.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Préfabriqué en modules"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casa modular"
+        }
+      ]
+    },
+    {
+      "code": "MOBL",
+      "display": "Mobile Home",
+      "definition": "A factory-built dwelling designed to be transported on its own chassis to a permanent or semi-permanent location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maison mobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casa móvil"
+        }
+      ]
+    },
+    {
+      "code": "MINI",
+      "display": "Mini Home",
+      "definition": "A small, single-unit prefabricated dwelling completed in the factory and delivered as a single piece.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Préfabriqué une pièce (fini en usine)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Minicasa"
+        }
+      ]
+    },
+    {
+      "code": "MULX",
+      "display": "Multi-plex (4 units or more)",
+      "definition": "A residential building containing four or more separate dwelling units.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Multiplex (4 habitations ou plus)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Múltiplex (4 unidades o más)"
+        }
+      ]
+    },
+    {
+      "code": "VLOT",
+      "display": "Open Lot",
+      "definition": "An undeveloped parcel of land without permanent structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrain"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terreno"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "A structure type not covered by other specific categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "PCUT",
+      "display": "Pre-Cut Home",
+      "definition": "A dwelling assembled from pre-cut lumber components delivered to the building site for assembly.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maison à éléments prédécoupés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casa de madera precortada"
+        }
+      ]
+    },
+    {
+      "code": "PFAB",
+      "display": "Pre-fabricated - Unspecified",
+      "definition": "A factory-built dwelling of unspecified construction method or design.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Préfabriqué (non spécifié)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Prefabricada (no especificada)"
+        }
+      ]
+    },
+    {
+      "code": "PANL",
+      "display": "Panelized Home",
+      "definition": "A prefabricated dwelling constructed from factory-built wall panels assembled on-site.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Préfabriqué en panneaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casa de paneles"
+        }
+      ]
+    },
+    {
+      "code": "ROWH",
+      "display": "Row House - Unspecified",
+      "definition": "A dwelling in a continuous row of identical homes sharing side walls, with unspecified end or middle position.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maison en rangée - Non spécifiée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casa adosada - No especificada"
+        }
+      ]
+    },
+    {
+      "code": "SUGR",
+      "display": "Sugar Camp",
+      "definition": "A seasonal structure used for maple syrup production, typically containing evaporators and storage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cabane à sucre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cabaña de jarabe de arce"
+        }
+      ]
+    },
+    {
+      "code": "SEMI",
+      "display": "Semi-detached",
+      "definition": "A dwelling that shares one common wall with another dwelling but is otherwise independent.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Semi-détaché"
+        },
+        {
+          "language": "es-MX",
+          "value": "Semi-independiente"
+        }
+      ]
+    },
+    {
+      "code": "SERV",
+      "display": "Servant's Quarters",
+      "definition": "A separate or attached dwelling unit designated for domestic staff accommodation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chambres des domestiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cuartos de servicio"
+        }
+      ]
+    },
+    {
+      "code": "STOR",
+      "display": "Storage",
+      "definition": "A structure primarily used for storing goods, equipment, or materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Espace de rangement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Almacenamiento"
+        }
+      ]
+    },
+    {
+      "code": "STBL",
+      "display": "Stable",
+      "definition": "An agricultural structure designed for housing horses or other equine animals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Étable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Establo"
+        }
+      ]
+    },
+    {
+      "code": "TOWN",
+      "display": "Town House - Unspecified",
+      "definition": "A multi-story dwelling sharing walls with adjacent units, with unspecified end or middle position.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maison en rangée - non spécifiée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casa urbana - No especificada"
+        }
+      ]
+    },
+    {
+      "code": "TRLR",
+      "display": "Trailer (Stationary)",
+      "definition": "A mobile dwelling unit permanently placed and anchored at a fixed location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque (stationnaire)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque (estacionario)"
+        }
+      ]
+    },
+    {
+      "code": "TOOL",
+      "display": "Toolshed",
+      "definition": "A small outbuilding for storing tools, garden equipment, and supplies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remise à outils"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cobertizo de herramientas"
+        }
+      ]
+    },
+    {
+      "code": "TRPX",
+      "display": "Triplex",
+      "definition": "A residential building divided into three separate dwelling units.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Triplex"
+        },
+        {
+          "language": "es-MX",
+          "value": "Triplex"
+        }
+      ]
+    },
+    {
+      "code": "COND",
+      "display": "Condominium",
+      "definition": "A multi-unit dwelling where individuals own their units and share ownership of common areas.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copropriété"
+        },
+        {
+          "language": "es-MX",
+          "value": "Condominio"
+        }
+      ]
+    },
+    {
+      "code": "BNGL",
+      "display": "Bungalow",
+      "definition": "A single-story detached dwelling with all living spaces on one level.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bungalow"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bungaló"
+        }
+      ]
+    },
+    {
+      "code": "SHED",
+      "display": "Shed",
+      "definition": "A small outbuilding for general storage purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cobertizo"
+        }
+      ]
+    },
+    {
+      "code": "SHOP",
+      "display": "Workshop",
+      "definition": "A structure equipped for mechanical work, repairs, or manufacturing activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Atelier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Taller"
+        }
+      ]
+    }
+  ]
+}

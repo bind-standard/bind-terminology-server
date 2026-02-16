@@ -1,0 +1,131 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TaxExemptEntity",
+  "url": "https://bind.codes/TaxExemptEntity",
+  "name": "TaxExemptEntity",
+  "title": "Tax Exempt Entity",
+  "status": "draft",
+  "language": "en",
+  "description": "Tax Exempt Entity codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CA:NTIN",
+      "display": "Native/Indian",
+      "definition": "Individual who is a member of a recognized Indigenous nation or Indian band and may be exempt from certain taxes under the Indian Act or other legislation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autochtone/Indien"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nativo/Indígena"
+        }
+      ]
+    },
+    {
+      "code": "CA:NTBN",
+      "display": "Native/Indian Band",
+      "definition": "A recognized Indigenous band or First Nation community that holds collective rights and may have tax-exempt status under Canadian law.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bande autochtone/indienne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Banda nativa/indígena"
+        }
+      ]
+    },
+    {
+      "code": "CA:NBEE",
+      "display": "Native/Band-empowered entity",
+      "definition": "An organization or entity established and authorized by an Indigenous band to conduct business or provide services on behalf of the band.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entité mandatée par une bande autochtone"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entidad autorizada por banda nativa"
+        }
+      ]
+    },
+    {
+      "code": "DIPL",
+      "display": "Diplomatic Status",
+      "definition": "Individual or organization with diplomatic immunity or privileges under international law, which may include exemption from certain taxes and duties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Statut diplomatique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estatus diplomático"
+        }
+      ]
+    },
+    {
+      "code": "CLGY",
+      "display": "Clergy",
+      "definition": "Member of the clergy or religious official who may be eligible for tax exemptions related to their religious duties and residence.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clergé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clero"
+        }
+      ]
+    },
+    {
+      "code": "CHRG",
+      "display": "Registered Charity",
+      "definition": "Organization registered as a charitable entity with tax authorities and eligible for tax-exempt status on qualifying activities and donations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Organisme de bienfaisance enregistré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Organización benéfica registrada"
+        }
+      ]
+    },
+    {
+      "code": "GOVN",
+      "display": "Government Entity",
+      "definition": "Government department, agency, or Crown corporation that is exempt from certain taxes by virtue of its governmental status.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entité gouvernementale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entidad gubernamental"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

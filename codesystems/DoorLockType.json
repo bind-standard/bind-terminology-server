@@ -1,0 +1,235 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "DoorLockType",
+  "url": "https://bind.codes/DoorLockType",
+  "name": "DoorLockType",
+  "title": "Door Lock Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Door Lock Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "COMB",
+      "display": "Combination Lock",
+      "definition": "A lock mechanism that opens using a specific sequence of numbers or symbols rather than a physical key.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Serrure à combinaison"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cerradura de combinación"
+        }
+      ]
+    },
+    {
+      "code": "PINT",
+      "display": "Pin Tumbler",
+      "definition": "A lock mechanism using a set of pins of varying lengths to prevent the lock from opening without the correct key.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Serrure à goupilles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cerradura de cilindro de pines"
+        }
+      ]
+    },
+    {
+      "code": "RELK",
+      "display": "Re-locking Device",
+      "definition": "A secondary locking mechanism that automatically engages if the primary lock is tampered with or forced.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dispositif de reverrouillage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dispositivo de rebloqueo"
+        }
+      ]
+    },
+    {
+      "code": "SKEY",
+      "display": "Single Key",
+      "definition": "A lock system where one key operates the lock mechanism.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clé maîtresse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Llave única"
+        }
+      ]
+    },
+    {
+      "code": "MKEY",
+      "display": "Multiple Keys",
+      "definition": "A lock system requiring more than one key or operated by multiple different keys.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clés multiples"
+        },
+        {
+          "language": "es-MX",
+          "value": "Llaves múltiples"
+        }
+      ]
+    },
+    {
+      "code": "DBSC",
+      "display": "Dead Bolt - Single Cylinder",
+      "definition": "A bolt lock that extends into the door frame using a key from one side and a thumb turn from the other side.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À pêne dormant - barillet simple"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cerrojo - cilindro simple"
+        }
+      ]
+    },
+    {
+      "code": "ELEC",
+      "display": "Electronic Lock",
+      "definition": "A lock mechanism that operates through electronic means such as keypads, cards, or biometric readers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Serrure électronique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cerradura electrónica"
+        }
+      ]
+    },
+    {
+      "code": "DBDC",
+      "display": "Dead Bolt - Double Cylinder",
+      "definition": "A bolt lock that extends into the door frame requiring a key to operate from both sides.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À pêne dormant - barillet double"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cerrojo - cilindro doble"
+        }
+      ]
+    },
+    {
+      "code": "KYCB",
+      "display": "Key and Combination Lock",
+      "definition": "A dual-security lock mechanism requiring both a physical key and a numeric combination to open.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Serrure - clé et combinaison"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cerradura de llave y combinación"
+        }
+      ]
+    },
+    {
+      "code": "SFRD",
+      "display": "Standard Front Reading Dial",
+      "definition": "A dial-based combination lock where the numbers are read from the front face of the dial.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cadran de lecture frontal standard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dial de lectura frontal estándar"
+        }
+      ]
+    },
+    {
+      "code": "SPYD",
+      "display": "Spyproof Dial",
+      "definition": "A dial-based combination lock designed with features to prevent observation or detection of the combination while being dialed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cadran anti-espionnage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dial a prueba de espionaje"
+        }
+      ]
+    },
+    {
+      "code": "SMRT",
+      "display": "Smart Lock",
+      "definition": "A lock mechanism that can be controlled remotely through mobile devices or integrated with home automation systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Serrure intelligente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cerradura inteligente"
+        }
+      ]
+    },
+    {
+      "code": "BIOM",
+      "display": "Biometric Lock",
+      "definition": "A lock mechanism that uses unique biological characteristics such as fingerprints, retina patterns, or facial recognition for access.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Serrure biométrique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cerradura biométrica"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

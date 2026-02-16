@@ -1,0 +1,75 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "AdditionalInterestRole",
+  "url": "https://bind.codes/AdditionalInterestRole",
+  "name": "AdditionalInterestRole",
+  "title": "Additional Interest Role",
+  "status": "draft",
+  "language": "en",
+  "description": "Roles of additional interested parties who have a financial or contractual interest in a policy.",
+  "concept": [
+    {
+      "code": "MTGE",
+      "display": "Mortgagee",
+      "definition": "A lender holding a mortgage on real property who is entitled to notice of cancellation and claim payments for property damage.",
+      "designation": [
+        { "language": "fr-CA", "value": "Créancier hypothécaire" },
+        { "language": "es-MX", "value": "Acreedor hipotecario" }
+      ]
+    },
+    {
+      "code": "LSPY",
+      "display": "Loss Payee",
+      "definition": "A party entitled to receive claim payments for loss or damage to personal property in which they hold a financial interest.",
+      "designation": [
+        { "language": "fr-CA", "value": "Bénéficiaire de sinistre" },
+        { "language": "es-MX", "value": "Beneficiario de pérdida" }
+      ]
+    },
+    {
+      "code": "ADIN",
+      "display": "Additional Insured",
+      "definition": "A party added to the policy as an insured, typically by endorsement, receiving coverage under the policy's liability section.",
+      "designation": [
+        { "language": "fr-CA", "value": "Assuré additionnel" },
+        { "language": "es-MX", "value": "Asegurado adicional" }
+      ]
+    },
+    {
+      "code": "CRHL",
+      "display": "Certificate Holder",
+      "definition": "A party who receives a certificate of coverage as evidence that a policy is in force, but who may not have coverage rights.",
+      "designation": [
+        { "language": "fr-CA", "value": "Titulaire de certificat" },
+        { "language": "es-MX", "value": "Titular del certificado" }
+      ]
+    },
+    {
+      "code": "LNHL",
+      "display": "Lienholder",
+      "definition": "A party holding a security interest in personal property (e.g., a vehicle lender) entitled to notice and claim payments.",
+      "designation": [
+        { "language": "fr-CA", "value": "Titulaire de privilège" },
+        { "language": "es-MX", "value": "Titular de gravamen" }
+      ]
+    },
+    {
+      "code": "LSSR",
+      "display": "Lessor",
+      "definition": "The owner of leased property who retains a financial interest in the asset.",
+      "designation": [
+        { "language": "fr-CA", "value": "Bailleur" },
+        { "language": "es-MX", "value": "Arrendador" }
+      ]
+    },
+    {
+      "code": "TRST",
+      "display": "Trustee",
+      "definition": "A fiduciary holding property in trust who has an interest in maintaining coverage on the trust assets.",
+      "designation": [
+        { "language": "fr-CA", "value": "Fiduciaire" },
+        { "language": "es-MX", "value": "Fideicomisario" }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
-  "id": "company",
-  "url": "https://bind.codes/company",
+  "id": "Company",
+  "url": "https://bind.codes/Company",
   "name": "Company",
   "title": "Company",
   "status": "draft",
@@ -11,10 +11,13 @@
     {
       "code": "ABI",
       "display": "Promutuel L'Abitibienne",
-      "definition": "Promutuel L'Abitibienne — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel L'Abitibienne"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel L'Abitibienne"
         }
       ]
@@ -22,21 +25,27 @@
     {
       "code": "ABS",
       "display": "Abstainers",
-      "definition": "Abstainers — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Abstainers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Absteiners"
         }
       ]
     },
     {
-      "code": "ACAS",
+      "code": "CA:ACAS",
       "display": "Aetna Canadian C & S",
-      "definition": "Aetna Canadian C & S — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Aetna Canadian C & S"
+        },
+        {
+          "language": "es-MX",
           "value": "Aetna Canadian C & S"
         }
       ]
@@ -44,10 +53,13 @@
     {
       "code": "ACEIN",
       "display": "ACE INA Insurance",
-      "definition": "ACE INA Insurance — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "ACE INA Insurance"
+        },
+        {
+          "language": "es-MX",
           "value": "ACE INA Insurance"
         }
       ]
@@ -55,10 +67,13 @@
     {
       "code": "AEG",
       "display": "Aegon (UK)",
-      "definition": "Aegon (UK) — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Aegon (UK)"
+        },
+        {
+          "language": "es-MX",
           "value": "Aegon (UK)"
         }
       ]
@@ -66,10 +81,13 @@
     {
       "code": "AET",
       "display": "Aetna Casualty (Laurentian)",
-      "definition": "Aetna Casualty (Laurentian) — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Aetna Casualty (Laurentian)"
+        },
+        {
+          "language": "es-MX",
           "value": "Aetna Casualty (Laurentian)"
         }
       ]
@@ -77,21 +95,27 @@
     {
       "code": "AETN",
       "display": "Aetna Ins.(CIGNA)",
-      "definition": "Aetna Ins.(CIGNA) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Aetna Ins. (CIGNA)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aetna Ins.(CIGNA)"
         }
       ]
     },
     {
       "code": "AFM",
       "display": "Antigonish Farmers' Mutual",
-      "definition": "Antigonish Farmers' Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Antigonish Farmers' Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Antigonish Farmers' Mutual"
         }
       ]
@@ -99,10 +123,13 @@
     {
       "code": "AG",
       "display": "Advocate General",
-      "definition": "Advocate General — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Advocate General"
+        },
+        {
+          "language": "es-MX",
           "value": "Advocate General"
         }
       ]
@@ -110,32 +137,41 @@
     {
       "code": "AGR",
       "display": "Allianz Global Risks US Insurance Company",
-      "definition": "Allianz Global Risks US Insurance Company — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Compagnie d'assurance Allianz risques mondiaux E. U."
+        },
+        {
+          "language": "es-MX",
+          "value": "Allianz Global Risks US Insurance Company"
         }
       ]
     },
     {
       "code": "AIM",
       "display": "Amherst Island Mutual",
-      "definition": "Amherst Island Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Amherst Island"
+        },
+        {
+          "language": "es-MX",
+          "value": "Amherst Island Mutual"
         }
       ]
     },
     {
       "code": "ALB",
       "display": "Albion",
-      "definition": "Albion — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Albion"
+        },
+        {
+          "language": "es-MX",
           "value": "Albion"
         }
       ]
@@ -143,21 +179,27 @@
     {
       "code": "ALG",
       "display": "Algoma Mutual",
-      "definition": "Algoma Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Algoma"
+        },
+        {
+          "language": "es-MX",
+          "value": "Algoma Mutual"
         }
       ]
     },
     {
       "code": "ALH",
       "display": "L'Alpha",
-      "definition": "L'Alpha — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "L'Alpha"
+        },
+        {
+          "language": "es-MX",
           "value": "L'Alpha"
         }
       ]
@@ -165,10 +207,13 @@
     {
       "code": "ALL",
       "display": "Allstate",
-      "definition": "Allstate — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Allstate"
+        },
+        {
+          "language": "es-MX",
           "value": "Allstate"
         }
       ]
@@ -176,10 +221,13 @@
     {
       "code": "ALP",
       "display": "Alpina",
-      "definition": "Alpina — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Alpina"
+        },
+        {
+          "language": "es-MX",
           "value": "Alpina"
         }
       ]
@@ -187,21 +235,27 @@
     {
       "code": "ALZ",
       "display": "Allianz",
-      "definition": "Allianz — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Allianz"
+        },
+        {
+          "language": "es-MX",
           "value": "Allianz"
         }
       ]
     },
     {
-      "code": "AMA",
+      "code": "CA:AMA",
       "display": "Alberta Motor",
-      "definition": "Alberta Motor — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Alberta Motor"
+        },
+        {
+          "language": "es-MX",
           "value": "Alberta Motor"
         }
       ]
@@ -209,10 +263,13 @@
     {
       "code": "AMH",
       "display": "American Home",
-      "definition": "American Home — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "American Home"
+        },
+        {
+          "language": "es-MX",
           "value": "American Home"
         }
       ]
@@ -220,10 +277,13 @@
     {
       "code": "AMM",
       "display": "American Mutual",
-      "definition": "American Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "American Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "American Mutual"
         }
       ]
@@ -231,10 +291,13 @@
     {
       "code": "AMR",
       "display": "American Road",
-      "definition": "American Road — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "American Road"
+        },
+        {
+          "language": "es-MX",
           "value": "American Road"
         }
       ]
@@ -242,10 +305,13 @@
     {
       "code": "ANAT",
       "display": "Assurnat",
-      "definition": "Assurnat — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Assurnat"
+        },
+        {
+          "language": "es-MX",
           "value": "Assurnat"
         }
       ]
@@ -253,10 +319,13 @@
     {
       "code": "ANG",
       "display": "Anglo-Gibraltar",
-      "definition": "Anglo-Gibraltar — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Anglo-Gibraltar"
+        },
+        {
+          "language": "es-MX",
           "value": "Anglo-Gibraltar"
         }
       ]
@@ -264,21 +333,27 @@
     {
       "code": "APP",
       "display": "Promutuel Appalaches-St-François",
-      "definition": "Promutuel Appalaches-St-François — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel Appalaches-St-François"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel Appalaches-St-François"
         }
       ]
     },
     {
-      "code": "APR",
+      "code": "CA:APR",
       "display": "APRIL Canada Inc.",
-      "definition": "APRIL Canada Inc. — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "APRIL Canada Inc."
+        },
+        {
+          "language": "es-MX",
           "value": "APRIL Canada Inc."
         }
       ]
@@ -286,21 +361,27 @@
     {
       "code": "ARC",
       "display": "Arch Insurance Company Ltd.",
-      "definition": "Arch Insurance Company Ltd. — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Compagnie d’assurance Arch Ltée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arch Insurance Company Ltd."
         }
       ]
     },
     {
       "code": "ASC",
       "display": "Ascentus",
-      "definition": "Ascentus — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Ascentus"
+        },
+        {
+          "language": "es-MX",
           "value": "Ascentus"
         }
       ]
@@ -308,21 +389,27 @@
     {
       "code": "ASN",
       "display": "Ass. Nationale (National Ins.)",
-      "definition": "Ass. Nationale (National Ins.) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Ass. Nationale (National Ins.)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ass. Nacional (National Ins.)"
         }
       ]
     },
     {
       "code": "ATL",
       "display": "Atlantic",
-      "definition": "Atlantic — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Atlantic"
+        },
+        {
+          "language": "es-MX",
           "value": "Atlantic"
         }
       ]
@@ -330,10 +417,13 @@
     {
       "code": "AXA",
       "display": "AXA",
-      "definition": "AXA — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "AXA"
+        },
+        {
+          "language": "es-MX",
           "value": "AXA"
         }
       ]
@@ -341,10 +431,13 @@
     {
       "code": "AXL",
       "display": "AXA XL",
-      "definition": "AXA XL — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "AXA XL"
+        },
+        {
+          "language": "es-MX",
           "value": "AXA XL"
         }
       ]
@@ -352,21 +445,27 @@
     {
       "code": "AYR",
       "display": "Ayr Mutual",
-      "definition": "Ayr Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Ayr"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ayr Mutual"
         }
       ]
     },
     {
       "code": "BAG",
       "display": "Promutuel Bagot",
-      "definition": "Promutuel Bagot — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel Bagot"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel Bagot"
         }
       ]
@@ -374,21 +473,27 @@
     {
       "code": "BCAA",
       "display": "BCAA",
-      "definition": "BCAA — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "BCAA"
+        },
+        {
+          "language": "es-MX",
           "value": "BCAA"
         }
       ]
     },
     {
-      "code": "BCIC",
+      "code": "CA:BCIC",
       "display": "British Columbia",
-      "definition": "British Columbia — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "British Columbia"
+        },
+        {
+          "language": "es-MX",
           "value": "British Columbia"
         }
       ]
@@ -396,65 +501,83 @@
     {
       "code": "BCM",
       "display": "Bertie & Clinton Mutual",
-      "definition": "Bertie & Clinton Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Bertie & Clinton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bertie & Clinton Mutual"
         }
       ]
     },
     {
       "code": "BEA",
       "display": "Promutuel du Saint-Laurent aux Appalaches (formerly Promutuel Beauce-Etchemins)",
-      "definition": "Promutuel du Saint-Laurent aux Appalaches (formerly Promutuel Beauce-Etchemins) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel du Saint-Laurent aux Appalaches (anciennement Promutuel Beauce-Etchemins)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel del Saint-Laurent aux Appalaches (formerly Promutuel Beauce-Etchemins)"
         }
       ]
     },
     {
       "code": "BEH",
       "display": "Promutuel Haut St-Laurent (formerly Beauharnois Mutual)",
-      "definition": "Promutuel Haut St-Laurent (formerly Beauharnois Mutual) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel Haut St-Laurent (anciennement Beauharnois Mutual)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel Haut St-Laurent (formerly Beauharnois Mutual)"
         }
       ]
     },
     {
       "code": "BEL",
       "display": "BELAIRdirect / Belair",
-      "definition": "BELAIRdirect / Belair — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "BÉLAIRdirect / Bélair"
+        },
+        {
+          "language": "es-MX",
+          "value": "BELAIRdirect / Belair"
         }
       ]
     },
     {
       "code": "BEM",
       "display": "Promutuel Côte-Sud (formerly Promutuel Bellechasse Lévis)",
-      "definition": "Promutuel Côte-Sud (formerly Promutuel Bellechasse Lévis) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel Côte-Sud (anciennement Promutuel Bellechasse Lévis)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel Côte-Sud (formerly Promutuel Bellechasse Lévis)"
         }
       ]
     },
     {
       "code": "BEO",
       "display": "Beothic General",
-      "definition": "Beothic General — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Beothic General"
+        },
+        {
+          "language": "es-MX",
           "value": "Beothic General"
         }
       ]
@@ -462,10 +585,13 @@
     {
       "code": "BEN",
       "display": "Beneva Insurance",
-      "definition": "Beneva Insurance — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Beneva Insurance"
+        },
+        {
+          "language": "es-MX",
           "value": "Beneva Insurance"
         }
       ]
@@ -473,21 +599,27 @@
     {
       "code": "BIC",
       "display": "Promutuel de l'Est (formerly Mutuelle Bic)",
-      "definition": "Promutuel de l'Est (formerly Mutuelle Bic) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel de l'Est (anciennement Mutuelle Bic)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel de l'Est (formerly Mutuelle Bic)"
         }
       ]
     },
     {
       "code": "BII",
       "display": "Boiler Inspection & Insurance",
-      "definition": "Boiler Inspection & Insurance — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Boiler Inspection & Insurance"
+        },
+        {
+          "language": "es-MX",
           "value": "Boiler Inspection & Insurance"
         }
       ]
@@ -495,10 +627,13 @@
     {
       "code": "BKF",
       "display": "American Bankers of Florida",
-      "definition": "American Bankers of Florida — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "American Bankers of Florida"
+        },
+        {
+          "language": "es-MX",
           "value": "American Bankers of Florida"
         }
       ]
@@ -506,54 +641,69 @@
     {
       "code": "BLAN",
       "display": "Blanchard Mutual",
-      "definition": "Blanchard Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Blanchard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Blanchard Mutual"
         }
       ]
     },
     {
       "code": "BOI",
       "display": "Promutuel Les Bâtisseurs (formerly Promutuel Bois-Francs)",
-      "definition": "Promutuel Les Bâtisseurs (formerly Promutuel Bois-Francs) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel Les Bâtisseurs (anciennement Promutuel Bois-Francs)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel Les Bâtisseurs (formerly Promutuel Bois-Francs)"
         }
       ]
     },
     {
       "code": "BOR",
       "display": "Boreal",
-      "definition": "Boreal — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Boréal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Boreal"
         }
       ]
     },
     {
       "code": "BOREA",
       "display": "Promutuel Assurance ALTA (formerly Promutuel Boreale)",
-      "definition": "Promutuel Assurance ALTA (formerly Promutuel Boreale) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel Assurance ALTA (anciennement Promutuel Boreale)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel Assurance ALTA (formerly Promutuel Boreale)"
         }
       ]
     },
     {
       "code": "BOUC",
       "display": "Bouclier Laurentien",
-      "definition": "Bouclier Laurentien — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Bouclier Laurentien"
+        },
+        {
+          "language": "es-MX",
           "value": "Bouclier Laurentien"
         }
       ]
@@ -561,10 +711,13 @@
     {
       "code": "BQM",
       "display": "Bay of Quinte Mutual",
-      "definition": "Bay of Quinte Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Bay of Quinte Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Bay of Quinte Mutual"
         }
       ]
@@ -572,10 +725,13 @@
     {
       "code": "BRANT",
       "display": "Brant Mutual",
-      "definition": "Brant Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Brant Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Brant Mutual"
         }
       ]
@@ -583,10 +739,13 @@
     {
       "code": "CAA",
       "display": "CAA",
-      "definition": "CAA — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "CAA"
+        },
+        {
+          "language": "es-MX",
           "value": "CAA"
         }
       ]
@@ -594,10 +753,13 @@
     {
       "code": "CAB",
       "display": "Cabot",
-      "definition": "Cabot — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Cabot"
+        },
+        {
+          "language": "es-MX",
           "value": "Cabot"
         }
       ]
@@ -605,21 +767,27 @@
     {
       "code": "CALF",
       "display": "Calvert Fire",
-      "definition": "Calvert Fire — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Calvert Fire"
+        },
+        {
+          "language": "es-MX",
           "value": "Calvert Fire"
         }
       ]
     },
     {
-      "code": "CAMIM",
+      "code": "CA:CAMIM",
       "display": "Canadian Millers Mutual",
-      "definition": "Canadian Millers Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Canadian Millers Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Canadian Millers Mutual"
         }
       ]
@@ -627,54 +795,69 @@
     {
       "code": "CAN",
       "display": "Canassurance",
-      "definition": "Canassurance — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Canassurance"
+        },
+        {
+          "language": "es-MX",
           "value": "Canassurance"
         }
       ]
     },
     {
-      "code": "CANA",
+      "code": "CA:CANA",
       "display": "Canada A & F",
-      "definition": "Canada A & F — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Canada A & F"
+        },
+        {
+          "language": "es-MX",
           "value": "Canada A & F"
         }
       ]
     },
     {
-      "code": "CANL",
+      "code": "CA:CANL",
       "display": "Primmum (formerly Canada Life Casualty)",
-      "definition": "Primmum (formerly Canada Life Casualty) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Primmum (anciennement Canada-Vie)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Primmum (formerly Canada Life Casualty)"
         }
       ]
     },
     {
       "code": "CANN",
       "display": "Canners Exchange",
-      "definition": "Canners Exchange — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Canners Exchange"
+        },
+        {
+          "language": "es-MX",
           "value": "Canners Exchange"
         }
       ]
     },
     {
-      "code": "CANW",
+      "code": "CA:CANW",
       "display": "Canada West",
-      "definition": "Canada West — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Canada West"
+        },
+        {
+          "language": "es-MX",
           "value": "Canada West"
         }
       ]
@@ -682,10 +865,13 @@
     {
       "code": "CAP",
       "display": "La Capitale",
-      "definition": "La Capitale — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "La Capitale"
+        },
+        {
+          "language": "es-MX",
           "value": "La Capitale"
         }
       ]
@@ -693,10 +879,13 @@
     {
       "code": "CARL",
       "display": "Carleton Mutual",
-      "definition": "Carleton Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Carleton Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Carleton Mutual"
         }
       ]
@@ -704,10 +893,13 @@
     {
       "code": "CAS",
       "display": "Casualty",
-      "definition": "Casualty — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Casualty"
+        },
+        {
+          "language": "es-MX",
           "value": "Casualty"
         }
       ]
@@ -715,21 +907,27 @@
     {
       "code": "CAY",
       "display": "Cayuga Mutual",
-      "definition": "Cayuga Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Cayuga Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Cayuga Mutual"
         }
       ]
     },
     {
-      "code": "CC",
+      "code": "CA:CC",
       "display": "Canadian Commerce",
-      "definition": "Canadian Commerce — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Canadian Commerce"
+        },
+        {
+          "language": "es-MX",
           "value": "Canadian Commerce"
         }
       ]
@@ -737,32 +935,41 @@
     {
       "code": "CCICO",
       "display": "Continental Insurance Company",
-      "definition": "Continental Insurance Company — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Continental Insurance Company"
+        },
+        {
+          "language": "es-MX",
           "value": "Continental Insurance Company"
         }
       ]
     },
     {
-      "code": "CCINC",
+      "code": "CA:CCINC",
       "display": "Continental Insurance Company of Canada Inc.",
-      "definition": "Continental Insurance Company of Canada Inc. — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Continental Insurance Company du Canada Inc."
+        },
+        {
+          "language": "es-MX",
+          "value": "Continental Insurance Company of Canada Inc."
         }
       ]
     },
     {
       "code": "CCLTD",
       "display": "Continental Insurance Ltd.",
-      "definition": "Continental Insurance Ltd. — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Continental Insurance Ltd."
+        },
+        {
+          "language": "es-MX",
           "value": "Continental Insurance Ltd."
         }
       ]
@@ -770,21 +977,27 @@
     {
       "code": "CDES",
       "display": "Caisses Desjardins",
-      "definition": "Caisses Desjardins — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Caisses Desjardins"
+        },
+        {
+          "language": "es-MX",
           "value": "Caisses Desjardins"
         }
       ]
     },
     {
-      "code": "CDI",
+      "code": "CA:CDI",
       "display": "Canadian Direct",
-      "definition": "Canadian Direct — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Canadian Direct"
+        },
+        {
+          "language": "es-MX",
           "value": "Canadian Direct"
         }
       ]
@@ -792,21 +1005,27 @@
     {
       "code": "CENT",
       "display": "Century",
-      "definition": "Century — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Century"
+        },
+        {
+          "language": "es-MX",
           "value": "Century"
         }
       ]
     },
     {
-      "code": "CG",
+      "code": "CA:CG",
       "display": "Canadian General",
-      "definition": "Canadian General — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Canadian General"
+        },
+        {
+          "language": "es-MX",
           "value": "Canadian General"
         }
       ]
@@ -814,10 +1033,13 @@
     {
       "code": "CGUI",
       "display": "Aviva",
-      "definition": "Aviva — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Aviva"
+        },
+        {
+          "language": "es-MX",
           "value": "Aviva"
         }
       ]
@@ -825,43 +1047,55 @@
     {
       "code": "CHAPP",
       "display": "Promutuel du Saint-Laurent aux Appalaches",
-      "definition": "Promutuel du Saint-Laurent aux Appalaches — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel du Saint-Laurent aux Appalaches"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel del Saint-Laurent aux Appalaches"
         }
       ]
     },
     {
       "code": "CHAT",
       "display": "Chateau",
-      "definition": "Chateau — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Château"
+        },
+        {
+          "language": "es-MX",
+          "value": "Chateau"
         }
       ]
     },
     {
       "code": "CHL",
       "display": "Promutuel Charlevoix-Montmorency",
-      "definition": "Promutuel Charlevoix-Montmorency — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel Charlevoix-Montmorency"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel Charlevoix-Montmorency"
         }
       ]
     },
     {
-      "code": "CHM",
+      "code": "CA:CHM",
       "display": "Canadian Home",
-      "definition": "Canadian Home — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Canadian Home"
+        },
+        {
+          "language": "es-MX",
           "value": "Canadian Home"
         }
       ]
@@ -869,10 +1103,13 @@
     {
       "code": "CHR",
       "display": "DaimlerChrysler",
-      "definition": "DaimlerChrysler — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "DaimlerChrysler"
+        },
+        {
+          "language": "es-MX",
           "value": "DaimlerChrysler"
         }
       ]
@@ -880,21 +1117,27 @@
     {
       "code": "CHUB",
       "display": "Chubb",
-      "definition": "Chubb — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Chubb"
+        },
+        {
+          "language": "es-MX",
           "value": "Chubb"
         }
       ]
     },
     {
-      "code": "CI",
+      "code": "CA:CI",
       "display": "Canadian Indemnity",
-      "definition": "Canadian Indemnity — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Canadian Indemnity"
+        },
+        {
+          "language": "es-MX",
           "value": "Canadian Indemnity"
         }
       ]
@@ -902,10 +1145,13 @@
     {
       "code": "CIBC",
       "display": "Certas Direct",
-      "definition": "Certas Direct — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Certas Direct"
+        },
+        {
+          "language": "es-MX",
           "value": "Certas Direct"
         }
       ]
@@ -913,10 +1159,13 @@
     {
       "code": "CIC",
       "display": "Travelers Essential",
-      "definition": "Travelers Essential — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Travelers Essential"
+        },
+        {
+          "language": "es-MX",
           "value": "Travelers Essential"
         }
       ]
@@ -924,21 +1173,27 @@
     {
       "code": "CIGN",
       "display": "Cigna",
-      "definition": "Cigna — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Cigna"
+        },
+        {
+          "language": "es-MX",
           "value": "Cigna"
         }
       ]
     },
     {
-      "code": "CIR",
+      "code": "CA:CIR",
       "display": "Canadian Industrial Risk",
-      "definition": "Canadian Industrial Risk — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Canadian Industrial Risk"
+        },
+        {
+          "language": "es-MX",
           "value": "Canadian Industrial Risk"
         }
       ]
@@ -946,43 +1201,55 @@
     {
       "code": "CIT",
       "display": "Citadel",
-      "definition": "Citadel — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "La Citadelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Citadel"
         }
       ]
     },
     {
-      "code": "CLAW",
+      "code": "CA:CLAW",
       "display": "Canadian Lawyers Liability Assurance Society",
-      "definition": "Canadian Lawyers Liability Assurance Society — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Canadian Lawyers Liability Assurance Society"
+        },
+        {
+          "language": "es-MX",
           "value": "Canadian Lawyers Liability Assurance Society"
         }
       ]
     },
     {
-      "code": "CM",
+      "code": "CA:CM",
       "display": "Chartis Insurance Company of Canada (formerly known as Commerce and Industry Insurance Company of Canada and later known as AIG Commerical Insurance Company of Canada)",
-      "definition": "Chartis Insurance Company of Canada (formerly known as Commerce and Industry Insurance Company of Canada and later known as AIG Commerical Insurance Company of Canada) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Chartis Insurance Company of Canada (anciennement connu sous le nom Commerce and Industry Insurance Company of Canada et ensuite connu sous le nom AIG Commerical Insurance Company of Canada)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Chartis Insurance Company of Canada (formerly known as Commerce and Industry Insurance Company of Canada and later known as AIG Commerical Insurance Company of Canada)"
         }
       ]
     },
     {
       "code": "CMF",
       "display": "Clare Mutual Fire",
-      "definition": "Clare Mutual Fire — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Clare Mutual Fire"
+        },
+        {
+          "language": "es-MX",
           "value": "Clare Mutual Fire"
         }
       ]
@@ -990,10 +1257,13 @@
     {
       "code": "CNA",
       "display": "Continental Casualty Company",
-      "definition": "Continental Casualty Company — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Continental Casualty Company"
+        },
+        {
+          "language": "es-MX",
           "value": "Continental Casualty Company"
         }
       ]
@@ -1001,21 +1271,27 @@
     {
       "code": "CNPIE",
       "display": "Community Newspapers Reciprocal Insurance Exchange",
-      "definition": "Community Newspapers Reciprocal Insurance Exchange — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Community Newspapers Reciprocal Insurance Exchange"
+        },
+        {
+          "language": "es-MX",
           "value": "Community Newspapers Reciprocal Insurance Exchange"
         }
       ]
     },
     {
-      "code": "CNS",
+      "code": "CA:CNS",
       "display": "Canadian Northern Shield",
-      "definition": "Canadian Northern Shield — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Canadian Northern Shield"
+        },
+        {
+          "language": "es-MX",
           "value": "Canadian Northern Shield"
         }
       ]
@@ -1023,21 +1299,27 @@
     {
       "code": "CNT",
       "display": "Centennial",
-      "definition": "Centennial — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Centennial"
+        },
+        {
+          "language": "es-MX",
           "value": "Centennial"
         }
       ]
     },
     {
-      "code": "CNU",
+      "code": "CA:CNU",
       "display": "Canadian Universal",
-      "definition": "Canadian Universal — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Canadian Universal"
+        },
+        {
+          "language": "es-MX",
           "value": "Canadian Universal"
         }
       ]
@@ -1045,10 +1327,13 @@
     {
       "code": "COA",
       "display": "Coachman",
-      "definition": "Coachman — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Coachman"
+        },
+        {
+          "language": "es-MX",
           "value": "Coachman"
         }
       ]
@@ -1056,10 +1341,13 @@
     {
       "code": "COAT",
       "display": "Promutuel Coaticook-Sherbrooke",
-      "definition": "Promutuel Coaticook-Sherbrooke — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel Coaticook-Sherbrooke"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel Coaticook-Sherbrooke"
         }
       ]
@@ -1067,10 +1355,13 @@
     {
       "code": "COFC",
       "display": "Co-Operative F & C",
-      "definition": "Co-Operative F & C — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Co-Operative F & C"
+        },
+        {
+          "language": "es-MX",
           "value": "Co-Operative F & C"
         }
       ]
@@ -1078,10 +1369,13 @@
     {
       "code": "COG",
       "display": "COGECO",
-      "definition": "COGECO — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "COGECO"
+        },
+        {
+          "language": "es-MX",
           "value": "COGECO"
         }
       ]
@@ -1089,21 +1383,27 @@
     {
       "code": "COL",
       "display": "RSA (formerly Colonial)",
-      "definition": "RSA (formerly Colonial) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "RSA (anciennement Colonial)"
+        },
+        {
+          "language": "es-MX",
+          "value": "RSA (formerly Colonial)"
         }
       ]
     },
     {
       "code": "COMGRP",
       "display": "The Commonwell Mutual Insurance Group",
-      "definition": "The Commonwell Mutual Insurance Group — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "The Commonwell Mutual Insurance Group"
+        },
+        {
+          "language": "es-MX",
           "value": "The Commonwell Mutual Insurance Group"
         }
       ]
@@ -1111,32 +1411,41 @@
     {
       "code": "COMM",
       "display": "Northbridge Indemnity Insurance Corporation (formerly Commonwealth)",
-      "definition": "Northbridge Indemnity Insurance Corporation (formerly Commonwealth) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Northbridge Indemnity Insurance Corporation (anciennement Commonwealth)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Northbridge Indemnity Insurance Corporation (formerly Commonwealth)"
         }
       ]
     },
     {
       "code": "COMS",
       "display": "Promutuel Coaticook-Sherbrooke (formerly Compton-Sherbrooke Mutual)",
-      "definition": "Promutuel Coaticook-Sherbrooke (formerly Compton-Sherbrooke Mutual) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel Coaticook-Sherbrooke (anciennement Compton-Sherbrooke Mutual)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel Coaticook-Sherbrooke (formerly Compton-Sherbrooke Mutual)"
         }
       ]
     },
     {
       "code": "CON",
       "display": "Contingency",
-      "definition": "Contingency — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Contingency"
+        },
+        {
+          "language": "es-MX",
           "value": "Contingency"
         }
       ]
@@ -1144,10 +1453,13 @@
     {
       "code": "CONC",
       "display": "La Concorde",
-      "definition": "La Concorde — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "La Concorde"
+        },
+        {
+          "language": "es-MX",
           "value": "La Concorde"
         }
       ]
@@ -1155,32 +1467,41 @@
     {
       "code": "CONS",
       "display": "Constitution",
-      "definition": "Constitution — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Constitution"
+        },
+        {
+          "language": "es-MX",
           "value": "Constitution"
         }
       ]
     },
     {
-      "code": "CONT",
+      "code": "CA:CONT",
       "display": "Continental Canada",
-      "definition": "Continental Canada — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Continental du Canada"
+        },
+        {
+          "language": "es-MX",
+          "value": "Continental Canada"
         }
       ]
     },
     {
       "code": "COOP",
       "display": "Co-operators",
-      "definition": "Co-operators — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Co-operators"
+        },
+        {
+          "language": "es-MX",
           "value": "Co-operators"
         }
       ]
@@ -1188,21 +1509,27 @@
     {
       "code": "COOS",
       "display": "Les Cooperants",
-      "definition": "Les Cooperants — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Les Coopérants"
+        },
+        {
+          "language": "es-MX",
+          "value": "Les Cooperants"
         }
       ]
     },
     {
       "code": "CORN",
       "display": "Cornhill",
-      "definition": "Cornhill — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Cornhill"
+        },
+        {
+          "language": "es-MX",
           "value": "Cornhill"
         }
       ]
@@ -1210,10 +1537,13 @@
     {
       "code": "CORO",
       "display": "Coronation",
-      "definition": "Coronation — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Coronation"
+        },
+        {
+          "language": "es-MX",
           "value": "Coronation"
         }
       ]
@@ -1221,21 +1551,27 @@
     {
       "code": "COSE",
       "display": "Coseco",
-      "definition": "Coseco — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Coseco"
+        },
+        {
+          "language": "es-MX",
           "value": "Coseco"
         }
       ]
     },
     {
-      "code": "CP",
+      "code": "CA:CP",
       "display": "Canadian Provincial",
-      "definition": "Canadian Provincial — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Canadian Provincial"
+        },
+        {
+          "language": "es-MX",
           "value": "Canadian Provincial"
         }
       ]
@@ -1243,32 +1579,41 @@
     {
       "code": "CRUM",
       "display": "Crum & Forster",
-      "definition": "Crum & Forster — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Crum & Forster"
+        },
+        {
+          "language": "es-MX",
           "value": "Crum & Forster"
         }
       ]
     },
     {
-      "code": "CTD",
+      "code": "CA:CTD",
       "display": "CT Direct (Canada Trust)",
-      "definition": "CT Direct (Canada Trust) — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "CT Direct (Canada Trust)"
+        },
+        {
+          "language": "es-MX",
           "value": "CT Direct (Canada Trust)"
         }
       ]
     },
     {
-      "code": "CTIS",
+      "code": "CA:CTIS",
       "display": "Canadian Tire Insurance Services",
-      "definition": "Canadian Tire Insurance Services — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Canadian Tire Insurance Services"
+        },
+        {
+          "language": "es-MX",
           "value": "Canadian Tire Insurance Services"
         }
       ]
@@ -1276,32 +1621,41 @@
     {
       "code": "CTSUD",
       "display": "Promutuel Centre-Sud (formerly Promutuel Coaticook-Sherbrooke)",
-      "definition": "Promutuel Centre-Sud (formerly Promutuel Coaticook-Sherbrooke) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel Centre-Sud (anciennement Promutuel Coaticook-Sherbrooke)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel Centre-Sud (formerly Promutuel Coaticook-Sherbrooke)"
         }
       ]
     },
     {
       "code": "CU",
       "display": "Commercial Union (now Aviva)",
-      "definition": "Commercial Union (now Aviva) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Union Commerciale (maintenant Aviva)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Commercial Union (now Aviva)"
         }
       ]
     },
     {
       "code": "CUL",
       "display": "Culross Mutual",
-      "definition": "Culross Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Culross Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Culross Mutual"
         }
       ]
@@ -1309,10 +1663,13 @@
     {
       "code": "CUM",
       "display": "Cumis",
-      "definition": "Cumis — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Cumis"
+        },
+        {
+          "language": "es-MX",
           "value": "Cumis"
         }
       ]
@@ -1320,10 +1677,13 @@
     {
       "code": "DESJ",
       "display": "Groupe Desjardins",
-      "definition": "Groupe Desjardins — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Groupe Desjardins"
+        },
+        {
+          "language": "es-MX",
           "value": "Groupe Desjardins"
         }
       ]
@@ -1331,10 +1691,13 @@
     {
       "code": "DEUX",
       "display": "Promutuel Deux-Montagnes",
-      "definition": "Promutuel Deux-Montagnes — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel Deux-Montagnes"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel Deux-Montagnes"
         }
       ]
@@ -1342,10 +1705,13 @@
     {
       "code": "DRA",
       "display": "Dave Rochon Assurances Inc.",
-      "definition": "Dave Rochon Assurances Inc. — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Dave Rochon Assurances Inc."
+        },
+        {
+          "language": "es-MX",
           "value": "Dave Rochon Assurances Inc."
         }
       ]
@@ -1353,10 +1719,13 @@
     {
       "code": "DIC",
       "display": "Dominion Ins. Corp.",
-      "definition": "Dominion Ins. Corp. — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Dominion Ins. Corp."
+        },
+        {
+          "language": "es-MX",
           "value": "Dominion Ins. Corp."
         }
       ]
@@ -1364,10 +1733,13 @@
     {
       "code": "DIRP",
       "display": "Direct Protect",
-      "definition": "Direct Protect — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Direct Protect"
+        },
+        {
+          "language": "es-MX",
           "value": "Direct Protect"
         }
       ]
@@ -1375,32 +1747,41 @@
     {
       "code": "DMI",
       "display": "Halwell Dumfries Mutual Insurance Company (Sheffield)",
-      "definition": "Halwell Dumfries Mutual Insurance Company (Sheffield) — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Halwell Dumfries Mutual Insurance Company (Sheffield)"
+        },
+        {
+          "language": "es-MX",
           "value": "Halwell Dumfries Mutual Insurance Company (Sheffield)"
         }
       ]
     },
     {
-      "code": "DOC",
+      "code": "CA:DOC",
       "display": "Dominion of Canada",
-      "definition": "Dominion of Canada — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Dominion du Canada"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dominion of Canada"
         }
       ]
     },
     {
       "code": "DOR",
       "display": "Promutuel Dorchester",
-      "definition": "Promutuel Dorchester — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel Dorchester"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel Dorchester"
         }
       ]
@@ -1408,21 +1789,27 @@
     {
       "code": "DOW",
       "display": "Downie Mutual",
-      "definition": "Downie Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Downie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Downie Mutual"
         }
       ]
     },
     {
       "code": "DRUM",
       "display": "Promutuel Drummond",
-      "definition": "Promutuel Drummond — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel Drummond"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel Drummond"
         }
       ]
@@ -1430,21 +1817,27 @@
     {
       "code": "DUF",
       "display": "Dufferin Mutual Insurance Company",
-      "definition": "Dufferin Mutual Insurance Company — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Dufferin"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dufferin Mutual Insurance Company"
         }
       ]
     },
     {
       "code": "EAG",
       "display": "Eagle Star",
-      "definition": "Eagle Star — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Eagle Star"
+        },
+        {
+          "language": "es-MX",
           "value": "Eagle Star"
         }
       ]
@@ -1452,10 +1845,13 @@
     {
       "code": "ECC",
       "display": "Ecclesiastical",
-      "definition": "Ecclesiastical — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Ecclesiastical"
+        },
+        {
+          "language": "es-MX",
           "value": "Ecclesiastical"
         }
       ]
@@ -1463,10 +1859,13 @@
     {
       "code": "ECHE",
       "display": "Echelon",
-      "definition": "Echelon — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Echelon"
+        },
+        {
+          "language": "es-MX",
           "value": "Echelon"
         }
       ]
@@ -1474,32 +1873,41 @@
     {
       "code": "ECON",
       "display": "Economical (formerly Economical Mutual)",
-      "definition": "Economical (formerly Economical Mutual) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Economical (anciennement Economical Mutual)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Economical (formerly Economical Mutual)"
         }
       ]
     },
     {
       "code": "EGI",
       "display": "Echelon Insurance",
-      "definition": "Echelon Insurance — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Echelon Assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Echelon Insurance"
         }
       ]
     },
     {
       "code": "EKF",
       "display": "Ekfrid Mutual",
-      "definition": "Ekfrid Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Ekfrid Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Ekfrid Mutual"
         }
       ]
@@ -1507,10 +1915,13 @@
     {
       "code": "ELEC",
       "display": "Electric Company",
-      "definition": "Electric Company — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Electric Company"
+        },
+        {
+          "language": "es-MX",
           "value": "Electric Company"
         }
       ]
@@ -1518,10 +1929,13 @@
     {
       "code": "ELM",
       "display": "Elma Mutual",
-      "definition": "Elma Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Elma Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Elma Mutual"
         }
       ]
@@ -1529,21 +1943,27 @@
     {
       "code": "ELT",
       "display": "Elite",
-      "definition": "Elite — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Élite"
+        },
+        {
+          "language": "es-MX",
+          "value": "Elite"
         }
       ]
     },
     {
       "code": "ENAM",
       "display": "English & American",
-      "definition": "English & American — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "English & American"
+        },
+        {
+          "language": "es-MX",
           "value": "English & American"
         }
       ]
@@ -1551,21 +1971,27 @@
     {
       "code": "ENCON",
       "display": "ENCON Group",
-      "definition": "ENCON Group — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "ENCON"
+        },
+        {
+          "language": "es-MX",
+          "value": "ENCON Group"
         }
       ]
     },
     {
       "code": "ENG",
       "display": "English & American",
-      "definition": "English & American — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "English & American"
+        },
+        {
+          "language": "es-MX",
           "value": "English & American"
         }
       ]
@@ -1573,21 +1999,27 @@
     {
       "code": "EQ",
       "display": "Equitable General",
-      "definition": "Equitable General — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "L'Équitable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equitable General"
         }
       ]
     },
     {
       "code": "ERI",
       "display": "Erie Mutual",
-      "definition": "Erie Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Erie Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Erie Mutual"
         }
       ]
@@ -1595,10 +2027,13 @@
     {
       "code": "EST",
       "display": "Promutuel de L'Est",
-      "definition": "Promutuel de L'Est — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel de L'Est"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel de L'Est"
         }
       ]
@@ -1606,10 +2041,13 @@
     {
       "code": "ESTR",
       "display": "Estrie-Richelieu",
-      "definition": "Estrie-Richelieu — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Estrie-Richelieu"
+        },
+        {
+          "language": "es-MX",
           "value": "Estrie-Richelieu"
         }
       ]
@@ -1617,10 +2055,13 @@
     {
       "code": "ESTU",
       "display": "Promutuel de l'Estuaire",
-      "definition": "Promutuel de l'Estuaire — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel de l'Estuaire"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel de l'Estuaire"
         }
       ]
@@ -1628,10 +2069,13 @@
     {
       "code": "ETN",
       "display": "Eaton",
-      "definition": "Eaton — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Eaton"
+        },
+        {
+          "language": "es-MX",
           "value": "Eaton"
         }
       ]
@@ -1639,10 +2083,13 @@
     {
       "code": "EVER",
       "display": "Everest",
-      "definition": "Everest — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Everest"
+        },
+        {
+          "language": "es-MX",
           "value": "Everest"
         }
       ]
@@ -1650,10 +2097,13 @@
     {
       "code": "FA",
       "display": "Facility - The Association",
-      "definition": "Facility - The Association — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Facility - The Association"
+        },
+        {
+          "language": "es-MX",
           "value": "Facility - The Association"
         }
       ]
@@ -1661,10 +2111,13 @@
     {
       "code": "FAAL",
       "display": "Facility - Allstate",
-      "definition": "Facility - Allstate — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Facility - Allstate"
+        },
+        {
+          "language": "es-MX",
           "value": "Facility - Allstate"
         }
       ]
@@ -1672,21 +2125,27 @@
     {
       "code": "FAALZ",
       "display": "Facility - Allianz",
-      "definition": "Facility - Allianz — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Facility - Allianz"
+        },
+        {
+          "language": "es-MX",
           "value": "Facility - Allianz"
         }
       ]
     },
     {
-      "code": "FACG",
+      "code": "CA:FACG",
       "display": "Facility - Canadian General",
-      "definition": "Facility - Canadian General — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Facility - Canadian General"
+        },
+        {
+          "language": "es-MX",
           "value": "Facility - Canadian General"
         }
       ]
@@ -1694,21 +2153,27 @@
     {
       "code": "FACP",
       "display": "Facility - Co-operators",
-      "definition": "Facility - Co-operators — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Facility - Co-operators"
+        },
+        {
+          "language": "es-MX",
           "value": "Facility - Co-operators"
         }
       ]
     },
     {
-      "code": "FACS",
+      "code": "CA:FACS",
       "display": "Facility - Canadian Surety",
-      "definition": "Facility - Canadian Surety — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Facility - Canadian Surety"
+        },
+        {
+          "language": "es-MX",
           "value": "Facility - Canadian Surety"
         }
       ]
@@ -1716,10 +2181,13 @@
     {
       "code": "FACT",
       "display": "Factory Ins. Association",
-      "definition": "Factory Ins. Association — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Factory Ins. Association"
+        },
+        {
+          "language": "es-MX",
           "value": "Factory Ins. Association"
         }
       ]
@@ -1727,43 +2195,55 @@
     {
       "code": "FACU",
       "display": "Facility - Commercial Union",
-      "definition": "Facility - Commercial Union — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Facility - Union Commerciale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Facility - Commercial Union"
         }
       ]
     },
     {
-      "code": "FACW",
+      "code": "CA:FACW",
       "display": "Facility - Canada West",
-      "definition": "Facility - Canada West — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Facility - Canada West"
+        },
+        {
+          "language": "es-MX",
           "value": "Facility - Canada West"
         }
       ]
     },
     {
-      "code": "FADOC",
+      "code": "CA:FADOC",
       "display": "Facility - Dominion of Canada",
-      "definition": "Facility - Dominion of Canada — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Facility - Dominion du Canada"
+        },
+        {
+          "language": "es-MX",
+          "value": "Facility - Dominion of Canada"
         }
       ]
     },
     {
       "code": "FAGU",
       "display": "Facility - Guardian",
-      "definition": "Facility - Guardian — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Facility - Guardian"
+        },
+        {
+          "language": "es-MX",
           "value": "Facility - Guardian"
         }
       ]
@@ -1771,21 +2251,27 @@
     {
       "code": "FAHAL",
       "display": "Facility - Nordic (formerly  Facility - Halifax)",
-      "definition": "Facility - Nordic (formerly  Facility - Halifax) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Facility - Nordic (anciennement  Facility - Halifax)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Facility - Nordic (formerly Facility - Halifax)"
         }
       ]
     },
     {
       "code": "FALLD",
       "display": "Facility - Lloyd's",
-      "definition": "Facility - Lloyd's — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Facility - Lloyd's"
+        },
+        {
+          "language": "es-MX",
           "value": "Facility - Lloyd's"
         }
       ]
@@ -1793,10 +2279,13 @@
     {
       "code": "FALM",
       "display": "Facility - Liberty Mutual",
-      "definition": "Facility - Liberty Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Facility - Liberty Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Facility - Liberty Mutual"
         }
       ]
@@ -1804,32 +2293,41 @@
     {
       "code": "FAM",
       "display": "Factory Mutual",
-      "definition": "Factory Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Factory Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Factory Mutual"
         }
       ]
     },
     {
-      "code": "FANFL",
+      "code": "CA:FANFL",
       "display": "Facility - Insurance Corp.of Newfoundland",
-      "definition": "Facility - Insurance Corp.of Newfoundland — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Facility - Insurance Corp.of Newfoundland"
+        },
+        {
+          "language": "es-MX",
           "value": "Facility - Insurance Corp.of Newfoundland"
         }
       ]
     },
     {
-      "code": "FANS",
+      "code": "CA:FANS",
       "display": "Facility - Nova Scotia General",
-      "definition": "Facility - Nova Scotia General — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Facility - Nova Scotia General"
+        },
+        {
+          "language": "es-MX",
           "value": "Facility - Nova Scotia General"
         }
       ]
@@ -1837,10 +2335,13 @@
     {
       "code": "FAPRU",
       "display": "Facility - Prudential",
-      "definition": "Facility - Prudential — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Facility - Prudential"
+        },
+        {
+          "language": "es-MX",
           "value": "Facility - Prudential"
         }
       ]
@@ -1848,10 +2349,13 @@
     {
       "code": "FAR",
       "display": "Farm Mutual Reinsurance",
-      "definition": "Farm Mutual Reinsurance — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Farm Mutual Reinsurance"
+        },
+        {
+          "language": "es-MX",
           "value": "Farm Mutual Reinsurance"
         }
       ]
@@ -1859,10 +2363,13 @@
     {
       "code": "FARM",
       "display": "Farmers Mutual (Lindsay)",
-      "definition": "Farmers Mutual (Lindsay) — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Farmers Mutual (Lindsay)"
+        },
+        {
+          "language": "es-MX",
           "value": "Farmers Mutual (Lindsay)"
         }
       ]
@@ -1870,10 +2377,13 @@
     {
       "code": "FARO",
       "display": "Facility - Royal & SunAlliance",
-      "definition": "Facility - Royal & SunAlliance — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Facility - Royal & SunAlliance"
+        },
+        {
+          "language": "es-MX",
           "value": "Facility - Royal & SunAlliance"
         }
       ]
@@ -1881,10 +2391,13 @@
     {
       "code": "FASA",
       "display": "Facility - Sun Alliance",
-      "definition": "Facility - Sun Alliance — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Facility - Sun Alliance"
+        },
+        {
+          "language": "es-MX",
           "value": "Facility - Sun Alliance"
         }
       ]
@@ -1892,10 +2405,13 @@
     {
       "code": "FASE",
       "display": "Facility - Simcoe & Erie",
-      "definition": "Facility - Simcoe & Erie — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Facility - Simcoe & Erie"
+        },
+        {
+          "language": "es-MX",
           "value": "Facility - Simcoe & Erie"
         }
       ]
@@ -1903,10 +2419,13 @@
     {
       "code": "FASF",
       "display": "Facility - State Farm",
-      "definition": "Facility - State Farm — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Facility - State Farm"
+        },
+        {
+          "language": "es-MX",
           "value": "Facility - State Farm"
         }
       ]
@@ -1914,10 +2433,13 @@
     {
       "code": "FAUN",
       "display": "Facility - Unifund",
-      "definition": "Facility - Unifund — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Facility - Unifund"
+        },
+        {
+          "language": "es-MX",
           "value": "Facility - Unifund"
         }
       ]
@@ -1925,21 +2447,27 @@
     {
       "code": "FAWU",
       "display": "Facility - Nordic Western Region (formerly Facility - Western Union)",
-      "definition": "Facility - Nordic Western Region (formerly Facility - Western Union) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Facility - Nordic Western Region (anciennement Facility - Western Union)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Facility - Nordic Western Region (formerly Facility - Western Union)"
         }
       ]
     },
     {
-      "code": "FED",
+      "code": "CA:FED",
       "display": "Federal",
-      "definition": "Federal — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Federal"
+        },
+        {
+          "language": "es-MX",
           "value": "Federal"
         }
       ]
@@ -1947,21 +2475,27 @@
     {
       "code": "FEDC",
       "display": "Federation",
-      "definition": "Federation — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "La Fédération"
+        },
+        {
+          "language": "es-MX",
+          "value": "Federation"
         }
       ]
     },
     {
       "code": "FEDM",
       "display": "Federated",
-      "definition": "Federated — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Federated"
+        },
+        {
+          "language": "es-MX",
           "value": "Federated"
         }
       ]
@@ -1969,10 +2503,13 @@
     {
       "code": "FF",
       "display": "Fireman's Fund",
-      "definition": "Fireman's Fund — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Fireman's Fund"
+        },
+        {
+          "language": "es-MX",
           "value": "Fireman's Fund"
         }
       ]
@@ -1980,10 +2517,13 @@
     {
       "code": "FPI",
       "display": "Four Points Insurance",
-      "definition": "Four Points Insurance — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Four Points Insurance"
+        },
+        {
+          "language": "es-MX",
           "value": "Four Points Insurance"
         }
       ]
@@ -1991,10 +2531,13 @@
     {
       "code": "FIC",
       "display": "Family Insurance Company",
-      "definition": "Family Insurance Company — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Family Insurance Company"
+        },
+        {
+          "language": "es-MX",
           "value": "Family Insurance Company"
         }
       ]
@@ -2002,10 +2545,13 @@
     {
       "code": "FIRE",
       "display": "The Fire",
-      "definition": "The Fire — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "The Fire"
+        },
+        {
+          "language": "es-MX",
           "value": "The Fire"
         }
       ]
@@ -2013,10 +2559,13 @@
     {
       "code": "FIRST",
       "display": "First North American",
-      "definition": "First North American — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "First North American"
+        },
+        {
+          "language": "es-MX",
           "value": "First North American"
         }
       ]
@@ -2024,21 +2573,27 @@
     {
       "code": "FM",
       "display": "Trillium Mutual (formerly Formosa Mutual)",
-      "definition": "Trillium Mutual (formerly Formosa Mutual) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Trillium Mutual (anciennement Formosa Mutual)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trillium Mutual (formerly Formosa Mutual)"
         }
       ]
     },
     {
       "code": "FNAT",
       "display": "First National",
-      "definition": "First National — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "First National"
+        },
+        {
+          "language": "es-MX",
           "value": "First National"
         }
       ]
@@ -2046,10 +2601,13 @@
     {
       "code": "FOR",
       "display": "Foresters Indemnity",
-      "definition": "Foresters Indemnity — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Foresters Indemnity"
+        },
+        {
+          "language": "es-MX",
           "value": "Foresters Indemnity"
         }
       ]
@@ -2057,32 +2615,41 @@
     {
       "code": "FRO",
       "display": "Promutuel Monts et Rives (formerly Frontenac Mutual)",
-      "definition": "Promutuel Monts et Rives (formerly Frontenac Mutual) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel Monts et Rives (anciennement Frontenac Mutual)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel Monts et Rives (formerly Frontenac Mutual)"
         }
       ]
     },
     {
       "code": "FROY",
       "display": "Royal Facility",
-      "definition": "Royal Facility — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Facility - Royal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Royal Facility"
         }
       ]
     },
     {
       "code": "FSCA",
       "display": "Groupement des Assureurs (F.S.C.A.)",
-      "definition": "Groupement des Assureurs (F.S.C.A.) — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Groupement des Assureurs (F.S.C.A.)"
+        },
+        {
+          "language": "es-MX",
           "value": "Groupement des Assureurs (F.S.C.A.)"
         }
       ]
@@ -2090,10 +2657,13 @@
     {
       "code": "FUND",
       "display": "Fundy Mutual",
-      "definition": "Fundy Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Fundy Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Fundy Mutual"
         }
       ]
@@ -2101,21 +2671,27 @@
     {
       "code": "GA",
       "display": "General Accident (now Aviva)",
-      "definition": "General Accident (now Aviva) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Général Accident (maintenant Aviva)"
+        },
+        {
+          "language": "es-MX",
+          "value": "General Accident (now Aviva)"
         }
       ]
     },
     {
       "code": "GAN",
       "display": "Gan Incendie",
-      "definition": "Gan Incendie — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Gan Incendie"
+        },
+        {
+          "language": "es-MX",
           "value": "Gan Incendie"
         }
       ]
@@ -2123,10 +2699,13 @@
     {
       "code": "GAR",
       "display": "Garante",
-      "definition": "Garante — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Garante"
+        },
+        {
+          "language": "es-MX",
           "value": "Garante"
         }
       ]
@@ -2134,10 +2713,13 @@
     {
       "code": "GAS",
       "display": "Promutuel Gaspésie - les Îles",
-      "definition": "Promutuel Gaspésie - les Îles — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel Gaspésie - les Îles"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel Gaspésie - les Îles"
         }
       ]
@@ -2145,10 +2727,13 @@
     {
       "code": "GAUM",
       "display": "Global Aerospace Underwriting Managers",
-      "definition": "Global Aerospace Underwriting Managers — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Global Aerospace Underwriting Managers"
+        },
+        {
+          "language": "es-MX",
           "value": "Global Aerospace Underwriting Managers"
         }
       ]
@@ -2156,32 +2741,41 @@
     {
       "code": "GBM",
       "display": "Grey & Bruce Mutual",
-      "definition": "Grey & Bruce Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Grey & Bruce"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grey & Bruce Mutual"
         }
       ]
     },
     {
-      "code": "GC",
+      "code": "CA:GC",
       "display": "Intact Insurance Company (formerly Intact Insurance Company (Quebec division))",
-      "definition": "Intact Insurance Company (formerly Intact Insurance Company (Quebec division)) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Intact Compagnie d'assurance (anciennement Intact Compagnie d'assurance (division de Québec))"
+        },
+        {
+          "language": "es-MX",
+          "value": "Intact Insurance Company (formerly Intact Insurance Company (Quebec division))"
         }
       ]
     },
     {
       "code": "GCA",
       "display": "General Ins. Company of America",
-      "definition": "General Ins. Company of America — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "General Ins. Company of America"
+        },
+        {
+          "language": "es-MX",
           "value": "General Ins. Company of America"
         }
       ]
@@ -2189,10 +2783,13 @@
     {
       "code": "GECC",
       "display": "GE Capital Casualty",
-      "definition": "GE Capital Casualty — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "GE Capital Casualty"
+        },
+        {
+          "language": "es-MX",
           "value": "GE Capital Casualty"
         }
       ]
@@ -2200,10 +2797,13 @@
     {
       "code": "GEN",
       "display": "General",
-      "definition": "General — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "General"
+        },
+        {
+          "language": "es-MX",
           "value": "General"
         }
       ]
@@ -2211,10 +2811,13 @@
     {
       "code": "GENK",
       "display": "Genmark Insurance",
-      "definition": "Genmark Insurance — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Genmark Insurance"
+        },
+        {
+          "language": "es-MX",
           "value": "Genmark Insurance"
         }
       ]
@@ -2222,10 +2825,13 @@
     {
       "code": "GER",
       "display": "Gerling Global",
-      "definition": "Gerling Global — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Gerling Global"
+        },
+        {
+          "language": "es-MX",
           "value": "Gerling Global"
         }
       ]
@@ -2233,10 +2839,13 @@
     {
       "code": "GERM",
       "display": "Germania",
-      "definition": "Germania — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Germania"
+        },
+        {
+          "language": "es-MX",
           "value": "Germania"
         }
       ]
@@ -2244,10 +2853,13 @@
     {
       "code": "GIB",
       "display": "Gibraltar",
-      "definition": "Gibraltar — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Gibraltar"
+        },
+        {
+          "language": "es-MX",
           "value": "Gibraltar"
         }
       ]
@@ -2255,10 +2867,13 @@
     {
       "code": "GIS",
       "display": "Gisco",
-      "definition": "Gisco — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Gisco"
+        },
+        {
+          "language": "es-MX",
           "value": "Gisco"
         }
       ]
@@ -2266,43 +2881,55 @@
     {
       "code": "GLEN",
       "display": "Glengarry Farmers Mutual",
-      "definition": "Glengarry Farmers Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Glengarry Farmers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Glengarry Farmers Mutual"
         }
       ]
     },
     {
       "code": "GMI",
       "display": "Grenville Mutual",
-      "definition": "Grenville Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Grenville"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grenville Mutual"
         }
       ]
     },
     {
       "code": "GNA",
       "display": "Intact Insurance (Formerly The Guarantee Company of North America)",
-      "definition": "Intact Insurance (Formerly The Guarantee Company of North America) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Intact Assurance (anciennement La Garantie, Compagnie d’Assurance de l’Amérique du Nord)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Intact Insurance (Formerly The Guarantee Company of North America)"
         }
       ]
     },
     {
-      "code": "GNB",
+      "code": "CA:GNB",
       "display": "General Ins. Corp. of New Brunswick",
-      "definition": "General Ins. Corp. of New Brunswick — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "General Ins. Corp. of New Brunswick"
+        },
+        {
+          "language": "es-MX",
           "value": "General Ins. Corp. of New Brunswick"
         }
       ]
@@ -2310,10 +2937,13 @@
     {
       "code": "GOLD",
       "display": "Gold Circle",
-      "definition": "Gold Circle — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Gold Circle"
+        },
+        {
+          "language": "es-MX",
           "value": "Gold Circle"
         }
       ]
@@ -2321,10 +2951,13 @@
     {
       "code": "GORE",
       "display": "Gore",
-      "definition": "Gore — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Gore"
+        },
+        {
+          "language": "es-MX",
           "value": "Gore"
         }
       ]
@@ -2332,10 +2965,13 @@
     {
       "code": "GRAN",
       "display": "Grain",
-      "definition": "Grain — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Grain"
+        },
+        {
+          "language": "es-MX",
           "value": "Grain"
         }
       ]
@@ -2343,10 +2979,13 @@
     {
       "code": "GRE",
       "display": "Great Eastern",
-      "definition": "Great Eastern — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Great Eastern"
+        },
+        {
+          "language": "es-MX",
           "value": "Great Eastern"
         }
       ]
@@ -2354,21 +2993,27 @@
     {
       "code": "GRP",
       "display": "Novex Group Insurance",
-      "definition": "Novex Group Insurance — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Novex Assurance Groupe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Novex Group Insurance"
         }
       ]
     },
     {
       "code": "GRT",
       "display": "Great American",
-      "definition": "Great American — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Great American"
+        },
+        {
+          "language": "es-MX",
           "value": "Great American"
         }
       ]
@@ -2376,21 +3021,27 @@
     {
       "code": "GUA",
       "display": "Guardian",
-      "definition": "Guardian — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Guardian"
+        },
+        {
+          "language": "es-MX",
           "value": "Guardian"
         }
       ]
     },
     {
-      "code": "HAGR",
+      "code": "CA:HAGR",
       "display": "Hagerty Canada",
-      "definition": "Hagerty Canada — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Hagerty Canada"
+        },
+        {
+          "language": "es-MX",
           "value": "Hagerty Canada"
         }
       ]
@@ -2398,21 +3049,27 @@
     {
       "code": "HAL",
       "display": "Intact Insurance Company (formerly Intact Insurance Company (Central Atlantic Division)",
-      "definition": "Intact Insurance Company (formerly Intact Insurance Company (Central Atlantic Division) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Intact Compagnie d'assurance (anciennement Intact Compagnie d'assurance (division de l'Atlantique central)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Intact Insurance Company (formerly Intact Insurance Company (Central Atlantic Division)"
         }
       ]
     },
     {
       "code": "HALW",
       "display": "Halwell Dumfries Mutual Insurance Company (Guelph)",
-      "definition": "Halwell Dumfries Mutual Insurance Company (Guelph) — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Halwell Dumfries Mutual Insurance Company (Guelph)"
+        },
+        {
+          "language": "es-MX",
           "value": "Halwell Dumfries Mutual Insurance Company (Guelph)"
         }
       ]
@@ -2420,10 +3077,13 @@
     {
       "code": "HAM",
       "display": "Hamilton Twp.",
-      "definition": "Hamilton Twp. — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Hamilton Twp."
+        },
+        {
+          "language": "es-MX",
           "value": "Hamilton Twp."
         }
       ]
@@ -2431,10 +3091,13 @@
     {
       "code": "HAN",
       "display": "Hanover",
-      "definition": "Hanover — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Hanover"
+        },
+        {
+          "language": "es-MX",
           "value": "Hanover"
         }
       ]
@@ -2442,10 +3105,13 @@
     {
       "code": "HAUT",
       "display": "Promutuel Haut St-Laurent",
-      "definition": "Promutuel Haut St-Laurent — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel Haut St-Laurent"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel Haut St-Laurent"
         }
       ]
@@ -2453,21 +3119,27 @@
     {
       "code": "HAY",
       "display": "Hay Mutual",
-      "definition": "Hay Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Hay"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hay Mutual"
         }
       ]
     },
     {
       "code": "HELV",
       "display": "Helvetia Swiss",
-      "definition": "Helvetia Swiss — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Helvetia Swiss"
+        },
+        {
+          "language": "es-MX",
           "value": "Helvetia Swiss"
         }
       ]
@@ -2475,10 +3147,13 @@
     {
       "code": "HIGH",
       "display": "Highlands",
-      "definition": "Highlands — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Highlands"
+        },
+        {
+          "language": "es-MX",
           "value": "Highlands"
         }
       ]
@@ -2486,10 +3161,13 @@
     {
       "code": "HIROC",
       "display": "Healthcare Insurance Reciprocal",
-      "definition": "Healthcare Insurance Reciprocal — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Healthcare Insurance Reciprocal"
+        },
+        {
+          "language": "es-MX",
           "value": "Healthcare Insurance Reciprocal"
         }
       ]
@@ -2497,10 +3175,13 @@
     {
       "code": "HMI",
       "display": "Salus Mutual Insurance Company",
-      "definition": "Salus Mutual Insurance Company — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Salus Mutual Insurance Company"
+        },
+        {
+          "language": "es-MX",
           "value": "Salus Mutual Insurance Company"
         }
       ]
@@ -2508,10 +3189,13 @@
     {
       "code": "HOME",
       "display": "Home",
-      "definition": "Home — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Home"
+        },
+        {
+          "language": "es-MX",
           "value": "Home"
         }
       ]
@@ -2519,10 +3203,13 @@
     {
       "code": "HOML",
       "display": "Homeland",
-      "definition": "Homeland — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Homeland"
+        },
+        {
+          "language": "es-MX",
           "value": "Homeland"
         }
       ]
@@ -2530,21 +3217,27 @@
     {
       "code": "HOW",
       "display": "Howick Mutual",
-      "definition": "Howick Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Howick"
+        },
+        {
+          "language": "es-MX",
+          "value": "Howick Mutual"
         }
       ]
     },
     {
       "code": "HRT",
       "display": "Hartford",
-      "definition": "Hartford — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Hartford"
+        },
+        {
+          "language": "es-MX",
           "value": "Hartford"
         }
       ]
@@ -2552,21 +3245,27 @@
     {
       "code": "IAC",
       "display": "Promutuel Côte-Sud (formerly Promutuel Charlevoix-Montmorency)",
-      "definition": "Promutuel Côte-Sud (formerly Promutuel Charlevoix-Montmorency) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel Côte-Sud (anciennement Promutuel Charlevoix-Montmorency)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel Côte-Sud (formerly Promutuel Charlevoix-Montmorency)"
         }
       ]
     },
     {
       "code": "ICBC",
       "display": "Insurance Co. of B.C.",
-      "definition": "Insurance Co. of B.C. — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Insurance Co. of B.C."
+        },
+        {
+          "language": "es-MX",
           "value": "Insurance Co. of B.C."
         }
       ]
@@ -2574,10 +3273,13 @@
     {
       "code": "ICI",
       "display": "Ins. Corp. of Ireland",
-      "definition": "Ins. Corp. of Ireland — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Ins. Corp. of Ireland"
+        },
+        {
+          "language": "es-MX",
           "value": "Ins. Corp. of Ireland"
         }
       ]
@@ -2585,21 +3287,27 @@
     {
       "code": "ICNA",
       "display": "Ins. Co. of North America",
-      "definition": "Ins. Co. of North America — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Ins. Co. of North America"
+        },
+        {
+          "language": "es-MX",
           "value": "Ins. Co. of North America"
         }
       ]
     },
     {
-      "code": "ICNW",
+      "code": "CA:ICNW",
       "display": "Ins. Corp. of Newfoundland",
-      "definition": "Ins. Corp. of Newfoundland — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Ins. Corp. of Newfoundland"
+        },
+        {
+          "language": "es-MX",
           "value": "Ins. Corp. of Newfoundland"
         }
       ]
@@ -2607,10 +3315,13 @@
     {
       "code": "ICPEI",
       "display": "Ins. Co. of Prince Edward Island",
-      "definition": "Ins. Co. of Prince Edward Island — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Ins. Co. of Prince Edward Island"
+        },
+        {
+          "language": "es-MX",
           "value": "Ins. Co. of Prince Edward Island"
         }
       ]
@@ -2618,10 +3329,13 @@
     {
       "code": "IIM",
       "display": "Independent Ins. Managers",
-      "definition": "Independent Ins. Managers — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Independent Ins. Managers"
+        },
+        {
+          "language": "es-MX",
           "value": "Independent Ins. Managers"
         }
       ]
@@ -2629,10 +3343,13 @@
     {
       "code": "IN",
       "display": "L'Industrielle (Industrial General)",
-      "definition": "L'Industrielle (Industrial General) — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "L'Industrielle (Industrial General)"
+        },
+        {
+          "language": "es-MX",
           "value": "L'Industrielle (Industrial General)"
         }
       ]
@@ -2640,21 +3357,27 @@
     {
       "code": "INA",
       "display": "Industrial Alliance",
-      "definition": "Industrial Alliance — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "L'Industrielle Alliance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Industrial Alliance"
         }
       ]
     },
     {
       "code": "ING",
       "display": "Industrial General",
-      "definition": "Industrial General — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Industrial General"
+        },
+        {
+          "language": "es-MX",
           "value": "Industrial General"
         }
       ]
@@ -2662,10 +3385,13 @@
     {
       "code": "INNOV",
       "display": "Innovassur",
-      "definition": "Innovassur — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Innovassur"
+        },
+        {
+          "language": "es-MX",
           "value": "Innovassur"
         }
       ]
@@ -2673,10 +3399,13 @@
     {
       "code": "INS",
       "display": "Promutuel L'Islet",
-      "definition": "Promutuel L'Islet — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel L'Islet"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel L'Islet"
         }
       ]
@@ -2684,10 +3413,13 @@
     {
       "code": "ISV",
       "display": "Insurative Solutions",
-      "definition": "Insurative Solutions — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Insurative Solutions"
+        },
+        {
+          "language": "es-MX",
           "value": "Insurative Solutions"
         }
       ]
@@ -2695,21 +3427,27 @@
     {
       "code": "JEI",
       "display": "JEVCO Insurance Company",
-      "definition": "JEVCO Insurance Company — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "La Compagnie d'assurances JEVCO"
+        },
+        {
+          "language": "es-MX",
+          "value": "JEVCO Insurance Company"
         }
       ]
     },
     {
       "code": "JEV",
       "display": "Jevco",
-      "definition": "Jevco — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Jevco"
+        },
+        {
+          "language": "es-MX",
           "value": "Jevco"
         }
       ]
@@ -2717,10 +3455,13 @@
     {
       "code": "KAM",
       "display": "Promutuel Kamouraska-Côte-Nord",
-      "definition": "Promutuel Kamouraska-Côte-Nord — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel Kamouraska-Côte-Nord"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel Kamouraska-Côte-Nord"
         }
       ]
@@ -2728,10 +3469,13 @@
     {
       "code": "KAN",
       "display": "Kansa",
-      "definition": "Kansa — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Kansa"
+        },
+        {
+          "language": "es-MX",
           "value": "Kansa"
         }
       ]
@@ -2739,21 +3483,27 @@
     {
       "code": "KE",
       "display": "Kent & Essex Mutual",
-      "definition": "Kent & Essex Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Kent & Essex"
+        },
+        {
+          "language": "es-MX",
+          "value": "Kent & Essex Mutual"
         }
       ]
     },
     {
       "code": "KEM",
       "display": "Kemper",
-      "definition": "Kemper — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Kemper"
+        },
+        {
+          "language": "es-MX",
           "value": "Kemper"
         }
       ]
@@ -2761,10 +3511,13 @@
     {
       "code": "KENT",
       "display": "Kent General",
-      "definition": "Kent General — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Kent General"
+        },
+        {
+          "language": "es-MX",
           "value": "Kent General"
         }
       ]
@@ -2772,10 +3525,13 @@
     {
       "code": "KEY",
       "display": "United General",
-      "definition": "United General — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "United General"
+        },
+        {
+          "language": "es-MX",
           "value": "United General"
         }
       ]
@@ -2783,10 +3539,13 @@
     {
       "code": "KING",
       "display": "Kings Mutual",
-      "definition": "Kings Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Kings Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Kings Mutual"
         }
       ]
@@ -2794,21 +3553,27 @@
     {
       "code": "KNGN",
       "display": "Kingsway General",
-      "definition": "Kingsway General — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Kingsway"
+        },
+        {
+          "language": "es-MX",
+          "value": "Kingsway General"
         }
       ]
     },
     {
       "code": "LA",
       "display": "L & A Mutual",
-      "definition": "L & A Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "L & A Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "L & A Mutual"
         }
       ]
@@ -2816,10 +3581,13 @@
     {
       "code": "LABI",
       "display": "Portage La Biche",
-      "definition": "Portage La Biche — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Portage La Biche"
+        },
+        {
+          "language": "es-MX",
           "value": "Portage La Biche"
         }
       ]
@@ -2827,10 +3595,13 @@
     {
       "code": "LAC",
       "display": "Laurentian Casualty",
-      "definition": "Laurentian Casualty — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Laurentian Casualty"
+        },
+        {
+          "language": "es-MX",
           "value": "Laurentian Casualty"
         }
       ]
@@ -2838,32 +3609,41 @@
     {
       "code": "LACFL",
       "display": "Promutuel Du Lac au Fleuve (formerly Promutuel Du Littoral)",
-      "definition": "Promutuel Du Lac au Fleuve (formerly Promutuel Du Littoral) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel Du Lac au Fleuve (anciennement Promutuel Du Littoral)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel Du Lac au Fleuve (formerly Promutuel Du Littoral)"
         }
       ]
     },
     {
       "code": "LAG",
       "display": "Laurentian General",
-      "definition": "Laurentian General — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Laurentienne Générale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Laurentian General"
         }
       ]
     },
     {
       "code": "LAM",
       "display": "Lambton Mutual",
-      "definition": "Lambton Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Lambton Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Lambton Mutual"
         }
       ]
@@ -2871,10 +3651,13 @@
     {
       "code": "LAN",
       "display": "Promutuel Lanaudière",
-      "definition": "Promutuel Lanaudière — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel Lanaudière"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel Lanaudière"
         }
       ]
@@ -2882,10 +3665,13 @@
     {
       "code": "LANA",
       "display": "Lanark Mutual",
-      "definition": "Lanark Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Lanark Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Lanark Mutual"
         }
       ]
@@ -2893,10 +3679,13 @@
     {
       "code": "LANG",
       "display": "Langdon",
-      "definition": "Langdon — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Langdon"
+        },
+        {
+          "language": "es-MX",
           "value": "Langdon"
         }
       ]
@@ -2904,10 +3693,13 @@
     {
       "code": "LAP",
       "display": "Laurentian Pacific",
-      "definition": "Laurentian Pacific — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Laurentian Pacific"
+        },
+        {
+          "language": "es-MX",
           "value": "Laurentian Pacific"
         }
       ]
@@ -2915,10 +3707,13 @@
     {
       "code": "LAU",
       "display": "Laurentienne Agricole (Laurentian Agricultural)",
-      "definition": "Laurentienne Agricole (Laurentian Agricultural) — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Laurentienne Agricole (Laurentian Agricultural)"
+        },
+        {
+          "language": "es-MX",
           "value": "Laurentienne Agricole (Laurentian Agricultural)"
         }
       ]
@@ -2926,10 +3721,13 @@
     {
       "code": "LBM",
       "display": "Liberty Mutual",
-      "definition": "Liberty Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Liberty Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Liberty Mutual"
         }
       ]
@@ -2937,21 +3735,27 @@
     {
       "code": "LEDOR",
       "display": "Group Ledor Inc. Mutual Insurance",
-      "definition": "Group Ledor Inc. Mutual Insurance — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Groupe Ledor Inc., Mutuelle d'Assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Group Ledor Inc. Mutual Insurance"
         }
       ]
     },
     {
       "code": "LEG",
       "display": "Legacy",
-      "definition": "Legacy — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Legacy"
+        },
+        {
+          "language": "es-MX",
           "value": "Legacy"
         }
       ]
@@ -2959,10 +3763,13 @@
     {
       "code": "LEV",
       "display": "Promutuel Lévisienne-Orléans",
-      "definition": "Promutuel Lévisienne-Orléans — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel Lévisienne-Orléans"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel Lévisienne-Orléans"
         }
       ]
@@ -2970,10 +3777,13 @@
     {
       "code": "LEX",
       "display": "L'Exclusive",
-      "definition": "L'Exclusive — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "L'Exclusive"
+        },
+        {
+          "language": "es-MX",
           "value": "L'Exclusive"
         }
       ]
@@ -2981,10 +3791,13 @@
     {
       "code": "LEY",
       "display": "L.E. Yingst",
-      "definition": "L.E. Yingst — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "L.E. Yingst"
+        },
+        {
+          "language": "es-MX",
           "value": "L.E. Yingst"
         }
       ]
@@ -2992,10 +3805,13 @@
     {
       "code": "LGI",
       "display": "Northbridge Insurance - Commercial (NGIC - Northbridge General Insurance Corporation)",
-      "definition": "Northbridge Insurance - Commercial (NGIC - Northbridge General Insurance Corporation) — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Northbridge Insurance - Commercial (NGIC - Northbridge General Insurance Corporation)"
+        },
+        {
+          "language": "es-MX",
           "value": "Northbridge Insurance - Commercial (NGIC - Northbridge General Insurance Corporation)"
         }
       ]
@@ -3003,43 +3819,55 @@
     {
       "code": "LITTO",
       "display": "Promutuel du Littoral (formerly Promutuel Kamouraska)",
-      "definition": "Promutuel du Littoral (formerly Promutuel Kamouraska) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel du Littoral (anciennement Promutuel Kamouraska)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel du Littoral (formerly Promutuel Kamouraska)"
         }
       ]
     },
     {
       "code": "LLD",
       "display": "Lloyds, Non-marine",
-      "definition": "Lloyds, Non-marine — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Lloyds, sauf assurance maritime"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lloyds, Non-marine"
         }
       ]
     },
     {
       "code": "LLU",
       "display": "Lloyd's Underwriters",
-      "definition": "Lloyd's Underwriters — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Lloyd’s Underwriters"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lloyd's Underwriters"
         }
       ]
     },
     {
       "code": "LNX",
       "display": "Lennox & Addington",
-      "definition": "Lennox & Addington — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Lennox & Addington"
+        },
+        {
+          "language": "es-MX",
           "value": "Lennox & Addington"
         }
       ]
@@ -3047,21 +3875,27 @@
     {
       "code": "LOB",
       "display": "Lobo Mutual",
-      "definition": "Lobo Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Lobo Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Lobo Mutual"
         }
       ]
     },
     {
-      "code": "LOC",
+      "code": "CA:LOC",
       "display": "London-Canada",
-      "definition": "London-Canada — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "London-Canada"
+        },
+        {
+          "language": "es-MX",
           "value": "London-Canada"
         }
       ]
@@ -3069,10 +3903,13 @@
     {
       "code": "LOM",
       "display": "London & Midland",
-      "definition": "London & Midland — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "London & Midland"
+        },
+        {
+          "language": "es-MX",
           "value": "London & Midland"
         }
       ]
@@ -3080,32 +3917,41 @@
     {
       "code": "LOMB",
       "display": "Northbridge Personal Insurance Corporation (formerly Lombard)",
-      "definition": "Northbridge Personal Insurance Corporation (formerly Lombard) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Northbridge Personal Insurance Corporation (anciennement Lombard)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Northbridge Personal Insurance Corporation (formerly Lombard)"
         }
       ]
     },
     {
       "code": "LOMG",
       "display": "Promutuel Monts et Rives (formerly Lotbinière and Mégantic Mutual)",
-      "definition": "Promutuel Monts et Rives (formerly Lotbinière and Mégantic Mutual) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel Monts et Rives (anciennement Lotbinière et Mégantic Mutual)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel Monts et Rives (formerly Lotbinière and Mégantic Mutual)"
         }
       ]
     },
     {
       "code": "LON",
       "display": "London Assurance",
-      "definition": "London Assurance — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "London Assurance"
+        },
+        {
+          "language": "es-MX",
           "value": "London Assurance"
         }
       ]
@@ -3113,10 +3959,13 @@
     {
       "code": "LOT",
       "display": "Promutuel Lotbinière",
-      "definition": "Promutuel Lotbinière — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel Lotbinière"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel Lotbinière"
         }
       ]
@@ -3124,10 +3973,13 @@
     {
       "code": "LOY",
       "display": "Loyalist",
-      "definition": "Loyalist — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Loyalist"
+        },
+        {
+          "language": "es-MX",
           "value": "Loyalist"
         }
       ]
@@ -3135,21 +3987,27 @@
     {
       "code": "LSJ",
       "display": "Promutuel Lac au Fjord (formerly Lac St-Jean Mutual)",
-      "definition": "Promutuel Lac au Fjord (formerly Lac St-Jean Mutual) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel Lac au Fjord (anciennement Lac St-Jean Mutual"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel Lac au Fjord (formerly Lac St-Jean Mutual)"
         }
       ]
     },
     {
       "code": "LSP",
       "display": "Promutuel Lac St-Pierre - Les Forges",
-      "definition": "Promutuel Lac St-Pierre - Les Forges — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel Lac St-Pierre - Les Forges"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel Lac St-Pierre - Les Forges"
         }
       ]
@@ -3157,10 +4015,13 @@
     {
       "code": "LTM",
       "display": "MutualONE Insurance Company (formerly Middlesex Mutual)",
-      "definition": "MutualONE Insurance Company (formerly Middlesex Mutual) — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "MutualONE Insurance Company (formerly Middlesex Mutual)"
+        },
+        {
+          "language": "es-MX",
           "value": "MutualONE Insurance Company (formerly Middlesex Mutual)"
         }
       ]
@@ -3168,10 +4029,13 @@
     {
       "code": "LUM",
       "display": "Lumbermens Mutual",
-      "definition": "Lumbermens Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Lumbermens Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Lumbermens Mutual"
         }
       ]
@@ -3179,10 +4043,13 @@
     {
       "code": "MAA",
       "display": "Marine Office of America Corp.",
-      "definition": "Marine Office of America Corp. — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Marine Office of America Corp."
+        },
+        {
+          "language": "es-MX",
           "value": "Marine Office of America Corp."
         }
       ]
@@ -3190,10 +4057,13 @@
     {
       "code": "MAPL",
       "display": "Maplex General",
-      "definition": "Maplex General — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Maplex General"
+        },
+        {
+          "language": "es-MX",
           "value": "Maplex General"
         }
       ]
@@ -3201,21 +4071,27 @@
     {
       "code": "MAR",
       "display": "Northbridge Commercial Insurance Corporation (formerly Markel)",
-      "definition": "Northbridge Commercial Insurance Corporation (formerly Markel) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Northbridge Commercial Insurance Corporation (anciennement Markel)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Northbridge Commercial Insurance Corporation (formerly Markel)"
         }
       ]
     },
     {
       "code": "MARK",
       "display": "Markham General",
-      "definition": "Markham General — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Markham General"
+        },
+        {
+          "language": "es-MX",
           "value": "Markham General"
         }
       ]
@@ -3223,21 +4099,27 @@
     {
       "code": "MAU",
       "display": "Promutuel Portneuf-Champlain (formerly Mauricienne Mutual)",
-      "definition": "Promutuel Portneuf-Champlain (formerly Mauricienne Mutual) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel Portneuf-Champlain (anciennement Mauricienne Mutual)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel Portneuf-Champlain (formerly Mauricienne Mutual)"
         }
       ]
     },
     {
       "code": "MAX",
       "display": "MAX Insurance",
-      "definition": "MAX Insurance — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "MAX Insurance"
+        },
+        {
+          "language": "es-MX",
           "value": "MAX Insurance"
         }
       ]
@@ -3245,10 +4127,13 @@
     {
       "code": "MCG",
       "display": "MutualONE Insurance Company (formerly Middlesex Mutual)",
-      "definition": "MutualONE Insurance Company (formerly Middlesex Mutual) — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "MutualONE Insurance Company (formerly Middlesex Mutual)"
+        },
+        {
+          "language": "es-MX",
           "value": "MutualONE Insurance Company (formerly Middlesex Mutual)"
         }
       ]
@@ -3256,10 +4141,13 @@
     {
       "code": "MCK",
       "display": "MutualONE Insurance Company (formerly McKillop)",
-      "definition": "MutualONE Insurance Company (formerly McKillop) — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "MutualONE Insurance Company (formerly McKillop)"
+        },
+        {
+          "language": "es-MX",
           "value": "MutualONE Insurance Company (formerly McKillop)"
         }
       ]
@@ -3267,10 +4155,13 @@
     {
       "code": "MENN",
       "display": "Mennonite Aid Union",
-      "definition": "Mennonite Aid Union — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Mennonite Aid Union"
+        },
+        {
+          "language": "es-MX",
           "value": "Mennonite Aid Union"
         }
       ]
@@ -3278,10 +4169,13 @@
     {
       "code": "MET",
       "display": "Metropolitan",
-      "definition": "Metropolitan — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Metropolitan"
+        },
+        {
+          "language": "es-MX",
           "value": "Metropolitan"
         }
       ]
@@ -3289,10 +4183,13 @@
     {
       "code": "METG",
       "display": "Metro General",
-      "definition": "Metro General — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Metro General"
+        },
+        {
+          "language": "es-MX",
           "value": "Metro General"
         }
       ]
@@ -3300,10 +4197,13 @@
     {
       "code": "MILL",
       "display": "Millennium",
-      "definition": "Millennium — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Millennium"
+        },
+        {
+          "language": "es-MX",
           "value": "Millennium"
         }
       ]
@@ -3311,32 +4211,41 @@
     {
       "code": "MISS",
       "display": "Economical QC (formerly Missisquoi)",
-      "definition": "Economical QC (formerly Missisquoi) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Economical QC (anciennement Missisquoi)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Economical QC (formerly Missisquoi)"
         }
       ]
     },
     {
       "code": "MITS",
       "display": "Mitsui Sumitomo",
-      "definition": "Mitsui Sumitomo — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Mitsui Sumitomo"
+        },
+        {
+          "language": "es-MX",
           "value": "Mitsui Sumitomo"
         }
       ]
     },
     {
-      "code": "MMA",
+      "code": "CA:MMA",
       "display": "Mennonite Mutual (Alberta)",
-      "definition": "Mennonite Mutual (Alberta) — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Mennonite Mutual (Alberta)"
+        },
+        {
+          "language": "es-MX",
           "value": "Mennonite Mutual (Alberta)"
         }
       ]
@@ -3344,10 +4253,13 @@
     {
       "code": "MMI",
       "display": "My Mutual Insurance",
-      "definition": "My Mutual Insurance — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "My Mutual Insurance"
+        },
+        {
+          "language": "es-MX",
           "value": "My Mutual Insurance"
         }
       ]
@@ -3355,21 +4267,27 @@
     {
       "code": "MON",
       "display": "Promutuel Côte-Sud (formerly Promutuel Montmagny)",
-      "definition": "Promutuel Côte-Sud (formerly Promutuel Montmagny) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel Côte-Sud (anciennement Promutuel Montmagny)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel Côte-Sud (formerly Promutuel Montmagny)"
         }
       ]
     },
     {
       "code": "MOT",
       "display": "Motors",
-      "definition": "Motors — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Motors"
+        },
+        {
+          "language": "es-MX",
           "value": "Motors"
         }
       ]
@@ -3377,21 +4295,27 @@
     {
       "code": "MEAL",
       "display": "Morin Elliott Associés Ltée.",
-      "definition": "Morin Elliott Associés Ltée. — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Morin Elliott Associés Ltée."
+        },
+        {
+          "language": "es-MX",
           "value": "Morin Elliott Associés Ltée."
         }
       ]
     },
     {
-      "code": "MPIC",
+      "code": "CA:MPIC",
       "display": "Manitoba Public Ins. Corp.",
-      "definition": "Manitoba Public Ins. Corp. — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Manitoba Public Ins. Corp."
+        },
+        {
+          "language": "es-MX",
           "value": "Manitoba Public Ins. Corp."
         }
       ]
@@ -3399,10 +4323,13 @@
     {
       "code": "MUF",
       "display": "Mutual Fire Insurance Co. of B.C.",
-      "definition": "Mutual Fire Insurance Co. of B.C. — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Mutual Fire Insurance Co. of B.C."
+        },
+        {
+          "language": "es-MX",
           "value": "Mutual Fire Insurance Co. of B.C."
         }
       ]
@@ -3410,10 +4337,13 @@
     {
       "code": "MUN",
       "display": "Municipal Electric Assoc. Reciprocal Exchange",
-      "definition": "Municipal Electric Assoc. Reciprocal Exchange — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Municipal Electric Assoc. Reciprocal Exchange"
+        },
+        {
+          "language": "es-MX",
           "value": "Municipal Electric Assoc. Reciprocal Exchange"
         }
       ]
@@ -3421,21 +4351,27 @@
     {
       "code": "NAP",
       "display": "Promutuel Les Prairies (formerly Napierville & Laprairie Mutual)",
-      "definition": "Promutuel Les Prairies (formerly Napierville & Laprairie Mutual) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel Les Prairies (anciennement Napierville & Laprairie)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel Les Prairies (formerly Napierville & Laprairie Mutual)"
         }
       ]
     },
     {
       "code": "NATE",
       "display": "National Employers Mutual",
-      "definition": "National Employers Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "National Employers Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "National Employers Mutual"
         }
       ]
@@ -3443,10 +4379,13 @@
     {
       "code": "NATG",
       "display": "National Group",
-      "definition": "National Group — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "National Group"
+        },
+        {
+          "language": "es-MX",
           "value": "National Group"
         }
       ]
@@ -3454,43 +4393,55 @@
     {
       "code": "NATS",
       "display": "National Society (Société Nationale)",
-      "definition": "National Society (Société Nationale) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Société Nationale"
+        },
+        {
+          "language": "es-MX",
+          "value": "National Society (Société Nationale)"
         }
       ]
     },
     {
       "code": "NBG",
       "display": "National Bank General Insurance Inc.",
-      "definition": "National Bank General Insurance Inc. — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Assurances générales Banque Nationale"
+        },
+        {
+          "language": "es-MX",
+          "value": "National Bank General Insurance Inc."
         }
       ]
     },
     {
       "code": "NBM",
       "display": "North Blenheim Mutual",
-      "definition": "North Blenheim Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "North Blenheim"
+        },
+        {
+          "language": "es-MX",
+          "value": "North Blenheim Mutual"
         }
       ]
     },
     {
       "code": "NEWH",
       "display": "New Hampshire Ins. Group",
-      "definition": "New Hampshire Ins. Group — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "New Hampshire Ins. Group"
+        },
+        {
+          "language": "es-MX",
           "value": "New Hampshire Ins. Group"
         }
       ]
@@ -3498,10 +4449,13 @@
     {
       "code": "NIA",
       "display": "Niagara Fire",
-      "definition": "Niagara Fire — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Niagara Fire"
+        },
+        {
+          "language": "es-MX",
           "value": "Niagara Fire"
         }
       ]
@@ -3509,10 +4463,13 @@
     {
       "code": "NIPP",
       "display": "Nippon",
-      "definition": "Nippon — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Nippon"
+        },
+        {
+          "language": "es-MX",
           "value": "Nippon"
         }
       ]
@@ -3520,10 +4477,13 @@
     {
       "code": "NKM",
       "display": "Maple Mutual Insurance",
-      "definition": "Maple Mutual Insurance — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Maple Mutual Insurance"
+        },
+        {
+          "language": "es-MX",
           "value": "Maple Mutual Insurance"
         }
       ]
@@ -3531,54 +4491,69 @@
     {
       "code": "NOM",
       "display": "Norfolk Mutual",
-      "definition": "Norfolk Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Norfolk"
+        },
+        {
+          "language": "es-MX",
+          "value": "Norfolk Mutual"
         }
       ]
     },
     {
       "code": "NONE",
       "display": "No Previous Insurer",
-      "definition": "No Previous Insurer — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Sans assurance antérieure"
+        },
+        {
+          "language": "es-MX",
+          "value": "No Previous Insurer"
         }
       ]
     },
     {
-      "code": "NORD",
+      "code": "CA:NORD",
       "display": "Nordic Insurance of Canada",
-      "definition": "Nordic Insurance of Canada — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Nordic Assurances du Canada"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nordic Insurance of Canada"
         }
       ]
     },
     {
       "code": "NORF",
       "display": "Optimum Insurance Company Inc.",
-      "definition": "Optimum Insurance Company Inc. — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Optimum Société d'Assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Optimum Insurance Company Inc."
         }
       ]
     },
     {
       "code": "NORG",
       "display": "NorGroupe",
-      "definition": "NorGroupe — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "NorGroupe"
+        },
+        {
+          "language": "es-MX",
           "value": "NorGroupe"
         }
       ]
@@ -3586,10 +4561,13 @@
     {
       "code": "NORM",
       "display": "Norman",
-      "definition": "Norman — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Norman"
+        },
+        {
+          "language": "es-MX",
           "value": "Norman"
         }
       ]
@@ -3597,10 +4575,13 @@
     {
       "code": "NORT",
       "display": "Northumberland",
-      "definition": "Northumberland — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Northumberland"
+        },
+        {
+          "language": "es-MX",
           "value": "Northumberland"
         }
       ]
@@ -3608,21 +4589,27 @@
     {
       "code": "OXF",
       "display": "Heartland Mutual Insurance (formerly Oxford Mutual))",
-      "definition": "Heartland Mutual Insurance (formerly Oxford Mutual)) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Heartland Mutual Insurance (anciennemen Oxford Mutual)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Heartland Mutual Insurance (formerly Oxford Mutual))"
         }
       ]
     },
     {
-      "code": "NS",
+      "code": "CA:NS",
       "display": "Nova Scotia General",
-      "definition": "Nova Scotia General — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Nova Scotia General"
+        },
+        {
+          "language": "es-MX",
           "value": "Nova Scotia General"
         }
       ]
@@ -3630,21 +4617,27 @@
     {
       "code": "NWIDE",
       "display": "Nationwide",
-      "definition": "Nationwide — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "National"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nationwide"
         }
       ]
     },
     {
       "code": "NZ",
       "display": "New Zealand",
-      "definition": "New Zealand — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "New Zealand"
+        },
+        {
+          "language": "es-MX",
           "value": "New Zealand"
         }
       ]
@@ -3652,32 +4645,41 @@
     {
       "code": "OASI",
       "display": "Oasis Insurance",
-      "definition": "Oasis Insurance — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Oasis Insurance"
+        },
+        {
+          "language": "es-MX",
           "value": "Oasis Insurance"
         }
       ]
     },
     {
-      "code": "OC",
+      "code": "CA:OC",
       "display": "Outside Canada",
-      "definition": "Outside Canada — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Hors Canada"
+        },
+        {
+          "language": "es-MX",
+          "value": "Outside Canada"
         }
       ]
     },
     {
       "code": "OCEAN",
       "display": "Oceanic Underwriters Ltd.",
-      "definition": "Oceanic Underwriters Ltd. — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Oceanic Underwriters Ltd."
+        },
+        {
+          "language": "es-MX",
           "value": "Oceanic Underwriters Ltd."
         }
       ]
@@ -3685,32 +4687,41 @@
     {
       "code": "OGA",
       "display": "Omega",
-      "definition": "Omega — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Omega"
+        },
+        {
+          "language": "es-MX",
           "value": "Omega"
         }
       ]
     },
     {
-      "code": "OM",
+      "code": "CA:OM",
       "display": "Ontario Municipal Insurance Exchange",
-      "definition": "Ontario Municipal Insurance Exchange — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Ontario Municipal Insurance Exchange"
+        },
+        {
+          "language": "es-MX",
           "value": "Ontario Municipal Insurance Exchange"
         }
       ]
     },
     {
-      "code": "ONT",
+      "code": "CA:ONT",
       "display": "Ontario Mutual",
-      "definition": "Ontario Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Ontario Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Ontario Mutual"
         }
       ]
@@ -3718,10 +4729,13 @@
     {
       "code": "OPA",
       "display": "Optimum Société d'Assurance",
-      "definition": "Optimum Société d'Assurance — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Optimum Société d'Assurance"
+        },
+        {
+          "language": "es-MX",
           "value": "Optimum Société d'Assurance"
         }
       ]
@@ -3729,10 +4743,13 @@
     {
       "code": "OPAA",
       "display": "Optimum Assurance Agricole",
-      "definition": "Optimum Assurance Agricole — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Optimum Assurance Agricole"
+        },
+        {
+          "language": "es-MX",
           "value": "Optimum Assurance Agricole"
         }
       ]
@@ -3740,10 +4757,13 @@
     {
       "code": "OPTI",
       "display": "Optiom Inc.",
-      "definition": "Optiom Inc. — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Optiom Inc."
+        },
+        {
+          "language": "es-MX",
           "value": "Optiom Inc."
         }
       ]
@@ -3751,10 +4771,13 @@
     {
       "code": "OPTW",
       "display": "Optimum West",
-      "definition": "Optimum West — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Optimum West"
+        },
+        {
+          "language": "es-MX",
           "value": "Optimum West"
         }
       ]
@@ -3762,21 +4785,27 @@
     {
       "code": "OREP",
       "display": "Old Republic",
-      "definition": "Old Republic — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Old Republic"
+        },
+        {
+          "language": "es-MX",
           "value": "Old Republic"
         }
       ]
     },
     {
-      "code": "OSB",
+      "code": "CA:OSB",
       "display": "Ontario School Boards Ins. Exchange",
-      "definition": "Ontario School Boards Ins. Exchange — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Ontario School Boards Ins. Exchange"
+        },
+        {
+          "language": "es-MX",
           "value": "Ontario School Boards Ins. Exchange"
         }
       ]
@@ -3784,10 +4813,13 @@
     {
       "code": "OT",
       "display": "Otter Dorchester",
-      "definition": "Otter Dorchester — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Otter Dorchester"
+        },
+        {
+          "language": "es-MX",
           "value": "Otter Dorchester"
         }
       ]
@@ -3795,43 +4827,55 @@
     {
       "code": "OT1",
       "display": "Miscellaneous - US Company",
-      "definition": "Miscellaneous - US Company — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Divers - Assureur américain"
+        },
+        {
+          "language": "es-MX",
+          "value": "Miscellaneous - US Company"
         }
       ]
     },
     {
       "code": "OT2",
       "display": "Miscellaneous - European Company",
-      "definition": "Miscellaneous - European Company — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Divers - Assureur européen"
+        },
+        {
+          "language": "es-MX",
+          "value": "Miscellaneous - European Company"
         }
       ]
     },
     {
       "code": "OT3",
       "display": "Other",
-      "definition": "Other — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Other"
         }
       ]
     },
     {
       "code": "OUT",
       "display": "Promutuel L'Outaouais",
-      "definition": "Promutuel L'Outaouais — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel L'Outaouais"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel L'Outaouais"
         }
       ]
@@ -3839,10 +4883,13 @@
     {
       "code": "PAF",
       "display": "Pafco",
-      "definition": "Pafco — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Pafco"
+        },
+        {
+          "language": "es-MX",
           "value": "Pafco"
         }
       ]
@@ -3850,10 +4897,13 @@
     {
       "code": "PAI",
       "display": "Promutuel Assurance Inc",
-      "definition": "Promutuel Assurance Inc — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel Assurance Inc"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel Assurance Inc"
         }
       ]
@@ -3861,10 +4911,13 @@
     {
       "code": "PAS",
       "display": "Pacific Employers",
-      "definition": "Pacific Employers — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Pacific Employers"
+        },
+        {
+          "language": "es-MX",
           "value": "Pacific Employers"
         }
       ]
@@ -3872,10 +4925,13 @@
     {
       "code": "PCF",
       "display": "President's Choice Financial",
-      "definition": "President's Choice Financial — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "President's Choice Financial"
+        },
+        {
+          "language": "es-MX",
           "value": "President's Choice Financial"
         }
       ]
@@ -3883,10 +4939,13 @@
     {
       "code": "PCFM",
       "display": "Pictou County Farmers' Mutual",
-      "definition": "Pictou County Farmers' Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Pictou County Farmers' Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Pictou County Farmers' Mutual"
         }
       ]
@@ -3894,10 +4953,13 @@
     {
       "code": "PEA",
       "display": "Peace Hills",
-      "definition": "Peace Hills — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Peace Hills"
+        },
+        {
+          "language": "es-MX",
           "value": "Peace Hills"
         }
       ]
@@ -3905,21 +4967,27 @@
     {
       "code": "PEEL",
       "display": "Peel Mutual",
-      "definition": "Peel Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Peel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Peel Mutual"
         }
       ]
     },
     {
-      "code": "PEI",
+      "code": "CA:PEI",
       "display": "PEI Mutual",
-      "definition": "PEI Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "PEI Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "PEI Mutual"
         }
       ]
@@ -3927,10 +4995,13 @@
     {
       "code": "PEMB",
       "display": "Pembridge",
-      "definition": "Pembridge — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Pembridge"
+        },
+        {
+          "language": "es-MX",
           "value": "Pembridge"
         }
       ]
@@ -3938,21 +5009,27 @@
     {
       "code": "PER",
       "display": "Personal",
-      "definition": "Personal — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "La Personnelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Personal"
         }
       ]
     },
     {
       "code": "PERT",
       "display": "Perth",
-      "definition": "Perth — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Perth"
+        },
+        {
+          "language": "es-MX",
           "value": "Perth"
         }
       ]
@@ -3960,10 +5037,13 @@
     {
       "code": "PIL",
       "display": "Pilot",
-      "definition": "Pilot — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Pilot"
+        },
+        {
+          "language": "es-MX",
           "value": "Pilot"
         }
       ]
@@ -3971,32 +5051,41 @@
     {
       "code": "PMM",
       "display": "Edge Mutual Insurance Company (formerly Peel Maryborough Mutual)",
-      "definition": "Edge Mutual Insurance Company (formerly Peel Maryborough Mutual) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Edge Mutual Insurance Company \n(anciennement Maryborough Mutual)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Edge Mutual Insurance Company (formerly Peel Maryborough Mutual)"
         }
       ]
     },
     {
       "code": "PONF",
       "display": "Promutuel Les Bâtisseurs (formerly Promutuel Portneuf-Champlain)",
-      "definition": "Promutuel Les Bâtisseurs (formerly Promutuel Portneuf-Champlain) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel Les Bâtisseurs (anciennement Promutuel Portneuf-Champlain)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel Les Bâtisseurs (formerly Promutuel Portneuf-Champlain)"
         }
       ]
     },
     {
       "code": "PORT",
       "display": "Portage La Prairie",
-      "definition": "Portage La Prairie — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Portage La Prairie"
+        },
+        {
+          "language": "es-MX",
           "value": "Portage La Prairie"
         }
       ]
@@ -4004,10 +5093,13 @@
     {
       "code": "PPLUS",
       "display": "PeoplePlus",
-      "definition": "PeoplePlus — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "PeoplePlus"
+        },
+        {
+          "language": "es-MX",
           "value": "PeoplePlus"
         }
       ]
@@ -4015,21 +5107,27 @@
     {
       "code": "PRA",
       "display": "Prudential of America",
-      "definition": "Prudential of America — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "La Prudentielle d'Amérique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Prudential of America"
         }
       ]
     },
     {
-      "code": "PREAM",
+      "code": "CA:PREAM",
       "display": "Premier Canada Assurance Managers",
-      "definition": "Premier Canada Assurance Managers — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Premier Canada Assurance Managers"
+        },
+        {
+          "language": "es-MX",
           "value": "Premier Canada Assurance Managers"
         }
       ]
@@ -4037,21 +5135,27 @@
     {
       "code": "PREC",
       "display": "Prévoyance",
-      "definition": "Prévoyance — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "La Prévoyance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Prévoyance"
         }
       ]
     },
     {
       "code": "PREM",
       "display": "Premier Marine Insurance Managers",
-      "definition": "Premier Marine Insurance Managers — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Premier Marine Insurance Managers"
+        },
+        {
+          "language": "es-MX",
           "value": "Premier Marine Insurance Managers"
         }
       ]
@@ -4059,32 +5163,41 @@
     {
       "code": "PRES",
       "display": "Prestcott",
-      "definition": "Prestcott — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Prescott"
+        },
+        {
+          "language": "es-MX",
+          "value": "Prestcott"
         }
       ]
     },
     {
       "code": "PRET",
       "display": "Prévoyants",
-      "definition": "Prévoyants — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Les Prévoyants"
+        },
+        {
+          "language": "es-MX",
+          "value": "Prévoyants"
         }
       ]
     },
     {
       "code": "PRIME",
       "display": "Primeguard",
-      "definition": "Primeguard — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Primeguard"
+        },
+        {
+          "language": "es-MX",
           "value": "Primeguard"
         }
       ]
@@ -4092,21 +5205,27 @@
     {
       "code": "PRM",
       "display": "Prairies Mutual",
-      "definition": "Prairies Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Prairies"
+        },
+        {
+          "language": "es-MX",
+          "value": "Prairies Mutual"
         }
       ]
     },
     {
       "code": "PRO",
       "display": "Protective",
-      "definition": "Protective — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Protective"
+        },
+        {
+          "language": "es-MX",
           "value": "Protective"
         }
       ]
@@ -4114,10 +5233,13 @@
     {
       "code": "PROG",
       "display": "Progressive",
-      "definition": "Progressive — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Progressive"
+        },
+        {
+          "language": "es-MX",
           "value": "Progressive"
         }
       ]
@@ -4125,10 +5247,13 @@
     {
       "code": "PROMR",
       "display": "Promutuel Monts et Rives",
-      "definition": "Promutuel Monts et Rives — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel Monts et Rives"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel Monts et Rives"
         }
       ]
@@ -4136,10 +5261,13 @@
     {
       "code": "PROPC",
       "display": "Promutuel Les Bâtisseurs",
-      "definition": "Promutuel Les Bâtisseurs — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel Les Bâtisseurs"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel Les Bâtisseurs"
         }
       ]
@@ -4147,10 +5275,13 @@
     {
       "code": "PROR",
       "display": "Promutuel Réassurance",
-      "definition": "Promutuel Réassurance — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel Réassurance"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel Réassurance"
         }
       ]
@@ -4158,43 +5289,55 @@
     {
       "code": "PROT",
       "display": "Protection Universelle (Universal Protection)",
-      "definition": "Protection Universelle (Universal Protection) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Protection Universelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Protection Universelle (Universal Protection)"
         }
       ]
     },
     {
       "code": "PRU",
       "display": "Prudential",
-      "definition": "Prudential — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Prudentielle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Prudential"
         }
       ]
     },
     {
       "code": "PRUE",
       "display": "Prudential of England",
-      "definition": "Prudential of England — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Prudentielle d'Angleterre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Prudential of England"
         }
       ]
     },
     {
       "code": "PRUO",
       "display": "Prudasco",
-      "definition": "Prudasco — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Prudasco"
+        },
+        {
+          "language": "es-MX",
           "value": "Prudasco"
         }
       ]
@@ -4202,32 +5345,41 @@
     {
       "code": "PRYS",
       "display": "Prysm General Insurance inc.",
-      "definition": "Prysm General Insurance inc. — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Prysm Assurances Générales inc."
+        },
+        {
+          "language": "es-MX",
+          "value": "Prysm General Insurance inc."
         }
       ]
     },
     {
       "code": "QBE",
       "display": "QBE Services Inc.",
-      "definition": "QBE Services Inc. — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "QBE Services Inc."
+        },
+        {
+          "language": "es-MX",
           "value": "QBE Services Inc."
         }
       ]
     },
     {
-      "code": "QUE",
+      "code": "CA:QUE",
       "display": "Compagnie d'Assurance du Québec",
-      "definition": "Compagnie d'Assurance du Québec — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Compagnie d'Assurance du Québec"
+        },
+        {
+          "language": "es-MX",
           "value": "Compagnie d'Assurance du Québec"
         }
       ]
@@ -4235,32 +5387,41 @@
     {
       "code": "QUIN",
       "display": "Bay of Quinte",
-      "definition": "Bay of Quinte — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Bay of Quinte"
+        },
+        {
+          "language": "es-MX",
           "value": "Bay of Quinte"
         }
       ]
     },
     {
-      "code": "RBC",
+      "code": "CA:RBC",
       "display": "RBC Insurance (Royal Bank Canada)",
-      "definition": "RBC Insurance (Royal Bank Canada) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "RBC Assurances (Banque Royale du Canada)"
+        },
+        {
+          "language": "es-MX",
+          "value": "RBC Insurance (Royal Bank Canada)"
         }
       ]
     },
     {
       "code": "REL",
       "display": "Reliance",
-      "definition": "Reliance — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Reliance"
+        },
+        {
+          "language": "es-MX",
           "value": "Reliance"
         }
       ]
@@ -4268,21 +5429,27 @@
     {
       "code": "RICH",
       "display": "Promutuel Appalaches - St-François (formerly Richmond & Val St-François Mutual)",
-      "definition": "Promutuel Appalaches - St-François (formerly Richmond & Val St-François Mutual) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel Appalaches-St-François (anciennement Richmond & Val St-François Mutual)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel Appalaches - St-François (formerly Richmond & Val St-François Mutual)"
         }
       ]
     },
     {
       "code": "RIV",
       "display": "Promutuel Rivière-du-Loup",
-      "definition": "Promutuel Rivière-du-Loup — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel Rivière-du-Loup"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel Rivière-du-Loup"
         }
       ]
@@ -4290,21 +5457,27 @@
     {
       "code": "RIVER",
       "display": "Promutuel Des Riverains",
-      "definition": "Promutuel Des Riverains — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel des Riverains"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel Des Riverains"
         }
       ]
     },
     {
       "code": "ROU",
       "display": "Promutuel Rouyn-Noranda-Témiscamingue",
-      "definition": "Promutuel Rouyn-Noranda-Témiscamingue — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel Rouyn-Noranda-Témiscamingue"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel Rouyn-Noranda-Témiscamingue"
         }
       ]
@@ -4312,10 +5485,13 @@
     {
       "code": "ROY",
       "display": "Royal & SunAlliance",
-      "definition": "Royal & SunAlliance — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Royal & SunAlliance"
+        },
+        {
+          "language": "es-MX",
           "value": "Royal & SunAlliance"
         }
       ]
@@ -4323,10 +5499,13 @@
     {
       "code": "RRVM",
       "display": "Red River Valley Mutual",
-      "definition": "Red River Valley Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Red River Valley Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Red River Valley Mutual"
         }
       ]
@@ -4334,10 +5513,13 @@
     {
       "code": "RVSUD",
       "display": "Promutuel Côte-Sud",
-      "definition": "Promutuel Côte-Sud — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel Côte-Sud"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel Côte-Sud"
         }
       ]
@@ -4345,10 +5527,13 @@
     {
       "code": "SAFE",
       "display": "Safeco",
-      "definition": "Safeco — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Safeco"
+        },
+        {
+          "language": "es-MX",
           "value": "Safeco"
         }
       ]
@@ -4356,54 +5541,69 @@
     {
       "code": "SAG",
       "display": "Promutuel du Lac Fjord (formerly Saguenay Mutual)",
-      "definition": "Promutuel du Lac Fjord (formerly Saguenay Mutual) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel du Lac Fjord (anciennement Saguenay Mutual) Promutuel Lac au Fjord?"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel du Lac Fjord (formerly Saguenay Mutual)"
         }
       ]
     },
     {
       "code": "SAL",
       "display": "Promutuel Haut St-Laurent (formerly Salaberry Mutual)",
-      "definition": "Promutuel Haut St-Laurent (formerly Salaberry Mutual) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel Haut St-Laurent (anciennement Salaberry Mutual)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel Haut St-Laurent (formerly Salaberry Mutual)"
         }
       ]
     },
     {
       "code": "SAP",
       "display": "St-Anne des Plaines Mutual",
-      "definition": "St-Anne des Plaines Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "St-Anne des Plaines"
+        },
+        {
+          "language": "es-MX",
+          "value": "St-Anne des Plaines Mutual"
         }
       ]
     },
     {
       "code": "SAY",
       "display": "Scottish & York (formerly S&R)",
-      "definition": "Scottish & York (formerly S&R) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Scottish & York (anciennement S&R)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Scottish & York (formerly S&R)"
         }
       ]
     },
     {
       "code": "SCOT",
       "display": "Scottish Dominion",
-      "definition": "Scottish Dominion — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Scottish Dominion"
+        },
+        {
+          "language": "es-MX",
           "value": "Scottish Dominion"
         }
       ]
@@ -4411,21 +5611,27 @@
     {
       "code": "SDQ",
       "display": "Societe Mutuelle Reass. du P.Q.",
-      "definition": "Societe Mutuelle Reass. du P.Q. — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Société Mutuelle de Réassurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Societe Mutuelle Reass. du P.Q."
         }
       ]
     },
     {
       "code": "SEA",
       "display": "Seaboard",
-      "definition": "Seaboard — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Seaboard"
+        },
+        {
+          "language": "es-MX",
           "value": "Seaboard"
         }
       ]
@@ -4433,10 +5639,13 @@
     {
       "code": "SEC",
       "display": "La Sécurité",
-      "definition": "La Sécurité — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "La Sécurité"
+        },
+        {
+          "language": "es-MX",
           "value": "La Sécurité"
         }
       ]
@@ -4444,10 +5653,13 @@
     {
       "code": "SECN",
       "display": "Security National",
-      "definition": "Security National — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Security National"
+        },
+        {
+          "language": "es-MX",
           "value": "Security National"
         }
       ]
@@ -4455,10 +5667,13 @@
     {
       "code": "SEHM",
       "display": "South Easthope Mutual",
-      "definition": "South Easthope Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "South Easthope Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "South Easthope Mutual"
         }
       ]
@@ -4466,10 +5681,13 @@
     {
       "code": "SEM",
       "display": "Southeastern Mutual",
-      "definition": "Southeastern Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Southeastern Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Southeastern Mutual"
         }
       ]
@@ -4477,10 +5695,13 @@
     {
       "code": "SEN",
       "display": "Sentry",
-      "definition": "Sentry — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Sentry"
+        },
+        {
+          "language": "es-MX",
           "value": "Sentry"
         }
       ]
@@ -4488,10 +5709,13 @@
     {
       "code": "SENT",
       "display": "Sécurité Nationale",
-      "definition": "Sécurité Nationale — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Sécurité Nationale"
+        },
+        {
+          "language": "es-MX",
           "value": "Sécurité Nationale"
         }
       ]
@@ -4499,32 +5723,41 @@
     {
       "code": "SG",
       "display": "Scotia General",
-      "definition": "Scotia General — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Scotia General"
+        },
+        {
+          "language": "es-MX",
           "value": "Scotia General"
         }
       ]
     },
     {
-      "code": "SGI",
+      "code": "CA:SGI",
       "display": "SGI CANADA",
-      "definition": "SGI CANADA — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "SGI CANADA"
+        },
+        {
+          "language": "es-MX",
           "value": "SGI CANADA"
         }
       ]
     },
     {
-      "code": "SGIS",
+      "code": "CA:SGIS",
       "display": "SGI CANADA Insurance Services Ltd.",
-      "definition": "SGI CANADA Insurance Services Ltd. — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "SGI CANADA Insurance Services Ltd."
+        },
+        {
+          "language": "es-MX",
           "value": "SGI CANADA Insurance Services Ltd."
         }
       ]
@@ -4532,10 +5765,13 @@
     {
       "code": "SIMC",
       "display": "Simcoe & Erie",
-      "definition": "Simcoe & Erie — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Simcoe & Erie"
+        },
+        {
+          "language": "es-MX",
           "value": "Simcoe & Erie"
         }
       ]
@@ -4543,10 +5779,13 @@
     {
       "code": "SKM",
       "display": "Sandbox Mutual Insurance",
-      "definition": "Sandbox Mutual Insurance — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Sandbox Mutual Insurance"
+        },
+        {
+          "language": "es-MX",
           "value": "Sandbox Mutual Insurance"
         }
       ]
@@ -4554,10 +5793,13 @@
     {
       "code": "SNA",
       "display": "Optimum Société d'Assurance",
-      "definition": "Optimum Société d'Assurance — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Optimum Société d'Assurance"
+        },
+        {
+          "language": "es-MX",
           "value": "Optimum Société d'Assurance"
         }
       ]
@@ -4565,10 +5807,13 @@
     {
       "code": "SOC",
       "display": "Society Mutual Reinsurance",
-      "definition": "Society Mutual Reinsurance — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Society Mutual Reinsurance"
+        },
+        {
+          "language": "es-MX",
           "value": "Society Mutual Reinsurance"
         }
       ]
@@ -4576,54 +5821,69 @@
     {
       "code": "SONNE",
       "display": "Sonnet Insurance",
-      "definition": "Sonnet Insurance — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Sonnet Assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sonnet Insurance"
         }
       ]
     },
     {
       "code": "SOU",
       "display": "Promutuel Assurance ALTA (formerly Promutuel Horizon Ouest)",
-      "definition": "Promutuel Assurance ALTA (formerly Promutuel Horizon Ouest) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel Assurance ALTA (anciennement Promutuel Horizon Ouest)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel Assurance ALTA (formerly Promutuel Horizon Ouest)"
         }
       ]
     },
     {
       "code": "SOV",
       "display": "Sovereign",
-      "definition": "Sovereign — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "La Souveraine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sovereign"
         }
       ]
     },
     {
       "code": "SSQ",
       "display": "SSQ, Societe d'ass.",
-      "definition": "SSQ, Societe d'ass. — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "SSQ, Société d'ass."
+        },
+        {
+          "language": "es-MX",
+          "value": "SSQ, Societe d'ass."
         }
       ]
     },
     {
       "code": "STAN",
       "display": "Stanley Mutual Insurance Company",
-      "definition": "Stanley Mutual Insurance Company — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Stanley Mutual Insurance Company"
+        },
+        {
+          "language": "es-MX",
           "value": "Stanley Mutual Insurance Company"
         }
       ]
@@ -4631,10 +5891,13 @@
     {
       "code": "STARR",
       "display": "Starr Insurance & Reinsurance Limited",
-      "definition": "Starr Insurance & Reinsurance Limited — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Starr Insurance & Reinsurance Limited"
+        },
+        {
+          "language": "es-MX",
           "value": "Starr Insurance & Reinsurance Limited"
         }
       ]
@@ -4642,10 +5905,13 @@
     {
       "code": "STEW",
       "display": "Stewart Smith",
-      "definition": "Stewart Smith — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Stewart Smith"
+        },
+        {
+          "language": "es-MX",
           "value": "Stewart Smith"
         }
       ]
@@ -4653,10 +5919,13 @@
     {
       "code": "STF",
       "display": "State Farm Fire and Casualty",
-      "definition": "State Farm Fire and Casualty — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "State Farm Fire and Casualty"
+        },
+        {
+          "language": "es-MX",
           "value": "State Farm Fire and Casualty"
         }
       ]
@@ -4664,10 +5933,13 @@
     {
       "code": "STFM",
       "display": "State Farm Mutual Auto",
-      "definition": "State Farm Mutual Auto — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "State Farm Mutual Auto"
+        },
+        {
+          "language": "es-MX",
           "value": "State Farm Mutual Auto"
         }
       ]
@@ -4675,21 +5947,27 @@
     {
       "code": "STOM",
       "display": "Promutuel Coaticook-Sherbrooke (formerly Stanstead-Orford Mutual)",
-      "definition": "Promutuel Coaticook-Sherbrooke (formerly Stanstead-Orford Mutual) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel Coaticook-Sherbrooke (anciennement Stanstead-Orford Mutual)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel Coaticook-Sherbrooke (formerly Stanstead-Orford Mutual)"
         }
       ]
     },
     {
       "code": "STP",
       "display": "St. Paul",
-      "definition": "St. Paul — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "St. Paul"
+        },
+        {
+          "language": "es-MX",
           "value": "St. Paul"
         }
       ]
@@ -4697,10 +5975,13 @@
     {
       "code": "STSH",
       "display": "Stanstead & Sherbrooke",
-      "definition": "Stanstead & Sherbrooke — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Stanstead & Sherbrooke"
+        },
+        {
+          "language": "es-MX",
           "value": "Stanstead & Sherbrooke"
         }
       ]
@@ -4708,10 +5989,13 @@
     {
       "code": "SUA",
       "display": "Stratford Underwriting Agency Inc.",
-      "definition": "Stratford Underwriting Agency Inc. — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Stratford Underwriting Agency Inc."
+        },
+        {
+          "language": "es-MX",
           "value": "Stratford Underwriting Agency Inc."
         }
       ]
@@ -4719,32 +6003,41 @@
     {
       "code": "SUMI",
       "display": "Refer to code MITS",
-      "definition": "Refer to code MITS — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Voir code MITS"
+        },
+        {
+          "language": "es-MX",
+          "value": "Refer to code MITS"
         }
       ]
     },
     {
       "code": "SUN",
       "display": "Sun Alliance",
-      "definition": "Sun Alliance — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Sun Alliance"
+        },
+        {
+          "language": "es-MX",
           "value": "Sun Alliance"
         }
       ]
     },
     {
-      "code": "SURE",
+      "code": "CA:SURE",
       "display": "Canadian Surety",
-      "definition": "Canadian Surety — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Canadian Surety"
+        },
+        {
+          "language": "es-MX",
           "value": "Canadian Surety"
         }
       ]
@@ -4752,10 +6045,13 @@
     {
       "code": "SWEST",
       "display": "South Western Insurance Group",
-      "definition": "South Western Insurance Group — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "South Western Insurance Group"
+        },
+        {
+          "language": "es-MX",
           "value": "South Western Insurance Group"
         }
       ]
@@ -4763,10 +6059,13 @@
     {
       "code": "SWI",
       "display": "Switzerland",
-      "definition": "Switzerland — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Switzerland"
+        },
+        {
+          "language": "es-MX",
           "value": "Switzerland"
         }
       ]
@@ -4774,10 +6073,13 @@
     {
       "code": "SYI",
       "display": "S&Y Insurance Company",
-      "definition": "S&Y Insurance Company — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "S&Y Insurance Company"
+        },
+        {
+          "language": "es-MX",
           "value": "S&Y Insurance Company"
         }
       ]
@@ -4785,21 +6087,27 @@
     {
       "code": "SYM",
       "display": "Symons General",
-      "definition": "Symons General — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Symons"
+        },
+        {
+          "language": "es-MX",
+          "value": "Symons General"
         }
       ]
     },
     {
       "code": "TDG",
       "display": "TD General",
-      "definition": "TD General — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "TD General"
+        },
+        {
+          "language": "es-MX",
           "value": "TD General"
         }
       ]
@@ -4807,10 +6115,13 @@
     {
       "code": "TEM",
       "display": "Promutuel Témiscouata",
-      "definition": "Promutuel Témiscouata — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel Témiscouata"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel Témiscouata"
         }
       ]
@@ -4818,10 +6129,13 @@
     {
       "code": "TEMP",
       "display": "Temple",
-      "definition": "Temple — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Temple"
+        },
+        {
+          "language": "es-MX",
           "value": "Temple"
         }
       ]
@@ -4829,10 +6143,13 @@
     {
       "code": "TOG",
       "display": "Toronto General",
-      "definition": "Toronto General — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Toronto General"
+        },
+        {
+          "language": "es-MX",
           "value": "Toronto General"
         }
       ]
@@ -4840,10 +6157,13 @@
     {
       "code": "TOK",
       "display": "Tokio",
-      "definition": "Tokio — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Tokio"
+        },
+        {
+          "language": "es-MX",
           "value": "Tokio"
         }
       ]
@@ -4851,10 +6171,13 @@
     {
       "code": "TOWC",
       "display": "Town and Country Mutual",
-      "definition": "Town and Country Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Town and Country Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Town and Country Mutual"
         }
       ]
@@ -4862,21 +6185,27 @@
     {
       "code": "TOWN",
       "display": "Caradoc Townsend Mutual Insurance Company",
-      "definition": "Caradoc Townsend Mutual Insurance Company — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Caradoc Townsend Mutual Insurance Company"
+        },
+        {
+          "language": "es-MX",
           "value": "Caradoc Townsend Mutual Insurance Company"
         }
       ]
     },
     {
-      "code": "TRAC",
+      "code": "CA:TRAC",
       "display": "Trans Canada Risk",
-      "definition": "Trans Canada Risk — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Trans Canada Risk"
+        },
+        {
+          "language": "es-MX",
           "value": "Trans Canada Risk"
         }
       ]
@@ -4884,10 +6213,13 @@
     {
       "code": "TRAD",
       "display": "Tradition Mutual Insurance Company",
-      "definition": "Tradition Mutual Insurance Company — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Tradition Mutual Insurance Company"
+        },
+        {
+          "language": "es-MX",
           "value": "Tradition Mutual Insurance Company"
         }
       ]
@@ -4895,10 +6227,13 @@
     {
       "code": "TRAF",
       "display": "Trafalgar",
-      "definition": "Trafalgar — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Trafalgar"
+        },
+        {
+          "language": "es-MX",
           "value": "Trafalgar"
         }
       ]
@@ -4906,10 +6241,13 @@
     {
       "code": "TRAM",
       "display": "Trans-America",
-      "definition": "Trans-America — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Trans-America"
+        },
+        {
+          "language": "es-MX",
           "value": "Trans-America"
         }
       ]
@@ -4917,10 +6255,13 @@
     {
       "code": "TRAN",
       "display": "Transit",
-      "definition": "Transit — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Transit"
+        },
+        {
+          "language": "es-MX",
           "value": "Transit"
         }
       ]
@@ -4928,10 +6269,13 @@
     {
       "code": "TRAV",
       "display": "Travelers",
-      "definition": "Travelers — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Travelers"
+        },
+        {
+          "language": "es-MX",
           "value": "Travelers"
         }
       ]
@@ -4939,21 +6283,27 @@
     {
       "code": "TRCK",
       "display": "Truck Ins. Exchange",
-      "definition": "Truck Ins. Exchange — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Truck Ins. Exchange"
+        },
+        {
+          "language": "es-MX",
           "value": "Truck Ins. Exchange"
         }
       ]
     },
     {
-      "code": "TRCM",
+      "code": "CA:TRCM",
       "display": "Trans Canada Risk Management",
-      "definition": "Trans Canada Risk Management — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Trans Canada Risk Management"
+        },
+        {
+          "language": "es-MX",
           "value": "Trans Canada Risk Management"
         }
       ]
@@ -4961,32 +6311,41 @@
     {
       "code": "TRG",
       "display": "Traders General",
-      "definition": "Traders General — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Traders Générale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Traders General"
         }
       ]
     },
     {
       "code": "TRUH",
       "display": "TruShield Insurance",
-      "definition": "TruShield Insurance — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "TruShield Assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "TruShield Insurance"
         }
       ]
     },
     {
       "code": "TRP",
       "display": "Transport Ins. Co.",
-      "definition": "Transport Ins. Co. — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Transport Ins. Co."
+        },
+        {
+          "language": "es-MX",
           "value": "Transport Ins. Co."
         }
       ]
@@ -4994,21 +6353,27 @@
     {
       "code": "TWIG",
       "display": "The Wholesale Insurance Group",
-      "definition": "The Wholesale Insurance Group — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "The Wholesale Insurance Group"
+        },
+        {
+          "language": "es-MX",
           "value": "The Wholesale Insurance Group"
         }
       ]
     },
     {
-      "code": "UC",
+      "code": "CA:UC",
       "display": "United Canada",
-      "definition": "United Canada — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "United Canada"
+        },
+        {
+          "language": "es-MX",
           "value": "United Canada"
         }
       ]
@@ -5016,10 +6381,13 @@
     {
       "code": "UG",
       "display": "United General",
-      "definition": "United General — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "United General"
+        },
+        {
+          "language": "es-MX",
           "value": "United General"
         }
       ]
@@ -5027,10 +6395,13 @@
     {
       "code": "UHM",
       "display": "Usborne and Hibbert Mutual",
-      "definition": "Usborne and Hibbert Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Usborne and Hibbert Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Usborne and Hibbert Mutual"
         }
       ]
@@ -5038,21 +6409,27 @@
     {
       "code": "UNCN",
       "display": "RSA (formerly L'Union Canadienne)",
-      "definition": "RSA (formerly L'Union Canadienne) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "RSA (anciennement L'Union Canadienne)"
+        },
+        {
+          "language": "es-MX",
+          "value": "RSA (formerly L'Union Canadienne)"
         }
       ]
     },
     {
       "code": "UNI",
       "display": "Universal Protection",
-      "definition": "Universal Protection — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Universal Protection"
+        },
+        {
+          "language": "es-MX",
           "value": "Universal Protection"
         }
       ]
@@ -5060,10 +6437,13 @@
     {
       "code": "UNIF",
       "display": "Unifund",
-      "definition": "Unifund — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Unifund"
+        },
+        {
+          "language": "es-MX",
           "value": "Unifund"
         }
       ]
@@ -5071,10 +6451,13 @@
     {
       "code": "UNIQ",
       "display": "L'Unique",
-      "definition": "L'Unique — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "L'Unique"
+        },
+        {
+          "language": "es-MX",
           "value": "L'Unique"
         }
       ]
@@ -5082,32 +6465,41 @@
     {
       "code": "UNK",
       "display": "Unknown (only for use in PPH when unknown)",
-      "definition": "Unknown (only for use in PPH when unknown) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Inconnu (utiliser seulement dans PPH lorsqu'inconnu)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Unknown (only for use in PPH when unknown)"
         }
       ]
     },
     {
-      "code": "UQ",
+      "code": "CA:UQ",
       "display": "Union Québecoise Mutual",
-      "definition": "Union Québecoise Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "L'Union Québécoise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Union Québecoise Mutual"
         }
       ]
     },
     {
       "code": "USA",
       "display": "A U.S. Company",
-      "definition": "A U.S. Company — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "A U.S. Company"
+        },
+        {
+          "language": "es-MX",
           "value": "A U.S. Company"
         }
       ]
@@ -5115,10 +6507,13 @@
     {
       "code": "USFG",
       "display": "USF&G",
-      "definition": "USF&G — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "USF&G"
+        },
+        {
+          "language": "es-MX",
           "value": "USF&G"
         }
       ]
@@ -5126,10 +6521,13 @@
     {
       "code": "USFI",
       "display": "United States Fire",
-      "definition": "United States Fire — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "United States Fire"
+        },
+        {
+          "language": "es-MX",
           "value": "United States Fire"
         }
       ]
@@ -5137,10 +6535,13 @@
     {
       "code": "UTIC",
       "display": "Utica",
-      "definition": "Utica — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Utica"
+        },
+        {
+          "language": "es-MX",
           "value": "Utica"
         }
       ]
@@ -5148,10 +6549,13 @@
     {
       "code": "VAU",
       "display": "Promutuel Vaudreuil",
-      "definition": "Promutuel Vaudreuil — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel Vaudreuil"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel Vaudreuil"
         }
       ]
@@ -5159,10 +6563,13 @@
     {
       "code": "VER",
       "display": "Promutuel Verchères",
-      "definition": "Promutuel Verchères — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel Verchères"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel Verchères"
         }
       ]
@@ -5170,21 +6577,27 @@
     {
       "code": "VFORG",
       "display": "Promutuel Verchères - Les Forges (formerly Promutuel Lac St-Pierre - Les Forges)",
-      "definition": "Promutuel Verchères - Les Forges (formerly Promutuel Lac St-Pierre - Les Forges) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel Verchères - Les Forges (anciennement Promutuel Lac St-Pierre - Les Forges)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel Verchères - Les Forges (formerly Promutuel Lac St-Pierre - Les Forges)"
         }
       ]
     },
     {
       "code": "VIC",
       "display": "Victoria",
-      "definition": "Victoria — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Victoria"
+        },
+        {
+          "language": "es-MX",
           "value": "Victoria"
         }
       ]
@@ -5192,10 +6605,13 @@
     {
       "code": "VLM",
       "display": "Promutuel La Vallée",
-      "definition": "Promutuel La Vallée — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Promutuel La Vallée"
+        },
+        {
+          "language": "es-MX",
           "value": "Promutuel La Vallée"
         }
       ]
@@ -5203,65 +6619,83 @@
     {
       "code": "VMM",
       "display": "Promutuel du Saint-Laurent aux Appalaches (formerly Promutuel Valmont)",
-      "definition": "Promutuel du Saint-Laurent aux Appalaches (formerly Promutuel Valmont) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel du Saint-Laurent aux Appalaches (anciennement Promutuel Valmont)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel del Saint-Laurent aux Appalaches (formerly Promutuel Valmont)"
         }
       ]
     },
     {
       "code": "VSF",
       "display": "Promutuel Appalaches-St-François (formerly Val St-François)",
-      "definition": "Promutuel Appalaches-St-François (formerly Val St-François) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel Appalaches-St-François (anciennement Val St-François)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel Appalaches-St-François (formerly Val St-François)"
         }
       ]
     },
     {
       "code": "VSL",
       "display": "Promutuel du Saint-Laurent aux Appalaches (formerly Promutuel Vallée du St-Laurent)",
-      "definition": "Promutuel du Saint-Laurent aux Appalaches (formerly Promutuel Vallée du St-Laurent) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Promutuel du Saint-Laurent aux Appalaches (anciennement Promutuel Vallée du St-Laurent)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promutuel del Saint-Laurent aux Appalaches (formerly Promutuel Vallée du St-Laurent)"
         }
       ]
     },
     {
       "code": "WAB",
       "display": "Wabisa Mutual",
-      "definition": "Wabisa Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Wabisa"
+        },
+        {
+          "language": "es-MX",
+          "value": "Wabisa Mutual"
         }
       ]
     },
     {
       "code": "WAT",
       "display": "Economical Select (formerly Waterloo)",
-      "definition": "Economical Select (formerly Waterloo) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Economical Select (anciennement Waterloo)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Economical Select (formerly Waterloo)"
         }
       ]
     },
     {
       "code": "WAU",
       "display": "Wausau",
-      "definition": "Wausau — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Wausau"
+        },
+        {
+          "language": "es-MX",
           "value": "Wausau"
         }
       ]
@@ -5269,10 +6703,13 @@
     {
       "code": "WAUS",
       "display": "Employers Ins. of Wausau",
-      "definition": "Employers Ins. of Wausau — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Employers Ins. of Wausau"
+        },
+        {
+          "language": "es-MX",
           "value": "Employers Ins. of Wausau"
         }
       ]
@@ -5280,10 +6717,13 @@
     {
       "code": "WAWA",
       "display": "Wawanesa",
-      "definition": "Wawanesa — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Wawanesa"
+        },
+        {
+          "language": "es-MX",
           "value": "Wawanesa"
         }
       ]
@@ -5291,10 +6731,13 @@
     {
       "code": "WELL",
       "display": "Intact Insurance Company (Specialty Solutions)",
-      "definition": "Intact Insurance Company (Specialty Solutions) — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Intact Insurance Company (Specialty Solutions)"
+        },
+        {
+          "language": "es-MX",
           "value": "Intact Insurance Company (Specialty Solutions)"
         }
       ]
@@ -5302,21 +6745,27 @@
     {
       "code": "WEM",
       "display": "West Elgin Mutual",
-      "definition": "West Elgin Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "West Elgin"
+        },
+        {
+          "language": "es-MX",
+          "value": "West Elgin Mutual"
         }
       ]
     },
     {
       "code": "WEP",
       "display": "Westpar",
-      "definition": "Westpar — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Westpar"
+        },
+        {
+          "language": "es-MX",
           "value": "Westpar"
         }
       ]
@@ -5324,10 +6773,13 @@
     {
       "code": "WEST",
       "display": "Western Assurance",
-      "definition": "Western Assurance — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Western Assurance"
+        },
+        {
+          "language": "es-MX",
           "value": "Western Assurance"
         }
       ]
@@ -5335,10 +6787,13 @@
     {
       "code": "WESW",
       "display": "West Wawanosh Mutual",
-      "definition": "West Wawanosh Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "West Wawanosh Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "West Wawanosh Mutual"
         }
       ]
@@ -5346,10 +6801,13 @@
     {
       "code": "WFIEL",
       "display": "Westfield",
-      "definition": "Westfield — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Westfield"
+        },
+        {
+          "language": "es-MX",
           "value": "Westfield"
         }
       ]
@@ -5357,10 +6815,13 @@
     {
       "code": "WGMI",
       "display": "Western General",
-      "definition": "Western General — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Western General"
+        },
+        {
+          "language": "es-MX",
           "value": "Western General"
         }
       ]
@@ -5368,10 +6829,13 @@
     {
       "code": "WM",
       "display": "Westminster Mutual",
-      "definition": "Westminster Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Westminster Mutual"
+        },
+        {
+          "language": "es-MX",
           "value": "Westminster Mutual"
         }
       ]
@@ -5379,10 +6843,13 @@
     {
       "code": "WSL",
       "display": "Westland",
-      "definition": "Westland — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Westland"
+        },
+        {
+          "language": "es-MX",
           "value": "Westland"
         }
       ]
@@ -5390,21 +6857,27 @@
     {
       "code": "WU",
       "display": "Intact Insurance Company (formerly Intact Insurance Company (Western Division)",
-      "definition": "Intact Insurance Company (formerly Intact Insurance Company (Western Division) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Intact Compagnie d'assurance (anciennement Intact Compagnie d'assurance (division de l'ouest)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Intact Insurance Company (formerly Intact Insurance Company (Western Division)"
         }
       ]
     },
     {
       "code": "WUM",
       "display": "Western Underwriting Managers Ltd",
-      "definition": "Western Underwriting Managers Ltd — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Western Underwriting Managers Ltd"
+        },
+        {
+          "language": "es-MX",
           "value": "Western Underwriting Managers Ltd"
         }
       ]
@@ -5412,10 +6885,13 @@
     {
       "code": "XL",
       "display": "XL",
-      "definition": "XL — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "XL"
+        },
+        {
+          "language": "es-MX",
           "value": "XL"
         }
       ]
@@ -5423,43 +6899,55 @@
     {
       "code": "XLS",
       "display": "XL Speciality Insurance Company",
-      "definition": "XL Speciality Insurance Company — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Compagnie d'assurance XL spécialité"
+        },
+        {
+          "language": "es-MX",
+          "value": "XL Speciality Insurance Company"
         }
       ]
     },
     {
       "code": "YAM",
       "display": "Yamaska Mutual",
-      "definition": "Yamaska Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Yamaska"
+        },
+        {
+          "language": "es-MX",
+          "value": "Yamaska Mutual"
         }
       ]
     },
     {
       "code": "YAR",
       "display": "Yarmouth Mutual",
-      "definition": "Yarmouth Mutual — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Yarmouth"
+        },
+        {
+          "language": "es-MX",
+          "value": "Yarmouth Mutual"
         }
       ]
     },
     {
       "code": "YAS",
       "display": "Yasuda",
-      "definition": "Yasuda — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Yasuda"
+        },
+        {
+          "language": "es-MX",
           "value": "Yasuda"
         }
       ]
@@ -5467,21 +6955,27 @@
     {
       "code": "YORK",
       "display": "Unica Insurance (formerly York Fire & Casualty)",
-      "definition": "Unica Insurance (formerly York Fire & Casualty) — company code.",
       "designation": [
         {
           "language": "fr-CA",
           "value": "Unica Insurance (anciennement York Fire)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Unica Insurance (formerly York Fire & Casualty)"
         }
       ]
     },
     {
       "code": "ZEN",
       "display": "Northbridge Insurance – Personal (Zenith Insurance Company)",
-      "definition": "Northbridge Insurance – Personal (Zenith Insurance Company) — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Northbridge Insurance – Personal (Zenith Insurance Company)"
+        },
+        {
+          "language": "es-MX",
           "value": "Northbridge Insurance – Personal (Zenith Insurance Company)"
         }
       ]
@@ -5489,10 +6983,13 @@
     {
       "code": "ZUR",
       "display": "Zurich",
-      "definition": "Zurich — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Zurich"
+        },
+        {
+          "language": "es-MX",
           "value": "Zurich"
         }
       ]
@@ -5500,21 +6997,27 @@
     {
       "code": "WYN",
       "display": "Wynward Insurance Group",
-      "definition": "Wynward Insurance Group — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Wynward Insurance Group"
+        },
+        {
+          "language": "es-MX",
           "value": "Wynward Insurance Group"
         }
       ]
     },
     {
-      "code": "BRKL",
+      "code": "CA:BRKL",
       "display": "Berkley Canada Inc",
-      "definition": "Berkley Canada Inc — company code.",
       "designation": [
         {
           "language": "fr-CA",
+          "value": "Berkley Canada Inc"
+        },
+        {
+          "language": "es-MX",
           "value": "Berkley Canada Inc"
         }
       ]

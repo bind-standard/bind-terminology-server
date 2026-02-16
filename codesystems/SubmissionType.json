@@ -1,0 +1,57 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "SubmissionType",
+  "url": "https://bind.codes/SubmissionType",
+  "name": "SubmissionType",
+  "title": "Submission Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Categories that describe the nature of a coverage request sent from a broker to a carrier.",
+  "concept": [
+    {
+      "code": "NWBS",
+      "display": "New Business",
+      "definition": "A request for coverage on an account not previously written by the target carrier.",
+      "designation": [
+        { "language": "fr-CA", "value": "Nouvelle affaire" },
+        { "language": "es-MX", "value": "Negocio nuevo" }
+      ]
+    },
+    {
+      "code": "RNWL",
+      "display": "Renewal",
+      "definition": "A request to continue coverage on an existing account for a new term.",
+      "designation": [
+        { "language": "fr-CA", "value": "Renouvellement" },
+        { "language": "es-MX", "value": "Renovación" }
+      ]
+    },
+    {
+      "code": "RMKT",
+      "display": "Remarket",
+      "definition": "A request to move an existing account from its current carrier to a different carrier.",
+      "designation": [
+        { "language": "fr-CA", "value": "Remise en marché" },
+        { "language": "es-MX", "value": "Remarketing" }
+      ]
+    },
+    {
+      "code": "MTRQ",
+      "display": "Mid-Term Quote Request",
+      "definition": "A request for pricing on changes to an existing policy during the current term.",
+      "designation": [
+        { "language": "fr-CA", "value": "Demande de soumission en cours de terme" },
+        { "language": "es-MX", "value": "Solicitud de cotización a medio plazo" }
+      ]
+    },
+    {
+      "code": "INDC",
+      "display": "Indication Request",
+      "definition": "A preliminary request for approximate pricing before a formal submission, often with limited underwriting information.",
+      "designation": [
+        { "language": "fr-CA", "value": "Demande d'indication" },
+        { "language": "es-MX", "value": "Solicitud de indicación" }
+      ]
+    }
+  ]
+}

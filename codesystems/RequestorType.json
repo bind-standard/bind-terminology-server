@@ -1,0 +1,117 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "RequestorType",
+  "url": "https://bind.codes/RequestorType",
+  "name": "RequestorType",
+  "title": "Requestor Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Requestor Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "AGNT",
+      "display": "Agent",
+      "definition": "An individual or entity authorized to represent and act on behalf of another party in transactions or communications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agente"
+        }
+      ]
+    },
+    {
+      "code": "COMP",
+      "display": "Company",
+      "definition": "A business entity or organization making a request.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compañía"
+        }
+      ]
+    },
+    {
+      "code": "INSRD",
+      "display": "Insured",
+      "definition": "The party covered by a policy or contract.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asegurado"
+        }
+      ]
+    },
+    {
+      "code": "BRKR",
+      "display": "Broker",
+      "definition": "An intermediary who arranges transactions between parties, typically working on behalf of the client rather than the provider.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courtier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corredor"
+        }
+      ]
+    },
+    {
+      "code": "ADJR",
+      "display": "Adjuster",
+      "definition": "A professional who investigates and evaluates claims to determine the extent of liability or loss.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Expert en sinistres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ajustador"
+        }
+      ]
+    },
+    {
+      "code": "CLMT",
+      "display": "Claimant",
+      "definition": "An individual or entity making a claim for benefits or compensation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réclamant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reclamante"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "A requestor type not covered by other defined categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

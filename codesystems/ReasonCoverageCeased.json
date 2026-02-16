@@ -1,0 +1,236 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ReasonCoverageCeased",
+  "url": "https://bind.codes/ReasonCoverageCeased",
+  "name": "ReasonCoverageCeased",
+  "title": "Reason Coverage Ceased",
+  "status": "draft",
+  "language": "en",
+  "description": "Reason Coverage Ceased codes for insurance operations.",
+  "concept": [
+    {
+      "code": "AWSC",
+      "display": "Away at School",
+      "definition": "The individual is temporarily residing away from home to attend an educational institution.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aux études"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fuera estudiando"
+        }
+      ]
+    },
+    {
+      "code": "DVCV",
+      "display": "Driving Conviction",
+      "definition": "A legal conviction related to a driving offense has been recorded against the individual.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Condamnation - conduite automobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Condena de conducción"
+        }
+      ]
+    },
+    {
+      "code": "EMPV",
+      "display": "Employers Vehicle",
+      "definition": "The individual now uses a vehicle provided by their employer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule de l'employeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo del empleador"
+        }
+      ]
+    },
+    {
+      "code": "ILLN",
+      "display": "Illness",
+      "definition": "A medical condition prevents the individual from operating a vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maladie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Enfermedad"
+        }
+      ]
+    },
+    {
+      "code": "LSUS",
+      "display": "License Suspension",
+      "definition": "The individual's driver's license has been suspended by a regulatory authority.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Permis suspendu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Suspensión de licencia"
+        }
+      ]
+    },
+    {
+      "code": "LREV",
+      "display": "License Revocation",
+      "definition": "The individual's driver's license has been permanently revoked by a regulatory authority.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Permis révoqué"
+        },
+        {
+          "language": "es-MX",
+          "value": "Revocación de licencia"
+        }
+      ]
+    },
+    {
+      "code": "MISR",
+      "display": "Misrepresentation",
+      "definition": "False or misleading information was provided in the application or policy documentation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fausses déclarations"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tergiversación"
+        }
+      ]
+    },
+    {
+      "code": "NPAY",
+      "display": "Non-payment",
+      "definition": "Required payments have not been received.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non-paiement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de pago"
+        }
+      ]
+    },
+    {
+      "code": "SABR",
+      "display": "On Sabbatical",
+      "definition": "The individual is on an extended leave of absence from work or regular activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En congé sabbatique"
+        },
+        {
+          "language": "es-MX",
+          "value": "En año sabático"
+        }
+      ]
+    },
+    {
+      "code": "OCTC",
+      "display": "Out of Country",
+      "definition": "The individual is located outside the country for an extended period.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors du pays"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fuera del país"
+        }
+      ]
+    },
+    {
+      "code": "DCSD",
+      "display": "Deceased",
+      "definition": "The individual has died.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Décédé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fallecido"
+        }
+      ]
+    },
+    {
+      "code": "VHSL",
+      "display": "Vehicle Sold",
+      "definition": "The covered vehicle has been sold or transferred to another party.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule vendu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo vendido"
+        }
+      ]
+    },
+    {
+      "code": "TOTL",
+      "display": "Total Loss",
+      "definition": "The covered item has been declared a total loss due to damage or theft.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Perte totale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pérdida total"
+        }
+      ]
+    },
+    {
+      "code": "POLR",
+      "display": "Policy Request",
+      "definition": "Coverage was terminated at the request of the policyholder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Demande du titulaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Solicitud del titular"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

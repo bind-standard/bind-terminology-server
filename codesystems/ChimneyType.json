@@ -1,0 +1,205 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ChimneyType",
+  "url": "https://bind.codes/ChimneyType",
+  "name": "ChimneyType",
+  "title": "Chimney Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Chimney construction types and materials.",
+  "concept": [
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "BRCK",
+      "display": "Brick",
+      "definition": "Chimney constructed from brick masonry.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Brique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ladrillo"
+        }
+      ]
+    },
+    {
+      "code": "PFNW",
+      "display": "Prefabricated, Not To Be Used With Wood Combustion",
+      "definition": "Factory-manufactured chimney system not rated for use with wood-burning appliances.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Préfabriquée, incompatible avec la combustion du bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Prefabricada, no apta para combustión de leña"
+        }
+      ]
+    },
+    {
+      "code": "PFWD",
+      "display": "Prefabricated, To Be Used With Wood Combustion",
+      "definition": "Factory-manufactured chimney system rated for use with wood-burning appliances.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Préfabriquée, compatible avec la combustion du bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Prefabricada, apta para combustión de leña"
+        }
+      ]
+    },
+    {
+      "code": "CA:PFCT",
+      "display": "Prefabricated and Certified (ULC, CSA, ACNOR, WH)",
+      "definition": "Factory-manufactured chimney certified by Canadian standards organizations (Underwriters Laboratories of Canada, Canadian Standards Association, Association canadienne de normalisation, or Warnock Hersey).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Préfabriquée et certifiée (ULC, CSA, ACNOR, WH)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Prefabricada y certificada (ULC, CSA, ACNOR, WH)"
+        }
+      ]
+    },
+    {
+      "code": "FBDW",
+      "display": "Factory Built Double Walled Metal",
+      "definition": "Factory-manufactured chimney with double-wall metal construction for insulation and safety.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Préfabriquée à double paroi métallique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Prefabricada de metal de doble pared"
+        }
+      ]
+    },
+    {
+      "code": "MASN",
+      "display": "Masonry",
+      "definition": "Chimney built from masonry materials such as brick, stone, or concrete blocks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maçonnerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mampostería"
+        }
+      ]
+    },
+    {
+      "code": "CONC",
+      "display": "Concrete",
+      "definition": "Chimney constructed from poured or precast concrete.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Concreto"
+        }
+      ]
+    },
+    {
+      "code": "PIPE",
+      "display": "Pipe, Metal",
+      "definition": "Metal pipe chimney or stovepipe construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tuyau métallique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tubo metálico"
+        }
+      ]
+    },
+    {
+      "code": "STON",
+      "display": "Stone, Cement",
+      "definition": "Chimney built from stone or cement materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pierre, ciment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Piedra, cemento"
+        }
+      ]
+    },
+    {
+      "code": "STLP",
+      "display": "Stainless Steel Liner",
+      "definition": "Chimney with a stainless steel liner installed inside an existing structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Revêtement en acier inoxydable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Revestimiento de acero inoxidable"
+        }
+      ]
+    },
+    {
+      "code": "CLAY",
+      "display": "Clay Tile Lined",
+      "definition": "Chimney with a clay tile liner installed inside a masonry structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Doublé de tuiles d'argile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Revestido con baldosas de arcilla"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

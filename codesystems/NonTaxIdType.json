@@ -1,0 +1,321 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "NonTaxIdType",
+  "url": "https://bind.codes/NonTaxIdType",
+  "name": "NonTaxIdType",
+  "title": "Non Tax Id Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Non Tax Id Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "AMBT",
+      "display": "AM Best Company",
+      "definition": "Credit rating agency identifier for financial strength assessment of entities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "AM Best Company"
+        },
+        {
+          "language": "es-MX",
+          "value": "AM Best Company"
+        }
+      ]
+    },
+    {
+      "code": "CA:CISP",
+      "display": "CISP Claim Submitter ID",
+      "definition": "Unique identifier assigned to the claim submitter by the Canadian Insurance Services Processor.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Identificateur du soumissionnaire de réclamation CISP"
+        },
+        {
+          "language": "es-MX",
+          "value": "ID de remitente de reclamos CISP"
+        }
+      ]
+    },
+    {
+      "code": "CA:CVOR",
+      "display": "Commercial Vehicle Operator Registration",
+      "definition": "Ontario provincial registration number for commercial vehicle operators.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Immatriculation du conducteur de véhicule utilitaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Registro de operador de vehículo comercial"
+        }
+      ]
+    },
+    {
+      "code": "DUNS",
+      "display": "Dun and Bradstreet Number",
+      "definition": "Nine-digit unique identifier for businesses issued by Dun & Bradstreet.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Numéro Dun and Bradstreet"
+        },
+        {
+          "language": "es-MX",
+          "value": "Número Dun and Bradstreet"
+        }
+      ]
+    },
+    {
+      "code": "EMPL",
+      "display": "Employer Identification",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Identification de l'employeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Identificación del empleador"
+        }
+      ]
+    },
+    {
+      "code": "EPAN",
+      "display": "Environmental Protection Agency Number",
+      "definition": "Identification number issued by environmental regulatory agencies for entities handling regulated substances.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Numéro de l'agence de protection de l'environnement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Número de la Agencia de Protección Ambiental"
+        }
+      ]
+    },
+    {
+      "code": "EQUI",
+      "display": "Equifax",
+      "definition": "Credit reporting agency identifier.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équifax"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equifax"
+        }
+      ]
+    },
+    {
+      "code": "FRIN",
+      "display": "Fleet Registered Identification Number",
+      "definition": "Registration number assigned to a fleet of vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Numéro enregistré d'identification de la flotte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Número de identificación registrado de flota"
+        }
+      ]
+    },
+    {
+      "code": "GCRN",
+      "display": "Green Card",
+      "definition": "Permanent resident card number.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Carte de résident permanent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tarjeta verde"
+        }
+      ]
+    },
+    {
+      "code": "CA:NSCN",
+      "display": "National Safety Code",
+      "definition": "Canadian national safety certification number for commercial vehicle operators.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Code national de sécurité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Código nacional de seguridad"
+        }
+      ]
+    },
+    {
+      "code": "PRIN",
+      "display": "Parent Registered Identification Number",
+      "definition": "Registration number of the parent organization or entity.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Numéro enregistré d'identification de la société mère"
+        },
+        {
+          "language": "es-MX",
+          "value": "Número de identificación registrado de la empresa matriz"
+        }
+      ]
+    },
+    {
+      "code": "PSPN",
+      "display": "Passport",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Passeport"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pasaporte"
+        }
+      ]
+    },
+    {
+      "code": "PFLN",
+      "display": "Professional License Number",
+      "definition": "License number issued by professional regulatory bodies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Numéro de licence professionnelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Número de licencia profesional"
+        }
+      ]
+    },
+    {
+      "code": "STBU",
+      "display": "State Bureau",
+      "definition": "Identifier issued by state or provincial regulatory bureaus.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau provincial"
+        },
+        {
+          "language": "es-MX",
+          "value": "Oficina estatal"
+        }
+      ]
+    },
+    {
+      "code": "TRWN",
+      "display": "TransUnion",
+      "definition": "Credit reporting agency identifier.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "TransUnion"
+        },
+        {
+          "language": "es-MX",
+          "value": "TransUnion"
+        }
+      ]
+    },
+    {
+      "code": "VISN",
+      "display": "Immigration Visa",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Visa d'immigration"
+        },
+        {
+          "language": "es-MX",
+          "value": "Visa de inmigración"
+        }
+      ]
+    },
+    {
+      "code": "WKPM",
+      "display": "Work Permit",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Permis de travail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Permiso de trabajo"
+        }
+      ]
+    },
+    {
+      "code": "SSIN",
+      "display": "Social Security Number",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Numéro de sécurité sociale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Número de seguro social"
+        }
+      ]
+    },
+    {
+      "code": "CA:BNUM",
+      "display": "Business Number",
+      "definition": "Canadian federal business registration number issued by the Canada Revenue Agency.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Numéro d'entreprise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Número de negocio"
+        }
+      ]
+    },
+    {
+      "code": "EXPI",
+      "display": "Experian",
+      "definition": "Credit reporting agency identifier.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Experian"
+        },
+        {
+          "language": "es-MX",
+          "value": "Experian"
+        }
+      ]
+    },
+    {
+      "code": "DLIC",
+      "display": "Driver License",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Permis de conduire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Licencia de conducir"
+        }
+      ]
+    }
+  ]
+}

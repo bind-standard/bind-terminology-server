@@ -1,0 +1,87 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Gender",
+  "url": "https://bind.codes/Gender",
+  "name": "Gender",
+  "title": "Gender",
+  "status": "draft",
+  "language": "en",
+  "description": "Gender codes for insurance operations.",
+  "concept": [
+    {
+      "code": "FEML",
+      "display": "Female",
+      "definition": "A person whose gender identity is female.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Femme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Femenino"
+        }
+      ]
+    },
+    {
+      "code": "MALE",
+      "display": "Male",
+      "definition": "A person whose gender identity is male.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Homme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Masculino"
+        }
+      ]
+    },
+    {
+      "code": "NBGN",
+      "display": "Non-Binary",
+      "definition": "A person whose gender identity falls outside the traditional male/female binary.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non-binaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "No binario"
+        }
+      ]
+    },
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "definition": "Gender information has not been obtained or is not available.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "UNSP",
+      "display": "Unspecified",
+      "definition": "The person chose not to specify their gender.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non précisé"
+        },
+        {
+          "language": "es-MX",
+          "value": "No especificado"
+        }
+      ]
+    }
+  ]
+}

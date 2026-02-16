@@ -1,0 +1,75 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "LineOfAuthority",
+  "url": "https://bind.codes/LineOfAuthority",
+  "name": "LineOfAuthority",
+  "title": "Line of Authority",
+  "status": "draft",
+  "language": "en",
+  "description": "Licensing categories that define the types of coverage a licensed individual or entity is authorized to transact.",
+  "concept": [
+    {
+      "code": "PCAS",
+      "display": "Property & Casualty",
+      "definition": "Authority to transact property and casualty lines, including general liability, commercial property, and auto.",
+      "designation": [
+        { "language": "fr-CA", "value": "Assurance de dommages" },
+        { "language": "es-MX", "value": "Propiedad y daños" }
+      ]
+    },
+    {
+      "code": "LIFE",
+      "display": "Life",
+      "definition": "Authority to transact life coverage products.",
+      "designation": [
+        { "language": "fr-CA", "value": "Assurance vie" },
+        { "language": "es-MX", "value": "Vida" }
+      ]
+    },
+    {
+      "code": "HLTH",
+      "display": "Health",
+      "definition": "Authority to transact health and accident coverage products.",
+      "designation": [
+        { "language": "fr-CA", "value": "Assurance maladie" },
+        { "language": "es-MX", "value": "Salud" }
+      ]
+    },
+    {
+      "code": "SRPL",
+      "display": "Surplus Lines",
+      "definition": "Authority to place coverage with non-admitted carriers.",
+      "designation": [
+        { "language": "fr-CA", "value": "Lignes excédentaires" },
+        { "language": "es-MX", "value": "Líneas excedentes" }
+      ]
+    },
+    {
+      "code": "PRSL",
+      "display": "Personal Lines",
+      "definition": "Authority limited to personal lines products such as homeowners and personal auto.",
+      "designation": [
+        { "language": "fr-CA", "value": "Assurance des particuliers" },
+        { "language": "es-MX", "value": "Líneas personales" }
+      ]
+    },
+    {
+      "code": "ADJT",
+      "display": "Adjuster",
+      "definition": "Authority to investigate, evaluate, and settle claims.",
+      "designation": [
+        { "language": "fr-CA", "value": "Expert en sinistres" },
+        { "language": "es-MX", "value": "Ajustador" }
+      ]
+    },
+    {
+      "code": "TITL",
+      "display": "Title",
+      "definition": "Authority to transact title coverage for real estate transactions.",
+      "designation": [
+        { "language": "fr-CA", "value": "Assurance titres" },
+        { "language": "es-MX", "value": "Títulos" }
+      ]
+    }
+  ]
+}

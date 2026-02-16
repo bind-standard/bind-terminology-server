@@ -1,0 +1,477 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "LossKind",
+  "url": "https://bind.codes/LossKind",
+  "name": "LossKind",
+  "title": "Loss Kind",
+  "status": "draft",
+  "language": "en",
+  "description": "Loss Kind codes for insurance operations.",
+  "concept": [
+    {
+      "code": "FIRB",
+      "display": "Fire - Buildings",
+      "definition": "Damage to building structures caused by fire.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Feu - Bâtiments"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incendio - Edificios"
+        }
+      ]
+    },
+    {
+      "code": "FIRC",
+      "display": "Fire - Contents",
+      "definition": "Damage to contents and personal property caused by fire.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Feu - Contenus"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incendio - Contenidos"
+        }
+      ]
+    },
+    {
+      "code": "WHSB",
+      "display": "Windstorm and Hail - Standard Coverage - Buildings",
+      "definition": "Damage to building structures from wind or hail under standard coverage terms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tempête de vent et grêle - Garantie Normale - Bâtiments"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tormenta de viento y granizo - Cobertura estándar - Edificios"
+        }
+      ]
+    },
+    {
+      "code": "WHSC",
+      "display": "Windstorm and Hail - Standard Coverage - Contents",
+      "definition": "Damage to contents from wind or hail under standard coverage terms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tempête de vent et grêle - Garantie Normale - Contenus"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tormenta de viento y granizo - Cobertura estándar - Contenidos"
+        }
+      ]
+    },
+    {
+      "code": "WHSP",
+      "display": "Windstorm and Hail - Special Coverage - T.V. Aerials, etc.",
+      "definition": "Damage to external antennas and similar equipment from wind or hail under special coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tempête de vent et grêle - Garantie spéciale - Antennes de télévisions, etc."
+        },
+        {
+          "language": "es-MX",
+          "value": "Tormenta de viento y granizo - Cobertura especial - Antenas de TV, etc."
+        }
+      ]
+    },
+    {
+      "code": "WDSB",
+      "display": "Water Damage - Standard Coverage - Buildings",
+      "definition": "Water damage to building structures under standard coverage terms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dégât d'eau - Garantie Normale - Bâtiments"
+        },
+        {
+          "language": "es-MX",
+          "value": "Daño por agua - Cobertura estándar - Edificios"
+        }
+      ]
+    },
+    {
+      "code": "WDSC",
+      "display": "Water Damage - Standard Coverage - Contents",
+      "definition": "Water damage to contents under standard coverage terms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dégât d'eau - Garantie Normale - Contenus"
+        },
+        {
+          "language": "es-MX",
+          "value": "Daño por agua - Cobertura estándar - Contenidos"
+        }
+      ]
+    },
+    {
+      "code": "WDSW",
+      "display": "Water Damage - Special Coverage - Sewer Backup",
+      "definition": "Damage caused by water backing up through sewers or drains.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dégâts d'eau – Garantie spéciale – Refoulement d'égout"
+        },
+        {
+          "language": "es-MX",
+          "value": "Daño por agua - Cobertura especial - Respaldo de alcantarillado"
+        }
+      ]
+    },
+    {
+      "code": "WDFL",
+      "display": "Water Damage - Special Coverage – Flood/Overland Water",
+      "definition": "Damage from flooding or surface water flowing over land.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dégâts d'eau – Garantie spéciale – Inondation/eaux de surface"
+        },
+        {
+          "language": "es-MX",
+          "value": "Daño por agua - Cobertura especial - Inundación/agua superficial"
+        }
+      ]
+    },
+    {
+      "code": "WDOT",
+      "display": "Water Damage - Special Coverage – Other",
+      "definition": "Water damage under special coverage not categorized elsewhere.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dégâts d'eau – Couverture spéciale – Divers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Daño por agua - Cobertura especial - Otros"
+        }
+      ]
+    },
+    {
+      "code": "WDSF",
+      "display": "Water Damage - Special Coverage - Sewer Backing, Flood, etc.",
+      "definition": "Combined water damage from sewer backup and flooding under special coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dégat d'eau - Garantie spéciale - Refoulement d'égout, inondation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Daño por agua - Cobertura especial - Respaldo de alcantarillado, inundación, etc."
+        }
+      ]
+    },
+    {
+      "code": "THON",
+      "display": "Burglary or Theft - On Premises Loss",
+      "definition": "Property stolen or taken from the insured premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cambriolage ou vol - Sur les lieux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Robo o hurto - Pérdida en las instalaciones"
+        }
+      ]
+    },
+    {
+      "code": "THOF",
+      "display": "Burglary or Theft - Off Premises Loss",
+      "definition": "Property stolen or taken while away from the insured premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cambriolage ou vol - Hors des lieux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Robo o hurto - Pérdida fuera de las instalaciones"
+        }
+      ]
+    },
+    {
+      "code": "MYDS",
+      "display": "Special Coverage - Mysterious Disappearance",
+      "definition": "Loss where property goes missing without known cause or explanation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garantie spéciale - Disparition mystérieuse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cobertura especial - Desaparición misteriosa"
+        }
+      ]
+    },
+    {
+      "code": "LIBI",
+      "display": "Personal Liability - for Bodily Injury or Death",
+      "definition": "Liability for physical injury or death of another person, including employer's liability, voluntary compensation, and medical payments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité personnelle - pour blessure physique ou mort"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad personal - por lesión corporal o muerte"
+        }
+      ]
+    },
+    {
+      "code": "LIPD",
+      "display": "Personal Liability - for Property Damage",
+      "definition": "Liability for damage to another person's property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité personnelle - pour dommages sur la propriété"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad personal - por daño a la propiedad"
+        }
+      ]
+    },
+    {
+      "code": "GLB5",
+      "display": "Glass Breakage - $50 Deductible (or greater)",
+      "definition": "Breakage of glass with a deductible amount of fifty dollars or more.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bris de vitre - Déductible de 50$ (ou plus)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rotura de vidrio - Deducible de $50 (o mayor)"
+        }
+      ]
+    },
+    {
+      "code": "COLP",
+      "display": "Collapse of Building",
+      "definition": "Structural failure resulting in a building falling down or caving in.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Effondrement de bâtiment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Colapso de edificio"
+        }
+      ]
+    },
+    {
+      "code": "COLV",
+      "display": "Collision, Upset, or Overturn of Carrying Vehicle",
+      "definition": "Damage caused when a transport vehicle collides, tips over, or overturns.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collision ou renversement d'un véhicule de transport"
+        },
+        {
+          "language": "es-MX",
+          "value": "Colisión, vuelco o volcadura de vehículo de transporte"
+        }
+      ]
+    },
+    {
+      "code": "ERTH",
+      "display": "Earthquake Damage",
+      "definition": "Damage resulting from seismic activity or ground movement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommages de tremblement de terre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Daño por terremoto"
+        }
+      ]
+    },
+    {
+      "code": "SMOK",
+      "display": "Smoke Damage - Faulty Operation of Heating Device",
+      "definition": "Damage from smoke produced by malfunctioning heating equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommages de fumée - Mauvais fonctionnement d'un dispositif de chauffage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Daño por humo - Operación defectuosa de dispositivo de calefacción"
+        }
+      ]
+    },
+    {
+      "code": "VAND",
+      "display": "Vandalism or Malicious Acts",
+      "definition": "Intentional damage or destruction of property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vandalisme ou acte malicieux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vandalismo o actos maliciosos"
+        }
+      ]
+    },
+    {
+      "code": "GLB2",
+      "display": "Glass Breakage - $25 Deductible",
+      "definition": "Breakage of glass with a deductible amount of twenty-five dollars.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bris de vitre - Déductible de 25$"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rotura de vidrio - Deducible de $25"
+        }
+      ]
+    },
+    {
+      "code": "GLB1",
+      "display": "Glass Breakage - $10 Deductible",
+      "definition": "Breakage of glass with a deductible amount of ten dollars.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bris de vitre - Déductible de 10$"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rotura de vidrio - Deducible de $10"
+        }
+      ]
+    },
+    {
+      "code": "GLB0",
+      "display": "Glass Breakage - No Deductible",
+      "definition": "Breakage of glass with no deductible amount applied.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bris de vitre - Pas de déductible"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rotura de vidrio - Sin deducible"
+        }
+      ]
+    },
+    {
+      "code": "EVAC",
+      "display": "Mass Evacuation",
+      "definition": "Mandatory removal of occupants from a large area due to an emergency or hazard.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Évacuation de masse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Evacuación masiva"
+        }
+      ]
+    },
+    {
+      "code": "EXPL",
+      "display": "Explosion",
+      "definition": "Sudden and violent release of energy causing damage to property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Explosion"
+        },
+        {
+          "language": "es-MX",
+          "value": "Explosión"
+        }
+      ]
+    },
+    {
+      "code": "LITE",
+      "display": "Lightning Strike",
+      "definition": "Damage caused by electrical discharge from the atmosphere.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foudre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rayo"
+        }
+      ]
+    },
+    {
+      "code": "FRZP",
+      "display": "Freezing of Plumbing",
+      "definition": "Damage from water freezing in pipes or plumbing systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gel de plomberie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Congelación de tuberías"
+        }
+      ]
+    },
+    {
+      "code": "SNOW",
+      "display": "Weight of Snow, Ice or Sleet",
+      "definition": "Damage from accumulation of frozen precipitation on structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poids de la neige, glace ou grésil"
+        },
+        {
+          "language": "es-MX",
+          "value": "Peso de nieve, hielo o aguanieve"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "All Other Losses",
+      "definition": "Losses not categorized under any other specific loss kind.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toutes autres pertes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Todas las demás pérdidas"
+        }
+      ]
+    }
+  ]
+}

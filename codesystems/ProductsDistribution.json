@@ -1,0 +1,146 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ProductsDistribution",
+  "url": "https://bind.codes/ProductsDistribution",
+  "name": "ProductsDistribution",
+  "title": "Products Distribution",
+  "status": "draft",
+  "language": "en",
+  "description": "Products Distribution codes for insurance operations.",
+  "concept": [
+    {
+      "code": "BULK",
+      "display": "In Bulk",
+      "definition": "Products sold in large quantities without individual packaging or containers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En gros"
+        },
+        {
+          "language": "es-MX",
+          "value": "A granel"
+        }
+      ]
+    },
+    {
+      "code": "PKGD",
+      "display": "Package",
+      "definition": "Products sold in pre-packaged units ready for retail sale.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Paquet"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paquete"
+        }
+      ]
+    },
+    {
+      "code": "DRCT",
+      "display": "Direct",
+      "definition": "Products sold directly to end consumers without intermediaries.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Direct"
+        },
+        {
+          "language": "es-MX",
+          "value": "Directo"
+        }
+      ]
+    },
+    {
+      "code": "DIST",
+      "display": "Via Distributors",
+      "definition": "Products sold through third-party distributors or intermediaries.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par un distributeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vía distribuidores"
+        }
+      ]
+    },
+    {
+      "code": "FINI",
+      "display": "In a Finished State",
+      "definition": "Products distributed as completed goods ready for use without further processing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dans une forme finie"
+        },
+        {
+          "language": "es-MX",
+          "value": "En estado terminado"
+        }
+      ]
+    },
+    {
+      "code": "COMP",
+      "display": "To Others Who Incorporate It in Other Products",
+      "definition": "Products sold as components or raw materials to manufacturers who integrate them into their own finished goods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pour ceux qui l'intègrent dans d'autres produits"
+        },
+        {
+          "language": "es-MX",
+          "value": "A otros que lo incorporan en otros productos"
+        }
+      ]
+    },
+    {
+      "code": "WHSL",
+      "display": "Wholesale",
+      "definition": "Products sold in large quantities to retailers or other businesses for resale.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En gros"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mayoreo"
+        }
+      ]
+    },
+    {
+      "code": "RETL",
+      "display": "Retail",
+      "definition": "Products sold in smaller quantities directly to individual consumers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Au détail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Minorista"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

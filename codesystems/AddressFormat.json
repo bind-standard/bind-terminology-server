@@ -1,0 +1,162 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "AddressFormat",
+  "url": "https://bind.codes/AddressFormat",
+  "name": "AddressFormat",
+  "title": "Address Format",
+  "status": "draft",
+  "language": "en",
+  "description": "Address Format codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CA:BLNG",
+      "display": "Bilingual Address (Canada)",
+      "definition": "Address formatted with both English and French elements according to Canada Post bilingual addressing standards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adresse bilingue (Canada)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dirección bilingüe (Canada)"
+        }
+      ]
+    },
+    {
+      "code": "CA:CIVC",
+      "display": "Civic Address (Canada)",
+      "definition": "Standard Canadian street address format with civic number, street name, unit number, city, province, and postal code.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adresse civique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dirección cívica"
+        }
+      ]
+    },
+    {
+      "code": "CA:FRNC",
+      "display": "French Address (Canada)",
+      "definition": "Address formatted according to French-language conventions used in Quebec and other francophone regions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adresse en français"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dirección en francés"
+        }
+      ]
+    },
+    {
+      "code": "CA:GNDL",
+      "display": "General Delivery Address (Canada)",
+      "definition": "Address format for mail held at a post office for pickup, used when no street address or PO box is available.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adresse poste restante"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dirección lista de correos"
+        }
+      ]
+    },
+    {
+      "code": "INTL",
+      "display": "International Address (Canada)",
+      "definition": "Address format for locations outside Canada, following the destination country's postal conventions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adresse internationale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dirección internacional"
+        }
+      ]
+    },
+    {
+      "code": "CA:MLTC",
+      "display": "Military Address (Canada)",
+      "definition": "Address format for Canadian Armed Forces members, using military postal codes and unit designations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adresse militaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dirección militar"
+        }
+      ]
+    },
+    {
+      "code": "CA:POBX",
+      "display": "Post Office Box Address (Canada)",
+      "definition": "Address format using a PO Box number at a specific post office location instead of a street address.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adresse case postale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dirección apartado postal"
+        }
+      ]
+    },
+    {
+      "code": "CA:RURL",
+      "display": "Rural Route Address (Canada)",
+      "definition": "Address format for rural areas using rural route numbers, typically replaced by civic addresses in most regions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adresse route rurale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dirección ruta rural"
+        }
+      ]
+    },
+    {
+      "code": "STRT",
+      "display": "Street Address (Classic)",
+      "definition": "Standard street address format, used classically without distinction by country.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adresse de rue (classique)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dirección de calle (clásica)"
+        }
+      ]
+    },
+    {
+      "code": "FRGN",
+      "display": "Foreign Address",
+      "definition": "Address format for locations outside of the country of the creator of the record, following the destination country's postal conventions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adresse étrangère"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dirección extranjera"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "StorageLocation",
+  "url": "https://bind.codes/StorageLocation",
+  "name": "StorageLocation",
+  "title": "Storage Location",
+  "status": "draft",
+  "language": "en",
+  "description": "Storage Location codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ONPI",
+      "display": "On-premises Inside",
+      "definition": "Items stored inside a building at the property address.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sur les lieux à l'intérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "En el sitio interior"
+        }
+      ]
+    },
+    {
+      "code": "ONPO",
+      "display": "On-premises Outside",
+      "definition": "Items stored outside but still at the property address.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sur les lieux à l'extérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "En el sitio exterior"
+        }
+      ]
+    },
+    {
+      "code": "OFPI",
+      "display": "Off-premises Inside",
+      "definition": "Items stored inside a building at a different location than the property address.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors les lieux à l'intérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fuera del sitio interior"
+        }
+      ]
+    },
+    {
+      "code": "OFPO",
+      "display": "Off-premises Outside",
+      "definition": "Items stored outside at a different location than the property address.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors les lieux à l'extérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fuera del sitio exterior"
+        }
+      ]
+    },
+    {
+      "code": "TRNS",
+      "display": "In Transit",
+      "definition": "Items being transported from one location to another.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En transit"
+        },
+        {
+          "language": "es-MX",
+          "value": "En tránsito"
+        }
+      ]
+    },
+    {
+      "code": "TEMP",
+      "display": "Temporary Storage",
+      "definition": "Items in short-term storage facility or temporary location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreposage temporaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Almacenamiento temporal"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

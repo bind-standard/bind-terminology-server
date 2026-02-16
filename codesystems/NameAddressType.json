@@ -1,0 +1,312 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "NameAddressType",
+  "url": "https://bind.codes/NameAddressType",
+  "name": "NameAddressType",
+  "title": "Name Address Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Name Address Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "EMPL",
+      "display": "Employer",
+      "definition": "The name and address of an individual's or entity's employer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empleador"
+        }
+      ]
+    },
+    {
+      "code": "BRKR",
+      "display": "Brokers",
+      "definition": "The name and address of licensed intermediaries who arrange coverage between clients and carriers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courtiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corredores"
+        }
+      ]
+    },
+    {
+      "code": "DISP",
+      "display": "Dispatchers",
+      "definition": "The name and address of entities or individuals who coordinate and assign vehicles or drivers to specific routes or jobs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Répartiteurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Despachadores"
+        }
+      ]
+    },
+    {
+      "code": "VLSE",
+      "display": "Vehicle Lessees",
+      "definition": "The name and address of individuals or entities who lease vehicles from another party.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Locataires de véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arrendatarios de vehículos"
+        }
+      ]
+    },
+    {
+      "code": "PLSE",
+      "display": "Plate Lessees",
+      "definition": "The name and address of individuals or entities who lease license plates from another party.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Locataires de plaques d'immatriculation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arrendatarios de placas"
+        }
+      ]
+    },
+    {
+      "code": "FCRT",
+      "display": "Name and Address on Filing Certificate",
+      "definition": "The name and address as it appears on an official filing certificate or regulatory document.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nom et adresse sur le certificat de dépôt"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nombre y dirección en el certificado de registro"
+        }
+      ]
+    },
+    {
+      "code": "SPSE",
+      "display": "Spouse",
+      "definition": "The name and address of a legally recognized partner in marriage or common-law relationship.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Époux - Épouse - Conjoint(e)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cónyuge"
+        }
+      ]
+    },
+    {
+      "code": "DEPN",
+      "display": "Dependant",
+      "definition": "The name and address of an individual who relies on another for financial support.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Personne à charge"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dependiente"
+        }
+      ]
+    },
+    {
+      "code": "COHB",
+      "display": "Co-habitant",
+      "definition": "The name and address of an individual who shares a residence with another person.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cohabitant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cohabitante"
+        }
+      ]
+    },
+    {
+      "code": "PRML",
+      "display": "Other Previous Mailing Address",
+      "definition": "A former mailing address used by the individual or entity before the current one.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre adresse postale précédente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otra dirección postal anterior"
+        }
+      ]
+    },
+    {
+      "code": "STRF",
+      "display": "Storage Facility",
+      "definition": "The name and address of a location where property or vehicles are kept when not in use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreposage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instalación de almacenamiento"
+        }
+      ]
+    },
+    {
+      "code": "FINI",
+      "display": "Financial Institution",
+      "definition": "The name and address of a bank, credit union, or other organization that provides financial services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Institution financière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Institución financiera"
+        }
+      ]
+    },
+    {
+      "code": "ACHL",
+      "display": "Account Holder",
+      "definition": "The name and address of the individual or entity who owns or controls a financial account.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Titulaire de compte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Titular de cuenta"
+        }
+      ]
+    },
+    {
+      "code": "LNHL",
+      "display": "Lienholder",
+      "definition": "The name and address of a party who has a legal claim on property as security for a debt or obligation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Titulaire du privilège"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acreedor prendario"
+        }
+      ]
+    },
+    {
+      "code": "LSHL",
+      "display": "Leaseholder",
+      "definition": "The name and address of a party who holds a lease agreement for property or equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Locataire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arrendatario"
+        }
+      ]
+    },
+    {
+      "code": "MORT",
+      "display": "Mortgagee",
+      "definition": "The name and address of a lender who holds a mortgage on property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Créancier hypothécaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acreedor hipotecario"
+        }
+      ]
+    },
+    {
+      "code": "OWNR",
+      "display": "Owner",
+      "definition": "The name and address of the individual or entity with legal title to property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriétaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propietario"
+        }
+      ]
+    },
+    {
+      "code": "PMAD",
+      "display": "Primary Mailing Address",
+      "definition": "The main address where correspondence and documents should be sent.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adresse postale principale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dirección postal principal"
+        }
+      ]
+    },
+    {
+      "code": "GAAD",
+      "display": "Garaging Address",
+      "definition": "The location where a vehicle is regularly parked or stored when not in use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adresse de garage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dirección de estacionamiento"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "A name and address type that does not fit into predefined categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

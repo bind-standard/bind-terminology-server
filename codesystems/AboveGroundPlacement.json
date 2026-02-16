@@ -1,0 +1,57 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "AboveGroundPlacement",
+  "url": "https://bind.codes/AboveGroundPlacement",
+  "name": "AboveGroundPlacement",
+  "title": "Above Ground Placement",
+  "status": "draft",
+  "language": "en",
+  "description": "Above Ground Placement codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ABVG",
+      "display": "Above Ground",
+      "definition": "A pool structure that sits entirely above the ground surface, typically with walls extending upward from ground level.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors terre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sobre el suelo"
+        }
+      ]
+    },
+    {
+      "code": "INGR",
+      "display": "In Ground",
+      "definition": "A pool structure that is fully excavated and installed below ground level, with the pool rim at or near ground surface.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Creusée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Enterrada"
+        }
+      ]
+    },
+    {
+      "code": "SEMI",
+      "display": "Semi In Ground",
+      "definition": "A pool structure that is partially excavated, with part of the pool below ground level and part above, combining features of both above ground and in ground pools.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Semi creusée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Semi enterrada"
+        }
+      ]
+    }
+  ]
+}

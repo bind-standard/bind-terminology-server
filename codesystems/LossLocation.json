@@ -1,0 +1,117 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "LossLocation",
+  "url": "https://bind.codes/LossLocation",
+  "name": "LossLocation",
+  "title": "Loss Location",
+  "status": "draft",
+  "language": "en",
+  "description": "Loss Location codes for insurance operations.",
+  "concept": [
+    {
+      "code": "INAD",
+      "display": "Insured's Address",
+      "definition": "The primary residential or mailing address of the insured party on the policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adresse de l'assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dirección del asegurado"
+        }
+      ]
+    },
+    {
+      "code": "LOCN",
+      "display": "Location Number",
+      "definition": "A specific location identifier used to reference a particular property or site within a multi-location policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Numéro d'emplacement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Número de ubicación"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "A loss location that does not fall into predefined categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "PREM",
+      "display": "Premises Address",
+      "definition": "The physical street address of the property where the loss occurred.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adresse du domicile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dirección del local"
+        }
+      ]
+    },
+    {
+      "code": "VHCL",
+      "display": "Vehicle Location",
+      "definition": "The location where a vehicle was situated at the time of the loss event.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Emplacement du véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ubicación del vehículo"
+        }
+      ]
+    },
+    {
+      "code": "TEMP",
+      "display": "Temporary Location",
+      "definition": "A non-permanent location where insured property was situated at the time of loss.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Emplacement temporaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ubicación temporal"
+        }
+      ]
+    },
+    {
+      "code": "TRAN",
+      "display": "In Transit",
+      "definition": "Property was being transported or moved from one location to another when the loss occurred.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En transit"
+        },
+        {
+          "language": "es-MX",
+          "value": "En tránsito"
+        }
+      ]
+    }
+  ]
+}

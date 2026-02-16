@@ -1,0 +1,131 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TravelTrailer",
+  "url": "https://bind.codes/TravelTrailer",
+  "name": "TravelTrailer",
+  "title": "Travel Trailer",
+  "status": "draft",
+  "language": "en",
+  "description": "Travel Trailer codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CBNR",
+      "display": "Cabin trailer",
+      "definition": "A traditional towable recreational vehicle with rigid walls and a full living space.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caravane classique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caravana de cabina"
+        }
+      ]
+    },
+    {
+      "code": "CMPU",
+      "display": "Camper Unit",
+      "definition": "A demountable camping unit designed to be attached to and removed from the bed of a pickup truck.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autocaravane séparable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Unidad de camping"
+        }
+      ]
+    },
+    {
+      "code": "FWHL",
+      "display": "Fifth Wheel Cabin Trailer",
+      "definition": "A towable recreational vehicle designed to be coupled to a special hitch in the bed of a pickup truck using a kingpin connection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caravane à sellette"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caravana de quinta rueda"
+        }
+      ]
+    },
+    {
+      "code": "TENT",
+      "display": "Tent Trailer",
+      "definition": "A collapsible towable trailer with expandable canvas or fabric sides that unfold to create sleeping and living areas.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tente-caravane"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque de tienda"
+        }
+      ]
+    },
+    {
+      "code": "TRVL",
+      "display": "Travel Trailer",
+      "definition": "A standard towable recreational vehicle with a conventional bumper-pull hitch.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Roulotte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque de viaje"
+        }
+      ]
+    },
+    {
+      "code": "TOYS",
+      "display": "Toy Hauler",
+      "definition": "A recreational vehicle with an integrated garage space designed to transport motorcycles, ATVs, or other recreational equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caravane transporteuse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque transportador"
+        }
+      ]
+    },
+    {
+      "code": "POPU",
+      "display": "Pop-Up Trailer",
+      "definition": "A lightweight collapsible trailer with fold-out bunks and canvas sides that expand when parked.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caravane à déploiement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque emergente"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

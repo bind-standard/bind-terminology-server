@@ -1,0 +1,132 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CreditInfoConsent",
+  "url": "https://bind.codes/CreditInfoConsent",
+  "name": "CreditInfoConsent",
+  "title": "Credit Info Consent",
+  "status": "draft",
+  "language": "en",
+  "description": "Credit Info Consent codes for insurance operations.",
+  "concept": [
+    {
+      "code": "NASK",
+      "display": "Not Asked",
+      "definition": "The customer was not asked to provide consent for accessing their credit information.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non demandé"
+        },
+        {
+          "language": "es-MX",
+          "value": "No preguntado"
+        }
+      ]
+    },
+    {
+      "code": "WRIT",
+      "display": "In Writing",
+      "definition": "Written consent was obtained from the customer to access their credit information.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par écrit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por escrito"
+        }
+      ]
+    },
+    {
+      "code": "IMPL",
+      "display": "Implied",
+      "definition": "Consent to access credit information is implied through the customer's application or request for coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous-entendu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Implícito"
+        }
+      ]
+    },
+    {
+      "code": "DENY",
+      "display": "Denied",
+      "definition": "The customer explicitly refused to provide consent for accessing their credit information.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Refusé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Denegado"
+        }
+      ]
+    },
+    {
+      "code": "SIGN",
+      "display": "Signed Form",
+      "definition": "A signed authorization form was obtained from the customer to access their credit information.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire signé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Formulario firmado"
+        }
+      ]
+    },
+    {
+      "code": "VRBL",
+      "display": "Verbal OK",
+      "definition": "Verbal consent was obtained from the customer to access their credit information.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entente verbale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aprobación verbal"
+        }
+      ]
+    },
+    {
+      "code": "NOML",
+      "display": "Consent-No Mailings",
+      "definition": "The customer consented to credit information access but opted out of receiving marketing mailings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consentement-Pas de publipostage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consentimiento-Sin correos"
+        }
+      ]
+    },
+    {
+      "code": "ELEC",
+      "display": "Electronic Consent",
+      "definition": "Consent was obtained through an electronic acceptance mechanism such as a checkbox or digital signature.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consentement électronique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consentimiento electrónico"
+        }
+      ]
+    }
+  ]
+}

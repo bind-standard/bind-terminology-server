@@ -1,0 +1,72 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CountMethod",
+  "url": "https://bind.codes/CountMethod",
+  "name": "CountMethod",
+  "title": "Count Method",
+  "status": "draft",
+  "language": "en",
+  "description": "Count Method codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ACTL",
+      "display": "Actual",
+      "definition": "A count based on verified, precise values rather than approximations or projections.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Actuel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Real"
+        }
+      ]
+    },
+    {
+      "code": "ESTM",
+      "display": "Estimated",
+      "definition": "A count based on approximated or projected values rather than verified figures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Estimé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estimado"
+        }
+      ]
+    },
+    {
+      "code": "AVGD",
+      "display": "Averaged",
+      "definition": "A count derived from calculating the mean of multiple values over a period.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Moyenné"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promediado"
+        }
+      ]
+    },
+    {
+      "code": "PRJT",
+      "display": "Projected",
+      "definition": "A count forecasted for a future period based on trends or assumptions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Projeté"
+        },
+        {
+          "language": "es-MX",
+          "value": "Proyectado"
+        }
+      ]
+    }
+  ]
+}

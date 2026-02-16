@@ -1,0 +1,355 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ConstructionType",
+  "url": "https://bind.codes/ConstructionType",
+  "name": "ConstructionType",
+  "title": "Construction Type",
+  "status": "draft",
+  "description": "ISO construction classification types for property structures.",
+  "concept": [
+    {
+      "code": "FRAM",
+      "display": "Frame",
+      "definition": "Wood or light-gauge steel frame construction (ISO Class 1).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charpente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Marco"
+        }
+      ]
+    },
+    {
+      "code": "JMAS",
+      "display": "Joisted Masonry",
+      "definition": "Masonry exterior walls with wood-joist floors and roof (ISO Class 2).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maçonnerie à solives"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mampostería con vigas"
+        }
+      ]
+    },
+    {
+      "code": "NCMB",
+      "display": "Non-Combustible",
+      "definition": "Metal or other non-combustible walls, floors, and roof (ISO Class 3).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incombustible"
+        },
+        {
+          "language": "es-MX",
+          "value": "No combustible"
+        }
+      ]
+    },
+    {
+      "code": "MNMC",
+      "display": "Masonry Non-Combustible",
+      "definition": "Masonry exterior walls with non-combustible floors and roof (ISO Class 4).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maçonnerie incombustible"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mampostería no combustible"
+        }
+      ]
+    },
+    {
+      "code": "MFRS",
+      "display": "Modified Fire Resistive",
+      "definition": "Walls, floors, and roof of masonry or fire-resistive materials with 1-hour rating (ISO Class 5).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résistant au feu modifié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Resistente al fuego modificado"
+        }
+      ]
+    },
+    {
+      "code": "FRES",
+      "display": "Fire Resistive",
+      "definition": "Walls, floors, and roof of masonry or fire-resistive materials with 2-hour or greater rating (ISO Class 6).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résistant au feu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Resistente al fuego"
+        }
+      ]
+    },
+    {
+      "code": "LOGC",
+      "display": "Log",
+      "definition": "Horizontal logs stacked and interlocked at corners to form walls.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rondin"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tronco"
+        }
+      ]
+    },
+    {
+      "code": "MONO",
+      "display": "Monocoque",
+      "definition": "Single-shell structural design where the outer skin supports most loads, commonly used in manufactured housing and recreational vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Monocoque"
+        },
+        {
+          "language": "es-MX",
+          "value": "Monocasco"
+        }
+      ]
+    },
+    {
+      "code": "FGLS",
+      "display": "Fiberglass",
+      "definition": "Glass-reinforced plastic composite material used for structural components.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fibre de verre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fibra de vidrio"
+        }
+      ]
+    },
+    {
+      "code": "FPBM",
+      "display": "Frame (Post and Beam)",
+      "definition": "Heavy timber construction using vertical posts and horizontal beams to support loads.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charpente (poteaux et poutres)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Marco (postes y vigas)"
+        }
+      ]
+    },
+    {
+      "code": "FTMB",
+      "display": "Frame (Timber)",
+      "definition": "Large-dimension lumber framing using timber members.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charpente (bois)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Marco (madera)"
+        }
+      ]
+    },
+    {
+      "code": "FWOD",
+      "display": "Frame (Wood)",
+      "definition": "Standard dimensional lumber framing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charpente de bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Marco de madera"
+        }
+      ]
+    },
+    {
+      "code": "BRCK",
+      "display": "Brick",
+      "definition": "Clay-based masonry units forming exterior walls.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Brique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ladrillo"
+        }
+      ]
+    },
+    {
+      "code": "CNBL",
+      "display": "Concrete Block",
+      "definition": "Hollow or solid concrete masonry units (CMU) forming walls.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Blocs de béton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bloque de concreto"
+        }
+      ]
+    },
+    {
+      "code": "MSNT",
+      "display": "Masonite",
+      "definition": "Compressed wood fiber panels used for exterior or interior walls.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aggloméré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Masonita"
+        }
+      ]
+    },
+    {
+      "code": "ALUM",
+      "display": "Aluminium",
+      "definition": "Aluminum framing or panels used for structural components or siding.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aluminium"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aluminio"
+        }
+      ]
+    },
+    {
+      "code": "STON",
+      "display": "Stone",
+      "definition": "Natural stone masonry forming exterior walls.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pierre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Piedra"
+        }
+      ]
+    },
+    {
+      "code": "STEL",
+      "display": "Steel",
+      "definition": "Structural steel framing or metal building systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acero"
+        }
+      ]
+    },
+    {
+      "code": "CONC",
+      "display": "Concrete",
+      "definition": "Poured-in-place or precast concrete walls and structural elements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Concreto"
+        }
+      ]
+    },
+    {
+      "code": "VINL",
+      "display": "Vinyl",
+      "definition": "Vinyl siding or panel construction over frame structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vinyle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vinilo"
+        }
+      ]
+    },
+    {
+      "code": "STUC",
+      "display": "Stucco",
+      "definition": "Cement-based plaster exterior finish over frame or masonry.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stuc"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estuco"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

@@ -1,0 +1,2002 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "VehicleBodyType",
+  "url": "https://bind.codes/VehicleBodyType",
+  "name": "VehicleBodyType",
+  "title": "Vehicle Body Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Vehicle Body Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "BMTR",
+      "display": "Bike / Mini-Bike Trailer",
+      "definition": "A trailer specifically designed to transport bikes or mini-bikes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque pour cyclomoteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque para bicicletas"
+        }
+      ]
+    },
+    {
+      "code": "CVDL",
+      "display": "Converter Dolly",
+      "definition": "A coupling device that converts a semi-trailer into a full trailer by supporting the front end.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Diabolo convertisseur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dolly convertidor"
+        }
+      ]
+    },
+    {
+      "code": "DTRS",
+      "display": "Dump Trailer Hauled Separately",
+      "definition": "A dump trailer that is towed individually, not as part of a trailer train.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Semi-remorque benne tirée séparément"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque de volteo arrastrado por separado"
+        }
+      ]
+    },
+    {
+      "code": "DTRT",
+      "display": "Dump Trailer Hauled As Train",
+      "definition": "A dump trailer that is part of a multi-trailer configuration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Semi-remorque benne faisant partie d'un convoi"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque de volteo en tren"
+        }
+      ]
+    },
+    {
+      "code": "ETRS",
+      "display": "Equipment Trailer Hauled Separately",
+      "definition": "A trailer designed to transport equipment, towed individually.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque pour équipement tirée séparément"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque de equipo arrastrado por separado"
+        }
+      ]
+    },
+    {
+      "code": "ETRT",
+      "display": "Equipment Trailer Hauled As Train",
+      "definition": "A trailer designed to transport equipment, operated as part of a multi-trailer train.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque pour équipement faisant partie d'un convoi"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque de equipo en tren"
+        }
+      ]
+    },
+    {
+      "code": "GNTR",
+      "display": "Gooseneck Trailer",
+      "definition": "A trailer with a hitch that extends over the bed of a pickup truck, connecting to a ball in the truck bed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque avec col-de-cygne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque de cuello de ganso"
+        }
+      ]
+    },
+    {
+      "code": "HSTR",
+      "display": "Horse Trailer",
+      "definition": "A trailer designed for transporting horses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque pour chevaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque para caballos"
+        }
+      ]
+    },
+    {
+      "code": "MITR",
+      "display": "Mix In Transit Trailer",
+      "definition": "A trailer with mixing equipment that blends materials during transport.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque - Mélange en transit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque de mezcla en tránsito"
+        }
+      ]
+    },
+    {
+      "code": "OFTR",
+      "display": "Office Trailer",
+      "definition": "A trailer equipped as a mobile office workspace.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque de bureau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque de oficina"
+        }
+      ]
+    },
+    {
+      "code": "PUPTR",
+      "display": "Pup Trailer",
+      "definition": "A short semi-trailer, typically 26-28 feet long, often used in tandem configurations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque d'appoint"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque pup"
+        }
+      ]
+    },
+    {
+      "code": "SETR",
+      "display": "Semi-trailer Extra Trailer",
+      "definition": "An additional trailer used with a semi-trailer in a multi-trailer configuration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Semi-remorque, remorque supplémentaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Semi-remolque adicional"
+        }
+      ]
+    },
+    {
+      "code": "SPTH",
+      "display": "Stake/Platform Trailer Hauled",
+      "definition": "A flatbed trailer with removable side stakes, towed separately.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Potelet/semi-remorque plateau tirée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque de estacas/plataforma arrastrado"
+        }
+      ]
+    },
+    {
+      "code": "SPTT",
+      "display": "Stake/Platform Trailer Train",
+      "definition": "A flatbed trailer with removable side stakes, operated in a trailer train.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Potelet/semi-remorque plateau faisant partie d'un convoi"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque de estacas/plataforma en tren"
+        }
+      ]
+    },
+    {
+      "code": "TTRT",
+      "display": "Tank Trailer Hauled As Train",
+      "definition": "A tank trailer operated as part of a multi-trailer configuration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque-citerne faisant partie d'un convoi"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque tanque en tren"
+        }
+      ]
+    },
+    {
+      "code": "TTRS",
+      "display": "Tank Trailer Hauled Separately",
+      "definition": "A tank trailer towed individually for liquid or gas transport.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque-citerne tirée séparément"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque tanque arrastrado por separado"
+        }
+      ]
+    },
+    {
+      "code": "TROL",
+      "display": "Trailer - Other Load Carrying",
+      "definition": "A trailer designed for general cargo that doesn't fit other specific categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque - Autre charge"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque - Otra carga"
+        }
+      ]
+    },
+    {
+      "code": "TRPE",
+      "display": "Trailer With Premises Exposure",
+      "definition": "A trailer used for premises-related purposes such as showrooms or exhibitions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque avec risque contigu (par ex. salle d'exposition, etc.)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque con exposición de locales"
+        }
+      ]
+    },
+    {
+      "code": "VTRT",
+      "display": "Van Trailer Hauled As Train",
+      "definition": "An enclosed van trailer operated in a multi-trailer configuration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Semi-remorque fourgon faisant partie d'un convoi"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque furgón en tren"
+        }
+      ]
+    },
+    {
+      "code": "VTRS",
+      "display": "Van Trailer Hauled Separately",
+      "definition": "An enclosed van trailer towed individually.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Semi-remorque tirée séparément"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque furgón arrastrado por separado"
+        }
+      ]
+    },
+    {
+      "code": "WCTR",
+      "display": "Watercraft Trailer",
+      "definition": "A trailer designed for transporting boats and other watercraft.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque pour bateaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque para embarcaciones"
+        }
+      ]
+    },
+    {
+      "code": "SNTR",
+      "display": "Snowmobile Trailer",
+      "definition": "A trailer designed for transporting snowmobiles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque pour motoneige"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque para motos de nieve"
+        }
+      ]
+    },
+    {
+      "code": "LVTR",
+      "display": "Livestock Trailer",
+      "definition": "A trailer designed for transporting livestock animals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque pour bétail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque para ganado"
+        }
+      ]
+    },
+    {
+      "code": "MC3W",
+      "display": "3 Wheel Motorcycle",
+      "definition": "A motorcycle with three wheels, excluding configurations with two rear wheels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Motocyclette à 3 roues (excluant 2 roues arrière)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Motocicleta de 3 ruedas"
+        }
+      ]
+    },
+    {
+      "code": "SC3W",
+      "display": "3 Wheel Scooter",
+      "definition": "A scooter with three wheels, excluding configurations with two rear wheels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Scooter à 3 roues (excluant 2 roues arrière)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Scooter de 3 ruedas"
+        }
+      ]
+    },
+    {
+      "code": "ADVN",
+      "display": "Adventure",
+      "definition": "A motorcycle designed for both on-road and off-road use with enhanced capabilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aventurière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aventura"
+        }
+      ]
+    },
+    {
+      "code": "FIFH",
+      "display": "Cabin/Home - Fifth Wheel",
+      "definition": "A recreational vehicle trailer that connects to the bed of a pickup truck using a fifth-wheel hitch.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caravane à sellette"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casa rodante de quinta rueda"
+        }
+      ]
+    },
+    {
+      "code": "CLSA",
+      "display": "Class A",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe A"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clase A"
+        }
+      ]
+    },
+    {
+      "code": "CLSB",
+      "display": "Class B",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe B"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clase B"
+        }
+      ]
+    },
+    {
+      "code": "CLSC",
+      "display": "Class C",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe C"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clase C"
+        }
+      ]
+    },
+    {
+      "code": "CRUS",
+      "display": "Cruiser",
+      "definition": "A motorcycle with upright seating and relaxed riding position, designed for comfortable long-distance travel.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cruiser"
+        },
+        {
+          "language": "es-MX",
+          "value": "Crucero"
+        }
+      ]
+    },
+    {
+      "code": "DPSN",
+      "display": "Deep snow / Mountain",
+      "definition": "A snowmobile designed for deep powder snow and mountainous terrain.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Montagne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nieve profunda / Montaña"
+        }
+      ]
+    },
+    {
+      "code": "DUPR",
+      "display": "Dual Purpose",
+      "definition": "A vehicle designed for both on-road and off-road use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Double usage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Doble propósito"
+        }
+      ]
+    },
+    {
+      "code": "ENDR",
+      "display": "Enduro",
+      "definition": "A motorcycle designed for long-distance off-road racing and riding.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Enduro"
+        },
+        {
+          "language": "es-MX",
+          "value": "Enduro"
+        }
+      ]
+    },
+    {
+      "code": "HVDT",
+      "display": "Heavy Duty",
+      "definition": "A vehicle built for demanding work conditions with reinforced components.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Très résistant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajo pesado"
+        }
+      ]
+    },
+    {
+      "code": "HYBC",
+      "display": "Hybrid / Crossover",
+      "definition": "A vehicle combining characteristics of multiple categories or power sources.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hybride / Croisée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Híbrido / Crossover"
+        }
+      ]
+    },
+    {
+      "code": "JUNR",
+      "display": "Junior",
+      "definition": "A vehicle sized and powered for youth riders.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pour jeunes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Juvenil"
+        }
+      ]
+    },
+    {
+      "code": "LITE",
+      "display": "Lite",
+      "definition": "A lightweight vehicle variant with reduced weight and features.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Léger"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ligero"
+        }
+      ]
+    },
+    {
+      "code": "MNSK",
+      "display": "Monoski",
+      "definition": "A snowmobile with a single ski in front for specialized snow conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mono-ski"
+        },
+        {
+          "language": "es-MX",
+          "value": "Monoesquí"
+        }
+      ]
+    },
+    {
+      "code": "MTRD",
+      "display": "Motard / Super Motard",
+      "definition": "A motorcycle combining street and dirt bike characteristics for mixed-surface riding.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Motard / Supermotard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Motard / Supermotard"
+        }
+      ]
+    },
+    {
+      "code": "NKSP",
+      "display": "Naked Sport",
+      "definition": "A sport motorcycle with minimal or no fairings, exposing the engine and frame.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sport dépouillée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Deportiva desnuda"
+        }
+      ]
+    },
+    {
+      "code": "OFRD",
+      "display": "Off Road",
+      "definition": "A vehicle designed exclusively for use on unpaved terrain.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors route"
+        },
+        {
+          "language": "es-MX",
+          "value": "Todoterreno"
+        }
+      ]
+    },
+    {
+      "code": "OFMX",
+      "display": "Off Road Motocross",
+      "definition": "A motorcycle designed specifically for motocross racing on closed circuits.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors route motocross"
+        },
+        {
+          "language": "es-MX",
+          "value": "Motocross todoterreno"
+        }
+      ]
+    },
+    {
+      "code": "OFRT",
+      "display": "Off Road Trials",
+      "definition": "A motorcycle designed for trials competition, emphasizing balance and technical skill.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors route trial"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trial todoterreno"
+        }
+      ]
+    },
+    {
+      "code": "PERF",
+      "display": "Performance",
+      "definition": "A vehicle optimized for high performance characteristics.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Performance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rendimiento"
+        }
+      ]
+    },
+    {
+      "code": "RECR",
+      "display": "Recreational",
+      "definition": "A vehicle designed for leisure and recreational use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Loisir"
+        },
+        {
+          "language": "es-MX",
+          "value": "Recreativo"
+        }
+      ]
+    },
+    {
+      "code": "REUT",
+      "display": "Recreational Utility",
+      "definition": "A vehicle combining recreational features with practical utility capabilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Loisir utilitaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Utilitario recreativo"
+        }
+      ]
+    },
+    {
+      "code": "SPRT",
+      "display": "Sport",
+      "definition": "A vehicle designed for sporty performance and handling.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sport"
+        },
+        {
+          "language": "es-MX",
+          "value": "Deportivo"
+        }
+      ]
+    },
+    {
+      "code": "SPTR",
+      "display": "Sport Touring",
+      "definition": "A motorcycle combining sport performance with long-distance touring comfort.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Routière sportive"
+        },
+        {
+          "language": "es-MX",
+          "value": "Turismo deportivo"
+        }
+      ]
+    },
+    {
+      "code": "STND",
+      "display": "Standard",
+      "definition": "A vehicle with conventional features and configuration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Standard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estándar"
+        }
+      ]
+    },
+    {
+      "code": "SDCR",
+      "display": "Standard Sidecar",
+      "definition": "A motorcycle with an attached sidecar for an additional passenger or cargo.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Side-car standard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sidecar estándar"
+        }
+      ]
+    },
+    {
+      "code": "TOUR",
+      "display": "Touring",
+      "definition": "A vehicle designed for long-distance travel with enhanced comfort features.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tourisme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Turismo"
+        }
+      ]
+    },
+    {
+      "code": "TRSP",
+      "display": "Trail / Sport",
+      "definition": "A vehicle combining trail riding capability with sport performance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sentier / Sport"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sendero / Deportivo"
+        }
+      ]
+    },
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "UTIL",
+      "display": "Utility",
+      "definition": "A vehicle designed primarily for work and practical applications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Utilitaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Utilitario"
+        }
+      ]
+    },
+    {
+      "code": "OTTR",
+      "display": "Other Trailer",
+      "definition": "A trailer type that doesn't fit standard classifications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre remorque"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro remolque"
+        }
+      ]
+    },
+    {
+      "code": "ATC2",
+      "display": "All Terrain Cycle",
+      "definition": "A two-wheeled all-terrain vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bicyclette tout terrain"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ciclo todo terreno"
+        }
+      ]
+    },
+    {
+      "code": "ATC3",
+      "display": "All Terrain Tricycle",
+      "definition": "A three-wheeled all-terrain vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tricycle tout-terrain"
+        },
+        {
+          "language": "es-MX",
+          "value": "Triciclo todo terreno"
+        }
+      ]
+    },
+    {
+      "code": "ATV4",
+      "display": "All Terrain Vehicle (Four Wheel)",
+      "definition": "A four-wheeled motorized vehicle designed for off-road use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule tout-terrain (4 roues)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo todo terreno (4 ruedas)"
+        }
+      ]
+    },
+    {
+      "code": "ANTR",
+      "display": "Antique Auto (Regular Plate)",
+      "definition": "A vehicle of historical interest with regular registration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Automobile ancienne (plaque régulière)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Auto antiguo (placa regular)"
+        }
+      ]
+    },
+    {
+      "code": "AMBU",
+      "display": "Ambulance",
+      "definition": "A vehicle specially equipped for transporting sick or injured persons.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ambulance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ambulancia"
+        }
+      ]
+    },
+    {
+      "code": "ANTH",
+      "display": "Antique Auto (Historic Plate)",
+      "definition": "A vehicle of historical interest with historic registration status.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Automobile ancienne (plaque historique)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Auto antiguo (placa histórica)"
+        }
+      ]
+    },
+    {
+      "code": "AMPH",
+      "display": "Amphibious Vehicle",
+      "definition": "A vehicle capable of operating on both land and water.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule amphibie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo anfibio"
+        }
+      ]
+    },
+    {
+      "code": "ATVH",
+      "display": "All Terrain Vehicle",
+      "definition": "A motorized vehicle designed for off-road use across various terrains.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule tout-terrain"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo todo terreno"
+        }
+      ]
+    },
+    {
+      "code": "BUSS",
+      "display": "Bus",
+      "definition": "A large motor vehicle designed to carry multiple passengers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autobus"
+        },
+        {
+          "language": "es-MX",
+          "value": "Autobús"
+        }
+      ]
+    },
+    {
+      "code": "DCBR",
+      "display": "Detachable Camper Body",
+      "definition": "A camper unit that can be removed from the vehicle it's mounted on.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caravane à carrosserie amovible"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cuerpo de caravana desmontable"
+        }
+      ]
+    },
+    {
+      "code": "CATK",
+      "display": "Catering Truck",
+      "definition": "A truck equipped to prepare and serve food.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion traiteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camión de catering"
+        }
+      ]
+    },
+    {
+      "code": "CLAS",
+      "display": "Classic/Customized Auto (Rated by Price)",
+      "definition": "A classic or heavily customized vehicle valued and rated based on market price.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture classique/personnalisée (classée par prix)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Auto clásico/personalizado (valorado por precio)"
+        }
+      ]
+    },
+    {
+      "code": "CMPT",
+      "display": "Compactor",
+      "definition": "A truck with equipment to compress and transport waste materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compacteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compactador"
+        }
+      ]
+    },
+    {
+      "code": "CBTR",
+      "display": "Cabin or Home Trailer",
+      "definition": "A towable recreational trailer designed for temporary living accommodations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caravane classique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque casa"
+        }
+      ]
+    },
+    {
+      "code": "CMVN",
+      "display": "Camper Van",
+      "definition": "A van converted or designed for camping with living facilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fourgonnette de camping"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camioneta casa rodante"
+        }
+      ]
+    },
+    {
+      "code": "CSWG",
+      "display": "Casket Wagon",
+      "definition": "A vehicle designed for transporting caskets in funeral processions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Char funèbre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Coche fúnebre"
+        }
+      ]
+    },
+    {
+      "code": "DBGY",
+      "display": "Dune Buggy",
+      "definition": "A recreational vehicle designed for driving on sand dunes and beaches.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autodune"
+        },
+        {
+          "language": "es-MX",
+          "value": "Buggy de dunas"
+        }
+      ]
+    },
+    {
+      "code": "DUMP",
+      "display": "Dump truck",
+      "definition": "A truck with a hydraulic bed that tilts to unload materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion-benne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camión de volteo"
+        }
+      ]
+    },
+    {
+      "code": "FKLF",
+      "display": "Fork Lift",
+      "definition": "A powered industrial vehicle with forks for lifting and moving materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chariot élévateur à fourche"
+        },
+        {
+          "language": "es-MX",
+          "value": "Montacargas"
+        }
+      ]
+    },
+    {
+      "code": "FMTR",
+      "display": "Farm Trailer",
+      "definition": "A trailer designed for agricultural use and farm operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque pour ferme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque agrícola"
+        }
+      ]
+    },
+    {
+      "code": "GLFC",
+      "display": "Golf Cart",
+      "definition": "A small motorized vehicle designed for transporting golfers and equipment on a golf course.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiturette de golf"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carrito de golf"
+        }
+      ]
+    },
+    {
+      "code": "HERS",
+      "display": "Hearse",
+      "definition": "A vehicle designed to transport a coffin to a funeral or cemetery.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Corbillard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carroza fúnebre"
+        }
+      ]
+    },
+    {
+      "code": "JEEP",
+      "display": "Jeep",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Jeep"
+        },
+        {
+          "language": "es-MX",
+          "value": "Jeep"
+        }
+      ]
+    },
+    {
+      "code": "KITC",
+      "display": "Kit Car",
+      "definition": "A vehicle assembled from a kit of parts rather than purchased complete from a manufacturer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture à assembler"
+        },
+        {
+          "language": "es-MX",
+          "value": "Auto en kit"
+        }
+      ]
+    },
+    {
+      "code": "LUGR",
+      "display": "Lugger",
+      "definition": "A truck designed to carry large containers or dumpsters.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lougre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camión de contenedores"
+        }
+      ]
+    },
+    {
+      "code": "LIMO",
+      "display": "Limousine",
+      "definition": "A luxury vehicle, typically lengthened, driven by a chauffeur with a partition between driver and passenger compartments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Limousine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Limusina"
+        }
+      ]
+    },
+    {
+      "code": "MBIK",
+      "display": "Motorized Bicycle",
+      "definition": "A bicycle equipped with a motor for propulsion.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bicyclette motorisée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bicicleta motorizada"
+        }
+      ]
+    },
+    {
+      "code": "MCYC",
+      "display": "Motorcycles over 50 cc",
+      "definition": "A two-wheeled motor vehicle with an engine displacement exceeding 50 cubic centimeters.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Motocyclettes plus de 50 cc"
+        },
+        {
+          "language": "es-MX",
+          "value": "Motocicletas mayores de 50 cc"
+        }
+      ]
+    },
+    {
+      "code": "MHOM",
+      "display": "Motor Home (Recreational Use)",
+      "definition": "A self-propelled recreational vehicle with living accommodations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autocaravane (usage récréatif)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casa rodante motorizada (uso recreativo)"
+        }
+      ]
+    },
+    {
+      "code": "MNBK",
+      "display": "Mini-bike, Trail Bike (Off Road)",
+      "definition": "A small motorcycle designed for off-road use only.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cyclomoteur, moto tout-terrain (hors route)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mini-moto, moto de sendero (todoterreno)"
+        }
+      ]
+    },
+    {
+      "code": "MOPD",
+      "display": "Moped",
+      "definition": "A low-powered two-wheeled vehicle with pedals and a small motor.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cyclomoteur (moped)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ciclomotor"
+        }
+      ]
+    },
+    {
+      "code": "MSCT",
+      "display": "Motorized Scooter",
+      "definition": "A two-wheeled motorized vehicle with a step-through frame.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Scooter motorisé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Scooter motorizado"
+        }
+      ]
+    },
+    {
+      "code": "MTRC",
+      "display": "Motorized Tricycle",
+      "definition": "A three-wheeled motorized vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tricycle motorisé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Triciclo motorizado"
+        }
+      ]
+    },
+    {
+      "code": "MNVN",
+      "display": "Mini Van/Private Passenger",
+      "definition": "A small van designed primarily for passenger transport.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mini-fourgonnette/Voiture de tourisme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Minivan/Pasajero privado"
+        }
+      ]
+    },
+    {
+      "code": "MCSC",
+      "display": "Motorcycle with Sidecar",
+      "definition": "A motorcycle with an attached sidecar for additional passenger or cargo capacity.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Motocyclette avec nacelle latérale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Motocicleta con sidecar"
+        }
+      ]
+    },
+    {
+      "code": "CMTR",
+      "display": "Common Trailer",
+      "definition": "A standard trailer using tongue and hitch coupling.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque commune"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque común"
+        }
+      ]
+    },
+    {
+      "code": "OTMV",
+      "display": "Other/Multi-Purpose Vehicle",
+      "definition": "A vehicle that doesn't fit standard categories or serves multiple purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre/véhicule polyvalent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro/Vehículo multiuso"
+        }
+      ]
+    },
+    {
+      "code": "PPCV",
+      "display": "Private Passenger - Convertible",
+      "definition": "A passenger car with a retractable or removable roof.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture de tourisme - cabriolet (décapotable)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pasajero privado - Convertible"
+        }
+      ]
+    },
+    {
+      "code": "PP2D",
+      "display": "Private Passenger - 2 Door Sedan/Hard Top",
+      "definition": "A two-door passenger car with a fixed roof.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture de tourisme - Berline/toit rigide - 2 portes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pasajero privado - Sedán/Hard Top 2 puertas"
+        }
+      ]
+    },
+    {
+      "code": "PP3H",
+      "display": "Private Passenger - 3 Door Hatchback",
+      "definition": "A three-door passenger car with a rear door that opens upward.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture de tourisme - À hayon - 3 portes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pasajero privado - Hatchback 3 puertas"
+        }
+      ]
+    },
+    {
+      "code": "PP4D",
+      "display": "Private Passenger - 4 Door Sedan/Hard Top",
+      "definition": "A four-door passenger car with a fixed roof.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture de tourisme - Berline/toit rigide - 4 portes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pasajero privado - Sedán/Hard Top 4 puertas"
+        }
+      ]
+    },
+    {
+      "code": "PP4H",
+      "display": "Private Passenger - 4 Door Hatchback",
+      "definition": "A four-door passenger car with a rear door that opens upward.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture de tourisme - À hayon - 4 portes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pasajero privado - Hatchback 4 puertas"
+        }
+      ]
+    },
+    {
+      "code": "PPSW",
+      "display": "Private Passenger - Station Wagon",
+      "definition": "A passenger car with extended cargo area and rear door.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture de tourisme - Familiale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pasajero privado - Station Wagon"
+        }
+      ]
+    },
+    {
+      "code": "PCKP",
+      "display": "Pickup Truck",
+      "definition": "A light truck with an open cargo bed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camionnette (pick-up)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camioneta pickup"
+        }
+      ]
+    },
+    {
+      "code": "RACE",
+      "display": "Race Car",
+      "definition": "A vehicle specifically built or modified for competitive racing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture de course"
+        },
+        {
+          "language": "es-MX",
+          "value": "Auto de carreras"
+        }
+      ]
+    },
+    {
+      "code": "RDMX",
+      "display": "Ready Mix Truck",
+      "definition": "A truck with a rotating drum for mixing and transporting concrete.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bétonneuse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camión de concreto premezclado"
+        }
+      ]
+    },
+    {
+      "code": "RLOF",
+      "display": "Rolloff Truck",
+      "definition": "A truck designed to load and transport large containers by rolling them on and off.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion porteur à faux-cadre basculant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camión de volteo de contenedores"
+        }
+      ]
+    },
+    {
+      "code": "RDTR",
+      "display": "Road Tractor Only",
+      "definition": "A tractor unit designed to pull semi-trailers, without a trailer attached.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tracteur routier seulement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tractor de carretera solamente"
+        }
+      ]
+    },
+    {
+      "code": "RTWT",
+      "display": "Road Tractor with Trailer",
+      "definition": "A tractor unit with a semi-trailer attached.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tracteur routier avec remorque"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tractor de carretera con remolque"
+        }
+      ]
+    },
+    {
+      "code": "SNMB",
+      "display": "Snowmobile",
+      "definition": "A motorized vehicle designed for winter travel on snow.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Motoneige"
+        },
+        {
+          "language": "es-MX",
+          "value": "Moto de nieve"
+        }
+      ]
+    },
+    {
+      "code": "STKP",
+      "display": "Stake or Platform Truck",
+      "definition": "A truck with a flatbed and removable side stakes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Potelet ou camion-plate-forme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camión de estacas o plataforma"
+        }
+      ]
+    },
+    {
+      "code": "SMSL",
+      "display": "Snowmobile with Sled",
+      "definition": "A snowmobile with an attached sled for additional cargo or passengers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Motoneige avec traîneau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Moto de nieve con trineo"
+        }
+      ]
+    },
+    {
+      "code": "SUVS",
+      "display": "Sport Utility Vehicle - Small Convertible (Soft Top)",
+      "definition": "A compact SUV with a removable soft-top roof.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule utilitaire sport - Petit cabriolet (décapotable) (à toit souple)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo utilitario deportivo - Convertible pequeño (techo suave)"
+        }
+      ]
+    },
+    {
+      "code": "SUVM",
+      "display": "Sport Utility Vehicle - Small and Medium (Hard Top)",
+      "definition": "A small to medium SUV with a fixed hard-top roof.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule utilitaire sport - Petit et moyen (toit rigide)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo utilitario deportivo - Pequeño y mediano (techo duro)"
+        }
+      ]
+    },
+    {
+      "code": "SUVL",
+      "display": "Sport Utility Vehicle - Large",
+      "definition": "A full-size sport utility vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule utilitaire sport - Grand"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo utilitario deportivo - Grande"
+        }
+      ]
+    },
+    {
+      "code": "TKHV",
+      "display": "Truck - Heavy",
+      "definition": "A heavy-duty commercial truck designed for substantial loads.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion - lourd"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camión - Pesado"
+        }
+      ]
+    },
+    {
+      "code": "TKMD",
+      "display": "Truck - Medium",
+      "definition": "A medium-duty commercial truck.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion - moyen"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camión - Mediano"
+        }
+      ]
+    },
+    {
+      "code": "TKLT",
+      "display": "Truck - Light",
+      "definition": "A light-duty commercial truck.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion - léger"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camión - Ligero"
+        }
+      ]
+    },
+    {
+      "code": "TKNP",
+      "display": "Tank Truck Non-pressurized",
+      "definition": "A truck with a tank for transporting liquids or gases at ambient pressure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion-citerne non pressurisé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camión tanque no presurizado"
+        }
+      ]
+    },
+    {
+      "code": "TKPR",
+      "display": "Tank Truck Pressurized",
+      "definition": "A truck with a pressurized tank for transporting liquids or gases under pressure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion-citerne pressurisé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camión tanque presurizado"
+        }
+      ]
+    },
+    {
+      "code": "MHPR",
+      "display": "Travelling Motor Home (Primary Residence)",
+      "definition": "A motor home used as a primary dwelling rather than for recreation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autocaravane (résidence principale)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casa rodante motorizada (residencia principal)"
+        }
+      ]
+    },
+    {
+      "code": "TWPF",
+      "display": "Tow Truck with Platform",
+      "definition": "A tow truck equipped with a flatbed platform for transporting vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dépanneuse avec plate-forme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grúa con plataforma"
+        }
+      ]
+    },
+    {
+      "code": "FMTC",
+      "display": "Farm Tractor",
+      "definition": "A tractor designed for agricultural operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tracteur de ferme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tractor agrícola"
+        }
+      ]
+    },
+    {
+      "code": "TENT",
+      "display": "Tent Trailer",
+      "definition": "A collapsible trailer with tent-like fabric sides that expand when set up.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tente-caravane"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque tienda"
+        }
+      ]
+    },
+    {
+      "code": "TWWR",
+      "display": "Tow Truck with Wrecker",
+      "definition": "A tow truck equipped with a boom and winch for lifting vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dépanneuse avec dépanneuse lourde"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grúa con mecanismo de arrastre"
+        }
+      ]
+    },
+    {
+      "code": "TAXI",
+      "display": "Taxi",
+      "definition": "A vehicle licensed to transport passengers for hire.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Taxi"
+        },
+        {
+          "language": "es-MX",
+          "value": "Taxi"
+        }
+      ]
+    },
+    {
+      "code": "UTTR",
+      "display": "Utility Trailer",
+      "definition": "A general-purpose trailer for transporting various goods and equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque utilitaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque utilitario"
+        }
+      ]
+    },
+    {
+      "code": "VANH",
+      "display": "Van - Heavy",
+      "definition": "A heavy-duty enclosed van for commercial use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fourgon - lourd"
+        },
+        {
+          "language": "es-MX",
+          "value": "Furgoneta - Pesada"
+        }
+      ]
+    },
+    {
+      "code": "VANL",
+      "display": "Van - Light",
+      "definition": "A light-duty enclosed van.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fourgon"
+        },
+        {
+          "language": "es-MX",
+          "value": "Furgoneta - Ligera"
+        }
+      ]
+    },
+    {
+      "code": "ENSP",
+      "display": "Entry Sport",
+      "definition": "An entry-level sport motorcycle designed for beginning riders.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sport d'entrée de gamme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Deportiva de entrada"
+        }
+      ]
+    },
+    {
+      "code": "ENNS",
+      "display": "Entry Naked Sport",
+      "definition": "An entry-level naked sport motorcycle without fairings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sport dépouillée d'entrée de gamme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Deportiva desnuda de entrada"
+        }
+      ]
+    },
+    {
+      "code": "SUSP",
+      "display": "Super Sport",
+      "definition": "A high-performance sport motorcycle with advanced features.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Super sportive"
+        },
+        {
+          "language": "es-MX",
+          "value": "Super deportiva"
+        }
+      ]
+    },
+    {
+      "code": "NKSS",
+      "display": "Naked Super Sport",
+      "definition": "A high-performance sport motorcycle without fairings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Super sportive dépouillée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Super deportiva desnuda"
+        }
+      ]
+    },
+    {
+      "code": "CHOP",
+      "display": "Chopper",
+      "definition": "A customized motorcycle with extended front forks and modified frame.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Choppeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Chopper"
+        }
+      ]
+    },
+    {
+      "code": "CRGO",
+      "display": "Cargo Van",
+      "definition": "An enclosed van designed primarily for transporting goods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fourgonnette de livraison"
+        },
+        {
+          "language": "es-MX",
+          "value": "Furgoneta de carga"
+        }
+      ]
+    },
+    {
+      "code": "CPUP",
+      "display": "Coupe",
+      "definition": "A two-door passenger car with a sporty design and fixed roof.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coupé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cupé"
+        }
+      ]
+    },
+    {
+      "code": "CRSS",
+      "display": "Crossover",
+      "definition": "A vehicle built on a car platform with SUV-like features.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Multisegment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Crossover"
+        }
+      ]
+    }
+  ]
+}

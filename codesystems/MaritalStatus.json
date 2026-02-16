@@ -1,0 +1,102 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "MaritalStatus",
+  "url": "https://bind.codes/MaritalStatus",
+  "name": "MaritalStatus",
+  "title": "Marital Status",
+  "status": "draft",
+  "language": "en",
+  "description": "Marital Status codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CMLW",
+      "display": "Common-law",
+      "definition": "Two individuals living together in a marriage-like relationship without being legally married.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conjoint de fait"
+        },
+        {
+          "language": "es-MX",
+          "value": "Unión libre"
+        }
+      ]
+    },
+    {
+      "code": "DVRC",
+      "display": "Divorced",
+      "definition": "A person whose marriage has been legally dissolved.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Divorcé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Divorciado"
+        }
+      ]
+    },
+    {
+      "code": "MARR",
+      "display": "Married",
+      "definition": "A person who is legally married.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casado"
+        }
+      ]
+    },
+    {
+      "code": "SEPR",
+      "display": "Separated",
+      "definition": "A person who is married but living apart from their spouse with the intention to remain apart.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Séparé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Separado"
+        }
+      ]
+    },
+    {
+      "code": "SNGL",
+      "display": "Single",
+      "definition": "A person who has never been married.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Célibataire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Soltero"
+        }
+      ]
+    },
+    {
+      "code": "WDWD",
+      "display": "Widowed",
+      "definition": "A person whose spouse has died and who has not remarried.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Veuf"
+        },
+        {
+          "language": "es-MX",
+          "value": "Viudo"
+        }
+      ]
+    }
+  ]
+}

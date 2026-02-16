@@ -1,0 +1,117 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "PipeConstruction",
+  "url": "https://bind.codes/PipeConstruction",
+  "name": "PipeConstruction",
+  "title": "Pipe Construction",
+  "status": "draft",
+  "language": "en",
+  "description": "Pipe Construction codes for insurance operations.",
+  "concept": [
+    {
+      "code": "DBWL",
+      "display": "Double Walled",
+      "definition": "Pipe construction featuring two concentric walls with an interstitial space, providing enhanced leak protection and containment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À double paroi"
+        },
+        {
+          "language": "es-MX",
+          "value": "De doble pared"
+        }
+      ]
+    },
+    {
+      "code": "SNWL",
+      "display": "Single Walled (Including Black Steel)",
+      "definition": "Pipe construction with a single layer wall, including black steel piping which is uncoated carbon steel.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À simple paroi (incluant acier noir)"
+        },
+        {
+          "language": "es-MX",
+          "value": "De pared simple (incluyendo acero negro)"
+        }
+      ]
+    },
+    {
+      "code": "GALV",
+      "display": "Galvanized",
+      "definition": "Pipe coated with a protective zinc layer to prevent corrosion and rust.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Galvanisé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Galvanizado"
+        }
+      ]
+    },
+    {
+      "code": "COPR",
+      "display": "Copper",
+      "definition": "Pipe made from copper metal, commonly used for water supply and heating systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cuivre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cobre"
+        }
+      ]
+    },
+    {
+      "code": "PVC",
+      "display": "PVC/Plastic",
+      "definition": "Pipe made from polyvinyl chloride or other plastic materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "PVC/Plastique"
+        },
+        {
+          "language": "es-MX",
+          "value": "PVC/Plástico"
+        }
+      ]
+    },
+    {
+      "code": "CSIR",
+      "display": "Cast Iron",
+      "definition": "Pipe made from cast iron, commonly used in drainage and sewage systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fonte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hierro fundido"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Pipe construction type not otherwise specified in this code system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

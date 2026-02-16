@@ -1,0 +1,120 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ScheduledItemCategory",
+  "url": "https://bind.codes/ScheduledItemCategory",
+  "name": "ScheduledItemCategory",
+  "title": "Scheduled Item Category",
+  "status": "draft",
+  "language": "en",
+  "description": "Categories of high-value personal property items that are individually scheduled on a policy.",
+  "concept": [
+    {
+      "code": "JWLR",
+      "display": "Jewelry",
+      "definition": "Rings, necklaces, watches, bracelets, and other precious metal or gemstone items.",
+      "designation": [
+        { "language": "fr-CA", "value": "Bijoux" },
+        { "language": "es-MX", "value": "Joyería" }
+      ]
+    },
+    {
+      "code": "FNAR",
+      "display": "Fine Art",
+      "definition": "Paintings, sculptures, prints, and other original artistic works.",
+      "designation": [
+        { "language": "fr-CA", "value": "Beaux-arts" },
+        { "language": "es-MX", "value": "Arte fino" }
+      ]
+    },
+    {
+      "code": "MUSC",
+      "display": "Musical Instruments",
+      "definition": "Instruments including pianos, string, wind, brass, and electronic instruments.",
+      "designation": [
+        { "language": "fr-CA", "value": "Instruments de musique" },
+        { "language": "es-MX", "value": "Instrumentos musicales" }
+      ]
+    },
+    {
+      "code": "FARM",
+      "display": "Firearms",
+      "definition": "Guns, rifles, shotguns, and related accessories.",
+      "designation": [
+        { "language": "fr-CA", "value": "Armes à feu" },
+        { "language": "es-MX", "value": "Armas de fuego" }
+      ]
+    },
+    {
+      "code": "SLVR",
+      "display": "Silverware",
+      "definition": "Sterling silver flatware, serving pieces, and decorative silver items.",
+      "designation": [
+        { "language": "fr-CA", "value": "Argenterie" },
+        { "language": "es-MX", "value": "Platería" }
+      ]
+    },
+    {
+      "code": "FURS",
+      "display": "Furs",
+      "definition": "Fur coats, stoles, and other fur garments.",
+      "designation": [
+        { "language": "fr-CA", "value": "Fourrures" },
+        { "language": "es-MX", "value": "Pieles" }
+      ]
+    },
+    {
+      "code": "CMEQ",
+      "display": "Cameras & Equipment",
+      "definition": "Professional or high-value photographic and video equipment.",
+      "designation": [
+        { "language": "fr-CA", "value": "Appareils photo et équipement" },
+        { "language": "es-MX", "value": "Cámaras y equipo" }
+      ]
+    },
+    {
+      "code": "CNST",
+      "display": "Coins & Stamps",
+      "definition": "Numismatic coin collections and philatelic stamp collections.",
+      "designation": [
+        { "language": "fr-CA", "value": "Monnaies et timbres" },
+        { "language": "es-MX", "value": "Monedas y estampillas" }
+      ]
+    },
+    {
+      "code": "ANTQ",
+      "display": "Antiques",
+      "definition": "Furniture, decorative objects, and collectibles of significant age and value.",
+      "designation": [
+        { "language": "fr-CA", "value": "Antiquités" },
+        { "language": "es-MX", "value": "Antigüedades" }
+      ]
+    },
+    {
+      "code": "WINE",
+      "display": "Wine & Spirits Collections",
+      "definition": "Curated collections of wine, spirits, or other beverages stored for appreciation or consumption.",
+      "designation": [
+        { "language": "fr-CA", "value": "Collections de vins et spiritueux" },
+        { "language": "es-MX", "value": "Colecciones de vinos y licores" }
+      ]
+    },
+    {
+      "code": "GOLF",
+      "display": "Golf Equipment",
+      "definition": "High-value golf clubs, bags, and accessories.",
+      "designation": [
+        { "language": "fr-CA", "value": "Équipement de golf" },
+        { "language": "es-MX", "value": "Equipo de golf" }
+      ]
+    },
+    {
+      "code": "ELEC",
+      "display": "Electronics",
+      "definition": "Computers, home theater systems, and other high-value electronic devices.",
+      "designation": [
+        { "language": "fr-CA", "value": "Électronique" },
+        { "language": "es-MX", "value": "Electrónica" }
+      ]
+    }
+  ]
+}

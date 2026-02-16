@@ -1,0 +1,506 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "VehicleUse",
+  "url": "https://bind.codes/VehicleUse",
+  "name": "VehicleUse",
+  "title": "Vehicle Use",
+  "status": "draft",
+  "language": "en",
+  "description": "Vehicle Use codes for insurance operations.",
+  "concept": [
+    {
+      "code": "DSNC",
+      "display": "Driving School (without dual controls)",
+      "definition": "Vehicle used for driver instruction without secondary brake and steering controls.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "École de conduite (sans double commande)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escuela de conducción (sin controles duales)"
+        }
+      ]
+    },
+    {
+      "code": "FFEM",
+      "display": "Fire Fighting Services (emergency)",
+      "definition": "Vehicle used for emergency fire suppression and rescue operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de lutte contre l'incendie (urgent)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de extinción de incendios (emergencia)"
+        }
+      ]
+    },
+    {
+      "code": "FFNE",
+      "display": "Fire Fighting Services (non-emergency)",
+      "definition": "Vehicle used for fire department operations excluding emergency response.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de lutte contre l'incendie (non-urgents)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de extinción de incendios (no emergencia)"
+        }
+      ]
+    },
+    {
+      "code": "FNEM",
+      "display": "Funeral Services (emergency)",
+      "definition": "Vehicle used for urgent mortuary transport and services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services funéraires (urgents)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios funerarios (emergencia)"
+        }
+      ]
+    },
+    {
+      "code": "FNNE",
+      "display": "Funeral Services (non-emergency)",
+      "definition": "Vehicle used for routine mortuary services and transport.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services funéraires (non-urgents)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios funerarios (no emergencia)"
+        }
+      ]
+    },
+    {
+      "code": "PLEM",
+      "display": "Police Services (emergency)",
+      "definition": "Vehicle used for emergency law enforcement response.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de police (urgences)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios policiales (emergencia)"
+        }
+      ]
+    },
+    {
+      "code": "PLNE",
+      "display": "Police Services (non-emergency)",
+      "definition": "Vehicle used for routine law enforcement duties excluding emergency response.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de police (excluant urgences)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios policiales (no emergencia)"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "FUEL",
+      "display": "Fuel Truck for Contractors and Farmers",
+      "definition": "Vehicle equipped with fuel tanks used to deliver fuel to construction sites or agricultural operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion de carburant pour entrepreneurs et fermiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camión de combustible para contratistas y agricultores"
+        }
+      ]
+    },
+    {
+      "code": "BIZN",
+      "display": "Business",
+      "definition": "Vehicle used regularly for business purposes including client visits and work-related travel.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Affaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Negocios"
+        }
+      ]
+    },
+    {
+      "code": "COML",
+      "display": "Commercial",
+      "definition": "Vehicle used for commercial operations such as transporting goods or equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Utilitaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comercial"
+        }
+      ]
+    },
+    {
+      "code": "DSWC",
+      "display": "Driving School (with dual controls)",
+      "definition": "Vehicle equipped with dual controls for driver instruction and training.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "École de conduite (avec double commande)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escuela de conducción (con controles duales)"
+        }
+      ]
+    },
+    {
+      "code": "FMBZ",
+      "display": "Farming and Business",
+      "definition": "Vehicle used for both agricultural operations and business purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agriculture et affaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agricultura y negocios"
+        }
+      ]
+    },
+    {
+      "code": "FARM",
+      "display": "Farming",
+      "definition": "Vehicle used exclusively for agricultural operations on farmland.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agriculture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agricultura"
+        }
+      ]
+    },
+    {
+      "code": "CONS",
+      "display": "Unlicensed and on Consignment",
+      "definition": "Vehicle held by a dealer without license plates awaiting sale.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sans permis et en consignation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin placas y en consignación"
+        }
+      ]
+    },
+    {
+      "code": "CARP",
+      "display": "Car Pool",
+      "definition": "Vehicle used for shared commuting with multiple passengers traveling to the same destination.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Covoiturage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Viaje compartido"
+        }
+      ]
+    },
+    {
+      "code": "STOR",
+      "display": "In Storage",
+      "definition": "Vehicle not in active use and kept in storage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En entreposage"
+        },
+        {
+          "language": "es-MX",
+          "value": "En almacenamiento"
+        }
+      ]
+    },
+    {
+      "code": "OFRD",
+      "display": "Offroad",
+      "definition": "Vehicle used exclusively on unpaved terrain and private property, not on public roads.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors route"
+        },
+        {
+          "language": "es-MX",
+          "value": "Todoterreno"
+        }
+      ]
+    },
+    {
+      "code": "TOUR",
+      "display": "Touring",
+      "definition": "Vehicle used for long-distance recreational travel.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tourisme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Turismo"
+        }
+      ]
+    },
+    {
+      "code": "BZDL",
+      "display": "Business with Delivery",
+      "definition": "Vehicle used for business operations including regular delivery of goods or packages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Affaires avec livraison"
+        },
+        {
+          "language": "es-MX",
+          "value": "Negocios con entregas"
+        }
+      ]
+    },
+    {
+      "code": "OCBZ",
+      "display": "Occasional Business",
+      "definition": "Vehicle used primarily for personal purposes with infrequent work-related trips.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Affaires - déplacements professionnels occasionnels"
+        },
+        {
+          "language": "es-MX",
+          "value": "Negocios ocasionales"
+        }
+      ]
+    },
+    {
+      "code": "VOCT",
+      "display": "Vocational",
+      "definition": "Vehicle used by professionals traveling to job sites or client locations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Professionnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vocacional"
+        }
+      ]
+    },
+    {
+      "code": "OFMC",
+      "display": "Off-road Motorcycle",
+      "definition": "Motorcycle designed and used exclusively for off-road riding on trails or private property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Motocyclette hors route"
+        },
+        {
+          "language": "es-MX",
+          "value": "Motocicleta todoterreno"
+        }
+      ]
+    },
+    {
+      "code": "PLES",
+      "display": "Pleasure",
+      "definition": "Vehicle used for personal recreation and everyday driving.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promenade"
+        },
+        {
+          "language": "es-MX",
+          "value": "Recreo"
+        }
+      ]
+    },
+    {
+      "code": "CLGY",
+      "display": "Clergy",
+      "definition": "Vehicle used by religious officials for pastoral duties and congregation visits.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clergé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clero"
+        }
+      ]
+    },
+    {
+      "code": "SCHL",
+      "display": "School Transportation",
+      "definition": "Vehicle used for transporting students to and from educational institutions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transport scolaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transporte escolar"
+        }
+      ]
+    },
+    {
+      "code": "PUBT",
+      "display": "Public Transportation",
+      "definition": "Vehicle used for scheduled transit services available to the general public.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transport en commun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transporte público"
+        }
+      ]
+    },
+    {
+      "code": "PLMC",
+      "display": "Pleasure Touring Motorcycle",
+      "definition": "On-road motorcycle used for recreational riding and touring.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Motocyclette de tourisme et promenade"
+        },
+        {
+          "language": "es-MX",
+          "value": "Motocicleta de turismo recreativo"
+        }
+      ]
+    },
+    {
+      "code": "PRVT",
+      "display": "Private Transportation",
+      "definition": "Vehicle used for private hire or transportation services not available to the general public.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transport privé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transporte privado"
+        }
+      ]
+    },
+    {
+      "code": "CMUT",
+      "display": "Commuting",
+      "definition": "Vehicle used regularly for travel between home and a fixed workplace.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déplacement domicile-travail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Traslado al trabajo"
+        }
+      ]
+    },
+    {
+      "code": "RIDE",
+      "display": "Ridesharing",
+      "definition": "Vehicle used for commercial passenger transportation through ridesharing platforms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Covoiturage commercial"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transporte compartido comercial"
+        }
+      ]
+    },
+    {
+      "code": "FOOD",
+      "display": "Food Delivery",
+      "definition": "Vehicle used for delivering prepared meals and food orders.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Livraison de repas"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entrega de comida"
+        }
+      ]
+    },
+    {
+      "code": "RENT",
+      "display": "Rental",
+      "definition": "Vehicle owned by a rental company and rented to customers for temporary use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Location"
+        },
+        {
+          "language": "es-MX",
+          "value": "Renta"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "LitigationStatus",
+  "url": "https://bind.codes/LitigationStatus",
+  "name": "LitigationStatus",
+  "title": "Litigation Status",
+  "status": "draft",
+  "language": "en",
+  "description": "Status of legal proceedings related to a claim.",
+  "concept": [
+    {
+      "code": "NOLN",
+      "display": "No Litigation",
+      "definition": "No legal proceedings have been initiated or threatened.",
+      "designation": [
+        { "language": "fr-CA", "value": "Aucun litige" },
+        { "language": "es-MX", "value": "Sin litigio" }
+      ]
+    },
+    {
+      "code": "THRT",
+      "display": "Threatened",
+      "definition": "A demand letter or threat of legal action has been received but no suit has been filed.",
+      "designation": [
+        { "language": "fr-CA", "value": "Menacé" },
+        { "language": "es-MX", "value": "Amenazado" }
+      ]
+    },
+    {
+      "code": "FILD",
+      "display": "Filed",
+      "definition": "A lawsuit has been formally filed with the court.",
+      "designation": [
+        { "language": "fr-CA", "value": "Déposé" },
+        { "language": "es-MX", "value": "Presentado" }
+      ]
+    },
+    {
+      "code": "STLD",
+      "display": "Settled",
+      "definition": "The parties have reached a settlement agreement resolving the litigation.",
+      "designation": [
+        { "language": "fr-CA", "value": "Réglé" },
+        { "language": "es-MX", "value": "Resuelto" }
+      ]
+    },
+    {
+      "code": "JDGM",
+      "display": "Judgment",
+      "definition": "A court has issued a final judgment or verdict.",
+      "designation": [
+        { "language": "fr-CA", "value": "Jugement" },
+        { "language": "es-MX", "value": "Sentencia" }
+      ]
+    },
+    {
+      "code": "DISM",
+      "display": "Dismissed",
+      "definition": "The lawsuit has been dismissed by the court.",
+      "designation": [
+        { "language": "fr-CA", "value": "Rejeté" },
+        { "language": "es-MX", "value": "Desestimado" }
+      ]
+    },
+    {
+      "code": "APPL",
+      "display": "On Appeal",
+      "definition": "A judgment is being appealed to a higher court.",
+      "designation": [
+        { "language": "fr-CA", "value": "En appel" },
+        { "language": "es-MX", "value": "En apelación" }
+      ]
+    }
+  ]
+}

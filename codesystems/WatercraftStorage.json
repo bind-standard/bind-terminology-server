@@ -1,0 +1,131 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "WatercraftStorage",
+  "url": "https://bind.codes/WatercraftStorage",
+  "name": "WatercraftStorage",
+  "title": "Watercraft Storage",
+  "status": "draft",
+  "language": "en",
+  "description": "Watercraft Storage codes for insurance operations.",
+  "concept": [
+    {
+      "code": "TRIN",
+      "display": "On Trailer Indoors",
+      "definition": "Watercraft is stored on a trailer inside an enclosed structure such as a garage or storage facility.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sur remorque à l'intérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "En remolque bajo techo"
+        }
+      ]
+    },
+    {
+      "code": "TROT",
+      "display": "On Trailer Outdoors",
+      "definition": "Watercraft is stored on a trailer outside in an open or exposed location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sur remorque à l'extérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "En remolque a la intemperie"
+        }
+      ]
+    },
+    {
+      "code": "INDE",
+      "display": "Indoors",
+      "definition": "Watercraft is stored inside an enclosed structure, not on a trailer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'intérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bajo techo"
+        }
+      ]
+    },
+    {
+      "code": "OUTD",
+      "display": "Outdoors",
+      "definition": "Watercraft is stored outside in an open or exposed location, not on a trailer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'extérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "A la intemperie"
+        }
+      ]
+    },
+    {
+      "code": "MARI",
+      "display": "Marina",
+      "definition": "Watercraft is stored at a marina facility, typically in water or on a dock.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marina"
+        },
+        {
+          "language": "es-MX",
+          "value": "Marina"
+        }
+      ]
+    },
+    {
+      "code": "DRYS",
+      "display": "Dry Stack",
+      "definition": "Watercraft is stored in a commercial dry stack storage facility where boats are stacked vertically and launched by forklift.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreposage en rack"
+        },
+        {
+          "language": "es-MX",
+          "value": "Almacenamiento en seco"
+        }
+      ]
+    },
+    {
+      "code": "COVR",
+      "display": "Covered Dock",
+      "definition": "Watercraft is stored at a dock under a roof or covered structure while remaining in the water.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Quai couvert"
+        },
+        {
+          "language": "es-MX",
+          "value": "Muelle cubierto"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

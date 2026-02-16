@@ -1,0 +1,447 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ClaimsPartyRole",
+  "url": "https://bind.codes/ClaimsPartyRole",
+  "name": "ClaimsPartyRole",
+  "title": "Claims Party Role",
+  "status": "draft",
+  "language": "en",
+  "description": "Claims Party Role codes for insurance operations.",
+  "concept": [
+    {
+      "code": "POLI",
+      "display": "Police",
+      "definition": "Law enforcement agency or officer involved in an incident.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Policía"
+        }
+      ]
+    },
+    {
+      "code": "FIRE",
+      "display": "Fire Department",
+      "definition": "Fire department or firefighting service that responded to an incident.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service d'incendie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Departamento de bomberos"
+        }
+      ]
+    },
+    {
+      "code": "AMBU",
+      "display": "Ambulance Service",
+      "definition": "Emergency medical service that provided ambulance transportation or care.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service d'ambulance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de ambulancia"
+        }
+      ]
+    },
+    {
+      "code": "BCYC",
+      "display": "Bicyclist",
+      "definition": "Person riding a bicycle involved in an incident.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cycliste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ciclista"
+        }
+      ]
+    },
+    {
+      "code": "CLMT",
+      "display": "Claimant",
+      "definition": "Person or entity making a claim for damages or benefits.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Demandeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reclamante"
+        }
+      ]
+    },
+    {
+      "code": "THRD",
+      "display": "Third Party",
+      "definition": "Person or entity not directly party to the policy but involved in the claim.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mis en cause"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tercero"
+        }
+      ]
+    },
+    {
+      "code": "CONT",
+      "display": "Contact",
+      "definition": "Person providing information or serving as a point of contact for the claim.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Personne-ressource"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contacto"
+        }
+      ]
+    },
+    {
+      "code": "CNTR",
+      "display": "Contractor",
+      "definition": "Professional hired to perform repair, restoration, or other services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entrepreneur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contratista"
+        }
+      ]
+    },
+    {
+      "code": "CUST",
+      "display": "Customer",
+      "definition": "Person or business receiving services related to the claim.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Client"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cliente"
+        }
+      ]
+    },
+    {
+      "code": "DOVH",
+      "display": "Driver of Other Vehicle",
+      "definition": "Person operating another vehicle involved in the incident.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conducteur autre véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conductor de otro vehículo"
+        }
+      ]
+    },
+    {
+      "code": "DRVR",
+      "display": "Driver",
+      "definition": "Person operating the insured vehicle at the time of the incident.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conducteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conductor"
+        }
+      ]
+    },
+    {
+      "code": "EMPL",
+      "display": "Employer",
+      "definition": "Organization employing a person involved in the claim.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empleador"
+        }
+      ]
+    },
+    {
+      "code": "INSD",
+      "display": "Insured",
+      "definition": "Person or entity covered by the policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asegurado"
+        }
+      ]
+    },
+    {
+      "code": "LIEN",
+      "display": "Lienholder",
+      "definition": "Entity holding a legal claim against property as security for a debt.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Créancier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acreedor prendario"
+        }
+      ]
+    },
+    {
+      "code": "MFGR",
+      "display": "Manufacturer",
+      "definition": "Company that produced goods involved in the claim.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fabricant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fabricante"
+        }
+      ]
+    },
+    {
+      "code": "MRTG",
+      "display": "Mortgagee",
+      "definition": "Lender holding a mortgage on the property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Créancier hypothécaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acreedor hipotecario"
+        }
+      ]
+    },
+    {
+      "code": "OINC",
+      "display": "Other Insurer",
+      "definition": "Another company providing coverage relevant to the claim.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre assureur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otra aseguradora"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Party with a role not otherwise categorized.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "PASS",
+      "display": "Passenger",
+      "definition": "Person riding in a vehicle at the time of the incident.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Passager"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pasajero"
+        }
+      ]
+    },
+    {
+      "code": "PEDN",
+      "display": "Pedestrian",
+      "definition": "Person on foot involved in an incident.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Piéton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Peatón"
+        }
+      ]
+    },
+    {
+      "code": "POWN",
+      "display": "Property Owner",
+      "definition": "Person or entity owning real property involved in the claim.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriétaire foncier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propietario"
+        }
+      ]
+    },
+    {
+      "code": "VOWN",
+      "display": "Vehicle Owner",
+      "definition": "Person or entity holding title to a vehicle involved in the claim.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriétaire du véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propietario del vehículo"
+        }
+      ]
+    },
+    {
+      "code": "VNDR",
+      "display": "Vendor",
+      "definition": "Supplier of goods or services related to the claim.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fournisseur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Proveedor"
+        }
+      ]
+    },
+    {
+      "code": "WITN",
+      "display": "Witness",
+      "definition": "Person who observed the incident or has relevant information.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Témoin"
+        },
+        {
+          "language": "es-MX",
+          "value": "Testigo"
+        }
+      ]
+    },
+    {
+      "code": "ADJR",
+      "display": "Adjuster",
+      "definition": "Professional who investigates and evaluates claims.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Expert en sinistre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ajustador"
+        }
+      ]
+    },
+    {
+      "code": "ATTY",
+      "display": "Attorney",
+      "definition": "Legal representative for a party involved in the claim.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avocat"
+        },
+        {
+          "language": "es-MX",
+          "value": "Abogado"
+        }
+      ]
+    },
+    {
+      "code": "MDCL",
+      "display": "Medical Provider",
+      "definition": "Healthcare professional or facility providing medical treatment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fournisseur de soins médicaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Proveedor médico"
+        }
+      ]
+    },
+    {
+      "code": "REPR",
+      "display": "Repair Facility",
+      "definition": "Shop or business performing repairs on damaged property or vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Atelier de réparation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Taller de reparación"
+        }
+      ]
+    },
+    {
+      "code": "APPR",
+      "display": "Appraiser",
+      "definition": "Professional who estimates the value of damaged property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Évaluateur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tasador"
+        }
+      ]
+    }
+  ]
+}

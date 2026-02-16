@@ -1,0 +1,372 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "LegalAddress",
+  "url": "https://bind.codes/LegalAddress",
+  "name": "LegalAddress",
+  "title": "Legal Address",
+  "status": "draft",
+  "language": "en",
+  "description": "Legal Address codes for insurance operations.",
+  "concept": [
+    {
+      "code": "BLCK",
+      "display": "Block",
+      "definition": "A subdivision of land within a survey system, typically bounded by streets or other boundaries.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Quartier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bloque"
+        }
+      ]
+    },
+    {
+      "code": "CVDS",
+      "display": "Civil District",
+      "definition": "An administrative division of land for civil and legal purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "District civil"
+        },
+        {
+          "language": "es-MX",
+          "value": "Distrito civil"
+        }
+      ]
+    },
+    {
+      "code": "CA:CNCS",
+      "display": "Concession",
+      "definition": "A land division system used in parts of Canada, particularly Ontario and Quebec, where land is divided into concessions and lots.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Concession"
+        },
+        {
+          "language": "es-MX",
+          "value": "Concesión"
+        }
+      ]
+    },
+    {
+      "code": "CNTY",
+      "display": "County",
+      "definition": "A geographic and administrative subdivision of land, larger than a municipality.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comté"
+        },
+        {
+          "language": "es-MX",
+          "value": "Condado"
+        }
+      ]
+    },
+    {
+      "code": "LOTT",
+      "display": "Lot",
+      "definition": "An individual parcel of land within a larger subdivision or survey.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lot"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lote"
+        }
+      ]
+    },
+    {
+      "code": "LOTN",
+      "display": "Lot Number",
+      "definition": "The numeric identifier assigned to a specific lot within a subdivision.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Numéro de lot"
+        },
+        {
+          "language": "es-MX",
+          "value": "Número de lote"
+        }
+      ]
+    },
+    {
+      "code": "LTNF",
+      "display": "Lot Number From",
+      "definition": "The starting lot number in a range of lots.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Numéro de lot de"
+        },
+        {
+          "language": "es-MX",
+          "value": "Número de lote desde"
+        }
+      ]
+    },
+    {
+      "code": "LTNT",
+      "display": "Lot Number To",
+      "definition": "The ending lot number in a range of lots.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Numéro de lot à"
+        },
+        {
+          "language": "es-MX",
+          "value": "Número de lote hasta"
+        }
+      ]
+    },
+    {
+      "code": "MERD",
+      "display": "Meridian",
+      "definition": "A north-south reference line in a survey system used to establish coordinates.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Méridien"
+        },
+        {
+          "language": "es-MX",
+          "value": "Meridiano"
+        }
+      ]
+    },
+    {
+      "code": "MTBD",
+      "display": "Metes and Bounds",
+      "definition": "A land description method using distances and directions from a known point, referencing natural and artificial landmarks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bornes et limites"
+        },
+        {
+          "language": "es-MX",
+          "value": "Medidas y límites"
+        }
+      ]
+    },
+    {
+      "code": "PLAN",
+      "display": "Plan",
+      "definition": "A registered survey document showing the subdivision of land into lots.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plan"
+        },
+        {
+          "language": "es-MX",
+          "value": "Plan"
+        }
+      ]
+    },
+    {
+      "code": "PRMD",
+      "display": "Principal Meridian",
+      "definition": "The primary north-south reference line from which other meridians are measured in a survey system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Méridien principal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Meridiano principal"
+        }
+      ]
+    },
+    {
+      "code": "QRTR",
+      "display": "Quarter",
+      "definition": "A subdivision of a section, typically one-fourth of a section (160 acres in Dominion Land Survey).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Quart"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cuarto"
+        }
+      ]
+    },
+    {
+      "code": "CA:RANG",
+      "display": "Range",
+      "definition": "A series of townships running north-south in the Dominion Land Survey system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rang"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rango"
+        }
+      ]
+    },
+    {
+      "code": "SECT",
+      "display": "Section",
+      "definition": "A one square mile area of land (640 acres) within a township.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Section"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sección"
+        }
+      ]
+    },
+    {
+      "code": "STSH",
+      "display": "Section Township",
+      "definition": "The combination of section and township identifiers used to locate land.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Section canton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sección municipio"
+        }
+      ]
+    },
+    {
+      "code": "SITE",
+      "display": "Site",
+      "definition": "A specific location or parcel identified within a larger land area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Site"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sitio"
+        }
+      ]
+    },
+    {
+      "code": "SBDV",
+      "display": "Subdivision",
+      "definition": "A tract of land divided into individual lots for development or sale.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lotissement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Subdivisión"
+        }
+      ]
+    },
+    {
+      "code": "SBSC",
+      "display": "Subsection",
+      "definition": "A further division of a section, smaller than a quarter section.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous-section"
+        },
+        {
+          "language": "es-MX",
+          "value": "Subsección"
+        }
+      ]
+    },
+    {
+      "code": "CA:TWPN",
+      "display": "Township Number",
+      "definition": "The numeric identifier for a township within the survey system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Numéro de canton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Número de municipio"
+        }
+      ]
+    },
+    {
+      "code": "WLAD",
+      "display": "Whole Legal Address",
+      "definition": "The complete legal description of a property including all relevant survey identifiers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adresse légale complète"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dirección legal completa"
+        }
+      ]
+    },
+    {
+      "code": "CA:TWPS",
+      "display": "Township",
+      "definition": "A six-mile by six-mile area of land in the Dominion Land Survey system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Municipio"
+        }
+      ]
+    },
+    {
+      "code": "UNIT",
+      "display": "Unit",
+      "definition": "An individual dwelling within a multi-unit building or condominium.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Unité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Unidad"
+        }
+      ]
+    },
+    {
+      "code": "PARE",
+      "display": "Parcel",
+      "definition": "A defined piece of real property identified by a unique parcel identifier.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Parcelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Parcela"
+        }
+      ]
+    }
+  ]
+}

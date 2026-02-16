@@ -1,0 +1,3662 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ExposureType",
+  "url": "https://bind.codes/ExposureType",
+  "name": "ExposureType",
+  "title": "Exposure Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Exposure Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "TMTG",
+      "display": "Three or More Mortgagees",
+      "definition": "Property has three or more entities with a secured interest recorded against it.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trois Hypothécaires ou Plus"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tres o Más Acreedores Hipotecarios"
+        }
+      ]
+    },
+    {
+      "code": "ABLL",
+      "display": "Absentee Landlord",
+      "definition": "Property owner who does not reside at or actively manage the rental property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriétaire Absent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propietario Ausente"
+        }
+      ]
+    },
+    {
+      "code": "ACID",
+      "display": "Acids, Alkalis or Other Reactive Chemicals",
+      "definition": "Storage or use of corrosive or chemically reactive substances.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acides, Alcalis ou Autres Produits Chimiques Réactifs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ácidos, Álcalis u Otros Químicos Reactivos"
+        }
+      ]
+    },
+    {
+      "code": "ADHV",
+      "display": "Adhesives",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adhésifs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Adhesivos"
+        }
+      ]
+    },
+    {
+      "code": "ADVT",
+      "display": "Advertising",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Publicité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Publicidad"
+        }
+      ]
+    },
+    {
+      "code": "AERO",
+      "display": "Aerospace",
+      "definition": "Operations involving aircraft, spacecraft, or related equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aérospatiale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aeroespacial"
+        }
+      ]
+    },
+    {
+      "code": "AIRP",
+      "display": "Airport",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aéroport"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aeropuerto"
+        }
+      ]
+    },
+    {
+      "code": "ALCO",
+      "display": "Alcohol",
+      "definition": "Sale, service, or storage of alcoholic beverages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Alcool"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alcohol"
+        }
+      ]
+    },
+    {
+      "code": "ATVS",
+      "display": "All terrain vehicles",
+      "definition": "Off-road recreational vehicles designed for rough terrain.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicules Tout-Terrain"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículos Todo Terreno"
+        }
+      ]
+    },
+    {
+      "code": "AMMO",
+      "display": "Ammunition",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Munitions"
+        },
+        {
+          "language": "es-MX",
+          "value": "Munición"
+        }
+      ]
+    },
+    {
+      "code": "AMRA",
+      "display": "Amusement and/or Recreational Activity",
+      "definition": "Entertainment or leisure activities offered to the public.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Activité d'Amusement ou de Loisir"
+        },
+        {
+          "language": "es-MX",
+          "value": "Actividad de Entretenimiento y/o Recreativa"
+        }
+      ]
+    },
+    {
+      "code": "ARTR",
+      "display": "Animal Race Track",
+      "definition": "Facility where animals compete in racing events.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Piste de Course d'Animaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pista de Carreras de Animales"
+        }
+      ]
+    },
+    {
+      "code": "ANSH",
+      "display": "Animal Shows",
+      "definition": "Public exhibitions featuring animals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Spectacles d'Animaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Espectáculos de Animales"
+        }
+      ]
+    },
+    {
+      "code": "ANTQ",
+      "display": "Antique Shop",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Magasin d'Antiquités"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda de Antigüedades"
+        }
+      ]
+    },
+    {
+      "code": "APIA",
+      "display": "Apiary",
+      "definition": "Location where beehives are kept for honey production.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rucher"
+        },
+        {
+          "language": "es-MX",
+          "value": "Apiario"
+        }
+      ]
+    },
+    {
+      "code": "APLR",
+      "display": "Appliance Repair",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réparation d'Appareils Électroménagers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reparación de Electrodomésticos"
+        }
+      ]
+    },
+    {
+      "code": "ARCH",
+      "display": "Archery Ranges",
+      "definition": "Facility designed for practicing archery with bow and arrow.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Champs de Tir à l'Arc"
+        },
+        {
+          "language": "es-MX",
+          "value": "Campos de Tiro con Arco"
+        }
+      ]
+    },
+    {
+      "code": "ARSN",
+      "display": "Arson Loss(es)",
+      "definition": "History of intentionally set fires at the property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Perte par Incendie Criminel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pérdidas por Incendio Intencional"
+        }
+      ]
+    },
+    {
+      "code": "ARFL",
+      "display": "Artificial Flowers",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fleurs Artificielles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Flores Artificiales"
+        }
+      ]
+    },
+    {
+      "code": "ASBS",
+      "display": "Asbestos",
+      "definition": "Presence of fibrous mineral material known for health hazards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Amiante"
+        },
+        {
+          "language": "es-MX",
+          "value": "Amianto"
+        }
+      ]
+    },
+    {
+      "code": "ATNU",
+      "display": "Attractive Nuisances",
+      "definition": "Conditions on property that may attract and endanger children.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nuisances Attrayantes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Peligros Atractivos"
+        }
+      ]
+    },
+    {
+      "code": "ATVH",
+      "display": "All Terrain Vehicle",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule Tout-Terrain"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo Todo Terreno"
+        }
+      ]
+    },
+    {
+      "code": "AUCT",
+      "display": "Auction",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Enchères"
+        },
+        {
+          "language": "es-MX",
+          "value": "Subasta"
+        }
+      ]
+    },
+    {
+      "code": "AUCR",
+      "display": "Autioneer",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commissaire-Priseur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Subastador"
+        }
+      ]
+    },
+    {
+      "code": "BNSG",
+      "display": "Bags or Sacks Containing Nitrates/Sugar",
+      "definition": "Bulk storage of combustible or reactive materials in bags or sacks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sacs Contenant des Nitrates ou du Sucre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bolsas o Sacos Conteniendo Nitratos/Azúcar"
+        }
+      ]
+    },
+    {
+      "code": "BAIT",
+      "display": "Bait Shop",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Magasin d'Appâts"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda de Cebos"
+        }
+      ]
+    },
+    {
+      "code": "BANK",
+      "display": "Bankruptcy/Insolvency",
+      "definition": "Business or individual has filed for bankruptcy or is insolvent.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Faillite ou Insolvabilité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Quiebra/Insolvencia"
+        }
+      ]
+    },
+    {
+      "code": "BARB",
+      "display": "Barber Shop",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Barbier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Barbería"
+        }
+      ]
+    },
+    {
+      "code": "BEAU",
+      "display": "Beauty Shop",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Salon de Beauté"
+        },
+        {
+          "language": "es-MX",
+          "value": "Salón de Belleza"
+        }
+      ]
+    },
+    {
+      "code": "BNDB",
+      "display": "Bed and Breakfast",
+      "definition": "Lodging establishment offering overnight accommodation and breakfast.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gîte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cama y Desayuno"
+        }
+      ]
+    },
+    {
+      "code": "BLST",
+      "display": "Blasting",
+      "definition": "Use of explosives to break or remove rock, earth, or structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dynamitage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Voladura"
+        }
+      ]
+    },
+    {
+      "code": "BCRL",
+      "display": "Building Collapse, Relocation",
+      "definition": "History of structural failure or building being moved from original location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Effondrement ou Délocalisation d'Immeuble"
+        },
+        {
+          "language": "es-MX",
+          "value": "Colapso de Estructura, Relocalización"
+        }
+      ]
+    },
+    {
+      "code": "BRDL",
+      "display": "Boarding/Leasing",
+      "definition": "Temporary housing or leasing of animals, equipment, or space.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pension ou Location"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alojamiento/Alquiler"
+        }
+      ]
+    },
+    {
+      "code": "BRED",
+      "display": "Breeding",
+      "definition": "Raising animals for reproductive purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Élevage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cría"
+        }
+      ]
+    },
+    {
+      "code": "BRDG",
+      "display": "Bridges",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ponts"
+        },
+        {
+          "language": "es-MX",
+          "value": "Puentes"
+        }
+      ]
+    },
+    {
+      "code": "BLDZ",
+      "display": "Bulldozing",
+      "definition": "Earth-moving operations using heavy machinery.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nivellement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bulldozing"
+        }
+      ]
+    },
+    {
+      "code": "BPUR",
+      "display": "Business Pursuit",
+      "definition": "Commercial activities conducted on the premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Activité Commerciale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Actividad Comercial"
+        }
+      ]
+    },
+    {
+      "code": "BUTC",
+      "display": "Butchering",
+      "definition": "Slaughtering and processing of animals for meat.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Abattage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desolladura de Animales"
+        }
+      ]
+    },
+    {
+      "code": "CHS",
+      "display": "Cabinet/Handicraft Shop",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Atelier de Menuiserie ou d'Artisanat"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda de Carpintería/Artesanía"
+        }
+      ]
+    },
+    {
+      "code": "CAWO",
+      "display": "Caisson Work",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travail au Caisson"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajo de Cajón"
+        }
+      ]
+    },
+    {
+      "code": "CACA",
+      "display": "Camping / Campground",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camping ou Terrain de Camping"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camping/Campamento"
+        }
+      ]
+    },
+    {
+      "code": "CAR1",
+      "display": "Carpentry",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Menuiserie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carpintería"
+        }
+      ]
+    },
+    {
+      "code": "CFC",
+      "display": "Cattle Food Cake",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gâteau Alimentaire pour Bétail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alimento para Ganado en Pastel"
+        }
+      ]
+    },
+    {
+      "code": "CABB",
+      "display": "Chemicals (acid/benzine/benzol/kerosene/solvents/etc.)",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits Chimiques (acide, benzine, benzène, kérosène, solvants, etc.)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Químicos (ácido/bencina/bencol/queroseno/disolventes/etc.)"
+        }
+      ]
+    },
+    {
+      "code": "CHST",
+      "display": "Chemical Storage",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stockage de Produits Chimiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Almacenamiento de Químicos"
+        }
+      ]
+    },
+    {
+      "code": "CHEM",
+      "display": "Children Employees",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employés Enfants"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empleados Menores de Edad"
+        }
+      ]
+    },
+    {
+      "code": "COGA",
+      "display": "Compressed Gas(es)",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gaz Comprimé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gas(es) Comprimido(s)"
+        }
+      ]
+    },
+    {
+      "code": "CCCA",
+      "display": "Convalescent/Care Centres for Aged,Youth,Handicapped",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Centres de Soins pour Personnes Âgées, Jeunes, Personnes Handicapées"
+        },
+        {
+          "language": "es-MX",
+          "value": "Centros de Convalecencia/Cuidado para Ancianos, Jóvenes, Discapacitados"
+        }
+      ]
+    },
+    {
+      "code": "COFA",
+      "display": "Cooking Facilities",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Installations de Cuisine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instalaciones de Cocina"
+        }
+      ]
+    },
+    {
+      "code": "COO1",
+      "display": "Cooking",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cuisson"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cocina"
+        }
+      ]
+    },
+    {
+      "code": "Cotton",
+      "display": "Cotton",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Algodón"
+        }
+      ]
+    },
+    {
+      "code": "Cranes",
+      "display": "Cranes",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grues"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grúas"
+        }
+      ]
+    },
+    {
+      "code": "Creeks",
+      "display": "Creeks",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ruisseaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arroyos"
+        }
+      ]
+    },
+    {
+      "code": "CAI",
+      "display": "Custom Application Insecticides",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Insecticides d'Application Personnalisée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aplicación Personalizada de Insecticidas"
+        }
+      ]
+    },
+    {
+      "code": "CUAP",
+      "display": "Custom ApplicationHerbicides",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Herbicides d'Application Personnalisée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aplicación Personalizada de Herbicidas"
+        }
+      ]
+    },
+    {
+      "code": "CACF",
+      "display": "Custom Application of Chemicals, Fertilizers, etc.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Application Personnalisée de Produits Chimiques, Fertilisants, etc."
+        },
+        {
+          "language": "es-MX",
+          "value": "Aplicación Personalizada de Químicos, Fertilizantes, etc."
+        }
+      ]
+    },
+    {
+      "code": "CAP",
+      "display": "Custom Application Pesticides",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pesticides d'Application Personnalisée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aplicación Personalizada de Pesticidas"
+        }
+      ]
+    },
+    {
+      "code": "CCS",
+      "display": "Custom Corn Shelling",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Décorticage du Maïs Personnalisé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desgranamiento Personalizado de Maíz"
+        }
+      ]
+    },
+    {
+      "code": "CUFA",
+      "display": "Custom Farming",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agriculture Personnalisée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agricultura Personalizada"
+        }
+      ]
+    },
+    {
+      "code": "CUFE",
+      "display": "Custom Feeding",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Alimentation Personnalisée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alimentación Personalizada"
+        }
+      ]
+    },
+    {
+      "code": "CUS1",
+      "display": "CustomShelling",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Décorticage Personnalisé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desgranamiento Personalizado"
+        }
+      ]
+    },
+    {
+      "code": "CUSP",
+      "display": "Custom Spraying",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pulvérisation Personnalisée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fumigación Personalizada"
+        }
+      ]
+    },
+    {
+      "code": "CUWE",
+      "display": "Cutting/Welding",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Découpe et Soudage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corte/Soldadura"
+        }
+      ]
+    },
+    {
+      "code": "Dams",
+      "display": "Dams",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Barrages"
+        },
+        {
+          "language": "es-MX",
+          "value": "Represas"
+        }
+      ]
+    },
+    {
+      "code": "DABA",
+      "display": "Daycare/Babysitting",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garderie ou Gardiennage d'Enfants"
+        },
+        {
+          "language": "es-MX",
+          "value": "Guardería/Cuidado de Niños"
+        }
+      ]
+    },
+    {
+      "code": "DEWR",
+      "display": "Demolition or Wrecking",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Démolition ou Déconstruction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Demolición o Desmantelamiento"
+        }
+      ]
+    },
+    {
+      "code": "DESU",
+      "display": "Designated Substance",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Substance Désignée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sustancia Designada"
+        }
+      ]
+    },
+    {
+      "code": "Dog",
+      "display": "Dog/Dog Breeding",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chien ou Élevage de Chiens"
+        },
+        {
+          "language": "es-MX",
+          "value": "Perro/Cría de Perros"
+        }
+      ]
+    },
+    {
+      "code": "DWS",
+      "display": "Drugs (Wholesale stock)",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Drogues (Stock en Gros)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Drogas (stock mayorista)"
+        }
+      ]
+    },
+    {
+      "code": "EQMA",
+      "display": "Equipment Maintenance",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entretien des Équipements"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mantenimiento de Equipos"
+        }
+      ]
+    },
+    {
+      "code": "EQU1",
+      "display": "Equipment Use",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Utilisation des Équipements"
+        },
+        {
+          "language": "es-MX",
+          "value": "Uso de Equipos"
+        }
+      ]
+    },
+    {
+      "code": "ERE1",
+      "display": "Erection",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Érection"
+        },
+        {
+          "language": "es-MX",
+          "value": "Erección"
+        }
+      ]
+    },
+    {
+      "code": "EXC1",
+      "display": "Excavation",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Excavation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Excavación"
+        }
+      ]
+    },
+    {
+      "code": "EXCL",
+      "display": "Exercise Classes",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cours d'Exercice"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clases de Ejercicio"
+        }
+      ]
+    },
+    {
+      "code": "UEA",
+      "display": "Unusual/Exotic Animal(s)",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Animal Insolite ou Exotique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Animal(es) Inusual(es)/Exótico(s)"
+        }
+      ]
+    },
+    {
+      "code": "EXP1",
+      "display": "Exploration",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exploration"
+        },
+        {
+          "language": "es-MX",
+          "value": "Exploración"
+        }
+      ]
+    },
+    {
+      "code": "EDFE",
+      "display": "Explosives (Dynamite/Fireworks/etc.)",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Explosifs (Dynamite, Feux d'Artifice, etc.)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Explosivos (Dinamita/Fuegos Artificiales/etc.)"
+        }
+      ]
+    },
+    {
+      "code": "FEA1",
+      "display": "Feathers",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plumes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Plumas"
+        }
+      ]
+    },
+    {
+      "code": "Fibre",
+      "display": "Fibre",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fibre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fibra"
+        }
+      ]
+    },
+    {
+      "code": "Film",
+      "display": "Film",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Film"
+        },
+        {
+          "language": "es-MX",
+          "value": "Película"
+        }
+      ]
+    },
+    {
+      "code": "FIS1",
+      "display": "Fishing",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pêche"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pesca"
+        }
+      ]
+    },
+    {
+      "code": "FCL",
+      "display": "Flammable/Combustible Liquids",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liquides Inflammables ou Combustibles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Líquidos Inflamables/Combustibles"
+        }
+      ]
+    },
+    {
+      "code": "FBS",
+      "display": "Food or Beverage Services",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services Alimentaires ou de Boissons"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de Alimentos o Bebidas"
+        }
+      ]
+    },
+    {
+      "code": "FOOP",
+      "display": "Fruit Orchards Open to Public",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vergers Ouverts au Public"
+        },
+        {
+          "language": "es-MX",
+          "value": "Huertos Frutales Abiertos al Público"
+        }
+      ]
+    },
+    {
+      "code": "Gases",
+      "display": "Gases",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gaz"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gases"
+        }
+      ]
+    },
+    {
+      "code": "Glues",
+      "display": "Glues",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Colles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pegamentos"
+        }
+      ]
+    },
+    {
+      "code": "CATR",
+      "display": "Go Cart Tracks",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pistes de Voiturettes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pistas de Go Cart"
+        }
+      ]
+    },
+    {
+      "code": "GDR",
+      "display": "Golf Driving Ranges",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Champs de Pratique de Golf"
+        },
+        {
+          "language": "es-MX",
+          "value": "Campos de Práctica de Golf"
+        }
+      ]
+    },
+    {
+      "code": "GOV1",
+      "display": "Government",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gouvernement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gobierno"
+        }
+      ]
+    },
+    {
+      "code": "GRA1",
+      "display": "Grasses",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Herbes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pastos"
+        }
+      ]
+    },
+    {
+      "code": "GRPI",
+      "display": "Gravel Pit",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fosse de Gravier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cantera de Grava"
+        }
+      ]
+    },
+    {
+      "code": "Hair",
+      "display": "Hair",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cheveux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cabello"
+        }
+      ]
+    },
+    {
+      "code": "HACO",
+      "display": "Handball Courts",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courts de Handball"
+        },
+        {
+          "language": "es-MX",
+          "value": "Canchas de Handball"
+        }
+      ]
+    },
+    {
+      "code": "HAPO",
+      "display": "Harbours, Ports",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ports, Havres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Puertos, Puertos"
+        }
+      ]
+    },
+    {
+      "code": "HSR",
+      "display": "Hay/Sleigh Rides",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Traîneaux ou Promenades en Traîneau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paseos en Hay/Trineo"
+        }
+      ]
+    },
+    {
+      "code": "HOPU",
+      "display": "Horse Pulls",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Concours de Chevaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tirones de Caballos"
+        }
+      ]
+    },
+    {
+      "code": "HRA",
+      "display": "Horse Riding Arena",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Arène d'Équitation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arena para Montar a Caballo"
+        }
+      ]
+    },
+    {
+      "code": "HOTR",
+      "display": "Horse Track",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Piste de Courses de Chevaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pista de Carreras de Caballos"
+        }
+      ]
+    },
+    {
+      "code": "HHCS",
+      "display": "Hospital, Health Clinic, Social Services",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hôpital, Clinique de Santé, Services Sociaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hospital, Clínica de Salud, Servicios Sociales"
+        }
+      ]
+    },
+    {
+      "code": "HTR",
+      "display": "Hot Tar Roofing",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Couverture en Goudron Chaud"
+        },
+        {
+          "language": "es-MX",
+          "value": "Techado de Alquitrán Caliente"
+        }
+      ]
+    },
+    {
+      "code": "HUN1",
+      "display": "Hunting",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chasse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caza"
+        }
+      ]
+    },
+    {
+      "code": "IRS",
+      "display": "Incidental Retail/Service N.O.C.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente au Détail ou Service Incident N.C.A."
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta/Servicio Incidental SAI"
+        }
+      ]
+    },
+    {
+      "code": "Jute",
+      "display": "Jute",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Jute"
+        },
+        {
+          "language": "es-MX",
+          "value": "Yute"
+        }
+      ]
+    },
+    {
+      "code": "Kennel",
+      "display": "Kennel",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chenil"
+        },
+        {
+          "language": "es-MX",
+          "value": "Perrera"
+        }
+      ]
+    },
+    {
+      "code": "Land",
+      "display": "Land occupied by persons other than insured for commercial purposes",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrain occupé par des tiers à des fins commerciales"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terreno Ocupado por Personas Distintas al Asegurado para Propósitos Comerciales"
+        }
+      ]
+    },
+    {
+      "code": "LCBB",
+      "display": "Land Clearing, Brush Burning",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défrichage ou Brûlage de Broussailles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Limpieza de Terreno, Quema de Maleza"
+        }
+      ]
+    },
+    {
+      "code": "LAN1",
+      "display": "Landscaping",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Paysagisme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paisajismo"
+        }
+      ]
+    },
+    {
+      "code": "LABE",
+      "display": "Laser Beam",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Faisceau Laser"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rayo Láser"
+        }
+      ]
+    },
+    {
+      "code": "LES1",
+      "display": "Lessons",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cours"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lecciones"
+        }
+      ]
+    },
+    {
+      "code": "LPLN",
+      "display": "Liquified Petroleum or Liquified Natural Gas (LNG)",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pétrole Liquéfié ou Gaz Naturel Liquéfié (GNL)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gas Licuado de Petróleo o Gas Natural Licuado (GNL)"
+        }
+      ]
+    },
+    {
+      "code": "LIDE",
+      "display": "Livestock Dealers",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marchands de Bétail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comerciantes de Ganado"
+        }
+      ]
+    },
+    {
+      "code": "LISH",
+      "display": "Livestock Shows",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foires Agricoles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Exposiciones de Ganado"
+        }
+      ]
+    },
+    {
+      "code": "LOG1",
+      "display": "Logging",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exploitation Forestière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Explotación Forestal"
+        }
+      ]
+    },
+    {
+      "code": "EMBO",
+      "display": "Equipment/Machinery Borrowed from Others",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement/Machinerie Empruntés à Autrui"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipos/Maquinaria Tomada en Préstamo de Otros"
+        }
+      ]
+    },
+    {
+      "code": "EMLO",
+      "display": "Equipment/Machinery Loaned to Others",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement/Machinerie Prêtés à Autrui"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipos/Maquinaria Prestada a Otros"
+        }
+      ]
+    },
+    {
+      "code": "EMRO",
+      "display": "Equipment/Machinery Rented from Others",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement/Machinerie Loués à Autrui"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipos/Maquinaria Alquilada de Otros"
+        }
+      ]
+    },
+    {
+      "code": "EQUM",
+      "display": "Equipment/Machinery Rented to Others",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement/Machinerie Loués à Autrui"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipos/Maquinaria Alquilada a Otros"
+        }
+      ]
+    },
+    {
+      "code": "MAN1",
+      "display": "Manufacturing",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fabrication"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fabricación"
+        }
+      ]
+    },
+    {
+      "code": "MALA",
+      "display": "Manure Lagoons",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bassins à Fumier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lagunas de Estiércol"
+        }
+      ]
+    },
+    {
+      "code": "MED1",
+      "display": "Medical",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Médical"
+        },
+        {
+          "language": "es-MX",
+          "value": "Médico"
+        }
+      ]
+    },
+    {
+      "code": "MSR",
+      "display": "Milk Sales Retail",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente au Détail de Lait"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ventas de Leche al Detalle"
+        }
+      ]
+    },
+    {
+      "code": "MSW",
+      "display": "Milk Sales Wholesale",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente en Gros de Lait"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ventas de Leche al por Mayor"
+        }
+      ]
+    },
+    {
+      "code": "MITU",
+      "display": "Mine/Tunnel",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mines ou Tunnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mina/Túnel"
+        }
+      ]
+    },
+    {
+      "code": "MGC",
+      "display": "Miniature Golf Courses",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrains de Minigolf"
+        },
+        {
+          "language": "es-MX",
+          "value": "Campos de Golf en Miniatura"
+        }
+      ]
+    },
+    {
+      "code": "Mining",
+      "display": "Mining",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exploitation Minière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Minería"
+        }
+      ]
+    },
+    {
+      "code": "Mowing",
+      "display": "Mowing",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tonte de Gazon"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corte de Césped"
+        }
+      ]
+    },
+    {
+      "code": "MVTT",
+      "display": "Motorized Vehicle Track/Trail",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Piste ou Sentier de Véhicules Motorisés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pista/Sendero de Vehículos Motorizados"
+        }
+      ]
+    },
+    {
+      "code": "NAGA",
+      "display": "Natural Gas",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gaz Naturel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gas Natural"
+        }
+      ]
+    },
+    {
+      "code": "NBV",
+      "display": "New Business Venture",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nouvelle Entreprise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nueva Actividad Comercial"
+        }
+      ]
+    },
+    {
+      "code": "None",
+      "display": "None -no special hazards",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun - aucun danger particulier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno - sin peligros especiales"
+        }
+      ]
+    },
+    {
+      "code": "NUC1",
+      "display": "Nuclear",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nucléaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nuclear"
+        }
+      ]
+    },
+    {
+      "code": "Office",
+      "display": "Office",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Oficina"
+        }
+      ]
+    },
+    {
+      "code": "OIGA",
+      "display": "Oil and Gas",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pétrole et Gaz"
+        },
+        {
+          "language": "es-MX",
+          "value": "Petróleo y Gas"
+        }
+      ]
+    },
+    {
+      "code": "Other",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "ODS",
+      "display": "Ozone Depleting Substance",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Substance Appauvrissant la Couche d'Ozone"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sustancia Agotadora del Ozono"
+        }
+      ]
+    },
+    {
+      "code": "PCBs",
+      "display": "Polychlorinated Biphenyls (PCBs)",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Biphényles Polychlorés (BPC)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bifenilos Policlorados (PCB)"
+        }
+      ]
+    },
+    {
+      "code": "PIH",
+      "display": "Pesticides, Insecticides or Herbicides",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pesticides, Insecticides ou Herbicides"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pesticidas, Insecticidas o Herbicidas"
+        }
+      ]
+    },
+    {
+      "code": "PBCD",
+      "display": "Pet Breeding (cats, dogs, etc.)",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Élevage d'Animaux de Compagnie (chats, chiens, etc.)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cría de Mascotas (gatos, perros, etc.)"
+        }
+      ]
+    },
+    {
+      "code": "PEZO",
+      "display": "Petting Zoo",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Zoo de Caresses"
+        },
+        {
+          "language": "es-MX",
+          "value": "Granja de Mascotas"
+        }
+      ]
+    },
+    {
+      "code": "PYOF",
+      "display": "Pick Your Own (fruits &amp; vegetables)",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cueillette (fruits et légumes)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Recolecta Propia (frutas y vegetales)"
+        }
+      ]
+    },
+    {
+      "code": "PIGR",
+      "display": "Picnic Grounds",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrains de Pique-Nique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terrenos de Picnic"
+        }
+      ]
+    },
+    {
+      "code": "PIDR",
+      "display": "Pile Driving",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Battage de Pieux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pilotaje"
+        }
+      ]
+    },
+    {
+      "code": "PLA1",
+      "display": "Plastic",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plastique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Plástico"
+        }
+      ]
+    },
+    {
+      "code": "PLFO",
+      "display": "Plastic Foam",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mousse Plastique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Espuma de Plástico"
+        }
+      ]
+    },
+    {
+      "code": "PALS",
+      "display": "Pollution, Air, Liquid, Solid",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pollution de l'Air, Liquide ou Solide"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contaminación, Aire, Líquido, Sólido"
+        }
+      ]
+    },
+    {
+      "code": "Ponds",
+      "display": "Ponds",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Étangs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estanques"
+        }
+      ]
+    },
+    {
+      "code": "POMA",
+      "display": "Poor Maintenance",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mauvais Entretien"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mantenimiento Deficiente"
+        }
+      ]
+    },
+    {
+      "code": "PRST",
+      "display": "Private Storage",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stockage Privé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Almacenamiento Privado"
+        }
+      ]
+    },
+    {
+      "code": "PRFA",
+      "display": "Processing Facility",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Installation de Traitement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instalación de Procesamiento"
+        }
+      ]
+    },
+    {
+      "code": "PRO1",
+      "display": "Propane",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propane"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propano"
+        }
+      ]
+    },
+    {
+      "code": "PAS",
+      "display": "Public Access Swimming",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Baignade Publique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Natación de Acceso Público"
+        }
+      ]
+    },
+    {
+      "code": "Pulls",
+      "display": "Pulls",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Épreuves de Traction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tirones"
+        }
+      ]
+    },
+    {
+      "code": "RATR",
+      "display": "Race Track",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hippodrome"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pista de Carreras"
+        }
+      ]
+    },
+    {
+      "code": "RAMA",
+      "display": "Radioactive Material",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matières Radioactives"
+        },
+        {
+          "language": "es-MX",
+          "value": "Material Radiactivo"
+        }
+      ]
+    },
+    {
+      "code": "RARA",
+      "display": "Railroad, Railcars",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chemin de Fer, Wagons"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ferrocarril, Vagones"
+        }
+      ]
+    },
+    {
+      "code": "RMS",
+      "display": "Raising or Moving of Structures",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soulèvement ou Relocalisation de Structures"
+        },
+        {
+          "language": "es-MX",
+          "value": "Elevación o Movimiento de Estructuras"
+        }
+      ]
+    },
+    {
+      "code": "RSRS",
+      "display": "Refreshment Stands (not restaurants) - serving nonalcoholic beverages or food for consumption off premises",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Kiosques de Rafraîchissements (non restaurants) - servant des boissons non alcoolisées ou aliments pour consommation hors du local"
+        },
+        {
+          "language": "es-MX",
+          "value": "Puestos de Refrescos (no restaurantes) - sirviendo bebidas no alcohólicas o comida para consumo fuera del local"
+        }
+      ]
+    },
+    {
+      "code": "REST",
+      "display": "Refreshment Stands (not restaurants) - serving nonalcoholic beverages or food for consumption on premises",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Kiosques de Rafraîchissements (non restaurants) - servant des boissons non alcoolisées ou aliments pour consommation sur les lieux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Puestos de Refrescos (no restaurantes) - sirviendo bebidas no alcohólicas o comida para consumo en el local"
+        }
+      ]
+    },
+    {
+      "code": "REGA",
+      "display": "Rent-a-Garden",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Location de Jardin"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alquiler de Jardín"
+        }
+      ]
+    },
+    {
+      "code": "RLE",
+      "display": "Renting or Leasing of Equipment",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Location ou Leasing d'Équipement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alquiler o Arrendamiento de Equipos"
+        }
+      ]
+    },
+    {
+      "code": "MRIW",
+      "display": "Machinery Repair - including welding",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réparation de Machinerie - y compris soudage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reparación de Maquinaria - incluyendo soldadura"
+        }
+      ]
+    },
+    {
+      "code": "RIAR",
+      "display": "Riding Arena",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Arène d'Équitation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arena para Montar"
+        }
+      ]
+    },
+    {
+      "code": "RIG1",
+      "display": "Rigging",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gréement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rigging"
+        }
+      ]
+    },
+    {
+      "code": "River",
+      "display": "Rivers",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rivières"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ríos"
+        }
+      ]
+    },
+    {
+      "code": "RSM",
+      "display": "Roadside Stand/Market",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Kiosque Routier ou Marché"
+        },
+        {
+          "language": "es-MX",
+          "value": "Puesto de Carretera/Mercado"
+        }
+      ]
+    },
+    {
+      "code": "RSAP",
+      "display": "Rubber Solutions &amp; Products",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Solutions et Produits en Caoutchouc"
+        },
+        {
+          "language": "es-MX",
+          "value": "Soluciones y Productos de Caucho"
+        }
+      ]
+    },
+    {
+      "code": "SABA",
+      "display": "Sales Barn",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grange de Vente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Granero de Ventas"
+        }
+      ]
+    },
+    {
+      "code": "SPE",
+      "display": "Salesperson (ex. Products, etc.)",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vendeur (ex. Produits, etc.)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vendedor (ej. Productos, etc.)"
+        }
+      ]
+    },
+    {
+      "code": "SAW1",
+      "display": "Sawmills",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Scieries"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aserraderos"
+        }
+      ]
+    },
+    {
+      "code": "SCLE",
+      "display": "School/Lessons",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "École ou Cours"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escuela/Lecciones"
+        }
+      ]
+    },
+    {
+      "code": "SCCO",
+      "display": "School or College",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "École ou Collège"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escuela o Colegio"
+        }
+      ]
+    },
+    {
+      "code": "SCI1",
+      "display": "Scientific",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Scientifique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Científico"
+        }
+      ]
+    },
+    {
+      "code": "SEA1",
+      "display": "SeasonalWorkers",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travailleurs Saisonniers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajadores Temporales"
+        }
+      ]
+    },
+    {
+      "code": "SEPR",
+      "display": "Seed Processing",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Traitement des Semences"
+        },
+        {
+          "language": "es-MX",
+          "value": "Procesamiento de Semillas"
+        }
+      ]
+    },
+    {
+      "code": "SESA",
+      "display": "Seed Sales",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ventes de Semences"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ventas de Semillas"
+        }
+      ]
+    },
+    {
+      "code": "SEBA",
+      "display": "Sewer Back-up",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Refoulement d'Égouts"
+        },
+        {
+          "language": "es-MX",
+          "value": "Respaldo de Alcantarilla"
+        }
+      ]
+    },
+    {
+      "code": "SUS",
+      "display": "Sewing/Upholstery Shop",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Atelier de Couture ou Tapisserie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda de Costura/Tapicería"
+        }
+      ]
+    },
+    {
+      "code": "SHSH",
+      "display": "Shearing Sheep",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tonte de Moutons"
+        },
+        {
+          "language": "es-MX",
+          "value": "Esquila de Ovejas"
+        }
+      ]
+    },
+    {
+      "code": "SBC",
+      "display": "Shuffle Board Courts",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courts de Shuffleboard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Canchas de Shuffleboard"
+        }
+      ]
+    },
+    {
+      "code": "SHO1",
+      "display": "Shoring",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Étayage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Apuntalamiento"
+        }
+      ]
+    },
+    {
+      "code": "SHAN",
+      "display": "Show Animal(s)",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Animal d'Exposition"
+        },
+        {
+          "language": "es-MX",
+          "value": "Animal(es) de Espectáculo"
+        }
+      ]
+    },
+    {
+      "code": "STS",
+      "display": "Skeet or Trap Shooting",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tir aux Plateaux ou au Pigeon"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tiro de Skeet o Trampa"
+        }
+      ]
+    },
+    {
+      "code": "SER",
+      "display": "Small engine repair",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réparation de Petits Moteurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reparación de Motores Pequeños"
+        }
+      ]
+    },
+    {
+      "code": "SMO1",
+      "display": "Smoking",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tabagisme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fumar"
+        }
+      ]
+    },
+    {
+      "code": "SNRE",
+      "display": "Snow Removal",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Enlèvement de Neige"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remoción de Nieve"
+        }
+      ]
+    },
+    {
+      "code": "SDPV",
+      "display": "Solvents,Degreasers,Paint or Volatile Organic Compounds",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Solvants, Dégraissants, Peintures ou Composés Organiques Volatiles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Disolventes, Desengrasantes, Pintura o Compuestos Orgánicos Volátiles"
+        }
+      ]
+    },
+    {
+      "code": "SISC",
+      "display": "Spraying, Including Spraying of Chemicals",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pulvérisation, y Compris Pulvérisation de Produits Chimiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fumigación, Incluyendo Fumigación de Químicos"
+        }
+      ]
+    },
+    {
+      "code": "SPPA",
+      "display": "Spray Painting",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Peinture au Pistolet"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pintura por Pulverización"
+        }
+      ]
+    },
+    {
+      "code": "Stable",
+      "display": "Stables",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Écuries"
+        },
+        {
+          "language": "es-MX",
+          "value": "Establos"
+        }
+      ]
+    },
+    {
+      "code": "Straw",
+      "display": "Straw",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Paille"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paja"
+        }
+      ]
+    },
+    {
+      "code": "Studio",
+      "display": "Studio",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Studio"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estudio"
+        }
+      ]
+    },
+    {
+      "code": "SWI1",
+      "display": "Swimming",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Natation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Natación"
+        }
+      ]
+    },
+    {
+      "code": "SSME",
+      "display": "Syrup Sales (maple, etc.)",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ventes de Sirop (érable, etc.)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ventas de Jarabe (maple, etc.)"
+        }
+      ]
+    },
+    {
+      "code": "TECO",
+      "display": "Tennis Courts",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courts de Tennis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Canchas de Tenis"
+        }
+      ]
+    },
+    {
+      "code": "TEEQ",
+      "display": "Testing of Equipment",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Test d'Équipement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Prueba de Equipos"
+        }
+      ]
+    },
+    {
+      "code": "Tires",
+      "display": "Tires",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pneus"
+        },
+        {
+          "language": "es-MX",
+          "value": "Neumáticos"
+        }
+      ]
+    },
+    {
+      "code": "TNCS",
+      "display": "Tractor Use (non-commercial for snow removal, plowing gardens, etc. including use of attachments)",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Utilisation de Tracteur (non commercial pour enlèvement de neige, labour de jardins, etc. y compris usage d'accessoires)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Uso de Tractor (no comercial para remoción de nieve, arado de jardines, etc. incluyendo uso de accesorios)"
+        }
+      ]
+    },
+    {
+      "code": "TRTR",
+      "display": "Tracks/trails",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sentiers ou Pistes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pistas/senderos"
+        }
+      ]
+    },
+    {
+      "code": "TRRI",
+      "display": "Trail Rides",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promenades Équestres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paseos en Sendero"
+        }
+      ]
+    },
+    {
+      "code": "Trails",
+      "display": "Trails",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sentiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Senderos"
+        }
+      ]
+    },
+    {
+      "code": "TUN1",
+      "display": "Tunnelling",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tunnelage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tunelización"
+        }
+      ]
+    },
+    {
+      "code": "URFO",
+      "display": "Urea-formaldehyde",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Urée-Formaldéhyde"
+        },
+        {
+          "language": "es-MX",
+          "value": "Urea-Formaldehído"
+        }
+      ]
+    },
+    {
+      "code": "UNHA",
+      "display": "Underground Hazard",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Danger Souterrain"
+        },
+        {
+          "language": "es-MX",
+          "value": "Peligro Subterráneo"
+        }
+      ]
+    },
+    {
+      "code": "UND1",
+      "display": "Underpinning",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous-fondation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cimentación Adicional"
+        }
+      ]
+    },
+    {
+      "code": "UNK1",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "VAC1",
+      "display": "Vacancy",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inoccupation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vacancia"
+        }
+      ]
+    },
+    {
+      "code": "VFDR",
+      "display": "Vacation Farm (Dude Ranch)",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ferme Vacances (Dude Ranch)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Granja Vacacionales (Dude Ranch)"
+        }
+      ]
+    },
+    {
+      "code": "VBS",
+      "display": "Vehicle/Boat Storage",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreposage de Véhicules ou Bateaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Almacenamiento de Vehículos/Botes"
+        }
+      ]
+    },
+    {
+      "code": "VUL1",
+      "display": "Vulcanizing",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vulcanisation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vulcanización"
+        }
+      ]
+    },
+    {
+      "code": "WAK",
+      "display": "Waste of all Kind",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déchets de Toute Sorte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Residuos de Todo Tipo"
+        }
+      ]
+    },
+    {
+      "code": "WESU",
+      "display": "Weakening of Supports",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Affaiblissement des Appuis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Debilitamiento de Soportes"
+        }
+      ]
+    },
+    {
+      "code": "WEL1",
+      "display": "Welding",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soudage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Soldadura"
+        }
+      ]
+    },
+    {
+      "code": "WHTR",
+      "display": "Wholesale Trade",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commerce de Gros"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comercio al por Mayor"
+        }
+      ]
+    },
+    {
+      "code": "WMSS",
+      "display": "Wood/Maple Syrup Sales",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ventes de Bois ou de Sirop d'Érable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ventas de Madera/Jarabe de Arce"
+        }
+      ]
+    },
+    {
+      "code": "Wood",
+      "display": "Wood",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Madera"
+        }
+      ]
+    },
+    {
+      "code": "WOO1",
+      "display": "Woodworker",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Menuisier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ebanista"
+        }
+      ]
+    },
+    {
+      "code": "CTS",
+      "display": "Christmas Tree Sales",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ventes de Sapins de Noël"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ventas de Árbol de Navidad"
+        }
+      ]
+    },
+    {
+      "code": "C1",
+      "display": "Public Roads",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Routes Publiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vías Públicas"
+        }
+      ]
+    },
+    {
+      "code": "C2",
+      "display": "Unloaded Trailer",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque Vide"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque Descargado"
+        }
+      ]
+    },
+    {
+      "code": "C3",
+      "display": "Loaded Trailer",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque Chargée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque Cargado"
+        }
+      ]
+    },
+    {
+      "code": "C4",
+      "display": "Mechanical Work",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travail Mécanique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajo Mecánico"
+        }
+      ]
+    },
+    {
+      "code": "C5",
+      "display": "Body Work",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travail de Carrosserie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajo de Carrocería"
+        }
+      ]
+    },
+    {
+      "code": "C6",
+      "display": "Towing Operations",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Opérations de Remorquage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Operaciones de Remolque"
+        }
+      ]
+    },
+    {
+      "code": "C7",
+      "display": "Installation",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Installation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instalación"
+        }
+      ]
+    },
+    {
+      "code": "C8",
+      "display": "Gasoline",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Essence"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gasolina"
+        }
+      ]
+    },
+    {
+      "code": "C9",
+      "display": "Food",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aliments"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alimento"
+        }
+      ]
+    },
+    {
+      "code": "C10",
+      "display": "Deliveries",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Livraisons"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entregas"
+        }
+      ]
+    },
+    {
+      "code": "C11",
+      "display": "Catering",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Restauration"
+        },
+        {
+          "language": "es-MX",
+          "value": "Catering"
+        }
+      ]
+    },
+    {
+      "code": "C12",
+      "display": "Private Roads",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Routes Privées"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vías Privadas"
+        }
+      ]
+    },
+    {
+      "code": "C13",
+      "display": "Off Premises Operations",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Opérations Hors des Locaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Operaciones Fuera de Lugar"
+        }
+      ]
+    },
+    {
+      "code": "C14",
+      "display": "Elevators",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ascenseurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ascensores"
+        }
+      ]
+    },
+    {
+      "code": "C15",
+      "display": "Private and Public roads",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Routes Privées et Publiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vías Privadas y Públicas"
+        }
+      ]
+    },
+    {
+      "code": "SWP",
+      "display": "Swimming or Wading Pool",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Piscine ou Piscine de Barbotage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Piscina de Natación o Vadeo"
+        }
+      ]
+    },
+    {
+      "code": "sauna",
+      "display": "Sauna",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sauna"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sauna"
+        }
+      ]
+    },
+    {
+      "code": "GAC",
+      "display": "Gym or Activity Centre",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gymnase ou Centre d'Activités"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gimnasio o Centro de Actividad"
+        }
+      ]
+    },
+    {
+      "code": "AMRI",
+      "display": "Amusement Rides",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Manèges"
+        },
+        {
+          "language": "es-MX",
+          "value": "Atracciones de Diversión"
+        }
+      ]
+    },
+    {
+      "code": "OSG",
+      "display": "Outdoor Stadia or Grandstand",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stades Ouverts ou Gradins"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estadio Exterior o Graderío"
+        }
+      ]
+    },
+    {
+      "code": "SPFI",
+      "display": "Sports Field",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrain de Sport"
+        },
+        {
+          "language": "es-MX",
+          "value": "Campo de Deportes"
+        }
+      ]
+    },
+    {
+      "code": "ANI1",
+      "display": "Animals",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Animaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Animales"
+        }
+      ]
+    },
+    {
+      "code": "WHJT",
+      "display": "Whirlpool/Hydro-jetted Tub or Pool",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bain à Remous ou Piscine à Hydromassage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tina de Remolino/Piscina con Agua a Presión"
+        }
+      ]
+    },
+    {
+      "code": "HOTU",
+      "display": "Hot Tub",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Baignoire Chaude"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tina Caliente"
+        }
+      ]
+    },
+    {
+      "code": "PALO",
+      "display": "Parking Lot",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stationnement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estacionamiento"
+        }
+      ]
+    },
+    {
+      "code": "DRI1",
+      "display": "Driveways",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Allées d'Accès"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caminos de Entrada"
+        }
+      ]
+    },
+    {
+      "code": "LAN2",
+      "display": "Laneways",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ruelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Callejones"
+        }
+      ]
+    },
+    {
+      "code": "TPFD",
+      "display": "Third Party Fire Damage",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommages Causés par Incendie de Tiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Daño por Incendio de Terceros"
+        }
+      ]
+    },
+    {
+      "code": "WECU",
+      "display": "Welding / Cutting",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soudage ou Découpe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Soldadura/Corte"
+        }
+      ]
+    },
+    {
+      "code": "TOB1",
+      "display": "Tobacco",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tabac"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tabaco"
+        }
+      ]
+    },
+    {
+      "code": "FLLI",
+      "display": "Flammable Liquids",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liquides Inflammables"
+        },
+        {
+          "language": "es-MX",
+          "value": "Líquidos Inflamables"
+        }
+      ]
+    },
+    {
+      "code": "COO2",
+      "display": "Cooking",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cuisson"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cocina"
+        }
+      ]
+    },
+    {
+      "code": "FIR1",
+      "display": "Fireworks",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Feux d'Artifice"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fuegos Artificiales"
+        }
+      ]
+    },
+    {
+      "code": "SPRP",
+      "display": "Spray Painting",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Peinture au Pistolet"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pintura por Pulverización"
+        }
+      ]
+    },
+    {
+      "code": "WOO2",
+      "display": "Woodworking",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travail du Bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carpintería"
+        }
+      ]
+    },
+    {
+      "code": "DFF",
+      "display": "Deep Fat Frying",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Friture en Friteuse Profonde"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fritura en Grasa Profunda"
+        }
+      ]
+    },
+    {
+      "code": "LIEN",
+      "display": "Live Entertainment",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Divertissement en Direct"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entretenimiento en Vivo"
+        }
+      ]
+    },
+    {
+      "code": "PLA2",
+      "display": "Playground",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cour de Récréation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Zona de Juegos"
+        }
+      ]
+    },
+    {
+      "code": "REFA",
+      "display": "Recreational Facilities",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Installations Récréatives"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instalaciones Recreativas"
+        }
+      ]
+    },
+    {
+      "code": "PYR1",
+      "display": "Pyrotechnics",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pyrotechnie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pirotecnia"
+        }
+      ]
+    },
+    {
+      "code": "none",
+      "display": "None",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

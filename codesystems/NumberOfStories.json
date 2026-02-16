@@ -1,0 +1,236 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "NumberOfStories",
+  "url": "https://bind.codes/NumberOfStories",
+  "name": "NumberOfStories",
+  "title": "Number Of Stories",
+  "status": "draft",
+  "language": "en",
+  "description": "Number Of Stories codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ST10",
+      "display": "1 Storey",
+      "definition": "A building with a single above-ground level.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "1 étage"
+        },
+        {
+          "language": "es-MX",
+          "value": "1 piso"
+        }
+      ]
+    },
+    {
+      "code": "ST15",
+      "display": "1.5 Storeys",
+      "definition": "A building with one full storey and a partial upper level, typically with sloped ceilings or dormers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "1,5 étage"
+        },
+        {
+          "language": "es-MX",
+          "value": "1,5 pisos"
+        }
+      ]
+    },
+    {
+      "code": "ST20",
+      "display": "2 Storeys",
+      "definition": "A building with two full above-ground levels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "2 étages"
+        },
+        {
+          "language": "es-MX",
+          "value": "2 pisos"
+        }
+      ]
+    },
+    {
+      "code": "ST25",
+      "display": "2.5 Storeys",
+      "definition": "A building with two full storeys and a partial third level, typically with sloped ceilings or dormers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "2,5 étages"
+        },
+        {
+          "language": "es-MX",
+          "value": "2,5 pisos"
+        }
+      ]
+    },
+    {
+      "code": "ST30",
+      "display": "3 Storeys",
+      "definition": "A building with three full above-ground levels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "3 étages"
+        },
+        {
+          "language": "es-MX",
+          "value": "3 pisos"
+        }
+      ]
+    },
+    {
+      "code": "ST35",
+      "display": "3.5 Storeys",
+      "definition": "A building with three full storeys and a partial fourth level, typically with sloped ceilings or dormers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "3,5 étages"
+        },
+        {
+          "language": "es-MX",
+          "value": "3,5 pisos"
+        }
+      ]
+    },
+    {
+      "code": "BILV",
+      "display": "Bi-level",
+      "definition": "A dwelling design where the main entrance opens to a landing between two levels, with a short flight of stairs leading up or down.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À paliers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Binivel"
+        }
+      ]
+    },
+    {
+      "code": "TRLV",
+      "display": "Tri-level",
+      "definition": "A dwelling design with three distinct levels, typically staggered with half-flights of stairs connecting them.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À trois paliers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trinivel"
+        }
+      ]
+    },
+    {
+      "code": "DPLX",
+      "display": "Duplex",
+      "definition": "A residential building divided into two separate dwelling units, either side-by-side or stacked.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Duplex"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dúplex"
+        }
+      ]
+    },
+    {
+      "code": "TRPX",
+      "display": "Triplex",
+      "definition": "A residential building divided into three separate dwelling units.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Triplex"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tríplex"
+        }
+      ]
+    },
+    {
+      "code": "SDTC",
+      "display": "Semi-detached",
+      "definition": "A dwelling that shares one common wall with an adjacent unit but is otherwise detached from other structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maison jumelée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Semiadosada"
+        }
+      ]
+    },
+    {
+      "code": "RWER",
+      "display": "Row Housing End Unit",
+      "definition": "A dwelling unit located at the end of a row of attached housing, sharing one common wall with a neighboring unit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maison en rangée en bout"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casa en hilera extrema"
+        }
+      ]
+    },
+    {
+      "code": "RWIN",
+      "display": "Row Housing Interior Unit",
+      "definition": "A dwelling unit located in the middle of a row of attached housing, sharing two common walls with neighboring units.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maison en rangée intérieure"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casa en hilera interior"
+        }
+      ]
+    },
+    {
+      "code": "HIRS",
+      "display": "High Rise",
+      "definition": "A multi-storey building typically exceeding six floors, often with elevator access.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tour d'habitation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Edificio alto"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

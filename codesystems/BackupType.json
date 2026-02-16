@@ -1,0 +1,102 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BackupType",
+  "url": "https://bind.codes/BackupType",
+  "name": "BackupType",
+  "title": "Backup Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Backup Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CLOD",
+      "display": "Cloud",
+      "definition": "Data backups stored on third-party cloud infrastructure accessible via internet.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infonuagique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nube"
+        }
+      ]
+    },
+    {
+      "code": "OFFS",
+      "display": "Offsite",
+      "definition": "Data backups stored at a physical location separate from the primary data center.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors site"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fuera del sitio"
+        }
+      ]
+    },
+    {
+      "code": "ONST",
+      "display": "Onsite",
+      "definition": "Data backups stored at the same physical location as the primary data center.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sur place"
+        },
+        {
+          "language": "es-MX",
+          "value": "En el sitio"
+        }
+      ]
+    },
+    {
+      "code": "HYBR",
+      "display": "Hybrid",
+      "definition": "Data backups using a combination of onsite, offsite, and cloud storage locations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hybride"
+        },
+        {
+          "language": "es-MX",
+          "value": "Híbrido"
+        }
+      ]
+    },
+    {
+      "code": "TAPE",
+      "display": "Tape",
+      "definition": "Data backups stored on magnetic tape media.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bande magnétique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cinta"
+        }
+      ]
+    },
+    {
+      "code": "DISK",
+      "display": "Disk",
+      "definition": "Data backups stored on disk-based storage systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Disque"
+        },
+        {
+          "language": "es-MX",
+          "value": "Disco"
+        }
+      ]
+    }
+  ]
+}

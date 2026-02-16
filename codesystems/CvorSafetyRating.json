@@ -1,0 +1,87 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CvorSafetyRating",
+  "url": "https://bind.codes/CvorSafetyRating",
+  "name": "CvorSafetyRating",
+  "title": "CVOR Safety Rating",
+  "status": "draft",
+  "language": "en",
+  "description": "Commercial Vehicle Operator Registration (CVOR) safety rating classifications used in Ontario.",
+  "concept": [
+    {
+      "code": "CA:EXCE",
+      "display": "Excellent",
+      "definition": "The highest safety rating indicating superior compliance with commercial vehicle safety standards and regulations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Excellente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Excelente"
+        }
+      ]
+    },
+    {
+      "code": "CA:SATI",
+      "display": "Satisfactory",
+      "definition": "An acceptable safety rating indicating compliance with commercial vehicle safety standards based on a completed audit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Satisfaisante"
+        },
+        {
+          "language": "es-MX",
+          "value": "Satisfactoria"
+        }
+      ]
+    },
+    {
+      "code": "CA:SATU",
+      "display": "Satisfactory-Unaudited",
+      "definition": "An acceptable safety rating assigned without a formal audit, typically for operators with limited road history or newly registered carriers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Satisfaisante, sans vérification"
+        },
+        {
+          "language": "es-MX",
+          "value": "Satisfactoria sin auditoría"
+        }
+      ]
+    },
+    {
+      "code": "CA:COND",
+      "display": "Conditional",
+      "definition": "A safety rating indicating that specific conditions or corrective actions must be met to maintain operating authority.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conditionnelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Condicional"
+        }
+      ]
+    },
+    {
+      "code": "CA:UNSA",
+      "display": "Unsatisfactory",
+      "definition": "A safety rating indicating serious non-compliance with commercial vehicle safety standards, potentially leading to operating restrictions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Insatisfaisante"
+        },
+        {
+          "language": "es-MX",
+          "value": "Insatisfactoria"
+        }
+      ]
+    }
+  ]
+}

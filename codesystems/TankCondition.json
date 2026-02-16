@@ -1,0 +1,207 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TankCondition",
+  "url": "https://bind.codes/TankCondition",
+  "name": "TankCondition",
+  "title": "Tank Condition",
+  "status": "draft",
+  "language": "en",
+  "description": "Tank Condition codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CORS",
+      "display": "Corrosion",
+      "definition": "Degradation of metal surfaces due to chemical or electrochemical reactions with the environment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Corrosion"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corrosión"
+        }
+      ]
+    },
+    {
+      "code": "DENT",
+      "display": "Dents",
+      "definition": "Physical depressions or deformations in the tank surface caused by impact or pressure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bosses"
+        },
+        {
+          "language": "es-MX",
+          "value": "Abolladuras"
+        }
+      ]
+    },
+    {
+      "code": "DRIP",
+      "display": "Drips",
+      "definition": "Slow, intermittent drops of liquid falling from tank fittings, seams, or surfaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ruisselement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Goteos"
+        }
+      ]
+    },
+    {
+      "code": "FUME",
+      "display": "Fumes",
+      "definition": "Visible vapors or gaseous emissions emanating from the tank or its components.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fumées"
+        },
+        {
+          "language": "es-MX",
+          "value": "Humos"
+        }
+      ]
+    },
+    {
+      "code": "LEAK",
+      "display": "Leaks",
+      "definition": "Active escape of liquid or gas through holes, cracks, or faulty seals in the tank structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fuites"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fugas"
+        }
+      ]
+    },
+    {
+      "code": "ODOR",
+      "display": "Odours",
+      "definition": "Detectable smells indicating potential fuel or chemical release from the tank system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Odeurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Olores"
+        }
+      ]
+    },
+    {
+      "code": "RUST",
+      "display": "Rust",
+      "definition": "Oxidation of iron or steel surfaces resulting in reddish-brown flaking material.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rouille"
+        },
+        {
+          "language": "es-MX",
+          "value": "Óxido"
+        }
+      ]
+    },
+    {
+      "code": "SPIL",
+      "display": "Spills",
+      "definition": "Uncontrolled release of liquid contents onto surfaces around or beneath the tank.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déversements"
+        },
+        {
+          "language": "es-MX",
+          "value": "Derrames"
+        }
+      ]
+    },
+    {
+      "code": "WEEP",
+      "display": "Weeping",
+      "definition": "Slow seepage of liquid through porous areas or hairline cracks in the tank material.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Écoulement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Exudación"
+        }
+      ]
+    },
+    {
+      "code": "WETS",
+      "display": "Wet Spots",
+      "definition": "Areas of visible moisture accumulation on tank surfaces indicating potential seepage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Taches Humides"
+        },
+        {
+          "language": "es-MX",
+          "value": "Manchas Húmedas"
+        }
+      ]
+    },
+    {
+      "code": "BLST",
+      "display": "Blistering",
+      "definition": "Bubbling or raised areas on the tank surface caused by trapped moisture or coating failure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cloquage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ampollas"
+        }
+      ]
+    },
+    {
+      "code": "STAI",
+      "display": "Staining",
+      "definition": "Discoloration on tank surfaces or surrounding areas from leaked fluids or environmental exposure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Taches"
+        },
+        {
+          "language": "es-MX",
+          "value": "Manchas"
+        }
+      ]
+    },
+    {
+      "code": "CRKN",
+      "display": "Cracking",
+      "definition": "Linear fractures or splits in the tank material or protective coating.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fissuration"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agrietamiento"
+        }
+      ]
+    }
+  ]
+}

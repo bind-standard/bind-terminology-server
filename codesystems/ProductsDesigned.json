@@ -1,0 +1,72 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ProductsDesigned",
+  "url": "https://bind.codes/ProductsDesigned",
+  "name": "ProductsDesigned",
+  "title": "Products Designed",
+  "status": "draft",
+  "language": "en",
+  "description": "Products Designed codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CSPC",
+      "display": "To the customer's specifications",
+      "definition": "Products manufactured according to specifications provided by the customer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Selon les spécifications du client"
+        },
+        {
+          "language": "es-MX",
+          "value": "Según las especificaciones del cliente"
+        }
+      ]
+    },
+    {
+      "code": "OCDS",
+      "display": "Made to an outside consultant's design",
+      "definition": "Products manufactured based on designs created by an external consultant.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fait selon le design d'un consultant externe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hecho según el diseño de un consultor externo"
+        }
+      ]
+    },
+    {
+      "code": "INSD",
+      "display": "By the insured",
+      "definition": "Products designed by the insured party themselves.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par l'assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por el asegurado"
+        }
+      ]
+    },
+    {
+      "code": "STDS",
+      "display": "Standard/stock design",
+      "definition": "Products manufactured using established, off-the-shelf designs without customization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Design standard/de stock"
+        },
+        {
+          "language": "es-MX",
+          "value": "Diseño estándar/de stock"
+        }
+      ]
+    }
+  ]
+}

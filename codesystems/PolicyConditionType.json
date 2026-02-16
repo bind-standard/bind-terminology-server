@@ -1,0 +1,57 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "PolicyConditionType",
+  "url": "https://bind.codes/PolicyConditionType",
+  "name": "PolicyConditionType",
+  "title": "Policy Condition Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Types of conditions, warranties, and requirements attached to a policy.",
+  "concept": [
+    {
+      "code": "WRNT",
+      "display": "Warranty",
+      "definition": "A statement of fact or promise by the insured that must remain true throughout the policy period.",
+      "designation": [
+        { "language": "fr-CA", "value": "Garantie" },
+        { "language": "es-MX", "value": "Garantía" }
+      ]
+    },
+    {
+      "code": "PSGD",
+      "display": "Protective Safeguard",
+      "definition": "A requirement that specific safety equipment (sprinklers, alarms, etc.) be maintained as a condition of coverage.",
+      "designation": [
+        { "language": "fr-CA", "value": "Dispositif de protection" },
+        { "language": "es-MX", "value": "Salvaguarda protectora" }
+      ]
+    },
+    {
+      "code": "COND",
+      "display": "Condition",
+      "definition": "A general obligation the insured must fulfill for coverage to apply, such as prompt notice of loss.",
+      "designation": [
+        { "language": "fr-CA", "value": "Condition" },
+        { "language": "es-MX", "value": "Condición" }
+      ]
+    },
+    {
+      "code": "CPRD",
+      "display": "Condition Precedent",
+      "definition": "A condition that must be satisfied before the carrier's obligation to pay arises.",
+      "designation": [
+        { "language": "fr-CA", "value": "Condition préalable" },
+        { "language": "es-MX", "value": "Condición precedente" }
+      ]
+    },
+    {
+      "code": "REPR",
+      "display": "Representation",
+      "definition": "A statement made by the insured during the application process that the carrier relies upon in issuing the policy.",
+      "designation": [
+        { "language": "fr-CA", "value": "Déclaration" },
+        { "language": "es-MX", "value": "Declaración" }
+      ]
+    }
+  ]
+}

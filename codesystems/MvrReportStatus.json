@@ -1,0 +1,87 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "MvrReportStatus",
+  "url": "https://bind.codes/MvrReportStatus",
+  "name": "MvrReportStatus",
+  "title": "Mvr Report Status",
+  "status": "draft",
+  "language": "en",
+  "description": "Mvr Report Status codes for insurance operations.",
+  "concept": [
+    {
+      "code": "NORD",
+      "display": "Not Ordered",
+      "definition": "The Motor Vehicle Report has not yet been requested from the relevant authority.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non commandé"
+        },
+        {
+          "language": "es-MX",
+          "value": "No ordenado"
+        }
+      ]
+    },
+    {
+      "code": "ORDR",
+      "display": "Ordered",
+      "definition": "The Motor Vehicle Report has been requested but not yet received.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commandé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ordenado"
+        }
+      ]
+    },
+    {
+      "code": "RCVD",
+      "display": "Received",
+      "definition": "The Motor Vehicle Report has been received from the relevant authority.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Reçu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Recibido"
+        }
+      ]
+    },
+    {
+      "code": "PEND",
+      "display": "Pending",
+      "definition": "The Motor Vehicle Report request is awaiting processing by the relevant authority.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En attente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pendiente"
+        }
+      ]
+    },
+    {
+      "code": "FAIL",
+      "display": "Failed",
+      "definition": "The Motor Vehicle Report request could not be completed due to an error or unavailability.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Échec"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fallido"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "YearIdentifier",
+  "url": "https://bind.codes/YearIdentifier",
+  "name": "YearIdentifier",
+  "title": "Year Identifier",
+  "status": "draft",
+  "language": "en",
+  "description": "Year Identifier codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CURR",
+      "display": "Current Year",
+      "definition": "The current calendar or fiscal year.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exercice courant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Año actual"
+        }
+      ]
+    },
+    {
+      "code": "PREV",
+      "display": "Previous Year",
+      "definition": "The calendar or fiscal year immediately preceding the current year.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Année précédente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Año anterior"
+        }
+      ]
+    },
+    {
+      "code": "P12M",
+      "display": "Past 12 Months",
+      "definition": "A rolling 12-month period ending on the current date.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "12 derniers mois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Últimos 12 meses"
+        }
+      ]
+    },
+    {
+      "code": "NEXT",
+      "display": "Next Year",
+      "definition": "The calendar or fiscal year immediately following the current year.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Année prochaine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Próximo año"
+        }
+      ]
+    },
+    {
+      "code": "N12M",
+      "display": "Next 12 Months",
+      "definition": "A rolling 12-month period starting from the current date.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Prochains 12 mois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Próximos 12 meses"
+        }
+      ]
+    },
+    {
+      "code": "P2Y",
+      "display": "Two Years Ago",
+      "definition": "The calendar or fiscal year two years prior to the current year.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Il y a 2 ans"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hace 2 años"
+        }
+      ]
+    },
+    {
+      "code": "P3Y",
+      "display": "Three Years Ago",
+      "definition": "The calendar or fiscal year three years prior to the current year.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Il y a 3 ans"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hace 3 años"
+        }
+      ]
+    },
+    {
+      "code": "P4Y",
+      "display": "Four Years Ago",
+      "definition": "The calendar or fiscal year four years prior to the current year.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Il y a 4 ans"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hace 4 años"
+        }
+      ]
+    },
+    {
+      "code": "P5Y",
+      "display": "Five Years Ago",
+      "definition": "The calendar or fiscal year five years prior to the current year.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Il y a 5 ans"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hace 5 años"
+        }
+      ]
+    }
+  ]
+}

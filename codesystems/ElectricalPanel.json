@@ -1,0 +1,100 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ElectricalPanel",
+  "url": "https://bind.codes/ElectricalPanel",
+  "name": "ElectricalPanel",
+  "title": "Electrical Panel",
+  "status": "draft",
+  "language": "en",
+  "description": "Electrical Panel codes for insurance operations.",
+  "concept": [
+    {
+      "code": "BRKR",
+      "display": "Breakers",
+      "definition": "Circuit breakers that automatically interrupt electrical current when overload or fault conditions occur.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Disjoncteurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Interruptores automáticos"
+        }
+      ]
+    },
+    {
+      "code": "FUSE",
+      "display": "Fuses",
+      "definition": "One-time protective devices containing a metal wire or strip that melts when current exceeds a safe level.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fusibles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fusibles"
+        }
+      ]
+    },
+    {
+      "code": "HYBR",
+      "display": "Breakers and Fuses",
+      "definition": "Electrical panel containing both circuit breakers and fuses for overcurrent protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Disjoncteurs et fusibles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Interruptores y fusibles"
+        }
+      ]
+    },
+    {
+      "code": "KNOB",
+      "display": "Knob and Tube",
+      "definition": "Outdated electrical wiring method using ceramic knobs and tubes for insulation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boutons et tubes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Perilla y tubo"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    }
+  ]
+}

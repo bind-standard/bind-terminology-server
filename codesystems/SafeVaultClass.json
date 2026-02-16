@@ -1,0 +1,266 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "SafeVaultClass",
+  "url": "https://bind.codes/SafeVaultClass",
+  "name": "SafeVaultClass",
+  "title": "Safe Vault Class",
+  "status": "draft",
+  "language": "en",
+  "description": "Safe Vault Class codes for insurance operations.",
+  "concept": [
+    {
+      "code": "SC01",
+      "display": "Class 1 - body: Iron or Steel with any thickness, door: Iron or Steel with any thickness, including a Combination lock",
+      "definition": "Safe with body constructed of iron or steel of any thickness, door of iron or steel of any thickness, equipped with a combination lock. Provides basic security against unauthorized access.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe 1 - corps: Fer ou acier toute épaisseur, porte: Fer ou acier toute épaisseur, incluant une serrure à combinaison"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clase 1 - cuerpo: Hierro o acero de cualquier espesor, puerta: Hierro o acero de cualquier espesor, incluyendo una cerradura de combinación"
+        }
+      ]
+    },
+    {
+      "code": "SC02",
+      "display": "Class 2 - body: Steel with 1\" thickness, door: Steel with 1 ½\" thickness, Combination lock OR any safe bearing UL label: Tool Resistant Safe (TL-15 Burglary), including a Combination lock equipped with a Re-Locking Device",
+      "definition": "Safe with body constructed of 1-inch thick steel, door of 1½-inch thick steel with combination lock, or any safe bearing UL label for Tool Resistant Safe (TL-15 Burglary rating), including combination lock equipped with re-locking device. Provides enhanced resistance to forced entry using hand and electric tools.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe 2 - corps: Acier 1\" d'épaisseur, porte: Acier 1 ½\" d'épaisseur, Serrure à combinaison OU coffre-fort affichant une étiquette UL: Résistant aux outils (TL15 Effraction), incluant une serrure à combinaison équipé d'un dispositif de re-verrouillage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clase 2 - cuerpo: Acero de 1\" de espesor, puerta: Acero de 1 ½\" de espesor, Cerradura de combinación O cualquier caja fuerte con etiqueta UL: Resistente a herramientas (TL-15 Robo), incluyendo una cerradura de combinación equipada con un dispositivo de re-bloqueo"
+        }
+      ]
+    },
+    {
+      "code": "SC03",
+      "display": "Class 3 - Any safe bearing UL labels: Safe, Class D.R., Burglary No. OR Tool Resistant Safe (TL-30 Burglary), including a combination lock equipped with a Re-Locking Device",
+      "definition": "Safe bearing UL labels for Class D.R. Burglary rating or Tool Resistant Safe (TL-30 Burglary rating), including combination lock equipped with re-locking device. Provides increased resistance to forced entry for 30 minutes against sophisticated tools.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe 3 - Tout coffre-fort affichant étiquettes UL: Coffre-fort, Classe \"D.R.\", Effraction No. OU Résistant aux outils (TL30 Effraction), incluant une serrure à combinaison équipé d'un dispositif de re-verrouillage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clase 3 - Cualquier caja fuerte con etiquetas UL: Caja fuerte, Clase D.R., Robo No. O Resistente a herramientas (TL-30 Robo), incluyendo una cerradura de combinación equipada con un dispositivo de re-bloqueo"
+        }
+      ]
+    },
+    {
+      "code": "SC04",
+      "display": "Class 4 - Any safe bearing UL labels: Torch Resisting Safe (TR-30 Burglary) OR Torch and Tool Resistant Safe (TRTL-30 Burglary) OR Explosive Resisting Safe (X-60 Burglary), including a combination lock equipped with a Re-Locking Device.",
+      "definition": "Safe bearing UL labels for Torch Resisting (TR-30), Torch and Tool Resistant (TRTL-30), or Explosive Resisting (X-60) ratings, including combination lock equipped with re-locking device. Provides high-level protection against torches, tools, and explosives.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe 4 - Tout coffre-fort affichant étiquettes UL: Coffre-fort résistant au chalumeau OU Résistant aux outils et au chalumeau (TRTL30 Effraction), OU Résistant aux explosifs (X-60 Effraction), incluant une serrure à combinaison équipé d'un dispositif de re-verrouillage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clase 4 - Cualquier caja fuerte con etiquetas UL: Resistente a soplete (TR-30 Robo) O Resistente a soplete y herramientas (TRTL-30 Robo) O Resistente a explosivos (X-60 Robo), incluyendo una cerradura de combinación equipada con un dispositivo de re-bloqueo"
+        }
+      ]
+    },
+    {
+      "code": "SC05",
+      "display": "Class 5 - Any safe bearing UL labels: Torch and Tool Resistant Safe (TRTL-30x6 Burglary), Torch Resisting Safe (TR-60 Burglary), Torch and Tool Resistant Safe (TRTL-60 Burglary), Torch and Explosive Resisting Safe   (TX-60 Burglary), Torch, Explosive and Tool Resistant Safe (TXTL-60 Burglary), including a combination lock equipped with a Re-Locking Device.",
+      "definition": "Safe bearing UL labels for advanced burglary resistance ratings (TRTL-30x6, TR-60, TRTL-60, TX-60, or TXTL-60), including combination lock equipped with re-locking device. Provides maximum protection against multiple attack methods including torches, tools, and explosives on all six sides or for extended durations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe 5 - Tout coffre-fort affichant étiquettes UL: Coffre-fort résistant au chalumeau et aux outils (TRTL-30x6 Effraction), Résistant au chalumeau (TR-60 Effraction), Coffre-fort résistant au chalumeau et aux outils (TRTL-60 Effraction), Résistant au chalumeau et aux explosifs (TX-60 Effraction), Coffre-fort résistant au chalumeau, aux explosifs et aux outils (TXTL-60 Effraction), incluant une serrure à combinaison équipé d'un dispositif de re-verrouillage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clase 5 - Cualquier caja fuerte con etiquetas UL: Resistente a soplete y herramientas (TRTL-30x6 Robo), Resistente a soplete (TR-60 Robo), Resistente a soplete y herramientas (TRTL-60 Robo), Resistente a soplete y explosivos (TX-60 Robo), Resistente a soplete, explosivos y herramientas (TXTL-60 Robo), incluyendo una cerradura de combinación equipada con un dispositivo de re-bloqueo"
+        }
+      ]
+    },
+    {
+      "code": "FRST",
+      "display": "Fire Resistant",
+      "definition": "Safe designed and tested to protect contents from fire damage by maintaining interior temperatures below critical thresholds during fire exposure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résistant au feu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Resistente al fuego"
+        }
+      ]
+    },
+    {
+      "code": "VALT",
+      "display": "Vault",
+      "definition": "Large walk-in secure room or chamber with reinforced walls, ceiling, floor, and door designed to protect valuables and documents.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voûte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bóveda"
+        }
+      ]
+    },
+    {
+      "code": "NSAF",
+      "display": "No Safe",
+      "definition": "Indicates the absence of a safe on the premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun coffre-fort"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin caja fuerte"
+        }
+      ]
+    },
+    {
+      "code": "NVLT",
+      "display": "No Vault",
+      "definition": "Indicates the absence of a vault on the premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucune voûte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin bóveda"
+        }
+      ]
+    },
+    {
+      "code": "NCLB",
+      "display": "Not Classified/Labelled",
+      "definition": "Safe or vault present but lacking official classification or UL/ULC labeling for burglary or fire resistance rating.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non classifié/Étiqueté"
+        },
+        {
+          "language": "es-MX",
+          "value": "No clasificado/Etiquetado"
+        }
+      ]
+    },
+    {
+      "code": "NONA",
+      "display": "None/Not Applicable",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun/Sans objet"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno/No aplicable"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Safe or vault classification not covered by standard categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "VC01",
+      "display": "Class 1 - body: Brick, Stone, Block, Tile, Concrete, Reinforced Concrete, Iron or Steel with any thickness, door: Iron or Steel with any thickness, including a Combination lock",
+      "definition": "Vault with body constructed of brick, stone, block, tile, concrete, reinforced concrete, iron or steel of any thickness, door of iron or steel of any thickness, equipped with combination lock. Provides basic structural security for walk-in storage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe 1 - corps: Brique, Pierre, Bloc, Béton, Béton Armé, Fer ou Acier de toute épaisseur, porte: Fer ou Acier toute épaisseur, incluant une serrure à combinaison"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clase 1 - cuerpo: Ladrillo, Piedra, Bloque, Baldosa, Concreto, Concreto reforzado, Hierro o Acero de cualquier espesor, puerta: Hierro o Acero de cualquier espesor, incluyendo una cerradura de combinación"
+        }
+      ]
+    },
+    {
+      "code": "VC02",
+      "display": "Class 2 - body: Stonework or Concrete with 36\" thickness or Reinforced Concrete with 18\" thickness or Steel (if constructed prior to 1983) with 1\" thickness, door: Burglar Resistant Barrier Materials with 1 ½\" thickness, including a Combination lock",
+      "definition": "Vault with body constructed of stonework or concrete (36-inch thickness), reinforced concrete (18-inch thickness), or steel (1-inch thickness if constructed prior to 1983), door of burglar resistant barrier materials (1½-inch thickness), equipped with combination lock. Provides enhanced structural resistance to forced entry.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe 2 - corps: Maçonnerie de pierre ou Béton épaisseur de 36\" ou Béton Armé épaisseur de 18\" ou Acier (si fabriqué avant 1983) épaisseur 1\" , porte: Matériaux résistant aux effractions d'une épaisseur de 1 ½\", incluant une serrure à combinaison"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clase 2 - cuerpo: Mampostería de piedra o Concreto de 36\" de espesor o Concreto reforzado de 18\" de espesor o Acero (si se construyó antes de 1983) de 1\" de espesor, puerta: Materiales de barrera resistentes al robo de 1 ½\" de espesor, incluyendo una cerradura de combinación"
+        }
+      ]
+    },
+    {
+      "code": "VC03",
+      "display": "Class 3 - body: Stonework or Concrete with 36\" thickness or Reinforced Concrete with 18\" thickness or Steel (if constructed prior to 1983) with 1\" thickness, door: One Burglar Resistant Barrier Material with 3 ½\" thickness or Two doors same doorway, each at least 2\" aggregating with 4\" thickness, including a Combination lock",
+      "definition": "Vault with body constructed of stonework or concrete (36-inch thickness), reinforced concrete (18-inch thickness), or steel (1-inch thickness if constructed prior to 1983), door consisting of one burglar resistant barrier material (3½-inch thickness) or two doors in same doorway (each at least 2 inches, aggregating 4 inches total thickness), equipped with combination lock. Provides high-level structural security with enhanced door protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe 3 - corps: Maçonnerie de pierre ou Béton épaisseur de 36\" ou Béton Armé épaisseur de 18\" ou Acier (si fabriqué avant 1983) épaisseur 1\" , porte: Cloison avec Matériaux résistant aux effractions d'une épaisseur de 3 ½\" ou Deux portes pour chaque entrée de porte, chacune d'au moins 2\" donc une épaisseur de 4\" au total, incluant une serrure à combinaison"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clase 3 - cuerpo: Mampostería de piedra o Concreto de 36\" de espesor o Concreto reforzado de 18\" de espesor o Acero (si se construyó antes de 1983) de 1\" de espesor, puerta: Un material de barrera resistente al robo de 3 ½\" de espesor o Dos puertas en el mismo umbral, cada una de al menos 2\" con un espesor total de 4\", incluyendo una cerradura de combinación"
+        }
+      ]
+    },
+    {
+      "code": "VC04",
+      "display": "Class 4 - body: Burglary Resistant Vault Panels (ULC or ULI Class 1) or Double or Triple Reinforced Concrete with 12\" thickness, door: Vault Door ULC or ULI Class 1",
+      "definition": "Vault with body constructed of burglary resistant vault panels (ULC or ULI Class 1 rated) or double or triple reinforced concrete (12-inch thickness), equipped with vault door rated ULC or ULI Class 1. Provides superior protection against forced entry attempts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe 4 - corps: Panneaux de voûte résistant aux effractions (ULC ou ULI Classe 1) ou béton armé double ou triple renforcé 12\" d'épaisseur, porte: Porte de voûte ULC ou ULI Classe 1"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clase 4 - cuerpo: Paneles de bóveda resistentes al robo (ULC o ULI Clase 1) o Concreto reforzado doble o triple de 12\" de espesor, puerta: Puerta de bóveda ULC o ULI Clase 1"
+        }
+      ]
+    },
+    {
+      "code": "VC05",
+      "display": "Class 5 - body: Burglary Resistant Vault Panels (ULC or ULI Class 2) or Triple or Quadruple Reinforced Concrete with 18\" thickness, door: Vault Door ULC or ULI Class 2",
+      "definition": "Vault with body constructed of burglary resistant vault panels (ULC or ULI Class 2 rated) or triple or quadruple reinforced concrete (18-inch thickness), equipped with vault door rated ULC or ULI Class 2. Provides maximum structural protection against sophisticated forced entry attempts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe 5 - corps: Panneaux de voûte résistant aux effractions (ULC ou ULI Classe 2) ou béton armé triple ou quadruple renforcé 18\" d'épaisseur, porte: Porte de voûte ULC ou ULI Classe 2"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clase 5 - cuerpo: Paneles de bóveda resistentes al robo (ULC o ULI Clase 2) o Concreto reforzado triple o cuádruple de 18\" de espesor, puerta: Puerta de bóveda ULC o ULI Clase 2"
+        }
+      ]
+    }
+  ]
+}

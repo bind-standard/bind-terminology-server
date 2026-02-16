@@ -1,0 +1,1317 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "DrivingRecordCode",
+  "url": "https://bind.codes/DrivingRecordCode",
+  "name": "DrivingRecordCode",
+  "title": "Driving Record Code",
+  "status": "draft",
+  "language": "en",
+  "description": "Driving Record Code codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ACCD",
+      "display": "Accident",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accident"
+        },
+        {
+          "language": "es-MX",
+          "value": "Accidente"
+        }
+      ],
+      "definition": "A collision or incident involving a motor vehicle."
+    },
+    {
+      "code": "ACAF",
+      "display": "At Fault Accident",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accident responsable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Accidente con culpa"
+        }
+      ],
+      "definition": "An accident where the driver was determined to be responsible for causing the collision."
+    },
+    {
+      "code": "ACNF",
+      "display": "Not At Fault Accident",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accident non responsable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Accidente sin culpa"
+        }
+      ],
+      "definition": "An accident where the driver was determined not to be responsible for causing the collision."
+    },
+    {
+      "code": "AMOV",
+      "display": "All Other Moving Violations",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toutes autres infractions en mouvement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Todas las demás infracciones en movimiento"
+        }
+      ],
+      "definition": "Moving violations not specifically categorized, typically involving infractions committed while the vehicle is in motion."
+    },
+    {
+      "code": "ANMV",
+      "display": "All Other Non-Moving Violations",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toutes autres infractions à l'arrêt"
+        },
+        {
+          "language": "es-MX",
+          "value": "Todas las demás infracciones sin movimiento"
+        }
+      ],
+      "definition": "Violations not specifically categorized that occur when the vehicle is stationary."
+    },
+    {
+      "code": "LSBI",
+      "display": "Leaving Scene of Accident Resulting in Bodily Injury",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Quitter les lieux d'un accident causant des blessures"
+        },
+        {
+          "language": "es-MX",
+          "value": "Abandonar la escena de accidente con lesiones corporales"
+        }
+      ],
+      "definition": "Failing to remain at the scene of an accident where someone was physically injured."
+    },
+    {
+      "code": "CRLS",
+      "display": "Careless Driving",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite imprudente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducción descuidada"
+        }
+      ],
+      "definition": "Operating a vehicle without due care and attention to road conditions and surroundings."
+    },
+    {
+      "code": "CITI",
+      "display": "Citation Issued",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contravention émise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Citación emitida"
+        }
+      ],
+      "definition": "A formal notice or ticket was issued by law enforcement for a traffic violation."
+    },
+    {
+      "code": "DBAL",
+      "display": "Driving with Blood Alcohol Level of .10 or 1% or More",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite avec taux d'alcoolémie de 0,10 ou 1 % ou plus"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducir con nivel de alcohol en sangre de .10 o 1% o más"
+        }
+      ],
+      "definition": "Operating a motor vehicle with a blood alcohol concentration at or above the legal threshold."
+    },
+    {
+      "code": "BRTF",
+      "display": "Breath Test Failure",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Échec au test d'alcootest"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fallo en prueba de aliento"
+        }
+      ],
+      "definition": "A breathalyzer test result exceeding the legal alcohol limit."
+    },
+    {
+      "code": "DROC",
+      "display": "Drugs - Open Container",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Drogues - Contenant ouvert"
+        },
+        {
+          "language": "es-MX",
+          "value": "Drogas - Contenedor abierto"
+        }
+      ],
+      "definition": "Possession of an open container of drugs in a vehicle."
+    },
+    {
+      "code": "DPOA",
+      "display": "Possession of Drugs or Alcohol",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Possession de drogues ou d'alcool"
+        },
+        {
+          "language": "es-MX",
+          "value": "Posesión de drogas o alcohol"
+        }
+      ],
+      "definition": "Being found in possession of illegal drugs or alcohol in a vehicle."
+    },
+    {
+      "code": "TRID",
+      "display": "Transporting Illegal Drugs",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transport de drogues illégales"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transportar drogas ilegales"
+        }
+      ],
+      "definition": "Carrying illegal controlled substances in a vehicle."
+    },
+    {
+      "code": "DWIN",
+      "display": "Driving While Intoxicated",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite avec facultés affaiblies"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducir en estado de ebriedad"
+        }
+      ],
+      "definition": "Operating a motor vehicle while impaired by alcohol or drugs."
+    },
+    {
+      "code": "DUID",
+      "display": "Driving Under the Influence of Drugs",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite sous l'influence de drogues"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducir bajo la influencia de drogas"
+        }
+      ],
+      "definition": "Operating a motor vehicle while impaired by controlled substances."
+    },
+    {
+      "code": "DLSR",
+      "display": "Driving While License Suspended or Revoked",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite pendant suspension ou révocation du permis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducir con licencia suspendida o revocada"
+        }
+      ],
+      "definition": "Operating a motor vehicle while one's driver's license is suspended, revoked, or invalid."
+    },
+    {
+      "code": "OPDN",
+      "display": "Operating to Endanger",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite dangereuse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Operar poniendo en peligro"
+        }
+      ],
+      "definition": "Operating a vehicle in a manner that endangers public safety."
+    },
+    {
+      "code": "EQPV",
+      "display": "Motor Vehicle Equipment Violation",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction d'équipement de véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Violación de equipo de vehículo motorizado"
+        }
+      ],
+      "definition": "Violation related to defective, missing, or non-compliant vehicle equipment."
+    },
+    {
+      "code": "FLSC",
+      "display": "Filing False Claim",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dépôt d'une fausse réclamation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Presentar reclamo falso"
+        }
+      ],
+      "definition": "Submitting a fraudulent or deceptive claim."
+    },
+    {
+      "code": "FLSD",
+      "display": "Filing False Document",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dépôt d'un faux document"
+        },
+        {
+          "language": "es-MX",
+          "value": "Presentar documento falso"
+        }
+      ],
+      "definition": "Submitting fraudulent or falsified documentation."
+    },
+    {
+      "code": "FLSR",
+      "display": "Filing False Report",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dépôt d'un faux rapport"
+        },
+        {
+          "language": "es-MX",
+          "value": "Presentar informe falso"
+        }
+      ],
+      "definition": "Submitting a report containing false information."
+    },
+    {
+      "code": "FSRL",
+      "display": "Failure to Stop at Red Light",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Omission d'arrêter à un feu rouge"
+        },
+        {
+          "language": "es-MX",
+          "value": "No detenerse en luz roja"
+        }
+      ],
+      "definition": "Failing to come to a complete stop when a traffic signal is red."
+    },
+    {
+      "code": "FSSS",
+      "display": "Failure to Stop at Stop Sign",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Omission d'arrêter à un panneau d'arrêt"
+        },
+        {
+          "language": "es-MX",
+          "value": "No detenerse en señal de alto"
+        }
+      ],
+      "definition": "Failing to come to a complete stop at a stop sign."
+    },
+    {
+      "code": "FSSB",
+      "display": "Failure to Stop for School Bus",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Omission d'arrêter pour un autobus scolaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "No detenerse por autobús escolar"
+        }
+      ],
+      "definition": "Failing to stop when a school bus has its stop sign extended and lights activated."
+    },
+    {
+      "code": "VHOM",
+      "display": "Vehicular Homicide",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Homicide véhiculaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Homicidio vehicular"
+        }
+      ],
+      "definition": "Causing the death of another person through the criminal operation of a motor vehicle."
+    },
+    {
+      "code": "ELPO",
+      "display": "Eluding a Police Officer",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fuite d'un agent de police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Eludir a un oficial de policía"
+        }
+      ],
+      "definition": "Fleeing or attempting to evade law enforcement."
+    },
+    {
+      "code": "FELV",
+      "display": "Felony Involving Use of Vehicle",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acte criminel impliquant l'utilisation d'un véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Delito grave que involucra uso de vehículo"
+        }
+      ],
+      "definition": "A serious crime committed with the use of a motor vehicle."
+    },
+    {
+      "code": "MANS",
+      "display": "Manslaughter",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Homicide involontaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Homicidio involuntario"
+        }
+      ],
+      "definition": "The unlawful killing of another person without premeditation."
+    },
+    {
+      "code": "NGLG",
+      "display": "Negligent Driving",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite négligente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducción negligente"
+        }
+      ],
+      "definition": "Operating a vehicle without reasonable care or caution."
+    },
+    {
+      "code": "NGHM",
+      "display": "Negligent Homicide",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Homicide par négligence"
+        },
+        {
+          "language": "es-MX",
+          "value": "Homicidio negligente"
+        }
+      ],
+      "definition": "Causing death through negligent behavior."
+    },
+    {
+      "code": "ALTL",
+      "display": "Operating with Altered Driver's License",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite avec permis modifié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Operar con licencia alterada"
+        }
+      ],
+      "definition": "Using a driver's license that has been tampered with or falsified."
+    },
+    {
+      "code": "BSTL",
+      "display": "Operating with Borrowed or Stolen License",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite avec permis emprunté ou volé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Operar con licencia prestada o robada"
+        }
+      ],
+      "definition": "Using another person's driver's license or a stolen license."
+    },
+    {
+      "code": "LDEX",
+      "display": "Limited Driving Experience",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Expérience de conduite limitée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Experiencia de conducción limitada"
+        }
+      ],
+      "definition": "Having minimal time or miles logged as a licensed driver."
+    },
+    {
+      "code": "LEXP",
+      "display": "Expired License",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Permis expiré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Licencia expirada"
+        }
+      ],
+      "definition": "Driving with a license that is past its valid date."
+    },
+    {
+      "code": "LMIS",
+      "display": "Obtaining License by Misrepresentation",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Obtention d'un permis par fausse déclaration"
+        },
+        {
+          "language": "es-MX",
+          "value": "Obtener licencia mediante tergiversación"
+        }
+      ],
+      "definition": "Acquiring a driver's license through fraudulent information or false statements."
+    },
+    {
+      "code": "NLIC",
+      "display": "No Operator's License",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun permis de conduire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin licencia de operador"
+        }
+      ],
+      "definition": "Operating a vehicle without ever having been issued a valid driver's license."
+    },
+    {
+      "code": "LSUS",
+      "display": "License Suspended or Revoked",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Permis suspendu ou révoqué"
+        },
+        {
+          "language": "es-MX",
+          "value": "Licencia suspendida o revocada"
+        }
+      ],
+      "definition": "A driver's license that has been temporarily suspended or permanently revoked due to violations."
+    },
+    {
+      "code": "PLXP",
+      "display": "Expired License Plate",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plaque d'immatriculation expirée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Placa de matrícula expirada"
+        }
+      ],
+      "definition": "Operating a vehicle with registration plates that are past their valid date."
+    },
+    {
+      "code": "SBLT",
+      "display": "Seat Belt Violation",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction de ceinture de sécurité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Violación de cinturón de seguridad"
+        }
+      ],
+      "definition": "Failure to wear a seat belt or ensure passengers are properly restrained."
+    },
+    {
+      "code": "FCVH",
+      "display": "Failure to Control Vehicle",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défaut de contrôler le véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de control del vehículo"
+        }
+      ],
+      "definition": "Losing control of a vehicle due to improper handling or inattention."
+    },
+    {
+      "code": "IMBK",
+      "display": "Improper Backing",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marche arrière inappropriée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reversa inadecuada"
+        }
+      ],
+      "definition": "Backing a vehicle in an unsafe manner or location."
+    },
+    {
+      "code": "IMPA",
+      "display": "Impaired Driving",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite avec facultés affaiblies"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducción con capacidades disminuidas"
+        }
+      ],
+      "definition": "Operating a vehicle while one's ability to drive safely is diminished by alcohol, drugs, or other substances."
+    },
+    {
+      "code": "IMLN",
+      "display": "Improper Lane Use",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Utilisation inappropriée de la voie"
+        },
+        {
+          "language":"es-MX",
+          "value": "Uso inadecuado del carril"
+        }
+      ],
+      "definition": "Failing to maintain proper lane position or changing lanes unsafely."
+    },
+    {
+      "code": "NINS",
+      "display": "Driving Without Valid Auto Coverage",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite sans couverture automobile valide"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducir sin cobertura de auto válida"
+        }
+      ],
+      "definition": "Operating a vehicle without active automobile coverage as required by law."
+    },
+    {
+      "code": "FTCL",
+      "display": "Following Too Close",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Suivre de trop près"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguir muy de cerca"
+        }
+      ],
+      "definition": "Tailgating or failing to maintain a safe distance from the vehicle ahead."
+    },
+    {
+      "code": "TWLD",
+      "display": "Towing Improper Load",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorquage de charge inappropriée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolcar carga inadecuada"
+        }
+      ],
+      "definition": "Towing a load that exceeds size, weight, or safety regulations."
+    },
+    {
+      "code": "PUND",
+      "display": "Permitting Unlicensed Driver to Operate",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Permettre à un conducteur sans permis de conduire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Permitir que conductor sin licencia opere"
+        }
+      ],
+      "definition": "Allowing someone without a valid license to drive one's vehicle."
+    },
+    {
+      "code": "WGSD",
+      "display": "Driving on Wrong Side of Road",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite du mauvais côté de la route"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducir por el lado equivocado del camino"
+        }
+      ],
+      "definition": "Operating a vehicle on the incorrect side of the roadway."
+    },
+    {
+      "code": "FYPD",
+      "display": "Failure to Yield to Pedestrian",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Omission de céder le passage à un piéton"
+        },
+        {
+          "language": "es-MX",
+          "value": "No ceder el paso a peatón"
+        }
+      ],
+      "definition": "Failing to give right-of-way to a pedestrian in a crosswalk or other designated area."
+    },
+    {
+      "code": "FYRO",
+      "display": "Failure to Yield Right of Way",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Omission de céder la priorité"
+        },
+        {
+          "language": "es-MX",
+          "value": "No ceder el derecho de paso"
+        }
+      ],
+      "definition": "Failing to yield to another vehicle or road user who has the legal right-of-way."
+    },
+    {
+      "code": "NVIO",
+      "display": "No Violation",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucune infraction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin violación"
+        }
+      ],
+      "definition": "No traffic or driving violation occurred."
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ],
+      "definition": "A violation or incident not otherwise categorized."
+    },
+    {
+      "code": "NAUT",
+      "display": "Operating Without Valid Auto Coverage",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite sans couverture automobile valide"
+        },
+        {
+          "language": "es-MX",
+          "value": "Operar sin cobertura de auto válida"
+        }
+      ],
+      "definition": "Operating a vehicle without the legally required automobile coverage."
+    },
+    {
+      "code": "PRKV",
+      "display": "Parking Violation",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction de stationnement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Violación de estacionamiento"
+        }
+      ],
+      "definition": "Parking in a prohibited area or in violation of parking regulations."
+    },
+    {
+      "code": "PASV",
+      "display": "Passing Violation",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction de dépassement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Violación de adelantamiento"
+        }
+      ],
+      "definition": "Illegally overtaking another vehicle."
+    },
+    {
+      "code": "LSPD",
+      "display": "Leaving Scene of Accident with Property Damage",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Quitter les lieux d'un accident avec dommages matériels"
+        },
+        {
+          "language": "es-MX",
+          "value": "Abandonar escena de accidente con daño a propiedad"
+        }
+      ],
+      "definition": "Failing to remain at the scene of an accident involving property damage."
+    },
+    {
+      "code": "DRPT",
+      "display": "Demerit Points",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Points d'inaptitude"
+        },
+        {
+          "language": "es-MX",
+          "value": "Puntos de demérito"
+        }
+      ],
+      "definition": "Penalty points assessed against a driver's license for violations."
+    },
+    {
+      "code": "FOPO",
+      "display": "Failure to Obey Police Officer",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Omission d'obéir à un agent de police"
+        },
+        {
+          "language": "es-MX",
+          "value": "No obedecer a oficial de policía"
+        }
+      ],
+      "definition": "Refusing or failing to comply with lawful commands from law enforcement."
+    },
+    {
+      "code": "RACE",
+      "display": "Street Racing",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Course de rue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carreras callejeras"
+        }
+      ],
+      "definition": "Participating in a speed contest or race on public roads."
+    },
+    {
+      "code": "RCKL",
+      "display": "Reckless Driving",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite dangereuse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducción temeraria"
+        }
+      ],
+      "definition": "Operating a vehicle with willful disregard for the safety of persons or property."
+    },
+    {
+      "code": "FRFR",
+      "display": "Financial Responsibility Filing Required",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Attestation de responsabilité financière requise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Presentación de responsabilidad financiera requerida"
+        }
+      ],
+      "definition": "Requirement to file proof of financial responsibility with the state."
+    },
+    {
+      "code": "RSTL",
+      "display": "Restricted License",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Permis restreint"
+        },
+        {
+          "language": "es-MX",
+          "value": "Licencia restringida"
+        }
+      ],
+      "definition": "A driver's license with limitations on when, where, or how the holder may drive."
+    },
+    {
+      "code": "ENZS",
+      "display": "Energy Speed Zone Violation",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction de zone de vitesse énergétique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Violación de zona de velocidad energética"
+        }
+      ],
+      "definition": "Speeding in a designated energy conservation speed zone."
+    },
+    {
+      "code": "RFST",
+      "display": "Refusal to Take Sobriety Test",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Refus de subir un test de sobriété"
+        },
+        {
+          "language": "es-MX",
+          "value": "Negarse a prueba de sobriedad"
+        }
+      ],
+      "definition": "Declining to submit to a breathalyzer or other sobriety test when requested by law enforcement."
+    },
+    {
+      "code": "SPED",
+      "display": "Speeding",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Excès de vitesse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Exceso de velocidad"
+        }
+      ],
+      "definition": "Exceeding the posted or legal speed limit."
+    },
+    {
+      "code": "EXSP",
+      "display": "Excessive Speed with Injury or Damage",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vitesse excessive avec blessure ou dommage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Velocidad excesiva con lesión o daño"
+        }
+      ],
+      "definition": "Driving at an excessive or reckless speed that results in injury to a person or damage to property."
+    },
+    {
+      "code": "TFCN",
+      "display": "Too Fast for Conditions",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trop rapide pour les conditions"
+        },
+        {
+          "language": "es-MX",
+          "value": "Demasiado rápido para las condiciones"
+        }
+      ],
+      "definition": "Driving at a speed unsafe for current road, weather, or traffic conditions."
+    },
+    {
+      "code": "FSAR",
+      "display": "Hit and Run",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Délit de fuite"
+        },
+        {
+          "language": "es-MX",
+          "value": "Atropello y fuga"
+        }
+      ],
+      "definition": "Failing to stop and provide information after being involved in an accident."
+    },
+    {
+      "code": "VTHF",
+      "display": "Vehicle Theft",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol de véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Robo de vehículo"
+        }
+      ],
+      "definition": "The unauthorized taking of a motor vehicle."
+    },
+    {
+      "code": "TRNV",
+      "display": "Turning Violation",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction de virage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Violación de giro"
+        }
+      ],
+      "definition": "Making an illegal or improper turn."
+    },
+    {
+      "code": "VINF",
+      "display": "VIN Tampering",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Altération du NIV"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alteración de VIN"
+        }
+      ],
+      "definition": "Removing, altering, or falsifying a vehicle identification number."
+    },
+    {
+      "code": "GENV",
+      "display": "General Violation",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction générale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Violación general"
+        }
+      ],
+      "definition": "A traffic violation not specifically categorized."
+    },
+    {
+      "code": "VNCI",
+      "display": "Violation Without Citation",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction sans contravention"
+        },
+        {
+          "language": "es-MX",
+          "value": "Violación sin citación"
+        }
+      ],
+      "definition": "A violation occurred but no formal citation was issued."
+    },
+    {
+      "code": "VRST",
+      "display": "Restricted License Violation",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction de permis restreint"
+        },
+        {
+          "language": "es-MX",
+          "value": "Violación de licencia restringida"
+        }
+      ],
+      "definition": "Operating a vehicle in violation of restrictions placed on the driver's license."
+    },
+    {
+      "code": "ACCR",
+      "display": "Accident Related Violation",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction liée à un accident"
+        },
+        {
+          "language": "es-MX",
+          "value": "Violación relacionada con accidente"
+        }
+      ],
+      "definition": "A violation or incident related to a motor vehicle accident."
+    },
+    {
+      "code": "CRCV",
+      "display": "Criminal Code Conviction",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Condamnation au Code criminel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Condena de código penal"
+        }
+      ],
+      "definition": "A conviction under the criminal code involving vehicle operation."
+    },
+    {
+      "code": "DUIA",
+      "display": "Driving Under the Influence",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite avec facultés affaiblies"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducir bajo la influencia"
+        }
+      ],
+      "definition": "Operating a vehicle while impaired by alcohol or drugs."
+    },
+    {
+      "code": "NOIN",
+      "display": "No Valid Auto Coverage",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucune couverture automobile valide"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin cobertura de auto válida"
+        }
+      ],
+      "definition": "Operating without legally required automobile coverage."
+    },
+    {
+      "code": "NOLC",
+      "display": "No Valid License",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun permis valide"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin licencia válida"
+        }
+      ],
+      "definition": "Operating a vehicle without possessing a valid driver's license."
+    },
+    {
+      "code": "UNCL",
+      "display": "Unclassified Violation",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction non classée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Violación no clasificada"
+        }
+      ],
+      "definition": "A violation that does not fit into standard categories."
+    },
+    {
+      "code": "PTAC",
+      "display": "Points Accumulation",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accumulation de points"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acumulación de puntos"
+        }
+      ],
+      "definition": "Accumulation of demerit points on a driving record."
+    },
+    {
+      "code": "SPDV",
+      "display": "Speeding Violation",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infraction d'excès de vitesse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Violación de velocidad"
+        }
+      ],
+      "definition": "Exceeding posted speed limits."
+    },
+    {
+      "code": "UPTK",
+      "display": "Unpaid Ticket",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contravention impayée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Multa no pagada"
+        }
+      ],
+      "definition": "A traffic ticket or fine that has not been paid."
+    },
+    {
+      "code": "ADLS",
+      "display": "Administrative License Suspension",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Suspension administrative du permis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Suspensión administrativa de licencia"
+        }
+      ],
+      "definition": "License suspension imposed administratively, often for DUI or accumulation of violations."
+    },
+    {
+      "code": "MDCL",
+      "display": "Medical Suspension",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Suspension médicale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Suspensión médica"
+        }
+      ],
+      "definition": "License suspension due to medical conditions affecting driving ability."
+    },
+    {
+      "code": "DSTR",
+      "display": "Distracted Driving",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite distraite"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducción distraída"
+        }
+      ],
+      "definition": "Operating a vehicle while attention is diverted by electronic devices, eating, or other activities."
+    },
+    {
+      "code": "STDR",
+      "display": "Stunt Driving",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite acrobatique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducción acrobática"
+        }
+      ],
+      "definition": "Performing dangerous driving stunts or maneuvers on public roads."
+    }
+  ]
+}

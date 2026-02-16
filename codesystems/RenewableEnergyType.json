@@ -1,0 +1,102 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "RenewableEnergyType",
+  "url": "https://bind.codes/RenewableEnergyType",
+  "name": "RenewableEnergyType",
+  "title": "Renewable Energy Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Renewable Energy Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "GEOT",
+      "display": "Geothermal",
+      "definition": "Energy derived from heat stored in the Earth's interior, typically accessed through ground-source heat pumps or direct thermal extraction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Géothermique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Geotérmica"
+        }
+      ]
+    },
+    {
+      "code": "SOLR",
+      "display": "Solar",
+      "definition": "Energy generated from sunlight using photovoltaic panels or solar thermal systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Solaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Solar"
+        }
+      ]
+    },
+    {
+      "code": "WIND",
+      "display": "Wind",
+      "definition": "Energy generated from wind through turbines that convert kinetic energy into electricity.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Éolienne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Eólica"
+        }
+      ]
+    },
+    {
+      "code": "HYDR",
+      "display": "Hydroelectric",
+      "definition": "Energy generated from flowing or falling water through turbines or micro-hydro systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hydroélectrique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hidroeléctrica"
+        }
+      ]
+    },
+    {
+      "code": "BIOM",
+      "display": "Biomass",
+      "definition": "Energy produced from organic materials such as wood pellets, agricultural waste, or biofuels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Biomasse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Biomasa"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Renewable energy types not classified in the standard categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otra"
+        }
+      ]
+    }
+  ]
+}

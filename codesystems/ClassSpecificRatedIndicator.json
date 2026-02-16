@@ -1,0 +1,102 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ClassSpecificRatedIndicator",
+  "url": "https://bind.codes/ClassSpecificRatedIndicator",
+  "name": "ClassSpecificRatedIndicator",
+  "title": "Class Specific Rated Indicator",
+  "status": "draft",
+  "language": "en",
+  "description": "Class Specific Rated Indicator codes for insurance operations.",
+  "concept": [
+    {
+      "code": "BASC",
+      "display": "Basic",
+      "definition": "A tier indicating minimal coverage or entry-level classification for rating purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "De base"
+        },
+        {
+          "language": "es-MX",
+          "value": "Básico"
+        }
+      ]
+    },
+    {
+      "code": "DLXE",
+      "display": "Deluxe",
+      "definition": "An enhanced tier offering expanded coverage features beyond standard options.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "De luxe"
+        },
+        {
+          "language": "es-MX",
+          "value": "De lujo"
+        }
+      ]
+    },
+    {
+      "code": "PREF",
+      "display": "Preferred",
+      "definition": "A tier designated for favorable classification with enhanced terms or benefits.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Préférentiel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Preferido"
+        }
+      ]
+    },
+    {
+      "code": "SUPR",
+      "display": "Superior",
+      "definition": "The highest tier providing maximum coverage options and most comprehensive protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Supérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Superior"
+        }
+      ]
+    },
+    {
+      "code": "STND",
+      "display": "Standard",
+      "definition": "The default tier representing typical coverage without enhancements or restrictions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Standard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estándar"
+        }
+      ]
+    },
+    {
+      "code": "PREM",
+      "display": "Premium",
+      "definition": "An elevated tier offering additional benefits and broader coverage than standard options.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Prime"
+        },
+        {
+          "language": "es-MX",
+          "value": "Premium"
+        }
+      ]
+    }
+  ]
+}

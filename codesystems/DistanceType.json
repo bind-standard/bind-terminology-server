@@ -1,0 +1,132 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "DistanceType",
+  "url": "https://bind.codes/DistanceType",
+  "name": "DistanceType",
+  "title": "Distance Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Distance Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "NORM",
+      "display": "Normal",
+      "definition": "Standard distance measurement without special conditions or modifiers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Normale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Normal"
+        }
+      ]
+    },
+    {
+      "code": "NODW",
+      "display": "Normal Operating Distance - One Way",
+      "definition": "Single-direction distance traveled during typical vehicle operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Distance Normale - Aller Simple"
+        },
+        {
+          "language": "es-MX",
+          "value": "Distancia Normal de Operación - Ida"
+        }
+      ]
+    },
+    {
+      "code": "BUSD",
+      "display": "Border to US Destination",
+      "definition": "Distance in kilometers from the Canadian border to the most frequently visited destination in the United States.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frontière à Destination États-Unis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Frontera a Destino EE.UU."
+        }
+      ]
+    },
+    {
+      "code": "USPC",
+      "display": "Annual US Usage Percentage",
+      "definition": "The percentage of total annual vehicle usage that occurs in the United States.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pourcentage d'Utilisation Annuelle aux États-Unis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Porcentaje de Uso Anual en EE.UU."
+        }
+      ]
+    },
+    {
+      "code": "AVRG",
+      "display": "Average",
+      "definition": "Mean distance calculated across multiple measurements or time periods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Moyenne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promedio"
+        }
+      ]
+    },
+    {
+      "code": "MAXM",
+      "display": "Maximum",
+      "definition": "The greatest distance value recorded or permitted within a specified context.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maximale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Máximo"
+        }
+      ]
+    },
+    {
+      "code": "RADW",
+      "display": "Radius of Operation",
+      "definition": "The typical circular distance range from a base location within which a vehicle operates.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rayon d'Opération"
+        },
+        {
+          "language": "es-MX",
+          "value": "Radio de Operación"
+        }
+      ]
+    },
+    {
+      "code": "RTDW",
+      "display": "Round Trip Distance",
+      "definition": "Total distance for a complete journey from origin to destination and back.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Distance Aller-Retour"
+        },
+        {
+          "language": "es-MX",
+          "value": "Distancia Ida y Vuelta"
+        }
+      ]
+    }
+  ]
+}

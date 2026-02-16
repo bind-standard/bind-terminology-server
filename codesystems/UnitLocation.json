@@ -1,0 +1,132 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "UnitLocation",
+  "url": "https://bind.codes/UnitLocation",
+  "name": "UnitLocation",
+  "title": "Unit Location",
+  "status": "draft",
+  "language": "en",
+  "description": "Unit Location codes for insurance operations.",
+  "concept": [
+    {
+      "code": "INSD",
+      "display": "Inside the Building",
+      "definition": "The unit is located within the interior of the building structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'intérieur du bâtiment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dentro del edificio"
+        }
+      ]
+    },
+    {
+      "code": "OTSD",
+      "display": "Outside the Building",
+      "definition": "The unit is positioned exterior to the building structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'extérieur du bâtiment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fuera del edificio"
+        }
+      ]
+    },
+    {
+      "code": "OISL",
+      "display": "Outside the Building in Insulated Enclosure",
+      "definition": "The unit is positioned outside the building but housed within a temperature-controlled protective structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'extérieur du bâtiment dans un enclos isolé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fuera del edificio en recinto aislado"
+        }
+      ]
+    },
+    {
+      "code": "GRGE",
+      "display": "Garage",
+      "definition": "The unit is located within an attached or detached garage structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Garaje"
+        }
+      ]
+    },
+    {
+      "code": "BSMT",
+      "display": "Basement",
+      "definition": "The unit is located below ground level in the building's basement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous-sol"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sótano"
+        }
+      ]
+    },
+    {
+      "code": "ATTIC",
+      "display": "Attic",
+      "definition": "The unit is located in the uppermost space directly beneath the roof.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grenier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ático"
+        }
+      ]
+    },
+    {
+      "code": "ROOF",
+      "display": "Roof",
+      "definition": "The unit is mounted on or integrated into the roof structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Techo"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "The unit is located in a position not categorized by the standard location types.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "InsuranceBureau",
+  "url": "https://bind.codes/InsuranceBureau",
+  "name": "InsuranceBureau",
+  "title": "Insurance Bureau",
+  "status": "draft",
+  "language": "en",
+  "description": "Rating bureaus and advisory organizations that develop classification systems, rate filings, and standardized forms.",
+  "concept": [
+    {
+      "code": "ISOO",
+      "display": "ISO",
+      "definition": "Insurance Services Office — develops standardized policy forms, rates, and classification systems for property and casualty lines.",
+      "designation": [
+        { "language": "fr-CA", "value": "ISO" },
+        { "language": "es-MX", "value": "ISO" }
+      ]
+    },
+    {
+      "code": "NCCI",
+      "display": "NCCI",
+      "definition": "National Council on Compensation Insurance — provides classification, rating, and data services for workers' compensation.",
+      "designation": [
+        { "language": "fr-CA", "value": "NCCI" },
+        { "language": "es-MX", "value": "NCCI" }
+      ]
+    },
+    {
+      "code": "AAIS",
+      "display": "AAIS",
+      "definition": "American Association of Insurance Services — an advisory organization offering standardized forms and loss costs for property and casualty lines.",
+      "designation": [
+        { "language": "fr-CA", "value": "AAIS" },
+        { "language": "es-MX", "value": "AAIS" }
+      ]
+    },
+    {
+      "code": "SURF",
+      "display": "SURF",
+      "definition": "SURF Advisory Organization — provides advisory services for surplus lines and specialty markets.",
+      "designation": [
+        { "language": "fr-CA", "value": "SURF" },
+        { "language": "es-MX", "value": "SURF" }
+      ]
+    },
+    {
+      "code": "CA:IBC",
+      "display": "IBC",
+      "definition": "Insurance Bureau of Canada — the national industry association providing advisory rates, forms, and data services for the Canadian market.",
+      "designation": [
+        { "language": "fr-CA", "value": "BAC" },
+        { "language": "es-MX", "value": "IBC" }
+      ]
+    },
+    {
+      "code": "CA:GIO",
+      "display": "GAA",
+      "definition": "Groupement des assureurs automobiles — the body that administers automobile statistical plans and rating in Québec.",
+      "designation": [
+        { "language": "fr-CA", "value": "GAA" },
+        { "language": "es-MX", "value": "GAA" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TaxExemptionType",
+  "url": "https://bind.codes/TaxExemptionType",
+  "name": "TaxExemptionType",
+  "title": "Tax Exemption Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Tax Exemption Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CA:CGST",
+      "display": "Goods and Services Tax",
+      "definition": "A federal value-added tax applied to most goods and services sold in Canada.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Taxe sur les produits et services"
+        },
+        {
+          "language": "es-MX",
+          "value": "Impuesto sobre bienes y servicios"
+        }
+      ]
+    },
+    {
+      "code": "CA:CHST",
+      "display": "Harmonized Sales Tax",
+      "definition": "A combined federal and provincial sales tax applied in certain Canadian provinces, merging GST with provincial sales taxes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Taxe de vente harmonisée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Impuesto armonizado sobre las ventas"
+        }
+      ]
+    },
+    {
+      "code": "CA:CPST",
+      "display": "Provincial Sales Tax",
+      "definition": "A consumption tax levied by individual Canadian provinces on the retail sale of goods and certain services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Taxe de vente provinciale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Impuesto provincial sobre las ventas"
+        }
+      ]
+    },
+    {
+      "code": "CA:CQST",
+      "display": "Quebec Sales Tax",
+      "definition": "A provincial value-added tax applied in Quebec on the sale of goods and services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Taxe de vente du Québec"
+        },
+        {
+          "language": "es-MX",
+          "value": "Impuesto sobre las ventas de Quebec"
+        }
+      ]
+    },
+    {
+      "code": "CA:CRST",
+      "display": "Retail Sales Tax",
+      "definition": "A single-stage tax applied at the point of final sale to consumers in certain Canadian provinces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Taxe de vente au détail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Impuesto sobre las ventas al por menor"
+        }
+      ]
+    }
+  ]
+}

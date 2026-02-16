@@ -1,0 +1,650 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "LegalEntity",
+  "url": "https://bind.codes/LegalEntity",
+  "name": "LegalEntity",
+  "title": "Legal Entity",
+  "status": "draft",
+  "language": "en",
+  "description": "Legal Entity codes for insurance operations.",
+  "concept": [
+    {
+      "code": "NPRO",
+      "display": "Non-profit Organization",
+      "definition": "An organization that operates for purposes other than generating profit, with surplus revenues reinvested to further its mission.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Organisme à but non lucratif"
+        },
+        {
+          "language": "es-MX",
+          "value": "Organización sin fines de lucro"
+        }
+      ]
+    },
+    {
+      "code": "ORGN",
+      "display": "Organization",
+      "definition": "A general organized entity with a defined structure and purpose.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Organisme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Organización"
+        }
+      ]
+    },
+    {
+      "code": "PRSH",
+      "display": "Parishes",
+      "definition": "Multiple ecclesiastical or civil administrative districts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Paroisses"
+        },
+        {
+          "language": "es-MX",
+          "value": "Parroquias"
+        }
+      ]
+    },
+    {
+      "code": "TOWN",
+      "display": "Town",
+      "definition": "A municipal entity larger than a village but typically smaller than a city.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ville"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pueblo"
+        }
+      ]
+    },
+    {
+      "code": "VLGE",
+      "display": "Village",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Village"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aldea"
+        }
+      ]
+    },
+    {
+      "code": "REGN",
+      "display": "Region",
+      "definition": "A territorial administrative division covering a geographic area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Région"
+        },
+        {
+          "language": "es-MX",
+          "value": "Región"
+        }
+      ]
+    },
+    {
+      "code": "CITY",
+      "display": "City",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ville"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ciudad"
+        }
+      ]
+    },
+    {
+      "code": "CA:CHRG",
+      "display": "Charity, Registered",
+      "definition": "A charitable organization officially registered with the relevant government authority and eligible for tax benefits.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Œuvre de bienfaisance, enregistrée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Organización benéfica registrada"
+        }
+      ]
+    },
+    {
+      "code": "CHNG",
+      "display": "Charity, Non-registered",
+      "definition": "A charitable organization not officially registered with government authorities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Œuvre de bienfaisance, non enregistrée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Organización benéfica no registrada"
+        }
+      ]
+    },
+    {
+      "code": "CA:CNDO",
+      "display": "Condominium Corporation",
+      "definition": "A legal entity that manages and governs a condominium development.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copropriété d'immeubles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corporación de condominio"
+        }
+      ]
+    },
+    {
+      "code": "ASOS",
+      "display": "Association",
+      "definition": "A group of individuals or entities joined together for a common purpose.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación"
+        }
+      ]
+    },
+    {
+      "code": "CYCO",
+      "display": "City Commission",
+      "definition": "A governmental body that governs city affairs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commission municipale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comisión municipal"
+        }
+      ]
+    },
+    {
+      "code": "CYDP",
+      "display": "City Department",
+      "definition": "A specialized division within city government responsible for specific functions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Département municipal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Departamento municipal"
+        }
+      ]
+    },
+    {
+      "code": "CEMP",
+      "display": "Co-employers",
+      "definition": "Multiple employers sharing responsibilities for the same employee(s).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coemployeurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Coempleadores"
+        }
+      ]
+    },
+    {
+      "code": "CHRC",
+      "display": "Church",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Église"
+        },
+        {
+          "language": "es-MX",
+          "value": "Iglesia"
+        }
+      ]
+    },
+    {
+      "code": "CORP",
+      "display": "Corporation",
+      "definition": "A legal entity separate from its owners, with limited liability protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Personne morale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corporación"
+        }
+      ]
+    },
+    {
+      "code": "MCOR",
+      "display": "Corporations (More Than One)",
+      "definition": "Multiple corporate entities acting together.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Personnes morales (plus d'une)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corporaciones (más de una)"
+        }
+      ]
+    },
+    {
+      "code": "CNTY",
+      "display": "County",
+      "definition": "A territorial division for local government administration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comté"
+        },
+        {
+          "language": "es-MX",
+          "value": "Condado"
+        }
+      ]
+    },
+    {
+      "code": "ESTA",
+      "display": "Estate",
+      "definition": "The total assets and liabilities left by a deceased person, managed by an executor or administrator.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Succession"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sucesión"
+        }
+      ]
+    },
+    {
+      "code": "FRAT",
+      "display": "Fraternity",
+      "definition": "A social organization typically for members sharing common interests or purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fraternité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fraternidad"
+        }
+      ]
+    },
+    {
+      "code": "GVAG",
+      "display": "Government Agency",
+      "definition": "A permanent or semi-permanent organization within government responsible for specific functions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agence gouvernementale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agencia gubernamental"
+        }
+      ]
+    },
+    {
+      "code": "HOSP",
+      "display": "Hospital",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hôpital"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hospital"
+        }
+      ]
+    },
+    {
+      "code": "INDV",
+      "display": "Individual",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Individu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Individuo"
+        }
+      ]
+    },
+    {
+      "code": "MIND",
+      "display": "Individuals (more than one)",
+      "definition": "Multiple individuals acting together without formal business structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Individus (plus d'un)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Individuos (más de uno)"
+        }
+      ]
+    },
+    {
+      "code": "JVEN",
+      "display": "Joint Venture",
+      "definition": "A business arrangement where two or more parties agree to pool resources for a specific project or business activity.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société en participation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empresa conjunta"
+        }
+      ]
+    },
+    {
+      "code": "LLCO",
+      "display": "Limited Liability Company",
+      "definition": "A business structure that combines the pass-through taxation of a partnership with the limited liability of a corporation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société à responsabilité limitée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sociedad de responsabilidad limitada"
+        }
+      ]
+    },
+    {
+      "code": "LTDP",
+      "display": "Limited Partnership",
+      "definition": "A partnership with one or more general partners and one or more limited partners, where limited partners have liability only up to their investment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société en commandite simple"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sociedad en comandita simple"
+        }
+      ]
+    },
+    {
+      "code": "MUNI",
+      "display": "Municipality",
+      "definition": "A local government unit with corporate status and powers of self-government.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Municipalité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Municipalidad"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "A legal entity type not otherwise specified in this classification.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "PARS",
+      "display": "Parish",
+      "definition": "An ecclesiastical or civil administrative district.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Paroisse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Parroquia"
+        }
+      ]
+    },
+    {
+      "code": "RPRE",
+      "display": "Registered Private Enterprise",
+      "definition": "A privately owned business entity that has completed formal registration with government authorities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreprise privée enregistrée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empresa privada registrada"
+        }
+      ]
+    },
+    {
+      "code": "PROP",
+      "display": "Proprietorship",
+      "definition": "A business owned and operated by a single individual, with no legal distinction between the owner and the business.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreprise individuelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empresa individual"
+        }
+      ]
+    },
+    {
+      "code": "PRTN",
+      "display": "Partnership",
+      "definition": "A business arrangement where two or more individuals share ownership, profits, and liabilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société de personnes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sociedad de personas"
+        }
+      ]
+    },
+    {
+      "code": "RELI",
+      "display": "Individuals Related",
+      "definition": "Multiple individuals who are related by family ties acting together.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Individus apparentés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Individuos relacionados"
+        }
+      ]
+    },
+    {
+      "code": "CA:SCBD",
+      "display": "School Board",
+      "definition": "A governing body responsible for overseeing public education within a specific district.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commission scolaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Junta escolar"
+        }
+      ]
+    },
+    {
+      "code": "SCHL",
+      "display": "School",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "École"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escuela"
+        }
+      ]
+    },
+    {
+      "code": "SORO",
+      "display": "Sorority",
+      "definition": "A social organization typically for women members sharing common interests or purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sororité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hermandad femenina"
+        }
+      ]
+    },
+    {
+      "code": "SYNA",
+      "display": "Synagogue",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Synagogue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sinagoga"
+        }
+      ]
+    },
+    {
+      "code": "TWNS",
+      "display": "Township",
+      "definition": "A territorial subdivision used for local government administration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Municipio"
+        }
+      ]
+    },
+    {
+      "code": "TRST",
+      "display": "Trust",
+      "definition": "A fiduciary arrangement where one party holds assets for the benefit of another.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fiducie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fideicomiso"
+        }
+      ]
+    },
+    {
+      "code": "UNAS",
+      "display": "Unincorporated Association",
+      "definition": "A group of individuals acting collectively without formal incorporation, lacking separate legal personality.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association sans personnalité morale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación no incorporada"
+        }
+      ]
+    },
+    {
+      "code": "COOP",
+      "display": "Cooperative",
+      "definition": "A business or organization owned and operated by its members for their mutual benefit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coopérative"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cooperativa"
+        }
+      ]
+    },
+    {
+      "code": "SOLO",
+      "display": "Sole Proprietorship",
+      "definition": "A business owned and run by one individual with no legal separation between owner and business entity.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriété exclusive"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propietario único"
+        }
+      ]
+    }
+  ]
+}

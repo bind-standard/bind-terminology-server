@@ -1,0 +1,177 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "PorchBreezewayType",
+  "url": "https://bind.codes/PorchBreezewayType",
+  "name": "PorchBreezewayType",
+  "title": "Porch Breezeway Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Porch Breezeway Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CVBR",
+      "display": "Covered Breezeway",
+      "definition": "A roofed walkway or passage that connects two separate structures or parts of a building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Passage recouvert"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pasillo cubierto"
+        }
+      ]
+    },
+    {
+      "code": "CRPT",
+      "display": "Car Port",
+      "definition": "A covered shelter for vehicles, typically having at least one side open to the elements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Abri d'auto"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cochera techada"
+        }
+      ]
+    },
+    {
+      "code": "ENDK",
+      "display": "Enclosed Deck",
+      "definition": "A raised outdoor platform attached to a dwelling that has been enclosed with walls and windows.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrasse fermée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terraza cerrada"
+        }
+      ]
+    },
+    {
+      "code": "PLDL",
+      "display": "Pool Deck",
+      "definition": "A flat surface area surrounding a swimming pool, typically made of concrete, wood, or composite materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plage de piscine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terraza de piscina"
+        }
+      ]
+    },
+    {
+      "code": "RTDK",
+      "display": "Roof Top Deck",
+      "definition": "A recreational deck or terrace built on top of a flat or low-slope roof.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrasse sur le toit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terraza en la azotea"
+        }
+      ]
+    },
+    {
+      "code": "SCPR",
+      "display": "Screened-in Porch",
+      "definition": "A porch that is enclosed with mesh screening material to allow ventilation while keeping insects out.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véranda avec moustiquaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Porche con mosquiteros"
+        }
+      ]
+    },
+    {
+      "code": "VRND",
+      "display": "Veranda",
+      "definition": "A roofed, open-air gallery or porch extending along the outside of a building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véranda"
+        },
+        {
+          "language": "es-MX",
+          "value": "Veranda"
+        }
+      ]
+    },
+    {
+      "code": "OPDK",
+      "display": "Open Deck",
+      "definition": "An uncovered outdoor platform attached to a dwelling, exposed to the elements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrasse ouverte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terraza abierta"
+        }
+      ]
+    },
+    {
+      "code": "PATO",
+      "display": "Patio",
+      "definition": "A paved outdoor area adjoining a dwelling, typically at ground level.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Patio"
+        },
+        {
+          "language": "es-MX",
+          "value": "Patio"
+        }
+      ]
+    },
+    {
+      "code": "BLCN",
+      "display": "Balcony",
+      "definition": "An elevated platform projecting from the wall of a building, enclosed by a railing or parapet.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Balcon"
+        },
+        {
+          "language": "es-MX",
+          "value": "Balcón"
+        }
+      ]
+    },
+    {
+      "code": "PRCH",
+      "display": "Porch",
+      "definition": "A covered shelter at an entrance to a building, typically having a roof and open or partially enclosed sides.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Porche"
+        },
+        {
+          "language": "es-MX",
+          "value": "Porche"
+        }
+      ]
+    }
+  ]
+}

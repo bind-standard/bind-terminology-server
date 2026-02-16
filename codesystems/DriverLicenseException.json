@@ -1,0 +1,192 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "DriverLicenseException",
+  "url": "https://bind.codes/DriverLicenseException",
+  "name": "DriverLicenseException",
+  "title": "Driver License Exception",
+  "status": "draft",
+  "language": "en",
+  "description": "Driver License Exception codes for insurance operations.",
+  "concept": [
+    {
+      "code": "GNFL",
+      "display": "Fleet: no principal operator (e.g.: genuine fleet)",
+      "definition": "A fleet of vehicles without a designated primary driver, typically in commercial fleet operations where multiple drivers share vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Flotte, sans conducteur principal (flotte réelle)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Flota: sin operador principal (p. ej.: flota genuina)"
+        }
+      ]
+    },
+    {
+      "code": "SYNF",
+      "display": "Company or corporation -no principal operator (eg. synthetic fleet)",
+      "definition": "A company or corporation that owns vehicles without a designated principal operator, creating a synthetic fleet arrangement where no single driver is primarily responsible.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie ou société - aucun conducteur principal (ex. flotte artificielle)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empresa o corporación - sin operador principal (p. ej. flota sintética)"
+        }
+      ]
+    },
+    {
+      "code": "SRCH",
+      "display": "Not known: under search",
+      "definition": "Driver information is currently unavailable as the license details are being actively investigated or searched for.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu : sous enquête"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido: en búsqueda"
+        }
+      ]
+    },
+    {
+      "code": "NODR",
+      "display": "No driver operating the insured vehicle",
+      "definition": "A situation where the insured vehicle was not being operated by any driver at the time of the incident, such as a parked vehicle or theft scenario.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun conducteur conduit le véhicule assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ningún conductor operando el vehículo asegurado"
+        }
+      ]
+    },
+    {
+      "code": "FLED",
+      "display": "Unidentified driver: fled the scene of the accident",
+      "definition": "The driver involved in the incident left the scene before being identified, making it impossible to obtain license information.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conducteur non identifié : a fui les lieux de l'accident"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conductor no identificado: huyó de la escena del accidente"
+        }
+      ]
+    },
+    {
+      "code": "UNLC",
+      "display": "Unlicensed driver",
+      "definition": "The driver does not possess a valid driver's license.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conducteur sans permis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conductor sin licencia"
+        }
+      ]
+    },
+    {
+      "code": "NTPR",
+      "display": "No third party involved",
+      "definition": "An incident where no other party or driver was involved, such as single-vehicle accidents.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun tiers impliqué"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ningún tercero involucrado"
+        }
+      ]
+    },
+    {
+      "code": "NFND",
+      "display": "Unsuccessful search for the driver's license number",
+      "definition": "Attempts to locate the driver's license number have been made but were unsuccessful.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Recherche infructueuse du numéro de permis du conducteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Búsqueda infructuosa del número de licencia del conductor"
+        }
+      ]
+    },
+    {
+      "code": "NAUT",
+      "display": "Varied: element not defined as an automobile(e.g.: pedestrian)",
+      "definition": "An incident involving an element that is not classified as an automobile, such as a pedestrian, bicycle, or other non-motorized entity.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Varié : élément non défini comme automobile (par ex. piéton)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Variado: elemento no definido como automóvil (p. ej.: peatón)"
+        }
+      ]
+    },
+    {
+      "code": "REFR",
+      "display": "Refused to provide license",
+      "definition": "The driver declined or refused to provide their driver's license information when requested.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "A refusé de fournir le permis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Se negó a proporcionar licencia"
+        }
+      ]
+    },
+    {
+      "code": "SUSP",
+      "display": "Suspended license",
+      "definition": "The driver's license is currently suspended and not valid for operation of a vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Permis suspendu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Licencia suspendida"
+        }
+      ]
+    },
+    {
+      "code": "EXPR",
+      "display": "Expired license",
+      "definition": "The driver's license has passed its expiration date and is no longer valid.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Permis expiré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Licencia vencida"
+        }
+      ]
+    }
+  ]
+}

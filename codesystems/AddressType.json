@@ -1,0 +1,383 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "AddressType",
+  "url": "https://bind.codes/AddressType",
+  "name": "AddressType",
+  "title": "Address Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Address Type codes.",
+  "concept": [
+    {
+      "code": "COML",
+      "display": "Correspondence/Mailing",
+      "definition": "Address where documents, notices, and official communications are sent.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Correspondance/adressage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Correspondencia/envío postal"
+        }
+      ]
+    },
+    {
+      "code": "RSKL",
+      "display": "Risk",
+      "definition": "Physical location of the property or assets.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Risque"
+        },
+        {
+          "language": "es-MX",
+          "value": "Riesgo"
+        }
+      ]
+    },
+    {
+      "code": "JOBS",
+      "display": "Jobsite",
+      "definition": "Temporary work location where construction, contracting, or project-based work is performed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chantier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Obra/sitio de trabajo"
+        }
+      ]
+    },
+    {
+      "code": "SESN",
+      "display": "Seasonal",
+      "definition": "Property or residence occupied only during certain times of the year, such as a vacation home or cottage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Saisonnière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estacional"
+        }
+      ]
+    },
+    {
+      "code": "SCND",
+      "display": "Secondary",
+      "definition": "Additional property or residence distinct from the primary location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Secondaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Secundaria"
+        }
+      ]
+    },
+    {
+      "code": "LOC3",
+      "display": "3rd Location",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "3e emplacement"
+        },
+        {
+          "language": "es-MX",
+          "value": "3a ubicación"
+        }
+      ]
+    },
+    {
+      "code": "LOC4",
+      "display": "4th Location",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "4e emplacement"
+        },
+        {
+          "language": "es-MX",
+          "value": "4a ubicación"
+        }
+      ]
+    },
+    {
+      "code": "LOC5",
+      "display": "5th Location",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "5e emplacement"
+        },
+        {
+          "language": "es-MX",
+          "value": "5a ubicación"
+        }
+      ]
+    },
+    {
+      "code": "TEMP",
+      "display": "Temporary",
+      "definition": "Short-term location or address used for a limited time period.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Temporaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Temporal"
+        }
+      ]
+    },
+    {
+      "code": "PRIM",
+      "display": "Primary/Principal",
+      "definition": "Main residence or business location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Principale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Primaria/principal"
+        }
+      ]
+    },
+    {
+      "code": "BRNC",
+      "display": "Branch",
+      "definition": "Satellite office or location of a business that operates under the main organization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Succursale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sucursal"
+        }
+      ]
+    },
+    {
+      "code": "SUBS",
+      "display": "Subsidiary",
+      "definition": "Location of a legally separate company controlled by a parent organization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Filiale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Subsidiaria"
+        }
+      ]
+    },
+    {
+      "code": "AFFL",
+      "display": "Affiliate",
+      "definition": "Location of a related business entity with shared ownership or control relationships.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société affiliée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Afiliada"
+        }
+      ]
+    },
+    {
+      "code": "BANK",
+      "display": "Banking Location",
+      "definition": "Address of the financial institution used for payments or settlements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Emplacement bancaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ubicación bancaria"
+        }
+      ]
+    },
+    {
+      "code": "DPST",
+      "display": "Deposit Location",
+      "definition": "Address where goods, equipment, or valuables are stored or held in custody.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Emplacement de consigne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ubicación de depósito"
+        }
+      ]
+    },
+    {
+      "code": "FTTM",
+      "display": "Furthest Truck Terminal",
+      "definition": "Most distant trucking terminal within a commercial transport route.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terminal de camionnage le plus éloigné"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terminal de camiones más lejana"
+        }
+      ]
+    },
+    {
+      "code": "FDST",
+      "display": "Furthest Destination",
+      "definition": "Most distant point in a transit or transportation route.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Destination la plus éloignée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Destino más lejano"
+        }
+      ]
+    },
+    {
+      "code": "DEST",
+      "display": "Destination",
+      "definition": "Final delivery location for transported goods, cargo, or vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Destination"
+        },
+        {
+          "language": "es-MX",
+          "value": "Destino"
+        }
+      ]
+    },
+    {
+      "code": "PREV",
+      "display": "Previous Address",
+      "definition": "Former residence or business location, used for historical reference.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adresse précédente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dirección anterior"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otra"
+        }
+      ]
+    },
+    {
+      "code": "BSNS",
+      "display": "Business",
+      "definition": "Commercial premises where business operations are conducted.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Affaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comercial"
+        }
+      ]
+    },
+    {
+      "code": "BILL",
+      "display": "Billing",
+      "definition": "Address where invoices and notices are sent for payment processing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facturation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Facturación"
+        }
+      ]
+    },
+    {
+      "code": "GARG",
+      "display": "Garage/Storage",
+      "definition": "Location where vehicles, equipment, or other items are regularly kept or stored.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage/entreposage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Garaje/almacenamiento"
+        }
+      ]
+    },
+    {
+      "code": "ORGN",
+      "display": "Origin",
+      "definition": "Starting point for transported goods, cargo, or vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Origine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Origen"
+        }
+      ]
+    },
+    {
+      "code": "CLMC",
+      "display": "Claims Contact",
+      "definition": "Address designated for receiving claim-related correspondence and communications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contact pour réclamations"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contacto de reclamos"
+        }
+      ]
+    }
+  ]
+}

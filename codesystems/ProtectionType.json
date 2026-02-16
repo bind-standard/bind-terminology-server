@@ -1,0 +1,865 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ProtectionType",
+  "url": "https://bind.codes/ProtectionType",
+  "name": "ProtectionType",
+  "title": "Protection Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Protection Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "WSCG",
+      "display": "Watchmen/security guards",
+      "definition": "On-site personnel providing physical security monitoring and surveillance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gardiens de sécurité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vigilantes/guardias de seguridad"
+        }
+      ]
+    },
+    {
+      "code": "HYDT",
+      "display": "Hydrants",
+      "definition": "Fire hydrants providing water supply access for firefighting operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bornes-fontaines"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hidrantes"
+        }
+      ]
+    },
+    {
+      "code": "FDPT",
+      "display": "Fire department",
+      "definition": "Professional firefighting service available to respond to fire emergencies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caserne de pompiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Departamento de bomberos"
+        }
+      ]
+    },
+    {
+      "code": "EXTW",
+      "display": "Hand Held Extinguisher (Water)",
+      "definition": "Portable fire extinguisher using water as the extinguishing agent.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Extincteur portatif (eau)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Extintor portátil (agua)"
+        }
+      ]
+    },
+    {
+      "code": "EXTD",
+      "display": "Hand Held Extinguisher (Dry Chemical)",
+      "definition": "Portable fire extinguisher using dry chemical powder as the extinguishing agent.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Extincteur portatif (produit chimique sec)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Extintor portátil (químico seco)"
+        }
+      ]
+    },
+    {
+      "code": "EXTF",
+      "display": "Hand extinguishers (foam)",
+      "definition": "Portable fire extinguisher using foam as the extinguishing agent.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Extincteur portatif (mousse)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Extintor portátil (espuma)"
+        }
+      ]
+    },
+    {
+      "code": "BRGL",
+      "display": "Breakage-resistant glass",
+      "definition": "Glass material designed to resist breaking or shattering under impact.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vitres résistantes au bris"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vidrio resistente a roturas"
+        }
+      ]
+    },
+    {
+      "code": "STPH",
+      "display": "Standpipe and hose",
+      "definition": "Fixed piping system with hose connections for firefighting water delivery within a building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canalisation et boyau d'incendie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tubería vertical y manguera"
+        }
+      ]
+    },
+    {
+      "code": "FDPR",
+      "display": "Fire division (parapet)",
+      "definition": "Fire-rated wall extension above the roof to prevent fire spread between adjacent sections.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coupe-feu (parapet)"
+        },
+        {
+          "language": "es-MX",
+          "value": "División contra incendios (parapeto)"
+        }
+      ]
+    },
+    {
+      "code": "FENC",
+      "display": "Fence",
+      "definition": "Perimeter barrier structure used to restrict access to a property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clôture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cerca"
+        }
+      ]
+    },
+    {
+      "code": "WSNG",
+      "display": "Warning Signs",
+      "definition": "Visible signage used to alert or deter potential intruders or trespassers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Signaux avertisseurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Señales de advertencia"
+        }
+      ]
+    },
+    {
+      "code": "GDOG",
+      "display": "Guard Dog",
+      "definition": "Trained canine used for security and property protection purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chien de garde"
+        },
+        {
+          "language": "es-MX",
+          "value": "Perro guardián"
+        }
+      ]
+    },
+    {
+      "code": "ANCF",
+      "display": "Anchored or Bolted to Floor",
+      "definition": "Equipment or safe physically secured to the floor structure to prevent removal.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ancré ou boulonné au plancher"
+        },
+        {
+          "language": "es-MX",
+          "value": "Anclado o atornillado al piso"
+        }
+      ]
+    },
+    {
+      "code": "RLKD",
+      "display": "Re-locking Device",
+      "definition": "Mechanism that automatically re-secures a lock when tampering is detected.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dispositif de reverrouillage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dispositivo de re-bloqueo"
+        }
+      ]
+    },
+    {
+      "code": "EWTS",
+      "display": "Extra Weight Added to Safe",
+      "definition": "Additional mass added to a safe to make it more difficult to move or steal.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poids supplémentaire ajouté au coffre-fort"
+        },
+        {
+          "language": "es-MX",
+          "value": "Peso extra agregado a la caja fuerte"
+        }
+      ]
+    },
+    {
+      "code": "PFLG",
+      "display": "Perimeter Fence and Lockable Gate",
+      "definition": "Complete boundary fencing system with access point that can be secured with a lock.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clôture d'enceinte et barrière verrouillable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cerca perimetral y portón con cerradura"
+        }
+      ]
+    },
+    {
+      "code": "EXTL",
+      "display": "Exterior Lighting",
+      "definition": "Outdoor illumination system used to increase visibility and deter unauthorized access.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Éclairage extérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Iluminación exterior"
+        }
+      ]
+    },
+    {
+      "code": "ENVS",
+      "display": "Entrance(s) Visible from Street",
+      "definition": "Building entry points that have clear sightlines from public roadways.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entrée visible de la rue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entrada(s) visible(s) desde la calle"
+        }
+      ]
+    },
+    {
+      "code": "MSNL",
+      "display": "Motion Sensitive Lighting",
+      "definition": "Lighting system that activates automatically when movement is detected.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Éclairage activé par détecteur de mouvements"
+        },
+        {
+          "language": "es-MX",
+          "value": "Iluminación sensible al movimiento"
+        }
+      ]
+    },
+    {
+      "code": "PLIN",
+      "display": "Property/Lot Illuminated at Night",
+      "definition": "Continuous nighttime lighting of the property or lot area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriété/terrain illuminé durant la nuit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propiedad/lote iluminado por la noche"
+        }
+      ]
+    },
+    {
+      "code": "SECC",
+      "display": "Safe Encased in Concrete",
+      "definition": "Safe embedded within concrete structure for enhanced theft protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coffre-fort encastré dans le béton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caja fuerte empotrada en concreto"
+        }
+      ]
+    },
+    {
+      "code": "SFPN",
+      "display": "Secured or Fastened to the Premises (Other Than Floor)",
+      "definition": "Equipment physically attached to building structure such as walls or ceiling.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fixé ou attaché sur les lieux (autre que le plancher)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asegurado o fijado a las instalaciones (que no sea el piso)"
+        }
+      ]
+    },
+    {
+      "code": "STBO",
+      "display": "Steel Bars on Openings",
+      "definition": "Metal bars installed over windows, doors, or other openings to prevent forced entry.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Barres d'acier sur les ouvertures"
+        },
+        {
+          "language": "es-MX",
+          "value": "Barras de acero en aberturas"
+        }
+      ]
+    },
+    {
+      "code": "WGBD",
+      "display": "Windows Protected with Glass Breakage Detectors",
+      "definition": "Sensor system that detects the sound or vibration of breaking glass.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fenêtres protégées par des détecteurs de bris de verre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ventanas protegidas con detectores de rotura de vidrio"
+        }
+      ]
+    },
+    {
+      "code": "CWSM",
+      "display": "Common Tenant Walls Reinforced with Steel Mesh",
+      "definition": "Shared walls between tenants strengthened with steel mesh material to prevent break-through.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Murs mitoyens renforcés d'armature en treillis métallique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paredes comunes reforzadas con malla de acero"
+        }
+      ]
+    },
+    {
+      "code": "SPPV",
+      "display": "Steel Post at Front and Rear to Prevent Vehicle Entry",
+      "definition": "Metal bollards positioned to block unauthorized vehicle access to the property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poteau d'acier à l'avant et à l'arrière pour empêcher l'entrée des véhicules"
+        },
+        {
+          "language": "es-MX",
+          "value": "Poste de acero al frente y atrás para prevenir entrada de vehículos"
+        }
+      ]
+    },
+    {
+      "code": "SSSE",
+      "display": "Stock Secured - Separate Enclosure When Business Closed",
+      "definition": "Inventory stored in a dedicated secured area when the business is not operating.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marchandises protégées - Dans un enclos séparé en-dehors des heures d'affaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inventario asegurado - Recinto separado cuando el negocio está cerrado"
+        }
+      ]
+    },
+    {
+      "code": "EDIH",
+      "display": "Exterior Doors of Sturdy Construction, Inside Hinges",
+      "definition": "External doors made from durable materials with hinges mounted on the interior side.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Portes extérieures de construction solide, charnières intérieures"
+        },
+        {
+          "language": "es-MX",
+          "value": "Puertas exteriores de construcción robusta, bisagras interiores"
+        }
+      ]
+    },
+    {
+      "code": "HUPB",
+      "display": "Hold-up Buttons",
+      "definition": "Emergency panic buttons that silently alert authorities during a robbery in progress.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boutons d'urgence en cas de cambriolage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Botones de emergencia para asalto"
+        }
+      ]
+    },
+    {
+      "code": "CA:WUSF",
+      "display": "Windows Protected by ULC Security Film",
+      "definition": "Window protection film meeting Canadian Underwriters Laboratories standards for security.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fenêtres protégées par une pellicule de sécurité homologuée ULC"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ventanas protegidas por película de seguridad ULC"
+        }
+      ]
+    },
+    {
+      "code": "SRAC",
+      "display": "Skylight and Roof Air Conditioner Openings Blocked Off",
+      "definition": "Roof penetrations sealed or blocked to prevent unauthorized access from above.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ouvertures des lanterneaux et des climatiseurs en toiture obturées"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aberturas de tragaluz y aire acondicionado en techo bloqueadas"
+        }
+      ]
+    },
+    {
+      "code": "AFWP",
+      "display": "Alarm 'Fine Wire' Protecting Openings",
+      "definition": "Alarm system using thin wire circuits that trigger when openings are breached.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Système d'alarme \"fil électrique fin\" protégeant les ouvertures"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alarma de 'cable fino' protegiendo aberturas"
+        }
+      ]
+    },
+    {
+      "code": "LDMC",
+      "display": "Loading Doors of Metal Construction, Secured Internally",
+      "definition": "Cargo access doors made of metal with locking mechanisms accessible only from inside.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Portes de l'aire de chargement en métal, protégées de l'intérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Puertas de carga de construcción metálica, aseguradas internamente"
+        }
+      ]
+    },
+    {
+      "code": "WASO",
+      "display": "Warehouse Area Alarmed Separately from Office",
+      "definition": "Storage area equipped with an independent alarm system distinct from office space alarms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entrepôt muni d'un système d'alarme distinct du bureau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Área de almacén con alarma separada de la oficina"
+        }
+      ]
+    },
+    {
+      "code": "SCMS",
+      "display": "Stockroom Ceiling Entirely Covered by Motion Sensor",
+      "definition": "Complete overhead coverage of storage area with motion detection technology.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plafond de l'entrepôt entièrement couvert par un détecteur de mouvement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Techo del almacén totalmente cubierto por sensor de movimiento"
+        }
+      ]
+    },
+    {
+      "code": "ACML",
+      "display": "Additional Combination Lock",
+      "definition": "Supplementary locking mechanism requiring a numeric or alphanumeric code to open.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Serrure à combinaison supplémentaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cerradura de combinación adicional"
+        }
+      ]
+    },
+    {
+      "code": "MLKS",
+      "display": "Multiple Lock Styles",
+      "definition": "Use of different types of locking mechanisms on the same door or safe.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À serrures multiples"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estilos de cerraduras múltiples"
+        }
+      ]
+    },
+    {
+      "code": "DRSL",
+      "display": "Drop Slot",
+      "definition": "Secure deposit opening for after-hours cash or document deposits into a safe.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coffre de nuit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ranura de depósito"
+        }
+      ]
+    },
+    {
+      "code": "ADKY",
+      "display": "Additional Key",
+      "definition": "Extra physical key required in combination with existing lock mechanisms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clé supplémentaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Llave adicional"
+        }
+      ]
+    },
+    {
+      "code": "TMOC",
+      "display": "Timed Opening and/or Closing",
+      "definition": "Lock mechanism with time-delayed or scheduled access control.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ouverture et/ou fermeture programmées"
+        },
+        {
+          "language": "es-MX",
+          "value": "Apertura y/o cierre programado"
+        }
+      ]
+    },
+    {
+      "code": "SPBT",
+      "display": "Spray Booth",
+      "definition": "Enclosed ventilated area for paint spraying operations with fire safety features.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cabine/zone de pulvérisation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cabina de pintura"
+        }
+      ]
+    },
+    {
+      "code": "DSTC",
+      "display": "Dust Collector",
+      "definition": "System for capturing airborne particulate matter to reduce fire and health hazards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Capteur de poussière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Colector de polvo"
+        }
+      ]
+    },
+    {
+      "code": "FNLK",
+      "display": "Fence with Locks",
+      "definition": "Perimeter fencing equipped with locking mechanisms at access points.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clôture munie d'une serrure"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cerca con cerraduras"
+        }
+      ]
+    },
+    {
+      "code": "PLPT",
+      "display": "Police Patrols",
+      "definition": "Regular law enforcement monitoring of the property area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Patrouilles de police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Patrullas policiales"
+        }
+      ]
+    },
+    {
+      "code": "AAPG",
+      "display": "Alarms (Automobile Parking Garage only)",
+      "definition": "Security alarm system specifically installed for vehicle parking facility protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Système d'alarme (Garage de stationnement automobile seulement)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alarmas (solo estacionamiento de automóviles)"
+        }
+      ]
+    },
+    {
+      "code": "SAFE",
+      "display": "Safe",
+      "definition": "Secure lockable container for storing valuables, cash, or documents.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coffre-fort"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caja fuerte"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "SMKD",
+      "display": "Smoke Detectors",
+      "definition": "Devices that sense smoke particles in the air and trigger an alarm.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détecteurs de fumée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Detectores de humo"
+        }
+      ]
+    },
+    {
+      "code": "PEXT",
+      "display": "Portable Extinguishers",
+      "definition": "Mobile fire suppression devices that can be carried to the location of a fire.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Extincteur Portable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Extintores portátiles"
+        }
+      ]
+    },
+    {
+      "code": "RDSS",
+      "display": "Roll Down Security Shields",
+      "definition": "Metal shutters that roll down to cover and protect windows or doors.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boucliers de sécurité déroullants"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cortinas de seguridad enrollables"
+        }
+      ]
+    },
+    {
+      "code": "MSCM",
+      "display": "Monitored Surveillance Cameras",
+      "definition": "Video surveillance system with active monitoring by security personnel or service.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caméras de surveillance contrôllées"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cámaras de vigilancia monitoreadas"
+        }
+      ]
+    },
+    {
+      "code": "USCM",
+      "display": "Unmonitored Surveillance Cameras",
+      "definition": "Video recording system without real-time monitoring, used for post-incident review.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caméras de surveillance non contrôllées"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cámaras de vigilancia no monitoreadas"
+        }
+      ]
+    },
+    {
+      "code": "SPKL",
+      "display": "Sprinkler System",
+      "definition": "Automated water-based fire suppression system activated by heat detection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Système de gicleurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sistema de rociadores"
+        }
+      ]
+    },
+    {
+      "code": "ACSS",
+      "display": "Access Control System",
+      "definition": "Electronic system managing and monitoring entry permissions through cards, codes, or biometrics.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Système de contrôle d'accès"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sistema de control de acceso"
+        }
+      ]
+    },
+    {
+      "code": "DHLD",
+      "display": "Deadbolt Locks",
+      "definition": "Lock mechanism where a solid metal bolt extends into the door frame for enhanced security.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Serrures à pêne dormant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cerraduras de cerrojo"
+        }
+      ]
+    },
+    {
+      "code": "CCTV",
+      "display": "CCTV Recording System",
+      "definition": "Closed-circuit television system capturing and storing video footage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Système d'enregistrement CCTV"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sistema de grabación CCTV"
+        }
+      ]
+    }
+  ]
+}

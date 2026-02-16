@@ -1,0 +1,684 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "LocationType",
+  "url": "https://bind.codes/LocationType",
+  "name": "LocationType",
+  "title": "Location Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Location Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ABGR",
+      "display": "Above Ground",
+      "definition": "Positioned above the ground surface level.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors terre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sobre el suelo"
+        }
+      ]
+    },
+    {
+      "code": "INGR",
+      "display": "In Ground",
+      "definition": "Positioned below the ground surface level or buried.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous terre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bajo tierra"
+        }
+      ]
+    },
+    {
+      "code": "INSD",
+      "display": "Inside",
+      "definition": "Located within the interior of a structure or building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'intérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Adentro"
+        }
+      ]
+    },
+    {
+      "code": "OUTD",
+      "display": "Outside",
+      "definition": "Located on the exterior or outside of a structure or building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'extérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Afuera"
+        }
+      ]
+    },
+    {
+      "code": "IAGR",
+      "display": "Inside and Above Ground",
+      "definition": "Located both within a structure and above ground level.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'intérieur et hors terre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Adentro y sobre el suelo"
+        }
+      ]
+    },
+    {
+      "code": "IIGR",
+      "display": "Inside and In Ground",
+      "definition": "Located both within a structure and below ground level.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'intérieur et sous terre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Adentro y bajo tierra"
+        }
+      ]
+    },
+    {
+      "code": "OAGR",
+      "display": "Outside and Above Ground",
+      "definition": "Located outside a structure and above ground level.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'extérieur et hors terre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Afuera y sobre el suelo"
+        }
+      ]
+    },
+    {
+      "code": "OIGR",
+      "display": "Outside and In Ground",
+      "definition": "Located outside a structure and below ground level.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'extérieur et sous terre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Afuera y bajo tierra"
+        }
+      ]
+    },
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "INDR",
+      "display": "Indoor",
+      "definition": "Within an enclosed building or structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Interior"
+        }
+      ]
+    },
+    {
+      "code": "OUTR",
+      "display": "Outdoor",
+      "definition": "In an open-air or external environment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Extérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Exterior"
+        }
+      ]
+    },
+    {
+      "code": "INOU",
+      "display": "Indoor and Outdoor",
+      "definition": "Spanning both enclosed and open-air environments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intérieur et extérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Interior y exterior"
+        }
+      ]
+    },
+    {
+      "code": "RSCH",
+      "display": "Research",
+      "definition": "Facility or area designated for research activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Recherche"
+        },
+        {
+          "language": "es-MX",
+          "value": "Investigación"
+        }
+      ]
+    },
+    {
+      "code": "DIST",
+      "display": "Distribution",
+      "definition": "Facility or area used for distribution operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Distribution"
+        },
+        {
+          "language": "es-MX",
+          "value": "Distribución"
+        }
+      ]
+    },
+    {
+      "code": "MNFG",
+      "display": "Manufacturing",
+      "definition": "Facility or area used for manufacturing or production activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fabrication"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fabricación"
+        }
+      ]
+    },
+    {
+      "code": "BZDS",
+      "display": "Business District",
+      "definition": "Area characterized by commercial and business establishments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Quartier des affaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Distrito comercial"
+        }
+      ]
+    },
+    {
+      "code": "SRVC",
+      "display": "Service, Repair",
+      "definition": "Facility or area designated for service and repair operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service, réparations"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio, reparación"
+        }
+      ]
+    },
+    {
+      "code": "FSTD",
+      "display": "Free Standing",
+      "definition": "Structure that stands independently without attachment to other buildings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autoporteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Independiente"
+        }
+      ]
+    },
+    {
+      "code": "ATWL",
+      "display": "Attached (Flat) to Wall",
+      "definition": "Mounted flush against a wall surface.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Attaché sur le mur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Adherido a la pared"
+        }
+      ]
+    },
+    {
+      "code": "ROOF",
+      "display": "Mounted on Roof",
+      "definition": "Installed or positioned on top of a building's roof.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Monté sur le toit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Montado en el techo"
+        }
+      ]
+    },
+    {
+      "code": "WLRF",
+      "display": "Mounted on Wall, Partially over Rooftop",
+      "definition": "Attached to a wall with portions extending above the roofline.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Monté sur le mur, partiellement dépassant le toit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Montado en la pared, parcialmente sobre el techo"
+        }
+      ]
+    },
+    {
+      "code": "WLOV",
+      "display": "Mounted off Wall, Overhanging Street or Sidewalk Below",
+      "definition": "Projecting from a wall and extending over a street or sidewalk.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Monté sur le mur, en surplomb de la rue ou trottoir ci-dessous"
+        },
+        {
+          "language": "es-MX",
+          "value": "Montado en la pared, con voladizo sobre la calle o acera"
+        }
+      ]
+    },
+    {
+      "code": "ADJS",
+      "display": "Adjacent Suite",
+      "definition": "Located in a neighboring or adjoining suite or unit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau adjacent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Suite adyacente"
+        }
+      ]
+    },
+    {
+      "code": "ISOL",
+      "display": "Isolated",
+      "definition": "Located away from other structures or populated areas.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Isolé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aislado"
+        }
+      ]
+    },
+    {
+      "code": "ADJB",
+      "display": "Adjacent (Separate) Building",
+      "definition": "Located in a separate but neighboring building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Édifice adjacent (séparé)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Edificio adyacente (separado)"
+        }
+      ]
+    },
+    {
+      "code": "SAMB",
+      "display": "In Same Building",
+      "definition": "Located within the same building structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dans le même édifice"
+        },
+        {
+          "language": "es-MX",
+          "value": "En el mismo edificio"
+        }
+      ]
+    },
+    {
+      "code": "UGTN",
+      "display": "Underground Tank",
+      "definition": "Storage tank positioned below ground level.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réservoir souterrain"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tanque subterráneo"
+        }
+      ]
+    },
+    {
+      "code": "AGTN",
+      "display": "Above Ground Tank",
+      "definition": "Storage tank positioned above ground level.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réservoir hors terre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tanque sobre el suelo"
+        }
+      ]
+    },
+    {
+      "code": "RSDL",
+      "display": "Residential",
+      "definition": "Area or district used primarily for housing or dwelling purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résidentiel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Residencial"
+        }
+      ]
+    },
+    {
+      "code": "HILL",
+      "display": "Hilly Terrain",
+      "definition": "Landscape characterized by elevated rolling hills.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrain onduleux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terreno montañoso"
+        }
+      ]
+    },
+    {
+      "code": "ONPR",
+      "display": "On-premises",
+      "definition": "Located within the boundaries of the primary property or site.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sur les lieux"
+        },
+        {
+          "language": "es-MX",
+          "value": "En las instalaciones"
+        }
+      ]
+    },
+    {
+      "code": "OFPR",
+      "display": "Off-premises",
+      "definition": "Located outside the boundaries of the primary property or site.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors des lieux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fuera de las instalaciones"
+        }
+      ]
+    },
+    {
+      "code": "ONTP",
+      "display": "On Top",
+      "definition": "Positioned on the upper surface.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sur le dessus"
+        },
+        {
+          "language": "es-MX",
+          "value": "En la parte superior"
+        }
+      ]
+    },
+    {
+      "code": "UNDR",
+      "display": "Underneath",
+      "definition": "Positioned beneath or below another object or surface.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En dessous"
+        },
+        {
+          "language": "es-MX",
+          "value": "Debajo"
+        }
+      ]
+    },
+    {
+      "code": "SIDE",
+      "display": "On the Side",
+      "definition": "Positioned on a lateral surface.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sur le côté"
+        },
+        {
+          "language": "es-MX",
+          "value": "En el lado"
+        }
+      ]
+    },
+    {
+      "code": "MNTN",
+      "display": "Mountainous Terrain",
+      "definition": "Landscape characterized by significant elevations and mountain ranges.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrain montagneux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terreno montañoso"
+        }
+      ]
+    },
+    {
+      "code": "TANK",
+      "display": "At the Tank",
+      "definition": "Positioned at or near the storage tank location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Au réservoir"
+        },
+        {
+          "language": "es-MX",
+          "value": "En el tanque"
+        }
+      ]
+    },
+    {
+      "code": "FBRN",
+      "display": "At the Furnace Burner",
+      "definition": "Positioned at or near the heating system's combustion unit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Au brûleur de la chaudière"
+        },
+        {
+          "language": "es-MX",
+          "value": "En el quemador del horno"
+        }
+      ]
+    },
+    {
+      "code": "WTLD",
+      "display": "Muskeg, Bog, Marsh etc. Terrain",
+      "definition": "Landscape characterized by wetland features such as swamps, bogs, or marshes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tourbière, marais, marécage, etc. - Terrain"
+        },
+        {
+          "language": "es-MX",
+          "value": "Turbera, pantano, marisma, etc. - Terreno"
+        }
+      ]
+    },
+    {
+      "code": "FLAT",
+      "display": "Flat Terrain",
+      "definition": "Landscape characterized by level ground with minimal elevation changes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrain plat"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terreno plano"
+        }
+      ]
+    },
+    {
+      "code": "BSMT",
+      "display": "Basement",
+      "definition": "Level of a building that is partially or fully below ground.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous-sol"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sótano"
+        }
+      ]
+    },
+    {
+      "code": "ATTIC",
+      "display": "Attic",
+      "definition": "Space or room directly beneath the roof of a building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grenier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ático"
+        }
+      ]
+    },
+    {
+      "code": "GARR",
+      "display": "Garage",
+      "definition": "Structure or space designated for vehicle storage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Garaje"
+        }
+      ]
+    }
+  ]
+}

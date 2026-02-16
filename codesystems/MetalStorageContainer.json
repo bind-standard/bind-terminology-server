@@ -1,0 +1,57 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "MetalStorageContainer",
+  "url": "https://bind.codes/MetalStorageContainer",
+  "name": "MetalStorageContainer",
+  "title": "Metal Storage Container",
+  "status": "draft",
+  "language": "en",
+  "description": "Metal Storage Container codes for insurance operations.",
+  "concept": [
+    {
+      "code": "INSD",
+      "display": "Inside",
+      "definition": "The metal storage container is located within an enclosed building or structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'intérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Adentro"
+        }
+      ]
+    },
+    {
+      "code": "OTSD",
+      "display": "Outside",
+      "definition": "The metal storage container is located in an exterior or outdoor area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'extérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Afuera"
+        }
+      ]
+    },
+    {
+      "code": "PTCV",
+      "display": "Partially Covered",
+      "definition": "The metal storage container has partial shelter or covering from environmental elements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Partiellement couvert"
+        },
+        {
+          "language": "es-MX",
+          "value": "Parcialmente cubierto"
+        }
+      ]
+    }
+  ]
+}

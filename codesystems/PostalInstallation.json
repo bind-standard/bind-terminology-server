@@ -1,0 +1,87 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "PostalInstallation",
+  "url": "https://bind.codes/PostalInstallation",
+  "name": "PostalInstallation",
+  "title": "Postal Installation",
+  "status": "draft",
+  "language": "en",
+  "description": "Postal Installation codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CA:RTPO",
+      "display": "Retail Postal Outlet",
+      "definition": "A privately operated retail location authorized to provide postal services on behalf of Canada Post.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comptoir postal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Punto de venta postal minorista"
+        }
+      ]
+    },
+    {
+      "code": "CA:STAS",
+      "display": "Station",
+      "definition": "A Canada Post facility that provides full postal services including mail processing and distribution.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Succursale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estación"
+        }
+      ]
+    },
+    {
+      "code": "CA:LCBX",
+      "display": "Letter Carrier Depot",
+      "definition": "A Canada Post facility serving as a base for letter carriers delivering mail to specific routes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dépôt de facteurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Depósito de carteros"
+        }
+      ]
+    },
+    {
+      "code": "CA:PLNT",
+      "display": "Processing Plant",
+      "definition": "A large-scale Canada Post facility dedicated to sorting and processing mail for distribution.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Centre de traitement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Planta de procesamiento"
+        }
+      ]
+    },
+    {
+      "code": "CA:CMBU",
+      "display": "Community Mailbox",
+      "definition": "A centralized mail delivery structure serving multiple addresses in a residential area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boîte aux lettres communautaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Buzón comunitario"
+        }
+      ]
+    }
+  ]
+}

@@ -30,7 +30,7 @@ That's it. All contributions are reviewed before merging.
 
 - Keep PRs focused. One code system or one logical change per pull request.
 - Include a clear description of *why* the change is needed, not just *what* changed.
-- Follow existing naming conventions: kebab-case file names, kebab-case concept codes, PascalCase `name` fields.
+- Follow existing naming conventions: PascalCase file names matching the `id` field (e.g. `AdMedia.json`), kebab-case concept codes, PascalCase `name` fields.
 - Every concept must have `code`, `display`, and `definition`. The `definition` should be a meaningful description, not just a repeat of `display`.
 - Translations go in the `designation` array using BCP-47 language tags (e.g. `fr-CA`).
 

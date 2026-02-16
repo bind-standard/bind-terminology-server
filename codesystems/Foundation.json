@@ -1,0 +1,206 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Foundation",
+  "url": "https://bind.codes/Foundation",
+  "name": "Foundation",
+  "title": "Foundation",
+  "status": "draft",
+  "language": "en",
+  "description": "Foundation codes for insurance operations.",
+  "concept": [
+    {
+      "code": "BRCK",
+      "display": "Brick",
+      "definition": "A foundation constructed from fired clay bricks, typically laid in mortar courses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Brique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ladrillo"
+        }
+      ]
+    },
+    {
+      "code": "CBLK",
+      "display": "Concrete Blocks",
+      "definition": "A foundation built using precast concrete masonry units (CMU blocks).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Blocs de béton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bloques de concreto"
+        }
+      ]
+    },
+    {
+      "code": "POUR",
+      "display": "Poured Concrete",
+      "definition": "A monolithic foundation created by pouring concrete into forms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton coulé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Concreto vaciado"
+        }
+      ]
+    },
+    {
+      "code": "RCON",
+      "display": "Reinforced Concrete",
+      "definition": "A concrete foundation strengthened with steel reinforcement bars (rebar) or mesh.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton armé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Concreto reforzado"
+        }
+      ]
+    },
+    {
+      "code": "STON",
+      "display": "Stone",
+      "definition": "A foundation built from natural stone materials, either mortared or dry-stacked.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pierre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Piedra"
+        }
+      ]
+    },
+    {
+      "code": "BSMT",
+      "display": "Basement",
+      "definition": "A full-depth foundation with habitable or storage space below ground level.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous-sol"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sótano"
+        }
+      ]
+    },
+    {
+      "code": "CRWS",
+      "display": "Crawlspace",
+      "definition": "A shallow foundation with limited access space beneath the structure, typically 1-3 feet in height.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vide sanitaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Espacio de acceso"
+        }
+      ]
+    },
+    {
+      "code": "SLAB",
+      "display": "Slab",
+      "definition": "A flat concrete foundation poured directly on grade, with no space beneath the structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dalle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Losa"
+        }
+      ]
+    },
+    {
+      "code": "PIER",
+      "display": "Post/Pier",
+      "definition": "A foundation system using vertical posts or piers that elevate the structure above ground level.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Piliers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pilares"
+        }
+      ]
+    },
+    {
+      "code": "BLOK",
+      "display": "On Blocks",
+      "definition": "A temporary or permanent foundation using concrete blocks without mortar, typically for mobile structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sur blocs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sobre bloques"
+        }
+      ]
+    },
+    {
+      "code": "WHEL",
+      "display": "On Wheels",
+      "definition": "A mobile foundation system where the structure remains mounted on wheels or axles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sur roues"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sobre ruedas"
+        }
+      ]
+    },
+    {
+      "code": "TMBR",
+      "display": "On Timber",
+      "definition": "A foundation constructed from wooden posts, beams, or timbers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sur bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sobre madera"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

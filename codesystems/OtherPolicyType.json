@@ -1,0 +1,116 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "OtherPolicyType",
+  "url": "https://bind.codes/OtherPolicyType",
+  "name": "OtherPolicyType",
+  "title": "Other Policy Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Other Policy Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "PRPR",
+      "display": "Prior Policy",
+      "definition": "A policy that was previously held by the insured before the current policy period.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police précédente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Póliza anterior"
+        }
+      ]
+    },
+    {
+      "code": "REPL",
+      "display": "Replacing Policy",
+      "definition": "A policy that is superseding or taking the place of an existing policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remplace la police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Póliza de reemplazo"
+        }
+      ]
+    },
+    {
+      "code": "UNDR",
+      "display": "Underlying Policy",
+      "definition": "A base or primary policy over which excess or umbrella coverage is placed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police de base"
+        },
+        {
+          "language": "es-MX",
+          "value": "Póliza subyacente"
+        }
+      ]
+    },
+    {
+      "code": "UMBR",
+      "display": "Umbrella Policy",
+      "definition": "A liability policy that provides additional coverage limits above underlying policies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police parapluie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Póliza paraguas"
+        }
+      ]
+    },
+    {
+      "code": "EXCS",
+      "display": "Excess Policy",
+      "definition": "A policy that provides coverage after the limits of the underlying policy have been exhausted.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police d'excédent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Póliza de exceso"
+        }
+      ]
+    },
+    {
+      "code": "COMP",
+      "display": "Companion Policy",
+      "definition": "A separate policy held concurrently with another policy, often covering different aspects of the same risk.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police complémentaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Póliza complementaria"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "LandUse",
+  "url": "https://bind.codes/LandUse",
+  "name": "LandUse",
+  "title": "Land Use",
+  "status": "draft",
+  "language": "en",
+  "description": "Land Use codes for insurance operations.",
+  "concept": [
+    {
+      "code": "HOSP",
+      "display": "Hospital",
+      "definition": "A medical facility providing inpatient and outpatient care, including emergency services and specialized treatments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hôpital"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hospital"
+        }
+      ]
+    },
+    {
+      "code": "DENS",
+      "display": "Moderate or Densely Populated",
+      "definition": "Area with moderate to high population concentration, typically characterized by urban or suburban development patterns.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À moyenne ou forte densité de population"
+        },
+        {
+          "language": "es-MX",
+          "value": "Moderadamente o densamente poblado"
+        }
+      ]
+    },
+    {
+      "code": "PARK",
+      "display": "Park or Recreation Area",
+      "definition": "Public or private space designated for leisure activities, outdoor recreation, and community gatherings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Parc ou aire de récréation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Parque o área recreativa"
+        }
+      ]
+    },
+    {
+      "code": "WATR",
+      "display": "Body of Water or Natural Watercourse",
+      "definition": "Natural water features including lakes, rivers, streams, ponds, and other aquatic environments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Masse d'eau ou cours d'eau naturel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cuerpo de agua o curso de agua natural"
+        }
+      ]
+    },
+    {
+      "code": "SCHL",
+      "display": "School",
+      "definition": "Educational institution providing instruction to students, including elementary, secondary, and post-secondary facilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "École"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escuela"
+        }
+      ]
+    },
+    {
+      "code": "FARM",
+      "display": "Farmland",
+      "definition": "Land used for agricultural purposes, including crop cultivation, livestock grazing, and related farming operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrain agricole"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tierra de cultivo"
+        }
+      ]
+    },
+    {
+      "code": "VCNT",
+      "display": "Vacant",
+      "definition": "Undeveloped or unused land with no current structures or active use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vacant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vacante"
+        }
+      ]
+    },
+    {
+      "code": "RESI",
+      "display": "Residential",
+      "definition": "Land designated primarily for housing and dwelling purposes, including single-family homes, apartments, and condominiums.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résidentiel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Residencial"
+        }
+      ]
+    },
+    {
+      "code": "COMM",
+      "display": "Commercial",
+      "definition": "Land used for business activities, retail operations, offices, and other profit-oriented enterprises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commercial"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comercial"
+        }
+      ]
+    },
+    {
+      "code": "INDU",
+      "display": "Industrial",
+      "definition": "Land designated for manufacturing, warehousing, distribution, and heavy industrial operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Industriel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Industrial"
+        }
+      ]
+    },
+    {
+      "code": "FRST",
+      "display": "Forest or Woodland",
+      "definition": "Land covered primarily with trees and natural vegetation, including managed forests and conservation areas.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Forêt ou terrain boisé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bosque o arbolado"
+        }
+      ]
+    },
+    {
+      "code": "WETL",
+      "display": "Wetland",
+      "definition": "Land area saturated with water either permanently or seasonally, including marshes, swamps, and bogs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Zone humide"
+        },
+        {
+          "language": "es-MX",
+          "value": "Humedal"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "DirectionType",
+  "url": "https://bind.codes/DirectionType",
+  "name": "DirectionType",
+  "title": "Direction Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Direction Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "EAST",
+      "display": "East",
+      "definition": "Cardinal direction towards the sunrise, perpendicular to north-south axis.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Est"
+        },
+        {
+          "language": "es-MX",
+          "value": "Este"
+        }
+      ]
+    },
+    {
+      "code": "NRTH",
+      "display": "North",
+      "definition": "Cardinal direction towards the North Pole, typically upward on maps.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nord"
+        },
+        {
+          "language": "es-MX",
+          "value": "Norte"
+        }
+      ]
+    },
+    {
+      "code": "NEAS",
+      "display": "North East",
+      "definition": "Ordinal direction midway between north and east.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nord-est"
+        },
+        {
+          "language": "es-MX",
+          "value": "Noreste"
+        }
+      ]
+    },
+    {
+      "code": "NWST",
+      "display": "North West",
+      "definition": "Ordinal direction midway between north and west.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nord-ouest"
+        },
+        {
+          "language": "es-MX",
+          "value": "Noroeste"
+        }
+      ]
+    },
+    {
+      "code": "SOUT",
+      "display": "South",
+      "definition": "Cardinal direction towards the South Pole, typically downward on maps.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sud"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sur"
+        }
+      ]
+    },
+    {
+      "code": "SEAS",
+      "display": "South East",
+      "definition": "Ordinal direction midway between south and east.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sud-est"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sureste"
+        }
+      ]
+    },
+    {
+      "code": "SWST",
+      "display": "South West",
+      "definition": "Ordinal direction midway between south and west.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sud-ouest"
+        },
+        {
+          "language": "es-MX",
+          "value": "Suroeste"
+        }
+      ]
+    },
+    {
+      "code": "WEST",
+      "display": "West",
+      "definition": "Cardinal direction towards the sunset, perpendicular to north-south axis.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ouest"
+        },
+        {
+          "language": "es-MX",
+          "value": "Oeste"
+        }
+      ]
+    }
+  ]
+}

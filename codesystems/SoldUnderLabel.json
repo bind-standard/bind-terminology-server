@@ -1,0 +1,86 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "SoldUnderLabel",
+  "url": "https://bind.codes/SoldUnderLabel",
+  "name": "SoldUnderLabel",
+  "title": "Sold Under Label",
+  "status": "draft",
+  "language": "en",
+  "description": "Sold Under Label codes for insurance operations.",
+  "concept": [
+    {
+      "code": "APPL",
+      "display": "Applicant's label",
+      "definition": "Product sold under the applicant's or insured's own brand name or label.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Étiquette du demandeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Etiqueta del solicitante"
+        }
+      ]
+    },
+    {
+      "code": "SUPL",
+      "display": "Supplier's label",
+      "definition": "Product sold under the supplier's or manufacturer's brand name or label.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Étiquette du fournisseur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Etiqueta del proveedor"
+        }
+      ]
+    },
+    {
+      "code": "BUYR",
+      "display": "Buyer's label",
+      "definition": "Product sold under the buyer's or purchaser's brand name or label.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Étiquette de l'acheteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Etiqueta del comprador"
+        }
+      ]
+    },
+    {
+      "code": "GENR",
+      "display": "Generic/No label",
+      "definition": "Product sold without a specific brand name or label, typically as a generic product.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Générique/Sans étiquette"
+        },
+        {
+          "language": "es-MX",
+          "value": "Genérico/Sin etiqueta"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

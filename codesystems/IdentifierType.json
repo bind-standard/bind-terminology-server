@@ -1,0 +1,458 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "IdentifierType",
+  "url": "https://bind.codes/IdentifierType",
+  "name": "IdentifierType",
+  "title": "Identifier Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Identifier Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ADIV",
+      "display": "Authority Division ID/Number",
+      "definition": "Unique identifier assigned to a specific division within an authority or organization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "No de la division"
+        },
+        {
+          "language": "es-MX",
+          "value": "Número de división de autoridad"
+        }
+      ]
+    },
+    {
+      "code": "ALOC",
+      "display": "Authority Location ID/Number",
+      "definition": "Unique identifier assigned to a specific physical location managed by an authority.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "No d'emplacement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Número de ubicación de autoridad"
+        }
+      ]
+    },
+    {
+      "code": "AFST",
+      "display": "Authority Fire Station ID/Number",
+      "definition": "Unique identifier assigned to a fire station by the governing authority.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "No du poste de pompiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Número de estación de bomberos"
+        }
+      ]
+    },
+    {
+      "code": "BADG",
+      "display": "Authority Badge or ID Number",
+      "definition": "Badge number or identification number issued to personnel by an authority.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "No d'insigne ou no d'identification"
+        },
+        {
+          "language": "es-MX",
+          "value": "Número de placa o identificación"
+        }
+      ]
+    },
+    {
+      "code": "WCIN",
+      "display": "California Workers Comp Insurer",
+      "definition": "Identifier assigned to a workers compensation insurer licensed in California.",
+      "designation": [
+        {
+          "language": "es-MX",
+          "value": "Asegurador de compensación laboral de California"
+        }
+      ]
+    },
+    {
+      "code": "CLMF",
+      "display": "Claim File Number",
+      "definition": "Unique reference number assigned to a claim file for tracking and management purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Numéro de dossier de la réclamation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Número de expediente de reclamación"
+        }
+      ]
+    },
+    {
+      "code": "CSIO",
+      "display": "CSIOnet Id",
+      "definition": "Unique identifier assigned within the CSIO (Centre for Study of Insurance Operations) network.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Identifiant CSIOnet"
+        },
+        {
+          "language": "es-MX",
+          "value": "Identificador CSIOnet"
+        }
+      ]
+    },
+    {
+      "code": "CUST",
+      "display": "Customer ID",
+      "definition": "Unique identifier assigned to a customer within a system or organization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "No identification du client"
+        },
+        {
+          "language": "es-MX",
+          "value": "Identificador de cliente"
+        }
+      ]
+    },
+    {
+      "code": "DRVR",
+      "display": "Driver Identifier",
+      "definition": "Unique identifier assigned to a driver for tracking purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Identifiant conducteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Identificador de conductor"
+        }
+      ]
+    },
+    {
+      "code": "ESER",
+      "display": "Electronic Serial Number",
+      "definition": "Unique serial number electronically assigned to a device or equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Numéro de série électronique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Número de serie electrónico"
+        }
+      ]
+    },
+    {
+      "code": "FLTU",
+      "display": "Fleet Unit Number",
+      "definition": "Unique identifier assigned to a specific unit or vehicle within a fleet.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Numéro d'unité de la flotte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Número de unidad de flota"
+        }
+      ]
+    },
+    {
+      "code": "INSD",
+      "display": "Insured",
+      "definition": "Identifier for the party covered under a policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asegurado"
+        }
+      ]
+    },
+    {
+      "code": "JURI",
+      "display": "Jurisdiction",
+      "definition": "Identifier for a legal or administrative territory with authority to govern.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Juridiction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Jurisdicción"
+        }
+      ]
+    },
+    {
+      "code": "MACH",
+      "display": "CSIO Machine Address",
+      "definition": "Machine address used for CSIO system communications and routing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adresse absolue pour CSIO"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dirección de máquina CSIO"
+        }
+      ]
+    },
+    {
+      "code": "MGAG",
+      "display": "Managing General Agency",
+      "definition": "Identifier for an agency authorized to underwrite and manage policies on behalf of insurers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agence générale de gestion"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agencia general de gestión"
+        }
+      ]
+    },
+    {
+      "code": "NCCI",
+      "display": "NCCI Coverage Provider",
+      "definition": "Identifier for a coverage provider registered with the National Council on Compensation Insurance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fournisseur de garantie NCCI"
+        },
+        {
+          "language": "es-MX",
+          "value": "Proveedor de cobertura NCCI"
+        }
+      ]
+    },
+    {
+      "code": "OSHA",
+      "display": "Occupational Safety and Health Administration",
+      "definition": "Identifier assigned by the Occupational Safety and Health Administration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Loi sur la santé et la sécurité du travail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Administración de Seguridad y Salud Ocupacional"
+        }
+      ]
+    },
+    {
+      "code": "PFIN",
+      "display": "Premium Finance Company",
+      "definition": "Identifier for a company that provides financing for payment of premiums.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société de financement de primes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compañía de financiamiento de primas"
+        }
+      ]
+    },
+    {
+      "code": "PTPA",
+      "display": "Prior Third Party Administrator",
+      "definition": "Identifier for a previous third-party administrator who managed claims or policies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Administrateur tiers précédent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Administrador tercero anterior"
+        }
+      ]
+    },
+    {
+      "code": "RCPT",
+      "display": "Sales Receipt",
+      "definition": "Reference number from a sales transaction receipt.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Reçu de vente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Recibo de venta"
+        }
+      ]
+    },
+    {
+      "code": "THRD",
+      "display": "Third Party",
+      "definition": "Identifier for an external party involved in a transaction or claim.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tercero"
+        }
+      ]
+    },
+    {
+      "code": "TELE",
+      "display": "Telematics Service Provider",
+      "definition": "Identifier for a provider of telematics monitoring and data services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fournisseur de service télématiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Proveedor de servicios telemáticos"
+        }
+      ]
+    },
+    {
+      "code": "PNUM",
+      "display": "Policy Number",
+      "definition": "Unique identifier assigned to a specific policy contract.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Numéro de police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Número de póliza"
+        }
+      ]
+    },
+    {
+      "code": "QNUM",
+      "display": "Quote Number",
+      "definition": "Unique identifier assigned to a quotation for coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Numéro de soumission"
+        },
+        {
+          "language": "es-MX",
+          "value": "Número de cotización"
+        }
+      ]
+    },
+    {
+      "code": "VINM",
+      "display": "Vehicle Identification Number",
+      "definition": "Standardized 17-character alphanumeric code assigned to motor vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Numéro d'identification du véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Número de identificación vehicular"
+        }
+      ]
+    },
+    {
+      "code": "BNDR",
+      "display": "Binder Number",
+      "definition": "Temporary reference number for coverage pending formal policy issuance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Numéro de note de couverture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Número de carpeta provisional"
+        }
+      ]
+    },
+    {
+      "code": "BROK",
+      "display": "Broker ID",
+      "definition": "Unique identifier assigned to a licensed broker.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Identifiant courtier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Identificador de corredor"
+        }
+      ]
+    },
+    {
+      "code": "AGNT",
+      "display": "Agent ID",
+      "definition": "Unique identifier assigned to a licensed agent.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Identifiant agent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Identificador de agente"
+        }
+      ]
+    },
+    {
+      "code": "CARR",
+      "display": "Carrier ID",
+      "definition": "Unique identifier assigned to a carrier or insurer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Identifiant assureur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Identificador de aseguradora"
+        }
+      ]
+    },
+    {
+      "code": "TRNX",
+      "display": "Transaction ID",
+      "definition": "Unique identifier assigned to a specific transaction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Identifiant de transaction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Identificador de transacción"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "VehicleAntiTheftEngravingDeviceManufacturer",
+  "url": "https://bind.codes/VehicleAntiTheftEngravingDeviceManufacturer",
+  "name": "VehicleAntiTheftEngravingDeviceManufacturer",
+  "title": "Vehicle Anti-Theft Engraving Device Manufacturer",
+  "status": "draft",
+  "language": "en",
+  "description": "Manufacturers and brands of vehicle anti-theft engraving and marking devices.",
+  "concept": [
+    {
+      "code": "NONE",
+      "display": "None",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "ATGR",
+      "display": "Autograph",
+      "definition": "Anti-theft engraving device manufactured by Autograph.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autograph"
+        },
+        {
+          "language": "es-MX",
+          "value": "Autograph"
+        }
+      ]
+    },
+    {
+      "code": "OEMF",
+      "display": "Automobile Manufacturer",
+      "definition": "Anti-theft engraving device installed by the original vehicle manufacturer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Constructeur automobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fabricante de automóviles"
+        }
+      ]
+    },
+    {
+      "code": "SHLK",
+      "display": "Sherlock",
+      "definition": "Anti-theft engraving device manufactured by Sherlock.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sherlock"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sherlock"
+        }
+      ]
+    },
+    {
+      "code": "ATLK",
+      "display": "Autoluck",
+      "definition": "Anti-theft engraving device manufactured by Autoluck.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autoluck"
+        },
+        {
+          "language": "es-MX",
+          "value": "Autoluck"
+        }
+      ]
+    },
+    {
+      "code": "DTDT",
+      "display": "DataDot",
+      "definition": "Microdot identification system manufactured by DataDot Technology.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "DataDot"
+        },
+        {
+          "language": "es-MX",
+          "value": "DataDot"
+        }
+      ]
+    },
+    {
+      "code": "GRDN",
+      "display": "Guardian",
+      "definition": "Anti-theft engraving device manufactured by Guardian.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Guardian"
+        },
+        {
+          "language": "es-MX",
+          "value": "Guardian"
+        }
+      ]
+    },
+    {
+      "code": "LRLK",
+      "display": "Larlock",
+      "definition": "Anti-theft engraving device manufactured by Larlock.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Larlock"
+        },
+        {
+          "language": "es-MX",
+          "value": "Larlock"
+        }
+      ]
+    },
+    {
+      "code": "MCDT",
+      "display": "Microdot",
+      "definition": "Microdot vehicle identification marking system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Microdot"
+        },
+        {
+          "language": "es-MX",
+          "value": "Microdot"
+        }
+      ]
+    },
+    {
+      "code": "OTPT",
+      "display": "Otoprotec",
+      "definition": "Anti-theft engraving device manufactured by Otoprotec.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Otoprotec"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otoprotec"
+        }
+      ]
+    },
+    {
+      "code": "TAGX",
+      "display": "Tag",
+      "definition": "Anti-theft engraving device manufactured by Tag.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tag"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tag"
+        }
+      ]
+    },
+    {
+      "code": "VNLK",
+      "display": "VIN Lock",
+      "definition": "VIN etching and anti-theft marking system manufactured by VIN Lock.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "VIN Lock"
+        },
+        {
+          "language": "es-MX",
+          "value": "VIN Lock"
+        }
+      ]
+    },
+    {
+      "code": "DMNO",
+      "display": "Domino",
+      "definition": "Anti-theft engraving device manufactured by Domino.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Domino"
+        },
+        {
+          "language": "es-MX",
+          "value": "Domino"
+        }
+      ]
+    },
+    {
+      "code": "VINH",
+      "display": "VINshield",
+      "definition": "VIN etching service that engraves the vehicle identification number on windows and parts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "VINshield"
+        },
+        {
+          "language": "es-MX",
+          "value": "VINshield"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Anti-theft engraving device from a manufacturer not listed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,563 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "VehicleType",
+  "url": "https://bind.codes/VehicleType",
+  "name": "VehicleType",
+  "title": "Vehicle Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Vehicle Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "COUR",
+      "display": "Courier",
+      "definition": "A vehicle used for express delivery and parcel transportation services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Messager"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mensajería"
+        }
+      ]
+    },
+    {
+      "code": "PRIV",
+      "display": "Private Passenger",
+      "definition": "A personal vehicle designed primarily for transporting individuals and their belongings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture de tourisme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo de pasajeros privado"
+        }
+      ]
+    },
+    {
+      "code": "LCOM",
+      "display": "Light Commercial (up to 4600 kg)",
+      "definition": "A commercial vehicle with a gross weight up to 4600 kilograms used for business purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule utilitaire léger (moins de 4 600 kg)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo comercial ligero (hasta 4600 kg)"
+        }
+      ]
+    },
+    {
+      "code": "PRVD",
+      "display": "Private Passenger with Driver",
+      "definition": "A personal vehicle used with a designated driver for hire or transportation services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture de tourisme avec conducteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo de pasajeros con conductor"
+        }
+      ]
+    },
+    {
+      "code": "MCOM",
+      "display": "Medium Commercial (4601 kg to 11340 kg)",
+      "definition": "A commercial vehicle with gross weight between 4601 and 11340 kilograms used for business purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule utilitaire moyen (4 601 kg à 11 340 kg)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo comercial mediano (4601 kg a 11340 kg)"
+        }
+      ]
+    },
+    {
+      "code": "COMM",
+      "display": "Commercial",
+      "definition": "A vehicle used for business, trade, or commercial purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule utilitaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo comercial"
+        }
+      ]
+    },
+    {
+      "code": "HCOM",
+      "display": "Heavy Commercial (over 11340 kg)",
+      "definition": "A commercial vehicle with gross weight exceeding 11340 kilograms used for business purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule utilitaire lourd (plus de 11 340 kg)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo comercial pesado (más de 11340 kg)"
+        }
+      ]
+    },
+    {
+      "code": "COMD",
+      "display": "Commercial with Driver",
+      "definition": "A commercial vehicle operated with a designated driver for hire or business services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule utilitaire avec conducteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo comercial con conductor"
+        }
+      ]
+    },
+    {
+      "code": "TRAC",
+      "display": "Tractor",
+      "definition": "A power unit designed to pull trailers or semi-trailers on highways.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tracteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tractor"
+        }
+      ]
+    },
+    {
+      "code": "PR2D",
+      "display": "Private Passenger - 2 Door",
+      "definition": "A personal vehicle with two passenger doors.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture de tourisme - 2 portes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo de pasajeros - 2 puertas"
+        }
+      ]
+    },
+    {
+      "code": "PR4D",
+      "display": "Private Passenger - 4 Door",
+      "definition": "A personal vehicle with four passenger doors.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture de tourisme - 4 portes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo de pasajeros - 4 puertas"
+        }
+      ]
+    },
+    {
+      "code": "TKCL",
+      "display": "Truck - Closed",
+      "definition": "A truck with an enclosed cargo area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion - fermé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camión - cerrado"
+        }
+      ]
+    },
+    {
+      "code": "TKOP",
+      "display": "Truck - Open",
+      "definition": "A truck with an open cargo bed without permanent enclosure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion - ouvert"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camión - abierto"
+        }
+      ]
+    },
+    {
+      "code": "TROP",
+      "display": "Trailer - Open",
+      "definition": "A trailer with an exposed cargo area without permanent enclosure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque - ouverte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque - abierto"
+        }
+      ]
+    },
+    {
+      "code": "TRCL",
+      "display": "Trailer - Closed, Non-refrigerated",
+      "definition": "A trailer with an enclosed cargo area without temperature control.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque - fermée, non-réfrigérée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque - cerrado, no refrigerado"
+        }
+      ]
+    },
+    {
+      "code": "TRRF",
+      "display": "Trailer - Closed, Refrigerated",
+      "definition": "A trailer with an enclosed cargo area equipped with refrigeration for temperature-sensitive goods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque - fermée, réfrigérée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque - cerrado, refrigerado"
+        }
+      ]
+    },
+    {
+      "code": "TRPU",
+      "display": "Trailer - Pup",
+      "definition": "A short trailer used in combination with another trailer in double configurations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque d'appoint"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque auxiliar"
+        }
+      ]
+    },
+    {
+      "code": "TRDM",
+      "display": "Trailer - Dump",
+      "definition": "A trailer with a hinged cargo bed designed to tilt and discharge materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque à benne basculante"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque - volquete"
+        }
+      ]
+    },
+    {
+      "code": "TRTN",
+      "display": "Trailer - Tanker",
+      "definition": "A trailer designed to transport liquids or gases in bulk.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque-citerne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque - cisterna"
+        }
+      ]
+    },
+    {
+      "code": "TRFB",
+      "display": "Trailer - Flatbed",
+      "definition": "A trailer with a flat, open platform without sides or roof.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Semi-remorque à plateau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque - plataforma"
+        }
+      ]
+    },
+    {
+      "code": "ULAU",
+      "display": "Unlicensed Auto",
+      "definition": "A vehicle not currently registered or licensed for road use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Automobile sans permis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Automóvil sin licencia"
+        }
+      ]
+    },
+    {
+      "code": "ULRV",
+      "display": "Unlicensed Recreational Vehicle",
+      "definition": "A recreational vehicle not currently registered or licensed for road use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule récréatif sans permis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo recreativo sin licencia"
+        }
+      ]
+    },
+    {
+      "code": "ULTR",
+      "display": "Unlicensed Trailer",
+      "definition": "A trailer not currently registered or licensed for road use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque sans permis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque sin licencia"
+        }
+      ]
+    },
+    {
+      "code": "ULTK",
+      "display": "Unlicensed Truck",
+      "definition": "A truck not currently registered or licensed for road use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion sans permis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camión sin licencia"
+        }
+      ]
+    },
+    {
+      "code": "BUSS",
+      "display": "Bus",
+      "definition": "A large passenger vehicle designed to carry multiple people on fixed routes or for group transportation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autobus"
+        },
+        {
+          "language": "es-MX",
+          "value": "Autobús"
+        }
+      ]
+    },
+    {
+      "code": "CMVH",
+      "display": "Commercial Vehicle",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule utilitaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo comercial"
+        }
+      ]
+    },
+    {
+      "code": "SUVC",
+      "display": "SUV/Crossover",
+      "definition": "A sport utility vehicle or crossover combining passenger car features with off-road capabilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "VUS/multisegment"
+        },
+        {
+          "language": "es-MX",
+          "value": "SUV/crossover"
+        }
+      ]
+    },
+    {
+      "code": "MVAN",
+      "display": "Minivan",
+      "definition": "A multi-purpose passenger vehicle with sliding doors and flexible seating configurations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Minifourgonnette"
+        },
+        {
+          "language": "es-MX",
+          "value": "Minivan"
+        }
+      ]
+    },
+    {
+      "code": "PUPS",
+      "display": "Pickup Truck",
+      "definition": "A light-duty truck with an open cargo bed and a separate passenger cabin.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camionnette"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camioneta pickup"
+        }
+      ]
+    },
+    {
+      "code": "MOTC",
+      "display": "Motorcycle",
+      "definition": "A two-wheeled motorized vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Motocyclette"
+        },
+        {
+          "language": "es-MX",
+          "value": "Motocicleta"
+        }
+      ]
+    },
+    {
+      "code": "MOTO",
+      "display": "Motorhome",
+      "definition": "A self-propelled recreational vehicle with living quarters.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autocaravane"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casa rodante motorizada"
+        }
+      ]
+    },
+    {
+      "code": "CONV",
+      "display": "Convertible",
+      "definition": "A vehicle with a retractable or removable roof.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Décapotable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Convertible"
+        }
+      ]
+    },
+    {
+      "code": "TAXI",
+      "display": "Taxi",
+      "definition": "A vehicle licensed for transporting passengers for hire with a meter or predetermined fare.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Taxi"
+        },
+        {
+          "language": "es-MX",
+          "value": "Taxi"
+        }
+      ]
+    },
+    {
+      "code": "AMBV",
+      "display": "Ambulance",
+      "definition": "A vehicle equipped for emergency medical transportation and treatment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ambulance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ambulancia"
+        }
+      ]
+    },
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

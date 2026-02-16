@@ -1,0 +1,85 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "OrganizationIdentifier",
+  "url": "https://bind.codes/OrganizationIdentifier",
+  "name": "OrganizationIdentifier",
+  "title": "Organization Identifier",
+  "status": "draft",
+  "language": "en",
+  "description": "Organization Identifier codes for insurance operations.",
+  "concept": [
+    {
+      "code": "NAPP",
+      "display": "None - Not Applicable",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun - Sans objet"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno - No aplicable"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "AGCY",
+      "display": "Agency/Brokerage Responsibility",
+      "definition": "Indicates that the responsibility for a particular task or process lies with the insurance agency or brokerage, rather than the insurer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité du courtier/cabinet de courtage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad de la agencia/correduría"
+        }
+      ]
+    },
+    {
+      "code": "CMPY",
+      "display": "Company Responsibility",
+      "definition": "Indicates that the responsibility for a particular task or process lies with the insurance company, rather than the agency or broker.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité de l'assureur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad de la compañía"
+        }
+      ]
+    },
+    {
+      "code": "SHRD",
+      "display": "Shared Responsibility",
+      "definition": "Indicates that the responsibility for a particular task or process is shared between the insurance company and the agency or broker.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité partagée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad compartida"
+        }
+      ]
+    }
+  ]
+}

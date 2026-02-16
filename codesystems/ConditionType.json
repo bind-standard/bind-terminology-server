@@ -1,0 +1,102 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ConditionType",
+  "url": "https://bind.codes/ConditionType",
+  "name": "ConditionType",
+  "title": "Condition Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Condition Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "AVRG",
+      "display": "Average",
+      "definition": "A moderate level of condition indicating typical wear and functionality.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Moyen"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promedio"
+        }
+      ]
+    },
+    {
+      "code": "EXCL",
+      "display": "Excellent",
+      "definition": "The highest level of condition indicating minimal wear and optimal functionality.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Excellent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Excelente"
+        }
+      ]
+    },
+    {
+      "code": "FAIR",
+      "display": "Fair",
+      "definition": "A below-average level of condition indicating noticeable wear but still functional.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Passable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Regular"
+        }
+      ]
+    },
+    {
+      "code": "GOOD",
+      "display": "Good",
+      "definition": "An above-average level of condition indicating minor wear and proper functionality.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bon"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bueno"
+        }
+      ]
+    },
+    {
+      "code": "POOR",
+      "display": "Poor",
+      "definition": "The lowest level of condition indicating significant wear or impaired functionality.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Médiocre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pobre"
+        }
+      ]
+    },
+    {
+      "code": "VGOD",
+      "display": "Very Good",
+      "definition": "A high level of condition indicating slight wear and near-optimal functionality.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Très bien"
+        },
+        {
+          "language": "es-MX",
+          "value": "Muy bueno"
+        }
+      ]
+    }
+  ]
+}

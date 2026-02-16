@@ -1,0 +1,131 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ReasonForTransfer",
+  "url": "https://bind.codes/ReasonForTransfer",
+  "name": "ReasonForTransfer",
+  "title": "Reason For Transfer",
+  "status": "draft",
+  "language": "en",
+  "description": "Reason For Transfer codes for insurance operations.",
+  "concept": [
+    {
+      "code": "COAQ",
+      "display": "Company Acquisition",
+      "definition": "One company acquires another company's book of business.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acquisition par une compagnie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Adquisición de compañía"
+        }
+      ]
+    },
+    {
+      "code": "PLRP",
+      "display": "Replacement of Policy",
+      "definition": "A policy is replaced with a new one within the same company.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remplacement d'une police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reemplazo de póliza"
+        }
+      ]
+    },
+    {
+      "code": "PFTX",
+      "display": "Portfolio Transfer",
+      "definition": "A broker transfers a book of business from one company to another.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transfert de portefeuille"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transferencia de cartera"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "BRAQ",
+      "display": "Brokerage Acquisition",
+      "definition": "A broker acquires another broker's book of business.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acquisition de courtage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Adquisición de correduría"
+        }
+      ]
+    },
+    {
+      "code": "NWBZ",
+      "display": "New Business",
+      "definition": "A new policy or account acquired by the broker.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nouvelle affaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nuevo negocio"
+        }
+      ]
+    },
+    {
+      "code": "RMKT",
+      "display": "Remarketed",
+      "definition": "A broker transfers a single policy from one company to another.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transférée à un autre assureur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transferida a otra aseguradora"
+        }
+      ]
+    },
+    {
+      "code": "RNWL",
+      "display": "Renewal Transfer",
+      "definition": "A policy is transferred to a different company or broker at renewal time.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transfert au renouvellement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transferencia en renovación"
+        }
+      ]
+    }
+  ]
+}

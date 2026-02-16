@@ -1,0 +1,176 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "AlarmDescription",
+  "url": "https://bind.codes/AlarmDescription",
+  "name": "AlarmDescription",
+  "title": "Alarm Description",
+  "status": "draft",
+  "language": "en",
+  "description": "Alarm Description codes.",
+  "concept": [
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None/Not Applicable",
+      "definition": "Property has no alarm system installed or alarm system information is not applicable.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun/Sans objet"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno/No aplicable"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Alarm system type not represented by other standard categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "CNST",
+      "display": "Central Station",
+      "definition": "Alarm system monitored 24/7 by a professional central monitoring station that contacts authorities and designated personnel when triggered.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Station centrale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estación central"
+        }
+      ]
+    },
+    {
+      "code": "MNFS",
+      "display": "Monitoring Station (Full Service)",
+      "definition": "Monitoring station that provides comprehensive services including alarm verification, authority dispatch, and incident response coordination.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Station monitrice (complète)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estación de monitoreo (servicio completo)"
+        }
+      ]
+    },
+    {
+      "code": "MNSS",
+      "display": "Monitoring Station (Shared Service)",
+      "definition": "Monitoring station that provides limited services, typically alarm notification only without full response coordination.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Station monitrice (partielle)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estación de monitoreo (servicio compartido)"
+        }
+      ]
+    },
+    {
+      "code": "LOCA",
+      "display": "Local Alarm",
+      "definition": "Alarm system that sounds audible or visual alerts on-site without remote monitoring or automatic authority notification.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Alarme locale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alarma local"
+        }
+      ]
+    },
+    {
+      "code": "VDIS",
+      "display": "Visually Disabling (e.g. Smokecloak)",
+      "definition": "Active security system that deploys fog, smoke, or vapor to obscure visibility and deter intruders during a breach.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aveuglant (ex. écran de fumée)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cegador visual (ej. cortina de humo)"
+        }
+      ]
+    },
+    {
+      "code": "SMRT",
+      "display": "Smart Alarm",
+      "definition": "Internet-connected alarm system with remote monitoring, control, and notification capabilities via mobile apps or web interfaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Alarme intelligente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alarma inteligente"
+        }
+      ]
+    },
+    {
+      "code": "POLC",
+      "display": "Police Connection",
+      "definition": "Alarm system directly connected to local police or fire department for immediate emergency response without intermediary monitoring station.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Connexion policière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conexión policial"
+        }
+      ]
+    },
+    {
+      "code": "VERF",
+      "display": "Verified Alarm",
+      "definition": "Alarm system that requires verification through video, audio, or multiple sensor confirmation before authorities are dispatched to reduce false alarms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Alarme vérifiée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alarma verificada"
+        }
+      ]
+    }
+  ]
+}

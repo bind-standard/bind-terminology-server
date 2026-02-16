@@ -1,0 +1,87 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ClaimHistoryReportStatus",
+  "url": "https://bind.codes/ClaimHistoryReportStatus",
+  "name": "ClaimHistoryReportStatus",
+  "title": "Claim History Report Status",
+  "status": "draft",
+  "language": "en",
+  "description": "Claim History Report Status codes for insurance operations.",
+  "concept": [
+    {
+      "code": "NORD",
+      "display": "Not Ordered",
+      "definition": "The claim history report has not yet been requested or ordered.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non commandé"
+        },
+        {
+          "language": "es-MX",
+          "value": "No ordenado"
+        }
+      ]
+    },
+    {
+      "code": "ORDR",
+      "display": "Ordered",
+      "definition": "The claim history report has been requested but not yet received.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commandé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ordenado"
+        }
+      ]
+    },
+    {
+      "code": "RECV",
+      "display": "Received",
+      "definition": "The claim history report has been received and is available for review.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Reçu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Recibido"
+        }
+      ]
+    },
+    {
+      "code": "PROC",
+      "display": "Processing",
+      "definition": "The claim history report is currently being processed by the provider.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En traitement"
+        },
+        {
+          "language": "es-MX",
+          "value": "En procesamiento"
+        }
+      ]
+    },
+    {
+      "code": "FAIL",
+      "display": "Failed",
+      "definition": "The claim history report request could not be completed due to an error or unavailability.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Échoué"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fallido"
+        }
+      ]
+    }
+  ]
+}

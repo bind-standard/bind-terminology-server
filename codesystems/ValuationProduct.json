@@ -1,0 +1,237 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ValuationProduct",
+  "url": "https://bind.codes/ValuationProduct",
+  "name": "ValuationProduct",
+  "title": "Valuation Product",
+  "status": "draft",
+  "language": "en",
+  "description": "Valuation Product codes for insurance operations.",
+  "concept": [
+    {
+      "code": "MNCW",
+      "display": "Means CostWorks",
+      "definition": "A construction cost estimation software used for property valuation based on building characteristics and regional cost data.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Means CostWorks"
+        },
+        {
+          "language": "es-MX",
+          "value": "Means CostWorks"
+        }
+      ]
+    },
+    {
+      "code": "PWHS",
+      "display": "PowerHouse",
+      "definition": "A property valuation software platform providing replacement cost estimates for residential and commercial buildings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "PowerHouse"
+        },
+        {
+          "language": "es-MX",
+          "value": "PowerHouse"
+        }
+      ]
+    },
+    {
+      "code": "RCT",
+      "display": "RCT",
+      "definition": "Replacement Cost Technology, a valuation tool for estimating the cost to rebuild a structure at current construction prices.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "RCT"
+        },
+        {
+          "language": "es-MX",
+          "value": "RCT"
+        }
+      ]
+    },
+    {
+      "code": "RCTE",
+      "display": "RCT EvaluRater",
+      "definition": "An enhanced version of RCT that provides automated property valuation with advanced rating algorithms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "RCT EvaluRater"
+        },
+        {
+          "language": "es-MX",
+          "value": "RCT EvaluRater"
+        }
+      ]
+    },
+    {
+      "code": "RCTX",
+      "display": "RCT Express",
+      "definition": "A streamlined version of RCT designed for faster property valuations with simplified data inputs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "RCT Express"
+        },
+        {
+          "language": "es-MX",
+          "value": "RCT Express"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "A valuation method or product not specifically categorized in this list.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "EZIT",
+      "display": "ezITV™",
+      "definition": "Electronic instant total valuation system providing rapid automated property replacement cost calculations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "CVAMD"
+        },
+        {
+          "language": "es-MX",
+          "value": "ezITV™"
+        }
+      ]
+    },
+    {
+      "code": "ICLR",
+      "display": "iClarify",
+      "definition": "A property data verification and validation service that enhances accuracy of automated valuations through additional data sources.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "iClarify"
+        },
+        {
+          "language": "es-MX",
+          "value": "iClarify"
+        }
+      ]
+    },
+    {
+      "code": "EZIC",
+      "display": "ezITV (iClarify Validated)",
+      "definition": "An ezITV valuation that has been cross-verified and enhanced using iClarify data validation services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "ezITV (iClarify Validée)"
+        },
+        {
+          "language": "es-MX",
+          "value": "ezITV (Validado con iClarify)"
+        }
+      ]
+    },
+    {
+      "code": "APIT",
+      "display": "Applied ITV",
+      "definition": "An instant total valuation methodology applied to determine replacement cost of a property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Applied ITV"
+        },
+        {
+          "language": "es-MX",
+          "value": "Applied ITV"
+        }
+      ]
+    },
+    {
+      "code": "PRAP",
+      "display": "Professional Appraisal",
+      "definition": "A comprehensive property evaluation conducted by a certified appraiser through on-site inspection and detailed analysis.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Évaluation professionnelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Avalúo profesional"
+        }
+      ]
+    },
+    {
+      "code": "LCRC",
+      "display": "Loss Control Calculated RC Estimate",
+      "definition": "A replacement cost estimate derived from loss control inspection data and engineering calculations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Estimation du coût de remplacement (CR) pour le contrôle des pertes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estimación de costo de reemplazo calculada por control de pérdidas"
+        }
+      ]
+    },
+    {
+      "code": "E2VL",
+      "display": "e2Value",
+      "definition": "A commercial property valuation platform providing replacement cost estimates for buildings and contents.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "e2Value"
+        },
+        {
+          "language": "es-MX",
+          "value": "e2Value"
+        }
+      ]
+    },
+    {
+      "code": "XACT",
+      "display": "Xactimate",
+      "definition": "An industry-standard estimating software used for property damage assessment and reconstruction cost calculations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Xactimate"
+        },
+        {
+          "language": "es-MX",
+          "value": "Xactimate"
+        }
+      ]
+    },
+    {
+      "code": "MSHL",
+      "display": "Marshall & Swift",
+      "definition": "A comprehensive building cost database and valuation system providing replacement cost estimates based on construction class and quality.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marshall & Swift"
+        },
+        {
+          "language": "es-MX",
+          "value": "Marshall & Swift"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "FilingType",
+  "url": "https://bind.codes/FilingType",
+  "name": "FilingType",
+  "title": "Filing Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Filing Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "PROV",
+      "display": "Province",
+      "definition": "A provincial regulatory authority or jurisdiction level.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Province"
+        },
+        {
+          "language": "es-MX",
+          "value": "Provincia"
+        }
+      ]
+    },
+    {
+      "code": "STAT",
+      "display": "State",
+      "definition": "A state-level regulatory authority or jurisdiction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "État"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estado"
+        }
+      ]
+    },
+    {
+      "code": "CITY",
+      "display": "City",
+      "definition": "A municipal or city-level regulatory authority or jurisdiction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ville"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ciudad"
+        }
+      ]
+    },
+    {
+      "code": "ICCC",
+      "display": "ICC",
+      "definition": "Interstate Commerce Commission.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "ICC"
+        },
+        {
+          "language": "es-MX",
+          "value": "ICC"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "PUCC",
+      "display": "PUC",
+      "definition": "Public Utility Commission.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "PUC"
+        },
+        {
+          "language": "es-MX",
+          "value": "PUC"
+        }
+      ]
+    },
+    {
+      "code": "PSFC",
+      "display": "Public Safety Commission",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commission de la sécurité publique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comisión de Seguridad Pública"
+        }
+      ]
+    },
+    {
+      "code": "CNTY",
+      "display": "County",
+      "definition": "A county-level regulatory authority or jurisdiction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comté"
+        },
+        {
+          "language": "es-MX",
+          "value": "Condado"
+        }
+      ]
+    },
+    {
+      "code": "FEDR",
+      "display": "Federal",
+      "definition": "A federal or national-level regulatory authority.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fédéral"
+        },
+        {
+          "language": "es-MX",
+          "value": "Federal"
+        }
+      ]
+    }
+  ]
+}

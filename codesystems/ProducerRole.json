@@ -1,0 +1,147 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ProducerRole",
+  "url": "https://bind.codes/ProducerRole",
+  "name": "ProducerRole",
+  "title": "Producer Role",
+  "status": "draft",
+  "language": "en",
+  "description": "Producer Role codes for insurance operations.",
+  "concept": [
+    {
+      "code": "AGCY",
+      "display": "Agency",
+      "definition": "A business entity that represents one or more insurers and sells policies on their behalf.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agence"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agencia"
+        }
+      ]
+    },
+    {
+      "code": "BRKR",
+      "display": "Broker",
+      "definition": "An intermediary who represents the client rather than the insurer, seeking coverage from multiple insurers on behalf of the insured.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courtier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corredor"
+        }
+      ]
+    },
+    {
+      "code": "INCB",
+      "display": "Incumbent Broker",
+      "definition": "The current broker of record holding the existing relationship with the client.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courtier attitré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corredor titular"
+        }
+      ]
+    },
+    {
+      "code": "INTR",
+      "display": "Intermediary",
+      "definition": "A general term for any party that acts between the insurer and the insured to facilitate the placement of coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intermédiaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Intermediario"
+        }
+      ]
+    },
+    {
+      "code": "ISPR",
+      "display": "Individual Issuing Producer",
+      "definition": "A specific licensed individual who is authorized to issue policies and bind coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Producteur émetteur individuel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Productor emisor individual"
+        }
+      ]
+    },
+    {
+      "code": "PROD",
+      "display": "Producer",
+      "definition": "A general term for an agent or broker who sells policies and generates business for insurers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Producteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Productor"
+        }
+      ]
+    },
+    {
+      "code": "PRBR",
+      "display": "Producing Broker",
+      "definition": "A broker who actively generates new business and brings clients to insurers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courtier producteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corredor productor"
+        }
+      ]
+    },
+    {
+      "code": "MGAG",
+      "display": "Managing General Agent",
+      "definition": "An agent with underwriting authority who manages business on behalf of insurers, often with binding authority and claims handling responsibilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agent général gérant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agente general gerente"
+        }
+      ]
+    },
+    {
+      "code": "WRAG",
+      "display": "Writing Agent",
+      "definition": "An agent who writes new business but may not have full binding authority.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agent souscripteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agente emisor"
+        }
+      ]
+    }
+  ]
+}

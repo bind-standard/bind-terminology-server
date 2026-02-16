@@ -1,0 +1,120 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "EndorsementType",
+  "url": "https://bind.codes/EndorsementType",
+  "name": "EndorsementType",
+  "title": "Endorsement Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Categories of mid-term amendments that modify a policy's terms or conditions.",
+  "concept": [
+    {
+      "code": "MTMD",
+      "display": "Mid-Term Modification",
+      "definition": "A general change to policy terms taking effect during the current policy period.",
+      "designation": [
+        { "language": "fr-CA", "value": "Modification en cours de terme" },
+        { "language": "es-MX", "value": "Modificación a medio plazo" }
+      ]
+    },
+    {
+      "code": "ADIN",
+      "display": "Additional Insured",
+      "definition": "Adds a party as an additional named entity covered under the policy.",
+      "designation": [
+        { "language": "fr-CA", "value": "Assuré additionnel" },
+        { "language": "es-MX", "value": "Asegurado adicional" }
+      ]
+    },
+    {
+      "code": "WVSB",
+      "display": "Waiver of Subrogation",
+      "definition": "Waives the carrier's right to pursue recovery from a specified third party after paying a claim.",
+      "designation": [
+        { "language": "fr-CA", "value": "Renonciation à la subrogation" },
+        { "language": "es-MX", "value": "Renuncia a la subrogación" }
+      ]
+    },
+    {
+      "code": "LMCH",
+      "display": "Limit Change",
+      "definition": "An increase or decrease to one or more coverage limits.",
+      "designation": [
+        { "language": "fr-CA", "value": "Modification de limite" },
+        { "language": "es-MX", "value": "Cambio de límite" }
+      ]
+    },
+    {
+      "code": "DDCH",
+      "display": "Deductible Change",
+      "definition": "A modification to the deductible amount or structure.",
+      "designation": [
+        { "language": "fr-CA", "value": "Modification de franchise" },
+        { "language": "es-MX", "value": "Cambio de deducible" }
+      ]
+    },
+    {
+      "code": "LCCH",
+      "display": "Location Change",
+      "definition": "The addition, removal, or modification of a covered location.",
+      "designation": [
+        { "language": "fr-CA", "value": "Modification de lieu" },
+        { "language": "es-MX", "value": "Cambio de ubicación" }
+      ]
+    },
+    {
+      "code": "VHCH",
+      "display": "Vehicle Change",
+      "definition": "The addition, removal, or replacement of a covered vehicle.",
+      "designation": [
+        { "language": "fr-CA", "value": "Modification de véhicule" },
+        { "language": "es-MX", "value": "Cambio de vehículo" }
+      ]
+    },
+    {
+      "code": "NMCH",
+      "display": "Named Insured Change",
+      "definition": "A change to the named insured on the policy, such as a name correction or ownership transfer.",
+      "designation": [
+        { "language": "fr-CA", "value": "Modification du nom de l'assuré" },
+        { "language": "es-MX", "value": "Cambio de asegurado nombrado" }
+      ]
+    },
+    {
+      "code": "CVEX",
+      "display": "Coverage Extension",
+      "definition": "The addition of a supplemental coverage feature or extension to the base policy.",
+      "designation": [
+        { "language": "fr-CA", "value": "Extension de garantie" },
+        { "language": "es-MX", "value": "Extensión de cobertura" }
+      ]
+    },
+    {
+      "code": "EXMD",
+      "display": "Exclusion Modification",
+      "definition": "The addition, removal, or amendment of a policy exclusion.",
+      "designation": [
+        { "language": "fr-CA", "value": "Modification d'exclusion" },
+        { "language": "es-MX", "value": "Modificación de exclusión" }
+      ]
+    },
+    {
+      "code": "MNSC",
+      "display": "Manuscript",
+      "definition": "A custom-drafted endorsement written specifically for the policyholder, not based on a standard bureau form.",
+      "designation": [
+        { "language": "fr-CA", "value": "Manuscrit" },
+        { "language": "es-MX", "value": "Manuscrito" }
+      ]
+    },
+    {
+      "code": "PRNC",
+      "display": "Primary & Non-Contributory",
+      "definition": "Designates the policy to respond first without seeking contribution from other applicable policies.",
+      "designation": [
+        { "language": "fr-CA", "value": "Primaire et non contributif" },
+        { "language": "es-MX", "value": "Primario y no contributivo" }
+      ]
+    }
+  ]
+}

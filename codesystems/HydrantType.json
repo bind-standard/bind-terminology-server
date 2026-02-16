@@ -1,0 +1,132 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "HydrantType",
+  "url": "https://bind.codes/HydrantType",
+  "name": "HydrantType",
+  "title": "Hydrant Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Hydrant Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "STND",
+      "display": "Standard",
+      "definition": "A conventional fire hydrant connected to a municipal water system, providing reliable water supply for firefighting.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Régulier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estándar"
+        }
+      ]
+    },
+    {
+      "code": "STNP",
+      "display": "Non-Standard Standpipe",
+      "definition": "A vertical pipe system that provides fire department access to water in multi-story buildings, not meeting standard hydrant specifications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canalisation d'incendie non standard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tubería vertical no estándar"
+        }
+      ]
+    },
+    {
+      "code": "NATR",
+      "display": "Lake, Pond, or Natural Water Source",
+      "definition": "A natural body of water such as a lake or pond that can be accessed for firefighting water supply.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lac, étang ou source d'eau naturelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lago, estanque o fuente natural de agua"
+        }
+      ]
+    },
+    {
+      "code": "TNKR",
+      "display": "Tanker",
+      "definition": "Mobile water supply vehicle used to transport water to the fire scene when hydrants are unavailable.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion-citerne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camión cisterna"
+        }
+      ]
+    },
+    {
+      "code": "SHTS",
+      "display": "Superior Shuttle Tanker Service",
+      "definition": "An organized relay system using multiple tanker trucks to continuously supply water to a fire scene, providing enhanced water delivery capacity.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service supérieur de navette de camion-citerne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio superior de camiones cisterna en relevo"
+        }
+      ]
+    },
+    {
+      "code": "DRYW",
+      "display": "Dry Hydrant",
+      "definition": "A non-pressurized pipe system with a suction connection that allows fire trucks to draft water from a static source such as a pond or reservoir.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Borne-fontaine sèche"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hidrante seco"
+        }
+      ]
+    },
+    {
+      "code": "PRVT",
+      "display": "Private Hydrant",
+      "definition": "A fire hydrant located on private property, typically connected to a private water system or sprinkler system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Borne-fontaine privée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hidrante privado"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None",
+      "definition": "No fire hydrant or water source is available for firefighting purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    }
+  ]
+}

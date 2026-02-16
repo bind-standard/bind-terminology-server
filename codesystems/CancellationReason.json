@@ -1,0 +1,250 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CancellationReason",
+  "url": "https://bind.codes/CancellationReason",
+  "name": "CancellationReason",
+  "title": "Cancellation Reason",
+  "status": "draft",
+  "language": "en",
+  "description": "Cancellation Reason codes for insurance operations.",
+  "concept": [
+    {
+      "code": "AC",
+      "display": "Agent/Company Termination (Non renewal Only)",
+      "definition": "The agent or company has decided not to renew at the expiration date.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résiliation par le courtier/assureur (non renouvellement seulement)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terminación por agente/compañía (solo no renovación)"
+        }
+      ]
+    },
+    {
+      "code": "CL",
+      "display": "Cancelled for Policy Lapse",
+      "definition": "Lapsed due to inactivity or failure to maintain in force.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Annulation due à une police non renouvelée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cancelada por caducidad de póliza"
+        }
+      ]
+    },
+    {
+      "code": "CM",
+      "display": "Cancelled for Material Misrepresentation",
+      "definition": "False or misleading information was provided that materially affected the terms or acceptance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Annulation due à de fausses déclarations"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cancelada por declaración falsa material"
+        }
+      ]
+    },
+    {
+      "code": "CS",
+      "display": "Cancelled Due to License Suspension",
+      "definition": "The driver's license has been suspended by the relevant authority.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Annulation due à une suspension de permis de conduire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cancelada por suspensión de licencia"
+        }
+      ]
+    },
+    {
+      "code": "DW",
+      "display": "Driving Without Insurance",
+      "definition": "Operating a vehicle without valid coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite sans assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducir sin seguro"
+        }
+      ]
+    },
+    {
+      "code": "FR",
+      "display": "Fraud",
+      "definition": "Fraudulent activity was detected.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fraude"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fraude"
+        }
+      ]
+    },
+    {
+      "code": "IR",
+      "display": "Insured's Request",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Demande de l'assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Solicitud del asegurado"
+        }
+      ]
+    },
+    {
+      "code": "NP",
+      "display": "Non-payment",
+      "definition": "Required payment was not received by the due date.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non-paiement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de pago"
+        }
+      ]
+    },
+    {
+      "code": "NT",
+      "display": "Not Taken",
+      "definition": "Issued but never became effective because it was declined or not accepted.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non accepté"
+        },
+        {
+          "language": "es-MX",
+          "value": "No aceptada"
+        }
+      ]
+    },
+    {
+      "code": "NV",
+      "display": "No Vehicle, No Insurance Required",
+      "definition": "The vehicle is no longer owned or operated.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pas de véhicule, pas d'assurance requise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin vehículo, sin seguro requerido"
+        }
+      ]
+    },
+    {
+      "code": "OB",
+      "display": "Out of Business/Sold/Moved",
+      "definition": "The business has ceased operations, been sold, or relocated outside the coverage area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "A cessé ses activités/Vendu/Déménagé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fuera de negocio/Vendido/Mudado"
+        }
+      ]
+    },
+    {
+      "code": "OT",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "PR",
+      "display": "Payment Received",
+      "definition": "Cancellation was reversed or voided after payment was received following a non-payment notice.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Paiement reçu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pago recibido"
+        }
+      ]
+    },
+    {
+      "code": "RA",
+      "display": "Rewritten with Another Insurer",
+      "definition": "Replaced by a new policy with a different provider.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remplacé par une police avec un autre assureur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reescrita con otro asegurador"
+        }
+      ]
+    },
+    {
+      "code": "RS",
+      "display": "Rewritten with Same Insurer",
+      "definition": "Replaced by a new policy with the same provider.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remplacé par une police avec le même assureur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reescrita con el mismo asegurador"
+        }
+      ]
+    },
+    {
+      "code": "UR",
+      "display": "Underwriting Reasons",
+      "definition": "Underwriting criteria not met or profile changes occurred.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Motifs de souscription"
+        },
+        {
+          "language": "es-MX",
+          "value": "Razones de suscripción"
+        }
+      ]
+    }
+  ]
+}

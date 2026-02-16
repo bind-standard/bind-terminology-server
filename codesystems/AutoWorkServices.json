@@ -1,0 +1,237 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "AutoWorkServices",
+  "url": "https://bind.codes/AutoWorkServices",
+  "name": "AutoWorkServices",
+  "title": "Auto Work Services",
+  "status": "draft",
+  "language": "en",
+  "description": "Auto Work Services codes for insurance operations.",
+  "concept": [
+    {
+      "code": "PRTS",
+      "display": "Selling or servicing automobile parts and accessories",
+      "definition": "Business operations involving the retail sale or maintenance of vehicle components and accessories including aftermarket upgrades, replacement parts, and vehicle enhancement products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente ou entretien de pièces et d'accessoires automobiles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta o mantenimiento de piezas y accesorios de automóviles"
+        }
+      ]
+    },
+    {
+      "code": "HPRF",
+      "display": "High performance vehicles",
+      "definition": "Specialized services for vehicles with enhanced power output, racing capabilities, or sport-tuned components that typically require specialized expertise and parts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicules de haute performance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículos de alto rendimiento"
+        }
+      ]
+    },
+    {
+      "code": "MTRX",
+      "display": "Mufflers, transmissions or radiators",
+      "definition": "Repair and replacement services for exhaust systems, transmission assemblies, and engine cooling systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Silencieux, transmissions ou radiateurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Silenciadores, transmisiones o radiadores"
+        }
+      ]
+    },
+    {
+      "code": "GLAS",
+      "display": "Glass installation and repair",
+      "definition": "Services for windshield replacement, window repair, and other automotive glass installation including chip repair and crack fixing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Installation et réparation de vitres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instalación y reparación de vidrios"
+        }
+      ]
+    },
+    {
+      "code": "BRKS",
+      "display": "Brake and suspension repair",
+      "definition": "Maintenance and repair of braking systems and suspension components including pads, rotors, shocks, struts, and alignment services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réparation des freins et de la suspension"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reparación de frenos y suspensión"
+        }
+      ]
+    },
+    {
+      "code": "ACEL",
+      "display": "Air conditioning, radiator or electrical repair",
+      "definition": "Services for climate control systems, cooling system maintenance, and electrical system diagnostics and repair including wiring, batteries, and alternators.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Climatisation, radiateur ou réparation d'appareil électrique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aire acondicionado, radiador o reparación eléctrica"
+        }
+      ]
+    },
+    {
+      "code": "DTIL",
+      "display": "Auto detailing",
+      "definition": "Professional cleaning and restoration services including interior and exterior deep cleaning, waxing, polishing, and paint correction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Esthétique automobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Detallado de automóviles"
+        }
+      ]
+    },
+    {
+      "code": "HWSH",
+      "display": "Hand car wash",
+      "definition": "Manual vehicle washing services performed by hand rather than automated systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lave-auto manuel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lavado de autos a mano"
+        }
+      ]
+    },
+    {
+      "code": "AWSH",
+      "display": "Drive through car wash",
+      "definition": "Automated vehicle washing facilities where vehicles pass through mechanical washing equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lave-auto automatique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lavado de autos automático"
+        }
+      ]
+    },
+    {
+      "code": "OILC",
+      "display": "Oil change and lubrication",
+      "definition": "Regular maintenance services including engine oil replacement, filter changes, and lubrication of vehicle components.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Changement d'huile et lubrification"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cambio de aceite y lubricación"
+        }
+      ]
+    },
+    {
+      "code": "TIRE",
+      "display": "Tire sales and service",
+      "definition": "Tire-related services including sales, installation, balancing, rotation, and repair.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente et service de pneus"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta y servicio de neumáticos"
+        }
+      ]
+    },
+    {
+      "code": "ENGN",
+      "display": "Engine repair",
+      "definition": "Diagnostic and repair services for internal combustion engines including rebuilds and component replacement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réparation de moteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reparación de motor"
+        }
+      ]
+    },
+    {
+      "code": "BODY",
+      "display": "Body work and painting",
+      "definition": "Collision repair, dent removal, rust treatment, and automotive painting and refinishing services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Carrosserie et peinture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajo de carrocería y pintura"
+        }
+      ]
+    },
+    {
+      "code": "UPHL",
+      "display": "Upholstery and interior repair",
+      "definition": "Services for repairing or replacing vehicle interior components including seats, carpets, headliners, and trim.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réparation de rembourrage et d'intérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reparación de tapicería e interior"
+        }
+      ]
+    },
+    {
+      "code": "TOWS",
+      "display": "Towing services",
+      "definition": "Vehicle recovery and transportation services for disabled or impounded vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de remorquage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de remolque"
+        }
+      ]
+    }
+  ]
+}

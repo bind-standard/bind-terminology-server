@@ -1,0 +1,75 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "AdditionalInterestSubtype",
+  "url": "https://bind.codes/AdditionalInterestSubtype",
+  "name": "AdditionalInterestSubtype",
+  "title": "Additional Interest Subtype",
+  "status": "draft",
+  "language": "en",
+  "description": "Qualifiers that further describe the scope or conditions of an additional interest designation.",
+  "concept": [
+    {
+      "code": "BLNK",
+      "display": "Blanket",
+      "definition": "Applies automatically to all qualifying parties required by written contract, without scheduling each one individually.",
+      "designation": [
+        { "language": "fr-CA", "value": "Globale" },
+        { "language": "es-MX", "value": "General" }
+      ]
+    },
+    {
+      "code": "SCHD",
+      "display": "Scheduled",
+      "definition": "Applies only to parties specifically listed by name in the policy or endorsement.",
+      "designation": [
+        { "language": "fr-CA", "value": "Nommée" },
+        { "language": "es-MX", "value": "Programada" }
+      ]
+    },
+    {
+      "code": "PRNC",
+      "display": "Primary & Non-Contributory",
+      "definition": "The policy responds first without seeking contribution from the additional interest's own policies.",
+      "designation": [
+        { "language": "fr-CA", "value": "Primaire et non contributif" },
+        { "language": "es-MX", "value": "Primario y no contributivo" }
+      ]
+    },
+    {
+      "code": "DSLC",
+      "display": "Designated Location",
+      "definition": "Coverage for the additional interest is limited to operations at a specified location.",
+      "designation": [
+        { "language": "fr-CA", "value": "Lieu désigné" },
+        { "language": "es-MX", "value": "Ubicación designada" }
+      ]
+    },
+    {
+      "code": "ONGO",
+      "display": "Ongoing Operations",
+      "definition": "Coverage applies to the additional interest only during the insured's ongoing work at a project.",
+      "designation": [
+        { "language": "fr-CA", "value": "Opérations en cours" },
+        { "language": "es-MX", "value": "Operaciones en curso" }
+      ]
+    },
+    {
+      "code": "CMOP",
+      "display": "Completed Operations",
+      "definition": "Coverage applies to the additional interest for liability arising after the insured's work at a project is completed.",
+      "designation": [
+        { "language": "fr-CA", "value": "Opérations complétées" },
+        { "language": "es-MX", "value": "Operaciones completadas" }
+      ]
+    },
+    {
+      "code": "OWCT",
+      "display": "Owners, Contractors",
+      "definition": "Coverage for project owners or general contractors arising from the named insured's work on their project.",
+      "designation": [
+        { "language": "fr-CA", "value": "Propriétaires, entrepreneurs" },
+        { "language": "es-MX", "value": "Propietarios, contratistas" }
+      ]
+    }
+  ]
+}

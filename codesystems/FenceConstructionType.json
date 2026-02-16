@@ -1,0 +1,265 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "FenceConstructionType",
+  "url": "https://bind.codes/FenceConstructionType",
+  "name": "FenceConstructionType",
+  "title": "Fence Construction Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Fence Construction Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "LOGF",
+      "display": "Log",
+      "definition": "Fence constructed from natural wood logs, often used for rustic or rural properties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rondin"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tronco"
+        }
+      ]
+    },
+    {
+      "code": "MONO",
+      "display": "Monocoque",
+      "definition": "Single-piece structural fence construction where the outer skin bears the structural load.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Monocoque"
+        },
+        {
+          "language": "es-MX",
+          "value": "Monocasco"
+        }
+      ]
+    },
+    {
+      "code": "FBRG",
+      "display": "Fiberglass",
+      "definition": "Fence made from fiber-reinforced plastic composite material.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fibre de verre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fibra de vidrio"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "BRCK",
+      "display": "Brick",
+      "definition": "Fence constructed from fired clay bricks, typically mortared together.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Brique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ladrillo"
+        }
+      ]
+    },
+    {
+      "code": "CBLK",
+      "display": "Concrete Block",
+      "definition": "Fence built using concrete masonry units (CMU), also known as cinder blocks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Blocs en béton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bloque de concreto"
+        }
+      ]
+    },
+    {
+      "code": "WOOD",
+      "display": "Frame (Wood)",
+      "definition": "Fence with wooden frame construction, including posts, rails, and panels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charpente de bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Marco de madera"
+        }
+      ]
+    },
+    {
+      "code": "MASN",
+      "display": "Masonite",
+      "definition": "Fence constructed from hardboard made of steam-cooked and pressure-molded wood fibers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aggloméré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Masonita"
+        }
+      ]
+    },
+    {
+      "code": "ALUM",
+      "display": "Aluminium",
+      "definition": "Fence made from aluminum metal, typically lightweight and corrosion-resistant.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aluminium"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aluminio"
+        }
+      ]
+    },
+    {
+      "code": "STON",
+      "display": "Stone",
+      "definition": "Fence constructed from natural or cut stone, typically stacked or mortared.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pierre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Piedra"
+        }
+      ]
+    },
+    {
+      "code": "STEL",
+      "display": "Steel",
+      "definition": "Fence made from steel metal, including various forms such as chain-link, wrought iron, or solid panels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acero"
+        }
+      ]
+    },
+    {
+      "code": "CHNL",
+      "display": "Chain Link",
+      "definition": "Fence made from woven steel wire forming a diamond pattern mesh.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grillage métallique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Malla ciclónica"
+        }
+      ]
+    },
+    {
+      "code": "VYLN",
+      "display": "Vinyl",
+      "definition": "Fence constructed from polyvinyl chloride (PVC) plastic material.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vinyle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vinilo"
+        }
+      ]
+    },
+    {
+      "code": "WRNI",
+      "display": "Wrought Iron",
+      "definition": "Fence made from ornamental iron metalwork, typically with decorative designs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fer forgé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hierro forjado"
+        }
+      ]
+    },
+    {
+      "code": "CMPS",
+      "display": "Composite",
+      "definition": "Fence made from a combination of wood fibers and plastic polymers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Composite"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compuesto"
+        }
+      ]
+    },
+    {
+      "code": "BAMB",
+      "display": "Bamboo",
+      "definition": "Fence constructed from bamboo canes or poles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bambou"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bambú"
+        }
+      ]
+    }
+  ]
+}

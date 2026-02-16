@@ -1,0 +1,132 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "MfaAuthentication",
+  "url": "https://bind.codes/MfaAuthentication",
+  "name": "MfaAuthentication",
+  "title": "Mfa Authentication",
+  "status": "draft",
+  "language": "en",
+  "description": "Mfa Authentication codes for insurance operations.",
+  "concept": [
+    {
+      "code": "EMAL",
+      "display": "Emails",
+      "definition": "Email systems and services requiring user authentication.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courriels"
+        },
+        {
+          "language": "es-MX",
+          "value": "Correos electrónicos"
+        }
+      ]
+    },
+    {
+      "code": "RMAC",
+      "display": "Remote Access",
+      "definition": "Systems accessed from outside the organization's physical premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accès à distance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acceso remoto"
+        }
+      ]
+    },
+    {
+      "code": "NWAC",
+      "display": "Network Access",
+      "definition": "Access to the organization's internal network infrastructure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accès au réseau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acceso a la red"
+        }
+      ]
+    },
+    {
+      "code": "BKUP",
+      "display": "Back-ups",
+      "definition": "Systems used for data backup and recovery operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sauvegardes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Copias de seguridad"
+        }
+      ]
+    },
+    {
+      "code": "DBAC",
+      "display": "Database Access",
+      "definition": "Access to database systems containing organizational data.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accès aux bases de données"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acceso a bases de datos"
+        }
+      ]
+    },
+    {
+      "code": "ADMS",
+      "display": "Administrative Systems",
+      "definition": "Systems with elevated privileges for administrative tasks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Systèmes administratifs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sistemas administrativos"
+        }
+      ]
+    },
+    {
+      "code": "VPNA",
+      "display": "VPN Access",
+      "definition": "Virtual Private Network connections to organizational resources.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accès VPN"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acceso VPN"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None",
+      "definition": "No multi-factor authentication is implemented.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    }
+  ]
+}

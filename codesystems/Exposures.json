@@ -1,0 +1,3897 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Exposures",
+  "url": "https://bind.codes/Exposures",
+  "name": "Exposures",
+  "title": "Exposures",
+  "status": "draft",
+  "language": "en",
+  "description": "Exposures codes for insurance operations.",
+  "concept": [
+    {
+      "code": "SWPO",
+      "display": "Swimming or Wading Pool",
+      "definition": "A water-filled structure designed for recreational swimming or wading activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Piscine ou pataugeuse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Piscina o alberca de vadeo"
+        }
+      ]
+    },
+    {
+      "code": "SAUN",
+      "display": "Sauna",
+      "definition": "A heated room or building designed for heat bathing and relaxation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sauna"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sauna"
+        }
+      ]
+    },
+    {
+      "code": "GYMC",
+      "display": "Gym or Activity Centre",
+      "definition": "A facility equipped for physical exercise, sports, or recreational activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gymnase ou centre d'activité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gimnasio o centro de actividades"
+        }
+      ]
+    },
+    {
+      "code": "AMRD",
+      "display": "Amusement Rides",
+      "definition": "Mechanical or inflatable devices designed for entertainment and recreation at fairs or amusement parks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Manèges"
+        },
+        {
+          "language": "es-MX",
+          "value": "Juegos mecánicos"
+        }
+      ]
+    },
+    {
+      "code": "OSGD",
+      "display": "Outdoor Stadia or Grandstand",
+      "definition": "Large outdoor structures with seating for spectators at sporting or entertainment events.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stades extérieurs ou tribune"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estadios al aire libre o tribunas"
+        }
+      ]
+    },
+    {
+      "code": "SPFL",
+      "display": "Sports Field",
+      "definition": "An outdoor area designated for playing sports such as football, soccer, or baseball.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrain de sport"
+        },
+        {
+          "language": "es-MX",
+          "value": "Campo deportivo"
+        }
+      ]
+    },
+    {
+      "code": "ANML",
+      "display": "Animals",
+      "definition": "Living creatures kept on premises for various purposes including companionship, farming, or business.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Animaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Animales"
+        }
+      ]
+    },
+    {
+      "code": "WHPL",
+      "display": "Whirlpool/Hydro-jetted Tub or Pool",
+      "definition": "A bathing fixture or pool equipped with jets that circulate water for therapeutic or recreational purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Baignoire à remous/à jet d'eau ou piscine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bañera o piscina de hidromasaje"
+        }
+      ]
+    },
+    {
+      "code": "HTUB",
+      "display": "Hot Tub",
+      "definition": "A heated pool or tub filled with water used for relaxation or hydrotherapy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Spa"
+        },
+        {
+          "language": "es-MX",
+          "value": "Jacuzzi"
+        }
+      ]
+    },
+    {
+      "code": "PRLT",
+      "display": "Parking Lot",
+      "definition": "A paved or unpaved area designated for parking vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stationnement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estacionamiento"
+        }
+      ]
+    },
+    {
+      "code": "DRWY",
+      "display": "Driveways",
+      "definition": "A private road or path providing access from a public road to a building or property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entrées (au terrain)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entradas de vehículos"
+        }
+      ]
+    },
+    {
+      "code": "LNWY",
+      "display": "Laneways",
+      "definition": "Narrow roads or pathways typically located behind or between properties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ruelles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Callejones"
+        }
+      ]
+    },
+    {
+      "code": "TPFD",
+      "display": "Third Party Fire Damage",
+      "definition": "Fire damage caused by actions or negligence of parties other than the property owner.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommages par le feu causé par des tiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Daños por incendio causados por terceros"
+        }
+      ]
+    },
+    {
+      "code": "WDCT",
+      "display": "Welding / Cutting",
+      "definition": "Activities involving the use of heat or flame to join or cut metal materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soudage/découpage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Soldadura / Corte"
+        }
+      ]
+    },
+    {
+      "code": "TBCO",
+      "display": "Tobacco",
+      "definition": "Products derived from tobacco plants used for smoking or consumption.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tabac"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tabaco"
+        }
+      ]
+    },
+    {
+      "code": "FLIQ",
+      "display": "Flammable Liquids",
+      "definition": "Liquids that can easily ignite and burn at relatively low temperatures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liquides inflammables"
+        },
+        {
+          "language": "es-MX",
+          "value": "Líquidos inflamables"
+        }
+      ]
+    },
+    {
+      "code": "COOK",
+      "display": "Cooking",
+      "definition": "The preparation of food using heat and various cooking methods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cuisine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cocina"
+        }
+      ]
+    },
+    {
+      "code": "FRWK",
+      "display": "Fireworks",
+      "definition": "Explosive or combustible devices designed to produce visual or auditory effects for entertainment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Feux d'artifice"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fuegos artificiales"
+        }
+      ]
+    },
+    {
+      "code": "SPPT",
+      "display": "Spray Painting",
+      "definition": "The application of paint using pressurized spray equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Peinture au pistolet"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pintura en aerosol"
+        }
+      ]
+    },
+    {
+      "code": "WDWK",
+      "display": "Woodworking",
+      "definition": "The craft or trade of working with wood to create furniture, structures, or decorative items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ébénisterie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carpintería"
+        }
+      ]
+    },
+    {
+      "code": "DPFY",
+      "display": "Deep Fat Frying",
+      "definition": "A cooking method involving submerging food in hot oil or fat.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Friture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fritura profunda"
+        }
+      ]
+    },
+    {
+      "code": "LVEN",
+      "display": "Live Entertainment",
+      "definition": "Performances or shows presented in real-time before an audience.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Spectacle sur scène"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entretenimiento en vivo"
+        }
+      ]
+    },
+    {
+      "code": "PLGD",
+      "display": "Playground",
+      "definition": "An outdoor area equipped with structures and equipment for children's play and recreation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrain de jeux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Área de juegos"
+        }
+      ]
+    },
+    {
+      "code": "RCFC",
+      "display": "Recreational Facilities",
+      "definition": "Buildings or areas equipped for sports, leisure, and recreational activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Installations sportives"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instalaciones recreativas"
+        }
+      ]
+    },
+    {
+      "code": "PYRO",
+      "display": "Pyrotechnics",
+      "definition": "The science and art of creating and using explosive devices for special effects or displays.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pyrotechnie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pirotecnia"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None",
+      "definition": "No specific exposure present.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "An exposure not specifically listed in the terminology.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "3MRT",
+      "display": "Three or More Mortgagees",
+      "definition": "A property with three or more financial institutions or parties holding mortgage liens.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trois créanciers hypothécaires ou plus"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tres o más acreedores hipotecarios"
+        }
+      ]
+    },
+    {
+      "code": "ABLD",
+      "display": "Absentee Landlord",
+      "definition": "A property owner who does not reside at or regularly visit the rental property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Absence de propriétaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propietario ausente"
+        }
+      ]
+    },
+    {
+      "code": "AALK",
+      "display": "Acids, Alkalis or Other Reactive Chemicals",
+      "definition": "Corrosive or reactive chemical substances that can cause burns, explosions, or toxic reactions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acides, alcalis ou autres produits chimiques réactifs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ácidos, álcalis u otros químicos reactivos"
+        }
+      ]
+    },
+    {
+      "code": "ADHV",
+      "display": "Adhesives",
+      "definition": "Substances used to bond materials together, often containing volatile or flammable compounds.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adhésifs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Adhesivos"
+        }
+      ]
+    },
+    {
+      "code": "ADVT",
+      "display": "Advertising",
+      "definition": "Activities related to promoting products, services, or businesses through various media.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Publicité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Publicidad"
+        }
+      ]
+    },
+    {
+      "code": "ARSP",
+      "display": "Aerospace",
+      "definition": "Activities or industries related to aircraft, spacecraft, and related technologies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aérospatiale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aeroespacial"
+        }
+      ]
+    },
+    {
+      "code": "ARPT",
+      "display": "Airport",
+      "definition": "A facility for the takeoff, landing, and maintenance of aircraft, including passenger terminals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aéroport"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aeropuerto"
+        }
+      ]
+    },
+    {
+      "code": "ALCH",
+      "display": "Alcohol",
+      "definition": "Beverages containing ethanol or the business of selling such beverages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Alcool"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alcohol"
+        }
+      ]
+    },
+    {
+      "code": "ATVS",
+      "display": "All terrain vehicles",
+      "definition": "Motorized vehicles designed for off-road use on various terrains.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicules tout terrain"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículos todoterreno"
+        }
+      ]
+    },
+    {
+      "code": "AMMO",
+      "display": "Ammunition",
+      "definition": "Projectiles and propellant materials used in firearms and weapons.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Munitions"
+        },
+        {
+          "language": "es-MX",
+          "value": "Municiones"
+        }
+      ]
+    },
+    {
+      "code": "AMRA",
+      "display": "Amusement and/or Recreational Activity",
+      "definition": "Entertainment or leisure activities provided for public enjoyment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Amusements et/ou activités récréatives"
+        },
+        {
+          "language": "es-MX",
+          "value": "Actividades de entretenimiento y/o recreativas"
+        }
+      ]
+    },
+    {
+      "code": "ARTK",
+      "display": "Animal Race Track",
+      "definition": "A facility where animals, typically horses or dogs, compete in races for spectators and wagering.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Piste de course pour animaux Hippodrome"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pista de carreras de animales"
+        }
+      ]
+    },
+    {
+      "code": "ANSH",
+      "display": "Animal Shows",
+      "definition": "Events or exhibitions featuring animals for entertainment or educational purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Expositions d'animaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Exhibiciones de animales"
+        }
+      ]
+    },
+    {
+      "code": "ANTQ",
+      "display": "Antique Shop",
+      "definition": "A retail establishment selling vintage or historical items and collectibles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boutique d'antiquités"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda de antigüedades"
+        }
+      ]
+    },
+    {
+      "code": "APRY",
+      "display": "Apiary",
+      "definition": "A location where beehives are kept for honey production or pollination services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rucher"
+        },
+        {
+          "language": "es-MX",
+          "value": "Apiario"
+        }
+      ]
+    },
+    {
+      "code": "APRP",
+      "display": "Appliance Repair",
+      "definition": "Services involving the maintenance and repair of household or commercial appliances.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réparation d'appareils ménagers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reparación de electrodomésticos"
+        }
+      ]
+    },
+    {
+      "code": "ARCH",
+      "display": "Archery Ranges",
+      "definition": "Facilities designed for practicing or competing in archery with bows and arrows.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Champs de tir à l'arc"
+        },
+        {
+          "language": "es-MX",
+          "value": "Campos de tiro con arco"
+        }
+      ]
+    },
+    {
+      "code": "ARSN",
+      "display": "Arson Loss(es)",
+      "definition": "Damage or losses resulting from intentionally set fires.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Perte(s) due(s) à un incendie criminel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pérdida(s) por incendio intencional"
+        }
+      ]
+    },
+    {
+      "code": "ARFL",
+      "display": "Artificial Flowers",
+      "definition": "Manufactured decorative items designed to resemble natural flowers, often made from flammable materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fleurs artificielles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Flores artificiales"
+        }
+      ]
+    },
+    {
+      "code": "ASBS",
+      "display": "Asbestos",
+      "definition": "A fibrous mineral material used in construction that poses health hazards when disturbed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Amiante"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asbesto"
+        }
+      ]
+    },
+    {
+      "code": "ATNU",
+      "display": "Attractive Nuisances",
+      "definition": "Features or conditions on a property that may attract children and pose danger, such as pools or abandoned equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mal nécessaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Atracciones peligrosas"
+        }
+      ]
+    },
+    {
+      "code": "ATVH",
+      "display": "All Terrain Vehicle",
+      "definition": "A motorized off-road vehicle designed for use on various types of terrain.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule tout-terrain"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo todoterreno"
+        }
+      ]
+    },
+    {
+      "code": "AUCN",
+      "display": "Auction",
+      "definition": "A public sale where items are sold to the highest bidder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Encan"
+        },
+        {
+          "language": "es-MX",
+          "value": "Subasta"
+        }
+      ]
+    },
+    {
+      "code": "AUCR",
+      "display": "Autioneer",
+      "definition": "A person who conducts auctions by accepting bids and declaring items sold.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Encanteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Subastador"
+        }
+      ]
+    },
+    {
+      "code": "BGNS",
+      "display": "Bags or Sacks Containing Nitrates/Sugar",
+      "definition": "Storage of bagged materials containing nitrates or sugar, which can be combustible or reactive.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sacs contenant des nitrates/sucre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bolsas o sacos que contienen nitratos/azúcar"
+        }
+      ]
+    },
+    {
+      "code": "BAIT",
+      "display": "Bait Shop",
+      "definition": "A retail establishment selling live or prepared bait for fishing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boutique d'appâts"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda de carnada"
+        }
+      ]
+    },
+    {
+      "code": "BNKR",
+      "display": "Bankruptcy/Insolvency",
+      "definition": "A financial state where an individual or business cannot meet debt obligations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Faillite/insolvabilité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Quiebra/Insolvencia"
+        }
+      ]
+    },
+    {
+      "code": "BARB",
+      "display": "Barber Shop",
+      "definition": "An establishment providing hair cutting and grooming services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Salon de barbier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Barbería"
+        }
+      ]
+    },
+    {
+      "code": "BEAU",
+      "display": "Beauty Shop",
+      "definition": "An establishment providing cosmetic and hair care services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Salon de beauté"
+        },
+        {
+          "language": "es-MX",
+          "value": "Salón de belleza"
+        }
+      ]
+    },
+    {
+      "code": "BNDB",
+      "display": "Bed and Breakfast",
+      "definition": "A lodging establishment offering overnight accommodation and breakfast.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gîte touristique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casa de huéspedes"
+        }
+      ]
+    },
+    {
+      "code": "BLST",
+      "display": "Blasting",
+      "definition": "The use of explosives to break rock or demolish structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dynamitage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Voladura"
+        }
+      ]
+    },
+    {
+      "code": "BCLP",
+      "display": "Building Collapse, Relocation",
+      "definition": "Structural failure of a building or the process of moving a building to a new location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Effondrement d'un édifice, relogement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Colapso de edificio, reubicación"
+        }
+      ]
+    },
+    {
+      "code": "BRDL",
+      "display": "Boarding/Leasing",
+      "definition": "Providing temporary shelter and care for animals or equipment in exchange for payment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pension/location"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pensión/Arrendamiento"
+        }
+      ]
+    },
+    {
+      "code": "BRED",
+      "display": "Breeding",
+      "definition": "The controlled reproduction of animals for specific characteristics or commercial purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Élevage, reproduction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cría"
+        }
+      ]
+    },
+    {
+      "code": "BRDG",
+      "display": "Bridges",
+      "definition": "Structures built to span physical obstacles such as water, roads, or valleys.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ponts"
+        },
+        {
+          "language": "es-MX",
+          "value": "Puentes"
+        }
+      ]
+    },
+    {
+      "code": "BLDZ",
+      "display": "Bulldozing",
+      "definition": "Earth-moving operations using heavy machinery to clear or grade land.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boutage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nivelación con bulldozer"
+        }
+      ]
+    },
+    {
+      "code": "BUSP",
+      "display": "Business Pursuit",
+      "definition": "Commercial activities or operations conducted for profit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pratique commerciale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Actividad comercial"
+        }
+      ]
+    },
+    {
+      "code": "BTCH",
+      "display": "Butchering",
+      "definition": "The slaughtering and processing of animals for meat.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Abattage d'animaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Matanza de animales"
+        }
+      ]
+    },
+    {
+      "code": "PBRD",
+      "display": "Public Roads",
+      "definition": "Roads maintained by government authorities and open to public traffic.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voie publique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vías públicas"
+        }
+      ]
+    },
+    {
+      "code": "DLVR",
+      "display": "Deliveries",
+      "definition": "The transportation and distribution of goods to customers or locations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Livraisons"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entregas"
+        }
+      ]
+    },
+    {
+      "code": "CATR",
+      "display": "Catering",
+      "definition": "Providing food service at events, functions, or off-site locations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service de traiteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Catering"
+        }
+      ]
+    },
+    {
+      "code": "PVRD",
+      "display": "Private Roads",
+      "definition": "Roads owned and maintained by private entities, not open to general public use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voies privées"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caminos privados"
+        }
+      ]
+    },
+    {
+      "code": "OFPR",
+      "display": "Off Premises Operations",
+      "definition": "Business activities conducted away from the primary insured location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Opérations hors des lieux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Operaciones fuera de las instalaciones"
+        }
+      ]
+    },
+    {
+      "code": "ELEV",
+      "display": "Elevators",
+      "definition": "Mechanical lifting devices used to transport people or goods between floors.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ascenseurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Elevadores"
+        }
+      ]
+    },
+    {
+      "code": "PPRD",
+      "display": "Private and Public roads",
+      "definition": "Combination of both privately owned and publicly maintained roadways.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voies privées et publiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caminos privados y públicos"
+        }
+      ]
+    },
+    {
+      "code": "ULTR",
+      "display": "Unloaded Trailer",
+      "definition": "A trailer not carrying cargo or goods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque déchargée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque descargado"
+        }
+      ]
+    },
+    {
+      "code": "LDTR",
+      "display": "Loaded Trailer",
+      "definition": "A trailer carrying cargo or goods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque chargée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque cargado"
+        }
+      ]
+    },
+    {
+      "code": "MCHW",
+      "display": "Mechanical Work",
+      "definition": "Repair or maintenance of mechanical systems and machinery.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travaux d'usinage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajo mecánico"
+        }
+      ]
+    },
+    {
+      "code": "BDYW",
+      "display": "Body Work",
+      "definition": "Repair or modification of vehicle bodies and exterior panels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travaux de carrosserie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajo de carrocería"
+        }
+      ]
+    },
+    {
+      "code": "TWOP",
+      "display": "Towing Operations",
+      "definition": "Services involving the pulling or transporting of disabled or impounded vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Opérations de remorquage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Operaciones de remolque"
+        }
+      ]
+    },
+    {
+      "code": "INST",
+      "display": "Installation",
+      "definition": "The process of setting up, assembling, or placing equipment or systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Installation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instalación"
+        }
+      ]
+    },
+    {
+      "code": "GASL",
+      "display": "Gasoline",
+      "definition": "A volatile, flammable liquid fuel used in internal combustion engines.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Essence"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gasolina"
+        }
+      ]
+    },
+    {
+      "code": "FOOD",
+      "display": "Food",
+      "definition": "Edible products for human consumption.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aliments"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alimentos"
+        }
+      ]
+    },
+    {
+      "code": "CBHC",
+      "display": "Cabinet/Handicraft Shop",
+      "definition": "A retail establishment or workshop creating or selling handmade crafts and custom cabinetry.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Armoire/boutique d'artisanat"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda de gabinetes/artesanías"
+        }
+      ]
+    },
+    {
+      "code": "CAIS",
+      "display": "Caisson Work",
+      "definition": "Construction work involving watertight chambers used in underwater or foundation projects.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travaux de caisson"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajo de cajón"
+        }
+      ]
+    },
+    {
+      "code": "CAMP",
+      "display": "Camping / Campground",
+      "definition": "Outdoor recreational area providing sites for tents, trailers, or recreational vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camping/terrain de camping"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camping / Campamento"
+        }
+      ]
+    },
+    {
+      "code": "CARP",
+      "display": "Carpentry",
+      "definition": "The skilled trade of cutting, shaping, and installing wooden structures and fixtures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Menuiserie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carpintería"
+        }
+      ]
+    },
+    {
+      "code": "CTFC",
+      "display": "Cattle Food Cake",
+      "definition": "Compressed blocks of feed material used for livestock nutrition.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tourteaux (aliments pour bétail)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Torta de alimento para ganado"
+        }
+      ]
+    },
+    {
+      "code": "CHEM",
+      "display": "Chemicals (acid/benzine/benzol/kerosene/solvents/etc.)",
+      "definition": "Various chemical substances including acids, solvents, fuels, and other reactive or hazardous materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits chimiques (acide/benzène/benzol/kérosène/solvants/etc.)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Químicos (ácido/bencina/benzol/queroseno/solventes/etc.)"
+        }
+      ]
+    },
+    {
+      "code": "CHST",
+      "display": "Chemical Storage",
+      "definition": "Facilities or areas designated for storing chemical substances.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreposage de produits chimiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Almacenamiento de químicos"
+        }
+      ]
+    },
+    {
+      "code": "CHLD",
+      "display": "Children Employees",
+      "definition": "Minors employed in a business or work environment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employés mineurs (enfants)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empleados menores de edad"
+        }
+      ]
+    },
+    {
+      "code": "CMPG",
+      "display": "Compressed Gas(es)",
+      "definition": "Gases stored under pressure in cylinders or tanks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gaz comprimé(s)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gas(es) comprimido(s)"
+        }
+      ]
+    },
+    {
+      "code": "CVAH",
+      "display": "Convalescent/Care Centres for Aged,Youth,Handicapped",
+      "definition": "Residential facilities providing care and support for elderly, young, or disabled individuals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Centres de soins prolongés pour personnes âgées, enfants, personnes handicapées"
+        },
+        {
+          "language": "es-MX",
+          "value": "Centros de convalecencia/cuidado para ancianos, jóvenes, discapacitados"
+        }
+      ]
+    },
+    {
+      "code": "CKFC",
+      "display": "Cooking Facilities",
+      "definition": "Equipment and areas designated for food preparation and cooking.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cuisinettes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instalaciones de cocina"
+        }
+      ]
+    },
+    {
+      "code": "CKNG",
+      "display": "Cooking",
+      "definition": "The process of preparing food using heat.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cuisson"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cocción"
+        }
+      ]
+    },
+    {
+      "code": "COTN",
+      "display": "Cotton",
+      "definition": "Natural fiber material that is highly combustible, especially in raw or processed form.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Algodón"
+        }
+      ]
+    },
+    {
+      "code": "CRNE",
+      "display": "Cranes",
+      "definition": "Large machinery used to lift and move heavy objects at construction or industrial sites.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grues"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grúas"
+        }
+      ]
+    },
+    {
+      "code": "CRKM",
+      "display": "Creeks",
+      "definition": "Small streams or watercourses on or adjacent to property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ruisseaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arroyos"
+        }
+      ]
+    },
+    {
+      "code": "CAIN",
+      "display": "Custom Application Insecticides",
+      "definition": "Professional application services for insect-control chemicals on agricultural or residential properties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Épandage d'insecticides"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aplicación personalizada de insecticidas"
+        }
+      ]
+    },
+    {
+      "code": "CAHB",
+      "display": "Custom ApplicationHerbicides",
+      "definition": "Professional application services for weed-control chemicals on agricultural or residential properties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Épandage d'herbicides"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aplicación personalizada de herbicidas"
+        }
+      ]
+    },
+    {
+      "code": "CACF",
+      "display": "Custom Application of Chemicals, Fertilizers, etc.",
+      "definition": "Professional services applying agricultural chemicals, fertilizers, or other treatments to land.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Épandage de produits chimiques, d'engrais, etc."
+        },
+        {
+          "language": "es-MX",
+          "value": "Aplicación personalizada de químicos, fertilizantes, etc."
+        }
+      ]
+    },
+    {
+      "code": "CAPS",
+      "display": "Custom Application Pesticides",
+      "definition": "Professional application services for pest-control chemicals on agricultural or residential properties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Épandage de pesticides"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aplicación personalizada de pesticidas"
+        }
+      ]
+    },
+    {
+      "code": "CCSH",
+      "display": "Custom Corn Shelling",
+      "definition": "Contract service for removing corn kernels from cobs for other farmers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Égrenage de mais"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desgrane de maíz personalizado"
+        }
+      ]
+    },
+    {
+      "code": "CSFM",
+      "display": "Custom Farming",
+      "definition": "Contract agricultural services performed on another party's land or crops.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agriculture spécialisée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agricultura personalizada"
+        }
+      ]
+    },
+    {
+      "code": "CSFD",
+      "display": "Custom Feeding",
+      "definition": "Contract service providing specialized feeding programs for livestock owned by others.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Alimentation spécialisée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alimentación personalizada"
+        }
+      ]
+    },
+    {
+      "code": "CSHL",
+      "display": "CustomShelling",
+      "definition": "Contract service for removing grain from husks or pods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Égrenage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desgrane personalizado"
+        }
+      ]
+    },
+    {
+      "code": "CSSP",
+      "display": "Custom Spraying",
+      "definition": "Contract service for applying liquids such as water, pesticides, or fertilizers to crops or land.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Arrosage spécifique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rociado personalizado"
+        }
+      ]
+    },
+    {
+      "code": "CTWL",
+      "display": "Cutting/Welding",
+      "definition": "Operations involving the use of torches or equipment to cut or join metal materials with heat.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Découpage/soudage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corte/Soldadura"
+        }
+      ]
+    },
+    {
+      "code": "DAMS",
+      "display": "Dams",
+      "definition": "Barriers constructed across waterways to control water flow, create reservoirs, or generate power.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Barrages"
+        },
+        {
+          "language": "es-MX",
+          "value": "Presas"
+        }
+      ]
+    },
+    {
+      "code": "DAYC",
+      "display": "Daycare/Babysitting",
+      "definition": "Facilities or services providing supervision and care for children during business hours.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garderie/gardiennage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Guardería/Cuidado de niños"
+        }
+      ]
+    },
+    {
+      "code": "DEMO",
+      "display": "Demolition or Wrecking",
+      "definition": "The controlled destruction and dismantling of buildings or structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Démolition"
+        },
+        {
+          "language": "es-MX",
+          "value": "Demolición"
+        }
+      ]
+    },
+    {
+      "code": "DGSB",
+      "display": "Designated Substance",
+      "definition": "Hazardous materials identified and regulated by authorities due to health or environmental concerns.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Substance désignée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sustancia designada"
+        }
+      ]
+    },
+    {
+      "code": "DOGB",
+      "display": "Dog/Dog Breeding",
+      "definition": "Keeping or commercial breeding of dogs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chiens/élevage de chiens"
+        },
+        {
+          "language": "es-MX",
+          "value": "Perros/Cría de perros"
+        }
+      ]
+    },
+    {
+      "code": "DRGW",
+      "display": "Drugs (Wholesale stock)",
+      "definition": "Large quantities of pharmaceutical products stored for distribution.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Médicaments (marchandise en gros)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Medicamentos (inventario al por mayor)"
+        }
+      ]
+    },
+    {
+      "code": "EQMT",
+      "display": "Equipment Maintenance",
+      "definition": "Regular servicing and repair activities to keep equipment operational.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entretien d'équipements"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mantenimiento de equipos"
+        }
+      ]
+    },
+    {
+      "code": "EQUS",
+      "display": "Equipment Use",
+      "definition": "Operation of machinery or tools for business or commercial purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Utilisation d'équipements"
+        },
+        {
+          "language": "es-MX",
+          "value": "Uso de equipos"
+        }
+      ]
+    },
+    {
+      "code": "ERCT",
+      "display": "Erection",
+      "definition": "The construction or assembly of structures or equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Édification"
+        },
+        {
+          "language": "es-MX",
+          "value": "Erección"
+        }
+      ]
+    },
+    {
+      "code": "EXCV",
+      "display": "Excavation",
+      "definition": "Digging or removal of earth to create foundations, trenches, or other below-ground structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Excavation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Excavación"
+        }
+      ]
+    },
+    {
+      "code": "EXCL",
+      "display": "Exercise Classes",
+      "definition": "Group fitness instruction or training sessions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classes d'exercice"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clases de ejercicio"
+        }
+      ]
+    },
+    {
+      "code": "EXAN",
+      "display": "Unusual/Exotic Animal(s)",
+      "definition": "Non-domestic animals that are rare, wild, or not typically kept as pets or livestock.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Animaux exotiques/hors du commun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Animales exóticos/inusuales"
+        }
+      ]
+    },
+    {
+      "code": "EXPL",
+      "display": "Exploration",
+      "definition": "Activities involving searching for natural resources such as oil, gas, or minerals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exploration"
+        },
+        {
+          "language": "es-MX",
+          "value": "Exploración"
+        }
+      ]
+    },
+    {
+      "code": "EXPV",
+      "display": "Explosives (Dynamite/Fireworks/etc.)",
+      "definition": "Materials designed to rapidly release energy through explosion, including commercial and recreational types.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Explosifs (dynamite/feux d'artifice/etc.)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Explosivos (dinamita/fuegos artificiales/etc.)"
+        }
+      ]
+    },
+    {
+      "code": "FTHR",
+      "display": "Feathers",
+      "definition": "Natural bird plumage material that is highly flammable and used in textiles or crafts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plumes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Plumas"
+        }
+      ]
+    },
+    {
+      "code": "FIBR",
+      "display": "Fibre",
+      "definition": "Thread-like natural or synthetic materials used in textiles and manufacturing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fibre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fibra"
+        }
+      ]
+    },
+    {
+      "code": "FILM",
+      "display": "Film",
+      "definition": "Photographic or motion picture material that may be flammable, especially older nitrate-based types.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pellicule, film"
+        },
+        {
+          "language": "es-MX",
+          "value": "Película"
+        }
+      ]
+    },
+    {
+      "code": "FISH",
+      "display": "Fishing",
+      "definition": "Commercial or recreational activities involving the catching of fish.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pêcheries"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pesca"
+        }
+      ]
+    },
+    {
+      "code": "FLCL",
+      "display": "Flammable/Combustible Liquids",
+      "definition": "Liquids that can easily ignite and sustain combustion, posing fire hazards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liquides inflammables/combustibles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Líquidos inflamables/combustibles"
+        }
+      ]
+    },
+    {
+      "code": "FDBV",
+      "display": "Food or Beverage Services",
+      "definition": "Businesses providing prepared food or drinks for consumption.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services alimentation ou boissons"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de alimentos o bebidas"
+        }
+      ]
+    },
+    {
+      "code": "FTOR",
+      "display": "Fruit Orchards Open to Public",
+      "definition": "Fruit tree farms that allow public access for picking or visiting.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vergers ouverts au public"
+        },
+        {
+          "language": "es-MX",
+          "value": "Huertos frutales abiertos al público"
+        }
+      ]
+    },
+    {
+      "code": "GASS",
+      "display": "Gases",
+      "definition": "Substances in gaseous state that may be flammable, toxic, or under pressure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gaz"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gases"
+        }
+      ]
+    },
+    {
+      "code": "GLUE",
+      "display": "Glues",
+      "definition": "Adhesive substances, often containing volatile or flammable solvents.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Colles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pegamentos"
+        }
+      ]
+    },
+    {
+      "code": "GCTK",
+      "display": "Go Cart Tracks",
+      "definition": "Racing circuits designed for small motorized vehicles for recreation or sport.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Circuits de kart"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pistas de karting"
+        }
+      ]
+    },
+    {
+      "code": "GDRG",
+      "display": "Golf Driving Ranges",
+      "definition": "Facilities where golfers practice hitting balls toward targets.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrains pour la pratique du golf"
+        },
+        {
+          "language": "es-MX",
+          "value": "Campos de práctica de golf"
+        }
+      ]
+    },
+    {
+      "code": "GOVT",
+      "display": "Government",
+      "definition": "Operations or properties owned and operated by governmental entities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gouvernement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gobierno"
+        }
+      ]
+    },
+    {
+      "code": "GRAS",
+      "display": "Grasses",
+      "definition": "Dry vegetation that can be highly flammable, especially in bulk storage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Graminées"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pastos"
+        }
+      ]
+    },
+    {
+      "code": "GRVP",
+      "display": "Gravel Pit",
+      "definition": "Excavation site for extracting gravel and aggregate materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Carrière de gravier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cantera de grava"
+        }
+      ]
+    },
+    {
+      "code": "HAIR",
+      "display": "Hair",
+      "definition": "Human or animal hair material used in manufacturing or crafts, which can be flammable.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cheveux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cabello"
+        }
+      ]
+    },
+    {
+      "code": "HNBC",
+      "display": "Handball Courts",
+      "definition": "Sports facilities designed for playing handball.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrains de handball"
+        },
+        {
+          "language": "es-MX",
+          "value": "Canchas de balonmano"
+        }
+      ]
+    },
+    {
+      "code": "HRBR",
+      "display": "Harbours, Ports",
+      "definition": "Coastal facilities for docking ships and handling maritime cargo.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ports"
+        },
+        {
+          "language": "es-MX",
+          "value": "Puertos"
+        }
+      ]
+    },
+    {
+      "code": "HYSR",
+      "display": "Hay/Sleigh Rides",
+      "definition": "Recreational activities involving horse-drawn wagons or sleighs for entertainment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promenades de charrette de foin/traîneau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paseos en carreta de heno/trineo"
+        }
+      ]
+    },
+    {
+      "code": "HRPL",
+      "display": "Horse Pulls",
+      "definition": "Competitive events where horses pull weighted loads to demonstrate strength.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tir de chevaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tiro de caballos"
+        }
+      ]
+    },
+    {
+      "code": "HRAR",
+      "display": "Horse Riding Arena",
+      "definition": "An enclosed area for horseback riding instruction or practice.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Manège d'équitation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arena de equitación"
+        }
+      ]
+    },
+    {
+      "code": "HRTK",
+      "display": "Horse Track",
+      "definition": "A facility designed for horse racing or training.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Piste de chevaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pista de caballos"
+        }
+      ]
+    },
+    {
+      "code": "HOSP",
+      "display": "Hospital, Health Clinic, Social Services",
+      "definition": "Medical facilities or social service organizations providing care and support to individuals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hôpital, clinique médicale, services sociaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hospital, clínica de salud, servicios sociales"
+        }
+      ]
+    },
+    {
+      "code": "HTRF",
+      "display": "Hot Tar Roofing",
+      "definition": "Roofing work involving the application of heated tar or asphalt materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toiture goudron"
+        },
+        {
+          "language": "es-MX",
+          "value": "Techado con alquitrán caliente"
+        }
+      ]
+    },
+    {
+      "code": "HUNT",
+      "display": "Hunting",
+      "definition": "The pursuit and killing of wild animals for food or sport.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chasse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caza"
+        }
+      ]
+    },
+    {
+      "code": "IRSN",
+      "display": "Incidental Retail/Service N.O.C.",
+      "definition": "Minor retail or service activities conducted from a residence, not otherwise classified.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente au détail à domicile/service non classifié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta minorista/Servicio incidental N.C.O."
+        }
+      ]
+    },
+    {
+      "code": "JUTE",
+      "display": "Jute",
+      "definition": "Natural plant fiber material that is flammable and used in textiles and bags.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Jute"
+        },
+        {
+          "language": "es-MX",
+          "value": "Yute"
+        }
+      ]
+    },
+    {
+      "code": "KENL",
+      "display": "Kennel",
+      "definition": "A facility for boarding, breeding, or caring for dogs and other animals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chenil"
+        },
+        {
+          "language": "es-MX",
+          "value": "Perrera"
+        }
+      ]
+    },
+    {
+      "code": "LDOC",
+      "display": "Land occupied by persons other than insured for commercial purposes",
+      "definition": "Property used by third parties for business activities without the owner's direct involvement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrain occupé par des personnes autres que l'assuré à des fins commerciales"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terreno ocupado por personas distintas del asegurado con fines comerciales"
+        }
+      ]
+    },
+    {
+      "code": "LCLB",
+      "display": "Land Clearing, Brush Burning",
+      "definition": "Removal of vegetation and controlled burning of brush to prepare land for development or agriculture.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défrichement, débroussaillement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Limpieza de terreno, quema de maleza"
+        }
+      ]
+    },
+    {
+      "code": "LNDS",
+      "display": "Landscaping",
+      "definition": "Design, installation, and maintenance of outdoor grounds and gardens.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrassement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paisajismo"
+        }
+      ]
+    },
+    {
+      "code": "LASR",
+      "display": "Laser Beam",
+      "definition": "Concentrated light beams used in industrial, medical, or entertainment applications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rayon laser"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rayo láser"
+        }
+      ]
+    },
+    {
+      "code": "LSSN",
+      "display": "Lessons",
+      "definition": "Instruction or teaching services provided in various subjects or skills.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Leçons"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lecciones"
+        }
+      ]
+    },
+    {
+      "code": "LPLG",
+      "display": "Liquified Petroleum or Liquified Natural Gas (LNG)",
+      "definition": "Gases converted to liquid form for storage or transport, highly flammable.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pétrole liquéfié ou gaz naturel liquéfié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Petróleo licuado o gas natural licuado (GNL)"
+        }
+      ]
+    },
+    {
+      "code": "LVDK",
+      "display": "Livestock Dealers",
+      "definition": "Businesses buying and selling farm animals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marchands de bétail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comerciantes de ganado"
+        }
+      ]
+    },
+    {
+      "code": "LVSH",
+      "display": "Livestock Shows",
+      "definition": "Events exhibiting farm animals for competition, education, or sale.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Expositions de bétail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Exposiciones de ganado"
+        }
+      ]
+    },
+    {
+      "code": "LOGG",
+      "display": "Logging",
+      "definition": "The cutting, processing, and transport of trees for timber.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exploitation forestière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tala de árboles"
+        }
+      ]
+    },
+    {
+      "code": "MCHB",
+      "display": "Equipment/Machinery Borrowed from Others",
+      "definition": "Machinery or equipment temporarily obtained from another party for use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement/machinerie empruntés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo/Maquinaria prestado por otros"
+        }
+      ]
+    },
+    {
+      "code": "MCHL",
+      "display": "Equipment/Machinery Loaned to Others",
+      "definition": "Machinery or equipment temporarily provided to another party for their use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement/machinerie prêtés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo/Maquinaria prestado a otros"
+        }
+      ]
+    },
+    {
+      "code": "MCHF",
+      "display": "Equipment/Machinery Rented from Others",
+      "definition": "Machinery or equipment leased from another party for temporary use with payment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement/machinerie loués"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo/Maquinaria alquilado de otros"
+        }
+      ]
+    },
+    {
+      "code": "MCHT",
+      "display": "Equipment/Machinery Rented to Others",
+      "definition": "Machinery or equipment leased to another party for their temporary use with payment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement/machinerie loués à des tiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo/Maquinaria alquilado a otros"
+        }
+      ]
+    },
+    {
+      "code": "MNFG",
+      "display": "Manufacturing",
+      "definition": "The production of goods using machinery, labor, and raw materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fabrication"
+        },
+        {
+          "language": "es-MX",
+          "value": "Manufactura"
+        }
+      ]
+    },
+    {
+      "code": "MNRL",
+      "display": "Manure Lagoons",
+      "definition": "Large ponds or pits used to store animal waste from farming operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fosses à purin"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lagunas de estiércol"
+        }
+      ]
+    },
+    {
+      "code": "MDCL",
+      "display": "Medical",
+      "definition": "Healthcare-related services or facilities providing diagnosis, treatment, or care.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Médical"
+        },
+        {
+          "language": "es-MX",
+          "value": "Médico"
+        }
+      ]
+    },
+    {
+      "code": "MLSR",
+      "display": "Milk Sales Retail",
+      "definition": "Direct sale of milk products to consumers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente de lait au détail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta de leche al por menor"
+        }
+      ]
+    },
+    {
+      "code": "MLSW",
+      "display": "Milk Sales Wholesale",
+      "definition": "Sale of milk products in bulk to retailers or processors.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente de lait en gros"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta de leche al por mayor"
+        }
+      ]
+    },
+    {
+      "code": "MNTN",
+      "display": "Mine/Tunnel",
+      "definition": "Underground excavations for extracting minerals or creating passages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mines/tunnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mina/Túnel"
+        }
+      ]
+    },
+    {
+      "code": "MNGF",
+      "display": "Miniature Golf Courses",
+      "definition": "Recreational facilities featuring small-scale golf putting courses with obstacles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Golfs miniatures"
+        },
+        {
+          "language": "es-MX",
+          "value": "Campos de minigolf"
+        }
+      ]
+    },
+    {
+      "code": "MING",
+      "display": "Mining",
+      "definition": "The extraction of valuable minerals or other geological materials from the earth.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exploitation minière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Minería"
+        }
+      ]
+    },
+    {
+      "code": "MOWG",
+      "display": "Mowing",
+      "definition": "Cutting grass or vegetation using mechanical equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fauchage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corte de césped"
+        }
+      ]
+    },
+    {
+      "code": "MVTT",
+      "display": "Motorized Vehicle Track/Trail",
+      "definition": "Designated paths or courses for motorized vehicles such as ATVs or motorcycles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Circuit/piste de véhicule motorisé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pista/Sendero de vehículos motorizados"
+        }
+      ]
+    },
+    {
+      "code": "NTGS",
+      "display": "Natural Gas",
+      "definition": "A flammable gaseous fuel found underground and used for heating and cooking.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gaz naturel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gas natural"
+        }
+      ]
+    },
+    {
+      "code": "NBVT",
+      "display": "New Business Venture",
+      "definition": "A recently established business enterprise with limited operating history.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nouvelle entreprise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nuevo emprendimiento comercial"
+        }
+      ]
+    },
+    {
+      "code": "NOHZ",
+      "display": "None -no special hazards",
+      "definition": "No identifiable special hazards present.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun risque spécial"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ningún peligro especial"
+        }
+      ]
+    },
+    {
+      "code": "NUCL",
+      "display": "Nuclear",
+      "definition": "Activities or materials involving radioactive substances or nuclear reactions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nucléaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nuclear"
+        }
+      ]
+    },
+    {
+      "code": "OFFC",
+      "display": "Office",
+      "definition": "Administrative workspace for clerical and professional work.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Oficina"
+        }
+      ]
+    },
+    {
+      "code": "OILG",
+      "display": "Oil and Gas",
+      "definition": "Extraction, processing, or distribution of petroleum and natural gas products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pétrole et gaz"
+        },
+        {
+          "language": "es-MX",
+          "value": "Petróleo y gas"
+        }
+      ]
+    },
+    {
+      "code": "OTHX",
+      "display": "Other",
+      "definition": "An exposure not specifically listed in this terminology.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "OZDS",
+      "display": "Ozone Depleting Substance",
+      "definition": "Chemicals that harm the earth's protective ozone layer, such as CFCs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Substance appauvrissant la couche d'ozone"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sustancia que agota el ozono"
+        }
+      ]
+    },
+    {
+      "code": "PCBS",
+      "display": "Polychlorinated Biphenyls (PCBs)",
+      "definition": "Toxic industrial chemicals used in electrical equipment, now banned in many jurisdictions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Biphényle polychloré (BPC)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bifenilos policlorados (PCB)"
+        }
+      ]
+    },
+    {
+      "code": "PSIH",
+      "display": "Pesticides, Insecticides or Herbicides",
+      "definition": "Chemical substances used to control pests, insects, or unwanted vegetation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pesticides, insecticides ou herbicides"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pesticidas, insecticidas o herbicidas"
+        }
+      ]
+    },
+    {
+      "code": "PTBD",
+      "display": "Pet Breeding (cats, dogs, etc.)",
+      "definition": "Commercial breeding of companion animals for sale.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Élevage d'animaux domestiques (chats, chiens, etc.)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cría de mascotas (gatos, perros, etc.)"
+        }
+      ]
+    },
+    {
+      "code": "PTZOO",
+      "display": "Petting Zoo",
+      "definition": "A facility where visitors can interact with and touch domestic animals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Parc animalier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Zoológico de contacto"
+        }
+      ]
+    },
+    {
+      "code": "PYOF",
+      "display": "Pick Your Own (fruits & vegetables)",
+      "definition": "Agricultural operations allowing customers to harvest their own produce.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autocueillette (fruits & légumes)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Recoja usted mismo (frutas y verduras)"
+        }
+      ]
+    },
+    {
+      "code": "PCGD",
+      "display": "Picnic Grounds",
+      "definition": "Outdoor areas designated for recreational dining and gatherings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrains de pique-nique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Áreas de picnic"
+        }
+      ]
+    },
+    {
+      "code": "PLDV",
+      "display": "Pile Driving",
+      "definition": "Construction process forcing piles or posts into the ground to support structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fonçage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hincado de pilotes"
+        }
+      ]
+    },
+    {
+      "code": "PLST",
+      "display": "Plastic",
+      "definition": "Synthetic polymer materials that are often combustible.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plastique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Plástico"
+        }
+      ]
+    },
+    {
+      "code": "PLFM",
+      "display": "Plastic Foam",
+      "definition": "Lightweight cellular plastic material that is highly flammable.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mousse plastique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Espuma plástica"
+        }
+      ]
+    },
+    {
+      "code": "PALS",
+      "display": "Pollution, Air, Liquid, Solid",
+      "definition": "Environmental contamination in various forms including airborne, liquid, or solid waste.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pollution, air, liquide, solide"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contaminación, aire, líquido, sólido"
+        }
+      ]
+    },
+    {
+      "code": "POND",
+      "display": "Ponds",
+      "definition": "Small bodies of still water on or adjacent to property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Étang"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estanques"
+        }
+      ]
+    },
+    {
+      "code": "PMNT",
+      "display": "Poor Maintenance",
+      "definition": "Inadequate upkeep of property or equipment leading to deterioration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mauvais entretien"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mantenimiento deficiente"
+        }
+      ]
+    },
+    {
+      "code": "PVST",
+      "display": "Private Storage",
+      "definition": "Personal storage of goods or materials not for commercial purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreposage privé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Almacenamiento privado"
+        }
+      ]
+    },
+    {
+      "code": "PRFC",
+      "display": "Processing Facility",
+      "definition": "Industrial plant where raw materials are converted into finished products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Usine de transformation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Planta de procesamiento"
+        }
+      ]
+    },
+    {
+      "code": "PRPN",
+      "display": "Propane",
+      "definition": "A flammable liquefied petroleum gas used for heating and cooking.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propane"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propano"
+        }
+      ]
+    },
+    {
+      "code": "PASW",
+      "display": "Public Access Swimming",
+      "definition": "Swimming facilities open to the general public.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Baignade accessible au public"
+        },
+        {
+          "language": "es-MX",
+          "value": "Natación de acceso público"
+        }
+      ]
+    },
+    {
+      "code": "PULL",
+      "display": "Pulls",
+      "definition": "Competitive events involving pulling weighted loads with animals or vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tirs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Competencias de tiro"
+        }
+      ]
+    },
+    {
+      "code": "RCTK",
+      "display": "Race Track",
+      "definition": "A facility designed for competitive racing of vehicles or animals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Piste de course"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pista de carreras"
+        }
+      ]
+    },
+    {
+      "code": "RDMT",
+      "display": "Radioactive Material",
+      "definition": "Substances that emit ionizing radiation, posing health and environmental hazards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matières radioactives"
+        },
+        {
+          "language": "es-MX",
+          "value": "Material radiactivo"
+        }
+      ]
+    },
+    {
+      "code": "RLCR",
+      "display": "Railroad, Railcars",
+      "definition": "Railway infrastructure or vehicles used for transporting goods or passengers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voie ferrée, véhicules de chemin de fer"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ferrocarril, vagones"
+        }
+      ]
+    },
+    {
+      "code": "RMST",
+      "display": "Raising or Moving of Structures",
+      "definition": "Construction activities involving lifting or relocating entire buildings or large structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soulèvement ou déplacement de structures"
+        },
+        {
+          "language": "es-MX",
+          "value": "Elevación o traslado de estructuras"
+        }
+      ]
+    },
+    {
+      "code": "RSOF",
+      "display": "Refreshment Stands (not restaurants) - serving nonalcoholic beverages or food for consumption off premises",
+      "definition": "Casual food service providing take-away items for consumption elsewhere.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comptoir-rafraîchissements (autres que restaurants) - service de boissons non alcoolisées ou nourriture à consommer hors des lieux assurés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Puestos de refrescos (no restaurantes) - sirviendo bebidas no alcohólicas o alimentos para consumo fuera del local"
+        }
+      ]
+    },
+    {
+      "code": "RSON",
+      "display": "Refreshment Stands (not restaurants) - serving nonalcoholic beverages or food for consumption on premises",
+      "definition": "Casual food service providing items for on-site consumption.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comptoir-rafraîchissements (autres que restaurants) - service de boissons non alcoolisées ou nourriture à consommer sur les lieux assurés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Puestos de refrescos (no restaurantes) - sirviendo bebidas no alcohólicas o alimentos para consumo en el local"
+        }
+      ]
+    },
+    {
+      "code": "RNGD",
+      "display": "Rent-a-Garden",
+      "definition": "Land plots rented to individuals for growing their own gardens.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Location de lopins de terre pour planter un jardin"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alquiler de parcelas para jardín"
+        }
+      ]
+    },
+    {
+      "code": "RLEQ",
+      "display": "Renting or Leasing of Equipment",
+      "definition": "Business of providing machinery or equipment to others for temporary use in exchange for payment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Location d'équipements"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alquiler o arrendamiento de equipos"
+        }
+      ]
+    },
+    {
+      "code": "RPWL",
+      "display": "Machinery Repair - including welding",
+      "definition": "Maintenance and repair services for machinery, including welding operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réparation de machinerie - incluant soudage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reparación de maquinaria - incluyendo soldadura"
+        }
+      ]
+    },
+    {
+      "code": "RDAR",
+      "display": "Riding Arena",
+      "definition": "An enclosed facility for horseback riding practice or training.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Manège d'entraînement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arena de equitación"
+        }
+      ]
+    },
+    {
+      "code": "RIGG",
+      "display": "Rigging",
+      "definition": "Installation and arrangement of cables, ropes, or equipment for lifting or supporting loads.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gréage/câblage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aparejo/Montaje"
+        }
+      ]
+    },
+    {
+      "code": "RIVR",
+      "display": "Rivers",
+      "definition": "Natural flowing watercourses on or adjacent to property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rivières"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ríos"
+        }
+      ]
+    },
+    {
+      "code": "RDSM",
+      "display": "Roadside Stand/Market",
+      "definition": "Retail outlet located alongside a road, typically selling produce or goods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comptoir routier/marché"
+        },
+        {
+          "language": "es-MX",
+          "value": "Puesto/Mercado al borde de la carretera"
+        }
+      ]
+    },
+    {
+      "code": "RBSP",
+      "display": "Rubber Solutions & Products",
+      "definition": "Liquid rubber compounds and manufactured rubber items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dissolutions de caoutchouc et produits"
+        },
+        {
+          "language": "es-MX",
+          "value": "Soluciones y productos de caucho"
+        }
+      ]
+    },
+    {
+      "code": "SLBN",
+      "display": "Sales Barn",
+      "definition": "A facility where livestock are auctioned or sold.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Encan à bestiaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corral de ventas"
+        }
+      ]
+    },
+    {
+      "code": "SLPR",
+      "display": "Salesperson (ex. Products, etc.)",
+      "definition": "An individual engaged in selling goods or services to customers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vendeur (par ex. produits, etc.)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vendedor (ej. productos, etc.)"
+        }
+      ]
+    },
+    {
+      "code": "SWML",
+      "display": "Sawmills",
+      "definition": "Facilities where logs are cut into lumber using large saws.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Scieries"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aserraderos"
+        }
+      ]
+    },
+    {
+      "code": "SCLS",
+      "display": "School/Lessons",
+      "definition": "Educational institutions or instructional services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "École/leçons"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escuela/Lecciones"
+        }
+      ]
+    },
+    {
+      "code": "SCLG",
+      "display": "School or College",
+      "definition": "Educational institutions providing primary, secondary, or post-secondary education.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "École ou collège"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escuela o universidad"
+        }
+      ]
+    },
+    {
+      "code": "SCNT",
+      "display": "Scientific",
+      "definition": "Activities involving research, experimentation, or technical analysis.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Scientifique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Científico"
+        }
+      ]
+    },
+    {
+      "code": "SSNW",
+      "display": "SeasonalWorkers",
+      "definition": "Employees hired for temporary work during specific seasons or periods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travailleurs saisonniers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajadores temporales"
+        }
+      ]
+    },
+    {
+      "code": "SDPR",
+      "display": "Seed Processing",
+      "definition": "Treatment and preparation of seeds for planting or sale.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Traitement de graines"
+        },
+        {
+          "language": "es-MX",
+          "value": "Procesamiento de semillas"
+        }
+      ]
+    },
+    {
+      "code": "SDSL",
+      "display": "Seed Sales",
+      "definition": "Commercial sale of plant seeds for agriculture or gardening.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente de semences"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta de semillas"
+        }
+      ]
+    },
+    {
+      "code": "SWRB",
+      "display": "Sewer Back-up",
+      "definition": "Reverse flow of sewage into buildings due to blockage or system failure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Refoulement d'égout"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reflujo de alcantarillado"
+        }
+      ]
+    },
+    {
+      "code": "SWUP",
+      "display": "Sewing/Upholstery Shop",
+      "definition": "A workshop for fabric sewing or furniture upholstering services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Atelier de rembourrage/couture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Taller de costura/tapicería"
+        }
+      ]
+    },
+    {
+      "code": "SHRS",
+      "display": "Shearing Sheep",
+      "definition": "The process of removing wool fleece from sheep.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tonte de moutons"
+        },
+        {
+          "language": "es-MX",
+          "value": "Esquila de ovejas"
+        }
+      ]
+    },
+    {
+      "code": "SHBC",
+      "display": "Shuffle Board Courts",
+      "definition": "Recreational facilities for playing shuffleboard.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrains de jeu de palets/galets"
+        },
+        {
+          "language": "es-MX",
+          "value": "Canchas de tejo"
+        }
+      ]
+    },
+    {
+      "code": "SHOR",
+      "display": "Shoring",
+      "definition": "Temporary structural support using props or braces during construction or excavation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Étayage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Apuntalamiento"
+        }
+      ]
+    },
+    {
+      "code": "SWAN",
+      "display": "Show Animal(s)",
+      "definition": "Animals bred or kept for exhibition or competition.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Animaux d'exposition"
+        },
+        {
+          "language": "es-MX",
+          "value": "Animal(es) de exhibición"
+        }
+      ]
+    },
+    {
+      "code": "SKSH",
+      "display": "Skeet or Trap Shooting",
+      "definition": "Recreational shooting sport using clay targets launched into the air.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tir de pigeons d'argile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tiro al plato"
+        }
+      ]
+    },
+    {
+      "code": "SERP",
+      "display": "Small engine repair",
+      "definition": "Maintenance and repair of small motors used in lawn equipment and tools.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réparation de petits moteurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reparación de motores pequeños"
+        }
+      ]
+    },
+    {
+      "code": "SMOK",
+      "display": "Smoking",
+      "definition": "The use of tobacco products by smoking.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Usage du tabac"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fumar"
+        }
+      ]
+    },
+    {
+      "code": "SNRM",
+      "display": "Snow Removal",
+      "definition": "Services for clearing snow from roads, driveways, or properties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déneigement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remoción de nieve"
+        }
+      ]
+    },
+    {
+      "code": "SLVT",
+      "display": "Solvents,Degreasers,Paint or Volatile Organic Compounds",
+      "definition": "Chemicals used for cleaning, dissolving, or coating that readily evaporate and may be flammable.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Solvants, dégraissants, peinture ou composés organiques volatiles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Solventes, desengrasantes, pintura o compuestos orgánicos volátiles"
+        }
+      ]
+    },
+    {
+      "code": "SPIC",
+      "display": "Spraying, Including Spraying of Chemicals",
+      "definition": "Application of liquids through pressurized equipment, including hazardous chemicals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pulvérisation, incluant pulvérisation de produits chimiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rociado, incluyendo rociado de químicos"
+        }
+      ]
+    },
+    {
+      "code": "SPPI",
+      "display": "Spray Painting",
+      "definition": "Application of paint using pressurized spray equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Peinture au pistolet"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pintura en aerosol"
+        }
+      ]
+    },
+    {
+      "code": "STBL",
+      "display": "Stables",
+      "definition": "Buildings or facilities for housing horses or other livestock.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Étables"
+        },
+        {
+          "language": "es-MX",
+          "value": "Establos"
+        }
+      ]
+    },
+    {
+      "code": "STRW",
+      "display": "Straw",
+      "definition": "Dry stalks of grain plants that are highly flammable, used for bedding or fodder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Paille"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paja"
+        }
+      ]
+    },
+    {
+      "code": "STDO",
+      "display": "Studio",
+      "definition": "A workspace for creative or artistic activities such as photography, art, or music.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Studio"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estudio"
+        }
+      ]
+    },
+    {
+      "code": "SWIM",
+      "display": "Swimming",
+      "definition": "Recreational or competitive water activities in pools or natural bodies of water.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Baignade"
+        },
+        {
+          "language": "es-MX",
+          "value": "Natación"
+        }
+      ]
+    },
+    {
+      "code": "SYRS",
+      "display": "Syrup Sales (maple, etc.)",
+      "definition": "Commercial sale of natural syrups such as maple syrup.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ventes de sirop (érable, etc.)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta de jarabe (arce, etc.)"
+        }
+      ]
+    },
+    {
+      "code": "TNCT",
+      "display": "Tennis Courts",
+      "definition": "Recreational facilities with marked areas for playing tennis.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrains de tennis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Canchas de tenis"
+        }
+      ]
+    },
+    {
+      "code": "TSEQ",
+      "display": "Testing of Equipment",
+      "definition": "Evaluation and inspection procedures to verify equipment functionality and safety.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vérification de l'équipement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Prueba de equipos"
+        }
+      ]
+    },
+    {
+      "code": "TIRE",
+      "display": "Tires",
+      "definition": "Rubber tire storage or sales, which are combustible materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pneus"
+        },
+        {
+          "language": "es-MX",
+          "value": "Neumáticos"
+        }
+      ]
+    },
+    {
+      "code": "TKTL",
+      "display": "Tracks/trails",
+      "definition": "Designated paths or courses for vehicles, animals, or pedestrians.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pistes/sentiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pistas/senderos"
+        }
+      ]
+    },
+    {
+      "code": "TRCU",
+      "display": "Tractor Use (non-commercial for snow removal, plowing gardens, etc. including use of attachments)",
+      "definition": "Non-commercial operation of tractors for personal property maintenance tasks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Utilisation d'un tracteur (non commerciale pour déneigement, labourage de jardins, etc. incluant utilisation d'accessoires)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Uso de tractor (no comercial para remoción de nieve, arado de jardines, etc. incluyendo uso de accesorios)"
+        }
+      ]
+    },
+    {
+      "code": "TLRD",
+      "display": "Trail Rides",
+      "definition": "Guided horseback riding excursions on designated trails.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promenades en sentier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paseos por senderos"
+        }
+      ]
+    },
+    {
+      "code": "TRAL",
+      "display": "Trails",
+      "definition": "Marked paths through natural areas for hiking, riding, or other outdoor activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sentiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Senderos"
+        }
+      ]
+    },
+    {
+      "code": "TUNL",
+      "display": "Tunnelling",
+      "definition": "Excavation work creating underground passages through earth or rock.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Creusage de tunnels"
+        },
+        {
+          "language": "es-MX",
+          "value": "Construcción de túneles"
+        }
+      ]
+    },
+    {
+      "code": "UFMD",
+      "display": "Urea-formaldehyde",
+      "definition": "A chemical compound used in insulation and adhesives that can emit toxic fumes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Urée formaldéhyde"
+        },
+        {
+          "language": "es-MX",
+          "value": "Urea-formaldehído"
+        }
+      ]
+    },
+    {
+      "code": "UGHZ",
+      "display": "Underground Hazard",
+      "definition": "Subsurface dangers such as buried utilities, unstable soil, or contamination.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Danger/risque souterrain"
+        },
+        {
+          "language": "es-MX",
+          "value": "Peligro subterráneo"
+        }
+      ]
+    },
+    {
+      "code": "UNDP",
+      "display": "Underpinning",
+      "definition": "Construction process of strengthening or replacing a building's foundation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Reprise en sous-œuvre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Recalce"
+        }
+      ]
+    },
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "definition": "Exposure type not identified or determined.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "VCNC",
+      "display": "Vacancy",
+      "definition": "Unoccupied property or dwelling units.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inoccupé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vacante"
+        }
+      ]
+    },
+    {
+      "code": "VCFM",
+      "display": "Vacation Farm (Dude Ranch)",
+      "definition": "A working farm or ranch that accommodates tourists for recreational stays.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vacance sur la ferme (Ranch de tourisme)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Granja de vacaciones (Rancho turístico)"
+        }
+      ]
+    },
+    {
+      "code": "VBST",
+      "display": "Vehicle/Boat Storage",
+      "definition": "Facilities for storing vehicles or watercraft.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreposage de véhicules/bateau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Almacenamiento de vehículos/embarcaciones"
+        }
+      ]
+    },
+    {
+      "code": "VULC",
+      "display": "Vulcanizing",
+      "definition": "The process of treating rubber with heat and chemicals to improve durability.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vulcanisation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vulcanización"
+        }
+      ]
+    },
+    {
+      "code": "WSTK",
+      "display": "Waste of all Kind",
+      "definition": "Storage or processing of various types of refuse and discarded materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déchets de toute sorte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Residuos de todo tipo"
+        }
+      ]
+    },
+    {
+      "code": "WKSP",
+      "display": "Weakening of Supports",
+      "definition": "Deterioration or compromise of structural support elements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Affaiblissement des pièces d'appui"
+        },
+        {
+          "language": "es-MX",
+          "value": "Debilitamiento de soportes"
+        }
+      ]
+    },
+    {
+      "code": "WELD",
+      "display": "Welding",
+      "definition": "The process of joining metal parts using heat to melt and fuse them together.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soudage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Soldadura"
+        }
+      ]
+    },
+    {
+      "code": "WHSL",
+      "display": "Wholesale Trade",
+      "definition": "Business of selling goods in large quantities to retailers or other businesses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commerce de gros"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comercio mayorista"
+        }
+      ]
+    },
+    {
+      "code": "WMSY",
+      "display": "Wood/Maple Syrup Sales",
+      "definition": "Commercial sale of firewood and maple syrup products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ventes de bois/sirop d'érable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta de madera/jarabe de arce"
+        }
+      ]
+    },
+    {
+      "code": "WOOD",
+      "display": "Wood",
+      "definition": "Timber material that is combustible, used in construction or as fuel.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Madera"
+        }
+      ]
+    },
+    {
+      "code": "WWKR",
+      "display": "Woodworker",
+      "definition": "A craftsperson who works with wood to create products or structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travailleur du bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajador de la madera"
+        }
+      ]
+    },
+    {
+      "code": "XMTS",
+      "display": "Christmas Tree Sales",
+      "definition": "Seasonal sale of evergreen trees for holiday decoration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ventes d'arbres de Noël"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta de árboles de Navidad"
+        }
+      ]
+    }
+  ]
+}

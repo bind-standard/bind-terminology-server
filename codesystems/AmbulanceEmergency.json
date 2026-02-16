@@ -1,0 +1,57 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "AmbulanceEmergency",
+  "url": "https://bind.codes/AmbulanceEmergency",
+  "name": "AmbulanceEmergency",
+  "title": "Ambulance Emergency",
+  "status": "draft",
+  "language": "en",
+  "description": "Ambulance Emergency codes for insurance operations.",
+  "concept": [
+    {
+      "code": "EMRG",
+      "display": "Emergency use",
+      "definition": "Ambulance transport provided in response to a medical emergency where immediate care or rapid transport is medically necessary.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Urgences"
+        },
+        {
+          "language": "es-MX",
+          "value": "Uso de emergencia"
+        }
+      ]
+    },
+    {
+      "code": "NEMR",
+      "display": "Non emergency use",
+      "definition": "Ambulance transport for scheduled or non-urgent medical situations where immediate care is not required.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non-urgences"
+        },
+        {
+          "language": "es-MX",
+          "value": "Uso no urgente"
+        }
+      ]
+    },
+    {
+      "code": "BOTH",
+      "display": "Emergency and non emergency use",
+      "definition": "Ambulance service capable of providing both emergency response and scheduled non-urgent medical transport.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Urgences et non-urgences"
+        },
+        {
+          "language": "es-MX",
+          "value": "Uso de emergencia y no urgente"
+        }
+      ]
+    }
+  ]
+}

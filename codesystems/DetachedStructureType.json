@@ -1,0 +1,222 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "DetachedStructureType",
+  "url": "https://bind.codes/DetachedStructureType",
+  "name": "DetachedStructureType",
+  "title": "Detached Structure Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Detached Structure Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "BLIN",
+      "display": "Built in",
+      "definition": "A structure that is built into or integrated within the main building, not freestanding.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Encastré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empotrado"
+        }
+      ]
+    },
+    {
+      "code": "BSMT",
+      "display": "Basement",
+      "definition": "A below-ground level of a structure used for storage, utilities, or additional living space.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous-sol"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sótano"
+        }
+      ]
+    },
+    {
+      "code": "CRPT",
+      "display": "Carport",
+      "definition": "A covered parking structure with open sides, typically attached to or near a building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Abri d'auto"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cochera"
+        }
+      ]
+    },
+    {
+      "code": "ATFR",
+      "display": "Attached Frame",
+      "definition": "A structure with wood frame construction that is physically connected to the main building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Attachée - Charpente de bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estructura Adjunta"
+        }
+      ]
+    },
+    {
+      "code": "ATMV",
+      "display": "Attached Masonry or Masonry/Veneer",
+      "definition": "A structure with masonry or masonry veneer construction that is physically connected to the main building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Attachée - Maçonnerie ou parement de maçonnerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mampostería Adjunta o Revestimiento de Mampostería"
+        }
+      ]
+    },
+    {
+      "code": "DTFR",
+      "display": "Detached Frame",
+      "definition": "A freestanding structure with wood frame construction that is separate from the main building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détachée - en bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estructura Separada"
+        }
+      ]
+    },
+    {
+      "code": "DTMV",
+      "display": "Detached Masonry or Masonry/Veneer",
+      "definition": "A freestanding structure with masonry or masonry veneer construction that is separate from the main building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détachée - Maçonnerie ou parement de maçonnerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mampostería Separada o Revestimiento de Mampostería"
+        }
+      ]
+    },
+    {
+      "code": "ATMS",
+      "display": "Attached - Masonry",
+      "definition": "A structure with solid masonry construction that is physically connected to the main building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Attachée - Maçonnerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mampostería Adjunta"
+        }
+      ]
+    },
+    {
+      "code": "BUAG",
+      "display": "Basement Under Attached Garage",
+      "definition": "A below-ground level space located beneath a garage that is connected to the main building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous-sol sous garage attaché"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sótano Bajo Garaje Adjunto"
+        }
+      ]
+    },
+    {
+      "code": "CRST",
+      "display": "Carport With Storage",
+      "definition": "A covered parking structure with open sides that includes enclosed storage space.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Abri d'auto avec espace de rangement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cochera con Almacenamiento"
+        }
+      ]
+    },
+    {
+      "code": "DTGM",
+      "display": "Detached Garage - Masonry",
+      "definition": "A freestanding garage structure built with masonry construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage détaché - Maçonnerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Garaje Separado - Mampostería"
+        }
+      ]
+    },
+    {
+      "code": "DTGF",
+      "display": "Detached Garage - Frame",
+      "definition": "A freestanding garage structure built with wood frame construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage détaché - Charpente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Garaje Separado - Estructura"
+        }
+      ]
+    },
+    {
+      "code": "SHED",
+      "display": "Shed",
+      "definition": "A small, simple freestanding structure used for storage or workspace.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cobertizo"
+        }
+      ]
+    },
+    {
+      "code": "BARN",
+      "display": "Barn",
+      "definition": "A large agricultural structure typically used for storing farm equipment, hay, or housing livestock.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grange"
+        },
+        {
+          "language": "es-MX",
+          "value": "Granero"
+        }
+      ]
+    }
+  ]
+}

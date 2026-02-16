@@ -1,0 +1,175 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "WiringType",
+  "url": "https://bind.codes/WiringType",
+  "name": "WiringType",
+  "title": "Wiring Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Wiring Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ALUM",
+      "display": "Aluminium",
+      "definition": "Electrical wiring made from aluminium conductors, commonly used in North American buildings from the 1960s to 1970s.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aluminium"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aluminio"
+        }
+      ]
+    },
+    {
+      "code": "COPR",
+      "display": "Copper",
+      "definition": "Electrical wiring made from copper conductors, the most common and preferred type of electrical wiring in modern construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cuivre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cobre"
+        }
+      ]
+    },
+    {
+      "code": "KNTB",
+      "display": "Knob and Tube",
+      "definition": "An early standardized method of electrical wiring using insulated copper conductors run within wall or ceiling cavities, passing through joist and stud drill-holes via protective porcelain insulating tubes, and supported along their length on nailed-down porcelain knob insulators.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bouton et tube"
+        },
+        {
+          "language": "es-MX",
+          "value": "Botón y tubo"
+        }
+      ]
+    },
+    {
+      "code": "MIXD",
+      "display": "Mixed",
+      "definition": "A combination of different wiring types present in the same building or structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mixte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mixto"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "NWRD",
+      "display": "None - Not Wired",
+      "definition": "The structure or area has no electrical wiring installed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun - Non câblé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno - Sin cableado"
+        }
+      ]
+    },
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "CMBN",
+      "display": "Combination - Aluminum and Copper",
+      "definition": "A wiring system that contains both aluminum and copper conductors, often found in buildings where aluminum wiring was later supplemented or partially replaced with copper.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Combinaison - Aluminium et cuivre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Combinación - Aluminio y cobre"
+        }
+      ]
+    },
+    {
+      "code": "MCLD",
+      "display": "Metal Clad",
+      "definition": "Type MC cable, consisting of insulated conductors enclosed in a metal sheath, providing physical protection to the wiring.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Revêtement métallique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Revestimiento metálico"
+        }
+      ]
+    },
+    {
+      "code": "NMSH",
+      "display": "Non-metallic Sheathed",
+      "definition": "Type NM or Romex cable, consisting of insulated conductors enclosed in a non-metallic flexible sheath, commonly used for residential interior wiring.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Câble sous gaine non métallique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cable con forro no metálico"
+        }
+      ]
+    },
+    {
+      "code": "CNDW",
+      "display": "Conduit Wiring",
+      "definition": "Electrical wiring installed within protective metal or plastic conduit piping.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Câblage en conduit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cableado en conducto"
+        }
+      ]
+    }
+  ]
+}

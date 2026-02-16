@@ -1,0 +1,282 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "AddressDesignation",
+  "url": "https://bind.codes/AddressDesignation",
+  "name": "AddressDesignation",
+  "title": "Address Designation",
+  "status": "draft",
+  "language": "en",
+  "description": "Address Designation codes for insurance operations.",
+  "concept": [
+    {
+      "code": "APRT",
+      "display": "Apartment",
+      "definition": "A self-contained housing unit within a multi-unit residential building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Appartement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Apartamento"
+        }
+      ]
+    },
+    {
+      "code": "BLDG",
+      "display": "Building",
+      "definition": "A specific building within a complex or campus containing multiple structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bâtiment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Edificio"
+        }
+      ]
+    },
+    {
+      "code": "BSMT",
+      "display": "Basement",
+      "definition": "A below-grade dwelling unit or commercial space within a building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous-sol"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sótano"
+        }
+      ]
+    },
+    {
+      "code": "CPLX",
+      "display": "Complex",
+      "definition": "A group of buildings or units managed as a single residential or commercial property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Complexe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Complejo"
+        }
+      ]
+    },
+    {
+      "code": "CNDO",
+      "display": "Condo Unit",
+      "definition": "An individually owned dwelling unit within a condominium building or complex.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Condominium"
+        },
+        {
+          "language": "es-MX",
+          "value": "Unidad de condominio"
+        }
+      ]
+    },
+    {
+      "code": "DEPT",
+      "display": "Department",
+      "definition": "A specific department or organizational division within a building or address.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Département"
+        },
+        {
+          "language": "es-MX",
+          "value": "Departamento"
+        }
+      ]
+    },
+    {
+      "code": "DIVI",
+      "display": "Division",
+      "definition": "A subdivision or section within a larger property or organizational structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Division"
+        },
+        {
+          "language": "es-MX",
+          "value": "División"
+        }
+      ]
+    },
+    {
+      "code": "FLOR",
+      "display": "Floor",
+      "definition": "A specific level or story within a multi-story building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Étage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Piso"
+        }
+      ]
+    },
+    {
+      "code": "HOUS",
+      "display": "House",
+      "definition": "A detached single-family residential dwelling.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maison"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casa"
+        }
+      ]
+    },
+    {
+      "code": "LOTS",
+      "display": "Lot",
+      "definition": "A designated parcel or plot number within a subdivision or development.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lot"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lote"
+        }
+      ]
+    },
+    {
+      "code": "OFFC",
+      "display": "Office",
+      "definition": "A commercial workspace or professional office suite within a building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Oficina"
+        }
+      ]
+    },
+    {
+      "code": "PENT",
+      "display": "Penthouse",
+      "definition": "A luxury dwelling unit located on the top floor of a building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Penthouse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ático"
+        }
+      ]
+    },
+    {
+      "code": "ROOM",
+      "display": "Room",
+      "definition": "A specific room number within a building, typically in institutional or commercial settings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Salle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sala"
+        }
+      ]
+    },
+    {
+      "code": "SECT",
+      "display": "Section",
+      "definition": "A designated section or zone within a larger property or area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Section"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sección"
+        }
+      ]
+    },
+    {
+      "code": "SUIT",
+      "display": "Suite",
+      "definition": "A multi-room unit or set of connected rooms within a building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Suite"
+        },
+        {
+          "language": "es-MX",
+          "value": "Suite"
+        }
+      ]
+    },
+    {
+      "code": "TWNH",
+      "display": "Town House Unit",
+      "definition": "An individually owned multi-story dwelling unit attached to adjacent units in a row.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maison en rangée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casa adosada"
+        }
+      ]
+    },
+    {
+      "code": "TRLR",
+      "display": "Trailer",
+      "definition": "A mobile or manufactured home unit within a trailer park or residential community.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Roulotte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tráiler"
+        }
+      ]
+    },
+    {
+      "code": "UNIT",
+      "display": "Unit",
+      "definition": "A general designation for any numbered dwelling or commercial space within a larger structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Unité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Unidad"
+        }
+      ]
+    }
+  ]
+}

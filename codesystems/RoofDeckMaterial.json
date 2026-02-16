@@ -1,0 +1,222 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "RoofDeckMaterial",
+  "url": "https://bind.codes/RoofDeckMaterial",
+  "name": "RoofDeckMaterial",
+  "title": "Roof Deck Material",
+  "status": "draft",
+  "language": "en",
+  "description": "Roof Deck Material codes for insurance operations.",
+  "concept": [
+    {
+      "code": "FRSJ",
+      "display": "Frame on Steel Joists",
+      "definition": "A structural roof deck system consisting of a framing material supported by steel joist members.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charpente sur solives en acier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Marco sobre vigas de acero"
+        }
+      ]
+    },
+    {
+      "code": "FRWJ",
+      "display": "Frame on Wood Joists",
+      "definition": "A structural roof deck system consisting of a framing material supported by wooden joist members.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charpente sur solives en bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Marco sobre vigas de madera"
+        }
+      ]
+    },
+    {
+      "code": "HVBM",
+      "display": "Heavy Beam or \"Mill\"",
+      "definition": "A roof deck constructed using large, thick timber beams or mill-type construction, typically found in older industrial or commercial buildings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grosse poutre ou \"Mill\""
+        },
+        {
+          "language": "es-MX",
+          "value": "Viga pesada o \"Mill\""
+        }
+      ]
+    },
+    {
+      "code": "PORC",
+      "display": "Poured Concrete",
+      "definition": "A roof deck made of concrete that has been poured and set in place, forming a solid, monolithic surface.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton coulé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Concreto vertido"
+        }
+      ]
+    },
+    {
+      "code": "STLB",
+      "display": "Steel Beam",
+      "definition": "A roof deck system where the primary structural support consists of steel beams.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poutre d'acier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Viga de acero"
+        }
+      ]
+    },
+    {
+      "code": "STLD",
+      "display": "Steel Deck",
+      "definition": "A roof deck constructed from corrugated or formed steel panels, often used as a base for additional roofing materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coffrage métallique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cubierta de acero"
+        }
+      ]
+    },
+    {
+      "code": "PRST",
+      "display": "Protected Steel",
+      "definition": "A steel roof deck system that has been treated or covered with fire-resistant or protective coatings to enhance durability and safety.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acier protégé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acero protegido"
+        }
+      ]
+    },
+    {
+      "code": "CNST",
+      "display": "Concrete on Steel",
+      "definition": "A composite roof deck system consisting of concrete poured over a steel framework or steel deck panels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton sur acier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Concreto sobre acero"
+        }
+      ]
+    },
+    {
+      "code": "PLYW",
+      "display": "Plywood",
+      "definition": "A roof deck constructed from sheets of plywood, typically used in residential construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contreplaqué"
+        },
+        {
+          "language": "es-MX",
+          "value": "Madera contrachapada"
+        }
+      ]
+    },
+    {
+      "code": "WOOD",
+      "display": "Wood",
+      "definition": "A roof deck constructed from solid wood planks or boards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Madera"
+        }
+      ]
+    },
+    {
+      "code": "OSBD",
+      "display": "Oriented Strand Board",
+      "definition": "A roof deck made from engineered wood panels composed of compressed wood strands arranged in specific orientations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Panneau de grandes particules orientées"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tablero de fibra orientada"
+        }
+      ]
+    },
+    {
+      "code": "PRCC",
+      "display": "Precast Concrete",
+      "definition": "A roof deck system made from concrete panels that were cast and cured off-site before installation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton préfabriqué"
+        },
+        {
+          "language": "es-MX",
+          "value": "Concreto prefabricado"
+        }
+      ]
+    },
+    {
+      "code": "NAPL",
+      "display": "Not Applicable",
+      "definition": "The roof deck material classification does not apply to this structure or situation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sans objet"
+        },
+        {
+          "language": "es-MX",
+          "value": "No aplicable"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "A roof deck material type not otherwise specified in this classification system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

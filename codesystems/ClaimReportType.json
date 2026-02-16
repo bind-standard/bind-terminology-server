@@ -1,0 +1,75 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ClaimReportType",
+  "url": "https://bind.codes/ClaimReportType",
+  "name": "ClaimReportType",
+  "title": "Claim Report Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Types of reports filed or obtained in connection with a claim.",
+  "concept": [
+    {
+      "code": "POLC",
+      "display": "Police Report",
+      "definition": "An official report filed by law enforcement documenting an incident, theft, or accident.",
+      "designation": [
+        { "language": "fr-CA", "value": "Rapport de police" },
+        { "language": "es-MX", "value": "Reporte policial" }
+      ]
+    },
+    {
+      "code": "FIRE",
+      "display": "Fire Report",
+      "definition": "An official report from the fire department documenting the origin, cause, and extent of a fire.",
+      "designation": [
+        { "language": "fr-CA", "value": "Rapport d'incendie" },
+        { "language": "es-MX", "value": "Reporte de incendio" }
+      ]
+    },
+    {
+      "code": "INCD",
+      "display": "Incident Report",
+      "definition": "An internal or third-party report documenting the details of an occurrence or event.",
+      "designation": [
+        { "language": "fr-CA", "value": "Rapport d'incident" },
+        { "language": "es-MX", "value": "Reporte de incidente" }
+      ]
+    },
+    {
+      "code": "APRL",
+      "display": "Appraisal Report",
+      "definition": "A valuation report documenting the assessed value of damaged or destroyed property.",
+      "designation": [
+        { "language": "fr-CA", "value": "Rapport d'évaluation" },
+        { "language": "es-MX", "value": "Reporte de avalúo" }
+      ]
+    },
+    {
+      "code": "MEDL",
+      "display": "Medical Report",
+      "definition": "A report from a healthcare provider documenting injuries, treatment, and prognosis.",
+      "designation": [
+        { "language": "fr-CA", "value": "Rapport médical" },
+        { "language": "es-MX", "value": "Reporte médico" }
+      ]
+    },
+    {
+      "code": "EMSR",
+      "display": "EMS Report",
+      "definition": "A report from emergency medical services documenting on-scene care and patient transport.",
+      "designation": [
+        { "language": "fr-CA", "value": "Rapport des services paramédicaux" },
+        { "language": "es-MX", "value": "Reporte de servicios médicos de emergencia" }
+      ]
+    },
+    {
+      "code": "EXPR",
+      "display": "Expert Report",
+      "definition": "A technical report from a subject-matter specialist (engineer, forensic analyst, etc.).",
+      "designation": [
+        { "language": "fr-CA", "value": "Rapport d'expert" },
+        { "language": "es-MX", "value": "Reporte pericial" }
+      ]
+    }
+  ]
+}

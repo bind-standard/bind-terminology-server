@@ -1,0 +1,281 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ProtectionUse",
+  "url": "https://bind.codes/ProtectionUse",
+  "name": "ProtectionUse",
+  "title": "Protection Use",
+  "status": "draft",
+  "language": "en",
+  "description": "Protection Use codes for insurance operations.",
+  "concept": [
+    {
+      "code": "BLDG",
+      "display": "Building",
+      "definition": "Building structure protection systems or monitoring.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Édifice"
+        },
+        {
+          "language": "es-MX",
+          "value": "Edificio"
+        }
+      ]
+    },
+    {
+      "code": "BGLR",
+      "display": "Burglary",
+      "definition": "Unauthorized entry through forced access to a property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol avec effraction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Robo con allanamiento"
+        }
+      ]
+    },
+    {
+      "code": "COOK",
+      "display": "Cooking Appliances",
+      "definition": "Devices used for food preparation and cooking.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Appareils de cuisson"
+        },
+        {
+          "language": "es-MX",
+          "value": "Electrodomésticos de cocina"
+        }
+      ]
+    },
+    {
+      "code": "ELEC",
+      "display": "Electronic Equipment",
+      "definition": "Electronic devices and equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matériels électroniques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo electrónico"
+        }
+      ]
+    },
+    {
+      "code": "FIRE",
+      "display": "Fire",
+      "definition": "Combustion that produces flames and can cause property damage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incendio"
+        }
+      ]
+    },
+    {
+      "code": "GLAS",
+      "display": "Glass Breakage",
+      "definition": "Breaking or shattering of glass surfaces or fixtures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bris de glaces"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rotura de vidrios"
+        }
+      ]
+    },
+    {
+      "code": "HUMD",
+      "display": "Humidity",
+      "definition": "Moisture or water vapor content in the air.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Humidité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Humedad"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "PROC",
+      "display": "Processing Area",
+      "definition": "Designated space where materials are manufactured, assembled, or transformed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aire de traitement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Área de procesamiento"
+        }
+      ]
+    },
+    {
+      "code": "ROBB",
+      "display": "Robbery/Hold-up",
+      "definition": "Theft involving force or threat of force against a person.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol à main armée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Robo/Asalto"
+        }
+      ]
+    },
+    {
+      "code": "SAFE",
+      "display": "Safe Burglary",
+      "definition": "Unauthorized access to a safe or vault through forced entry.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol avec effraction de coffres-forts"
+        },
+        {
+          "language": "es-MX",
+          "value": "Robo de caja fuerte"
+        }
+      ]
+    },
+    {
+      "code": "SMOK",
+      "display": "Smoke",
+      "definition": "Airborne particles and gases produced by combustion.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fumée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Humo"
+        }
+      ]
+    },
+    {
+      "code": "STOR",
+      "display": "Storage Area",
+      "definition": "Designated space used for keeping materials, inventory, or equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aire d'entreposage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Área de almacenamiento"
+        }
+      ]
+    },
+    {
+      "code": "TEMP",
+      "display": "Temperature",
+      "definition": "Measure of thermal energy or heat level.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Température"
+        },
+        {
+          "language": "es-MX",
+          "value": "Temperatura"
+        }
+      ]
+    },
+    {
+      "code": "WATR",
+      "display": "Water Escape",
+      "definition": "Unintended release or leakage of water from pipes, fixtures, or containment systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fuite d'eau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fuga de agua"
+        }
+      ]
+    },
+    {
+      "code": "FRST",
+      "display": "Freezing",
+      "definition": "Water turning to ice due to low temperature conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Congelación"
+        }
+      ]
+    },
+    {
+      "code": "VNDS",
+      "display": "Vandalism",
+      "definition": "Intentional destruction or damage to property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vandalisme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vandalismo"
+        }
+      ]
+    },
+    {
+      "code": "WTHR",
+      "display": "Weather",
+      "definition": "Atmospheric conditions including wind, rain, snow, or hail.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conditions météorologiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clima"
+        }
+      ]
+    }
+  ]
+}

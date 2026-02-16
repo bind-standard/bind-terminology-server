@@ -1,0 +1,177 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "InspectionReportSource",
+  "url": "https://bind.codes/InspectionReportSource",
+  "name": "InspectionReportSource",
+  "title": "Inspection Report Source",
+  "status": "draft",
+  "language": "en",
+  "description": "Inspection Report Source codes for insurance operations.",
+  "concept": [
+    {
+      "code": "NORO",
+      "display": "No Report Ordered or Replacement Cost has Not been Verified",
+      "definition": "Indicates that no formal inspection report was commissioned and the replacement cost value has not been independently verified.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun rapport commandé ou valeur à neuf non vérifiée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ningún informe solicitado o costo de reemplazo no verificado"
+        }
+      ]
+    },
+    {
+      "code": "ABIN",
+      "display": "Agent/Broker Inspection",
+      "definition": "An inspection conducted by the selling agent or broker.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inspection du courtier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inspección del agente/corredor"
+        }
+      ]
+    },
+    {
+      "code": "AUIC",
+      "display": "Authorized Inspection Company",
+      "definition": "A third-party inspection company that has been authorized or approved to conduct property inspections.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie d'inspection autorisée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compañía de inspección autorizada"
+        }
+      ]
+    },
+    {
+      "code": "CEAP",
+      "display": "Certified Appraisal",
+      "definition": "A property valuation performed by a certified professional appraiser.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Évaluation certifiée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Evaluación certificada"
+        }
+      ]
+    },
+    {
+      "code": "HEVC",
+      "display": "Home Evaluation Calculator or an Equivalent Worksheet",
+      "definition": "A standardized calculation tool or worksheet used to estimate property replacement cost.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Outil d'évaluation résidentielle ou feuille de travail équivalente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Calculadora de evaluación de vivienda o hoja de trabajo equivalente"
+        }
+      ]
+    },
+    {
+      "code": "CLAP",
+      "display": "Claims Department Appraisal",
+      "definition": "A property assessment conducted by the claims department, typically following a loss.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Évaluation - Département des réclamations"
+        },
+        {
+          "language": "es-MX",
+          "value": "Evaluación del departamento de reclamos"
+        }
+      ]
+    },
+    {
+      "code": "FIRD",
+      "display": "Fire Department",
+      "definition": "An inspection or report provided by the local fire department.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service d'incendie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Departamento de bomberos"
+        }
+      ]
+    },
+    {
+      "code": "CA:WETT",
+      "display": "WETT Inspected (Wood Energy Technology Transfer)",
+      "definition": "A specialized inspection of wood-burning appliances and systems conducted by a certified WETT inspector.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inspecté WETT (Wood Energy Technology Transfer)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inspeccionado WETT (Transferencia de Tecnología de Energía de Madera)"
+        }
+      ]
+    },
+    {
+      "code": "PHIN",
+      "display": "Photograph Inspection",
+      "definition": "An inspection conducted remotely using photographs submitted by the policyholder or representative.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inspection photographique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inspección fotográfica"
+        }
+      ]
+    },
+    {
+      "code": "MUIN",
+      "display": "Municipal Inspection",
+      "definition": "An inspection conducted by municipal authorities or building department.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inspection municipale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inspección municipal"
+        }
+      ]
+    },
+    {
+      "code": "SLIN",
+      "display": "Self-Inspection",
+      "definition": "An inspection performed by the property owner or policyholder using a provided checklist or questionnaire.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Auto-inspection"
+        },
+        {
+          "language": "es-MX",
+          "value": "Autoinspección"
+        }
+      ]
+    }
+  ]
+}

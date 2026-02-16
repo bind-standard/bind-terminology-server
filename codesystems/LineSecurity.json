@@ -1,0 +1,160 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "LineSecurity",
+  "url": "https://bind.codes/LineSecurity",
+  "name": "LineSecurity",
+  "title": "Line Security",
+  "status": "draft",
+  "language": "en",
+  "description": "Line Security codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CA:LSC1",
+      "display": "Level I line security",
+      "definition": "ULC-certified alarm system with direct connection to a central monitoring station with 24-hour supervision and immediate response capability.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Protection de la ligne de niveau I"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguridad de línea nivel I"
+        }
+      ]
+    },
+    {
+      "code": "CA:LSC2",
+      "display": "Level II line security",
+      "definition": "ULC-certified alarm system with direct connection to a central monitoring station with supervision during business hours only.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Protection de la ligne de niveau II"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguridad de línea nivel II"
+        }
+      ]
+    },
+    {
+      "code": "CA:LSC3",
+      "display": "Level III line security",
+      "definition": "ULC-certified alarm system connected to a central monitoring station via telephone line or cellular communication.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Protection de la ligne de niveau III"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguridad de línea nivel III"
+        }
+      ]
+    },
+    {
+      "code": "CA:LSC4",
+      "display": "Level IV line security",
+      "definition": "ULC-certified local alarm system that sounds on-site but is not monitored by a central station.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Protection de la ligne de niveau IV"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguridad de línea nivel IV"
+        }
+      ]
+    },
+    {
+      "code": "CA:LSC5",
+      "display": "Level V line security",
+      "definition": "ULC-certified smoke detectors without connection to a monitoring service or alarm system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Protection de la ligne de niveau V"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguridad de línea nivel V"
+        }
+      ]
+    },
+    {
+      "code": "CA:LSC6",
+      "display": "Level VI line security",
+      "definition": "ULC-certified fire extinguishers or other basic fire safety equipment without detection or alarm capabilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Protection de la ligne de niveau VI"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguridad de línea nivel VI"
+        }
+      ]
+    },
+    {
+      "code": "CA:LSC7",
+      "display": "Level VII line security",
+      "definition": "Minimal or no certified fire protection equipment present.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Protection de la ligne de niveau VII"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguridad de línea nivel VII"
+        }
+      ]
+    },
+    {
+      "code": "CA:LSC0",
+      "display": "Level 0 - not ULC rated",
+      "definition": "Fire protection equipment or alarm system present but not certified by Underwriters Laboratories of Canada.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Niveau 0 - Aucune classification ULC"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nivel 0 - sin clasificación ULC"
+        }
+      ]
+    },
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    }
+  ]
+}

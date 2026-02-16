@@ -1,0 +1,462 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "DeductibleApplies",
+  "url": "https://bind.codes/DeductibleApplies",
+  "name": "DeductibleApplies",
+  "title": "Deductible Applies",
+  "status": "draft",
+  "language": "en",
+  "description": "Deductible Applies codes for insurance operations.",
+  "concept": [
+    {
+      "code": "COVG",
+      "display": "Coverage",
+      "definition": "Deductible applied to each separate coverage or peril within a policy",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garantie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cobertura"
+        }
+      ]
+    },
+    {
+      "code": "NDAY",
+      "display": "Number of Days",
+      "definition": "Deductible measured as a specified number of calendar days",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nombre de jours"
+        },
+        {
+          "language": "es-MX",
+          "value": "Número de días"
+        }
+      ]
+    },
+    {
+      "code": "EQKE",
+      "display": "Earthquake",
+      "definition": "Deductible specifically applicable to earthquake damage",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tremblement de terre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terremoto"
+        }
+      ]
+    },
+    {
+      "code": "FIRE",
+      "display": "Fire",
+      "definition": "Deductible specifically applicable to fire damage",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incendio"
+        }
+      ]
+    },
+    {
+      "code": "HOUR",
+      "display": "Hours",
+      "definition": "Deductible measured as a specified number of hours",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Heures"
+        },
+        {
+          "language": "es-MX",
+          "value": "Horas"
+        }
+      ]
+    },
+    {
+      "code": "HURN",
+      "display": "Hurricane",
+      "definition": "Deductible specifically applicable to hurricane damage",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ouragan"
+        },
+        {
+          "language": "es-MX",
+          "value": "Huracán"
+        }
+      ]
+    },
+    {
+      "code": "PITM",
+      "display": "Per Item",
+      "definition": "Deductible applied separately to each individual item or object",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par article"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por artículo"
+        }
+      ]
+    },
+    {
+      "code": "INDY",
+      "display": "Indemnity Only",
+      "definition": "Deductible applied only to indemnity payments, excluding medical expenses",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Indemnité seulement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Indemnización solamente"
+        }
+      ]
+    },
+    {
+      "code": "LOCN",
+      "display": "Location",
+      "definition": "Deductible applied separately to each distinct location or premises",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Emplacement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ubicación"
+        }
+      ]
+    },
+    {
+      "code": "LAGG",
+      "display": "Loss Aggregate",
+      "definition": "Combined total deductible amount across multiple losses during a policy period",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maximum déterminé par sinistre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agregado de pérdidas"
+        }
+      ]
+    },
+    {
+      "code": "MEDO",
+      "display": "Medical Only",
+      "definition": "Deductible applied only to medical expenses, excluding indemnity",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais médicaux seulement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gastos médicos solamente"
+        }
+      ]
+    },
+    {
+      "code": "MEDX",
+      "display": "Medical Expense",
+      "definition": "Deductible applicable to medical treatment costs",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais médicaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gastos médicos"
+        }
+      ]
+    },
+    {
+      "code": "MEIN",
+      "display": "Both Medical and Indemnity",
+      "definition": "Deductible applied to both medical expenses and indemnity payments",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais médicaux et indemnité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gastos médicos e indemnización"
+        }
+      ]
+    },
+    {
+      "code": "MREH",
+      "display": "Medical Rehab Expense",
+      "definition": "Deductible applicable to medical treatment and rehabilitation costs",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais médicaux et frais de réadaptation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gastos médicos y de rehabilitación"
+        }
+      ]
+    },
+    {
+      "code": "AOCC",
+      "display": "Any One Occurrence",
+      "definition": "Deductible applied to each single event or incident regardless of number of claims",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "N'importe quel sinistre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cualquier ocurrencia"
+        }
+      ]
+    },
+    {
+      "code": "PLSS",
+      "display": "Per Loss",
+      "definition": "Deductible applied separately to each individual loss or claim",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par sinistre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por pérdida"
+        }
+      ]
+    },
+    {
+      "code": "PRDM",
+      "display": "Property Damage",
+      "definition": "Deductible specifically applicable to physical property damage",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommages matériels"
+        },
+        {
+          "language": "es-MX",
+          "value": "Daños a la propiedad"
+        }
+      ]
+    },
+    {
+      "code": "SUBJ",
+      "display": "Subject",
+      "definition": "Deductible applied to each individual subject or insured object",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Objet"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sujeto"
+        }
+      ]
+    },
+    {
+      "code": "THFT",
+      "display": "Theft",
+      "definition": "Deductible specifically applicable to theft or burglary claims",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol"
+        },
+        {
+          "language": "es-MX",
+          "value": "Robo"
+        }
+      ]
+    },
+    {
+      "code": "TREE",
+      "display": "Trees/bushes/shrubs",
+      "definition": "Deductible specifically applicable to damage involving trees, bushes, or shrubs",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Arbres/buissons/arbustes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Árboles/arbustos/matorrales"
+        }
+      ]
+    },
+    {
+      "code": "WIND",
+      "display": "Wind",
+      "definition": "Deductible specifically applicable to wind damage",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Viento"
+        }
+      ]
+    },
+    {
+      "code": "WNHL",
+      "display": "Wind/Hail",
+      "definition": "Deductible specifically applicable to wind and hail damage combined",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vent/grêle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Viento/granizo"
+        }
+      ]
+    },
+    {
+      "code": "WKDY",
+      "display": "Work Days",
+      "definition": "Deductible measured as a specified number of business days, excluding weekends and holidays",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Jours ouvrables"
+        },
+        {
+          "language": "es-MX",
+          "value": "Días laborales"
+        }
+      ]
+    },
+    {
+      "code": "FLOD",
+      "display": "Flood",
+      "definition": "Deductible specifically applicable to flood damage",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inondation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inundación"
+        }
+      ]
+    },
+    {
+      "code": "HAIL",
+      "display": "Hail",
+      "definition": "Deductible specifically applicable to hail damage",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grêle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Granizo"
+        }
+      ]
+    },
+    {
+      "code": "VAND",
+      "display": "Vandalism",
+      "definition": "Deductible specifically applicable to vandalism or malicious mischief",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vandalisme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vandalismo"
+        }
+      ]
+    },
+    {
+      "code": "WATR",
+      "display": "Water Damage",
+      "definition": "Deductible specifically applicable to water damage claims",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dégât d'eau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Daños por agua"
+        }
+      ]
+    },
+    {
+      "code": "PRSN",
+      "display": "Per Person",
+      "definition": "Deductible applied separately to each individual person covered",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par personne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por persona"
+        }
+      ]
+    },
+    {
+      "code": "PPOL",
+      "display": "Per Policy",
+      "definition": "Single deductible applied once per policy period regardless of number of claims",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por póliza"
+        }
+      ]
+    },
+    {
+      "code": "PEVT",
+      "display": "Per Event",
+      "definition": "Deductible applied to each separate catastrophic event affecting multiple insureds or locations",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par événement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por evento"
+        }
+      ]
+    }
+  ]
+}

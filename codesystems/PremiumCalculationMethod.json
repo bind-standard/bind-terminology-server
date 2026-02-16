@@ -1,0 +1,192 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "PremiumCalculationMethod",
+  "url": "https://bind.codes/PremiumCalculationMethod",
+  "name": "PremiumCalculationMethod",
+  "title": "Premium Calculation Method",
+  "status": "draft",
+  "language": "en",
+  "description": "Premium Calculation Method codes for insurance operations.",
+  "concept": [
+    {
+      "code": "FEFN",
+      "display": "Fully Earned/Flat Charge/Non-reporting",
+      "definition": "A calculation method where the entire amount is earned upfront as a fixed charge with no reporting requirements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Complètement acquise/prix fixe/sans déclaration"
+        },
+        {
+          "language": "es-MX",
+          "value": "Totalmente ganada/cargo fijo/sin reporte"
+        }
+      ]
+    },
+    {
+      "code": "DPST",
+      "display": "Deposit",
+      "definition": "An initial payment made as a down payment, with the final amount to be determined later.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dépôt"
+        },
+        {
+          "language": "es-MX",
+          "value": "Depósito"
+        }
+      ]
+    },
+    {
+      "code": "FTRM",
+      "display": "Full Term",
+      "definition": "Calculation based on the complete duration of the policy term.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Totale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Término completo"
+        }
+      ]
+    },
+    {
+      "code": "ADDL",
+      "display": "Additional",
+      "definition": "A supplementary amount calculated in addition to the base amount.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Additionnelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Adicional"
+        }
+      ]
+    },
+    {
+      "code": "RETN",
+      "display": "Return",
+      "definition": "An amount to be refunded or returned to the payer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Retour"
+        },
+        {
+          "language": "es-MX",
+          "value": "Retorno"
+        }
+      ]
+    },
+    {
+      "code": "MNRT",
+      "display": "Minimum Retained",
+      "definition": "The minimum amount that must be kept regardless of adjustments or refunds.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Minimum conservé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mínimo retenido"
+        }
+      ]
+    },
+    {
+      "code": "ADJR",
+      "display": "Adjustable/Reporting",
+      "definition": "A calculation method that can be adjusted based on periodic reporting of actual values.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ajustable/déclaration"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ajustable/reporte"
+        }
+      ]
+    },
+    {
+      "code": "TRGT",
+      "display": "Target",
+      "definition": "A projected or goal amount used as a benchmark for calculation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Objectif"
+        },
+        {
+          "language": "es-MX",
+          "value": "Objetivo"
+        }
+      ]
+    },
+    {
+      "code": "ESTM",
+      "display": "Estimated",
+      "definition": "An approximate amount calculated based on projected values, subject to later adjustment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Estimé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estimado"
+        }
+      ]
+    },
+    {
+      "code": "PRRT",
+      "display": "Pro-Rata",
+      "definition": "Calculation proportional to the time period or usage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Au prorata"
+        },
+        {
+          "language": "es-MX",
+          "value": "Prorrateo"
+        }
+      ]
+    },
+    {
+      "code": "STRT",
+      "display": "Short-Rate",
+      "definition": "A calculation method that applies a penalty factor when cancellation occurs before the end of the term.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pénalité de résiliation anticipée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tasa reducida con penalidad"
+        }
+      ]
+    },
+    {
+      "code": "AUDT",
+      "display": "Audit",
+      "definition": "Final calculation determined through examination of actual records and documentation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vérification"
+        },
+        {
+          "language": "es-MX",
+          "value": "Auditoría"
+        }
+      ]
+    }
+  ]
+}

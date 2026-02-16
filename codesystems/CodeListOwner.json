@@ -1,0 +1,1677 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CodeListOwner",
+  "url": "https://bind.codes/CodeListOwner",
+  "name": "CodeListOwner",
+  "title": "Code List Owner",
+  "status": "draft",
+  "language": "en",
+  "description": "Organizations that maintain standardized code lists and data exchange specifications.",
+  "concept": [
+    {
+      "code": "AAIN",
+      "display": "Alliance of American Insurers",
+      "definition": "U.S. property and casualty insurer trade association that developed industry standards and codes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Alliance of American Insurers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alianza de Aseguradores Estadounidenses"
+        }
+      ]
+    },
+    {
+      "code": "AMVA",
+      "display": "American Association of Motor Vehicle Administrators",
+      "definition": "Association that establishes standards for motor vehicle administration, driver licensing, and vehicle titling.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association américaine des administrateurs de véhicules automobiles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación Estadounidense de Administradores de Vehículos Motorizados"
+        }
+      ]
+    },
+    {
+      "code": "AASF",
+      "display": "American Association of State Compensation Insurance Funds",
+      "definition": "Association of state-operated workers' compensation funds that develops data standards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association américaine des caisses d'assurance contre les accidents du travail des États"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación Estadounidense de Fondos Estatales de Seguro de Compensación"
+        }
+      ]
+    },
+    {
+      "code": "ABIN",
+      "display": "Association of British Insurers",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association of British Insurers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de Aseguradores Británicos"
+        }
+      ]
+    },
+    {
+      "code": "ACRD",
+      "display": "ACORD",
+      "definition": "Global standards development organization for data exchange in financial services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "ACORD"
+        },
+        {
+          "language": "es-MX",
+          "value": "ACORD"
+        }
+      ]
+    },
+    {
+      "code": "AXHC",
+      "display": "ACTIVEX for Healthcare",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "ACTIVEX for Healthcare"
+        },
+        {
+          "language": "es-MX",
+          "value": "ACTIVEX para Atención Médica"
+        }
+      ]
+    },
+    {
+      "code": "AMIA",
+      "display": "American Insurance Association",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "American Insurance Association"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación Estadounidense de Seguros"
+        }
+      ]
+    },
+    {
+      "code": "AIIM",
+      "display": "The Association for Information and Image Management",
+      "definition": "Organization that develops standards for document and content management technologies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association pour la gestion de l'information et des images"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de Gestión de Información e Imágenes"
+        }
+      ]
+    },
+    {
+      "code": "ANSI",
+      "display": "American National Standards Institute",
+      "definition": "U.S. standards organization that coordinates voluntary consensus standards development.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Institut national américain de normalisation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instituto Nacional Estadounidense de Estándares"
+        }
+      ]
+    },
+    {
+      "code": "AX12",
+      "display": "Insurance, Healthcare, and Finance Task Groups and Subcommittees",
+      "definition": "ANSI X12 working groups that develop EDI transaction standards for specific industries.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Groupes de travail et sous-comités sur les assurances, la santé et les finances"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grupos de Trabajo y Subcomités de Seguros, Salud y Finanzas"
+        }
+      ]
+    },
+    {
+      "code": "APSG",
+      "display": "Associacao Portuguesa de Seguradores",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Associacao Portuguesa de Seguradores"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación Portuguesa de Aseguradores"
+        }
+      ]
+    },
+    {
+      "code": "ASAV",
+      "display": "Automotive Service Association",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association de services automobiles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de Servicios Automotrices"
+        }
+      ]
+    },
+    {
+      "code": "ASTM",
+      "display": "American Society for Testing and Materials",
+      "definition": "International standards organization that develops technical standards for materials, products, and systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société américaine pour les essais et les matériaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sociedad Estadounidense para Pruebas y Materiales"
+        }
+      ]
+    },
+    {
+      "code": "AWGP",
+      "display": "Andover Working Group",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Andover Working Group"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grupo de Trabajo Andover"
+        }
+      ]
+    },
+    {
+      "code": "BIOC",
+      "display": "Biometrics Consortium",
+      "definition": "Organization that develops standards for biometric identification technologies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consortium de biométrie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consorcio de Biometría"
+        }
+      ]
+    },
+    {
+      "code": "BLST",
+      "display": "Bureau of Labor Statistics",
+      "definition": "U.S. government agency that publishes occupational classification codes and labor data standards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau des statistiques du travail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Oficina de Estadísticas Laborales"
+        }
+      ]
+    },
+    {
+      "code": "BZTK",
+      "display": "BizTalk",
+      "definition": "Microsoft framework for business process automation and data exchange schemas.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "BizTalk"
+        },
+        {
+          "language": "es-MX",
+          "value": "BizTalk"
+        }
+      ]
+    },
+    {
+      "code": "CAAB",
+      "display": "California Autobody Association",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association californienne de carrosserie automobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de Carrocería de California"
+        }
+      ]
+    },
+    {
+      "code": "CA:CAPT",
+      "display": "Canada Post",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Postes Canada"
+        },
+        {
+          "language": "es-MX",
+          "value": "Correos de Canadá"
+        }
+      ]
+    },
+    {
+      "code": "CCOW",
+      "display": "Clinical Context Object Workgroup",
+      "definition": "Healthcare IT standards group that develops specifications for clinical context sharing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clinical Context Object Workgroup"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grupo de Trabajo de Objetos de Contexto Clínico"
+        }
+      ]
+    },
+    {
+      "code": "UNEF",
+      "display": "Insurance, Healthcare and Finance Subworking Groups",
+      "definition": "UN/EDIFACT industry-specific committees that develop electronic data interchange messages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous-groupes de travail sur les assurances, la santé et les finances"
+        },
+        {
+          "language": "es-MX",
+          "value": "Subgrupos de Trabajo de Seguros, Salud y Finanzas"
+        }
+      ]
+    },
+    {
+      "code": "CISS",
+      "display": "Information Society Standardization System",
+      "definition": "European standards body for information and communication technologies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Système de normalisation de la société de l'information"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sistema de Normalización de la Sociedad de la Información"
+        }
+      ]
+    },
+    {
+      "code": "CICF",
+      "display": "Collision Industry Conference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conférence de l'industrie de la collision"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conferencia de la Industria de Colisiones"
+        }
+      ]
+    },
+    {
+      "code": "CIEC",
+      "display": "Collision Industry Electronic Commerce Association",
+      "definition": "Organization that develops electronic data interchange standards for auto collision repair.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association du commerce électronique de l'industrie de la collision"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de Comercio Electrónico de la Industria de Colisiones"
+        }
+      ]
+    },
+    {
+      "code": "CA:CLED",
+      "display": "Canadian Life Electronic Data Interchange Standards",
+      "definition": "Standards body for electronic data exchange in the Canadian life sector.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Normes canadiennes d'échange électronique de données sur l'assurance-vie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estándares Canadienses de Intercambio Electrónico de Datos de Vida"
+        }
+      ]
+    },
+    {
+      "code": "CMRC",
+      "display": "Commerce one",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commerce one"
+        },
+        {
+          "language": "es-MX",
+          "value": "Commerce one"
+        }
+      ]
+    },
+    {
+      "code": "CBMD",
+      "display": "Common Object Request Broker Architecture (in healthcare)",
+      "definition": "CORBA healthcare working group that develops distributed object standards for medical systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Architecture de courtier de requêtes d'objets communs (en santé)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arquitectura de Intermediario de Solicitud de Objetos Común (en salud)"
+        }
+      ]
+    },
+    {
+      "code": "CPEX",
+      "display": "Customer Profile Exchange",
+      "definition": "Standard for exchanging customer profile information between financial systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Échange de profil client"
+        },
+        {
+          "language": "es-MX",
+          "value": "Intercambio de Perfil de Cliente"
+        }
+      ]
+    },
+    {
+      "code": "CRST",
+      "display": "Catastrophe Risk Evaluating and Standardizing Target Accumulations",
+      "definition": "Organization that develops geographic coding systems for catastrophe risk modeling.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Évaluation du risque de catastrophe et normalisation des accumulations cibles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Evaluación de Riesgo Catastrófico y Estandarización de Acumulaciones Objetivo"
+        }
+      ]
+    },
+    {
+      "code": "CA:CSIO",
+      "display": "Centre for Study of Insurance Operations",
+      "definition": "Canadian organization that develops data exchange standards for property and casualty insurers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Centre d'Étude de la Pratique d'Assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Centro de Estudio de Operaciones de Seguros"
+        }
+      ]
+    },
+    {
+      "code": "CTSB",
+      "display": "Information and Communications Technology Standards Board",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conseil des normes en technologies de l'information et des communications"
+        },
+        {
+          "language": "es-MX",
+          "value": "Junta de Normas de Tecnología de la Información y Comunicaciones"
+        }
+      ]
+    },
+    {
+      "code": "DICM",
+      "display": "Digital Imaging and Communications in Medicine",
+      "definition": "International standard for medical imaging data formats and transmission protocols.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Imagerie numérique et communications en médecine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Imágenes Digitales y Comunicaciones en Medicina"
+        }
+      ]
+    },
+    {
+      "code": "DISA",
+      "display": "Digital Interchange Standards Association",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association des normes d'échange numérique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de Estándares de Intercambio Digital"
+        }
+      ]
+    },
+    {
+      "code": "DLST",
+      "display": "Department of Labor and Statistics",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ministère du Travail et des Statistiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Departamento de Trabajo y Estadísticas"
+        }
+      ]
+    },
+    {
+      "code": "DTCC",
+      "display": "Depository Trust and Clearing Corporation",
+      "definition": "Financial services company that develops standards for securities processing and settlement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Corporation de dépôt et de compensation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corporación de Depósito y Compensación"
+        }
+      ]
+    },
+    {
+      "code": "EBXL",
+      "display": "electronic business eXtensible Markup Language",
+      "definition": "Framework for XML-based business document exchange and workflow.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Langage de balisage extensible pour le commerce électronique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lenguaje de Marcado Extensible para Negocios Electrónicos"
+        }
+      ]
+    },
+    {
+      "code": "ECMA",
+      "display": "European Computer Manufacturers Association",
+      "definition": "Standards organization for information and communication systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association européenne de constructeurs d'ordinateurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación Europea de Fabricantes de Computadoras"
+        }
+      ]
+    },
+    {
+      "code": "EEG7",
+      "display": "Western European EDIFACT Group for Insurance",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Groupe EDIFACT de l'Europe occidentale pour l'assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grupo EDIFACT de Europa Occidental para Seguros"
+        }
+      ]
+    },
+    {
+      "code": "FBIN",
+      "display": "Federal Bureau of Investigation",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Federal Bureau of Investigation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Oficina Federal de Investigación"
+        }
+      ]
+    },
+    {
+      "code": "CA:FESG",
+      "display": "FUNDSERV Electronic Standards Group",
+      "definition": "Canadian organization that develops standards for mutual fund transaction processing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Groupe de normes électroniques FUNDSERV"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grupo de Estándares Electrónicos FUNDSERV"
+        }
+      ]
+    },
+    {
+      "code": "FHWA",
+      "display": "Federal Highway Administration",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Administration fédérale des autoroutes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Administración Federal de Carreteras"
+        }
+      ]
+    },
+    {
+      "code": "FIPA",
+      "display": "Foundation for Intelligent Physical Agents",
+      "definition": "Organization that develops standards for software agent interoperability.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fondation pour les agents physiques intelligents"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fundación para Agentes Físicos Inteligentes"
+        }
+      ]
+    },
+    {
+      "code": "FIXP",
+      "display": "Financial Information eXchange Protocol",
+      "definition": "Electronic messaging standard for real-time securities transaction communication.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Protocole d'échange d'informations financières"
+        },
+        {
+          "language": "es-MX",
+          "value": "Protocolo de Intercambio de Información Financiera"
+        }
+      ]
+    },
+    {
+      "code": "FMCS",
+      "display": "Federal Motor Carrier Safety Administration",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Administration fédérale de la sécurité des transporteurs routiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Administración Federal de Seguridad de Transporte de Carga"
+        }
+      ]
+    },
+    {
+      "code": "FPML",
+      "display": "Financial Products Markup Language",
+      "definition": "XML standard for over-the-counter derivatives and structured products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Langage de balisage pour produits financiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lenguaje de Marcado de Productos Financieros"
+        }
+      ]
+    },
+    {
+      "code": "GSTP",
+      "display": "Global Straight Through Processing Association",
+      "definition": "Organization that promotes automated end-to-end processing standards in financial markets.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association mondiale pour le traitement direct de bout en bout"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación Global de Procesamiento Directo"
+        }
+      ]
+    },
+    {
+      "code": "HCEG",
+      "display": "Healthcare EDIFACT Group",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Groupe EDIFACT pour la santé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grupo EDIFACT de Atención Médica"
+        }
+      ]
+    },
+    {
+      "code": "HL7C",
+      "display": "Health Level Seven",
+      "definition": "International standards organization for healthcare information exchange.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Health Level Seven"
+        },
+        {
+          "language": "es-MX",
+          "value": "Health Level Seven"
+        }
+      ]
+    },
+    {
+      "code": "HRXM",
+      "display": "Human Resources Extensible Markup Language Vocabularies",
+      "definition": "XML standard for HR-related data exchange including employment records.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vocabulaires de langage de balisage extensible pour les ressources humaines"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vocabularios de Lenguaje de Marcado Extensible de Recursos Humanos"
+        }
+      ]
+    },
+    {
+      "code": "I3TF",
+      "display": "Insurance Industry Internet Task Force",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Groupe de travail Internet de l'industrie de l'assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grupo de Trabajo de Internet de la Industria de Seguros"
+        }
+      ]
+    },
+    {
+      "code": "IAAR",
+      "display": "Insurance Application Architecture",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Architecture d'application d'assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arquitectura de Aplicación de Seguros"
+        }
+      ]
+    },
+    {
+      "code": "IABC",
+      "display": "International Association of Industrial Accident Boards and Commissions",
+      "definition": "Association of workers' compensation regulatory agencies that develops data exchange standards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association internationale des régies et commissions des accidents du travail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación Internacional de Juntas y Comisiones de Accidentes Industriales"
+        }
+      ]
+    },
+    {
+      "code": "CA:IAOR",
+      "display": "Insurer's Advisory Organization Inc.",
+      "definition": "Canadian organization that provides technical advisory services to property and casualty insurers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Groupement technique des assureurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Organización Consultiva de Aseguradores Inc."
+        }
+      ]
+    },
+    {
+      "code": "CA:IBCA",
+      "display": "Insurance Bureau of Canada",
+      "definition": "Canadian national industry association representing property and casualty insurers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau d'assurance du Canada"
+        },
+        {
+          "language": "es-MX",
+          "value": "Oficina de Seguros de Canadá"
+        }
+      ]
+    },
+    {
+      "code": "CA:IDAC",
+      "display": "Investment Dealers Association of Canada",
+      "definition": "Former Canadian self-regulatory organization for investment dealers and trading activity.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association canadienne des courtiers en valeurs mobilières"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de Distribuidores de Inversión de Canadá"
+        }
+      ]
+    },
+    {
+      "code": "IDMA",
+      "display": "Insurance Data Management Association",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association de gestion des données d'assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de Gestión de Datos de Seguros"
+        }
+      ]
+    },
+    {
+      "code": "IEEE",
+      "display": "Institute of Electrical and Electronics Engineers, Inc.",
+      "definition": "Professional association that develops technical standards for electrical and electronic systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Institut des ingénieurs électriciens et électroniciens"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instituto de Ingenieros Eléctricos y Electrónicos"
+        }
+      ]
+    },
+    {
+      "code": "IETF",
+      "display": "Internet Engineering Task Force",
+      "definition": "International organization that develops internet protocol standards and specifications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Groupe de travail sur l'ingénierie Internet"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grupo de Trabajo de Ingeniería de Internet"
+        }
+      ]
+    },
+    {
+      "code": "CA:IFIC",
+      "display": "Investment Funds Institute of Canada",
+      "definition": "Canadian association representing the investment funds industry.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Institut des fonds d'investissement du Canada"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instituto de Fondos de Inversión de Canadá"
+        }
+      ]
+    },
+    {
+      "code": "IFXF",
+      "display": "Interactive Financial Exchange Forum",
+      "definition": "Standard for electronic exchange of financial data between institutions and consumers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Forum d'échange financier interactif"
+        },
+        {
+          "language": "es-MX",
+          "value": "Foro de Intercambio Financiero Interactivo"
+        }
+      ]
+    },
+    {
+      "code": "IICC",
+      "display": "IICC Advisory Council for the Uninsured Vehicle Project",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conseil consultatif IICC pour le projet de véhicules non assurés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consejo Asesor IICC para el Proyecto de Vehículos Sin Seguro"
+        }
+      ]
+    },
+    {
+      "code": "IIIN",
+      "display": "Institute for Information Industry",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Institut pour l'industrie de l'information"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instituto para la Industria de la Información"
+        }
+      ]
+    },
+    {
+      "code": "INMS",
+      "display": "Immigration and Naturalization Services",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services d'immigration et de naturalisation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de Inmigración y Naturalización"
+        }
+      ]
+    },
+    {
+      "code": "CA:ISAC",
+      "display": "Canadian Industry Standards Advisory Committee",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comité consultatif sur les normes de l'industrie canadien"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comité Asesor de Normas de la Industria Canadiense"
+        }
+      ]
+    },
+    {
+      "code": "ISTC",
+      "display": "Industry Standardization for Institutional Trade Communication",
+      "definition": "Organization that develops messaging standards for institutional investment trade processing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Normalisation de l'industrie pour les communications commerciales institutionnelles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estandarización de la Industria para Comunicación de Comercio Institucional"
+        }
+      ]
+    },
+    {
+      "code": "ISOO",
+      "display": "International Organization for Standardization",
+      "definition": "International federation that develops and publishes worldwide technical and commercial standards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Organisation internationale de normalisation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Organización Internacional de Normalización"
+        }
+      ]
+    },
+    {
+      "code": "ISOS",
+      "display": "Insurance Services Office",
+      "definition": "U.S. organization that develops standardized policy forms, classification codes, and rating systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau des services d'assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Oficina de Servicios de Seguros"
+        }
+      ]
+    },
+    {
+      "code": "IVAN",
+      "display": "Insurance Value Added Network",
+      "definition": "Electronic data interchange network provider for the sector.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réseau à valeur ajoutée pour l'assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Red de Valor Agregado de Seguros"
+        }
+      ]
+    },
+    {
+      "code": "JVII",
+      "display": "Joint Venture for International Insurance and Reinsurance",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coentreprise pour l'assurance et la réassurance internationales"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empresa Conjunta para Seguros y Reaseguros Internacionales"
+        }
+      ]
+    },
+    {
+      "code": "MIBU",
+      "display": "Medical Information Bureau",
+      "definition": "Organization that maintains a database of medical information for life underwriting.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau d'information médicale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Oficina de Información Médica"
+        }
+      ]
+    },
+    {
+      "code": "MSMO",
+      "display": "Mortgage Industry Data Standards Maintenance Organization",
+      "definition": "Organization that develops XML standards for residential and commercial mortgage transactions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Organisation de maintenance des normes de données de l'industrie hypothécaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Organización de Mantenimiento de Estándares de Datos de la Industria Hipotecaria"
+        }
+      ]
+    },
+    {
+      "code": "MMCF",
+      "display": "Multimedia Communications Forum",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Forum des communications multimédias"
+        },
+        {
+          "language": "es-MX",
+          "value": "Foro de Comunicaciones Multimedia"
+        }
+      ]
+    },
+    {
+      "code": "NACH",
+      "display": "National Automated Clearinghouse Association",
+      "definition": "U.S. organization that governs the ACH electronic payment network.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association nationale des chambres de compensation automatisées"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación Nacional de Cámara de Compensación Automatizada"
+        }
+      ]
+    },
+    {
+      "code": "NAGS",
+      "display": "National Auto Glass Specifications",
+      "definition": "Industry standard for automotive glass part identification and specifications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Spécifications nationales du verre automobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Especificaciones Nacionales de Vidrio Automotriz"
+        }
+      ]
+    },
+    {
+      "code": "NAIC",
+      "display": "National Association of Insurance Commissioners",
+      "definition": "U.S. organization of state regulators that develops model laws, regulations, and data standards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association nationale des commissaires d'assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación Nacional de Comisionados de Seguros"
+        }
+      ]
+    },
+    {
+      "code": "NAII",
+      "display": "National Association of Independent Insurers",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association nationale des assureurs indépendants"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación Nacional de Aseguradores Independientes"
+        }
+      ]
+    },
+    {
+      "code": "NALB",
+      "display": "National Association of Life Brokerage Agencies",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association nationale des agences de courtage d'assurance-vie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación Nacional de Agencias de Corretaje de Vida"
+        }
+      ]
+    },
+    {
+      "code": "NAVA",
+      "display": "National Association of Variable Annuities",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association nationale des rentes variables"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación Nacional de Anualidades Variables"
+        }
+      ]
+    },
+    {
+      "code": "NCCI",
+      "display": "National Council on Compensation Insurance",
+      "definition": "U.S. organization that develops workers' compensation classification codes and statistical data standards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conseil national sur l'assurance contre les accidents du travail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consejo Nacional de Seguro de Compensación"
+        }
+      ]
+    },
+    {
+      "code": "NCIT",
+      "display": "National Committee for Information Technology Standards",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comité national sur les normes en technologie de l'information"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comité Nacional de Normas de Tecnología de la Información"
+        }
+      ]
+    },
+    {
+      "code": "NCPD",
+      "display": "National Council for Prescription Drug Programs",
+      "definition": "Organization that develops standards for electronic prescription and pharmacy data exchange.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conseil national des programmes de médicaments sur ordonnance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consejo Nacional de Programas de Medicamentos Recetados"
+        }
+      ]
+    },
+    {
+      "code": "NHTS",
+      "display": "National Highway Traffic Safety Administration",
+      "definition": "U.S. agency that develops vehicle safety standards and crash data reporting requirements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Administration nationale de la sécurité routière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Administración Nacional de Seguridad del Tráfico en Carreteras"
+        }
+      ]
+    },
+    {
+      "code": "NICB",
+      "display": "National Insurance Crime Bureau",
+      "definition": "U.S. organization that develops standards for fraud detection and crime data reporting.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau national des crimes d'assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Oficina Nacional de Delitos de Seguros"
+        }
+      ]
+    },
+    {
+      "code": "NISO",
+      "display": "National Information Standards Organization",
+      "definition": "U.S. organization that develops standards for information creation, management, and preservation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Organisation nationale des normes d'information"
+        },
+        {
+          "language": "es-MX",
+          "value": "Organización Nacional de Normas de Información"
+        }
+      ]
+    },
+    {
+      "code": "NIST",
+      "display": "National Institute for Standards Technology",
+      "definition": "U.S. agency that develops measurement standards and technology guidelines.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Institut national des normes et de la technologie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instituto Nacional de Normas y Tecnología"
+        }
+      ]
+    },
+    {
+      "code": "OAGP",
+      "display": "Open Applications Group",
+      "definition": "Organization that develops XML standards for business software integration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Groupe des applications ouvertes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grupo de Aplicaciones Abiertas"
+        }
+      ]
+    },
+    {
+      "code": "OASI",
+      "display": "Organization for the Advancement of Structured Information Standards",
+      "definition": "Consortium that develops open standards for web services, security, and content technologies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Organisation pour l'avancement des normes d'information structurée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Organización para el Avance de Estándares de Información Estructurada"
+        }
+      ]
+    },
+    {
+      "code": "OBIN",
+      "display": "Open Buying on the Internet",
+      "definition": "Standard for business-to-business electronic procurement transactions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Achat ouvert sur Internet"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compra Abierta en Internet"
+        }
+      ]
+    },
+    {
+      "code": "OFXC",
+      "display": "Open Financial Exchange",
+      "definition": "Standard for electronic exchange of financial data between institutions and consumers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Échange financier ouvert"
+        },
+        {
+          "language": "es-MX",
+          "value": "Intercambio Financiero Abierto"
+        }
+      ]
+    },
+    {
+      "code": "OMGP",
+      "display": "Object Management Group",
+      "definition": "Consortium that develops standards for distributed object computing and modeling.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Groupe de gestion des objets"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grupo de Gestión de Objetos"
+        }
+      ]
+    },
+    {
+      "code": "ORGN",
+      "display": "Origo Limited",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Origo Limited"
+        },
+        {
+          "language": "es-MX",
+          "value": "Origo Limited"
+        }
+      ]
+    },
+    {
+      "code": "OSHA",
+      "display": "Occupational Safety and Health Administration",
+      "definition": "U.S. agency that develops workplace safety standards and hazard classification codes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Administration de la sécurité et de la santé au travail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Administración de Seguridad y Salud Ocupacional"
+        }
+      ]
+    },
+    {
+      "code": "CA:PRDP",
+      "display": "Public Risk Database Project",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Projet Base de données publique du risque"
+        },
+        {
+          "language": "es-MX",
+          "value": "Proyecto de Base de Datos de Riesgo Público"
+        }
+      ]
+    },
+    {
+      "code": "RAAA",
+      "display": "Reinsurance Association of America",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association de réassurance d'Amérique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de Reaseguros de América"
+        }
+      ]
+    },
+    {
+      "code": "REDX",
+      "display": "Retail Enterprise Data in XML",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Données d'entreprise de détail en XML"
+        },
+        {
+          "language": "es-MX",
+          "value": "Datos Empresariales Minoristas en XML"
+        }
+      ]
+    },
+    {
+      "code": "RSNT",
+      "display": "Rosettanet",
+      "definition": "Consortium that develops e-business standards for supply chain and product information exchange.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rosettanet"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rosettanet"
+        }
+      ]
+    },
+    {
+      "code": "SCRS",
+      "display": "Society of Collision Repair Specialists",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société des spécialistes de la réparation de collision"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sociedad de Especialistas en Reparación de Colisiones"
+        }
+      ]
+    },
+    {
+      "code": "SEMI",
+      "display": "Semiconductor Equipment and Material International",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement et matériel de semi-conducteurs international"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo y Material de Semiconductores Internacional"
+        }
+      ]
+    },
+    {
+      "code": "SWFT",
+      "display": "Society for Worldwide Interbank Financial Telecommunications",
+      "definition": "Global provider of secure financial messaging services and standards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société de télécommunications financières interbancaires mondiales"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sociedad de Telecomunicaciones Financieras Interbancarias Mundiales"
+        }
+      ]
+    },
+    {
+      "code": "TEGP",
+      "display": "Transport EDIFACT Group",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Groupe EDIFACT pour le transport"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grupo EDIFACT de Transporte"
+        }
+      ]
+    },
+    {
+      "code": "TMFR",
+      "display": "TeleManagement Forum",
+      "definition": "Industry association that develops standards for telecommunications service management.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Forum de gestion des télécommunications"
+        },
+        {
+          "language": "es-MX",
+          "value": "Foro de Gestión de Telecomunicaciones"
+        }
+      ]
+    },
+    {
+      "code": "TMWG",
+      "display": "Techniques and Methodologies Working Group",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Groupe de travail sur les techniques et méthodologies"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grupo de Trabajo de Técnicas y Metodologías"
+        }
+      ]
+    },
+    {
+      "code": "UCCN",
+      "display": "Uniform Code Council",
+      "definition": "Organization that administered UPC and other product identification standards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conseil du code uniforme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consejo de Código Uniforme"
+        }
+      ]
+    },
+    {
+      "code": "UCTL",
+      "display": "UN Conference on International Trade Law",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conférence des Nations Unies sur le droit commercial international"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conferencia de las Naciones Unidas sobre Derecho Mercantil Internacional"
+        }
+      ]
+    },
+    {
+      "code": "UCTD",
+      "display": "UN Conference on Trade and development",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conférence des Nations Unies sur le commerce et le développement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conferencia de las Naciones Unidas sobre Comercio y Desarrollo"
+        }
+      ]
+    },
+    {
+      "code": "NBTC",
+      "display": "U.S. National Biometric Test Center at San Jose State University",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Centre national américain d'essais biométriques de l'Université d'État de San Jose"
+        },
+        {
+          "language": "es-MX",
+          "value": "Centro Nacional de Pruebas Biométricas de EE.UU. en la Universidad Estatal de San José"
+        }
+      ]
+    },
+    {
+      "code": "USSS",
+      "display": "U.S. Secret Service",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service secret des États-Unis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio Secreto de EE.UU."
+        }
+      ]
+    },
+    {
+      "code": "W3CC",
+      "display": "World Wide Web Consortium",
+      "definition": "International organization that develops web standards including HTML, CSS, and XML.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consortium World Wide Web"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consorcio World Wide Web"
+        }
+      ]
+    },
+    {
+      "code": "WCIO",
+      "display": "Workers Compensation Insurance Organizations",
+      "definition": "Association of organizations that develop workers' compensation data and rating standards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Organismes d'assurance contre les accidents du travail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Organizaciones de Seguro de Compensación de Trabajadores"
+        }
+      ]
+    },
+    {
+      "code": "WCOO",
+      "display": "World Customs Organization",
+      "definition": "International body that develops customs procedures and harmonized commodity classification codes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Organisation mondiale des douanes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Organización Mundial de Aduanas"
+        }
+      ]
+    },
+    {
+      "code": "WFMC",
+      "display": "WorkFlow Management Consortium",
+      "definition": "Organization that develops standards for workflow and business process management systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consortium de gestion de flux de travail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consorcio de Gestión de Flujo de Trabajo"
+        }
+      ]
+    },
+    {
+      "code": "WISE",
+      "display": "Worldwide Insurance eCommerce",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commerce électronique mondial de l'assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comercio Electrónico Mundial de Seguros"
+        }
+      ]
+    },
+    {
+      "code": "WTOO",
+      "display": "World Trade Organization",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Organisation mondiale du commerce"
+        },
+        {
+          "language": "es-MX",
+          "value": "Organización Mundial del Comercio"
+        }
+      ]
+    },
+    {
+      "code": "XBRL",
+      "display": "extensible Business Reporting Language",
+      "definition": "XML-based standard for digital business and financial reporting.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Langage extensible de rapport d'affaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lenguaje Extensible de Informes Empresariales"
+        }
+      ]
+    }
+  ]
+}

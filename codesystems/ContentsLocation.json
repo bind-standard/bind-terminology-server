@@ -1,0 +1,86 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ContentsLocation",
+  "url": "https://bind.codes/ContentsLocation",
+  "name": "ContentsLocation",
+  "title": "Contents Location",
+  "status": "draft",
+  "language": "en",
+  "description": "Contents Location codes for insurance operations.",
+  "concept": [
+    {
+      "code": "AOBG",
+      "display": "At or Below Grade",
+      "definition": "Items stored at ground level or in below-grade spaces such as basements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Au ou sous le niveau du sol"
+        },
+        {
+          "language": "es-MX",
+          "value": "Al nivel o bajo el nivel del suelo"
+        }
+      ]
+    },
+    {
+      "code": "ABVG",
+      "display": "Above Grade",
+      "definition": "Items stored above ground level, such as in upper floors or elevated areas.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Au-dessus du niveau du sol"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sobre el nivel del suelo"
+        }
+      ]
+    },
+    {
+      "code": "BLWG",
+      "display": "Below Grade",
+      "definition": "Items stored entirely below ground level, typically in basements or underground storage areas.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous le niveau du sol"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bajo el nivel del suelo"
+        }
+      ]
+    },
+    {
+      "code": "GRND",
+      "display": "Ground Level",
+      "definition": "Items stored at street or grade level, neither above nor below ground.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Au niveau du sol"
+        },
+        {
+          "language": "es-MX",
+          "value": "A nivel del suelo"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ReasonTerminated",
+  "url": "https://bind.codes/ReasonTerminated",
+  "name": "ReasonTerminated",
+  "title": "Reason Terminated",
+  "status": "draft",
+  "language": "en",
+  "description": "Reason Terminated codes for insurance operations.",
+  "concept": [
+    {
+      "code": "DCIN",
+      "display": "Declined by Insurer",
+      "definition": "The insurer rejected the application or chose not to offer coverage",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Refusé par l'assureur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rechazado por el asegurador"
+        }
+      ]
+    },
+    {
+      "code": "NRIN",
+      "display": "Non-renewed by Insurer",
+      "definition": "The insurer chose not to renew the policy at expiration",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non renouvelé par l'assureur"
+        },
+        {
+          "language": "es-MX",
+          "value": "No renovado por el asegurador"
+        }
+      ]
+    },
+    {
+      "code": "CANC",
+      "display": "Cancelled by Insurer",
+      "definition": "The insurer terminated the policy before its expiration date",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Annulé par l'assureur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cancelado por el asegurador"
+        }
+      ]
+    },
+    {
+      "code": "NRPH",
+      "display": "Non-renewed by Policyholder",
+      "definition": "The policyholder chose not to renew the policy at expiration",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non renouvelé par le titulaire de police"
+        },
+        {
+          "language": "es-MX",
+          "value": "No renovado por el titular de póliza"
+        }
+      ]
+    },
+    {
+      "code": "CAPH",
+      "display": "Cancelled by Policyholder",
+      "definition": "The policyholder requested termination of the policy before its expiration date",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Annulé par le titulaire de police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cancelado por el titular de póliza"
+        }
+      ]
+    },
+    {
+      "code": "RSTR",
+      "display": "Insurer Restricted Coverage",
+      "definition": "The insurer limited or narrowed the scope of coverage available",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garantie restreinte par l'assureur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cobertura restringida por el asegurador"
+        }
+      ]
+    },
+    {
+      "code": "NPAY",
+      "display": "Non-payment",
+      "definition": "The policy was terminated due to failure to pay required premiums",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non-paiement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de pago"
+        }
+      ]
+    },
+    {
+      "code": "REPL",
+      "display": "Replaced by Another Policy",
+      "definition": "The policy was terminated because it was superseded by a different policy",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remplacé par une autre police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reemplazado por otra póliza"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

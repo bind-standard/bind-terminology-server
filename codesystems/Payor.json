@@ -1,0 +1,311 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Payor",
+  "url": "https://bind.codes/Payor",
+  "name": "Payor",
+  "title": "Payor",
+  "status": "draft",
+  "language": "en",
+  "description": "Payor codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ATIF",
+      "display": "Attorney in Fact",
+      "definition": "A person authorized to act on behalf of another under a power of attorney.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fondé de pouvoir"
+        },
+        {
+          "language": "es-MX",
+          "value": "Apoderado"
+        }
+      ]
+    },
+    {
+      "code": "AGBK",
+      "display": "Agent/Broker",
+      "definition": "A licensed professional who sells, solicits, or negotiates coverage on behalf of clients or carriers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courtier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agente/Corredor"
+        }
+      ]
+    },
+    {
+      "code": "ADIN",
+      "display": "Additional Insured",
+      "definition": "A party granted coverage under another party's policy, typically for liability protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assuré additionnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asegurado adicional"
+        }
+      ]
+    },
+    {
+      "code": "ADLS",
+      "display": "Additional Lessor",
+      "definition": "A lessor added to a policy as an interested party.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bailleur supplémentaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arrendador adicional"
+        }
+      ]
+    },
+    {
+      "code": "CRTH",
+      "display": "Certificate Holder",
+      "definition": "A party who receives a certificate of coverage demonstrating that a policy is in force.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détenteur de certificat"
+        },
+        {
+          "language": "es-MX",
+          "value": "Titular del certificado"
+        }
+      ]
+    },
+    {
+      "code": "ESCR",
+      "display": "Escrow Corporation",
+      "definition": "A corporation that holds funds or assets in escrow on behalf of parties to a transaction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Corporation des fonds entiercés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corporación de depósito en garantía"
+        }
+      ]
+    },
+    {
+      "code": "EXEC",
+      "display": "Executor",
+      "definition": "A person appointed to administer the estate of a deceased person.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exécuteur testamentaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Albacea"
+        }
+      ]
+    },
+    {
+      "code": "FINC",
+      "display": "Finance Company",
+      "definition": "A company that provides financing for purchases and holds a security interest in the financed property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie de finance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compañía financiera"
+        }
+      ]
+    },
+    {
+      "code": "INSC",
+      "display": "Insurance Company",
+      "definition": "A company that underwrites and issues coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie d'assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compañía de seguros"
+        }
+      ]
+    },
+    {
+      "code": "INSD",
+      "display": "Insured",
+      "definition": "The primary policyholder who is covered under the policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asegurado"
+        }
+      ]
+    },
+    {
+      "code": "LESE",
+      "display": "Lessee",
+      "definition": "A party who leases property from another under a lease agreement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Locataire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arrendatario"
+        }
+      ]
+    },
+    {
+      "code": "LINH",
+      "display": "Lienholder",
+      "definition": "A party holding a legal claim against property as security for a debt or obligation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Créancier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acreedor prendario"
+        }
+      ]
+    },
+    {
+      "code": "LSPY",
+      "display": "Loss Payee",
+      "definition": "A party designated to receive payment for losses to specific property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bénéficiaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Beneficiario de pérdidas"
+        }
+      ]
+    },
+    {
+      "code": "MRTG",
+      "display": "Mortgagee",
+      "definition": "A lender who holds a mortgage on real property as security for a loan.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Créancier hypothécaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acreedor hipotecario"
+        }
+      ]
+    },
+    {
+      "code": "MUNI",
+      "display": "Municipality",
+      "definition": "A local government entity such as a city, town, or regional district.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Municipalité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Municipio"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "LSAI",
+      "display": "Both Loss Payee and Additional Insured",
+      "definition": "A party designated as both a loss payee for property and an additional insured for liability.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bénéficiaire et assuré additionnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Beneficiario de pérdidas y asegurado adicional"
+        }
+      ]
+    },
+    {
+      "code": "SLPY",
+      "display": "Secured Loss Payee",
+      "definition": "A loss payee with a contractual security interest in the covered property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bénéficiaire garanti"
+        },
+        {
+          "language": "es-MX",
+          "value": "Beneficiario de pérdidas garantizado"
+        }
+      ]
+    },
+    {
+      "code": "PREM",
+      "display": "Premium Finance Company",
+      "definition": "A company that provides financing specifically for policy premiums.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie de financement de primes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compañía de financiamiento de primas"
+        }
+      ]
+    },
+    {
+      "code": "TRST",
+      "display": "Trustee",
+      "definition": "A person or entity holding property in trust for beneficiaries.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fiduciaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fideicomisario"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,566 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "MaterialType",
+  "url": "https://bind.codes/MaterialType",
+  "name": "MaterialType",
+  "title": "Material Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Material Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CONC",
+      "display": "Concrete",
+      "definition": "A hard, strong construction material made from cement, aggregate, sand, and water.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Concreto"
+        }
+      ]
+    },
+    {
+      "code": "FRPG",
+      "display": "Fibreglass Reinforced Plastic (FRP)",
+      "definition": "A composite material made of plastic reinforced with fine glass fibers for added strength and durability.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plastique renforcé de fibre de verre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Plástico reforzado con fibra de vidrio"
+        }
+      ]
+    },
+    {
+      "code": "STEL",
+      "display": "Steel",
+      "definition": "An alloy of iron and carbon known for its strength and durability in construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acero"
+        }
+      ]
+    },
+    {
+      "code": "PLST",
+      "display": "Plastic",
+      "definition": "A synthetic polymer material that can be molded into various shapes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plastique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Plástico"
+        }
+      ]
+    },
+    {
+      "code": "SHMT",
+      "display": "Sheet Metal",
+      "definition": "Thin, flat pieces of metal formed by industrial processes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tôle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lámina metálica"
+        }
+      ]
+    },
+    {
+      "code": "FBRG",
+      "display": "Fiberglass",
+      "definition": "A material made from extremely fine glass fibers, used for reinforcement or insulation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fibre de verre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fibra de vidrio"
+        }
+      ]
+    },
+    {
+      "code": "ALUM",
+      "display": "Aluminium",
+      "definition": "A lightweight, silvery-white metal that is corrosion-resistant.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aluminium"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aluminio"
+        }
+      ]
+    },
+    {
+      "code": "COMP",
+      "display": "Composite Material",
+      "definition": "A material made from two or more constituent materials with different physical or chemical properties that remain separate in the final structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matériau composite"
+        },
+        {
+          "language": "es-MX",
+          "value": "Material compuesto"
+        }
+      ]
+    },
+    {
+      "code": "RESN",
+      "display": "Resins",
+      "definition": "Natural or synthetic compounds that are typically viscous substances that harden into transparent solids.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résines"
+        },
+        {
+          "language": "es-MX",
+          "value": "Resinas"
+        }
+      ]
+    },
+    {
+      "code": "WOOD",
+      "display": "Wood",
+      "definition": "Hard fibrous material from trees or shrubs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Madera"
+        }
+      ]
+    },
+    {
+      "code": "STRW",
+      "display": "Straw",
+      "definition": "Dry stalks of grain used as a building material, typically in bales.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Paille"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paja"
+        }
+      ]
+    },
+    {
+      "code": "LOGS",
+      "display": "Log",
+      "definition": "A section of the trunk or a large branch of a tree used in construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rondins"
+        },
+        {
+          "language": "es-MX",
+          "value": "Troncos"
+        }
+      ]
+    },
+    {
+      "code": "ACTB",
+      "display": "Acoustic Tile",
+      "definition": "A sound-absorbing tile used for ceiling or wall finishes to reduce noise.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Carreau insonorisant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Baldosa acústica"
+        }
+      ]
+    },
+    {
+      "code": "GLSW",
+      "display": "Glass - Low Wall",
+      "definition": "Glass panels designed for low-height wall applications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Verre - Mur bahut"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vidrio - Muro bajo"
+        }
+      ]
+    },
+    {
+      "code": "GLSH",
+      "display": "Glass - High Wall",
+      "definition": "Glass panels designed for full-height wall applications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Verre - Mur élevé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vidrio - Muro alto"
+        }
+      ]
+    },
+    {
+      "code": "PURS",
+      "display": "Polyurethane - Single",
+      "definition": "A single-layer polyurethane material used for insulation or construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Polyuréthanne - Simple"
+        },
+        {
+          "language": "es-MX",
+          "value": "Poliuretano - Simple"
+        }
+      ]
+    },
+    {
+      "code": "PURD",
+      "display": "Polyurethane - Double",
+      "definition": "A double-layer polyurethane material offering enhanced insulation properties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Polyuréthanne - Double"
+        },
+        {
+          "language": "es-MX",
+          "value": "Poliuretano - Doble"
+        }
+      ]
+    },
+    {
+      "code": "OPSD",
+      "display": "Open-sided",
+      "definition": "A construction method featuring one or more open sides, typically used for structures like carports or pavilions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À paroi ouvrante"
+        },
+        {
+          "language": "es-MX",
+          "value": "De lado abierto"
+        }
+      ]
+    },
+    {
+      "code": "FBRC",
+      "display": "Fabric Covered",
+      "definition": "A structure or surface covered with textile material.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Recouvert de tissu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cubierto de tela"
+        }
+      ]
+    },
+    {
+      "code": "WELD",
+      "display": "Welded",
+      "definition": "A joining method where materials are fused together by heating.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soudé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Soldado"
+        }
+      ]
+    },
+    {
+      "code": "BOLT",
+      "display": "Bolted",
+      "definition": "A joining method where materials are fastened using bolts and nuts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boulonné"
+        },
+        {
+          "language": "es-MX",
+          "value": "Atornillado"
+        }
+      ]
+    },
+    {
+      "code": "RIVT",
+      "display": "Riveted",
+      "definition": "A joining method where materials are fastened using rivets.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rivé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remachado"
+        }
+      ]
+    },
+    {
+      "code": "LIND",
+      "display": "Lined",
+      "definition": "A material or structure with an inner protective or insulating layer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Doublé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Revestido"
+        }
+      ]
+    },
+    {
+      "code": "DWAL",
+      "display": "Drywall",
+      "definition": "Gypsum board panels used for interior walls and ceilings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Panneau de gypse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Panel de yeso"
+        }
+      ]
+    },
+    {
+      "code": "CRPT",
+      "display": "Carpet",
+      "definition": "A textile floor covering typically made of woven or felted fabric.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tapis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alfombra"
+        }
+      ]
+    },
+    {
+      "code": "CERM",
+      "display": "Ceramic/Porcelain",
+      "definition": "Hard, brittle, heat- and corrosion-resistant material made by firing clay or other inorganic compounds.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Céramique/Porcelaine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cerámica/Porcelana"
+        }
+      ]
+    },
+    {
+      "code": "HDWD",
+      "display": "Hardwood",
+      "definition": "Wood from deciduous trees with dense grain structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois franc"
+        },
+        {
+          "language": "es-MX",
+          "value": "Madera dura"
+        }
+      ]
+    },
+    {
+      "code": "LMNT",
+      "display": "Laminate",
+      "definition": "A multi-layer synthetic flooring or surface material bonded together.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stratifié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Laminado"
+        }
+      ]
+    },
+    {
+      "code": "PLTR",
+      "display": "Plaster",
+      "definition": "A paste-like building material that hardens when dry, used for coating walls and ceilings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plâtre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Yeso"
+        }
+      ]
+    },
+    {
+      "code": "VNYL",
+      "display": "Vinyl",
+      "definition": "A synthetic plastic material made from polyvinyl chloride, commonly used for flooring and siding.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vinyle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vinilo"
+        }
+      ]
+    },
+    {
+      "code": "WDPN",
+      "display": "Wood Paneling",
+      "definition": "Decorative wooden boards or sheets used to cover walls.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Panneau de lambrissage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paneles de madera"
+        }
+      ]
+    },
+    {
+      "code": "BRCK",
+      "display": "Brick",
+      "definition": "A block of fired or sun-dried clay used in construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Brique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ladrillo"
+        }
+      ]
+    },
+    {
+      "code": "STON",
+      "display": "Stone",
+      "definition": "Natural rock material used in construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pierre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Piedra"
+        }
+      ]
+    },
+    {
+      "code": "STUC",
+      "display": "Stucco",
+      "definition": "A cement-based plaster used for coating exterior walls.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stuc"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estuco"
+        }
+      ]
+    },
+    {
+      "code": "ASBH",
+      "display": "Asphalt Shingles",
+      "definition": "Roofing material made from asphalt-coated fiberglass or organic mat.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bardeaux d'asphalte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tejas de asfalto"
+        }
+      ]
+    },
+    {
+      "code": "RUBB",
+      "display": "Rubber",
+      "definition": "An elastic polymer material, natural or synthetic.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caoutchouc"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caucho"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

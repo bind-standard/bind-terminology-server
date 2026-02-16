@@ -1,0 +1,1187 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Employer",
+  "url": "https://bind.codes/Employer",
+  "name": "Employer",
+  "title": "Employer",
+  "status": "draft",
+  "language": "en",
+  "description": "Employer codes for insurance operations.",
+  "concept": [
+    {
+      "code": "VETR",
+      "display": "Veterinary Office",
+      "definition": "Professional office where licensed veterinarians provide medical care and treatment to animals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau de vétérinaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Oficina veterinaria"
+        }
+      ]
+    },
+    {
+      "code": "AGRN",
+      "display": "Agronomist Office",
+      "definition": "Professional office where agronomists provide expertise in soil management, crop production, and agricultural sciences.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau d'agronome"
+        },
+        {
+          "language": "es-MX",
+          "value": "Oficina de agrónomo"
+        }
+      ]
+    },
+    {
+      "code": "CHEM",
+      "display": "Chemist's Office",
+      "definition": "Professional office where chemists conduct chemical analysis, research, or consulting services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau de chimiste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Oficina de químico"
+        }
+      ]
+    },
+    {
+      "code": "PHRM",
+      "display": "Pharmacy",
+      "definition": "Establishment that dispenses prescription medications and provides pharmaceutical services to patients.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pharmacie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Farmacia"
+        }
+      ]
+    },
+    {
+      "code": "FINN",
+      "display": "Financial Institution",
+      "definition": "Organization that manages financial transactions, deposits, loans, and investments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Institution financière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Institución financiera"
+        }
+      ]
+    },
+    {
+      "code": "CRUN",
+      "display": "Credit Union",
+      "definition": "Member-owned financial cooperative that provides banking services to its members.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caisse d'économie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cooperativa de crédito"
+        }
+      ]
+    },
+    {
+      "code": "INSC",
+      "display": "Insurance Company",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie d'assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compañía de seguros"
+        }
+      ]
+    },
+    {
+      "code": "GNBR",
+      "display": "General Insurance Brokerage",
+      "definition": "Brokerage firm that intermediates between clients and carriers for property and casualty coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cabinet de courtage en assurance de dommages"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corretaje de seguros generales"
+        }
+      ]
+    },
+    {
+      "code": "STBR",
+      "display": "Stock/Bond Brokerage",
+      "definition": "Brokerage firm that facilitates buying and selling of stocks, bonds, and other securities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cabinet de courtage en valeurs mobilières"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corretaje de acciones/bonos"
+        }
+      ]
+    },
+    {
+      "code": "ACCT",
+      "display": "Accounting Firm",
+      "definition": "Professional firm that provides accounting, auditing, tax preparation, and financial consulting services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comptable (cabinet)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Firma de contabilidad"
+        }
+      ]
+    },
+    {
+      "code": "ENGR",
+      "display": "Engineering Firm",
+      "definition": "Professional firm that provides engineering design, analysis, and consulting services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ingénieur (firme)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Firma de ingeniería"
+        }
+      ]
+    },
+    {
+      "code": "ARCH",
+      "display": "Architect Firm",
+      "definition": "Professional firm that provides architectural design and building planning services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Architecte (firme)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Firma de arquitectura"
+        }
+      ]
+    },
+    {
+      "code": "SURV",
+      "display": "Land-surveyor Firm",
+      "definition": "Professional firm that provides land measurement, boundary determination, and surveying services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Arpenteur-géomètre (firme)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Firma de agrimensura"
+        }
+      ]
+    },
+    {
+      "code": "NTRY",
+      "display": "Notary Office",
+      "definition": "Professional office where notaries authenticate documents, administer oaths, and provide legal advisory services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Notaire (cabinet)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Oficina notarial"
+        }
+      ]
+    },
+    {
+      "code": "LAWY",
+      "display": "Law Office",
+      "definition": "Professional office where lawyers provide legal advice, representation, and document preparation services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avocat (cabinet)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Oficina legal"
+        }
+      ]
+    },
+    {
+      "code": "CHAD",
+      "display": "Chartered Administration Firm",
+      "definition": "Professional firm providing certified business administration and management consulting services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Administrateur agréé (firme)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Firma de administración certificada"
+        }
+      ]
+    },
+    {
+      "code": "ACTY",
+      "display": "Actuary Firm",
+      "definition": "Professional firm that provides actuarial analysis, statistical modeling, and financial forecasting services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Actuaire (firme)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Firma actuarial"
+        }
+      ]
+    },
+    {
+      "code": "CA:SCBD",
+      "display": "School Board",
+      "definition": "Governing body responsible for administering public schools within a specific district or region.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commission scolaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Junta escolar"
+        }
+      ]
+    },
+    {
+      "code": "MNCP",
+      "display": "Municipality",
+      "definition": "Local government entity responsible for governing a city, town, or district.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Municipalité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Municipio"
+        }
+      ]
+    },
+    {
+      "code": "CA:URBC",
+      "display": "Urban Community",
+      "definition": "Regional government structure grouping multiple municipalities in metropolitan areas.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Communauté urbaine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comunidad urbana"
+        }
+      ]
+    },
+    {
+      "code": "SEMN",
+      "display": "Seminary",
+      "definition": "Educational institution for training religious leaders and clergy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Séminaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seminario"
+        }
+      ]
+    },
+    {
+      "code": "COLG",
+      "display": "College",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collège"
+        },
+        {
+          "language": "es-MX",
+          "value": "Colegio"
+        }
+      ]
+    },
+    {
+      "code": "PRFS",
+      "display": "Professional School",
+      "definition": "Educational institution providing specialized vocational or technical training for specific careers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "École professionnelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escuela profesional"
+        }
+      ]
+    },
+    {
+      "code": "HGHS",
+      "display": "High School",
+      "definition": "Secondary educational institution providing instruction to adolescent students typically ages 14-18.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "École secondaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escuela secundaria"
+        }
+      ]
+    },
+    {
+      "code": "UNIV",
+      "display": "University",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Université"
+        },
+        {
+          "language": "es-MX",
+          "value": "Universidad"
+        }
+      ]
+    },
+    {
+      "code": "HOSP",
+      "display": "Hospital",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hôpital"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hospital"
+        }
+      ]
+    },
+    {
+      "code": "MDOC",
+      "display": "Doctor Office",
+      "definition": "Professional office where physicians provide medical consultation, diagnosis, and treatment services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Médecin (cabinet)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultorio médico"
+        }
+      ]
+    },
+    {
+      "code": "DENT",
+      "display": "Dentist Office",
+      "definition": "Professional office where dentists provide oral health care and dental treatment services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dentiste (cabinet)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultorio dental"
+        }
+      ]
+    },
+    {
+      "code": "CHRO",
+      "display": "Chiropractor Office",
+      "definition": "Professional office where chiropractors provide spinal manipulation and musculoskeletal treatment services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chiropraticien (cabinet)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultorio de quiropráctica"
+        }
+      ]
+    },
+    {
+      "code": "OPTM",
+      "display": "Optometrist Office",
+      "definition": "Professional office where optometrists provide eye examinations and vision care services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Optométriste (cabinet)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultorio de optometría"
+        }
+      ]
+    },
+    {
+      "code": "DIET",
+      "display": "Dietician Office",
+      "definition": "Professional office where dieticians provide nutritional counseling and dietary planning services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Diététicien (cabinet)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultorio de nutrición"
+        }
+      ]
+    },
+    {
+      "code": "OPTC",
+      "display": "Optician Office",
+      "definition": "Professional office where opticians fit and dispense eyeglasses and contact lenses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Opticien (cabinet)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Óptica"
+        }
+      ]
+    },
+    {
+      "code": "DNTR",
+      "display": "Denturologist Office",
+      "definition": "Professional office where denturologists design, fabricate, and fit dentures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Denturologiste (cabinet)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultorio de denturología"
+        }
+      ]
+    },
+    {
+      "code": "AUDP",
+      "display": "Audio-practician Office",
+      "definition": "Professional office where audiologists provide hearing assessment and auditory rehabilitation services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Audio-omnipraticien (cabinet)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultorio de audiología"
+        }
+      ]
+    },
+    {
+      "code": "PODI",
+      "display": "Podiatrist Office",
+      "definition": "Professional office where podiatrists provide foot and ankle care and treatment services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Podiatre (cabinet)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultorio de podología"
+        }
+      ]
+    },
+    {
+      "code": "PSYC",
+      "display": "Psychologist Office",
+      "definition": "Professional office where psychologists provide mental health assessment and therapy services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Psychologue (cabinet)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultorio de psicología"
+        }
+      ]
+    },
+    {
+      "code": "RSTR",
+      "display": "Restaurant",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Restaurant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Restaurante"
+        }
+      ]
+    },
+    {
+      "code": "HOTL",
+      "display": "Hotel/Motel",
+      "definition": "Establishment providing temporary lodging and hospitality services to travelers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hôtel/motel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hotel/motel"
+        }
+      ]
+    },
+    {
+      "code": "BARS",
+      "display": "Bar/Disco/Brasserie",
+      "definition": "Establishment primarily serving alcoholic beverages and entertainment to patrons.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bar/discothèque/brasserie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bar/discoteca/cervecería"
+        }
+      ]
+    },
+    {
+      "code": "PRSH",
+      "display": "Parish Church",
+      "definition": "Local church serving a specific geographic community or congregation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Église paroissiale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Iglesia parroquial"
+        }
+      ]
+    },
+    {
+      "code": "PRVY",
+      "display": "Private Society (more than 25 employees)",
+      "definition": "Privately owned organization with more than 25 employees.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société privée (plus de 25 employés)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sociedad privada (más de 25 empleados)"
+        }
+      ]
+    },
+    {
+      "code": "CA:BELL",
+      "display": "Bell Canada",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bell Canada"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bell Canada"
+        }
+      ]
+    },
+    {
+      "code": "CA:NTEL",
+      "display": "Northern Telecom",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Northern Telecom"
+        },
+        {
+          "language": "es-MX",
+          "value": "Northern Telecom"
+        }
+      ]
+    },
+    {
+      "code": "CA:QTEL",
+      "display": "Quebec Telephone",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Québec-Téléphone"
+        },
+        {
+          "language": "es-MX",
+          "value": "Quebec Telephone"
+        }
+      ]
+    },
+    {
+      "code": "CA:TLBC",
+      "display": "Telebec",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Télébec"
+        },
+        {
+          "language": "es-MX",
+          "value": "Telebec"
+        }
+      ]
+    },
+    {
+      "code": "CA:CPST",
+      "display": "Canada Post Corporation",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société canadienne des postes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corporación de correos de Canadá"
+        }
+      ]
+    },
+    {
+      "code": "CA:HYQC",
+      "display": "Hydro Quebec",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hydro-Québec"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hydro Quebec"
+        }
+      ]
+    },
+    {
+      "code": "CA:QCLB",
+      "display": "Quebec Liquor Board",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société des Alcools du Québec"
+        },
+        {
+          "language": "es-MX",
+          "value": "Junta de licores de Quebec"
+        }
+      ]
+    },
+    {
+      "code": "CA:DSJR",
+      "display": "Desjardins Group",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Groupe Desjardins"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grupo Desjardins"
+        }
+      ]
+    },
+    {
+      "code": "CA:QCIS",
+      "display": "Quebec Investment Society",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société d'investissement du Québec"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sociedad de inversión de Quebec"
+        }
+      ]
+    },
+    {
+      "code": "CA:CADF",
+      "display": "Canadian Armed Forces",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Forces armées canadiennes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fuerzas armadas canadienses"
+        }
+      ]
+    },
+    {
+      "code": "CA:FEDM",
+      "display": "Federal Government (Ministry or Department)",
+      "definition": "Ministry or department of the Canadian federal government.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gouvernement fédéral (ministère ou département)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gobierno federal (ministerio o departamento)"
+        }
+      ]
+    },
+    {
+      "code": "CA:FEDO",
+      "display": "Federal Government (Other)",
+      "definition": "Other Canadian federal government entity not classified as a ministry or department.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gouvernement fédéral (autre)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gobierno federal (otro)"
+        }
+      ]
+    },
+    {
+      "code": "CA:SQCB",
+      "display": "Quebec Surety",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sûreté du Québec"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguridad de Quebec"
+        }
+      ]
+    },
+    {
+      "code": "CA:PRVM",
+      "display": "Provincial Government (Ministry or Department)",
+      "definition": "Ministry or department of a Canadian provincial government.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gouvernement provincial (ministère ou département)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gobierno provincial (ministerio o departamento)"
+        }
+      ]
+    },
+    {
+      "code": "CA:PRVO",
+      "display": "Provincial Government (Other)",
+      "definition": "Other Canadian provincial government entity not classified as a ministry or department.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gouvernement provincial (autre)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gobierno provincial (otro)"
+        }
+      ]
+    },
+    {
+      "code": "CA:HMHS",
+      "display": "Honore-Mercier Hospital",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hôpital Honoré-Mercier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hospital Honore-Mercier"
+        }
+      ]
+    },
+    {
+      "code": "CA:CLSC",
+      "display": "CLSC (Centre Local de Services Communautaires/Local Community Centre)",
+      "definition": "Local community service center providing primary health and social services in Quebec.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "CLSC (Centre local de services communautaires)"
+        },
+        {
+          "language": "es-MX",
+          "value": "CLSC (Centro local de servicios comunitarios)"
+        }
+      ]
+    },
+    {
+      "code": "CA:ATEQ",
+      "display": "ATEQ (Assoc. des Transport d'Écoliers du Quebec/Assoc. Of Quebec Schoolbus Drivers)",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "ATEQ (Association du transport écolier du Québec)"
+        },
+        {
+          "language": "es-MX",
+          "value": "ATEQ (Asociación de transporte escolar de Quebec)"
+        }
+      ]
+    },
+    {
+      "code": "CA:ASPC",
+      "display": "ASPPCQ (Assoc. des Syndicats des Professionnelles et Professionnels de Collège du Quebec/Quebec College Professionals Unions Assoc.)",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "ASPPCQ (Association des syndicats des professionnelles et professionnels des collèges du Québec)"
+        },
+        {
+          "language": "es-MX",
+          "value": "ASPPCQ (Asociación de sindicatos de profesionales de colegios de Quebec)"
+        }
+      ]
+    },
+    {
+      "code": "SELF",
+      "display": "Self-employed",
+      "definition": "Individual working for themselves rather than for an employer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travailleur autonome"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajador autónomo"
+        }
+      ]
+    },
+    {
+      "code": "UNEM",
+      "display": "Unemployed",
+      "definition": "Individual not currently employed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sans emploi"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desempleado"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "CA:APVQ",
+      "display": "APAVQ",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "APAVQ"
+        },
+        {
+          "language": "es-MX",
+          "value": "APAVQ"
+        }
+      ]
+    },
+    {
+      "code": "CA:CSEC",
+      "display": "Caisse Economie",
+      "definition": "Member savings and credit cooperative.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caisse d'économie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caja de ahorro"
+        }
+      ]
+    },
+    {
+      "code": "CNST",
+      "display": "Construction Company",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie de construction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compañía de construcción"
+        }
+      ]
+    },
+    {
+      "code": "DYCA",
+      "display": "Day Care Institution",
+      "definition": "Facility providing supervised care for children during daytime hours.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Établissement de soins de jour"
+        },
+        {
+          "language": "es-MX",
+          "value": "Guardería"
+        }
+      ]
+    },
+    {
+      "code": "EDIN",
+      "display": "Education Institution",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Établissement d'enseignement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Institución educativa"
+        }
+      ]
+    },
+    {
+      "code": "FEDR",
+      "display": "Federation, Conf., Ins. & Corporation",
+      "definition": "Umbrella organization grouping multiple associations, institutions, or member entities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fédération, conf., instit. et corporation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Federación, conf., inst. y corporación"
+        }
+      ]
+    },
+    {
+      "code": "MDCL",
+      "display": "Medical Clinic",
+      "definition": "Healthcare facility where multiple physicians provide outpatient medical services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clinique médicale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clínica médica"
+        }
+      ]
+    },
+    {
+      "code": "NATR",
+      "display": "National Association of Retirees",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association nationale de retraités"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación nacional de jubilados"
+        }
+      ]
+    },
+    {
+      "code": "OILG",
+      "display": "Oil and Gas Company",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie de pétrole et de gaz"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compañía de petróleo y gas"
+        }
+      ]
+    },
+    {
+      "code": "PHCO",
+      "display": "Phone Company",
+      "definition": "Telecommunications provider offering telephone services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie de téléphone"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compañía telefónica"
+        }
+      ]
+    },
+    {
+      "code": "CA:RCMP",
+      "display": "R.C.M.P.",
+      "definition": "Royal Canadian Mounted Police, Canada's federal law enforcement agency.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "GRC"
+        },
+        {
+          "language": "es-MX",
+          "value": "Policía Montada de Canadá"
+        }
+      ]
+    },
+    {
+      "code": "RETL",
+      "display": "Retail",
+      "definition": "Business selling goods directly to consumers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente au détail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta al por menor"
+        }
+      ]
+    },
+    {
+      "code": "SCIN",
+      "display": "Scientific Institution",
+      "definition": "Organization conducting scientific research, analysis, or technological development.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Établissement scientifique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Institución científica"
+        }
+      ]
+    },
+    {
+      "code": "TRST",
+      "display": "Trust Company",
+      "definition": "Financial institution managing trusts, estates, and fiduciary services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société de fiducie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compañía fiduciaria"
+        }
+      ]
+    },
+    {
+      "code": "FRST",
+      "display": "Forestry Company",
+      "definition": "Company engaged in timber harvesting, forest management, or wood product manufacturing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie forestière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compañía forestal"
+        }
+      ]
+    },
+    {
+      "code": "MANF",
+      "display": "Manufacturing",
+      "definition": "Company engaged in industrial production of goods from raw materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fabrication"
+        },
+        {
+          "language": "es-MX",
+          "value": "Manufactura"
+        }
+      ]
+    },
+    {
+      "code": "TECH",
+      "display": "Technology Company",
+      "definition": "Company primarily focused on developing or providing technology products or services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreprise technologique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compañía tecnológica"
+        }
+      ]
+    }
+  ]
+}

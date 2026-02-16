@@ -1,0 +1,777 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "LineOfBusiness",
+  "url": "https://bind.codes/LineOfBusiness",
+  "name": "LineOfBusiness",
+  "title": "Line of Business",
+  "status": "draft",
+  "description": "Lines of business classification for policies and coverage.",
+  "concept": [
+    {
+      "code": "GNLB",
+      "display": "General Liability",
+      "definition": "Coverage for bodily injury and property damage claims arising from business operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité générale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad general"
+        }
+      ]
+    },
+    {
+      "code": "PROP",
+      "display": "Property",
+      "definition": "Coverage for physical damage to buildings, equipment, and inventory.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Biens"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propiedad"
+        }
+      ]
+    },
+    {
+      "code": "WKCP",
+      "display": "Workers' Compensation",
+      "definition": "Coverage for employee work-related injuries and illnesses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Indemnisation des accidents du travail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compensación de trabajadores"
+        }
+      ]
+    },
+    {
+      "code": "CMAU",
+      "display": "Commercial Auto",
+      "definition": "Coverage for vehicles used in business operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Automobile commerciale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Auto comercial"
+        }
+      ]
+    },
+    {
+      "code": "BSOP",
+      "display": "Business Owner's Policy",
+      "definition": "Packaged coverage combining property and liability for small to medium-sized businesses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police du propriétaire d'entreprise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Póliza del propietario de negocio"
+        }
+      ]
+    },
+    {
+      "code": "INMR",
+      "display": "Inland Marine",
+      "definition": "Coverage for movable property, goods in transit, and property at multiple locations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Risques divers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Marina interior"
+        }
+      ]
+    },
+    {
+      "code": "CYBR",
+      "display": "Cyber",
+      "definition": "Coverage for data breaches, network security incidents, and cyber extortion.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cyber"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cibernética"
+        }
+      ]
+    },
+    {
+      "code": "PRFL",
+      "display": "Professional Liability",
+      "definition": "Coverage for claims of professional negligence, errors, and omissions in services provided.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité professionnelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad profesional"
+        }
+      ]
+    },
+    {
+      "code": "DNOF",
+      "display": "Directors & Officers",
+      "definition": "Coverage for wrongful acts by company directors and officers in their managerial capacity.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Administrateurs et dirigeants"
+        },
+        {
+          "language": "es-MX",
+          "value": "Directores y funcionarios"
+        }
+      ]
+    },
+    {
+      "code": "EPLI",
+      "display": "Employment Practices Liability",
+      "definition": "Coverage for claims of wrongful termination, discrimination, harassment, and other employment-related allegations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité liée aux pratiques d'emploi"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad de prácticas laborales"
+        }
+      ]
+    },
+    {
+      "code": "UMBL",
+      "display": "Umbrella",
+      "definition": "Excess liability coverage that extends beyond underlying policy limits.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Parapluie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paraguas"
+        }
+      ]
+    },
+    {
+      "code": "EXCS",
+      "display": "Excess",
+      "definition": "Additional liability coverage above the limits of a primary policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Excédent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Exceso"
+        }
+      ]
+    },
+    {
+      "code": "PPAU",
+      "display": "Private Passenger Auto",
+      "definition": "Coverage for personal use vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture de tourisme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Auto particular"
+        }
+      ]
+    },
+    {
+      "code": "BINT",
+      "display": "Business Interruption",
+      "definition": "Coverage for lost income when business operations are suspended due to covered property damage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pertes d'exploitation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Interrupción de negocio"
+        }
+      ]
+    },
+    {
+      "code": "IRCA",
+      "display": "Individually Rated Commercial Automobile",
+      "definition": "Commercial auto coverage with individual vehicle rating.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicules utilitaires à tarification individuelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Auto comercial con tarifa individual"
+        }
+      ]
+    },
+    {
+      "code": "CGLB",
+      "display": "Commercial General Liability",
+      "definition": "Broad liability coverage for businesses against third-party bodily injury and property damage claims.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité civile des entreprises"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad civil comercial"
+        }
+      ]
+    },
+    {
+      "code": "CMMC",
+      "display": "Commercial Lines - Miscellaneous",
+      "definition": "Commercial coverage types not classified under standard categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des entreprises - Divers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Líneas comerciales - Varios"
+        }
+      ]
+    },
+    {
+      "code": "CMPR",
+      "display": "Property - Commercial",
+      "definition": "Coverage for commercial buildings, equipment, and business property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Biens - Entreprise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propiedad - Comercial"
+        }
+      ]
+    },
+    {
+      "code": "CRME",
+      "display": "Crime",
+      "definition": "Coverage for employee theft, forgery, robbery, and other criminal acts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vols et détournements"
+        },
+        {
+          "language": "es-MX",
+          "value": "Crimen"
+        }
+      ]
+    },
+    {
+      "code": "CUBL",
+      "display": "Umbrella Liability - Commercial",
+      "definition": "Excess liability coverage for commercial entities beyond primary policy limits.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité civile des entreprises (Parapluie)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad paraguas - Comercial"
+        }
+      ]
+    },
+    {
+      "code": "DOFL",
+      "display": "Directors and Officers",
+      "definition": "Liability coverage for wrongful acts by directors and officers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité civile des administrateurs et des dirigeants"
+        },
+        {
+          "language": "es-MX",
+          "value": "Directores y funcionarios"
+        }
+      ]
+    },
+    {
+      "code": "EROM",
+      "display": "Errors and Omissions",
+      "definition": "Coverage for claims arising from professional mistakes, negligence, or failure to perform services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité civile professionnelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Errores y omisiones"
+        }
+      ]
+    },
+    {
+      "code": "FARM",
+      "display": "Farm Owners, Fire, Liability",
+      "definition": "Combined coverage for farm property, fire damage, and farm liability exposures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriétaires de ferme, incendie, responsabilité civile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propietarios de granja, incendio, responsabilidad"
+        }
+      ]
+    },
+    {
+      "code": "FIDL",
+      "display": "Fidelity",
+      "definition": "Coverage for loss caused by dishonest acts of employees.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance contre les détournements"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fidelidad"
+        }
+      ]
+    },
+    {
+      "code": "FLET",
+      "display": "Commercial Fleet Automobile",
+      "definition": "Coverage for multiple vehicles owned or operated by a business.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des flottes automobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Flota de autos comerciales"
+        }
+      ]
+    },
+    {
+      "code": "GARG",
+      "display": "Commercial Garage Automobile",
+      "definition": "Coverage for businesses that service, repair, park, or store vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des entreprises - Garagistes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Garaje comercial"
+        }
+      ]
+    },
+    {
+      "code": "HABT",
+      "display": "Habitational",
+      "definition": "Coverage for residential rental properties and apartment buildings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Habitation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Habitacional"
+        }
+      ]
+    },
+    {
+      "code": "LIFE",
+      "display": "Life and Health - Miscellaneous",
+      "definition": "Life and health coverage products not classified under standard categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vie et santé - Divers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vida y salud - Varios"
+        }
+      ]
+    },
+    {
+      "code": "MRIN",
+      "display": "Inland Marine",
+      "definition": "Coverage for property frequently in transit, movable equipment, and instrumentalities of transportation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Risques divers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Marina interior"
+        }
+      ]
+    },
+    {
+      "code": "NOAU",
+      "display": "Non-owned Automobile",
+      "definition": "Coverage for vehicles not owned by the insured but used in business operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formule des non propriétaires (automobile n'appartenant pas à l'assuré)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Auto no propio"
+        }
+      ]
+    },
+    {
+      "code": "PACK",
+      "display": "Package Policy - Commercial",
+      "definition": "Bundled commercial coverage combining multiple protection types in one policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police multirisques - Entreprises"
+        },
+        {
+          "language": "es-MX",
+          "value": "Póliza de paquete - Comercial"
+        }
+      ]
+    },
+    {
+      "code": "PRSC",
+      "display": "Personal Lines - Miscellaneous",
+      "definition": "Personal coverage types not classified under standard categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des particuliers - Divers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Líneas personales - Varios"
+        }
+      ]
+    },
+    {
+      "code": "PUBL",
+      "display": "Umbrella Liability - Personal",
+      "definition": "Excess personal liability coverage beyond underlying homeowners and auto policies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité civile des particuliers (Parapluie)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad paraguas - Personal"
+        }
+      ]
+    },
+    {
+      "code": "SRTY",
+      "display": "Surety",
+      "definition": "Bonds guaranteeing performance of contracts or fulfillment of obligations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cautionnements"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fianzas"
+        }
+      ]
+    },
+    {
+      "code": "WRAP",
+      "display": "Wrap-up Liability",
+      "definition": "Consolidated liability coverage for all parties involved in a construction project.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité civile globale de chantier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad global de proyecto"
+        }
+      ]
+    },
+    {
+      "code": "DDPR",
+      "display": "Direct Damage (Property)",
+      "definition": "Coverage for direct physical loss or damage to property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dommages directs (biens)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Daño directo (propiedad)"
+        }
+      ]
+    },
+    {
+      "code": "PLEX",
+      "display": "Property and Liability (Excluding Non-owned Automobile)",
+      "definition": "Combined property and liability coverage without non-owned auto.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Biens et responsabilité (excluant automobile n'appartenant pas à l'assuré)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propiedad y responsabilidad (excluyendo auto no propio)"
+        }
+      ]
+    },
+    {
+      "code": "PLIN",
+      "display": "Property and Liability (Including Non-owned Automobile)",
+      "definition": "Combined property and liability coverage including non-owned auto.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Biens et responsabilité (incluant automobile n'appartenant pas à l'assuré)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propiedad y responsabilidad (incluyendo auto no propio)"
+        }
+      ]
+    },
+    {
+      "code": "GLAS",
+      "display": "Glass",
+      "definition": "Coverage specifically for glass breakage and replacement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Verre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vidrio"
+        }
+      ]
+    },
+    {
+      "code": "BLDR",
+      "display": "Builders Risk",
+      "definition": "Coverage for buildings under construction, including materials and fixtures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Risques des constructeurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Riesgo de constructores"
+        }
+      ]
+    },
+    {
+      "code": "CEDP",
+      "display": "Computer/EDP",
+      "definition": "Coverage for electronic data processing equipment and media.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement informatique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Computadora/procesamiento electrónico de datos"
+        }
+      ]
+    },
+    {
+      "code": "FMPR",
+      "display": "Farm - Personal",
+      "definition": "Personal farm coverage for residential farming operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ferme - Particulier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Granja - Personal"
+        }
+      ]
+    },
+    {
+      "code": "FMCM",
+      "display": "Farm - Commercial",
+      "definition": "Commercial farm coverage for large-scale agricultural operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ferme - Entreprise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Granja - Comercial"
+        }
+      ]
+    },
+    {
+      "code": "EQBK",
+      "display": "Equipment Breakdown",
+      "definition": "Coverage for mechanical or electrical failure of equipment and machinery.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bris d'équipement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Avería de equipo"
+        }
+      ]
+    },
+    {
+      "code": "CYPR",
+      "display": "Commercial Cyber and Privacy Liability",
+      "definition": "Coverage for cyber incidents, privacy breaches, and regulatory fines for businesses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cyber et protection de la vie privée commerciale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cibernética y privacidad comercial"
+        }
+      ]
+    },
+    {
+      "code": "MRNE",
+      "display": "Ocean Marine",
+      "definition": "Coverage for vessels, cargo, and maritime operations on navigable waters.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maritime"
+        },
+        {
+          "language": "es-MX",
+          "value": "Marina oceánica"
+        }
+      ]
+    },
+    {
+      "code": "MEML",
+      "display": "Medical Malpractice",
+      "definition": "Coverage for healthcare professionals against claims of negligent care or treatment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Faute professionnelle médicale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mala praxis médica"
+        }
+      ]
+    },
+    {
+      "code": "EQAK",
+      "display": "Earthquake",
+      "definition": "Coverage for earthquake damage to property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tremblement de terre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terremoto"
+        }
+      ]
+    },
+    {
+      "code": "FLOD",
+      "display": "Flood",
+      "definition": "Coverage for flood damage to property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inondation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inundación"
+        }
+      ]
+    },
+    {
+      "code": "POLU",
+      "display": "Pollution Liability",
+      "definition": "Coverage for environmental contamination and cleanup costs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité environnementale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad por contaminación"
+        }
+      ]
+    },
+    {
+      "code": "PROD",
+      "display": "Product Liability",
+      "definition": "Coverage for injuries or damages caused by defective products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité du fait des produits"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad de productos"
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

@@ -1,0 +1,477 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ItemDefinitionType",
+  "url": "https://bind.codes/ItemDefinitionType",
+  "name": "ItemDefinitionType",
+  "title": "Item Definition Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Item Definition Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "BTEQ",
+      "display": "Boat Equipment",
+      "definition": "Equipment and accessories specifically designed for use on boats, including navigation systems, safety gear, and marine electronics.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement pour bateaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo para embarcaciones"
+        }
+      ]
+    },
+    {
+      "code": "CMLK",
+      "display": "Combination Lock",
+      "definition": "A locking mechanism that opens using a sequence of numbers or symbols rather than a physical key.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Serrure à combinaison"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cerradura de combinación"
+        }
+      ]
+    },
+    {
+      "code": "CRAN",
+      "display": "Crane",
+      "definition": "Heavy lifting equipment used to move materials vertically and horizontally, typically mounted on a fixed base or mobile platform.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grúa"
+        }
+      ]
+    },
+    {
+      "code": "EDPE",
+      "display": "EDP Equipment",
+      "definition": "Electronic Data Processing equipment including computers, servers, storage devices, and related hardware for data handling and computation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement TED"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo PED"
+        }
+      ]
+    },
+    {
+      "code": "FRCP",
+      "display": "Fire Receptacle",
+      "definition": "A container or enclosure designed to hold materials safely in the event of fire or to contain combustible materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boîte à feu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Receptáculo contra incendios"
+        }
+      ]
+    },
+    {
+      "code": "HTUN",
+      "display": "Heating Unit",
+      "definition": "A device or system designed to generate and distribute heat within a space or building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chaufferette"
+        },
+        {
+          "language": "es-MX",
+          "value": "Unidad de calefacción"
+        }
+      ]
+    },
+    {
+      "code": "HLCP",
+      "display": "Helicopter",
+      "definition": "A rotary-wing aircraft capable of vertical takeoff and landing, used for transportation or specialized operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hélicoptère"
+        },
+        {
+          "language": "es-MX",
+          "value": "Helicóptero"
+        }
+      ]
+    },
+    {
+      "code": "HOIT",
+      "display": "Hoist",
+      "definition": "A mechanical device used to lift or lower loads using a drum or lift-wheel around which rope or chain wraps.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Appareil de levage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Polipasto"
+        }
+      ]
+    },
+    {
+      "code": "INCH",
+      "display": "Inner Chest",
+      "definition": "A secondary storage compartment or safe located within a larger vault or secure area, providing additional protection for valuables.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coffre-fort encastré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cofre interior"
+        }
+      ]
+    },
+    {
+      "code": "INDR",
+      "display": "Inner Door",
+      "definition": "A secondary door installed within a vault or safe, adding an extra layer of security to the protected space.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contre-porte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Puerta interior"
+        }
+      ]
+    },
+    {
+      "code": "IREQ",
+      "display": "Irrigation Equipment",
+      "definition": "Systems and devices used to supply water to agricultural land, gardens, or landscaped areas, including sprinklers, pipes, and pumps.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matériel d'irrigation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo de riego"
+        }
+      ]
+    },
+    {
+      "code": "KEYL",
+      "display": "Key Lock",
+      "definition": "A locking mechanism that requires a physical key to operate, using a pin tumbler or similar mechanism.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Verrou"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cerradura de llave"
+        }
+      ]
+    },
+    {
+      "code": "MAEQ",
+      "display": "Machinery And Equipment",
+      "definition": "Industrial or commercial machinery, tools, and equipment used in business operations or manufacturing processes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Machinerie et équipement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Maquinaria y equipo"
+        }
+      ]
+    },
+    {
+      "code": "MBHM",
+      "display": "Mobile Home",
+      "definition": "A prefabricated dwelling built on a chassis and designed to be transported to a site where it serves as a permanent or semi-permanent residence.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maison mobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casa móvil"
+        }
+      ]
+    },
+    {
+      "code": "MOTR",
+      "display": "Motor",
+      "definition": "A machine that converts electrical, fuel, or other energy into mechanical motion to power equipment or vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Moteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Motor"
+        }
+      ]
+    },
+    {
+      "code": "OTNK",
+      "display": "Oil Tank",
+      "definition": "A storage container for petroleum-based heating oil or lubricating oil, typically made of steel or fiberglass.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réservoir d'huile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tanque de aceite"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "An item type not categorized under other specific definitions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "PTAC",
+      "display": "Portable Accessories",
+      "definition": "Movable items and accessories that can be easily transported or relocated, such as tools, electronics, or personal belongings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accessoires portatifs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Accesorios portátiles"
+        }
+      ]
+    },
+    {
+      "code": "RELK",
+      "display": "Relocking Device",
+      "definition": "A security mechanism that automatically locks a safe or vault when tampering is detected, preventing unauthorized access.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dispositif de reverrouillage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dispositivo de rebloqueo"
+        }
+      ]
+    },
+    {
+      "code": "SAFE",
+      "display": "Safe",
+      "definition": "A secure lockable container designed to protect valuables, documents, or cash from theft, fire, or damage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coffre-fort"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caja fuerte"
+        }
+      ]
+    },
+    {
+      "code": "SCHP",
+      "display": "Scheduled Property",
+      "definition": "Individual items of high value that are specifically listed and described on a policy schedule, often requiring separate valuation and coverage limits.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Biens expressément assurés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propiedad programada"
+        }
+      ]
+    },
+    {
+      "code": "SHEL",
+      "display": "Shell",
+      "definition": "The outer casing or framework of a structure, equipment, or building, typically referring to the main structural envelope.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stator"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carcasa"
+        }
+      ]
+    },
+    {
+      "code": "STRC",
+      "display": "Structure",
+      "definition": "A building or constructed assembly designed for occupation, storage, or a specific purpose, including walls, roof, and foundation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Structure"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estructura"
+        }
+      ]
+    },
+    {
+      "code": "TMLK",
+      "display": "Time Lock",
+      "definition": "A locking mechanism that can only be opened after a predetermined time period has elapsed, commonly used in bank vaults.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Serrure à minuterie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cerradura temporizada"
+        }
+      ]
+    },
+    {
+      "code": "TLSP",
+      "display": "Tools And Supplies",
+      "definition": "Hand tools, power tools, consumable materials, and other supplies used in construction, maintenance, or business operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Outils"
+        },
+        {
+          "language": "es-MX",
+          "value": "Herramientas y suministros"
+        }
+      ]
+    },
+    {
+      "code": "TRLR",
+      "display": "Trailer",
+      "definition": "A wheeled vehicle designed to be towed by a motorized vehicle, used for transporting goods, equipment, or recreational purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque"
+        }
+      ]
+    },
+    {
+      "code": "VALT",
+      "display": "Vault",
+      "definition": "A reinforced secure room or compartment designed to protect valuables, typically constructed with thick walls, ceiling, and floor, and equipped with a heavy secure door.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voûte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bóveda"
+        }
+      ]
+    },
+    {
+      "code": "WTCR",
+      "display": "Watercraft",
+      "definition": "Any vessel or vehicle designed for navigation on water, including boats, personal watercraft, and other marine vessels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicules marins (bateau et autres)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Embarcación"
+        }
+      ]
+    },
+    {
+      "code": "GNRT",
+      "display": "Generator",
+      "definition": "A device that converts mechanical energy into electrical energy, typically used as a backup power source or for remote locations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Génératrice"
+        },
+        {
+          "language": "es-MX",
+          "value": "Generador"
+        }
+      ]
+    },
+    {
+      "code": "HVAC",
+      "display": "HVAC System",
+      "definition": "Heating, Ventilation, and Air Conditioning systems that control the temperature, humidity, and air quality of indoor environments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Système CVCA"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sistema HVAC"
+        }
+      ]
+    },
+    {
+      "code": "SOLP",
+      "display": "Solar Panel",
+      "definition": "Photovoltaic panels that convert sunlight into electricity for residential, commercial, or industrial use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Panneau solaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Panel solar"
+        }
+      ]
+    }
+  ]
+}

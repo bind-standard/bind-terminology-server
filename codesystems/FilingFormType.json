@@ -1,0 +1,146 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "FilingFormType",
+  "url": "https://bind.codes/FilingFormType",
+  "name": "FilingFormType",
+  "title": "Filing Form Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Filing Form Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "BMC34",
+      "display": "BMC34 - Cargo (Hauling of Household goods only)",
+      "definition": "Federal Motor Carrier Safety Administration form required for motor carriers transporting household goods, providing evidence of cargo liability coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "BMC34 - Marchandises (articles domestiques uniquement)"
+        },
+        {
+          "language": "es-MX",
+          "value": "BMC34 - Carga (transporte de artículos domésticos solamente)"
+        }
+      ]
+    },
+    {
+      "code": "BMC91",
+      "display": "BMC91x - Auto Liability",
+      "definition": "Federal Motor Carrier Safety Administration form series providing proof of motor vehicle liability coverage for commercial carriers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "BMC91x - Responsabilité civile automobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "BMC91x - Responsabilidad civil de automóviles"
+        }
+      ]
+    },
+    {
+      "code": "FRME",
+      "display": "Form E - Auto Liability",
+      "definition": "Standard commercial auto liability certificate form used to provide proof of coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire E - Responsabilité civile automobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Formulario E - Responsabilidad civil de automóviles"
+        }
+      ]
+    },
+    {
+      "code": "FRMH",
+      "display": "Form H - Cargo Liability",
+      "definition": "Standard cargo liability certificate form used to provide proof of coverage for transported goods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire H - Responsabilité civile cargaison"
+        },
+        {
+          "language": "es-MX",
+          "value": "Formulario H - Responsabilidad civil de carga"
+        }
+      ]
+    },
+    {
+      "code": "MCS90",
+      "display": "MCS90 - Endorsement attached to Liability/Cargo Liability policies",
+      "definition": "Federal endorsement form providing public liability coverage for motor carriers of property, required by the U.S. Department of Transportation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "MCS90 - Avenant annexé aux polices d'assurance en responsabilité civile ou de marchandises/cargaisons"
+        },
+        {
+          "language": "es-MX",
+          "value": "MCS90 - Endoso adjunto a pólizas de responsabilidad civil/responsabilidad de carga"
+        }
+      ]
+    },
+    {
+      "code": "OS32",
+      "display": "OS-32 - Ohio Endorsement",
+      "definition": "State-specific endorsement form required for commercial vehicles operating in Ohio.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "OS-32 - Avenant spécifique à l'état d'Ohio"
+        },
+        {
+          "language": "es-MX",
+          "value": "OS-32 - Endoso de Ohio"
+        }
+      ]
+    },
+    {
+      "code": "CA:NSPF",
+      "display": "CA:NSPF - NSC Policy Form",
+      "definition": "Canadian National Safety Code policy form required for interprovincial or international motor carrier operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "CA:NSPF - Formulaire de police CNS"
+        },
+        {
+          "language": "es-MX",
+          "value": "CA:NSPF - Formulario de póliza CNS"
+        }
+      ]
+    },
+    {
+      "code": "MCS82",
+      "display": "MCS82 - Notice of Cancellation",
+      "definition": "Federal form used to notify authorities of cancellation or termination of motor carrier liability coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "MCS82 - Avis d'annulation"
+        },
+        {
+          "language": "es-MX",
+          "value": "MCS82 - Aviso de cancelación"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

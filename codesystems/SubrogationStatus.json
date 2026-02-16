@@ -1,0 +1,57 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "SubrogationStatus",
+  "url": "https://bind.codes/SubrogationStatus",
+  "name": "SubrogationStatus",
+  "title": "Subrogation Status",
+  "status": "draft",
+  "language": "en",
+  "description": "Status of recovery efforts against a responsible third party after a claim has been paid.",
+  "concept": [
+    {
+      "code": "IDEN",
+      "display": "Identified",
+      "definition": "A potential recovery opportunity has been identified but pursuit has not yet begun.",
+      "designation": [
+        { "language": "fr-CA", "value": "Identifié" },
+        { "language": "es-MX", "value": "Identificado" }
+      ]
+    },
+    {
+      "code": "INPR",
+      "display": "In Progress",
+      "definition": "Recovery is actively being pursued through demand, negotiation, or litigation.",
+      "designation": [
+        { "language": "fr-CA", "value": "En cours" },
+        { "language": "es-MX", "value": "En progreso" }
+      ]
+    },
+    {
+      "code": "RCVD",
+      "display": "Recovered",
+      "definition": "Funds have been successfully recovered from the responsible party.",
+      "designation": [
+        { "language": "fr-CA", "value": "Recouvré" },
+        { "language": "es-MX", "value": "Recuperado" }
+      ]
+    },
+    {
+      "code": "ABND",
+      "display": "Abandoned",
+      "definition": "The recovery effort has been abandoned as not cost-effective or not feasible.",
+      "designation": [
+        { "language": "fr-CA", "value": "Abandonné" },
+        { "language": "es-MX", "value": "Abandonado" }
+      ]
+    },
+    {
+      "code": "DEND",
+      "display": "Denied by Third Party",
+      "definition": "The responsible third party has denied liability and refused to pay.",
+      "designation": [
+        { "language": "fr-CA", "value": "Refusé par le tiers" },
+        { "language": "es-MX", "value": "Negado por tercero" }
+      ]
+    }
+  ]
+}

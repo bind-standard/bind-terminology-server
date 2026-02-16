@@ -1,0 +1,282 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "EquipmentType",
+  "url": "https://bind.codes/EquipmentType",
+  "name": "EquipmentType",
+  "title": "Equipment Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Equipment Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "WAME",
+      "display": "Additional Miscellaneous Equipment (Watercraft Related)",
+      "definition": "Supplementary equipment items related to watercraft operation that are not classified as hull or motor components, such as navigation devices, safety gear, or fishing equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipements supplémentaires divers (bateaux)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo misceláneo adicional (relacionado con embarcaciones)"
+        }
+      ]
+    },
+    {
+      "code": "ATVH",
+      "display": "All Terrain Vehicle",
+      "definition": "Off-road motorized vehicles designed for travel on rough terrain, including four-wheelers and side-by-sides.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule tout terrain"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo todo terreno"
+        }
+      ]
+    },
+    {
+      "code": "COMP",
+      "display": "Computers",
+      "definition": "Electronic computing devices and systems, including desktops, laptops, and servers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ordinateurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Computadoras"
+        }
+      ]
+    },
+    {
+      "code": "FAXX",
+      "display": "Faxes",
+      "definition": "Facsimile transmission machines used for sending and receiving documents over telephone lines.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Télécopieurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Faxes"
+        }
+      ]
+    },
+    {
+      "code": "WHUL",
+      "display": "Watercraft Hull",
+      "definition": "The main structural body of a watercraft that provides buoyancy and contains interior spaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coque de bateau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casco de embarcación"
+        }
+      ]
+    },
+    {
+      "code": "MOTR",
+      "display": "Motor",
+      "definition": "Propulsion engines for watercraft, vehicles, or other equipment, including outboard, inboard, and electric motors.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Moteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Motor"
+        }
+      ]
+    },
+    {
+      "code": "RVEH",
+      "display": "Recreational Vehicle",
+      "definition": "Motor vehicles or trailers equipped with living quarters for accommodation during travel and camping, including motorhomes and fifth wheels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule récréatif"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo recreativo"
+        }
+      ]
+    },
+    {
+      "code": "SNMB",
+      "display": "Snow Mobile",
+      "definition": "Motorized vehicles designed for winter travel on snow and ice, featuring skis at the front and continuous tracks at the rear.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Motoneige"
+        },
+        {
+          "language": "es-MX",
+          "value": "Moto de nieve"
+        }
+      ]
+    },
+    {
+      "code": "SNTR",
+      "display": "Snow Trailer",
+      "definition": "Trailers specifically designed to transport snowmobiles from one location to another.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque pour motoneige"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque para motos de nieve"
+        }
+      ]
+    },
+    {
+      "code": "TRAT",
+      "display": "Travel Trailer Attachment",
+      "definition": "Hitching mechanisms, stabilizers, and other equipment used to connect and secure travel trailers to towing vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caravane - attache"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acoplamiento de remolque de viaje"
+        }
+      ]
+    },
+    {
+      "code": "TRCT",
+      "display": "Travel Trailer Contents",
+      "definition": "Personal property and furnishings contained within a travel trailer, including appliances, furniture, and personal belongings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caravane - contenu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contenido de remolque de viaje"
+        }
+      ]
+    },
+    {
+      "code": "TRVL",
+      "display": "Travel Trailer",
+      "definition": "Non-motorized towable recreational units designed for temporary living accommodation while traveling.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caravane"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque de viaje"
+        }
+      ]
+    },
+    {
+      "code": "TWRD",
+      "display": "Two-way Radios",
+      "definition": "Handheld or vehicle-mounted communication devices that can both transmit and receive voice messages on designated radio frequencies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Radios bidirectionnelles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Radios bidireccionales"
+        }
+      ]
+    },
+    {
+      "code": "UTIL",
+      "display": "Utility Trailer",
+      "definition": "Open or enclosed trailers used for hauling cargo, equipment, or materials for general purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque utilitaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque utilitario"
+        }
+      ]
+    },
+    {
+      "code": "WTRR",
+      "display": "Watercraft Trailer",
+      "definition": "Trailers specifically designed to transport boats and other watercraft on roadways.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque pour bateaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque para embarcaciones"
+        }
+      ]
+    },
+    {
+      "code": "GOLF",
+      "display": "Golf Cart",
+      "definition": "Small motorized vehicles designed for transporting golfers and their equipment on golf courses or for personal transportation in designated areas.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiturette de golf"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carrito de golf"
+        }
+      ]
+    },
+    {
+      "code": "TRCY",
+      "display": "Motorcycle",
+      "definition": "Two-wheeled or three-wheeled motorized vehicles designed for road travel.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Motocyclette"
+        },
+        {
+          "language": "es-MX",
+          "value": "Motocicleta"
+        }
+      ]
+    },
+    {
+      "code": "WSKI",
+      "display": "Personal Watercraft",
+      "definition": "Small motorized watercraft designed to be operated by a person sitting, standing, or kneeling on the vessel, such as jet skis.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Motomarine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Moto acuática"
+        }
+      ]
+    }
+  ]
+}

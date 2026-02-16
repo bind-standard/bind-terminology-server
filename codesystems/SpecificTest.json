@@ -1,0 +1,162 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "SpecificTest",
+  "url": "https://bind.codes/SpecificTest",
+  "name": "SpecificTest",
+  "title": "Specific Test",
+  "status": "draft",
+  "language": "en",
+  "description": "Specific Test codes for insurance operations.",
+  "concept": [
+    {
+      "code": "DIAB",
+      "display": "Diabetes",
+      "definition": "A medical test to check for diabetes, a metabolic disorder characterized by elevated blood glucose levels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Diabète"
+        },
+        {
+          "language": "es-MX",
+          "value": "Diabetes"
+        }
+      ]
+    },
+    {
+      "code": "DIAS",
+      "display": "Diastolic",
+      "definition": "Measurement of diastolic blood pressure, the pressure in arteries when the heart rests between beats.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Diastolique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Diastólica"
+        }
+      ]
+    },
+    {
+      "code": "EYEX",
+      "display": "Eye",
+      "definition": "Vision and eye health examination.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Yeux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ojos"
+        }
+      ]
+    },
+    {
+      "code": "HEAR",
+      "display": "Hearing",
+      "definition": "Auditory function test to assess hearing ability.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Audition"
+        },
+        {
+          "language": "es-MX",
+          "value": "Audición"
+        }
+      ]
+    },
+    {
+      "code": "HRAT",
+      "display": "Heart Attack",
+      "definition": "Assessment for past heart attack or myocardial infarction history.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Crise cardiaque"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ataque cardíaco"
+        }
+      ]
+    },
+    {
+      "code": "JSAF",
+      "display": "Job Safety",
+      "definition": "Evaluation of workplace safety practices and protocols.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sécurité du travail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguridad laboral"
+        }
+      ]
+    },
+    {
+      "code": "PHYS",
+      "display": "Physical",
+      "definition": "Comprehensive physical examination to assess overall health status.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Examen médical"
+        },
+        {
+          "language": "es-MX",
+          "value": "Examen físico"
+        }
+      ]
+    },
+    {
+      "code": "SYST",
+      "display": "Systolic",
+      "definition": "Measurement of systolic blood pressure, the pressure in arteries when the heart beats.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Systolique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sistólica"
+        }
+      ]
+    },
+    {
+      "code": "TSAF",
+      "display": "Traffic Safety",
+      "definition": "Examination related to road safety compliance and driving ability.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sécurité routière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguridad vial"
+        }
+      ]
+    },
+    {
+      "code": "WSAF",
+      "display": "Workplace Safety",
+      "definition": "Assessment of workplace safety conditions and employee safety practices.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sécurité au travail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguridad en el lugar de trabajo"
+        }
+      ]
+    }
+  ]
+}

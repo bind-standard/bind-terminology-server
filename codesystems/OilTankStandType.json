@@ -1,0 +1,130 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "OilTankStandType",
+  "url": "https://bind.codes/OilTankStandType",
+  "name": "OilTankStandType",
+  "title": "Oil Tank Stand Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Oil Tank Stand Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "NONE",
+      "display": "None",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "MMCR",
+      "display": "Manufacturer's Metal Cradle",
+      "definition": "A factory-made metal cradle designed specifically for supporting an oil tank.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Berceau en métal du fabricant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cuna de metal del fabricante"
+        }
+      ]
+    },
+    {
+      "code": "METL",
+      "display": "Metal",
+      "definition": "A metal support structure for an oil tank, which may be custom-built or non-manufacturer specified.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Métal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Metal"
+        }
+      ]
+    },
+    {
+      "code": "WOOD",
+      "display": "Wood",
+      "definition": "A wooden support structure for an oil tank.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Madera"
+        }
+      ]
+    },
+    {
+      "code": "MTWD",
+      "display": "Metal-Wood",
+      "definition": "A hybrid support structure combining both metal and wooden components for supporting an oil tank.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Métal-bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Metal-madera"
+        }
+      ]
+    },
+    {
+      "code": "CONC",
+      "display": "Concrete",
+      "definition": "A concrete support structure or pad for an oil tank.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hormigón"
+        }
+      ]
+    },
+    {
+      "code": "BRCK",
+      "display": "Brick",
+      "definition": "A brick or masonry support structure for an oil tank.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Brique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ladrillo"
+        }
+      ]
+    }
+  ]
+}

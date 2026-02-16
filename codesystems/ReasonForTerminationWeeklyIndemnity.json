@@ -1,0 +1,132 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ReasonForTerminationWeeklyIndemnity",
+  "url": "https://bind.codes/ReasonForTerminationWeeklyIndemnity",
+  "name": "ReasonForTerminationWeeklyIndemnity",
+  "title": "Reason For Termination Weekly Indemnity",
+  "status": "draft",
+  "language": "en",
+  "description": "Reason For Termination Weekly Indemnity codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CLRC",
+      "display": "Claimant Recovery",
+      "definition": "The claimant has recovered from their disability and is able to return to work or normal activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rétablissement du demandeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Recuperación del reclamante"
+        }
+      ]
+    },
+    {
+      "code": "LSPM",
+      "display": "Lump Sum Payment",
+      "definition": "Benefits were terminated following a one-time lump sum settlement payment to the claimant.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Paiement forfaitaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pago de suma global"
+        }
+      ]
+    },
+    {
+      "code": "DRSL",
+      "display": "Dispute Resolution",
+      "definition": "Benefits ended as a result of a dispute resolution process or settlement agreement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résolution de conflit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Resolución de disputas"
+        }
+      ]
+    },
+    {
+      "code": "EXBN",
+      "display": "Expiry of Benefits",
+      "definition": "The maximum benefit period has been reached according to the policy terms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Expiration des prestations"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vencimiento de beneficios"
+        }
+      ]
+    },
+    {
+      "code": "CLDT",
+      "display": "Death of Claimant",
+      "definition": "The claimant has deceased.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Décès du demandeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fallecimiento del reclamante"
+        }
+      ]
+    },
+    {
+      "code": "RTWK",
+      "display": "Return to Work",
+      "definition": "The claimant has returned to employment, either with the same or a different employer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Retour au travail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Regreso al trabajo"
+        }
+      ]
+    },
+    {
+      "code": "NPPY",
+      "display": "Non-Payment of Premium",
+      "definition": "Benefits terminated due to policy cancellation from non-payment of premiums.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non-paiement de la prime"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falta de pago de prima"
+        }
+      ]
+    },
+    {
+      "code": "CLRQ",
+      "display": "Claimant Request",
+      "definition": "The claimant voluntarily requested termination of their weekly indemnity benefits.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Demande du réclamant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Solicitud del reclamante"
+        }
+      ]
+    }
+  ]
+}

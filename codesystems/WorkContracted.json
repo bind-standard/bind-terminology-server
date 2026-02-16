@@ -1,0 +1,102 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "WorkContracted",
+  "url": "https://bind.codes/WorkContracted",
+  "name": "WorkContracted",
+  "title": "Work Contracted",
+  "status": "draft",
+  "language": "en",
+  "description": "Work Contracted codes for insurance operations.",
+  "concept": [
+    {
+      "code": "RSDL",
+      "display": "Residential",
+      "definition": "Construction work involving single-family homes, townhouses, apartments, and other dwelling units.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résidentiel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Residencial"
+        }
+      ]
+    },
+    {
+      "code": "COML",
+      "display": "Commercial",
+      "definition": "Construction work involving office buildings, retail stores, hotels, restaurants, and other business establishments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commercial"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comercial"
+        }
+      ]
+    },
+    {
+      "code": "HIND",
+      "display": "Heavy Industrial",
+      "definition": "Construction work involving manufacturing plants, refineries, power stations, and large-scale production facilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Industriel lourd"
+        },
+        {
+          "language": "es-MX",
+          "value": "Industrial pesado"
+        }
+      ]
+    },
+    {
+      "code": "LIND",
+      "display": "Light Industrial",
+      "definition": "Construction work involving warehouses, distribution centers, and smaller manufacturing facilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Industriel léger"
+        },
+        {
+          "language": "es-MX",
+          "value": "Industrial ligero"
+        }
+      ]
+    },
+    {
+      "code": "INST",
+      "display": "Institutional",
+      "definition": "Construction work involving schools, hospitals, government buildings, and other public institutions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Institutionnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Institucional"
+        }
+      ]
+    },
+    {
+      "code": "CIVL",
+      "display": "Civil Infrastructure",
+      "definition": "Construction work involving roads, bridges, tunnels, dams, and other public infrastructure projects.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infrastructure civile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Infraestructura civil"
+        }
+      ]
+    }
+  ]
+}

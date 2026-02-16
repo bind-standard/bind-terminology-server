@@ -1,0 +1,117 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "StructureCondition",
+  "url": "https://bind.codes/StructureCondition",
+  "name": "StructureCondition",
+  "title": "Structure Condition",
+  "status": "draft",
+  "language": "en",
+  "description": "Structure Condition codes for insurance operations.",
+  "concept": [
+    {
+      "code": "EXCL",
+      "display": "Excellent",
+      "definition": "Building or structure is in pristine or near-new condition with no visible defects or deterioration",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Excellent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Excelente"
+        }
+      ]
+    },
+    {
+      "code": "VGOD",
+      "display": "Very good",
+      "definition": "Building or structure shows minimal wear with only minor cosmetic issues and is well-maintained",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Très bon"
+        },
+        {
+          "language": "es-MX",
+          "value": "Muy bueno"
+        }
+      ]
+    },
+    {
+      "code": "GOOD",
+      "display": "Good",
+      "definition": "Building or structure is properly maintained with normal wear appropriate to its age but no significant defects",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bon"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bueno"
+        }
+      ]
+    },
+    {
+      "code": "AVRG",
+      "display": "Average",
+      "definition": "Building or structure shows moderate wear and some deferred maintenance but remains functional and structurally sound",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Moyen"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promedio"
+        }
+      ]
+    },
+    {
+      "code": "FAIR",
+      "display": "Fair",
+      "definition": "Building or structure shows considerable wear with visible deterioration requiring attention, though still habitable or usable",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Passable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Regular"
+        }
+      ]
+    },
+    {
+      "code": "POOR",
+      "display": "Poor",
+      "definition": "Building or structure has significant deterioration, structural issues, or extensive deferred maintenance requiring major repairs",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Médiocre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pobre"
+        }
+      ]
+    },
+    {
+      "code": "DISR",
+      "display": "Disrepair",
+      "definition": "Building or structure is severely deteriorated or partially collapsed with major structural failures",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Délabré"
+        },
+        {
+          "language": "es-MX",
+          "value": "En mal estado"
+        }
+      ]
+    }
+  ]
+}

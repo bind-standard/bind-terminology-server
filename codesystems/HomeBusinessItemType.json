@@ -1,0 +1,147 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "HomeBusinessItemType",
+  "url": "https://bind.codes/HomeBusinessItemType",
+  "name": "HomeBusinessItemType",
+  "title": "Home Business Item Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Home Business Item Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CHLD",
+      "display": "Children",
+      "definition": "Children under care or supervision in a home-based childcare or daycare operation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Enfants"
+        },
+        {
+          "language": "es-MX",
+          "value": "Niños"
+        }
+      ]
+    },
+    {
+      "code": "CHAR",
+      "display": "Chairs",
+      "definition": "Seating units provided in a home-based salon, barbershop, or similar service business.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chaises"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sillas"
+        }
+      ]
+    },
+    {
+      "code": "GUST",
+      "display": "Guests",
+      "definition": "Paying guests or lodgers in a home-based bed and breakfast or boarding operation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Invités"
+        },
+        {
+          "language": "es-MX",
+          "value": "Huéspedes"
+        }
+      ]
+    },
+    {
+      "code": "KENL",
+      "display": "Kennels",
+      "definition": "Animal housing units in a home-based pet boarding or kennel operation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chenils"
+        },
+        {
+          "language": "es-MX",
+          "value": "Perreras"
+        }
+      ]
+    },
+    {
+      "code": "ROOM",
+      "display": "Rooms",
+      "definition": "Individual rooms rented or available for lodging in a home-based accommodation business.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Salles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Habitaciones"
+        }
+      ]
+    },
+    {
+      "code": "STUD",
+      "display": "Students",
+      "definition": "Students enrolled in a home-based tutoring, music lessons, or educational service.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Étudiants"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estudiantes"
+        }
+      ]
+    },
+    {
+      "code": "STYL",
+      "display": "Stylists",
+      "definition": "Professional stylists operating from a home-based salon or beauty service business.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stylistes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estilistas"
+        }
+      ]
+    },
+    {
+      "code": "TBLE",
+      "display": "Tables",
+      "definition": "Workstations or service tables in a home-based massage, esthetics, or treatment business.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tables"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mesas"
+        }
+      ]
+    },
+    {
+      "code": "ANIM",
+      "display": "Animals",
+      "definition": "Animals under care in a home-based pet sitting, grooming, or training business.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Animaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Animales"
+        }
+      ]
+    }
+  ]
+}

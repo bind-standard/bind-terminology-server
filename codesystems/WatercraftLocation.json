@@ -1,0 +1,146 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "WatercraftLocation",
+  "url": "https://bind.codes/WatercraftLocation",
+  "name": "WatercraftLocation",
+  "title": "Watercraft Location",
+  "status": "draft",
+  "language": "en",
+  "description": "Watercraft Location codes for insurance operations.",
+  "concept": [
+    {
+      "code": "MRNA",
+      "display": "Marina",
+      "definition": "A commercial facility that provides docking, storage, and services for boats and watercraft.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marina"
+        },
+        {
+          "language": "es-MX",
+          "value": "Marina"
+        }
+      ]
+    },
+    {
+      "code": "PVDK",
+      "display": "Private Dock",
+      "definition": "A privately owned docking structure for watercraft mooring.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Quai privé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Muelle privado"
+        }
+      ]
+    },
+    {
+      "code": "PBDK",
+      "display": "Public Dock",
+      "definition": "A publicly accessible docking structure for watercraft mooring.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Quai public"
+        },
+        {
+          "language": "es-MX",
+          "value": "Muelle público"
+        }
+      ]
+    },
+    {
+      "code": "IADR",
+      "display": "Insured's Address",
+      "definition": "The watercraft is stored at the policyholder's residential address.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adresse de l'assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dirección del asegurado"
+        }
+      ]
+    },
+    {
+      "code": "OBTH",
+      "display": "Owner's Boathouse",
+      "definition": "A structure owned by the policyholder specifically designed for storing and protecting watercraft.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Abri à bateaux du propriétaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cobertizo de botes del propietario"
+        }
+      ]
+    },
+    {
+      "code": "DRYS",
+      "display": "Dry Storage Facility",
+      "definition": "A commercial or private facility where watercraft are stored out of the water on racks or trailers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entreposage à sec"
+        },
+        {
+          "language": "es-MX",
+          "value": "Almacenamiento en seco"
+        }
+      ]
+    },
+    {
+      "code": "MOOR",
+      "display": "Moored in Water",
+      "definition": "The watercraft is permanently or semi-permanently anchored in a body of water.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Amarré dans l'eau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Amarrado en el agua"
+        }
+      ]
+    },
+    {
+      "code": "TRLR",
+      "display": "On Trailer",
+      "definition": "The watercraft is stored on a trailer, typically at a residence or storage yard.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sur remorque"
+        },
+        {
+          "language": "es-MX",
+          "value": "En remolque"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Conveyance",
+  "url": "https://bind.codes/Conveyance",
+  "name": "Conveyance",
+  "title": "Conveyance",
+  "status": "draft",
+  "language": "en",
+  "description": "Conveyance codes for insurance operations.",
+  "concept": [
+    {
+      "code": "MARI",
+      "display": "Maritime",
+      "definition": "Transportation by sea or ocean vessels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maritime"
+        },
+        {
+          "language": "es-MX",
+          "value": "Marítimo"
+        }
+      ]
+    },
+    {
+      "code": "RAIL",
+      "display": "Rail Carrier",
+      "definition": "Transportation by railway or train systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transporteur ferroviaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transportador ferroviario"
+        }
+      ]
+    },
+    {
+      "code": "ROAD",
+      "display": "Road",
+      "definition": "Transportation by road vehicles on highways, streets, or paved surfaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Routier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carretera"
+        }
+      ]
+    },
+    {
+      "code": "AIRR",
+      "display": "Air Carrier",
+      "definition": "Transportation by aircraft through the air.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transporteur aérien"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transportador aéreo"
+        }
+      ]
+    },
+    {
+      "code": "MAIL",
+      "display": "Mail",
+      "definition": "Transportation through postal or courier services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courrier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Correo"
+        }
+      ]
+    },
+    {
+      "code": "MULT",
+      "display": "Multimodal",
+      "definition": "Transportation using multiple modes of transport in combination.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Multimodal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Multimodal"
+        }
+      ]
+    },
+    {
+      "code": "FIXT",
+      "display": "Fixed Transport Installation",
+      "definition": "Transportation through stationary infrastructure such as pipelines or conveyor systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Installation de transport fixe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instalación de transporte fija"
+        }
+      ]
+    },
+    {
+      "code": "INLD",
+      "display": "Inland Water",
+      "definition": "Transportation by vessels on rivers, canals, or lakes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Navigation fluviale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Navegación fluvial"
+        }
+      ]
+    },
+    {
+      "code": "SPCE",
+      "display": "Space",
+      "definition": "Transportation beyond Earth's atmosphere using spacecraft or rockets.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Espace"
+        },
+        {
+          "language": "es-MX",
+          "value": "Espacio"
+        }
+      ]
+    },
+    {
+      "code": "HORS",
+      "display": "Horse",
+      "definition": "Transportation by horse or equine animals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cheval"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caballo"
+        }
+      ]
+    },
+    {
+      "code": "FOOT",
+      "display": "On Foot",
+      "definition": "Transportation by walking or pedestrian movement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À pied"
+        },
+        {
+          "language": "es-MX",
+          "value": "A pie"
+        }
+      ]
+    },
+    {
+      "code": "TRCK",
+      "display": "Truck",
+      "definition": "Transportation by large motor vehicles designed for carrying cargo.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camión"
+        }
+      ]
+    },
+    {
+      "code": "ARMV",
+      "display": "Armoured Vehicle",
+      "definition": "Transportation by reinforced security vehicles designed to protect valuable cargo.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule blindé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo blindado"
+        }
+      ]
+    },
+    {
+      "code": "AUTO",
+      "display": "Automobile",
+      "definition": "Transportation by passenger car or personal vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Automobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Automóvil"
+        }
+      ]
+    },
+    {
+      "code": "CYCL",
+      "display": "Cycle",
+      "definition": "Transportation by bicycle, motorcycle, or other two-wheeled vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cycle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ciclo"
+        }
+      ]
+    },
+    {
+      "code": "COMC",
+      "display": "Common Carrier",
+      "definition": "Transportation service available to the general public that serves all customers on regular routes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transporteur public"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transportador público"
+        }
+      ]
+    },
+    {
+      "code": "CONC",
+      "display": "Contract Carrier",
+      "definition": "Transportation service operating under specific contracts with individual customers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transporteur contractuel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transportador contractual"
+        }
+      ]
+    },
+    {
+      "code": "OWNV",
+      "display": "Owned Vehicle",
+      "definition": "Transportation using a vehicle owned by the party transporting the goods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule appartenant à l'assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo propio"
+        }
+      ]
+    },
+    {
+      "code": "VSSL",
+      "display": "Vessel",
+      "definition": "Transportation by watercraft of any size for maritime or inland water transport.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Navire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Embarcación"
+        }
+      ]
+    },
+    {
+      "code": "DRNE",
+      "display": "Drone",
+      "definition": "Transportation by unmanned aerial vehicle operated remotely or autonomously.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Drone"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dron"
+        }
+      ]
+    },
+    {
+      "code": "UNKM",
+      "display": "Mode Unknown",
+      "definition": "Method of transportation is not known or has not been specified.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mode inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Modo desconocido"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None",
+      "definition": "No transportation or conveyance method applies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Transportation method not covered by other defined categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

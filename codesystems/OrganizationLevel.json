@@ -1,0 +1,66 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "OrganizationLevel",
+  "url": "https://bind.codes/OrganizationLevel",
+  "name": "OrganizationLevel",
+  "title": "Organization Level",
+  "status": "draft",
+  "language": "en",
+  "description": "Hierarchical level of an entity within a corporate structure.",
+  "concept": [
+    {
+      "code": "LGNT",
+      "display": "Legal Entity",
+      "definition": "A distinct legal body — the level at which policies are issued and regulatory filings are made.",
+      "designation": [
+        { "language": "fr-CA", "value": "Entité juridique" },
+        { "language": "es-MX", "value": "Entidad legal" }
+      ]
+    },
+    {
+      "code": "OPCO",
+      "display": "Operating Company",
+      "definition": "A company that conducts day-to-day business operations, which may or may not coincide with the legal entity.",
+      "designation": [
+        { "language": "fr-CA", "value": "Société d'exploitation" },
+        { "language": "es-MX", "value": "Compañía operadora" }
+      ]
+    },
+    {
+      "code": "GRPX",
+      "display": "Group",
+      "definition": "A collection of affiliated legal entities managed together, often sharing financials and operations.",
+      "designation": [
+        { "language": "fr-CA", "value": "Groupe" },
+        { "language": "es-MX", "value": "Grupo" }
+      ]
+    },
+    {
+      "code": "HLDC",
+      "display": "Holding Company",
+      "definition": "A parent entity whose primary purpose is to own shares in subsidiary companies.",
+      "designation": [
+        { "language": "fr-CA", "value": "Société de portefeuille" },
+        { "language": "es-MX", "value": "Empresa controladora" }
+      ]
+    },
+    {
+      "code": "SUBS",
+      "display": "Subsidiary",
+      "definition": "A company controlled by another entity through majority ownership.",
+      "designation": [
+        { "language": "fr-CA", "value": "Filiale" },
+        { "language": "es-MX", "value": "Subsidiaria" }
+      ]
+    },
+    {
+      "code": "DIVS",
+      "display": "Division",
+      "definition": "An internal operating unit within a legal entity, not separately incorporated.",
+      "designation": [
+        { "language": "fr-CA", "value": "Division" },
+        { "language": "es-MX", "value": "División" }
+      ]
+    }
+  ]
+}

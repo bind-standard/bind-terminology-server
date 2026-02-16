@@ -1,0 +1,162 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "HullMaterialType",
+  "url": "https://bind.codes/HullMaterialType",
+  "name": "HullMaterialType",
+  "title": "Hull Material Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Hull Material Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "WOOD",
+      "display": "Wood",
+      "definition": "A natural organic material derived from trees and plants, used in traditional boat construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Madera"
+        }
+      ]
+    },
+    {
+      "code": "FBGL",
+      "display": "Fibreglass",
+      "definition": "A composite material made of glass fibers embedded in resin, commonly used in modern recreational watercraft.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fibre de verre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fibra de vidrio"
+        }
+      ]
+    },
+    {
+      "code": "STHL",
+      "display": "Steel",
+      "definition": "An iron-based metal alloy known for strength and durability, often used in larger vessels and commercial boats.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acero"
+        }
+      ]
+    },
+    {
+      "code": "ALUM",
+      "display": "Aluminum",
+      "definition": "A lightweight corrosion-resistant metal commonly used in fishing boats, pontoons, and performance watercraft.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aluminium"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aluminio"
+        }
+      ]
+    },
+    {
+      "code": "FRCM",
+      "display": "Ferrocement",
+      "definition": "A construction method using wire mesh and cement mortar, historically used in custom boat building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ferrociment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ferrocemento"
+        }
+      ]
+    },
+    {
+      "code": "MNQE",
+      "display": "Monocoque",
+      "definition": "A single-piece structural hull design that distributes stress throughout the entire body rather than using a separate frame.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Monocoque"
+        },
+        {
+          "language": "es-MX",
+          "value": "Monocasco"
+        }
+      ]
+    },
+    {
+      "code": "CRBF",
+      "display": "Carbon Fiber",
+      "definition": "A high-performance composite material consisting of carbon strands woven together and bonded with resin, used in racing and high-end vessels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fibre de carbone"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fibra de carbono"
+        }
+      ]
+    },
+    {
+      "code": "INFL",
+      "display": "Inflatable",
+      "definition": "A flexible material construction, typically reinforced rubber or PVC fabric, that requires inflation with air for structural integrity.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gonflable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inflable"
+        }
+      ]
+    },
+    {
+      "code": "PLYW",
+      "display": "Plywood",
+      "definition": "Engineered wood product made from thin layers of wood veneer glued together, often used with epoxy resin in boat construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contreplaqué"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contrachapado"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Hull material not categorized in the standard classifications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

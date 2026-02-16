@@ -1,0 +1,42 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CancelEvidenceObtained",
+  "url": "https://bind.codes/CancelEvidenceObtained",
+  "name": "CancelEvidenceObtained",
+  "title": "Cancel Evidence Obtained",
+  "status": "draft",
+  "language": "en",
+  "description": "Cancel Evidence Obtained codes for insurance operations.",
+  "concept": [
+    {
+      "code": "NOPT",
+      "display": "Policy/Voucher Not Obtained",
+      "definition": "The cancellation evidence document or proof of alternative coverage was not obtained.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police/pièce justificative non obtenue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Póliza/comprobante no obtenido"
+        }
+      ]
+    },
+    {
+      "code": "POBT",
+      "display": "Policy/Voucher Obtained",
+      "definition": "The cancellation evidence document or proof of alternative coverage was obtained.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police/pièce justificative obtenue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Póliza/comprobante obtenido"
+        }
+      ]
+    }
+  ]
+}

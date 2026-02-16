@@ -1,0 +1,72 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ClaimPaidBack",
+  "url": "https://bind.codes/ClaimPaidBack",
+  "name": "ClaimPaidBack",
+  "title": "Claim Paid Back",
+  "status": "draft",
+  "language": "en",
+  "description": "Claim Paid Back codes for insurance operations.",
+  "concept": [
+    {
+      "code": "NPBP",
+      "display": "Not Paid Back - Pending",
+      "definition": "A claim payment that has not yet been returned to the payer and is awaiting resolution or processing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non remboursé - En instance"
+        },
+        {
+          "language": "es-MX",
+          "value": "No reembolsado - Pendiente"
+        }
+      ]
+    },
+    {
+      "code": "PBWL",
+      "display": "Paid Back within Legislated Period",
+      "definition": "A claim payment that was returned to the payer within the timeframe mandated by law or regulation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remboursé à l'intérieur de la période prescrite par la loi"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reembolsado dentro del período legislado"
+        }
+      ]
+    },
+    {
+      "code": "PBAL",
+      "display": "Paid Back after Legislated Period",
+      "definition": "A claim payment that was returned to the payer after the timeframe mandated by law or regulation had expired.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remboursé après la période prescrite par la loi"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reembolsado después del período legislado"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "A claim payment status that does not fit into the standard categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

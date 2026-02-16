@@ -1,0 +1,252 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "DriverRelatesTo",
+  "url": "https://bind.codes/DriverRelatesTo",
+  "name": "DriverRelatesTo",
+  "title": "Driver Relates To",
+  "status": "draft",
+  "language": "en",
+  "description": "Driver Relates To codes for insurance operations.",
+  "concept": [
+    {
+      "code": "PSSX",
+      "display": "Partner, Same-sex",
+      "definition": "A person in a same-sex domestic partnership relationship with the policyholder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Partenaire de même sexe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pareja del mismo sexo"
+        }
+      ]
+    },
+    {
+      "code": "CLSP",
+      "display": "Common Law Spouse",
+      "definition": "A person in a common-law spousal relationship with the policyholder, recognized without formal marriage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conjoint de fait"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pareja de hecho"
+        }
+      ]
+    },
+    {
+      "code": "SIBL",
+      "display": "Brother/Sister",
+      "definition": "A sibling of the policyholder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frère/sœur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hermano/hermana"
+        }
+      ]
+    },
+    {
+      "code": "CHLD",
+      "display": "Child",
+      "definition": "A son or daughter of the policyholder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Enfant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hijo/hija"
+        }
+      ]
+    },
+    {
+      "code": "EMPL",
+      "display": "Employee",
+      "definition": "A person employed by the policyholder or business entity.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empleado"
+        }
+      ]
+    },
+    {
+      "code": "COHB",
+      "display": "Co-habitant",
+      "definition": "A person living at the same residence as the policyholder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cohabitant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cohabitante"
+        }
+      ]
+    },
+    {
+      "code": "INSD",
+      "display": "Insured",
+      "definition": "The named insured or policyholder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asegurado"
+        }
+      ]
+    },
+    {
+      "code": "LESE",
+      "display": "Lessee",
+      "definition": "A person leasing a vehicle from the policyholder or another party.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Locataire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arrendatario"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "A relationship not covered by other specific categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "PRNT",
+      "display": "Parent",
+      "definition": "A father or mother of the policyholder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Parent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Padre/madre"
+        }
+      ]
+    },
+    {
+      "code": "RLAT",
+      "display": "Other Relative",
+      "definition": "A family member not classified as spouse, parent, child, or sibling.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre parent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro familiar"
+        }
+      ]
+    },
+    {
+      "code": "SPOU",
+      "display": "Spouse",
+      "definition": "A legally married partner of the policyholder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Époux/épouse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cónyuge"
+        }
+      ]
+    },
+    {
+      "code": "THRD",
+      "display": "Third Party",
+      "definition": "A person not affiliated with the policyholder or insured party.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tercero"
+        }
+      ]
+    },
+    {
+      "code": "GRCH",
+      "display": "Grandchild",
+      "definition": "A child of the policyholder's son or daughter.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Petit-enfant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nieto/nieta"
+        }
+      ]
+    },
+    {
+      "code": "GRPR",
+      "display": "Grandparent",
+      "definition": "A parent of the policyholder's father or mother.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grand-parent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Abuelo/abuela"
+        }
+      ]
+    },
+    {
+      "code": "FRND",
+      "display": "Friend",
+      "definition": "A non-family member with a personal relationship to the policyholder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ami"
+        },
+        {
+          "language": "es-MX",
+          "value": "Amigo"
+        }
+      ]
+    }
+  ]
+}

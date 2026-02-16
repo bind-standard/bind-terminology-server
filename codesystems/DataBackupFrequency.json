@@ -1,0 +1,147 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "DataBackupFrequency",
+  "url": "https://bind.codes/DataBackupFrequency",
+  "name": "DataBackupFrequency",
+  "title": "Data Backup Frequency",
+  "status": "draft",
+  "language": "en",
+  "description": "Data Backup Frequency codes for insurance operations.",
+  "concept": [
+    {
+      "code": "DALY",
+      "display": "At least daily",
+      "definition": "Data backups performed at least once per day.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Au moins une fois par jour"
+        },
+        {
+          "language": "es-MX",
+          "value": "Al menos diariamente"
+        }
+      ]
+    },
+    {
+      "code": "WKLY",
+      "display": "Weekly",
+      "definition": "Data backups performed once per week.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Une fois par semaine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Semanalmente"
+        }
+      ]
+    },
+    {
+      "code": "BIWK",
+      "display": "Bi-Weekly",
+      "definition": "Data backups performed every two weeks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aux deux semaines"
+        },
+        {
+          "language": "es-MX",
+          "value": "Quincenal"
+        }
+      ]
+    },
+    {
+      "code": "MNLY",
+      "display": "Monthly",
+      "definition": "Data backups performed once per month.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Une fois par mois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mensualmente"
+        }
+      ]
+    },
+    {
+      "code": "QRLY",
+      "display": "Quarterly",
+      "definition": "Data backups performed once every three months.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trimestriellement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trimestralmente"
+        }
+      ]
+    },
+    {
+      "code": "INFR",
+      "display": "Infrequently",
+      "definition": "Data backups performed irregularly or less than quarterly.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rarement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Infrecuentemente"
+        }
+      ]
+    },
+    {
+      "code": "NEVR",
+      "display": "Never",
+      "definition": "Data backups are not performed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Jamais"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nunca"
+        }
+      ]
+    },
+    {
+      "code": "CNTN",
+      "display": "Continuous",
+      "definition": "Data backups performed continuously or in real-time.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En continu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Continuo"
+        }
+      ]
+    },
+    {
+      "code": "HRLY",
+      "display": "Hourly",
+      "definition": "Data backups performed every hour.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toutes les heures"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cada hora"
+        }
+      ]
+    }
+  ]
+}

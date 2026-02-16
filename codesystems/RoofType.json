@@ -1,0 +1,191 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "RoofType",
+  "url": "https://bind.codes/RoofType",
+  "name": "RoofType",
+  "title": "Roof Type",
+  "status": "draft",
+  "description": "Roof material types for property insurance underwriting.",
+  "concept": [
+    {
+      "code": "ASPH",
+      "display": "Asphalt Shingle",
+      "definition": "Roofing composed of overlapping shingles made from asphalt-saturated fiberglass or organic mat, coated with mineral granules.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bardeau d'asphalte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Teja de asfalto"
+        }
+      ]
+    },
+    {
+      "code": "METL",
+      "display": "Metal",
+      "definition": "Roofing system made of metal panels or tiles, including standing seam, corrugated, or metal shingle configurations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Métal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Metal"
+        }
+      ]
+    },
+    {
+      "code": "TILE",
+      "display": "Tile",
+      "definition": "Roofing tiles made from ceramic or porcelain materials, typically interlocking and providing durable weather protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tuile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Teja"
+        }
+      ]
+    },
+    {
+      "code": "SLAT",
+      "display": "Slate",
+      "definition": "Roofing constructed from natural slate stone quarried and cut into overlapping tiles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ardoise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pizarra"
+        }
+      ]
+    },
+    {
+      "code": "WDSH",
+      "display": "Wood Shake",
+      "definition": "Roofing made from split wood sections (shakes) or sawn wood pieces (shingles), typically cedar or redwood.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bardeau de bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Teja de madera"
+        }
+      ]
+    },
+    {
+      "code": "FLAT",
+      "display": "Flat Membrane",
+      "definition": "Low-slope or flat roof system using synthetic rubber or thermoplastic membranes such as TPO, EPDM, or PVC.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Membrane plate"
+        },
+        {
+          "language": "es-MX",
+          "value": "Membrana plana"
+        }
+      ]
+    },
+    {
+      "code": "CONC",
+      "display": "Concrete",
+      "definition": "Roofing system using poured concrete or precast concrete panels as the primary structural and weather-resistant surface.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Concreto"
+        }
+      ]
+    },
+    {
+      "code": "CLAY",
+      "display": "Clay Tile",
+      "definition": "Traditional roofing tiles made from fired clay, often barrel or S-shaped, providing long-lasting weather protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tuile d'argile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Teja de arcilla"
+        }
+      ]
+    },
+    {
+      "code": "SYNT",
+      "display": "Synthetic",
+      "definition": "Roofing materials manufactured from synthetic polymers designed to mimic traditional roofing materials while offering enhanced durability.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Synthétique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sintético"
+        }
+      ]
+    },
+    {
+      "code": "BUPR",
+      "display": "Built-Up Roofing",
+      "definition": "Multi-layer roofing system consisting of alternating layers of bitumen and reinforcing fabrics, typically topped with gravel or a cap sheet.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toiture multicouche"
+        },
+        {
+          "language": "es-MX",
+          "value": "Techo multicapa"
+        }
+      ]
+    },
+    {
+      "code": "GRSL",
+      "display": "Green/Living Roof",
+      "definition": "Roof system partially or completely covered with vegetation and growing medium, planted over a waterproofing membrane.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toit vert"
+        },
+        {
+          "language": "es-MX",
+          "value": "Techo verde"
+        }
+      ]
+    },
+    {
+      "code": "ROLL",
+      "display": "Roll Roofing",
+      "definition": "Roofing material consisting of mineral-surfaced rolls applied in overlapping layers, typically used on low-slope applications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toiture en rouleau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Techo enrollado"
+        }
+      ]
+    }
+  ]
+}

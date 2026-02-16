@@ -1,0 +1,251 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "SupplementaryNameType",
+  "url": "https://bind.codes/SupplementaryNameType",
+  "name": "SupplementaryNameType",
+  "title": "Supplementary Name Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Supplementary Name Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ADIS",
+      "display": "Additional Insured",
+      "definition": "A person or entity added to a policy who is protected under the policyholder's coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assuré additionnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asegurado adicional"
+        }
+      ]
+    },
+    {
+      "code": "AKNA",
+      "display": "Also Known As",
+      "definition": "An alternative name or alias used by an individual or organization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Également connu sous le nom de"
+        },
+        {
+          "language": "es-MX",
+          "value": "También conocido como"
+        }
+      ]
+    },
+    {
+      "code": "ANOR",
+      "display": "And/Or",
+      "definition": "Indicates that a name may be used jointly or separately with another name.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Et/ou"
+        },
+        {
+          "language": "es-MX",
+          "value": "Y/o"
+        }
+      ]
+    },
+    {
+      "code": "BENF",
+      "display": "Beneficiary",
+      "definition": "A person or entity designated to receive benefits or proceeds from a policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bénéficiaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Beneficiario"
+        }
+      ]
+    },
+    {
+      "code": "COHB",
+      "display": "Cohabitant/Co-Occupant",
+      "definition": "A person who lives in the same dwelling or occupies the same premises with the primary insured.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cohabitant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cohabitante/Co-ocupante"
+        }
+      ]
+    },
+    {
+      "code": "COIS",
+      "display": "Co-insured",
+      "definition": "A person or entity who shares coverage under a policy with equal rights and obligations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Co-assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Coasegurado"
+        }
+      ]
+    },
+    {
+      "code": "DBAS",
+      "display": "Doing Business As",
+      "definition": "A trade name or commercial name under which a business operates that differs from its legal name.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fait des affaires sous le nom de"
+        },
+        {
+          "language": "es-MX",
+          "value": "Haciendo negocios como"
+        }
+      ]
+    },
+    {
+      "code": "DECL",
+      "display": "Name as it is to Appear on the Declaration Page(s)",
+      "definition": "The specific format or version of a name to be used on official policy declaration pages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nom tel qu'il doit apparaître dans les Condition(s) particulière(s)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nombre tal como debe aparecer en la(s) página(s) de declaraciones"
+        }
+      ]
+    },
+    {
+      "code": "FMLY",
+      "display": "Family Member",
+      "definition": "A relative of the primary insured who may be referenced in the policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Membre de la famille"
+        },
+        {
+          "language": "es-MX",
+          "value": "Miembro de la familia"
+        }
+      ]
+    },
+    {
+      "code": "FRLY",
+      "display": "Formerly",
+      "definition": "A previous name that was used by an individual or entity before a name change.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Anciennement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Anteriormente"
+        }
+      ]
+    },
+    {
+      "code": "IMNA",
+      "display": "Insured Multiple Names",
+      "definition": "Multiple name variations for the same insured party to be recognized under the policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Noms multiples de l'assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nombres múltiples del asegurado"
+        }
+      ]
+    },
+    {
+      "code": "OPRB",
+      "display": "Operated by",
+      "definition": "The name of the individual or entity responsible for the day-to-day management or operation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dirigé par"
+        },
+        {
+          "language": "es-MX",
+          "value": "Operado por"
+        }
+      ]
+    },
+    {
+      "code": "OWNB",
+      "display": "Owned by",
+      "definition": "The name of the individual or entity who holds legal ownership.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriété de"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propiedad de"
+        }
+      ]
+    },
+    {
+      "code": "SPSE",
+      "display": "Spouse",
+      "definition": "The legally recognized partner of the primary insured.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conjoint"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cónyuge"
+        }
+      ]
+    },
+    {
+      "code": "TBAS",
+      "display": "Trading Business As",
+      "definition": "A business name used for commercial transactions that may differ from the registered legal name.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fait des échanges commerciaux sous le nom de"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comercializando como"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

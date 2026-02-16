@@ -1,0 +1,176 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "WallShieldMaterial",
+  "url": "https://bind.codes/WallShieldMaterial",
+  "name": "WallShieldMaterial",
+  "title": "Wall Shield Material",
+  "status": "draft",
+  "language": "en",
+  "description": "Wall Shield Material codes for insurance operations.",
+  "concept": [
+    {
+      "code": "DRYW",
+      "display": "Drywall",
+      "definition": "Gypsum-based panels fastened to wall studs, commonly used for interior wall and ceiling finishes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Panneau de gypse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Panel de yeso"
+        }
+      ]
+    },
+    {
+      "code": "METL",
+      "display": "Metal",
+      "definition": "Metal sheeting or panels used as wall protection material.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Métal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Metal"
+        }
+      ]
+    },
+    {
+      "code": "SHTW",
+      "display": "Sheet Wall",
+      "definition": "Large manufactured panels installed as wall covering or protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Panneau mural"
+        },
+        {
+          "language": "es-MX",
+          "value": "Panel de pared"
+        }
+      ]
+    },
+    {
+      "code": "LAPL",
+      "display": "Lathe and Plaster",
+      "definition": "Traditional wall construction using wooden or metal strips (lathe) covered with layers of plaster.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Latte et plâtre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Listón y yeso"
+        }
+      ]
+    },
+    {
+      "code": "BRCK",
+      "display": "Brick",
+      "definition": "Fired clay or concrete masonry units used for wall construction or facing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Brique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ladrillo"
+        }
+      ]
+    },
+    {
+      "code": "CRTL",
+      "display": "Ceramic Tile",
+      "definition": "Glazed or unglazed ceramic tiles installed on walls for protection and finish.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tuile de céramique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Azulejo cerámico"
+        }
+      ]
+    },
+    {
+      "code": "CONC",
+      "display": "Concrete",
+      "definition": "Poured or precast concrete used as wall material or surface protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Concreto"
+        }
+      ]
+    },
+    {
+      "code": "STNE",
+      "display": "Stone",
+      "definition": "Natural or manufactured stone used for wall construction or facing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pierre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Piedra"
+        }
+      ]
+    },
+    {
+      "code": "WOOD",
+      "display": "Wood Paneling",
+      "definition": "Wood boards or panels used as wall covering or protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lambris de bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paneles de madera"
+        }
+      ]
+    },
+    {
+      "code": "FBGL",
+      "display": "Fiberglass",
+      "definition": "Fiberglass reinforced panels used for wall protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fibre de verre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fibra de vidrio"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

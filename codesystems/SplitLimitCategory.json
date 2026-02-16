@@ -1,0 +1,66 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "SplitLimitCategory",
+  "url": "https://bind.codes/SplitLimitCategory",
+  "name": "SplitLimitCategory",
+  "title": "Split Limit Category",
+  "status": "draft",
+  "language": "en",
+  "description": "Categories in a split-limit structure where total liability is divided into separate sub-limits per loss component.",
+  "concept": [
+    {
+      "code": "BIPP",
+      "display": "Bodily Injury Per Person",
+      "definition": "The maximum payable for bodily injury to any one person in a single occurrence.",
+      "designation": [
+        { "language": "fr-CA", "value": "Lésions corporelles par personne" },
+        { "language": "es-MX", "value": "Lesiones corporales por persona" }
+      ]
+    },
+    {
+      "code": "BIPA",
+      "display": "Bodily Injury Per Accident",
+      "definition": "The maximum payable for all bodily injury claims combined in a single accident.",
+      "designation": [
+        { "language": "fr-CA", "value": "Lésions corporelles par accident" },
+        { "language": "es-MX", "value": "Lesiones corporales por accidente" }
+      ]
+    },
+    {
+      "code": "PDPA",
+      "display": "Property Damage Per Accident",
+      "definition": "The maximum payable for all property damage in a single accident.",
+      "designation": [
+        { "language": "fr-CA", "value": "Dommages matériels par accident" },
+        { "language": "es-MX", "value": "Daños a la propiedad por accidente" }
+      ]
+    },
+    {
+      "code": "MPPP",
+      "display": "Medical Payments Per Person",
+      "definition": "The maximum medical payments payable per injured person.",
+      "designation": [
+        { "language": "fr-CA", "value": "Frais médicaux par personne" },
+        { "language": "es-MX", "value": "Pagos médicos por persona" }
+      ]
+    },
+    {
+      "code": "UMPP",
+      "display": "Uninsured Motorist Per Person",
+      "definition": "The maximum payable per person under uninsured or underinsured motorist coverage.",
+      "designation": [
+        { "language": "fr-CA", "value": "Automobiliste non assuré par personne" },
+        { "language": "es-MX", "value": "Motorista sin seguro por persona" }
+      ]
+    },
+    {
+      "code": "UMPA",
+      "display": "Uninsured Motorist Per Accident",
+      "definition": "The maximum payable for all claims combined under uninsured or underinsured motorist coverage per accident.",
+      "designation": [
+        { "language": "fr-CA", "value": "Automobiliste non assuré par accident" },
+        { "language": "es-MX", "value": "Motorista sin seguro por accidente" }
+      ]
+    }
+  ]
+}

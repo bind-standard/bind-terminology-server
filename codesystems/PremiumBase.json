@@ -1,0 +1,1031 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "PremiumBase",
+  "url": "https://bind.codes/PremiumBase",
+  "name": "PremiumBase",
+  "title": "Premium Base",
+  "status": "draft",
+  "language": "en",
+  "description": "Premium Base codes for insurance operations.",
+  "concept": [
+    {
+      "code": "PBSA",
+      "display": "A",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "A"
+        },
+        {
+          "language": "es-MX",
+          "value": "A"
+        }
+      ]
+    },
+    {
+      "code": "AREA",
+      "display": "Area",
+      "definition": "Measurement of surface coverage in square units.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Superficie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Área"
+        }
+      ]
+    },
+    {
+      "code": "BASC",
+      "display": "Basic",
+      "definition": "Fundamental or standard calculation method.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "De base"
+        },
+        {
+          "language": "es-MX",
+          "value": "Básico"
+        }
+      ]
+    },
+    {
+      "code": "FLAT",
+      "display": "Flat Charge",
+      "definition": "Fixed amount not subject to variation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Prix fixe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tarifa fija"
+        }
+      ]
+    },
+    {
+      "code": "EACH",
+      "display": "Each",
+      "definition": "Individual unit counted separately.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chaque"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cada uno"
+        }
+      ]
+    },
+    {
+      "code": "GRSS",
+      "display": "Receipts (Gross)",
+      "definition": "Total revenue before deductions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Recettes (brutes)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Recibos (brutos)"
+        }
+      ]
+    },
+    {
+      "code": "LIQR",
+      "display": "Liquor Receipts",
+      "definition": "Revenue from alcoholic beverage sales.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Recettes vente d'alcool"
+        },
+        {
+          "language": "es-MX",
+          "value": "Recibos de licor"
+        }
+      ]
+    },
+    {
+      "code": "PYRL",
+      "display": "Payroll",
+      "definition": "Total employee wages and salaries paid.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Masse salariale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nómina"
+        }
+      ]
+    },
+    {
+      "code": "PALY",
+      "display": "Per Alley",
+      "definition": "Calculation unit based on individual bowling lane or alley.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par allée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por carril"
+        }
+      ]
+    },
+    {
+      "code": "PBOT",
+      "display": "Per Boat",
+      "definition": "Calculation unit based on individual watercraft.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par bateau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por embarcación"
+        }
+      ]
+    },
+    {
+      "code": "PBLD",
+      "display": "Per Building",
+      "definition": "Calculation unit based on individual structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par édifice"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por edificio"
+        }
+      ]
+    },
+    {
+      "code": "PCAB",
+      "display": "Per Cabin or Rental Space",
+      "definition": "Calculation unit based on individual cabin or rentable unit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par camp ou espace à louer"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por cabaña o espacio de alquiler"
+        }
+      ]
+    },
+    {
+      "code": "PCMP",
+      "display": "Per Camper",
+      "definition": "Calculation unit based on individual recreational vehicle or camping unit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par caravane"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por caravana"
+        }
+      ]
+    },
+    {
+      "code": "PCRT",
+      "display": "Per Court",
+      "definition": "Calculation unit based on individual sports court or playing surface.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par terrain, cour"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por cancha"
+        }
+      ]
+    },
+    {
+      "code": "PDVC",
+      "display": "Per Device",
+      "definition": "Calculation unit based on individual electronic or mechanical equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par dispositif"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por dispositivo"
+        }
+      ]
+    },
+    {
+      "code": "PDSP",
+      "display": "Per Display",
+      "definition": "Calculation unit based on individual exhibition or showcase.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par étalage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por exhibidor"
+        }
+      ]
+    },
+    {
+      "code": "PDWL",
+      "display": "Per Dwelling",
+      "definition": "Calculation unit based on individual residential living unit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par habitation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por vivienda"
+        }
+      ]
+    },
+    {
+      "code": "PEVT",
+      "display": "Per Event",
+      "definition": "Calculation unit based on individual occurrence or occasion.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par événement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por evento"
+        }
+      ]
+    },
+    {
+      "code": "PHCT",
+      "display": "Per Hectare",
+      "definition": "Calculation unit based on 10,000 square meters of land.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par hectare"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por hectárea"
+        }
+      ]
+    },
+    {
+      "code": "PHOM",
+      "display": "Per Home",
+      "definition": "Calculation unit based on individual residence.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par domicile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por hogar"
+        }
+      ]
+    },
+    {
+      "code": "PHRS",
+      "display": "Per Horse",
+      "definition": "Calculation unit based on individual equine animal.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par cheval"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por caballo"
+        }
+      ]
+    },
+    {
+      "code": "PINM",
+      "display": "Per Inmate",
+      "definition": "Calculation unit based on individual detained person.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par détenu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por recluso"
+        }
+      ]
+    },
+    {
+      "code": "PKNL",
+      "display": "Per Kennel",
+      "definition": "Calculation unit based on individual animal housing space.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par caniveau, chenil"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por perrera"
+        }
+      ]
+    },
+    {
+      "code": "PKLM",
+      "display": "Per Kilometer",
+      "definition": "Calculation unit based on 1,000 meters of distance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par kilomètre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por kilómetro"
+        }
+      ]
+    },
+    {
+      "code": "PLOC",
+      "display": "Per Location",
+      "definition": "Calculation unit based on individual site or address.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par emplacement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por ubicación"
+        }
+      ]
+    },
+    {
+      "code": "PLSY",
+      "display": "Per Location For Season or Year",
+      "definition": "Calculation unit based on individual site for seasonal or annual period.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par emplacement pour la saison ou l'année"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por ubicación por temporada o año"
+        }
+      ]
+    },
+    {
+      "code": "PLKR",
+      "display": "Per Locker",
+      "definition": "Calculation unit based on individual storage compartment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par casier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por casillero"
+        }
+      ]
+    },
+    {
+      "code": "PMCH",
+      "display": "Per Machine",
+      "definition": "Calculation unit based on individual mechanical or electronic apparatus.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par machine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por máquina"
+        }
+      ]
+    },
+    {
+      "code": "PMBR",
+      "display": "Per Member",
+      "definition": "Calculation unit based on individual participant or subscriber.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par membre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por miembro"
+        }
+      ]
+    },
+    {
+      "code": "PMFR",
+      "display": "Per Meter Frontage",
+      "definition": "Calculation unit based on linear meters of property facing a street or access point.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par mètre de façade"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por metro de frente"
+        }
+      ]
+    },
+    {
+      "code": "POFC",
+      "display": "Per Office",
+      "definition": "Calculation unit based on individual workspace or business location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par bureau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por oficina"
+        }
+      ]
+    },
+    {
+      "code": "PPUP",
+      "display": "Per Pupil",
+      "definition": "Calculation unit based on individual student or learner.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par étudiant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por alumno"
+        }
+      ]
+    },
+    {
+      "code": "PPRM",
+      "display": "Per Premise",
+      "definition": "Calculation unit based on individual property or facility.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par local"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por local"
+        }
+      ]
+    },
+    {
+      "code": "PRFT",
+      "display": "Per Raft",
+      "definition": "Calculation unit based on individual floating platform or vessel.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par radeau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por balsa"
+        }
+      ]
+    },
+    {
+      "code": "PRNG",
+      "display": "Per Range",
+      "definition": "Calculation unit based on individual golf course or shooting facility.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par parcours"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por campo"
+        }
+      ]
+    },
+    {
+      "code": "PRNK",
+      "display": "Per Rink",
+      "definition": "Calculation unit based on individual ice or roller skating surface.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par patinoire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por pista"
+        }
+      ]
+    },
+    {
+      "code": "PSET",
+      "display": "Per Seat",
+      "definition": "Calculation unit based on individual seating position.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par siège"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por asiento"
+        }
+      ]
+    },
+    {
+      "code": "PSUB",
+      "display": "Per Subscriber",
+      "definition": "Calculation unit based on individual account holder or member.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par abonné"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por suscriptor"
+        }
+      ]
+    },
+    {
+      "code": "PSUI",
+      "display": "Per Suite",
+      "definition": "Calculation unit based on individual apartment or room grouping.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par suite"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por suite"
+        }
+      ]
+    },
+    {
+      "code": "PSTU",
+      "display": "Per Studio",
+      "definition": "Calculation unit based on individual workspace or small apartment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par studio"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por estudio"
+        }
+      ]
+    },
+    {
+      "code": "PTBL",
+      "display": "Per Table",
+      "definition": "Calculation unit based on individual seating group or gaming surface.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par table"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por mesa"
+        }
+      ]
+    },
+    {
+      "code": "PTEM",
+      "display": "Per Team",
+      "definition": "Calculation unit based on individual group or squad.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par équipe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por equipo"
+        }
+      ]
+    },
+    {
+      "code": "P1KC",
+      "display": "Per 1000 Cubic Meters",
+      "definition": "Calculation unit based on 1,000 cubic meters of volume.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par 1 000 mètres cubes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por 1000 metros cúbicos"
+        }
+      ]
+    },
+    {
+      "code": "P1KL",
+      "display": "Per 1000 Liters",
+      "definition": "Calculation unit based on 1,000 liters of liquid volume.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par 1 000 litres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por 1000 litros"
+        }
+      ]
+    },
+    {
+      "code": "PU6P",
+      "display": "Per Unit Over Six",
+      "definition": "Calculation unit based on individual items exceeding six units.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par unité dépassant six"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por unidad sobre seis"
+        }
+      ]
+    },
+    {
+      "code": "PVEH",
+      "display": "Per Vehicle",
+      "definition": "Calculation unit based on individual motorized transport unit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por vehículo"
+        }
+      ]
+    },
+    {
+      "code": "PVOL",
+      "display": "Per Volunteer",
+      "definition": "Calculation unit based on individual unpaid worker.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par volontaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por voluntario"
+        }
+      ]
+    },
+    {
+      "code": "POPN",
+      "display": "Population",
+      "definition": "Total number of inhabitants in a defined area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Population"
+        },
+        {
+          "language": "es-MX",
+          "value": "Población"
+        }
+      ]
+    },
+    {
+      "code": "REVN",
+      "display": "Revenue",
+      "definition": "Total income generated from operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Recettes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ingresos"
+        }
+      ]
+    },
+    {
+      "code": "INCL",
+      "display": "Included in Base Premium",
+      "definition": "Component already factored into the fundamental calculation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inclus dans la prime de base"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incluido en la prima base"
+        }
+      ]
+    },
+    {
+      "code": "CGLB",
+      "display": "CGL - Commercial General Liability",
+      "definition": "Commercial General Liability coverage basis.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "RCG - Responsabilité civile générale des entreprises"
+        },
+        {
+          "language": "es-MX",
+          "value": "RCG - Responsabilidad Civil General Comercial"
+        }
+      ]
+    },
+    {
+      "code": "LCVL",
+      "display": "Light Commercial Vehicle (less than 4536kg)",
+      "definition": "Commercial vehicle with gross weight under 4,536 kilograms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule utilitaire léger (moins de 4 536 kg)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo comercial ligero (menos de 4536kg)"
+        }
+      ]
+    },
+    {
+      "code": "MCVM",
+      "display": "Medium Commercial Vehicle (4536kg to 11340kg)",
+      "definition": "Commercial vehicle with gross weight between 4,536 and 11,340 kilograms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule utilitaire moyen (4 536 kg à 11 340 kg)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo comercial mediano (4536kg a 11340kg)"
+        }
+      ]
+    },
+    {
+      "code": "HCVH",
+      "display": "Heavy Commercial Vehicle (more than 11340kg)",
+      "definition": "Commercial vehicle with gross weight exceeding 11,340 kilograms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule utilitaire lourd (plus de 11 340 kg)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo comercial pesado (más de 11340kg)"
+        }
+      ]
+    },
+    {
+      "code": "PPVH",
+      "display": "Private Passenger Vehicle",
+      "definition": "Non-commercial personal transportation vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture de tourisme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo de pasajeros privado"
+        }
+      ]
+    },
+    {
+      "code": "AUTL",
+      "display": "Automobile - Liability",
+      "definition": "Vehicle liability coverage basis.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Automobile - Responsabilité civile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Automóvil - Responsabilidad civil"
+        }
+      ]
+    },
+    {
+      "code": "NSDO",
+      "display": "Non-salaried Directors and Officers - \"1st Group\"",
+      "definition": "Unpaid board members in the primary calculation tier.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Administrateurs et Dirigeants non salariés - \"1er groupe\""
+        },
+        {
+          "language": "es-MX",
+          "value": "Directores y Funcionarios no asalariados - \"1er Grupo\""
+        }
+      ]
+    },
+    {
+      "code": "NDOR",
+      "display": "Non-salaried Directors and Officers - \"Remainder\"",
+      "definition": "Unpaid board members in the secondary calculation tier.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Administrateurs et Dirigeants non salariés - \"Reste\""
+        },
+        {
+          "language": "es-MX",
+          "value": "Directores y Funcionarios no asalariados - \"Resto\""
+        }
+      ]
+    },
+    {
+      "code": "SDOF",
+      "display": "Salaried Directors and Officers",
+      "definition": "Compensated board members and executives.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Administrateurs et Dirigeants salariés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Directores y Funcionarios asalariados"
+        }
+      ]
+    },
+    {
+      "code": "NSDR",
+      "display": "Non-salaried Director",
+      "definition": "Individual unpaid board member.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Administrateur non salarié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Director no asalariado"
+        }
+      ]
+    },
+    {
+      "code": "PANM",
+      "display": "Per Animal",
+      "definition": "Calculation unit based on individual livestock or pet.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par animal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por animal"
+        }
+      ]
+    },
+    {
+      "code": "PITM",
+      "display": "Per Item",
+      "definition": "Calculation unit based on individual object or article.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par article"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por artículo"
+        }
+      ]
+    },
+    {
+      "code": "PTOL",
+      "display": "Per Tool",
+      "definition": "Calculation unit based on individual implement or instrument.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par outil"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por herramienta"
+        }
+      ]
+    },
+    {
+      "code": "PJOB",
+      "display": "Per Job",
+      "definition": "Calculation unit based on individual project or work assignment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par tâche"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por trabajo"
+        }
+      ]
+    },
+    {
+      "code": "PSHP",
+      "display": "Per Shipment",
+      "definition": "Calculation unit based on individual delivery or consignment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par envoi"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por envío"
+        }
+      ]
+    },
+    {
+      "code": "PUNT",
+      "display": "Per Unit",
+      "definition": "Calculation unit based on individual item or measure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par unité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por unidad"
+        }
+      ]
+    },
+    {
+      "code": "PEMP",
+      "display": "Per Employee",
+      "definition": "Calculation unit based on individual worker on payroll.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par employé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por empleado"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Alternative method not otherwise specified.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

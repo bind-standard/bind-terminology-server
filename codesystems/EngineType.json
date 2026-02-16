@@ -1,0 +1,236 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "EngineType",
+  "url": "https://bind.codes/EngineType",
+  "name": "EngineType",
+  "title": "Engine Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Engine Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "DSEL",
+      "display": "Diesel",
+      "definition": "Compression-ignition engine that uses diesel fuel.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Diésel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Diésel"
+        }
+      ]
+    },
+    {
+      "code": "ELBT",
+      "display": "Electric (Battery)",
+      "definition": "Electric motor powered by rechargeable battery pack.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Électrique (batterie)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Eléctrico (batería)"
+        }
+      ]
+    },
+    {
+      "code": "GASO",
+      "display": "Gasoline",
+      "definition": "Spark-ignition internal combustion engine using gasoline fuel.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Essence"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gasolina"
+        }
+      ]
+    },
+    {
+      "code": "NTGS",
+      "display": "Natural Gas",
+      "definition": "Engine powered by compressed or liquefied natural gas.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gaz naturel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gas natural"
+        }
+      ]
+    },
+    {
+      "code": "PRAF",
+      "display": "Propane (Not-factory Installed)",
+      "definition": "Aftermarket propane conversion system installed post-manufacture.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gaz propane (non installé en usine)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propano (no instalado de fábrica)"
+        }
+      ]
+    },
+    {
+      "code": "PROF",
+      "display": "Propane (Factory Installed)",
+      "definition": "Original equipment manufacturer propane fuel system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gaz propane (installé en usine)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propano (instalado de fábrica)"
+        }
+      ]
+    },
+    {
+      "code": "SOLR",
+      "display": "Solar",
+      "definition": "Vehicle powered by photovoltaic solar panels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Solaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Solar"
+        }
+      ]
+    },
+    {
+      "code": "ALCO",
+      "display": "Alcohol",
+      "definition": "Engine designed to run on ethanol or methanol fuel.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Alcool"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alcohol"
+        }
+      ]
+    },
+    {
+      "code": "ELFC",
+      "display": "Electric (Fuel Cell)",
+      "definition": "Electric motor powered by hydrogen fuel cell technology.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Électrique (pile à combustible)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Eléctrico (celda de combustible)"
+        }
+      ]
+    },
+    {
+      "code": "HYBR",
+      "display": "Hybrid (Gasoline and Electric)",
+      "definition": "Combined gasoline engine and electric motor powertrain.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hybride (essence et électrique)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Híbrido (gasolina y eléctrico)"
+        }
+      ]
+    },
+    {
+      "code": "HYBD",
+      "display": "Hybrid (Diesel and Electric)",
+      "definition": "Combined diesel engine and electric motor powertrain.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hybride (diésel et électrique)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Híbrido (diésel y eléctrico)"
+        }
+      ]
+    },
+    {
+      "code": "PHEV",
+      "display": "Plug-in Hybrid Electric",
+      "definition": "Hybrid vehicle with rechargeable battery that can be plugged into external power source.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hybride électrique rechargeable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Híbrido eléctrico enchufable"
+        }
+      ]
+    },
+    {
+      "code": "BIOD",
+      "display": "Biodiesel",
+      "definition": "Engine running on biodiesel or renewable diesel fuel.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Biodiésel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Biodiésel"
+        }
+      ]
+    },
+    {
+      "code": "E85F",
+      "display": "Flex Fuel (E85)",
+      "definition": "Engine capable of running on gasoline or high-ethanol blend (E85).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Carburant flexible (E85)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Combustible flexible (E85)"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

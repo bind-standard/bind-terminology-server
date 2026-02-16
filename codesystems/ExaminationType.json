@@ -1,0 +1,102 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ExaminationType",
+  "url": "https://bind.codes/ExaminationType",
+  "name": "ExaminationType",
+  "title": "Examination Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Examination Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "EDUC",
+      "display": "Educational Examination",
+      "definition": "A formal assessment or test conducted in an academic or training setting to evaluate knowledge, skills, or competency levels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Examen scolaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Examen educativo"
+        }
+      ]
+    },
+    {
+      "code": "MEDX",
+      "display": "Medical Exam",
+      "definition": "A clinical assessment performed by a healthcare professional to evaluate an individual's physical or mental health condition.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Examen médical"
+        },
+        {
+          "language": "es-MX",
+          "value": "Examen médico"
+        }
+      ]
+    },
+    {
+      "code": "DRVR",
+      "display": "Driver's Examination",
+      "definition": "A test administered to assess an individual's knowledge of traffic laws and ability to operate a motor vehicle safely.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Examen de conduite"
+        },
+        {
+          "language": "es-MX",
+          "value": "Examen de conducir"
+        }
+      ]
+    },
+    {
+      "code": "PSYC",
+      "display": "Psychological Examination",
+      "definition": "A professional evaluation of an individual's mental health, cognitive functioning, or behavioral patterns.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Examen psychologique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Examen psicológico"
+        }
+      ]
+    },
+    {
+      "code": "VHCL",
+      "display": "Vehicle Inspection",
+      "definition": "A systematic examination of a vehicle to assess its mechanical condition, safety features, and compliance with regulations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inspection de véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inspección de vehículo"
+        }
+      ]
+    },
+    {
+      "code": "PROP",
+      "display": "Property Inspection",
+      "definition": "A detailed review of real property to assess its physical condition, structural integrity, and potential hazards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inspection de propriété"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inspección de propiedad"
+        }
+      ]
+    }
+  ]
+}

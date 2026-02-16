@@ -1,0 +1,147 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "AttachmentStatus",
+  "url": "https://bind.codes/AttachmentStatus",
+  "name": "AttachmentStatus",
+  "title": "Attachment Status",
+  "status": "draft",
+  "language": "en",
+  "description": "Attachment Status codes for insurance operations.",
+  "concept": [
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Attachment status not covered by other specific codes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "ATCH",
+      "display": "Attached",
+      "definition": "The document is included with the current submission.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Joint"
+        },
+        {
+          "language": "es-MX",
+          "value": "Adjunto"
+        }
+      ]
+    },
+    {
+      "code": "BKRF",
+      "display": "Agent/Broker is retaining a Copy on File",
+      "definition": "The document is held by the agent or broker and available upon request but is not being transmitted.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Le courtier conserve une copie au dossier"
+        },
+        {
+          "language": "es-MX",
+          "value": "El corredor conserva una copia en archivo"
+        }
+      ]
+    },
+    {
+      "code": "MAIL",
+      "display": "Agent/Broker is Sending a Copy via Mail/Courier",
+      "definition": "A physical copy of the document is being sent through postal or courier services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Le courtier envoie une copie par la poste/messager"
+        },
+        {
+          "language": "es-MX",
+          "value": "El corredor envía una copia por correo/mensajería"
+        }
+      ]
+    },
+    {
+      "code": "FWDU",
+      "display": "Document Not Available Yet / Will be Forwarded Upon Receipt",
+      "definition": "The document is not currently available but will be transmitted once obtained.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Document pas encore disponible / sera envoyé dès que reçu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Documento aún no disponible / se enviará al recibirlo"
+        }
+      ]
+    },
+    {
+      "code": "FLDU",
+      "display": "Document Not Available Yet / Will be Kept in Files Upon Receipt",
+      "definition": "The document is not currently available but will be retained in files once obtained.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Document pas encore disponible / sera conservé au dossier dès que reçu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Documento aún no disponible / se conservará en archivo al recibirlo"
+        }
+      ]
+    },
+    {
+      "code": "ELEC",
+      "display": "Document Electronic",
+      "definition": "The document exists in digital format.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Document électronique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Documento electrónico"
+        }
+      ]
+    },
+    {
+      "code": "NAPL",
+      "display": "Document Not Applicable",
+      "definition": "The document is not relevant or required for this submission.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Document non applicable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Documento no aplicable"
+        }
+      ]
+    },
+    {
+      "code": "PREV",
+      "display": "Previously Submitted",
+      "definition": "The document was submitted in a prior transaction and does not need to be resubmitted.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déjà soumis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Enviado previamente"
+        }
+      ]
+    }
+  ]
+}

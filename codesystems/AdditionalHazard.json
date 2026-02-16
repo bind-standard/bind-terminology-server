@@ -1,0 +1,265 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "AdditionalHazard",
+  "url": "https://bind.codes/AdditionalHazard",
+  "name": "AdditionalHazard",
+  "title": "Additional Hazard",
+  "status": "draft",
+  "language": "en",
+  "description": "Additional Hazard codes for insurance operations.",
+  "concept": [
+    {
+      "code": "SWPL",
+      "display": "Swimming or Wading Pool",
+      "definition": "A pool or shallow water feature on the property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Piscine ou pataugeuse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Piscina o alberca infantil"
+        }
+      ]
+    },
+    {
+      "code": "SAUN",
+      "display": "Sauna",
+      "definition": "A heated room or facility designed for high-temperature dry or wet heat sessions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sauna"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sauna"
+        }
+      ]
+    },
+    {
+      "code": "GYMC",
+      "display": "Gym or Activity Centre",
+      "definition": "A fitness or recreational facility featuring exercise equipment and spaces for physical activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gymnase ou centre d'activités"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gimnasio o centro de actividades"
+        }
+      ]
+    },
+    {
+      "code": "AMRD",
+      "display": "Amusement Rides",
+      "definition": "Mechanical rides or attractions designed for entertainment and recreation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Manèges"
+        },
+        {
+          "language": "es-MX",
+          "value": "Juegos mecánicos"
+        }
+      ]
+    },
+    {
+      "code": "STAD",
+      "display": "Outdoor Stadia or Grandstand",
+      "definition": "Permanent or temporary spectator seating structures for viewing events.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stades extérieurs ou tribune"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estadios al aire libre o gradas"
+        }
+      ]
+    },
+    {
+      "code": "SPFD",
+      "display": "Sports Field",
+      "definition": "A designated area for organized athletic activities and sports.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrain de sport"
+        },
+        {
+          "language": "es-MX",
+          "value": "Campo deportivo"
+        }
+      ]
+    },
+    {
+      "code": "ANML",
+      "display": "Animals",
+      "definition": "Presence of animals kept on the property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Animaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Animales"
+        }
+      ]
+    },
+    {
+      "code": "WHPL",
+      "display": "Whirlpool/Hydro-jetted Tub or Pool",
+      "definition": "A water feature equipped with jet propulsion systems for hydrotherapy or relaxation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Baignoire à remous/à jet d'eau ou piscine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tina o piscina de hidromasaje"
+        }
+      ]
+    },
+    {
+      "code": "HTTB",
+      "display": "Hot Tub",
+      "definition": "A heated tub or spa designed for therapeutic or recreational soaking.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Spa"
+        },
+        {
+          "language": "es-MX",
+          "value": "Jacuzzi"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "TRMP",
+      "display": "Trampoline",
+      "definition": "A recreational jumping device with an elastic surface stretched over a frame.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trampoline"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trampolín"
+        }
+      ]
+    },
+    {
+      "code": "PLGD",
+      "display": "Playground Equipment",
+      "definition": "Recreational structures such as swings, slides, or climbing frames for outdoor play.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement de jeux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo de juegos infantiles"
+        }
+      ]
+    },
+    {
+      "code": "TRHS",
+      "display": "Tree House",
+      "definition": "An elevated structure built in or around a tree for recreational use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cabane dans les arbres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casa del árbol"
+        }
+      ]
+    },
+    {
+      "code": "SKRP",
+      "display": "Skateboard Ramp",
+      "definition": "A ramp or half-pipe structure used for skateboarding and similar wheeled activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rampe de planche à roulettes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rampa de patineta"
+        }
+      ]
+    },
+    {
+      "code": "FRPT",
+      "display": "Fire Pit",
+      "definition": "An outdoor fire feature designed for controlled open flames.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foyer extérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fogata"
+        }
+      ]
+    },
+    {
+      "code": "DOCK",
+      "display": "Dock or Pier",
+      "definition": "A waterfront structure extending into water for mooring boats or accessing watercraft.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Quai ou jetée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Muelle o embarcadero"
+        }
+      ]
+    }
+  ]
+}

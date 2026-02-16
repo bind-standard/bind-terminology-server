@@ -1,0 +1,111 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CoveragePart",
+  "url": "https://bind.codes/CoveragePart",
+  "name": "CoveragePart",
+  "title": "Coverage Part",
+  "status": "draft",
+  "language": "en",
+  "description": "Standard coverage part identifiers within a policy form, including homeowners sections and commercial liability components.",
+  "concept": [
+    {
+      "code": "CVRA",
+      "display": "Coverage A — Dwelling",
+      "definition": "Protects the physical structure of the dwelling and attached structures.",
+      "designation": [
+        { "language": "fr-CA", "value": "Garantie A — Habitation" },
+        { "language": "es-MX", "value": "Cobertura A — Vivienda" }
+      ]
+    },
+    {
+      "code": "CVRB",
+      "display": "Coverage B — Other Structures",
+      "definition": "Protects structures on the property that are detached from the dwelling, such as garages, sheds, and fences.",
+      "designation": [
+        { "language": "fr-CA", "value": "Garantie B — Autres bâtiments" },
+        { "language": "es-MX", "value": "Cobertura B — Otras estructuras" }
+      ]
+    },
+    {
+      "code": "CVRC",
+      "display": "Coverage C — Personal Property",
+      "definition": "Protects the insured's personal belongings such as furniture, clothing, and electronics.",
+      "designation": [
+        { "language": "fr-CA", "value": "Garantie C — Biens personnels" },
+        { "language": "es-MX", "value": "Cobertura C — Propiedad personal" }
+      ]
+    },
+    {
+      "code": "CVRD",
+      "display": "Coverage D — Loss of Use",
+      "definition": "Covers additional living expenses when the dwelling is uninhabitable due to a covered loss.",
+      "designation": [
+        { "language": "fr-CA", "value": "Garantie D — Perte d'usage" },
+        { "language": "es-MX", "value": "Cobertura D — Pérdida de uso" }
+      ]
+    },
+    {
+      "code": "CVRE",
+      "display": "Coverage E — Personal Liability",
+      "definition": "Covers legal liability for bodily injury or property damage to others caused by the insured.",
+      "designation": [
+        { "language": "fr-CA", "value": "Garantie E — Responsabilité civile" },
+        { "language": "es-MX", "value": "Cobertura E — Responsabilidad personal" }
+      ]
+    },
+    {
+      "code": "CVRF",
+      "display": "Coverage F — Medical Payments",
+      "definition": "Pays medical expenses for persons injured on the insured's property, regardless of fault.",
+      "designation": [
+        { "language": "fr-CA", "value": "Garantie F — Frais médicaux" },
+        { "language": "es-MX", "value": "Cobertura F — Pagos médicos" }
+      ]
+    },
+    {
+      "code": "PRMO",
+      "display": "Premises/Operations",
+      "definition": "Covers liability arising from the insured's premises or ongoing operations.",
+      "designation": [
+        { "language": "fr-CA", "value": "Lieux/Opérations" },
+        { "language": "es-MX", "value": "Instalaciones/Operaciones" }
+      ]
+    },
+    {
+      "code": "PCOP",
+      "display": "Products/Completed Operations",
+      "definition": "Covers liability arising from products sold or work completed by the insured after the product leaves the premises or work is finished.",
+      "designation": [
+        { "language": "fr-CA", "value": "Produits/Opérations complétées" },
+        { "language": "es-MX", "value": "Productos/Operaciones completadas" }
+      ]
+    },
+    {
+      "code": "PADV",
+      "display": "Personal & Advertising Injury",
+      "definition": "Covers non-physical injuries such as libel, slander, false arrest, and copyright infringement in advertising.",
+      "designation": [
+        { "language": "fr-CA", "value": "Préjudice personnel et publicitaire" },
+        { "language": "es-MX", "value": "Daño personal y publicitario" }
+      ]
+    },
+    {
+      "code": "MDPY",
+      "display": "Medical Payments",
+      "definition": "Pays medical expenses for third parties injured in connection with the insured's operations, regardless of fault.",
+      "designation": [
+        { "language": "fr-CA", "value": "Frais médicaux" },
+        { "language": "es-MX", "value": "Pagos médicos" }
+      ]
+    },
+    {
+      "code": "DRPR",
+      "display": "Damage to Rented Premises",
+      "definition": "Covers the insured's liability for damage to premises rented to or temporarily occupied by the insured.",
+      "designation": [
+        { "language": "fr-CA", "value": "Dommages aux locaux loués" },
+        { "language": "es-MX", "value": "Daño a instalaciones arrendadas" }
+      ]
+    }
+  ]
+}

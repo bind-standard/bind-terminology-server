@@ -1,0 +1,2787 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "StreetType",
+  "url": "https://bind.codes/StreetType",
+  "name": "StreetType",
+  "title": "Street Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Street Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CA:ABBY",
+      "display": "Abbey",
+      "definition": "A street associated with or named after an abbey or monastery.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Abbaye"
+        },
+        {
+          "language": "es-MX",
+          "value": "Abadía"
+        }
+      ]
+    },
+    {
+      "code": "CA:ACRS",
+      "display": "Acres",
+      "definition": "A residential development or street name referencing land measurement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acres"
+        }
+      ]
+    },
+    {
+      "code": "CA:ALEE",
+      "display": "Allée",
+      "definition": "A tree-lined walkway or narrow passageway.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Allée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alameda"
+        }
+      ]
+    },
+    {
+      "code": "CA:ALLY",
+      "display": "Alley",
+      "definition": "A narrow passageway between or behind buildings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ruelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Callejón"
+        }
+      ]
+    },
+    {
+      "code": "CA:ARUT",
+      "display": "Autoroute",
+      "definition": "A controlled-access highway or freeway.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autoroute"
+        },
+        {
+          "language": "es-MX",
+          "value": "Autopista"
+        }
+      ]
+    },
+    {
+      "code": "CA:AVFR",
+      "display": "Avenue (French)",
+      "definition": "A wide street or thoroughfare (French designation).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avenue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Avenida"
+        }
+      ]
+    },
+    {
+      "code": "CA:AVEN",
+      "display": "Avenue (English)",
+      "definition": "A wide street or thoroughfare (English designation).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avenue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Avenida"
+        }
+      ]
+    },
+    {
+      "code": "CA:BAYS",
+      "display": "Bay",
+      "definition": "A street in a curved or recessed configuration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Baie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bahía"
+        }
+      ]
+    },
+    {
+      "code": "CA:BECH",
+      "display": "Beach",
+      "definition": "A street adjacent to or associated with a waterfront.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Playa"
+        }
+      ]
+    },
+    {
+      "code": "CA:BEND",
+      "display": "Bend",
+      "definition": "A curved section of roadway.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courbe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Curva"
+        }
+      ]
+    },
+    {
+      "code": "CA:BLEN",
+      "display": "Boulevard (English)",
+      "definition": "A wide, multi-lane street often with a median (English designation).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boulevard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bulevar"
+        }
+      ]
+    },
+    {
+      "code": "CA:BLFR",
+      "display": "Boulevard (French)",
+      "definition": "A wide, multi-lane street often with a median (French designation).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boulevard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bulevar"
+        }
+      ]
+    },
+    {
+      "code": "CA:BYPS",
+      "display": "By-pass",
+      "definition": "A road that routes traffic around a congested area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contournement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Circunvalación"
+        }
+      ]
+    },
+    {
+      "code": "CA:BYWY",
+      "display": "Byway",
+      "definition": "A secondary or less-traveled roadway.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voie secondaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camino secundario"
+        }
+      ]
+    },
+    {
+      "code": "CA:CNFR",
+      "display": "Centre (French)",
+      "definition": "A central location or hub (French designation).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Centre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Centro"
+        }
+      ]
+    },
+    {
+      "code": "CA:CAMP",
+      "display": "Campus",
+      "definition": "A street within or associated with an institutional grounds.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Campus"
+        },
+        {
+          "language": "es-MX",
+          "value": "Campus"
+        }
+      ]
+    },
+    {
+      "code": "CA:CAPE",
+      "display": "Cape",
+      "definition": "A street associated with a geographical cape or headland.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cap"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cabo"
+        }
+      ]
+    },
+    {
+      "code": "CA:CRAR",
+      "display": "Carré",
+      "definition": "A public square or plaza.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Carré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Plaza"
+        }
+      ]
+    },
+    {
+      "code": "CA:CARF",
+      "display": "Carrefour",
+      "definition": "An intersection or crossroads.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Carrefour"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cruce"
+        }
+      ]
+    },
+    {
+      "code": "CA:CSAC",
+      "display": "Cul-de-sac",
+      "definition": "A dead-end street with a circular turnaround.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cul-de-sac"
+        },
+        {
+          "language": "es-MX",
+          "value": "Callejón sin salida"
+        }
+      ]
+    },
+    {
+      "code": "CA:CERC",
+      "display": "Cercle",
+      "definition": "A circular street or roundabout.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cercle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Círculo"
+        }
+      ]
+    },
+    {
+      "code": "CA:CHMN",
+      "display": "Chemin",
+      "definition": "A road or path, often rural.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chemin"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camino"
+        }
+      ]
+    },
+    {
+      "code": "CA:CHAS",
+      "display": "Chase",
+      "definition": "A private roadway or driveway.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Allée privée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camino privado"
+        }
+      ]
+    },
+    {
+      "code": "CA:CIRC",
+      "display": "Circle",
+      "definition": "A circular or curved street configuration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cercle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Círculo"
+        }
+      ]
+    },
+    {
+      "code": "CA:CIRT",
+      "display": "Circuit",
+      "definition": "A looping street that returns to its starting point.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Circuit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Circuito"
+        }
+      ]
+    },
+    {
+      "code": "CA:CLOS",
+      "display": "Close",
+      "definition": "A short, enclosed street or cul-de-sac.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Impasse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cerrado"
+        }
+      ]
+    },
+    {
+      "code": "CA:COMN",
+      "display": "Common",
+      "definition": "A public open space or shared area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrain communal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Común"
+        }
+      ]
+    },
+    {
+      "code": "CA:CONC",
+      "display": "Concession",
+      "definition": "A rural road following original land survey lines.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Concession"
+        },
+        {
+          "language": "es-MX",
+          "value": "Concesión"
+        }
+      ]
+    },
+    {
+      "code": "CA:COTE",
+      "display": "Côte",
+      "definition": "A hillside or slope.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Côte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cuesta"
+        }
+      ]
+    },
+    {
+      "code": "CA:COUR",
+      "display": "Cour",
+      "definition": "A courtyard or enclosed space.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cour"
+        },
+        {
+          "language": "es-MX",
+          "value": "Patio"
+        }
+      ]
+    },
+    {
+      "code": "CA:CORS",
+      "display": "Cours",
+      "definition": "A promenade or course.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cours"
+        },
+        {
+          "language": "es-MX",
+          "value": "Curso"
+        }
+      ]
+    },
+    {
+      "code": "CA:COVE",
+      "display": "Cove",
+      "definition": "A small sheltered street or bay-shaped configuration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Anse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ensenada"
+        }
+      ]
+    },
+    {
+      "code": "CA:CRES",
+      "display": "Crescent",
+      "definition": "A crescent-shaped or curved street.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Croissant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Media Luna"
+        }
+      ]
+    },
+    {
+      "code": "CA:CRNR",
+      "display": "Corners",
+      "definition": "A street at an intersection or corner location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coins"
+        },
+        {
+          "language": "es-MX",
+          "value": "Esquinas"
+        }
+      ]
+    },
+    {
+      "code": "CA:CROI",
+      "display": "Croissant",
+      "definition": "A crescent-shaped street (French designation).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Croissant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Media Luna"
+        }
+      ]
+    },
+    {
+      "code": "CA:CROS",
+      "display": "Crossing",
+      "definition": "A pedestrian or vehicular crossing point.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Traverse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cruce"
+        }
+      ]
+    },
+    {
+      "code": "CA:CORT",
+      "display": "Court",
+      "definition": "A short street or enclosed residential area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cour"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corte"
+        }
+      ]
+    },
+    {
+      "code": "CA:CNEN",
+      "display": "Centre (English)",
+      "definition": "A central location or hub (English designation).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Centre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Centro"
+        }
+      ]
+    },
+    {
+      "code": "CA:DALE",
+      "display": "Dale",
+      "definition": "A valley or low-lying area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vallon"
+        },
+        {
+          "language": "es-MX",
+          "value": "Valle"
+        }
+      ]
+    },
+    {
+      "code": "CA:DELL",
+      "display": "Dell",
+      "definition": "A small secluded valley.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vallon"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hondonada"
+        }
+      ]
+    },
+    {
+      "code": "CA:DIVR",
+      "display": "Diversion",
+      "definition": "A temporary or alternate route.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déviation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desviación"
+        }
+      ]
+    },
+    {
+      "code": "CA:DOWN",
+      "display": "Downs",
+      "definition": "An open elevated area or hillside.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collines"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lomas"
+        }
+      ]
+    },
+    {
+      "code": "CA:DRIV",
+      "display": "Drive",
+      "definition": "A winding or scenic roadway.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promenade"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paseo"
+        }
+      ]
+    },
+    {
+      "code": "CA:ECHG",
+      "display": "Échangeur",
+      "definition": "A highway interchange or junction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Échangeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Intercambiador"
+        }
+      ]
+    },
+    {
+      "code": "CA:ENDS",
+      "display": "End",
+      "definition": "The terminus or conclusion of a street.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bout"
+        },
+        {
+          "language": "es-MX",
+          "value": "Final"
+        }
+      ]
+    },
+    {
+      "code": "CA:ESPL",
+      "display": "Esplanade",
+      "definition": "A level open space or waterfront promenade.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Esplanade"
+        },
+        {
+          "language": "es-MX",
+          "value": "Explanada"
+        }
+      ]
+    },
+    {
+      "code": "CA:ESTA",
+      "display": "Estates",
+      "definition": "A residential development or property subdivision.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Domaines"
+        },
+        {
+          "language": "es-MX",
+          "value": "Residencias"
+        }
+      ]
+    },
+    {
+      "code": "CA:EXPY",
+      "display": "Expressway",
+      "definition": "A high-speed limited-access roadway.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voie rapide"
+        },
+        {
+          "language": "es-MX",
+          "value": "Autopista"
+        }
+      ]
+    },
+    {
+      "code": "CA:EXTN",
+      "display": "Extension",
+      "definition": "A continuation of an existing street.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Extension"
+        },
+        {
+          "language": "es-MX",
+          "value": "Extensión"
+        }
+      ]
+    },
+    {
+      "code": "CA:FARM",
+      "display": "Farm",
+      "definition": "A roadway associated with agricultural property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ferme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Granja"
+        }
+      ]
+    },
+    {
+      "code": "CA:FILD",
+      "display": "Field",
+      "definition": "An open area or meadow.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Champ"
+        },
+        {
+          "language": "es-MX",
+          "value": "Campo"
+        }
+      ]
+    },
+    {
+      "code": "CA:FRST",
+      "display": "Forest",
+      "definition": "A wooded area or tree-lined street.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Forêt"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bosque"
+        }
+      ]
+    },
+    {
+      "code": "CA:FRNT",
+      "display": "Front",
+      "definition": "A street facing the main facade of properties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Front"
+        },
+        {
+          "language": "es-MX",
+          "value": "Frente"
+        }
+      ]
+    },
+    {
+      "code": "CA:FRWY",
+      "display": "Freeway",
+      "definition": "A controlled-access highway without tolls.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autoroute"
+        },
+        {
+          "language": "es-MX",
+          "value": "Autopista"
+        }
+      ]
+    },
+    {
+      "code": "CA:GATE",
+      "display": "Gate",
+      "definition": "An entry point or gated access road.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Porte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Puerta"
+        }
+      ]
+    },
+    {
+      "code": "CA:GDNS",
+      "display": "Gardens",
+      "definition": "A landscaped area or residential development.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Jardins"
+        },
+        {
+          "language": "es-MX",
+          "value": "Jardines"
+        }
+      ]
+    },
+    {
+      "code": "CA:GLAD",
+      "display": "Glade",
+      "definition": "An open space within wooded area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clairière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Claro"
+        }
+      ]
+    },
+    {
+      "code": "CA:GLEN",
+      "display": "Glen",
+      "definition": "A narrow valley or secluded area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vallon"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cañada"
+        }
+      ]
+    },
+    {
+      "code": "CA:GREN",
+      "display": "Green",
+      "definition": "A grassy common area or park.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vert"
+        },
+        {
+          "language": "es-MX",
+          "value": "Verde"
+        }
+      ]
+    },
+    {
+      "code": "CA:GRND",
+      "display": "Grounds",
+      "definition": "An area of land surrounding a building or estate.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrains"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terrenos"
+        }
+      ]
+    },
+    {
+      "code": "CA:GROV",
+      "display": "Grove",
+      "definition": "A small group of trees or wooded area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bosquet"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arboleda"
+        }
+      ]
+    },
+    {
+      "code": "CA:HARB",
+      "display": "Harbour",
+      "definition": "A waterfront area or marina access.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Port"
+        },
+        {
+          "language": "es-MX",
+          "value": "Puerto"
+        }
+      ]
+    },
+    {
+      "code": "CA:HETH",
+      "display": "Heath",
+      "definition": "An open uncultivated land area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lande"
+        },
+        {
+          "language": "es-MX",
+          "value": "Brezal"
+        }
+      ]
+    },
+    {
+      "code": "CA:HGHL",
+      "display": "Highlands",
+      "definition": "An elevated or mountainous area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hautes-terres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tierras Altas"
+        }
+      ]
+    },
+    {
+      "code": "CA:HILL",
+      "display": "Hill",
+      "definition": "An elevated landform or slope.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Colline"
+        },
+        {
+          "language": "es-MX",
+          "value": "Colina"
+        }
+      ]
+    },
+    {
+      "code": "CA:HOLL",
+      "display": "Hollow",
+      "definition": "A small valley or depression.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Creux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hondonada"
+        }
+      ]
+    },
+    {
+      "code": "CA:HGTS",
+      "display": "Heights",
+      "definition": "An elevated residential area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hauteurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alturas"
+        }
+      ]
+    },
+    {
+      "code": "CA:HWAY",
+      "display": "Highway",
+      "definition": "A major public roadway.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Route"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carretera"
+        }
+      ]
+    },
+    {
+      "code": "CA:ISLE",
+      "display": "Île",
+      "definition": "An island or isolated area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Île"
+        },
+        {
+          "language": "es-MX",
+          "value": "Isla"
+        }
+      ]
+    },
+    {
+      "code": "CA:IMPS",
+      "display": "Impasse",
+      "definition": "A dead-end street or passage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Impasse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Callejón sin salida"
+        }
+      ]
+    },
+    {
+      "code": "CA:INLT",
+      "display": "Inlet",
+      "definition": "A narrow water passage or recess.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Anse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ensenada"
+        }
+      ]
+    },
+    {
+      "code": "CA:ISLD",
+      "display": "Island",
+      "definition": "A landmass surrounded by water.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Île"
+        },
+        {
+          "language": "es-MX",
+          "value": "Isla"
+        }
+      ]
+    },
+    {
+      "code": "CA:KEYS",
+      "display": "Key",
+      "definition": "A low-lying island or reef.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cayo"
+        }
+      ]
+    },
+    {
+      "code": "CA:KNOL",
+      "display": "Knoll",
+      "definition": "A small rounded hill.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Butte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Loma"
+        }
+      ]
+    },
+    {
+      "code": "CA:LAND",
+      "display": "Landing",
+      "definition": "A place where boats dock or a stairway platform.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Débarcadère"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desembarcadero"
+        }
+      ]
+    },
+    {
+      "code": "CA:LANE",
+      "display": "Lane",
+      "definition": "A narrow roadway or passage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carril"
+        }
+      ]
+    },
+    {
+      "code": "CA:LINE",
+      "display": "Line",
+      "definition": "A rural road following property lines.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ligne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Línea"
+        }
+      ]
+    },
+    {
+      "code": "CA:LINK",
+      "display": "Link",
+      "definition": "A connecting roadway between two streets.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Liaison"
+        },
+        {
+          "language": "es-MX",
+          "value": "Enlace"
+        }
+      ]
+    },
+    {
+      "code": "CA:LKOT",
+      "display": "Lookout",
+      "definition": "A viewpoint or observation area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Belvédère"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mirador"
+        }
+      ]
+    },
+    {
+      "code": "CA:LMIT",
+      "display": "Limits",
+      "definition": "A boundary or border area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Limites"
+        },
+        {
+          "language": "es-MX",
+          "value": "Límites"
+        }
+      ]
+    },
+    {
+      "code": "CA:LOOP",
+      "display": "Loop",
+      "definition": "A circular or returning roadway.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boucle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Circuito"
+        }
+      ]
+    },
+    {
+      "code": "CA:MALL",
+      "display": "Mall",
+      "definition": "A pedestrian shopping area or promenade.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Centro Comercial"
+        }
+      ]
+    },
+    {
+      "code": "CA:MANR",
+      "display": "Manor",
+      "definition": "A residential estate or large property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Manoir"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mansión"
+        }
+      ]
+    },
+    {
+      "code": "CA:MAZE",
+      "display": "Maze",
+      "definition": "A complex network of paths.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Labyrinthe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Laberinto"
+        }
+      ]
+    },
+    {
+      "code": "CA:MEDW",
+      "display": "Meadow",
+      "definition": "A grassland or open field area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pradera"
+        }
+      ]
+    },
+    {
+      "code": "CA:MEWS",
+      "display": "Mews",
+      "definition": "A row of houses converted from stables.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ruelle résidentielle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Callejuela"
+        }
+      ]
+    },
+    {
+      "code": "CA:MONT",
+      "display": "Montée",
+      "definition": "An ascending roadway or climb.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Montée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Subida"
+        }
+      ]
+    },
+    {
+      "code": "CA:MOOR",
+      "display": "Moor",
+      "definition": "An open uncultivated upland.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lande"
+        },
+        {
+          "language": "es-MX",
+          "value": "Páramo"
+        }
+      ]
+    },
+    {
+      "code": "CA:MNT",
+      "display": "Mount",
+      "definition": "A mountain or prominent hill.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mont"
+        },
+        {
+          "language": "es-MX",
+          "value": "Monte"
+        }
+      ]
+    },
+    {
+      "code": "CA:MNTN",
+      "display": "Mountain",
+      "definition": "A large elevated landform.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Montagne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Montaña"
+        }
+      ]
+    },
+    {
+      "code": "CA:ORCH",
+      "display": "Orchard",
+      "definition": "A fruit tree plantation or grove.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Verger"
+        },
+        {
+          "language": "es-MX",
+          "value": "Huerto"
+        }
+      ]
+    },
+    {
+      "code": "CA:PARD",
+      "display": "Parade",
+      "definition": "A ceremonial route or promenade.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Parade"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desfile"
+        }
+      ]
+    },
+    {
+      "code": "CA:PARC",
+      "display": "Parc",
+      "definition": "A public park or green space.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Parc"
+        },
+        {
+          "language": "es-MX",
+          "value": "Parque"
+        }
+      ]
+    },
+    {
+      "code": "CA:PASS",
+      "display": "Passage",
+      "definition": "A narrow walkway or corridor.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Passage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pasaje"
+        }
+      ]
+    },
+    {
+      "code": "CA:PATH",
+      "display": "Path",
+      "definition": "A walkway or trail.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sentier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sendero"
+        }
+      ]
+    },
+    {
+      "code": "CA:PINE",
+      "display": "Pines",
+      "definition": "An area with pine trees.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pins"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pinos"
+        }
+      ]
+    },
+    {
+      "code": "CA:PARK",
+      "display": "Park",
+      "definition": "A public recreational area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Parc"
+        },
+        {
+          "language": "es-MX",
+          "value": "Parque"
+        }
+      ]
+    },
+    {
+      "code": "CA:PKWY",
+      "display": "Parkway",
+      "definition": "A landscaped roadway with recreational access.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promenade"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vía Parque"
+        }
+      ]
+    },
+    {
+      "code": "CA:PLEN",
+      "display": "Place (English)",
+      "definition": "A short street or open square (English designation).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Place"
+        },
+        {
+          "language": "es-MX",
+          "value": "Plaza"
+        }
+      ]
+    },
+    {
+      "code": "CA:PLFR",
+      "display": "Place (French)",
+      "definition": "A public square or plaza (French designation).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Place"
+        },
+        {
+          "language": "es-MX",
+          "value": "Plaza"
+        }
+      ]
+    },
+    {
+      "code": "CA:PLAT",
+      "display": "Plateau",
+      "definition": "A flat elevated area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plateau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Meseta"
+        }
+      ]
+    },
+    {
+      "code": "CA:PLZA",
+      "display": "Plaza",
+      "definition": "A public square or marketplace.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plaza"
+        },
+        {
+          "language": "es-MX",
+          "value": "Plaza"
+        }
+      ]
+    },
+    {
+      "code": "CA:PNTE",
+      "display": "Pointe",
+      "definition": "A pointed or projecting landform.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pointe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Punta"
+        }
+      ]
+    },
+    {
+      "code": "CA:PORT",
+      "display": "Port",
+      "definition": "A harbor or maritime facility.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Port"
+        },
+        {
+          "language": "es-MX",
+          "value": "Puerto"
+        }
+      ]
+    },
+    {
+      "code": "CA:PROM",
+      "display": "Promenade",
+      "definition": "A public walkway, especially along a waterfront.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promenade"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paseo"
+        }
+      ]
+    },
+    {
+      "code": "CA:POIN",
+      "display": "Point",
+      "definition": "A projecting piece of land.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pointe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Punto"
+        }
+      ]
+    },
+    {
+      "code": "CA:PTWY",
+      "display": "Pathway",
+      "definition": "A pedestrian walkway or trail.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sentier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sendero"
+        }
+      ]
+    },
+    {
+      "code": "CA:PRVT",
+      "display": "Private",
+      "definition": "A privately owned roadway.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Privé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Privado"
+        }
+      ]
+    },
+    {
+      "code": "CA:QUAI",
+      "display": "Quai",
+      "definition": "A wharf or waterfront platform.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Quai"
+        },
+        {
+          "language": "es-MX",
+          "value": "Muelle"
+        }
+      ]
+    },
+    {
+      "code": "CA:QUAY",
+      "display": "Quay",
+      "definition": "A stone or concrete wharf.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Quai"
+        },
+        {
+          "language": "es-MX",
+          "value": "Muelle"
+        }
+      ]
+    },
+    {
+      "code": "CA:RAMP",
+      "display": "Ramp",
+      "definition": "An inclined roadway for access or egress.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rampe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rampa"
+        }
+      ]
+    },
+    {
+      "code": "CA:RANG",
+      "display": "Rang",
+      "definition": "A rural road in Quebec's seigneurial system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rang"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hilera"
+        }
+      ]
+    },
+    {
+      "code": "CA:ROAD",
+      "display": "Road",
+      "definition": "A general purpose thoroughfare.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Route"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camino"
+        }
+      ]
+    },
+    {
+      "code": "CA:RDPT",
+      "display": "Rond-point",
+      "definition": "A circular intersection or roundabout.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rond-point"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rotonda"
+        }
+      ]
+    },
+    {
+      "code": "CA:RNGE",
+      "display": "Range",
+      "definition": "A series of mountains or rural road designation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rang"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cordillera"
+        }
+      ]
+    },
+    {
+      "code": "CA:RIDG",
+      "display": "Ridge",
+      "definition": "An elongated elevated landform.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Crête"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cresta"
+        }
+      ]
+    },
+    {
+      "code": "CA:RISE",
+      "display": "Rise",
+      "definition": "An upward slope or elevation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Montée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Elevación"
+        }
+      ]
+    },
+    {
+      "code": "CA:RUEL",
+      "display": "Ruelle",
+      "definition": "A narrow lane or alleyway.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ruelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Callejón"
+        }
+      ]
+    },
+    {
+      "code": "CA:ROWS",
+      "display": "Row",
+      "definition": "A line of houses or buildings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rangée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hilera"
+        }
+      ]
+    },
+    {
+      "code": "CA:ROUT",
+      "display": "Route",
+      "definition": "A designated roadway or course.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Route"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ruta"
+        }
+      ]
+    },
+    {
+      "code": "CA:RUES",
+      "display": "Rue",
+      "definition": "A street (French designation).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Calle"
+        }
+      ]
+    },
+    {
+      "code": "CA:RUNS",
+      "display": "Run",
+      "definition": "A small stream or watercourse.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ruisseau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arroyo"
+        }
+      ]
+    },
+    {
+      "code": "CA:SENT",
+      "display": "Sentier",
+      "definition": "A path or trail.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sentier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sendero"
+        }
+      ]
+    },
+    {
+      "code": "CA:SQUA",
+      "display": "Square",
+      "definition": "An open public space or plaza.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Place"
+        },
+        {
+          "language": "es-MX",
+          "value": "Plaza"
+        }
+      ]
+    },
+    {
+      "code": "CA:STRE",
+      "display": "Street",
+      "definition": "A public roadway in an urban area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Calle"
+        }
+      ]
+    },
+    {
+      "code": "CA:SUBD",
+      "display": "Subdivision",
+      "definition": "A residential land division.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Subdivision"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fraccionamiento"
+        }
+      ]
+    },
+    {
+      "code": "CA:TERR",
+      "display": "Terrace",
+      "definition": "A raised level platform or row of houses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrasse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terraza"
+        }
+      ]
+    },
+    {
+      "code": "CA:TICK",
+      "display": "Thicket",
+      "definition": "A dense growth of shrubs or small trees.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fourré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Matorral"
+        }
+      ]
+    },
+    {
+      "code": "CA:TLIN",
+      "display": "Townline",
+      "definition": "A boundary road between townships.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ligne de canton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Límite municipal"
+        }
+      ]
+    },
+    {
+      "code": "CA:TOWR",
+      "display": "Towers",
+      "definition": "A tall residential or commercial building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tours"
+        },
+        {
+          "language": "es-MX",
+          "value": "Torres"
+        }
+      ]
+    },
+    {
+      "code": "CA:TRAL",
+      "display": "Trail",
+      "definition": "A path or unpaved track.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sentier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sendero"
+        }
+      ]
+    },
+    {
+      "code": "CA:TRNA",
+      "display": "Turnabout",
+      "definition": "A circular turnaround area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Demi-tour"
+        },
+        {
+          "language": "es-MX",
+          "value": "Retorno"
+        }
+      ]
+    },
+    {
+      "code": "CA:TSSE",
+      "display": "Terrasse",
+      "definition": "A raised platform or terrace (French designation).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrasse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terraza"
+        }
+      ]
+    },
+    {
+      "code": "CA:VALE",
+      "display": "Vale",
+      "definition": "A valley or low area between hills.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vallée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Valle"
+        }
+      ]
+    },
+    {
+      "code": "CA:VIAS",
+      "display": "Via",
+      "definition": "A route or way.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Via"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vía"
+        }
+      ]
+    },
+    {
+      "code": "CA:VIEW",
+      "display": "View",
+      "definition": "A scenic lookout or vista point.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vista"
+        }
+      ]
+    },
+    {
+      "code": "CA:VILS",
+      "display": "Villas",
+      "definition": "A residential development of houses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Villas"
+        },
+        {
+          "language": "es-MX",
+          "value": "Villas"
+        }
+      ]
+    },
+    {
+      "code": "CA:VLGE",
+      "display": "Village",
+      "definition": "A small settlement or community.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Village"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pueblo"
+        }
+      ]
+    },
+    {
+      "code": "CA:VIST",
+      "display": "Vista",
+      "definition": "A scenic view or outlook.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Panorama"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vista"
+        }
+      ]
+    },
+    {
+      "code": "CA:VOIE",
+      "display": "Voie",
+      "definition": "A roadway or lane.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vía"
+        }
+      ]
+    },
+    {
+      "code": "CA:WALK",
+      "display": "Walk",
+      "definition": "A pedestrian pathway.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Promenade"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paseo"
+        }
+      ]
+    },
+    {
+      "code": "CA:WAYS",
+      "display": "Way",
+      "definition": "A road or path.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camino"
+        }
+      ]
+    },
+    {
+      "code": "CA:WHRF",
+      "display": "Wharf",
+      "definition": "A structure for loading and unloading ships.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Quai"
+        },
+        {
+          "language": "es-MX",
+          "value": "Muelle"
+        }
+      ]
+    },
+    {
+      "code": "CA:WOOD",
+      "display": "Wood",
+      "definition": "A forested area or grove.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bosque"
+        }
+      ]
+    },
+    {
+      "code": "CA:WYND",
+      "display": "Wynd",
+      "definition": "A narrow lane or alley.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Venelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Callejuela"
+        }
+      ]
+    },
+    {
+      "code": "CA:ACCS",
+      "display": "Access",
+      "definition": "An entry point or approach road.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accès"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acceso"
+        }
+      ]
+    },
+    {
+      "code": "CA:ACRE",
+      "display": "Acre",
+      "definition": "A land measurement designation in street names.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acre"
+        }
+      ]
+    },
+    {
+      "code": "CA:AIRE",
+      "display": "Aire",
+      "definition": "An area or zone.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Área"
+        }
+      ]
+    },
+    {
+      "code": "CA:BAIE",
+      "display": "Baie",
+      "definition": "A bay or curved waterfront area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Baie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bahía"
+        }
+      ]
+    },
+    {
+      "code": "CA:BARG",
+      "display": "Barage",
+      "definition": "A dam or barrier structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Barrage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Presa"
+        }
+      ]
+    },
+    {
+      "code": "CA:BLOC",
+      "display": "Bloc",
+      "definition": "A building block or section.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bloc"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bloque"
+        }
+      ]
+    },
+    {
+      "code": "CA:BLOK",
+      "display": "Block",
+      "definition": "A city block or section of buildings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pâté de maisons"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cuadra"
+        }
+      ]
+    },
+    {
+      "code": "CA:BLUF",
+      "display": "Bluff",
+      "definition": "A steep cliff or headland.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Falaise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acantilado"
+        }
+      ]
+    },
+    {
+      "code": "CA:BLFS",
+      "display": "Bluffs",
+      "definition": "Multiple steep cliffs or headlands.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Falaises"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acantilados"
+        }
+      ]
+    },
+    {
+      "code": "CA:BRAN",
+      "display": "Branch",
+      "definition": "A tributary or diverging roadway.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Embranchement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ramal"
+        }
+      ]
+    },
+    {
+      "code": "CA:BRET",
+      "display": "Bretelle",
+      "definition": "An on-ramp or off-ramp.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bretelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ramal de acceso"
+        }
+      ]
+    },
+    {
+      "code": "CA:BRDG",
+      "display": "Bridge",
+      "definition": "A structure spanning a waterway or gap.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pont"
+        },
+        {
+          "language": "es-MX",
+          "value": "Puente"
+        }
+      ]
+    },
+    {
+      "code": "CA:BROK",
+      "display": "Brook",
+      "definition": "A small stream or creek.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ruisseau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arroyo"
+        }
+      ]
+    },
+    {
+      "code": "CA:BURR",
+      "display": "Burrow",
+      "definition": "A tunnel or underground passage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Madriguera"
+        }
+      ]
+    },
+    {
+      "code": "CA:CAPS",
+      "display": "Cap",
+      "definition": "A cape or headland.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cap"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cabo"
+        }
+      ]
+    },
+    {
+      "code": "CA:CRST",
+      "display": "Crest",
+      "definition": "A ridgeline or summit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Crête"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cresta"
+        }
+      ]
+    },
+    {
+      "code": "CA:CRFT",
+      "display": "Croft",
+      "definition": "A small enclosed field or farm.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Petite ferme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pequeña granja"
+        }
+      ]
+    },
+    {
+      "code": "CA:CRSR",
+      "display": "Crossroads",
+      "definition": "An intersection of two or more roads.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Carrefour"
+        },
+        {
+          "language": "es-MX",
+          "value": "Encrucijada"
+        }
+      ]
+    },
+    {
+      "code": "CA:CURV",
+      "display": "Curve",
+      "definition": "A curved section of roadway.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courbe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Curva"
+        }
+      ]
+    },
+    {
+      "code": "CA:DESS",
+      "display": "Desserte",
+      "definition": "A service road or access route.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Desserte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vía de servicio"
+        }
+      ]
+    },
+    {
+      "code": "CA:DRWY",
+      "display": "Driveway",
+      "definition": "A private vehicle access to a property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entrée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entrada"
+        }
+      ]
+    },
+    {
+      "code": "CA:DRPS",
+      "display": "Droitdepassage",
+      "definition": "A right-of-way or easement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Droit de passage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Derecho de paso"
+        }
+      ]
+    },
+    {
+      "code": "CA:GTWY",
+      "display": "Gateway",
+      "definition": "An entrance or portal.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Portail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entrada"
+        }
+      ]
+    },
+    {
+      "code": "CA:HAVN",
+      "display": "Haven",
+      "definition": "A safe harbor or sheltered area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Havre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Refugio"
+        }
+      ]
+    },
+    {
+      "code": "CA:HGHT",
+      "display": "Height",
+      "definition": "An elevated area or summit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hauteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Altura"
+        }
+      ]
+    },
+    {
+      "code": "CA:LNWY",
+      "display": "Laneway",
+      "definition": "A narrow roadway or service lane.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ruelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Callejuela"
+        }
+      ]
+    },
+    {
+      "code": "CA:MIKN",
+      "display": "Mikan",
+      "definition": "An Indigenous road designation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mikan"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mikan"
+        }
+      ]
+    },
+    {
+      "code": "CA:PEAK",
+      "display": "Peak",
+      "definition": "A mountain summit or highest point.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pic"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pico"
+        }
+      ]
+    },
+    {
+      "code": "CA:RECH",
+      "display": "Reach",
+      "definition": "A straight section of waterway or road.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bief"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tramo"
+        }
+      ]
+    },
+    {
+      "code": "CA:RTWY",
+      "display": "Rightofway",
+      "definition": "A legal easement for passage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Droit de passage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Derecho de vía"
+        }
+      ]
+    },
+    {
+      "code": "CA:RIVE",
+      "display": "Rive",
+      "definition": "A riverbank or shore.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rive"
+        },
+        {
+          "language": "es-MX",
+          "value": "Orilla"
+        }
+      ]
+    },
+    {
+      "code": "CA:RUIS",
+      "display": "Ruisseau",
+      "definition": "A stream or brook.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ruisseau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Riachuelo"
+        }
+      ]
+    },
+    {
+      "code": "CA:SECT",
+      "display": "Section",
+      "definition": "A designated area or district.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Section"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sección"
+        }
+      ]
+    },
+    {
+      "code": "CA:SDRD",
+      "display": "SideRoad",
+      "definition": "A secondary road branching from a main road.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Route latérale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camino lateral"
+        }
+      ]
+    },
+    {
+      "code": "CA:STRL",
+      "display": "Stroll",
+      "definition": "A leisurely walking path.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Balade"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paseo"
+        }
+      ]
+    },
+    {
+      "code": "CA:SUMT",
+      "display": "Summit",
+      "definition": "The highest point of a mountain or hill.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sommet"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cumbre"
+        }
+      ]
+    },
+    {
+      "code": "CA:TILI",
+      "display": "Tili",
+      "definition": "An Indigenous road designation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tili"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tili"
+        }
+      ]
+    },
+    {
+      "code": "CA:TRAC",
+      "display": "Trace",
+      "definition": "A faint path or trail.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trace"
+        },
+        {
+          "language": "es-MX",
+          "value": "Traza"
+        }
+      ]
+    },
+    {
+      "code": "CA:TRNK",
+      "display": "Trunk",
+      "definition": "A main transportation corridor.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tronçon"
+        },
+        {
+          "language": "es-MX",
+          "value": "Troncal"
+        }
+      ]
+    },
+    {
+      "code": "CA:UNIO",
+      "display": "Union",
+      "definition": "A junction or convergence point.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Union"
+        },
+        {
+          "language": "es-MX",
+          "value": "Unión"
+        }
+      ]
+    }
+  ]
+}

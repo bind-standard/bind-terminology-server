@@ -1,0 +1,1151 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "PolicyType",
+  "url": "https://bind.codes/PolicyType",
+  "name": "PolicyType",
+  "title": "Policy Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Policy Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "HOLF",
+      "display": "Homeowners Limited Form",
+      "definition": "A basic level of coverage for owner-occupied residential properties with named perils protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des propriétaires occupants - Formule abrégée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de propietarios - Formulario limitado"
+        }
+      ]
+    },
+    {
+      "code": "HOSF",
+      "display": "Homeowners Standard Form",
+      "definition": "A mid-level coverage form for owner-occupied homes providing broader protection than limited form.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des propriétaires occupants - Formule standard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de propietarios - Formulario estándar"
+        }
+      ]
+    },
+    {
+      "code": "HOSE",
+      "display": "Homeowners Standard Expanded Form",
+      "definition": "An enhanced version of the standard form with additional coverages or higher limits.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des propriétaires occupants - Formule standard augmentée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de propietarios - Formulario estándar ampliado"
+        }
+      ]
+    },
+    {
+      "code": "HOBF",
+      "display": "Homeowners Broad Form",
+      "definition": "A comprehensive coverage level for owner-occupied residences with extended perils coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des propriétaires occupants - Formule étendue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de propietarios - Formulario amplio"
+        }
+      ]
+    },
+    {
+      "code": "HOCF",
+      "display": "Homeowners Comprehensive Form",
+      "definition": "The most extensive coverage form for owner-occupied homes, typically providing all-risk protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des propriétaires occupants - Formule générale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de propietarios - Formulario integral"
+        }
+      ]
+    },
+    {
+      "code": "HOCE",
+      "display": "Homeowners Comprehensive Expanded Form",
+      "definition": "An enhanced comprehensive form with additional coverage extensions beyond the standard comprehensive form.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des propriétaires occupants - Formule générale augmentée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de propietarios - Formulario integral ampliado"
+        }
+      ]
+    },
+    {
+      "code": "HOMP",
+      "display": "Homeowners Insurance Minimum + Protection",
+      "definition": "A minimum coverage package with basic protection features for owner-occupied dwellings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des propriétaires occupants - Minimum + Protection"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de propietarios - Mínimo + Protección"
+        }
+      ]
+    },
+    {
+      "code": "HOOT",
+      "display": "Homeowners Form – Other",
+      "definition": "A homeowners form type that does not fit standard categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire d'assurance des propriétaires occupants - Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de propietarios - Otro formulario"
+        }
+      ]
+    },
+    {
+      "code": "TPLF",
+      "display": "Tenants Package Limited Form",
+      "definition": "A basic coverage package for renters protecting personal property and liability with named perils.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police multirisque des locataires - formule abrégée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de inquilinos - Formulario limitado"
+        }
+      ]
+    },
+    {
+      "code": "TPSF",
+      "display": "Tenants Package Standard Form",
+      "definition": "A standard level coverage for renters with broader protection than limited form.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police multirisque des locataires - formule standard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de inquilinos - Formulario estándar"
+        }
+      ]
+    },
+    {
+      "code": "TPBF",
+      "display": "Tenants Package Broad Form",
+      "definition": "An extensive coverage form for renters offering enhanced protection for contents and liability.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police multirisque des locataires - formule étendue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de inquilinos - Formulario amplio"
+        }
+      ]
+    },
+    {
+      "code": "TNCF",
+      "display": "Tenants Comprehensive Form",
+      "definition": "The most comprehensive coverage for renters, typically providing all-risk protection for personal property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des locataires - Formule générale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de inquilinos - Formulario integral"
+        }
+      ]
+    },
+    {
+      "code": "TNCE",
+      "display": "Tenants Comprehensive Expanded Form",
+      "definition": "An enhanced comprehensive tenants form with additional coverage extensions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des locataires - Formule générale augmentée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de inquilinos - Formulario integral ampliado"
+        }
+      ]
+    },
+    {
+      "code": "TNSP",
+      "display": "Tenants Seniors Package",
+      "definition": "A tailored coverage package designed for senior renters with age-appropriate features.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police multirisque des locataires - formule des aînés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de inquilinos - Paquete para personas mayores"
+        }
+      ]
+    },
+    {
+      "code": "TNOT",
+      "display": "Tenants Form – Other",
+      "definition": "A tenants form type that does not fit standard categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire d'assurance des locataires - Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de inquilinos - Otro formulario"
+        }
+      ]
+    },
+    {
+      "code": "CPLF",
+      "display": "Condominium Package Limited Form",
+      "definition": "A basic coverage package for condominium unit owners protecting improvements and personal property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police multirisque des copropriétaires - formule abrégée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de condominio - Formulario limitado"
+        }
+      ]
+    },
+    {
+      "code": "CPSF",
+      "display": "Condominium Package Standard Form",
+      "definition": "A standard level coverage for condominium owners with broader protection features.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police multirisque des copropriétaires - formule standard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de condominio - Formulario estándar"
+        }
+      ]
+    },
+    {
+      "code": "CPBF",
+      "display": "Condominium Package Broad Form",
+      "definition": "An extensive coverage form for condo owners offering enhanced protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police multirisque des copropriétaires - formule étendue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de condominio - Formulario amplio"
+        }
+      ]
+    },
+    {
+      "code": "CNCF",
+      "display": "Comprehensive Condominium Form",
+      "definition": "The most comprehensive coverage for condominium unit owners with all-risk protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des copropriétaires - formule générale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de condominio - Formulario integral"
+        }
+      ]
+    },
+    {
+      "code": "CNCE",
+      "display": "Condominium Comprehensive Expanded Form",
+      "definition": "An enhanced comprehensive condominium form with additional coverage extensions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des copropriétaires - formule générale augmentée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de condominio - Formulario integral ampliado"
+        }
+      ]
+    },
+    {
+      "code": "CNSD",
+      "display": "Condominium Unit Owners- Seasonal Dwelling",
+      "definition": "A specialized form for condominium units used seasonally rather than as primary residences.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copropriétaires - Habitation saisonnière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propietarios de condominios - Vivienda estacional"
+        }
+      ]
+    },
+    {
+      "code": "CNOT",
+      "display": "Condominium Form – Other",
+      "definition": "A condominium form type that does not fit standard categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire d'assurance des copropriétaires - Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de condominio - Otro formulario"
+        }
+      ]
+    },
+    {
+      "code": "MHLF",
+      "display": "Mobile Home Limited Form",
+      "definition": "A basic coverage package for manufactured or mobile homes with named perils protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des maisons mobiles - formule abrégée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de casa móvil - Formulario limitado"
+        }
+      ]
+    },
+    {
+      "code": "MHSF",
+      "display": "Mobile Home Standard Form",
+      "definition": "A standard level coverage for mobile homes with broader protection than limited form.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des maisons mobiles - formule standard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de casa móvil - Formulario estándar"
+        }
+      ]
+    },
+    {
+      "code": "MHBF",
+      "display": "Mobile Home Broad Form",
+      "definition": "An extensive coverage form for mobile homes offering enhanced peril protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des maisons mobiles - formule étendue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de casa móvil - Formulario amplio"
+        }
+      ]
+    },
+    {
+      "code": "MHCF",
+      "display": "Mobile Home Comprehensive Form",
+      "definition": "The most comprehensive coverage for mobile homes with all-risk protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des maisons mobiles - formule générale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de casa móvil - Formulario integral"
+        }
+      ]
+    },
+    {
+      "code": "MHOT",
+      "display": "Mobile Home Form – Other",
+      "definition": "A mobile home form type that does not fit standard categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire d'assurance des maisons mobiles - Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de casa móvil - Otro formulario"
+        }
+      ]
+    },
+    {
+      "code": "SDLF",
+      "display": "Seasonal Dwelling Limited Form",
+      "definition": "A basic coverage package for properties occupied only part of the year, such as cottages or cabins.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des habitations saisonnières - formule abrégée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de vivienda estacional - Formulario limitado"
+        }
+      ]
+    },
+    {
+      "code": "SDSF",
+      "display": "Seasonal Dwelling Standard Form",
+      "definition": "A standard level coverage for seasonal properties with broader protection features.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des habitations saisonnières - formule standard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de vivienda estacional - Formulario estándar"
+        }
+      ]
+    },
+    {
+      "code": "SDBF",
+      "display": "Seasonal Dwelling Broad Form",
+      "definition": "An extensive coverage form for seasonal dwellings with enhanced protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des habitations saisonnières - formule étendue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de vivienda estacional - Formulario amplio"
+        }
+      ]
+    },
+    {
+      "code": "SDCF",
+      "display": "Seasonal Dwelling Comprehensive Form",
+      "definition": "The most comprehensive coverage for seasonal dwellings with all-risk protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des habitations saisonnières - formule générale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de vivienda estacional - Formulario integral"
+        }
+      ]
+    },
+    {
+      "code": "SDOT",
+      "display": "Seasonal Dwelling Form – Other",
+      "definition": "A seasonal dwelling form type that does not fit standard categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire d'assurance des habitations saisonnières - Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de vivienda estacional - Otro formulario"
+        }
+      ]
+    },
+    {
+      "code": "SHLF",
+      "display": "Secondary Homeowner's Limited Form",
+      "definition": "A basic coverage package for non-primary residences owned but not occupied year-round.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des résidences secondaires - formule abrégée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de segunda vivienda - Formulario limitado"
+        }
+      ]
+    },
+    {
+      "code": "SHSF",
+      "display": "Secondary Homeowner's Standard Form",
+      "definition": "A standard level coverage for secondary homes with broader protection features.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des résidences secondaires - formule standard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de segunda vivienda - Formulario estándar"
+        }
+      ]
+    },
+    {
+      "code": "SHBF",
+      "display": "Secondary Homeowner's Broad Form",
+      "definition": "An extensive coverage form for secondary residences with enhanced protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des résidences secondaires - formule étendue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de segunda vivienda - Formulario amplio"
+        }
+      ]
+    },
+    {
+      "code": "SHCF",
+      "display": "Secondary Homeowner's Comprehensive Form",
+      "definition": "The most comprehensive coverage for secondary homes with all-risk protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des résidences secondaires - formule générale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de segunda vivienda - Formulario integral"
+        }
+      ]
+    },
+    {
+      "code": "SHOT",
+      "display": "Secondary Homeowner's Form – Other",
+      "definition": "A secondary homeowner form type that does not fit standard categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire d'assurance des résidences secondaires - Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de segunda vivienda - Otro formulario"
+        }
+      ]
+    },
+    {
+      "code": "RDLF",
+      "display": "Rented Dwelling Limited Form",
+      "definition": "A basic coverage package for landlords covering rental properties with named perils protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des habitations louées - formule abrégée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de vivienda en alquiler - Formulario limitado"
+        }
+      ]
+    },
+    {
+      "code": "RDSF",
+      "display": "Rented Dwelling Standard Form",
+      "definition": "A standard level coverage for landlords with broader protection for rental properties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des habitations louées - formule standard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de vivienda en alquiler - Formulario estándar"
+        }
+      ]
+    },
+    {
+      "code": "RDBF",
+      "display": "Rented Dwelling Broad Form",
+      "definition": "An extensive coverage form for rental properties with enhanced landlord protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des habitations louées - formule étendue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de vivienda en alquiler - Formulario amplio"
+        }
+      ]
+    },
+    {
+      "code": "RDCF",
+      "display": "Rented Dwelling Comprehensive Form",
+      "definition": "The most comprehensive coverage for rental properties with all-risk protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des habitations louées - formule générale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de vivienda en alquiler - Formulario integral"
+        }
+      ]
+    },
+    {
+      "code": "RDOT",
+      "display": "Rented Dwelling Form – Other",
+      "definition": "A rented dwelling form type that does not fit standard categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire d'assurance des habitations louées - Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de vivienda en alquiler - Otro formulario"
+        }
+      ]
+    },
+    {
+      "code": "BRFE",
+      "display": "Basic Residential (Fire & E.C. Form)",
+      "definition": "A basic residential coverage form providing fire protection and extended coverage for additional perils.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance habitation de base (formulaire Incendie & garanties annexes)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Residencial básico (Formulario de incendios y cobertura extendida)"
+        }
+      ]
+    },
+    {
+      "code": "HOMF",
+      "display": "Homeowner's Form",
+      "definition": "A general homeowner's form without specific categorization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire d'assurance des propriétaires occupants"
+        },
+        {
+          "language": "es-MX",
+          "value": "Formulario de propietario de vivienda"
+        }
+      ]
+    },
+    {
+      "code": "PPRF",
+      "display": "Personal Property Form",
+      "definition": "Coverage specifically for personal belongings and contents without dwelling coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire d'assurance des biens meubles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Formulario de bienes personales"
+        }
+      ]
+    },
+    {
+      "code": "TVTF",
+      "display": "Travel/Vacation Trailer Form",
+      "definition": "Coverage for recreational vehicles used for travel or vacation purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire d'assurance autocaravane/caravane de voyage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Formulario de tráiler de viaje/vacaciones"
+        }
+      ]
+    },
+    {
+      "code": "PWCF",
+      "display": "Personal Watercraft Form",
+      "definition": "Coverage for boats, jet skis, and other personal watercraft.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire d'assurance des bateaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Formulario de embarcaciones personales"
+        }
+      ]
+    },
+    {
+      "code": "BRLF",
+      "display": "Basic Residential Form",
+      "definition": "A basic level residential property coverage form.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire d'assurance habitation de base"
+        },
+        {
+          "language": "es-MX",
+          "value": "Formulario residencial básico"
+        }
+      ]
+    },
+    {
+      "code": "CMLF",
+      "display": "Comprehensive Liability Form",
+      "definition": "A comprehensive liability coverage form providing broad protection against third-party claims.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité civile - formule générale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Formulario de responsabilidad integral"
+        }
+      ]
+    },
+    {
+      "code": "PUBL",
+      "display": "Personal Umbrella Liability",
+      "definition": "Additional liability coverage providing protection above underlying liability limits.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité civile des particuliers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad personal paraguas"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "EMTF",
+      "display": "Emergency Medical Travel Insurance Form",
+      "definition": "Coverage for emergency medical expenses incurred while traveling.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire d'assurance voyage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Formulario de seguro de viaje médico de emergencia"
+        }
+      ]
+    },
+    {
+      "code": "HOBE",
+      "display": "Homeowners Broad Expanded Form",
+      "definition": "An enhanced broad form for owner-occupied homes with additional coverage extensions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des propriétaires occupants - Formule étendue augmentée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de propietarios - Formulario amplio ampliado"
+        }
+      ]
+    },
+    {
+      "code": "HOBR",
+      "display": "Homeowners Broad Reverse Form",
+      "definition": "A broad form with reverse onus coverage where all perils are covered unless specifically excluded.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des propriétaires occupants - Formule étendue renversée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de propietarios - Formulario amplio inverso"
+        }
+      ]
+    },
+    {
+      "code": "HORE",
+      "display": "Homeowners Broad Reverse Expanded Form",
+      "definition": "An enhanced reverse coverage form combining broad reverse protection with additional extensions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des propriétaires occupants - Formule étendue augmentée renversée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de propietarios - Formulario amplio inverso ampliado"
+        }
+      ]
+    },
+    {
+      "code": "TPBE",
+      "display": "Tenants Package Broad Expanded",
+      "definition": "An enhanced broad tenants package with additional coverage extensions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police multirisque des locataires - formule étendue augmentée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de inquilinos - Paquete amplio ampliado"
+        }
+      ]
+    },
+    {
+      "code": "CNBE",
+      "display": "Condominium Broad Expanded Form",
+      "definition": "An enhanced broad condominium form with additional coverage extensions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des copropriétaires - formule étendue augmentée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de condominio - Formulario amplio ampliado"
+        }
+      ]
+    },
+    {
+      "code": "CNSE",
+      "display": "Condominium Standard Expanded Form",
+      "definition": "An enhanced standard condominium form with additional coverage features.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des copropriétaires - formule standard augmentée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de condominio - Formulario estándar ampliado"
+        }
+      ]
+    },
+    {
+      "code": "RCND",
+      "display": "Rented Condominium Form",
+      "definition": "Coverage for condominium units that are rented out to tenants.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire pour copropriété en location"
+        },
+        {
+          "language": "es-MX",
+          "value": "Formulario de condominio en alquiler"
+        }
+      ]
+    },
+    {
+      "code": "RCLF",
+      "display": "Rented Condominium - Limited Form",
+      "definition": "A basic coverage form for landlords renting out condominium units.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copropriété louée – Formulaire abrégé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Condominio en alquiler - Formulario limitado"
+        }
+      ]
+    },
+    {
+      "code": "RCSF",
+      "display": "Rented Condominium - Standard Form",
+      "definition": "A standard level coverage for landlords renting out condominium units.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copropriété louée – Formulaire standard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Condominio en alquiler - Formulario estándar"
+        }
+      ]
+    },
+    {
+      "code": "RCBF",
+      "display": "Rented Condominium - Broad Form",
+      "definition": "An extensive coverage form for landlords renting out condominium units.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copropriété louée – Formulaire intégral"
+        },
+        {
+          "language": "es-MX",
+          "value": "Condominio en alquiler - Formulario amplio"
+        }
+      ]
+    },
+    {
+      "code": "RCCF",
+      "display": "Rented Condominium - Comprehensive Form",
+      "definition": "A comprehensive coverage form for landlords renting out condominium units.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copropriété louée – Formulaire complet"
+        },
+        {
+          "language": "es-MX",
+          "value": "Condominio en alquiler - Formulario integral"
+        }
+      ]
+    },
+    {
+      "code": "RCEC",
+      "display": "Rented Condominium - Form EC Form",
+      "definition": "An extended coverage form for rented condominiums providing fire and additional perils protection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copropriété louée – Formulaire EC"
+        },
+        {
+          "language": "es-MX",
+          "value": "Condominio en alquiler - Formulario EC"
+        }
+      ]
+    },
+    {
+      "code": "RCOT",
+      "display": "Rented Condominium - Other Form",
+      "definition": "A rented condominium form type that does not fit standard categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copropriété louée – Autre formulaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Condominio en alquiler - Otro formulario"
+        }
+      ]
+    },
+    {
+      "code": "SCND",
+      "display": "Secondary Condominium Form",
+      "definition": "Coverage for condominium units used as secondary residences.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire pour résidence secondaire en copropriété"
+        },
+        {
+          "language": "es-MX",
+          "value": "Formulario de condominio secundario"
+        }
+      ]
+    },
+    {
+      "code": "MHBR",
+      "display": "Mobile Home Broad Reverse Form",
+      "definition": "A broad form for mobile homes with reverse onus coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des maisons mobiles - formule étendue renversée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de casa móvil - Formulario amplio inverso"
+        }
+      ]
+    },
+    {
+      "code": "SDBR",
+      "display": "Seasonal Dwelling Broad Reverse Form",
+      "definition": "A broad form for seasonal dwellings with reverse onus coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des habitations saisonnières - formule étendue renversée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de vivienda estacional - Formulario amplio inverso"
+        }
+      ]
+    },
+    {
+      "code": "SDFE",
+      "display": "Seasonal Dwelling (Fire & E.C. Form)",
+      "definition": "A seasonal dwelling coverage form providing fire protection and extended coverage for additional perils.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résidence saisonnière (formulaire Incendie et garanties annexes)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vivienda estacional (Formulario de incendios y cobertura extendida)"
+        }
+      ]
+    },
+    {
+      "code": "RDFE",
+      "display": "Rented Dwelling (Fire & E.C. Form)",
+      "definition": "A rented dwelling coverage form providing fire protection and extended coverage for additional perils.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résidence en location (formulaire Incendie et garanties annexes)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vivienda en alquiler (Formulario de incendios y cobertura extendida)"
+        }
+      ]
+    },
+    {
+      "code": "BRSS",
+      "display": "Basic Residential Standard Form",
+      "definition": "A standard level basic residential coverage form.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire standard résidentiel de base"
+        },
+        {
+          "language": "es-MX",
+          "value": "Formulario residencial básico estándar"
+        }
+      ]
+    },
+    {
+      "code": "BRCC",
+      "display": "Basic Residential Comprehensive Form",
+      "definition": "A comprehensive level basic residential coverage form.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire complet résidentiel de base"
+        },
+        {
+          "language": "es-MX",
+          "value": "Formulario residencial básico integral"
+        }
+      ]
+    },
+    {
+      "code": "OUTB",
+      "display": "Outbuilding Form",
+      "definition": "Coverage for detached structures such as sheds, garages, or barns separate from the main dwelling.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire pour dépendance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Formulario de edificaciones anexas"
+        }
+      ]
+    },
+    {
+      "code": "FARM",
+      "display": "Farm Form",
+      "definition": "Coverage for agricultural properties including farm dwellings, barns, and farming operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire d'assurance agricole"
+        },
+        {
+          "language": "es-MX",
+          "value": "Formulario agrícola"
+        }
+      ]
+    },
+    {
+      "code": "VCNT",
+      "display": "Vacant Property Form",
+      "definition": "Coverage for properties that are unoccupied or vacant for extended periods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formulaire pour propriété vacante"
+        },
+        {
+          "language": "es-MX",
+          "value": "Formulario de propiedad vacante"
+        }
+      ]
+    },
+    {
+      "code": "LDLR",
+      "display": "Landlord Package",
+      "definition": "A comprehensive package for property owners renting to tenants, combining property and liability coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Forfait propriétaire-bailleur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paquete de arrendador"
+        }
+      ]
+    }
+  ]
+}

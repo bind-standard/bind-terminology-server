@@ -133,7 +133,7 @@ const lookupRoute = createRoute({
   description: "Look up a single concept by code within a specific code system.",
   request: {
     params: z.object({
-      id: z.string().openapi({ description: "Code system ID", example: "roof-type" }),
+      id: z.string().openapi({ description: "Code system ID", example: "RoofType" }),
     }),
     query: z.object({
       code: z.string().openapi({ description: "Concept code to look up", example: "metal" }),
@@ -207,7 +207,7 @@ const getRoute = createRoute({
   description: "Returns the full code system resource including all concepts.",
   request: {
     params: z.object({
-      id: z.string().openapi({ description: "Code system ID", example: "roof-type" }),
+      id: z.string().openapi({ description: "Code system ID", example: "RoofType" }),
     }),
     query: z.object({
       lang: z

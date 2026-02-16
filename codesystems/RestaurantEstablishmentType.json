@@ -1,0 +1,192 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "RestaurantEstablishmentType",
+  "url": "https://bind.codes/RestaurantEstablishmentType",
+  "name": "RestaurantEstablishmentType",
+  "title": "Restaurant Establishment Type Cd",
+  "status": "draft",
+  "language": "en",
+  "description": "Restaurant Establishment codes for insurance operations.",
+  "concept": [
+    {
+      "code": "DNIN",
+      "display": "Dine-In",
+      "definition": "A restaurant where customers are seated and served meals at tables within the establishment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service en Salle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comedor"
+        }
+      ]
+    },
+    {
+      "code": "TBSV",
+      "display": "Table Service",
+      "definition": "A dining establishment where waitstaff take orders and deliver food to customers seated at tables.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service à Table"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de Mesa"
+        }
+      ]
+    },
+    {
+      "code": "COFF",
+      "display": "Coffee Shop",
+      "definition": "A casual establishment primarily serving coffee, tea, and light refreshments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Café"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cafetería"
+        }
+      ]
+    },
+    {
+      "code": "HDCT",
+      "display": "Hot Dog Cart",
+      "definition": "A mobile vending cart specifically designed for selling hot dogs and related items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chariot à Hot-Dogs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carrito de Hot Dogs"
+        }
+      ]
+    },
+    {
+      "code": "FDCT",
+      "display": "Food Cart",
+      "definition": "A wheeled vehicle from which food is sold on the street or at events.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chariot de Nourriture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carrito de Comida"
+        }
+      ]
+    },
+    {
+      "code": "FTNC",
+      "display": "Mobile Food Truck without Cooking",
+      "definition": "A motorized vehicle equipped to serve pre-prepared food without on-site cooking facilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion de Cuisine Mobile sans Cuisson"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camión de Comida Móvil sin Cocina"
+        }
+      ]
+    },
+    {
+      "code": "FTWC",
+      "display": "Mobile Food Truck with Cooking",
+      "definition": "A motorized vehicle equipped with cooking equipment to prepare and serve food on-site.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion de Cuisine Mobile avec Cuisson"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camión de Comida Móvil con Cocina"
+        }
+      ]
+    },
+    {
+      "code": "MLFC",
+      "display": "Shopping Mall Food Counter",
+      "definition": "A food service counter or kiosk located within a shopping mall food court or common area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comptoir Alimentaire du Centre Commercial"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mostrador de Comida de Centro Comercial"
+        }
+      ]
+    },
+    {
+      "code": "FAST",
+      "display": "Fast Food",
+      "definition": "A quick-service restaurant where food is prepared and served rapidly with minimal table service.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Restauration Rapide"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comida Rápida"
+        }
+      ]
+    },
+    {
+      "code": "TKOT",
+      "display": "Takeout Only",
+      "definition": "A food establishment that prepares food exclusively for customers to take away, with no dine-in seating.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pour Emporter Seulement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Solo para Llevar"
+        }
+      ]
+    },
+    {
+      "code": "CATR",
+      "display": "Catering",
+      "definition": "A food service operation that prepares and delivers meals to off-site locations for events and functions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Traiteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de Catering"
+        }
+      ]
+    },
+    {
+      "code": "BUFF",
+      "display": "Buffet",
+      "definition": "A restaurant where food is displayed on tables and customers serve themselves.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Buffet"
+        },
+        {
+          "language": "es-MX",
+          "value": "Buffet"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "SkirtType",
+  "url": "https://bind.codes/SkirtType",
+  "name": "SkirtType",
+  "title": "Skirt Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Skirt Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "BLCK",
+      "display": "Blocked or Concrete Skirted",
+      "definition": "Structural skirting made of concrete blocks or poured concrete that encloses the foundation perimeter of a manufactured or mobile home.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Jupe en blocs ou en béton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Falda de bloques o concreto"
+        }
+      ]
+    },
+    {
+      "code": "PLYW",
+      "display": "Plywood",
+      "definition": "Skirting material made of layered wood veneer sheets, typically used to enclose the foundation area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contreplaqué"
+        },
+        {
+          "language": "es-MX",
+          "value": "Madera contrachapada"
+        }
+      ]
+    },
+    {
+      "code": "SLAT",
+      "display": "Slats",
+      "definition": "Skirting composed of narrow strips or slats of material, often wood or composite, arranged to cover the foundation perimeter.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lattes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Listones"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None",
+      "definition": "No skirting material present, leaving the foundation area exposed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "VNYL",
+      "display": "Vinyl",
+      "definition": "Skirting material made of vinyl, a durable synthetic plastic commonly used for mobile home foundation enclosures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vinyle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vinilo"
+        }
+      ]
+    },
+    {
+      "code": "METL",
+      "display": "Metal",
+      "definition": "Skirting constructed from metal panels, typically aluminum or steel, used to enclose the foundation area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Métal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Metal"
+        }
+      ]
+    },
+    {
+      "code": "BRIK",
+      "display": "Brick",
+      "definition": "Skirting made of brick masonry, providing a permanent and durable foundation enclosure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Brique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ladrillo"
+        }
+      ]
+    }
+  ]
+}

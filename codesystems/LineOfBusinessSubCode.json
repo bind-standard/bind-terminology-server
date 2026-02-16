@@ -1,0 +1,791 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "LineOfBusinessSubCode",
+  "url": "https://bind.codes/LineOfBusinessSubCode",
+  "name": "LineOfBusinessSubCode",
+  "title": "Line Of Business Sub Code",
+  "status": "draft",
+  "language": "en",
+  "description": "Line Of Business Sub Code codes for insurance operations.",
+  "concept": [
+    {
+      "code": "AREC",
+      "display": "Accounts Receivable",
+      "definition": "Coverage for money owed to a business by its customers that may become uncollectible due to covered perils.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comptes clients"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cuentas por cobrar"
+        }
+      ]
+    },
+    {
+      "code": "BAIL",
+      "display": "Bailees Risk",
+      "definition": "Coverage for property belonging to others that is in the insured's custody, care, or control.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des dépositaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Riesgo de depositarios"
+        }
+      ]
+    },
+    {
+      "code": "BOAT",
+      "display": "Boat, Yacht, Watercraft & Equipment",
+      "definition": "Coverage for recreational and pleasure watercraft including associated equipment and accessories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canot, yacht, bateau et équipement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Embarcación, yate, navíos y equipo"
+        }
+      ]
+    },
+    {
+      "code": "BUSI",
+      "display": "Business Interruption",
+      "definition": "Coverage for loss of income and continuing expenses when a business must suspend operations due to a covered peril.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pertes d'exploitation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Interrupción de negocio"
+        }
+      ]
+    },
+    {
+      "code": "COND",
+      "display": "Condominium",
+      "definition": "Coverage for individually owned units within a multi-unit building where common areas are jointly owned.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copropriété"
+        },
+        {
+          "language": "es-MX",
+          "value": "Condominio"
+        }
+      ]
+    },
+    {
+      "code": "CRIM",
+      "display": "Crime",
+      "definition": "Coverage for direct loss of money, securities, and property resulting from criminal acts such as theft, burglary, robbery, and fraud.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vols et détournements"
+        },
+        {
+          "language": "es-MX",
+          "value": "Delitos"
+        }
+      ]
+    },
+    {
+      "code": "CROP",
+      "display": "Crop",
+      "definition": "Coverage for growing crops and harvested crops against damage or loss from natural perils.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Récolte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cultivos"
+        }
+      ]
+    },
+    {
+      "code": "EDPS",
+      "display": "Computer/EDP",
+      "definition": "Coverage for electronic data processing equipment, media, and extra expenses for processing interruption.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ordinateur/TED"
+        },
+        {
+          "language": "es-MX",
+          "value": "Computadora/PED"
+        }
+      ]
+    },
+    {
+      "code": "ELBL",
+      "display": "Employer's Liability",
+      "definition": "Coverage for claims by employees for work-related injuries or illnesses not covered under workers compensation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité patronale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad del empleador"
+        }
+      ]
+    },
+    {
+      "code": "EQFL",
+      "display": "Equipment Floater",
+      "definition": "Coverage for mobile equipment and tools used in business operations, providing protection regardless of location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance flottante des équipements"
+        },
+        {
+          "language": "es-MX",
+          "value": "Póliza flotante de equipo"
+        }
+      ]
+    },
+    {
+      "code": "FIDE",
+      "display": "Fidelity",
+      "definition": "Coverage for loss of money, securities, or property due to dishonest acts by employees.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance contre les détournements"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fidelidad"
+        }
+      ]
+    },
+    {
+      "code": "FREC",
+      "display": "Fire and EC (including Rental Dwelling)",
+      "definition": "Coverage for direct damage to buildings and contents from fire and extended coverage perils, including rental properties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie et garanties annexes (incluant habitation à louer)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incendio y EC (incluyendo vivienda de alquiler)"
+        }
+      ]
+    },
+    {
+      "code": "FLOO",
+      "display": "Flood",
+      "definition": "Coverage for direct physical damage caused by overflow of inland or tidal waters, or surface water runoff.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inondation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inundación"
+        }
+      ]
+    },
+    {
+      "code": "GLAH",
+      "display": "Group Life and Health",
+      "definition": "Combined coverage providing death benefits and medical expense coverage for groups of individuals, typically employees.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance groupe sur la vie et assurance maladie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vida y salud de grupo"
+        }
+      ]
+    },
+    {
+      "code": "GKLL",
+      "display": "Garage Keeper's Legal Liability",
+      "definition": "Coverage for damage to customers' vehicles while in the care, custody, or control of a garage or automotive service business.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance responsabilité des garagistes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad legal del garaje"
+        }
+      ]
+    },
+    {
+      "code": "GDIS",
+      "display": "Group Disability",
+      "definition": "Coverage providing income replacement benefits to groups of individuals, typically employees, who are unable to work due to illness or injury.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance groupe invalidité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Discapacidad de grupo"
+        }
+      ]
+    },
+    {
+      "code": "BXGL",
+      "display": "Blanket Exterior Glass",
+      "definition": "Coverage for all exterior glass at a location without individual item scheduling, typically for commercial buildings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance globale - Vitres extérieures"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cristal exterior general"
+        }
+      ]
+    },
+    {
+      "code": "GLIF",
+      "display": "Group Life",
+      "definition": "Coverage providing death benefits to groups of individuals, typically employees and their dependents.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance groupe sur la vie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vida de grupo"
+        }
+      ]
+    },
+    {
+      "code": "GMED",
+      "display": "Group Medical",
+      "definition": "Coverage for medical expenses for groups of individuals, typically employees and their dependents.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance maladie de groupe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Médico de grupo"
+        }
+      ]
+    },
+    {
+      "code": "HVTR",
+      "display": "Holiday Trailers",
+      "definition": "Coverage for recreational vehicles designed for temporary living accommodations during travel or camping.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autocaravane de vacances"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolques vacacionales"
+        }
+      ]
+    },
+    {
+      "code": "HMOW",
+      "display": "Homeowners",
+      "definition": "Package coverage for owner-occupied dwellings including the structure, contents, and liability exposures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriétaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propietarios de vivienda"
+        }
+      ]
+    },
+    {
+      "code": "IAAH",
+      "display": "Individual Accident & Health",
+      "definition": "Coverage for medical expenses and income loss due to accident or sickness for individual policyholders.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance-accident individuelle et assurance maladie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Accidente y salud individual"
+        }
+      ]
+    },
+    {
+      "code": "IDIS",
+      "display": "Individual Disability",
+      "definition": "Coverage providing income replacement for individual policyholders unable to work due to illness or injury.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance invalidité individuelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Discapacidad individual"
+        }
+      ]
+    },
+    {
+      "code": "IMED",
+      "display": "Individual Medical",
+      "definition": "Coverage for medical expenses for individual policyholders and their dependents.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance maladie individuelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Médico individual"
+        }
+      ]
+    },
+    {
+      "code": "INFL",
+      "display": "Installation Floater",
+      "definition": "Coverage for equipment, machinery, or materials while being installed at a project site.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance flottante d'installation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Póliza flotante de instalación"
+        }
+      ]
+    },
+    {
+      "code": "LQBL",
+      "display": "Liquor Liability",
+      "definition": "Coverage for liability arising from the sale, service, or distribution of alcoholic beverages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité civile (boisson alcoolisées)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad por licor"
+        }
+      ]
+    },
+    {
+      "code": "LVST",
+      "display": "Livestock",
+      "definition": "Coverage for farm animals including cattle, horses, swine, and poultry against death or injury from covered perils.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bétail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ganado"
+        }
+      ]
+    },
+    {
+      "code": "LOAN",
+      "display": "Loan",
+      "definition": "Coverage protecting lenders against default on loans secured by insured property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Prêt"
+        },
+        {
+          "language": "es-MX",
+          "value": "Préstamo"
+        }
+      ]
+    },
+    {
+      "code": "MPFL",
+      "display": "Miscellaneous Property Floater",
+      "definition": "Coverage for various types of property not specifically covered elsewhere, providing broader location coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance flottante des biens divers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Póliza flotante de propiedad miscelánea"
+        }
+      ]
+    },
+    {
+      "code": "MNMH",
+      "display": "Mini-Mobile Homes",
+      "definition": "Coverage for smaller transportable dwellings designed for permanent or semi-permanent residence.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mini-maisons mobiles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mini casas móviles"
+        }
+      ]
+    },
+    {
+      "code": "MOBL",
+      "display": "Mobile Home",
+      "definition": "Coverage for prefabricated dwellings designed to be transported and used as permanent residences.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maison mobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casa móvil"
+        }
+      ]
+    },
+    {
+      "code": "OMCA",
+      "display": "Ocean Marine Cargo",
+      "definition": "Coverage for goods and merchandise being transported over water.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance maritime - cargaison"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carga marítima"
+        }
+      ]
+    },
+    {
+      "code": "OMHL",
+      "display": "Ocean Marine Hull",
+      "definition": "Coverage for physical damage to vessels and watercraft.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance maritime - corps de navires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casco marítimo"
+        }
+      ]
+    },
+    {
+      "code": "OMLI",
+      "display": "Ocean Marine Liability",
+      "definition": "Coverage for liability exposures arising from vessel ownership and maritime operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance maritime - responsabilité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad marítima"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "PAFL",
+      "display": "Personal Articles Floater",
+      "definition": "Coverage for specifically scheduled valuable personal property such as jewelry, furs, cameras, and musical instruments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance expressément consentie - Objets personnels"
+        },
+        {
+          "language": "es-MX",
+          "value": "Póliza flotante de artículos personales"
+        }
+      ]
+    },
+    {
+      "code": "PRDL",
+      "display": "Products Liability",
+      "definition": "Coverage for bodily injury or property damage caused by products manufactured, sold, or distributed by the insured.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance responsabilité des produits"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad de productos"
+        }
+      ]
+    },
+    {
+      "code": "PRFL",
+      "display": "Professional Liability",
+      "definition": "Coverage for liability arising from errors, omissions, or negligence in the performance of professional services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité professionnelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad profesional"
+        }
+      ]
+    },
+    {
+      "code": "RCND",
+      "display": "Rented Condo",
+      "definition": "Coverage for condominium units occupied by tenants rather than owners.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Condo loué"
+        },
+        {
+          "language": "es-MX",
+          "value": "Condominio alquilado"
+        }
+      ]
+    },
+    {
+      "code": "SCHO",
+      "display": "Secondary Homeowners",
+      "definition": "Coverage for dwellings not used as the primary residence, such as vacation homes or second properties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résidences secondaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propietarios secundarios"
+        }
+      ]
+    },
+    {
+      "code": "SCGL",
+      "display": "Scheduled Glass",
+      "definition": "Coverage for specifically listed glass items or installations at scheduled values.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Biens expressément assurés - Glaces"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cristal programado"
+        }
+      ]
+    },
+    {
+      "code": "SSDW",
+      "display": "Seasonal Dwelling",
+      "definition": "Coverage for dwellings occupied only during certain times of the year, typically vacation or seasonal properties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Habitation saisonnière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vivienda estacional"
+        }
+      ]
+    },
+    {
+      "code": "STRF",
+      "display": "Stock (Reporting Form)",
+      "definition": "Coverage for inventory and merchandise with values reported periodically based on actual stock levels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marchandises (formulaire de déclaration)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inventario (formulario de reporte)"
+        }
+      ]
+    },
+    {
+      "code": "SBND",
+      "display": "Surety Bond",
+      "definition": "A three-party agreement guaranteeing performance or payment obligations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cautionnement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fianza"
+        }
+      ]
+    },
+    {
+      "code": "TENT",
+      "display": "Tenant",
+      "definition": "Coverage for renters protecting personal property and liability exposures in rented dwellings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Locataire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inquilino"
+        }
+      ]
+    },
+    {
+      "code": "TMLF",
+      "display": "Term Life, Credit Life, Mortgage Redemption",
+      "definition": "Temporary life coverage for specified periods, including policies designed to pay off debts or mortgages upon death.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance-vie temporaire, assurance-vie de crédit, rachat d'hypothèque"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vida temporal, vida de crédito, redención hipotecaria"
+        }
+      ]
+    },
+    {
+      "code": "TRCA",
+      "display": "Transportation and Cargo",
+      "definition": "Coverage for goods being transported by land, including coverage for carriers and shippers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transport et marchandises"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transporte y carga"
+        }
+      ]
+    },
+    {
+      "code": "VLPR",
+      "display": "Valuable Papers and Records",
+      "definition": "Coverage for documents, manuscripts, drawings, and records including the cost to research and reconstruct lost information.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Archives et documents de valeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Documentos y registros valiosos"
+        }
+      ]
+    },
+    {
+      "code": "WHMN",
+      "display": "Warehousemen's Liability",
+      "definition": "Coverage for warehouse operators for damage to customers' property stored in their facilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité civile des magasiniers/manutentionnaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad de almacenistas"
+        }
+      ]
+    },
+    {
+      "code": "WHLF",
+      "display": "Whole Life",
+      "definition": "Permanent life coverage providing death benefits and cash value accumulation for the lifetime of the insured.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance vie entière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vida entera"
+        }
+      ]
+    },
+    {
+      "code": "COMM",
+      "display": "Commercial Package",
+      "definition": "Combined coverage for multiple commercial exposures bundled into a single policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Forfait commercial"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paquete comercial"
+        }
+      ]
+    },
+    {
+      "code": "UMBR",
+      "display": "Umbrella Liability",
+      "definition": "Excess liability coverage that provides additional limits above underlying policies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité parapluie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad paraguas"
+        }
+      ]
+    }
+  ]
+}

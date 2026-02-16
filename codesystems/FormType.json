@@ -1,0 +1,48 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "FormType",
+  "url": "https://bind.codes/FormType",
+  "name": "FormType",
+  "title": "Form Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Source classification for policy forms and endorsement documents.",
+  "concept": [
+    {
+      "code": "BURO",
+      "display": "Bureau Form",
+      "definition": "A standardized form developed by a rating bureau or advisory organization (e.g., ISO, NCCI, AAIS).",
+      "designation": [
+        { "language": "fr-CA", "value": "Formulaire de bureau" },
+        { "language": "es-MX", "value": "Formulario de oficina" }
+      ]
+    },
+    {
+      "code": "PROP",
+      "display": "Proprietary Form",
+      "definition": "A form developed by the carrier for use in their own policies, not filed through a bureau.",
+      "designation": [
+        { "language": "fr-CA", "value": "Formulaire propriétaire" },
+        { "language": "es-MX", "value": "Formulario propietario" }
+      ]
+    },
+    {
+      "code": "MNSC",
+      "display": "Manuscript Form",
+      "definition": "A custom-drafted form written specifically for a particular account or transaction.",
+      "designation": [
+        { "language": "fr-CA", "value": "Formulaire manuscrit" },
+        { "language": "es-MX", "value": "Formulario manuscrito" }
+      ]
+    },
+    {
+      "code": "STMN",
+      "display": "State-Mandated Form",
+      "definition": "A form required by a state or provincial regulator as a condition of writing business in that jurisdiction.",
+      "designation": [
+        { "language": "fr-CA", "value": "Formulaire imposé par la province" },
+        { "language": "es-MX", "value": "Formulario estatal obligatorio" }
+      ]
+    }
+  ]
+}

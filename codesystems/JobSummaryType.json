@@ -1,0 +1,72 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "JobSummaryType",
+  "url": "https://bind.codes/JobSummaryType",
+  "name": "JobSummaryType",
+  "title": "Job Summary Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Job Summary Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CURR",
+      "display": "Current",
+      "definition": "Employment that is currently active and ongoing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courante"
+        },
+        {
+          "language": "es-MX",
+          "value": "Actual"
+        }
+      ]
+    },
+    {
+      "code": "PAST",
+      "display": "Past",
+      "definition": "Employment that has ended or is no longer active.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Passée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pasado"
+        }
+      ]
+    },
+    {
+      "code": "SUMM",
+      "display": "Summary",
+      "definition": "Aggregate view of all employment history including both current and past positions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sommaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Resumen"
+        }
+      ]
+    },
+    {
+      "code": "FUTR",
+      "display": "Future",
+      "definition": "Employment that is scheduled to begin at a future date.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Future"
+        },
+        {
+          "language": "es-MX",
+          "value": "Futuro"
+        }
+      ]
+    }
+  ]
+}

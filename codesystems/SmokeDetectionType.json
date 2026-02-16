@@ -1,0 +1,115 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "SmokeDetectionType",
+  "url": "https://bind.codes/SmokeDetectionType",
+  "name": "SmokeDetectionType",
+  "title": "Smoke Detection Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Smoke Detection Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "IONZ",
+      "display": "Ionization",
+      "definition": "A smoke detector that uses radioactive material to ionize air in a sensing chamber; smoke particles disrupt the current flow, triggering the alarm.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ionisation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ionización"
+        }
+      ]
+    },
+    {
+      "code": "PHEL",
+      "display": "Photoelectric",
+      "definition": "A smoke detector that uses a light beam and sensor; smoke particles scatter the light beam, triggering the alarm.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Photoélectrique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fotoeléctrico"
+        }
+      ]
+    },
+    {
+      "code": "DUAL",
+      "display": "Dual Sensor (Ionization & Photoelectric)",
+      "definition": "A smoke detector combining both ionization and photoelectric sensing technologies for broader detection capabilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détecteur double (Ionisation et Photoélectrique)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sensor Dual (Ionización y Fotoeléctrico)"
+        }
+      ]
+    },
+    {
+      "code": "HEAT",
+      "display": "Heat Detector",
+      "definition": "A detector that responds to temperature changes or a fixed temperature threshold rather than smoke particles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détecteur de chaleur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Detector de Calor"
+        }
+      ]
+    },
+    {
+      "code": "ASPR",
+      "display": "Aspirating",
+      "definition": "A detector system that actively draws air samples through pipes to a central detection unit for early smoke detection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détecteur aspirant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aspirante"
+        }
+      ]
+    }
+  ]
+}

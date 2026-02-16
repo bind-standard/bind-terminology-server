@@ -1,0 +1,145 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "OilTankSupportType",
+  "url": "https://bind.codes/OilTankSupportType",
+  "name": "OilTankSupportType",
+  "title": "Oil Tank Support Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Oil Tank Support Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "NONE",
+      "display": "None",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "ASPH",
+      "display": "Asphalt",
+      "definition": "A petroleum-based material used as a foundation or support surface for oil tanks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Asphalte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asfalto"
+        }
+      ]
+    },
+    {
+      "code": "CONC",
+      "display": "Concrete",
+      "definition": "A composite construction material consisting of cement and aggregate used as a solid foundation or support base for oil tanks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Concreto"
+        }
+      ]
+    },
+    {
+      "code": "PSTO",
+      "display": "Patio Stones",
+      "definition": "Flat pavers or stones arranged as a support surface for oil tanks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pierres à patio"
+        },
+        {
+          "language": "es-MX",
+          "value": "Losas de patio"
+        }
+      ]
+    },
+    {
+      "code": "WOOD",
+      "display": "Wood",
+      "definition": "Lumber or wooden materials used to construct a support platform or foundation for oil tanks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Madera"
+        }
+      ]
+    },
+    {
+      "code": "GRAV",
+      "display": "Gravel",
+      "definition": "Loose aggregated rock fragments used as a drainage-capable support base for oil tanks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gravier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grava"
+        }
+      ]
+    },
+    {
+      "code": "SAND",
+      "display": "Sand",
+      "definition": "Granular material composed of finely divided rock used as a leveling support surface for oil tanks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arena"
+        }
+      ]
+    },
+    {
+      "code": "METL",
+      "display": "Metal Frame",
+      "definition": "Steel or metal structural framework used to elevate and support oil tanks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cadre métallique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Marco metálico"
+        }
+      ]
+    }
+  ]
+}

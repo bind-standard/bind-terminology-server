@@ -1,0 +1,642 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "PolicyStatus",
+  "url": "https://bind.codes/PolicyStatus",
+  "name": "PolicyStatus",
+  "title": "Policy Status",
+  "status": "draft",
+  "language": "en",
+  "description": "Policy Status codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CANC",
+      "display": "Cancelled",
+      "definition": "Policy has been terminated before its expiry date",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Annulé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cancelado"
+        }
+      ]
+    },
+    {
+      "code": "CAPN",
+      "display": "Cancellation Pending",
+      "definition": "Policy termination has been initiated but not yet finalized",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Annulation en suspens"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cancelación pendiente"
+        }
+      ]
+    },
+    {
+      "code": "CPRT",
+      "display": "Cancellation (Pro Rata)",
+      "definition": "Policy cancelled with return of unearned portion calculated proportionally to time remaining",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Annulation (Prorata)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cancelación (Prorrata)"
+        }
+      ]
+    },
+    {
+      "code": "CREG",
+      "display": "Cancellation (Registered)",
+      "definition": "Policy cancellation that has been formally recorded in official registry",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Annulation (Enregistré)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cancelación (Registrada)"
+        }
+      ]
+    },
+    {
+      "code": "CSRT",
+      "display": "Cancellation (Short Rate)",
+      "definition": "Policy cancelled with penalty applied to unearned portion returned",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Annulation (Taux courte durée)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cancelación (Tasa corta)"
+        }
+      ]
+    },
+    {
+      "code": "CFLR",
+      "display": "Cancellation (Flat)",
+      "definition": "Policy cancelled at effective date with full return of payment and no coverage provided",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Annulation (Fixe)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cancelación (Plana)"
+        }
+      ]
+    },
+    {
+      "code": "EDOC",
+      "display": "Electronic Document Transfer",
+      "definition": "Policy documents being transferred electronically between systems",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transfert électronique de documents"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transferencia electrónica de documentos"
+        }
+      ]
+    },
+    {
+      "code": "EXPR",
+      "display": "Expired",
+      "definition": "Policy has reached its termination date and coverage has ended",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Échu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vencido"
+        }
+      ]
+    },
+    {
+      "code": "INCM",
+      "display": "Incomplete",
+      "definition": "Policy application or documentation is missing required information",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incomplet"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incompleto"
+        }
+      ]
+    },
+    {
+      "code": "LAPS",
+      "display": "Lapsed",
+      "definition": "Policy has terminated due to non-payment or failure to renew",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non renouvelé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caducado"
+        }
+      ]
+    },
+    {
+      "code": "LPEN",
+      "display": "Lapse Pending",
+      "definition": "Policy termination for non-payment or non-renewal is scheduled but not yet effective",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déchéance en suspens"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caducidad pendiente"
+        }
+      ]
+    },
+    {
+      "code": "NBAC",
+      "display": "New Business (Active)",
+      "definition": "Newly written policy that is currently in force providing coverage",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nouvelle affaire (Actif)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Negocio nuevo (Activo)"
+        }
+      ]
+    },
+    {
+      "code": "NBBN",
+      "display": "New Business (Bound)",
+      "definition": "Newly written policy where coverage is committed but formal policy documents not yet issued",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nouvelle affaire (Relié)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Negocio nuevo (Vinculado)"
+        }
+      ]
+    },
+    {
+      "code": "NBQT",
+      "display": "New Business (Quoted)",
+      "definition": "Proposed new policy with pricing provided but not yet bound",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nouvelle affaire (Cotée)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Negocio nuevo (Cotizado)"
+        }
+      ]
+    },
+    {
+      "code": "NBIS",
+      "display": "New Business (Issued)",
+      "definition": "Newly written policy where formal documents have been produced and delivered",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nouvelle affaire (Émise)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Negocio nuevo (Emitido)"
+        }
+      ]
+    },
+    {
+      "code": "NBNQ",
+      "display": "New Business (Not Quoted)",
+      "definition": "New policy application submitted but pricing not yet provided",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nouvelle affaire (Non cotée)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Negocio nuevo (No cotizado)"
+        }
+      ]
+    },
+    {
+      "code": "NBDR",
+      "display": "New Business (Draft)",
+      "definition": "New policy being prepared but not yet finalized for quoting",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nouvelle affaire (Brouillon)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Negocio nuevo (Borrador)"
+        }
+      ]
+    },
+    {
+      "code": "PCDR",
+      "display": "Policy Change (Draft)",
+      "definition": "Proposed modification to existing policy being prepared",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Modification de police (Brouillon)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cambio de póliza (Borrador)"
+        }
+      ]
+    },
+    {
+      "code": "PCQT",
+      "display": "Policy Change (Quoted)",
+      "definition": "Modification to existing policy with pricing provided but not yet bound",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Modification de police (Cotée)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cambio de póliza (Cotizado)"
+        }
+      ]
+    },
+    {
+      "code": "PCHG",
+      "display": "Policy Change",
+      "definition": "Active modification or endorsement to existing policy terms",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Modification de police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cambio de póliza"
+        }
+      ]
+    },
+    {
+      "code": "PTFR",
+      "display": "Portfolio Transfer",
+      "definition": "Policy being transferred from one carrier or managing entity to another",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transfert de portefeuille"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transferencia de cartera"
+        }
+      ]
+    },
+    {
+      "code": "RINC",
+      "display": "Reinstatement (Cancellation)",
+      "definition": "Previously cancelled policy being restored to active status",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remise en vigueur (Annulation)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reintegración (Cancelación)"
+        }
+      ]
+    },
+    {
+      "code": "RINL",
+      "display": "Reinstatement (Lapse)",
+      "definition": "Previously lapsed policy being restored to active status",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remise en vigueur (Non renouvelé)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reintegración (Caducidad)"
+        }
+      ]
+    },
+    {
+      "code": "RIDR",
+      "display": "Reinstatement (Draft)",
+      "definition": "Proposed restoration of previously terminated policy being prepared",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remise en vigueur (Brouillon)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reintegración (Borrador)"
+        }
+      ]
+    },
+    {
+      "code": "RIQT",
+      "display": "Reinstatement (Quoted)",
+      "definition": "Restoration of terminated policy with pricing provided but not yet bound",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remise en vigueur (Cotée)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reintegración (Cotizada)"
+        }
+      ]
+    },
+    {
+      "code": "RIAC",
+      "display": "Reinstated (Active)",
+      "definition": "Previously terminated policy that has been successfully restored to coverage",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remise en vigueur (Actif)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reintegrado (Activo)"
+        }
+      ]
+    },
+    {
+      "code": "RNAC",
+      "display": "Renewed (Active)",
+      "definition": "Policy that has been continued for an additional term and is in force",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Renouvellement (Actif)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Renovado (Activo)"
+        }
+      ]
+    },
+    {
+      "code": "RNIS",
+      "display": "Renewed (Issued)",
+      "definition": "Policy continuation with formal documents produced for new term",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Renouvellement (Émise)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Renovado (Emitido)"
+        }
+      ]
+    },
+    {
+      "code": "RNQT",
+      "display": "Renewal (Quoted)",
+      "definition": "Policy continuation with pricing provided for new term but not yet bound",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Renouvellement (Cotée)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Renovación (Cotizada)"
+        }
+      ]
+    },
+    {
+      "code": "RNDR",
+      "display": "Renewing (Draft)",
+      "definition": "Policy continuation being prepared for new term",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Renouvellement (Brouillon)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Renovación (Borrador)"
+        }
+      ]
+    },
+    {
+      "code": "RNWL",
+      "display": "Renewal",
+      "definition": "Policy being continued for an additional term",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Renouvellement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Renovación"
+        }
+      ]
+    },
+    {
+      "code": "REPL",
+      "display": "Replacing Policy",
+      "definition": "Policy being substituted with a different policy for the same coverage needs",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remplacement de la police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reemplazo de póliza"
+        }
+      ]
+    },
+    {
+      "code": "RWRN",
+      "display": "Rewrite (Renewal)",
+      "definition": "Policy renewal processed as entirely new policy rather than continuation",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réenregistrer (Renouvellement)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reescritura (Renovación)"
+        }
+      ]
+    },
+    {
+      "code": "RWNB",
+      "display": "Rewrite (New Business)",
+      "definition": "Existing policy reprocessed as new business transaction",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réenregistrer (Nouvelle affaire)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reescritura (Negocio nuevo)"
+        }
+      ]
+    },
+    {
+      "code": "RWRP",
+      "display": "Rewrite (Replacing)",
+      "definition": "Policy replacement processed as entirely new policy",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réenregistrer (Remplacement)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reescritura (Reemplazo)"
+        }
+      ]
+    },
+    {
+      "code": "RWPC",
+      "display": "Rewrite (Policy Change)",
+      "definition": "Policy modification processed as entirely new policy rather than endorsement",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réenregistrer (Modification de police)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reescritura (Cambio de póliza)"
+        }
+      ]
+    },
+    {
+      "code": "SUSP",
+      "display": "Suspended",
+      "definition": "Policy temporarily on hold with processing or coverage paused",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Suspendu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Suspendido"
+        }
+      ]
+    },
+    {
+      "code": "REVR",
+      "display": "Reversal",
+      "definition": "Prior transaction on policy being undone or backed out",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Annulation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reversión"
+        }
+      ]
+    },
+    {
+      "code": "WDRN",
+      "display": "Withdrawn",
+      "definition": "Application or quote pulled back before being bound",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Retirée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Retirado"
+        }
+      ]
+    },
+    {
+      "code": "DECL",
+      "display": "Declined",
+      "definition": "Application rejected and not offered coverage",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Refusée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rechazado"
+        }
+      ]
+    },
+    {
+      "code": "PEND",
+      "display": "Pending",
+      "definition": "Policy or transaction awaiting action, review, or approval",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En attente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pendiente"
+        }
+      ]
+    },
+    {
+      "code": "VOID",
+      "display": "Void",
+      "definition": "Policy nullified as if it never existed with no legal effect",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nul"
+        },
+        {
+          "language": "es-MX",
+          "value": "Anulado"
+        }
+      ]
+    }
+  ]
+}

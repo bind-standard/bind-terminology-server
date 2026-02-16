@@ -1,0 +1,66 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CommissionSplitRole",
+  "url": "https://bind.codes/CommissionSplitRole",
+  "name": "CommissionSplitRole",
+  "title": "Commission Split Role",
+  "status": "draft",
+  "language": "en",
+  "description": "Roles of parties in a commission-sharing arrangement.",
+  "concept": [
+    {
+      "code": "HOUS",
+      "display": "House Account",
+      "definition": "The agency's retained share of commission not attributed to an individual producer.",
+      "designation": [
+        { "language": "fr-CA", "value": "Compte maison" },
+        { "language": "es-MX", "value": "Cuenta interna" }
+      ]
+    },
+    {
+      "code": "PROD",
+      "display": "Producer",
+      "definition": "The individual agent or producer who originated the business.",
+      "designation": [
+        { "language": "fr-CA", "value": "Producteur" },
+        { "language": "es-MX", "value": "Productor" }
+      ]
+    },
+    {
+      "code": "WHSL",
+      "display": "Wholesaler",
+      "definition": "The wholesale intermediary that facilitated placement between the retail broker and the carrier.",
+      "designation": [
+        { "language": "fr-CA", "value": "Grossiste" },
+        { "language": "es-MX", "value": "Mayorista" }
+      ]
+    },
+    {
+      "code": "RETL",
+      "display": "Retail Broker",
+      "definition": "The broker who directly serves the policyholder.",
+      "designation": [
+        { "language": "fr-CA", "value": "Courtier de détail" },
+        { "language": "es-MX", "value": "Corredor minorista" }
+      ]
+    },
+    {
+      "code": "SUBP",
+      "display": "Sub-Producer",
+      "definition": "A downstream agent operating under a producing agent's appointment.",
+      "designation": [
+        { "language": "fr-CA", "value": "Sous-producteur" },
+        { "language": "es-MX", "value": "Sub-productor" }
+      ]
+    },
+    {
+      "code": "SVAG",
+      "display": "Servicing Agent",
+      "definition": "The agent responsible for ongoing policy service, who may differ from the originating producer.",
+      "designation": [
+        { "language": "fr-CA", "value": "Agent de service" },
+        { "language": "es-MX", "value": "Agente de servicio" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "DeliveryFrequency",
+  "url": "https://bind.codes/DeliveryFrequency",
+  "name": "DeliveryFrequency",
+  "title": "Delivery Frequency",
+  "status": "draft",
+  "language": "en",
+  "description": "Delivery Frequency codes for insurance operations.",
+  "concept": [
+    {
+      "code": "FTIME",
+      "display": "Full-time",
+      "definition": "Deliveries or operations conducted on a continuous, regular basis throughout the year with consistent scheduling.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Temps plein"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tiempo completo"
+        }
+      ]
+    },
+    {
+      "code": "INCID",
+      "display": "Incidental",
+      "definition": "Deliveries or operations performed on an irregular, as-needed basis without a fixed schedule.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Occasionnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incidental"
+        }
+      ]
+    },
+    {
+      "code": "SESN",
+      "display": "Seasonal",
+      "definition": "Deliveries or operations conducted during specific periods or seasons of the year only.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Saisonnier"
+        },
+        {
+          "language": "es-MX",
+          "value": "De temporada"
+        }
+      ]
+    },
+    {
+      "code": "PTIME",
+      "display": "Part-time",
+      "definition": "Deliveries or operations conducted on a regular basis but with reduced frequency or hours compared to full-time schedules.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Temps partiel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Medio tiempo"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "DeductibleType",
+  "url": "https://bind.codes/DeductibleType",
+  "name": "DeductibleType",
+  "title": "Deductible Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Deductible Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "MINM",
+      "display": "Minimum",
+      "definition": "The lowest deductible amount applicable.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Minimum"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mínimo"
+        }
+      ]
+    },
+    {
+      "code": "PDPP",
+      "display": "Property Damage Deductible Per Person",
+      "definition": "Deductible applied to property damage claims on a per-person basis.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise - Dommages matériels - Par personne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Deducible de daños a la propiedad por persona"
+        }
+      ]
+    },
+    {
+      "code": "PDPO",
+      "display": "Property Damage Deductible Per Occurrence",
+      "definition": "Deductible applied to property damage claims on a per-occurrence basis.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise - Dommages matériels - Par sinistre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Deducible de daños a la propiedad por ocurrencia"
+        }
+      ]
+    },
+    {
+      "code": "BIPC",
+      "display": "Bodily Injury Deductible per Claimant",
+      "definition": "Deductible applied to bodily injury claims on a per-claimant basis.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise - Lésions corporelles - Par demandeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Deducible de lesiones corporales por reclamante"
+        }
+      ]
+    },
+    {
+      "code": "BIPO",
+      "display": "Bodily Injury Deductible per Occurrence",
+      "definition": "Deductible applied to bodily injury claims on a per-occurrence basis.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise - Lésions corporelles - Par sinistre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Deducible de lesiones corporales por ocurrencia"
+        }
+      ]
+    },
+    {
+      "code": "BPDC",
+      "display": "BI/PD Deductible Per Claimant",
+      "definition": "Combined bodily injury and property damage deductible applied per claimant.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise LC/DM - Par demandeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Deducible LC/DP por reclamante"
+        }
+      ]
+    },
+    {
+      "code": "BPDO",
+      "display": "BI/PD Deductible Per Occurrence",
+      "definition": "Combined bodily injury and property damage deductible applied per occurrence.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise LC/DM - Par sinistre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Deducible LC/DP por ocurrencia"
+        }
+      ]
+    },
+    {
+      "code": "BPCA",
+      "display": "BI/PD-Coverage A-Applicable Supplementary Payments Also",
+      "definition": "Deductible for bodily injury and property damage under Coverage A that also applies to supplementary payments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "LC/DM-Garantie A-Applicables également aux paiements supplémentaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "LC/DP-Cobertura A-Aplicable también a pagos suplementarios"
+        }
+      ]
+    },
+    {
+      "code": "PDCA",
+      "display": "PD Deduct.Cover.A-Applic.to Supplem't Pay'ts-Limit/Clmt",
+      "definition": "Property damage deductible under Coverage A applicable to supplementary payments with limits per claimant.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise DM Garantie A-Applicables aux paiements supplémentaires/Limite/Demandeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Deducible DP Cobertura A-Aplicable a pagos suplementarios/Límite/Reclamante"
+        }
+      ]
+    },
+    {
+      "code": "EBAD",
+      "display": "Employee Benefits Administration - Deductible per Claim",
+      "definition": "Deductible for employee benefits administration errors and omissions applied per claim.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise - Administration des avantages sociaux - Par réclamation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Deducible de administración de beneficios para empleados por reclamación"
+        }
+      ]
+    },
+    {
+      "code": "VMPP",
+      "display": "Voluntary Medical Payment (per Person/per Accident)",
+      "definition": "Deductible for voluntary medical payments applied on a per-person and per-accident basis.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remboursement volontaire des frais médicaux (par personne/par accident)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pago médico voluntario (por persona/por accidente)"
+        }
+      ]
+    },
+    {
+      "code": "MPDD",
+      "display": "Municipal Property Damage Deductible",
+      "definition": "Deductible applicable to property damage involving municipal property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise - Dommages biens municipaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Deducible de daños a la propiedad municipal"
+        }
+      ]
+    },
+    {
+      "code": "PDCD",
+      "display": "PD Deduct.Cover.D -Tenants Legal Liab. (Per Occurrence)",
+      "definition": "Property damage deductible under Coverage D for tenant legal liability applied per occurrence.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise DM Garantie D-Responsabilité civile des locataires (par sinistre)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Deducible DP Cobertura D-Responsabilidad legal del inquilino (por ocurrencia)"
+        }
+      ]
+    },
+    {
+      "code": "INSP",
+      "display": "Insured's Participation",
+      "definition": "The portion of a claim that the insured agrees to pay.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Participation de l'assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Participación del asegurado"
+        }
+      ]
+    },
+    {
+      "code": "SIRR",
+      "display": "Retained Limit/S.I.R. (Self Insured Retention)",
+      "definition": "The amount of loss the insured retains before coverage applies, functioning as self-insurance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise retenue/franchise auto-assurée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Límite retenido/retención autoasegurada"
+        }
+      ]
+    },
+    {
+      "code": "DISD",
+      "display": "Disappearing",
+      "definition": "A deductible that decreases or disappears based on specified conditions such as claim-free years.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise décroissante"
+        },
+        {
+          "language": "es-MX",
+          "value": "Deducible decreciente"
+        }
+      ]
+    },
+    {
+      "code": "CBMD",
+      "display": "Combined - Minimum Dollar Amount or Percentage",
+      "definition": "Deductible calculated as the greater of a specified dollar amount or percentage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Combinée - Fixe ou pourcentage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Combinado - Monto mínimo en dólares o porcentaje"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None - No Deductible",
+      "definition": "No deductible applies to the claim.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun - aucune franchise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno - sin deducible"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "A deductible type not otherwise specified in this code system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "DISF",
+      "display": "Disappearing Flat",
+      "definition": "A flat dollar deductible that decreases based on specified conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Décroissante - Montant fixe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Decreciente - Monto fijo"
+        }
+      ]
+    },
+    {
+      "code": "DISP",
+      "display": "Disappearing Percent",
+      "definition": "A percentage-based deductible that decreases based on specified conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Décroissante - Pourcentage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Decreciente - Porcentaje"
+        }
+      ]
+    },
+    {
+      "code": "FLAT",
+      "display": "Flat, Whole Dollar",
+      "definition": "A fixed dollar amount deductible expressed in whole dollars.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dollar près"
+        },
+        {
+          "language": "es-MX",
+          "value": "Monto fijo en dólares enteros"
+        }
+      ]
+    },
+    {
+      "code": "HOUR",
+      "display": "Hour",
+      "definition": "Deductible expressed as a number of hours, typically used for time-based coverage such as business interruption.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Heure"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hora"
+        }
+      ]
+    },
+    {
+      "code": "PRCT",
+      "display": "Percent",
+      "definition": "Deductible calculated as a percentage of the claim amount or insured value.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pourcentage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Porcentaje"
+        }
+      ]
+    },
+    {
+      "code": "AGGR",
+      "display": "Aggregate",
+      "definition": "Cumulative deductible applied across all claims during a policy period.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agrégat"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agregado"
+        }
+      ]
+    },
+    {
+      "code": "WAIV",
+      "display": "Waived",
+      "definition": "Deductible is waived under specified conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Renoncée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Renunciado"
+        }
+      ]
+    }
+  ]
+}

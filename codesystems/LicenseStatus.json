@@ -1,0 +1,146 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "LicenseStatus",
+  "url": "https://bind.codes/LicenseStatus",
+  "name": "LicenseStatus",
+  "title": "License Status",
+  "status": "draft",
+  "language": "en",
+  "description": "License Status codes for insurance operations.",
+  "concept": [
+    {
+      "code": "INFC",
+      "display": "In-force or Permanent",
+      "definition": "A license that is currently valid and active with no restrictions or expiration date.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En vigueur ou permanent"
+        },
+        {
+          "language": "es-MX",
+          "value": "En vigor o permanente"
+        }
+      ]
+    },
+    {
+      "code": "SUSP",
+      "display": "Suspended",
+      "definition": "A license that has been temporarily deactivated due to administrative action, non-compliance, or other regulatory reasons.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Suspendue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Suspendida"
+        }
+      ]
+    },
+    {
+      "code": "CANC",
+      "display": "Cancelled or Revoked",
+      "definition": "A license that has been permanently terminated or withdrawn by the issuing authority.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Annulée ou retirée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cancelada o revocada"
+        }
+      ]
+    },
+    {
+      "code": "PEND",
+      "display": "Pending",
+      "definition": "A license application or renewal that is awaiting review, approval, or processing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En instance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pendiente"
+        }
+      ]
+    },
+    {
+      "code": "TEMP",
+      "display": "Temporary",
+      "definition": "A license issued for a limited period of time, typically with a defined expiration date.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Temporaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Temporal"
+        }
+      ]
+    },
+    {
+      "code": "LPSD",
+      "display": "Lapsed",
+      "definition": "A license that has expired or become invalid due to non-renewal or failure to meet continuing requirements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Périmée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caducada"
+        }
+      ]
+    },
+    {
+      "code": "EXPR",
+      "display": "Expired",
+      "definition": "A license that has reached its end date and is no longer valid.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Expirée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Expirada"
+        }
+      ]
+    },
+    {
+      "code": "SURR",
+      "display": "Surrendered",
+      "definition": "A license that has been voluntarily returned or relinquished by the holder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rendue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entregada"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

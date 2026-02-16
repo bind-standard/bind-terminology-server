@@ -1,0 +1,57 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BasementType",
+  "url": "https://bind.codes/BasementType",
+  "name": "BasementType",
+  "title": "Basement Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Basement finish levels for residential dwellings.",
+  "concept": [
+    {
+      "code": "FNSH",
+      "display": "Finished",
+      "definition": "A basement with completed walls, flooring, and ceiling suitable for living space.",
+      "designation": [
+        { "language": "fr-CA", "value": "Fini" },
+        { "language": "es-MX", "value": "Terminado" }
+      ]
+    },
+    {
+      "code": "UNFN",
+      "display": "Unfinished",
+      "definition": "A basement with exposed framing, concrete floors, and no finished living space.",
+      "designation": [
+        { "language": "fr-CA", "value": "Non fini" },
+        { "language": "es-MX", "value": "Sin terminar" }
+      ]
+    },
+    {
+      "code": "PTFN",
+      "display": "Partially Finished",
+      "definition": "A basement where some areas are finished for living space while others remain unfinished.",
+      "designation": [
+        { "language": "fr-CA", "value": "Partiellement fini" },
+        { "language": "es-MX", "value": "Parcialmente terminado" }
+      ]
+    },
+    {
+      "code": "WLKO",
+      "display": "Walk-Out",
+      "definition": "A basement with at least one exterior wall at or near grade level, allowing direct access to the outside.",
+      "designation": [
+        { "language": "fr-CA", "value": "Avec sortie de plain-pied" },
+        { "language": "es-MX", "value": "Con salida al exterior" }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "No Basement",
+      "definition": "The dwelling does not have a basement.",
+      "designation": [
+        { "language": "fr-CA", "value": "Aucun sous-sol" },
+        { "language": "es-MX", "value": "Sin sótano" }
+      ]
+    }
+  ]
+}

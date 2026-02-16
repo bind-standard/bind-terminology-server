@@ -1,0 +1,206 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CookingMethodType",
+  "url": "https://bind.codes/CookingMethodType",
+  "name": "CookingMethodType",
+  "title": "Cooking Method Type Cd",
+  "status": "draft",
+  "language": "en",
+  "description": "Cooking Method codes for insurance operations.",
+  "concept": [
+    {
+      "code": "DPFR",
+      "display": "Deep Fat Frying",
+      "definition": "Method of cooking food by submerging it completely in hot oil or fat, typically at temperatures between 350-375°F.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Friture à haute température"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fritura profunda"
+        }
+      ]
+    },
+    {
+      "code": "FRYN",
+      "display": "Frying",
+      "definition": "Method of cooking food in oil or fat using a pan or skillet, typically with shallow amounts of cooking medium.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Friture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Freír"
+        }
+      ]
+    },
+    {
+      "code": "GRLL",
+      "display": "Grilling",
+      "definition": "Method of cooking food using direct heat from below, typically over an open flame or heated surface.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grillage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asar a la parrilla"
+        }
+      ]
+    },
+    {
+      "code": "WDOV",
+      "display": "Wood Burning Oven",
+      "definition": "Cooking apparatus that uses wood as fuel to generate heat, commonly used for baking pizzas and bread at high temperatures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fours à bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Horno de leña"
+        }
+      ]
+    },
+    {
+      "code": "SMKR",
+      "display": "Smokers",
+      "definition": "Cooking equipment that uses smoke from burning or smoldering wood to flavor and cook food at low temperatures over extended periods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fumoirs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ahumadores"
+        }
+      ]
+    },
+    {
+      "code": "TBLS",
+      "display": "Tableside Cooking",
+      "definition": "Method where food is prepared or finished in front of customers at their dining table, often using portable burners or flambe techniques.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cuisson à table"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cocina a la mesa"
+        }
+      ]
+    },
+    {
+      "code": "BAKE",
+      "display": "Baking",
+      "definition": "Method of cooking food using dry heat in an enclosed oven, typically for breads, pastries, and casseroles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cuisson au four"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hornear"
+        }
+      ]
+    },
+    {
+      "code": "BOIL",
+      "display": "Boiling",
+      "definition": "Method of cooking food in water or liquid heated to its boiling point.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ébullition"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hervir"
+        }
+      ]
+    },
+    {
+      "code": "STEA",
+      "display": "Steaming",
+      "definition": "Method of cooking food using steam from boiling water, often in a perforated container placed above the water.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cuisson à vapeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cocinar al vapor"
+        }
+      ]
+    },
+    {
+      "code": "ROAS",
+      "display": "Roasting",
+      "definition": "Method of cooking food using dry heat in an oven or over an open fire, typically for larger cuts of meat or vegetables.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rôtissage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asar"
+        }
+      ]
+    },
+    {
+      "code": "SAUT",
+      "display": "Sautéing",
+      "definition": "Method of cooking food quickly in a small amount of oil or butter over high heat while stirring or tossing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sauté"
+        },
+        {
+          "language": "es-MX",
+          "value": "Saltear"
+        }
+      ]
+    },
+    {
+      "code": "BRAS",
+      "display": "Braising",
+      "definition": "Method of cooking that combines both dry and moist heat, typically browning food first then cooking slowly in liquid.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Braisage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estofar"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    }
+  ]
+}

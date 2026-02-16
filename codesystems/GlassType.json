@@ -1,0 +1,294 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "GlassType",
+  "url": "https://bind.codes/GlassType",
+  "name": "GlassType",
+  "title": "Glass Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Glass Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "THMP",
+      "display": "Thermopane",
+      "definition": "Double or multi-pane insulated glass units with sealed air space between panes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vitrage Thermopane"
+        },
+        {
+          "language": "es-MX",
+          "value": "Termopanel"
+        }
+      ]
+    },
+    {
+      "code": "ORDN",
+      "display": "Ordinary",
+      "definition": "Standard single-pane glass without special treatments or features.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ordinaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ordinario"
+        }
+      ]
+    },
+    {
+      "code": "BLTP",
+      "display": "Bulletproof",
+      "definition": "Ballistic-resistant glazing designed to withstand bullet impacts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'épreuve des balles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Antibalas"
+        }
+      ]
+    },
+    {
+      "code": "STND",
+      "display": "Stained Glass",
+      "definition": "Decorative glass composed of colored glass pieces joined together.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vitrail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vitral"
+        }
+      ]
+    },
+    {
+      "code": "LEXN",
+      "display": "Lexan",
+      "definition": "Polycarbonate thermoplastic material used as shatter-resistant glazing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lexan"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lexan"
+        }
+      ]
+    },
+    {
+      "code": "WIRD",
+      "display": "Wired Glass",
+      "definition": "Glass with embedded wire mesh for fire resistance and security.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Verre armé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vidrio armado"
+        }
+      ]
+    },
+    {
+      "code": "TINT",
+      "display": "Tinted",
+      "definition": "Glass with color treatment to reduce light transmission and glare.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Teinté"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tintado"
+        }
+      ]
+    },
+    {
+      "code": "SNGL",
+      "display": "Single Pane",
+      "definition": "Glass consisting of a single layer without insulation properties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À vitrage simple"
+        },
+        {
+          "language": "es-MX",
+          "value": "Panel simple"
+        }
+      ]
+    },
+    {
+      "code": "DBLP",
+      "display": "Double Pane",
+      "definition": "Insulated glass unit with two panes separated by an air or gas space.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À vitrage double"
+        },
+        {
+          "language": "es-MX",
+          "value": "Panel doble"
+        }
+      ]
+    },
+    {
+      "code": "GASF",
+      "display": "Gas Filled",
+      "definition": "Multi-pane glass with inert gas (argon or krypton) between panes for enhanced insulation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rempli de gaz"
+        },
+        {
+          "language": "es-MX",
+          "value": "Relleno de gas"
+        }
+      ]
+    },
+    {
+      "code": "TRPL",
+      "display": "Triple Pane",
+      "definition": "Highly insulated glass unit with three panes separated by gas-filled spaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À triple vitrage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Panel triple"
+        }
+      ]
+    },
+    {
+      "code": "PLEX",
+      "display": "Plexiglass",
+      "definition": "Acrylic plastic glazing material that is lighter and more shatter-resistant than glass.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plexiglass"
+        },
+        {
+          "language": "es-MX",
+          "value": "Plexiglás"
+        }
+      ]
+    },
+    {
+      "code": "TEMP",
+      "display": "Tempered",
+      "definition": "Heat-treated safety glass that shatters into small granular pieces when broken.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trempé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Templado"
+        }
+      ]
+    },
+    {
+      "code": "LAMI",
+      "display": "Laminated",
+      "definition": "Safety glass consisting of two or more layers bonded with an interlayer that holds fragments when shattered.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Laminé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Laminado"
+        }
+      ]
+    },
+    {
+      "code": "LOWE",
+      "display": "Low-E",
+      "definition": "Glass with low-emissivity coating to reflect heat while allowing light transmission.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Faible émissivité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Baja emisividad"
+        }
+      ]
+    },
+    {
+      "code": "IMPG",
+      "display": "Impact-Resistant",
+      "definition": "Reinforced glass designed to withstand high wind and debris impacts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résistant aux impacts"
+        },
+        {
+          "language": "es-MX",
+          "value": "Resistente a impactos"
+        }
+      ]
+    },
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

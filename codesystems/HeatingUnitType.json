@@ -1,0 +1,296 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "HeatingUnitType",
+  "url": "https://bind.codes/HeatingUnitType",
+  "name": "HeatingUnitType",
+  "title": "Heating Unit Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Heating Unit Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "WSAT",
+      "display": "Woodstove, Airtight",
+      "definition": "A wood-burning stove with tight-fitting doors and seals designed to control airflow and combustion efficiency.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poêle à bois hermétique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estufa de leña hermética"
+        }
+      ]
+    },
+    {
+      "code": "ASFP",
+      "display": "Acorn Stove Box, Franklin or Pot Belly Stove (loose fitting or no doors)",
+      "definition": "Traditional open-design stoves without airtight seals, including vintage models with loose-fitting or absent doors.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poêle Acorn, Franklin ou Petit Poêle (Truie)  (Avec portes non étanches ou sans portes)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estufa tipo Acorn, Franklin o Barrigona (puertas sueltas o sin puertas)"
+        }
+      ]
+    },
+    {
+      "code": "WSNA",
+      "display": "Woodstove, Not Airtight",
+      "definition": "A wood-burning stove lacking proper seals or door fittings, allowing uncontrolled air infiltration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poêle à bois non-hermétique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estufa de leña no hermética"
+        }
+      ]
+    },
+    {
+      "code": "CKSV",
+      "display": "Cookstove",
+      "definition": "A wood-burning stove designed for both heating and cooking purposes, typically with a flat cooking surface.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poêle-cuisinière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estufa de cocina"
+        }
+      ]
+    },
+    {
+      "code": "FPIN",
+      "display": "Fireplace Insert",
+      "definition": "A self-contained heating unit designed to fit inside an existing masonry or prefabricated fireplace opening.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foyer encastrable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inserto de chimenea"
+        }
+      ]
+    },
+    {
+      "code": "FPZC",
+      "display": "Fireplace, Zero Clearance",
+      "definition": "A factory-built fireplace designed with insulated construction allowing installation close to combustible materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foyer à dégagement nul"
+        },
+        {
+          "language": "es-MX",
+          "value": "Chimenea de distancia cero"
+        }
+      ]
+    },
+    {
+      "code": "FPMR",
+      "display": "Masonry Fireplace",
+      "definition": "A traditional fireplace constructed on-site using brick, stone, or concrete block with a masonry chimney.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foyer en maçonnerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Chimenea de mampostería"
+        }
+      ]
+    },
+    {
+      "code": "PLTS",
+      "display": "Pellet Stove",
+      "definition": "A heating appliance that burns compressed wood or biomass pellets, typically featuring automated fuel delivery.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poêle à granules"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estufa de pellets"
+        }
+      ]
+    },
+    {
+      "code": "WODC",
+      "display": "Wood/Oil Combination",
+      "definition": "A dual-fuel heating system capable of burning both wood and oil, allowing fuel source switching.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois/huile combiné"
+        },
+        {
+          "language": "es-MX",
+          "value": "Combinación de leña/aceite"
+        }
+      ]
+    },
+    {
+      "code": "WDFN",
+      "display": "Wood Furnace",
+      "definition": "A central heating system that burns wood to heat air or water distributed throughout a building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fournaise au bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Horno de leña"
+        }
+      ]
+    },
+    {
+      "code": "WFAO",
+      "display": "Wood Furnace Add On",
+      "definition": "A supplementary wood-burning unit connected to an existing furnace system to provide additional heating capacity.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Générateur d'appoint au bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Complemento de horno de leña"
+        }
+      ]
+    },
+    {
+      "code": "GFNC",
+      "display": "Gas Furnace",
+      "definition": "A central heating system that burns natural gas or propane to heat air distributed through ductwork.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fournaise au gaz"
+        },
+        {
+          "language": "es-MX",
+          "value": "Horno de gas"
+        }
+      ]
+    },
+    {
+      "code": "OFNC",
+      "display": "Oil Furnace",
+      "definition": "A central heating system that burns heating oil to generate warmth for distribution throughout a building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fournaise au mazout"
+        },
+        {
+          "language": "es-MX",
+          "value": "Horno de aceite"
+        }
+      ]
+    },
+    {
+      "code": "EFNC",
+      "display": "Electric Furnace",
+      "definition": "A heating system that uses electric resistance elements to warm air for distribution through ducts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fournaise électrique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Horno eléctrico"
+        }
+      ]
+    },
+    {
+      "code": "HPMP",
+      "display": "Heat Pump",
+      "definition": "A system that transfers heat between indoor and outdoor environments for both heating and cooling using refrigerant.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Thermopompe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bomba de calor"
+        }
+      ]
+    },
+    {
+      "code": "BLRH",
+      "display": "Boiler (Hydronic)",
+      "definition": "A heating system that heats water or produces steam for distribution through radiators or radiant floor systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chaudière (hydronique)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caldera (hidrónica)"
+        }
+      ]
+    },
+    {
+      "code": "EBHH",
+      "display": "Electric Baseboard Heaters",
+      "definition": "Individual electric resistance heating units installed along baseboards to provide zone-specific heating.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plinthes électriques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Calentadores de zócalo eléctricos"
+        }
+      ]
+    },
+    {
+      "code": "GSFP",
+      "display": "Gas Fireplace",
+      "definition": "A fireplace that burns natural gas or propane, either vented or vent-free, for ambiance and supplemental heat.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foyer au gaz"
+        },
+        {
+          "language": "es-MX",
+          "value": "Chimenea de gas"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

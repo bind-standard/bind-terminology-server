@@ -1,0 +1,400 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "RoofMaterialType",
+  "url": "https://bind.codes/RoofMaterialType",
+  "name": "RoofMaterialType",
+  "title": "Roof Material Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Roof Material Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None/Not Applicable",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun/Sans objet"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno/No aplica"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Roof material type not otherwise categorized in this code system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "ASPH",
+      "display": "Asphalt Shingles",
+      "definition": "Shingles composed of asphalt-impregnated fiberglass or organic mat base, typically overlaid with mineral granules.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bardeaux d'asphalte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tejas de asfalto"
+        }
+      ]
+    },
+    {
+      "code": "ALUM",
+      "display": "Aluminium",
+      "definition": "Roofing material constructed from aluminium metal sheets or panels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aluminium"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aluminio"
+        }
+      ]
+    },
+    {
+      "code": "CLAY",
+      "display": "Clay Tile",
+      "definition": "Tiles formed from fired clay, typically used in Mediterranean, Spanish, or Mission-style architecture.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tuile d'argile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Teja de arcilla"
+        }
+      ]
+    },
+    {
+      "code": "LMNT",
+      "display": "Laminated Shingles",
+      "definition": "Multi-layered shingles constructed with two or more tabs bonded together, also known as architectural or dimensional shingles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bardeaux laminés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tejas laminadas"
+        }
+      ]
+    },
+    {
+      "code": "ELAS",
+      "display": "Elastomeric",
+      "definition": "Flexible rubber-based membrane roofing material with elastic properties, commonly EPDM (ethylene propylene diene monomer).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Élastomère"
+        },
+        {
+          "language": "es-MX",
+          "value": "Elastomérico"
+        }
+      ]
+    },
+    {
+      "code": "MFIB",
+      "display": "Mineral Fiber Shakes",
+      "definition": "Shakes manufactured from mineral fibers, often including asbestos or asbestos-free alternatives.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bardeaux en fibre minérale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tablillas de fibra mineral"
+        }
+      ]
+    },
+    {
+      "code": "GRNR",
+      "display": "Green Roof",
+      "definition": "Living roof system with vegetation planted over a waterproof membrane, providing environmental benefits.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toit vert"
+        },
+        {
+          "language": "es-MX",
+          "value": "Techo verde"
+        }
+      ]
+    },
+    {
+      "code": "CRST",
+      "display": "Corrugated Steel",
+      "definition": "Steel roofing formed into parallel ridges and furrows for added strength and water drainage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tôle ondulée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acero corrugado"
+        }
+      ]
+    },
+    {
+      "code": "METL",
+      "display": "Metal Tile",
+      "definition": "Roofing tiles formed from metal materials, shaped to resemble traditional tile profiles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tuile métallique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Teja metálica"
+        }
+      ]
+    },
+    {
+      "code": "CONC",
+      "display": "Concrete Tile",
+      "definition": "Tiles manufactured from Portland cement, sand, and water, formed into various profiles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tuile en ciment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Teja de concreto"
+        }
+      ]
+    },
+    {
+      "code": "OTIL",
+      "display": "Other Tile",
+      "definition": "Tile roofing material not otherwise specified, including composite or specialty tiles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre tuile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otra teja"
+        }
+      ]
+    },
+    {
+      "code": "PLST",
+      "display": "Plastic",
+      "definition": "Roofing material composed of synthetic plastic polymers, including PVC or polycarbonate panels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plastique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Plástico"
+        }
+      ]
+    },
+    {
+      "code": "AROL",
+      "display": "Asphalt Roll",
+      "definition": "Roll roofing consisting of asphalt-saturated felt with a mineral surface, applied in continuous sheets.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rouleau de bitume"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rollo de asfalto"
+        }
+      ]
+    },
+    {
+      "code": "SLAT",
+      "display": "Slate Tile",
+      "definition": "Natural stone roofing tiles quarried and split from slate rock, known for durability and longevity.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tuile d'ardoise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Teja de pizarra"
+        }
+      ]
+    },
+    {
+      "code": "TARG",
+      "display": "Tar and Gravel",
+      "definition": "Built-up roofing system consisting of alternating layers of bitumen and reinforcing fabrics, topped with gravel or stone.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Goudron et gravier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alquitrán y grava"
+        }
+      ]
+    },
+    {
+      "code": "RUBR",
+      "display": "Rubber",
+      "definition": "Synthetic rubber membrane roofing material, typically applied as a single-ply system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caoutchouc"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caucho"
+        }
+      ]
+    },
+    {
+      "code": "WSHK",
+      "display": "Wood Shakes",
+      "definition": "Hand-split or sawn wooden roofing pieces with irregular surfaces, typically thicker than shingles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bardeaux de fente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tablillas de madera"
+        }
+      ]
+    },
+    {
+      "code": "WSHG",
+      "display": "Wood Shingles",
+      "definition": "Sawn wooden roofing pieces with smooth, uniform surfaces, typically thinner than shakes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bardeaux de bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tejas de madera"
+        }
+      ]
+    },
+    {
+      "code": "MEMB",
+      "display": "Membrane (External)",
+      "definition": "Waterproof membrane roofing system applied to the exterior surface, typically synthetic or modified bitumen.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Membrane (externe)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Membrana (externa)"
+        }
+      ]
+    },
+    {
+      "code": "METL-STSG",
+      "display": "Metal Standing Seam",
+      "definition": "Metal roofing panels with raised vertical seams that interlock to provide weather-tight joints.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Métal à joints debout"
+        },
+        {
+          "language": "es-MX",
+          "value": "Metal con costura alzada"
+        }
+      ]
+    },
+    {
+      "code": "THCH",
+      "display": "Thatch",
+      "definition": "Roofing material made from dried vegetation such as straw, water reed, or palm leaves.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chaume"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paja"
+        }
+      ]
+    },
+    {
+      "code": "TPO",
+      "display": "TPO (Thermoplastic Polyolefin)",
+      "definition": "Single-ply thermoplastic membrane roofing material with heat-welded seams.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "TPO (polyoléfine thermoplastique)"
+        },
+        {
+          "language": "es-MX",
+          "value": "TPO (poliolefina termoplástica)"
+        }
+      ]
+    },
+    {
+      "code": "PVC",
+      "display": "PVC (Polyvinyl Chloride)",
+      "definition": "Single-ply thermoplastic membrane made from polyvinyl chloride with plasticizers for flexibility.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "PVC (polychlorure de vinyle)"
+        },
+        {
+          "language": "es-MX",
+          "value": "PVC (cloruro de polivinilo)"
+        }
+      ]
+    }
+  ]
+}

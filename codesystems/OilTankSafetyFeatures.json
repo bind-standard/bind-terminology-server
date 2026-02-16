@@ -1,0 +1,177 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "OilTankSafetyFeatures",
+  "url": "https://bind.codes/OilTankSafetyFeatures",
+  "name": "OilTankSafetyFeatures",
+  "title": "Oil Tank Safety Features",
+  "status": "draft",
+  "language": "en",
+  "description": "Oil Tank Safety Features codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ASPH",
+      "display": "Anti-Siphon Device",
+      "definition": "A device installed on an oil tank to prevent unauthorized or accidental siphoning of fuel by blocking reverse flow through the fill line.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dispositif anti-siphonnement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dispositivo anti-sifón"
+        }
+      ]
+    },
+    {
+      "code": "CDAM",
+      "display": "Concrete Dam",
+      "definition": "A concrete containment structure built around an oil tank to prevent spills from spreading beyond a controlled area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Barrage en béton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dique de concreto"
+        }
+      ]
+    },
+    {
+      "code": "DRPL",
+      "display": "Drip Leg",
+      "definition": "A vertical section of pipe installed at the base of a fuel line to collect condensation and sediment, preventing contamination from entering the burner.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Point de purge"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trampa de goteo"
+        }
+      ]
+    },
+    {
+      "code": "LKDA",
+      "display": "Leak Detection Alarm",
+      "definition": "An electronic monitoring system that detects and alerts when liquid leaks from an oil tank or its associated piping.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Alarme de détection de fuite"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alarma de detección de fugas"
+        }
+      ]
+    },
+    {
+      "code": "LVAS",
+      "display": "Level Alarm System",
+      "definition": "A monitoring system that alerts when the oil level in a tank reaches a predetermined high or low threshold.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Système d'alarme pour niveau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sistema de alarma de nivel"
+        }
+      ]
+    },
+    {
+      "code": "RLBR",
+      "display": "Release Barrier (Drip Tray, Pan)",
+      "definition": "A containment tray or pan placed beneath tank connections, valves, or fill points to capture minor spills and drips.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Barrière de libération (plateau de trop-plein, bac récepteur)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Barrera de liberación (bandeja de goteo)"
+        }
+      ]
+    },
+    {
+      "code": "VNTW",
+      "display": "Vent Alarm Whistle",
+      "definition": "A device installed on the vent pipe that produces an audible whistle sound when the tank is being filled, indicating proper venting and alerting when the tank is nearly full.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sifflet de tuyau d'aération"
+        },
+        {
+          "language": "es-MX",
+          "value": "Silbato de alarma de ventilación"
+        }
+      ]
+    },
+    {
+      "code": "DBCN",
+      "display": "Double-Bottom Containment",
+      "definition": "A tank design featuring an inner tank surrounded by an outer tank or containment shell to capture leaks from the primary tank.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Confinement à double fond"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contención de doble fondo"
+        }
+      ]
+    },
+    {
+      "code": "OVFL",
+      "display": "Overflow Prevention Valve",
+      "definition": "A valve that automatically shuts off fuel flow when the tank reaches maximum capacity to prevent overfilling and spills.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valve anti-débordement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Válvula de prevención de desbordamiento"
+        }
+      ]
+    },
+    {
+      "code": "FLTR",
+      "display": "Fuel Filter",
+      "definition": "A filtration device installed in the fuel line to remove sediment, water, and contaminants before fuel reaches the burner.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Filtre à carburant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Filtro de combustible"
+        }
+      ]
+    },
+    {
+      "code": "WSEP",
+      "display": "Water Separator",
+      "definition": "A device that removes water from fuel oil before it enters the heating system, preventing corrosion and combustion problems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Séparateur d'eau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Separador de agua"
+        }
+      ]
+    }
+  ]
+}

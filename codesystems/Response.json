@@ -1,0 +1,132 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Response",
+  "url": "https://bind.codes/Response",
+  "name": "Response",
+  "title": "Response",
+  "status": "draft",
+  "language": "en",
+  "description": "Response codes for insurance operations.",
+  "concept": [
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "definition": "A response indicating that the requested information could not be determined or is not available.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "SUCC",
+      "display": "Success",
+      "definition": "The operation completed successfully without errors.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Succès"
+        },
+        {
+          "language": "es-MX",
+          "value": "Éxito"
+        }
+      ]
+    },
+    {
+      "code": "FAIL",
+      "display": "Failure",
+      "definition": "The operation failed to complete as requested.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Échec"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fallo"
+        }
+      ]
+    },
+    {
+      "code": "PEND",
+      "display": "Pending",
+      "definition": "The operation is awaiting completion or further action.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En attente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pendiente"
+        }
+      ]
+    },
+    {
+      "code": "APRV",
+      "display": "Approved",
+      "definition": "The request has been reviewed and granted.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Approuvé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aprobado"
+        }
+      ]
+    },
+    {
+      "code": "DENY",
+      "display": "Denied",
+      "definition": "The request has been reviewed and rejected.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Refusé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Denegado"
+        }
+      ]
+    },
+    {
+      "code": "CANC",
+      "display": "Cancelled",
+      "definition": "The operation was terminated before completion.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Annulé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cancelado"
+        }
+      ]
+    },
+    {
+      "code": "PART",
+      "display": "Partial",
+      "definition": "The operation completed with only some of the requested actions fulfilled.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Partiel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Parcial"
+        }
+      ]
+    }
+  ]
+}

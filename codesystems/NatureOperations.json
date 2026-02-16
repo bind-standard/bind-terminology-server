@@ -1,0 +1,821 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "NatureOperations",
+  "url": "https://bind.codes/NatureOperations",
+  "name": "NatureOperations",
+  "title": "Nature Operations",
+  "status": "draft",
+  "language": "en",
+  "description": "Nature Operations codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ABAT",
+      "display": "Abatement",
+      "definition": "Reduction or removal of hazardous materials such as asbestos, lead, or mold from a property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réduction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reducción"
+        }
+      ]
+    },
+    {
+      "code": "BLST",
+      "display": "Blasting/Explosives",
+      "definition": "Use of explosives to break or remove rock, concrete, or other materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Minage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Voladura"
+        }
+      ]
+    },
+    {
+      "code": "BORE",
+      "display": "Boring",
+      "definition": "Drilling holes or creating shafts into the ground or through materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Forage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Perforación"
+        }
+      ]
+    },
+    {
+      "code": "BRZE",
+      "display": "Brazing",
+      "definition": "Metal-joining process using a filler metal with a lower melting point than the base metals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Brasage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Soldadura fuerte"
+        }
+      ]
+    },
+    {
+      "code": "BLDM",
+      "display": "Building Raising and Moving",
+      "definition": "Lifting and relocating structures from one location to another.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Élévation et déplacement de bâtiment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Elevación y traslado de edificios"
+        }
+      ]
+    },
+    {
+      "code": "CAIS",
+      "display": "Caisson Work",
+      "definition": "Construction work involving watertight chambers used for underwater building or excavation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travail de caisson"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajo de cajón"
+        }
+      ]
+    },
+    {
+      "code": "CARP",
+      "display": "Carpentry",
+      "definition": "Woodworking activities including cutting, shaping, and installing wooden structures and fixtures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charpenterie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carpintería"
+        }
+      ]
+    },
+    {
+      "code": "CLEN",
+      "display": "Clean Up / Remediation",
+      "definition": "Removal of contaminants or restoration of a site to safe conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nettoyage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Limpieza / Remediación"
+        }
+      ]
+    },
+    {
+      "code": "CONC",
+      "display": "Concrete Work",
+      "definition": "Mixing, pouring, forming, and finishing of concrete structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travail du béton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajo de concreto"
+        }
+      ]
+    },
+    {
+      "code": "CNST",
+      "display": "Construction",
+      "definition": "General building and construction activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Construction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Construcción"
+        }
+      ]
+    },
+    {
+      "code": "DEMO",
+      "display": "Demolition",
+      "definition": "Destruction and removal of buildings or structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Démolition"
+        },
+        {
+          "language": "es-MX",
+          "value": "Demolición"
+        }
+      ]
+    },
+    {
+      "code": "DRDG",
+      "display": "Dredging",
+      "definition": "Excavating material from underwater to deepen waterways or extract materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dragage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dragado"
+        }
+      ]
+    },
+    {
+      "code": "DRIL",
+      "display": "Drilling",
+      "definition": "Creating holes in earth, rock, or other materials using specialized equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Forage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Perforación"
+        }
+      ]
+    },
+    {
+      "code": "DRYW",
+      "display": "Dry Wall",
+      "definition": "Installation of gypsum board panels to create interior walls and ceilings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plaques de plâtre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Panel de yeso"
+        }
+      ]
+    },
+    {
+      "code": "ELEC",
+      "display": "Electrical",
+      "definition": "Installation, maintenance, and repair of electrical systems and wiring.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Électrique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Eléctrico"
+        }
+      ]
+    },
+    {
+      "code": "EXCV",
+      "display": "Excavation",
+      "definition": "Digging and removal of earth or rock to create foundations, trenches, or other depressions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Excavation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Excavación"
+        }
+      ]
+    },
+    {
+      "code": "FABR",
+      "display": "Fabrication",
+      "definition": "Manufacturing or construction of metal or structural components.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fabrication"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fabricación"
+        }
+      ]
+    },
+    {
+      "code": "FRAM",
+      "display": "Framing",
+      "definition": "Construction of the skeletal structure of a building using wood or metal studs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charpente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Enmarcado"
+        }
+      ]
+    },
+    {
+      "code": "GRAD",
+      "display": "Grading",
+      "definition": "Leveling or sloping of land to achieve proper drainage and site preparation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nivellement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nivelación"
+        }
+      ]
+    },
+    {
+      "code": "GRRF",
+      "display": "Roofing, Green",
+      "definition": "Installation of vegetated roof systems with living plants.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toiture verte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Techo verde"
+        }
+      ]
+    },
+    {
+      "code": "HVAC",
+      "display": "HVAC",
+      "definition": "Installation and servicing of heating, ventilation, and air conditioning systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "CVC"
+        },
+        {
+          "language": "es-MX",
+          "value": "HVAC"
+        }
+      ]
+    },
+    {
+      "code": "LNCL",
+      "display": "Land Clearing",
+      "definition": "Removal of trees, brush, and vegetation from land.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Défrichement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desmonte"
+        }
+      ]
+    },
+    {
+      "code": "MASN",
+      "display": "Masonry",
+      "definition": "Construction using brick, stone, or concrete block.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maçonnerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Albañilería"
+        }
+      ]
+    },
+    {
+      "code": "MISC",
+      "display": "Misc",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Divers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Miscelánea"
+        }
+      ]
+    },
+    {
+      "code": "OILG",
+      "display": "Oil and Gas",
+      "definition": "Exploration, extraction, and processing of petroleum and natural gas.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pétrole et gaz"
+        },
+        {
+          "language": "es-MX",
+          "value": "Petróleo y gas"
+        }
+      ]
+    },
+    {
+      "code": "PNTT",
+      "display": "Painting",
+      "definition": "Application of paint or protective coatings to surfaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Peinture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pintura"
+        }
+      ]
+    },
+    {
+      "code": "PAVE",
+      "display": "Paving",
+      "definition": "Laying asphalt or concrete surfaces for roads, parking lots, or walkways.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pavage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pavimentación"
+        }
+      ]
+    },
+    {
+      "code": "PEST",
+      "display": "Pesticides, Herbicides",
+      "definition": "Application of chemical substances to control pests or unwanted vegetation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pesticides, Herbicides"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pesticidas, Herbicidas"
+        }
+      ]
+    },
+    {
+      "code": "PILE",
+      "display": "Pile Driving",
+      "definition": "Hammering vertical structural supports deep into the ground for foundations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Battage de pieux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hincado de pilotes"
+        }
+      ]
+    },
+    {
+      "code": "PIPL",
+      "display": "Pipeline",
+      "definition": "Installation and maintenance of pipelines for transporting liquids or gases.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Oléoduc"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tubería"
+        }
+      ]
+    },
+    {
+      "code": "PLAS",
+      "display": "Plastering",
+      "definition": "Applying plaster to walls and ceilings for finishing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plâtrage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Enyesado"
+        }
+      ]
+    },
+    {
+      "code": "PLMB",
+      "display": "Plumbing",
+      "definition": "Installation and repair of pipes, fixtures, and systems for water and drainage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plomberie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fontanería"
+        }
+      ]
+    },
+    {
+      "code": "RENO",
+      "display": "Renovations",
+      "definition": "Modification or improvement of existing structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rénovations"
+        },
+        {
+          "language": "es-MX",
+          "value": "Renovaciones"
+        }
+      ]
+    },
+    {
+      "code": "RIGG",
+      "display": "Rigging",
+      "definition": "Setting up equipment, cables, and supports for lifting or moving heavy objects.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gréement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aparejos"
+        }
+      ]
+    },
+    {
+      "code": "ROAD",
+      "display": "Road Construction",
+      "definition": "Building or repairing roadways and related infrastructure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Construction de route"
+        },
+        {
+          "language": "es-MX",
+          "value": "Construcción de carreteras"
+        }
+      ]
+    },
+    {
+      "code": "ROOF",
+      "display": "Roofing",
+      "definition": "Installation or repair of roof covering systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toiture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Techado"
+        }
+      ]
+    },
+    {
+      "code": "SHNG",
+      "display": "Roofing, Shingles",
+      "definition": "Installation of overlapping roof tiles made of asphalt, wood, or composite materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toiture, bardeaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Techo de tejas"
+        }
+      ]
+    },
+    {
+      "code": "SHOR",
+      "display": "Shoring",
+      "definition": "Temporary support of structures or excavations to prevent collapse.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Étayage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Apuntalamiento"
+        }
+      ]
+    },
+    {
+      "code": "SNOW",
+      "display": "Snow Removal",
+      "definition": "Clearing snow and ice from surfaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déneigement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remoción de nieve"
+        }
+      ]
+    },
+    {
+      "code": "STEL",
+      "display": "Structural Steel",
+      "definition": "Erection and assembly of steel framework for buildings and structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acier structurel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acero estructural"
+        }
+      ]
+    },
+    {
+      "code": "SURV",
+      "display": "Surveying",
+      "definition": "Measuring and mapping land boundaries, elevations, and features.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Arpentage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Topografía"
+        }
+      ]
+    },
+    {
+      "code": "HTAR",
+      "display": "Roofing, Hot Tar",
+      "definition": "Application of heated bitumen or tar as a waterproof roofing membrane.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toiture, goudron chaud"
+        },
+        {
+          "language": "es-MX",
+          "value": "Techo de alquitrán caliente"
+        }
+      ]
+    },
+    {
+      "code": "TUNL",
+      "display": "Tunnelling",
+      "definition": "Excavation and construction of underground passages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tunnelage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tunelería"
+        }
+      ]
+    },
+    {
+      "code": "UNDG",
+      "display": "Underground Work",
+      "definition": "Construction or excavation activities performed below ground surface.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travail souterrain"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajo subterráneo"
+        }
+      ]
+    },
+    {
+      "code": "UNDP",
+      "display": "Underpinning",
+      "definition": "Strengthening the foundation of an existing building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Reprise en sous-œuvre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Recalce"
+        }
+      ]
+    },
+    {
+      "code": "WELD",
+      "display": "Welding",
+      "definition": "Joining metal parts by heating and fusing them together.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soudage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Soldadura"
+        }
+      ]
+    },
+    {
+      "code": "WOFF",
+      "display": "Welding Off Premises",
+      "definition": "Welding operations conducted away from the primary business location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soudage hors des lieux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Soldadura fuera del local"
+        }
+      ]
+    },
+    {
+      "code": "WONP",
+      "display": "Welding On Premises",
+      "definition": "Welding operations conducted at the primary business location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soudage sur les lieux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Soldadura en el local"
+        }
+      ]
+    },
+    {
+      "code": "WIRG",
+      "display": "Wiring",
+      "definition": "Installation of electrical cables and conductors.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Câblage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cableado"
+        }
+      ]
+    },
+    {
+      "code": "WOOD",
+      "display": "Woodworking",
+      "definition": "Crafting or manufacturing items from wood.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travail du bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carpintería"
+        }
+      ]
+    },
+    {
+      "code": "SCAF",
+      "display": "Scaffolding",
+      "definition": "Erection of temporary platforms and supports for workers at height.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Échafaudage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Andamiaje"
+        }
+      ]
+    },
+    {
+      "code": "INSL",
+      "display": "Insulation",
+      "definition": "Installation of thermal, acoustic, or fire-resistant barrier materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Isolation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aislamiento"
+        }
+      ]
+    },
+    {
+      "code": "TILE",
+      "display": "Tile Setting",
+      "definition": "Installation of ceramic, porcelain, or stone tiles on floors, walls, or other surfaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pose de carreaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Colocación de azulejos"
+        }
+      ]
+    },
+    {
+      "code": "GLAZ",
+      "display": "Glazing",
+      "definition": "Installation of glass windows, doors, and other transparent or translucent panels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vitrage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acristalamiento"
+        }
+      ]
+    }
+  ]
+}

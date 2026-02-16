@@ -30,16 +30,16 @@ All endpoints accept an optional `?lang=` parameter (BCP-47 tag, e.g. `fr-CA`) t
 curl https://bind.codes/
 
 # Get a full code system
-curl https://bind.codes/roof-type
+curl https://bind.codes/RoofType
 
 # Look up a single code
-curl https://bind.codes/roof-type/\$lookup?code=metal
+curl https://bind.codes/RoofType/\$lookup?code=metal
 
 # Search across all code systems
 curl https://bind.codes/\$search?q=shingle
 
 # Get French-Canadian display values
-curl https://bind.codes/construction-type?lang=fr-CA
+curl https://bind.codes/ConstructionType?lang=fr-CA
 ```
 
 ## MCP (Model Context Protocol)
@@ -68,8 +68,8 @@ Each file in `codesystems/` follows this structure:
 ```json
 {
   "resourceType": "CodeSystem",
-  "id": "roof-type",
-  "url": "https://bind.codes/roof-type",
+  "id": "RoofType",
+  "url": "https://bind.codes/RoofType",
   "name": "RoofType",
   "title": "Roof Type",
   "status": "draft",

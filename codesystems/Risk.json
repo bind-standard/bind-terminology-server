@@ -1,0 +1,1750 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Risk",
+  "url": "https://bind.codes/Risk",
+  "name": "Risk",
+  "title": "Risk",
+  "status": "draft",
+  "language": "en",
+  "description": "Risk codes for insurance operations.",
+  "concept": [
+    {
+      "code": "BLDG",
+      "display": "Building",
+      "definition": "Physical structure including walls, roof, and permanent fixtures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bâtiment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Edificio"
+        }
+      ]
+    },
+    {
+      "code": "EQPM",
+      "display": "Equipment",
+      "definition": "Machinery, apparatus, or tools used in operations or production.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo"
+        }
+      ]
+    },
+    {
+      "code": "STCK",
+      "display": "Stock",
+      "definition": "Inventory of goods held for sale or distribution.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marchandises"
+        },
+        {
+          "language": "es-MX",
+          "value": "Existencias"
+        }
+      ]
+    },
+    {
+      "code": "GLAS",
+      "display": "Glass",
+      "definition": "Windows, display cases, and other glass fixtures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bris de glaces"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vidrio"
+        }
+      ]
+    },
+    {
+      "code": "SIGN",
+      "display": "Sign",
+      "definition": "Business signage including exterior and interior displays.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Enseigne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Letrero"
+        }
+      ]
+    },
+    {
+      "code": "VLPR",
+      "display": "Valuable Papers",
+      "definition": "Important documents, records, and papers with intrinsic or functional value.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Archives et documents de valeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Documentos valiosos"
+        }
+      ]
+    },
+    {
+      "code": "CNEQ",
+      "display": "Contractors Equipment",
+      "definition": "Tools and machinery owned by contractors for construction work.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement d'entrepreneurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo de contratistas"
+        }
+      ]
+    },
+    {
+      "code": "ARCV",
+      "display": "Accounts Receivable",
+      "definition": "Outstanding invoices and money owed by customers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comptes clients"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cuentas por cobrar"
+        }
+      ]
+    },
+    {
+      "code": "OFCT",
+      "display": "Office Contents",
+      "definition": "Furniture, supplies, and equipment located within office spaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contenu de bureau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contenido de oficina"
+        }
+      ]
+    },
+    {
+      "code": "TOOL",
+      "display": "Tools",
+      "definition": "Hand tools and portable implements used for work or trade.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Outils"
+        },
+        {
+          "language": "es-MX",
+          "value": "Herramientas"
+        }
+      ]
+    },
+    {
+      "code": "FART",
+      "display": "Fine Arts",
+      "definition": "Paintings, sculptures, and other works of artistic value.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Objets d'art"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bellas artes"
+        }
+      ]
+    },
+    {
+      "code": "CPHS",
+      "display": "Computer Hardware & Software",
+      "definition": "Computing devices and programs including servers, workstations, and applications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matériel et logiciel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hardware y software"
+        }
+      ]
+    },
+    {
+      "code": "CNTR",
+      "display": "Contents in Transit",
+      "definition": "Personal or business property while being transported.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contenu en transit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contenido en tránsito"
+        }
+      ]
+    },
+    {
+      "code": "GMTR",
+      "display": "Goods and Merchandise in Transit",
+      "definition": "Commercial goods being shipped or delivered.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Biens et marchandises en transit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bienes y mercancías en tránsito"
+        }
+      ]
+    },
+    {
+      "code": "EQMC",
+      "display": "Equipment and Machinery",
+      "definition": "Industrial or commercial machinery and equipment used in operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement et machines"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo y maquinaria"
+        }
+      ]
+    },
+    {
+      "code": "CONT",
+      "display": "Contents",
+      "definition": "General property and belongings within a premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contenu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contenido"
+        }
+      ]
+    },
+    {
+      "code": "LAND",
+      "display": "Land",
+      "definition": "Real property including the ground and associated rights.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terrain"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terreno"
+        }
+      ]
+    },
+    {
+      "code": "NBLD",
+      "display": "Neighbouring Building",
+      "definition": "Adjacent or nearby structures that may be impacted.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bâtiment adjacent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Edificio vecino"
+        }
+      ]
+    },
+    {
+      "code": "WTRC",
+      "display": "Watercraft",
+      "definition": "Boats, ships, and other vessels for water navigation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bateau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Embarcación"
+        }
+      ]
+    },
+    {
+      "code": "AIRC",
+      "display": "Aircraft",
+      "definition": "Airplanes, helicopters, and other flying vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avion"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aeronave"
+        }
+      ]
+    },
+    {
+      "code": "PRPL",
+      "display": "Production Premises or Location",
+      "definition": "Facilities and sites where manufacturing or production occurs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lieux de production ou emplacement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instalaciones de producción o ubicación"
+        }
+      ]
+    },
+    {
+      "code": "BINC",
+      "display": "Business Income",
+      "definition": "Revenue generated from normal business operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Revenu d'entreprise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ingresos comerciales"
+        }
+      ]
+    },
+    {
+      "code": "BINT",
+      "display": "Business Interruption",
+      "definition": "Loss of income resulting from operational disruption.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Perte d'exploitation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Interrupción de negocio"
+        }
+      ]
+    },
+    {
+      "code": "BEGB",
+      "display": "Blanket Exterior Glass - Building",
+      "definition": "Comprehensive coverage for all exterior glass on a structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance globale vitres extérieures - Édifice"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vidrio exterior general - Edificio"
+        }
+      ]
+    },
+    {
+      "code": "BRKB",
+      "display": "Builder's Risk - Building",
+      "definition": "Coverage for buildings under construction or renovation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Risques de chantier - Édifice"
+        },
+        {
+          "language": "es-MX",
+          "value": "Riesgo del constructor - Edificio"
+        }
+      ]
+    },
+    {
+      "code": "BRKC",
+      "display": "Builder's Risk - Contents",
+      "definition": "Coverage for materials and contents during construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Risques de chantier - Contenu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Riesgo del constructor - Contenido"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "ANIM",
+      "display": "Animals – Miscellaneous",
+      "definition": "Livestock and other animals not classified elsewhere.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Animaux - Divers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Animales - Diversos"
+        }
+      ]
+    },
+    {
+      "code": "AVDM",
+      "display": "Audio Visual Data Media (CD, DVD, VHS, etc.)",
+      "definition": "Physical media containing recorded audio or video content.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Média données audiovisuelles (CD, DVD, VHS, etc.)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Medios de datos audiovisuales (CD, DVD, VHS, etc.)"
+        }
+      ]
+    },
+    {
+      "code": "BOOK",
+      "display": "Books (Professional Library)",
+      "definition": "Professional reference books and library collections.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Livres (Librairie professionnelle)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Libros (Biblioteca profesional)"
+        }
+      ]
+    },
+    {
+      "code": "BSGN",
+      "display": "Business Sign",
+      "definition": "Commercial signage identifying or advertising a business.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Enseigne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Letrero comercial"
+        }
+      ]
+    },
+    {
+      "code": "BIKE",
+      "display": "Bicycles",
+      "definition": "Two-wheeled pedal-powered vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bicyclettes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bicicletas"
+        }
+      ]
+    },
+    {
+      "code": "COLL",
+      "display": "Collectables (Comic Books, Pins, Dolls, etc.)",
+      "definition": "Items collected for their rarity, uniqueness, or sentimental value.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Objets de collection (Bandes dessinées, épinglettes, poupées, etc.)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Coleccionables (Cómics, pines, muñecos, etc.)"
+        }
+      ]
+    },
+    {
+      "code": "CBRD",
+      "display": "Citizen's Band Radio",
+      "definition": "Short-distance radio communication equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poste bande publique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Radio banda ciudadana"
+        }
+      ]
+    },
+    {
+      "code": "CAMC",
+      "display": "Cameras - Professional/Commercial",
+      "definition": "Professional-grade photography equipment for commercial use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caméras – Professionnel/Commercial"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cámaras - Profesional/Comercial"
+        }
+      ]
+    },
+    {
+      "code": "CAMP",
+      "display": "Camping Equipment",
+      "definition": "Tents, sleeping bags, and other outdoor recreation gear.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matériel de camping"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo de campamento"
+        }
+      ]
+    },
+    {
+      "code": "CHNA",
+      "display": "China",
+      "definition": "Fine ceramic dishware and tableware.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Porcelaine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Porcelana"
+        }
+      ]
+    },
+    {
+      "code": "CHKR",
+      "display": "Checkroom Liability",
+      "definition": "Liability for items left in coat check or storage areas.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité vestiaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad de guardarropa"
+        }
+      ]
+    },
+    {
+      "code": "CLEN",
+      "display": "Contact Lens",
+      "definition": "Corrective lenses worn directly on the eye.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lentilles cornéennes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lentes de contacto"
+        }
+      ]
+    },
+    {
+      "code": "CMER",
+      "display": "Cameras",
+      "definition": "Photography equipment for personal use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caméras"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cámaras"
+        }
+      ]
+    },
+    {
+      "code": "COIN",
+      "display": "Coins",
+      "definition": "Collectible or valuable coins and numismatic items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Monnaie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Monedas"
+        }
+      ]
+    },
+    {
+      "code": "CARD",
+      "display": "Collecting Cards (Artist, Sport, etc.)",
+      "definition": "Trading cards with collectible value.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cartes de collection (artistes, sport, etc.)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tarjetas coleccionables (Artistas, deportes, etc.)"
+        }
+      ]
+    },
+    {
+      "code": "CELL",
+      "display": "Cellular Phone",
+      "definition": "Mobile telephone device.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Téléphone cellulaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Teléfono celular"
+        }
+      ]
+    },
+    {
+      "code": "CTEQ",
+      "display": "Contractor's Equipment",
+      "definition": "Specialized tools and equipment owned by contractors.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement d'entrepreneurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo de contratista"
+        }
+      ]
+    },
+    {
+      "code": "PSAW",
+      "display": "Portable Saw",
+      "definition": "Handheld power saw for cutting.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Scie portative"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sierra portátil"
+        }
+      ]
+    },
+    {
+      "code": "DPMO",
+      "display": "Dies, Patterns and Moulds",
+      "definition": "Manufacturing tools for shaping or forming materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matrices, moules et modèles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Troqueles, patrones y moldes"
+        }
+      ]
+    },
+    {
+      "code": "EXHB",
+      "display": "Exhibition Content",
+      "definition": "Items displayed in exhibitions or trade shows.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exposition - Contenu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contenido de exposición"
+        }
+      ]
+    },
+    {
+      "code": "EQDF",
+      "display": "Equipment Dealers Form",
+      "definition": "Coverage form for equipment dealer inventory.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formule Marchands d'équipements"
+        },
+        {
+          "language": "es-MX",
+          "value": "Formulario de distribuidores de equipo"
+        }
+      ]
+    },
+    {
+      "code": "ELEQ",
+      "display": "Electronic Equipment",
+      "definition": "Devices and systems that operate using electronic circuits.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matériels électroniques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo electrónico"
+        }
+      ]
+    },
+    {
+      "code": "FNRT",
+      "display": "Fine Arts",
+      "definition": "Artworks and objects of aesthetic or cultural value.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Objets d'art"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bellas artes"
+        }
+      ]
+    },
+    {
+      "code": "FAPC",
+      "display": "Fine Arts - Professional/Commercial",
+      "definition": "Art held by galleries, dealers, or professional collectors.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Objets d'art - Professionnel/commercial"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bellas artes - Profesional/Comercial"
+        }
+      ]
+    },
+    {
+      "code": "FISH",
+      "display": "Fishing Equipment",
+      "definition": "Rods, reels, tackle, and other fishing gear.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matériel de pêche"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo de pesca"
+        }
+      ]
+    },
+    {
+      "code": "FIRE",
+      "display": "Firearms",
+      "definition": "Guns and other weapons that discharge projectiles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Armes à feu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Armas de fuego"
+        }
+      ]
+    },
+    {
+      "code": "FRST",
+      "display": "Forestry Equipment",
+      "definition": "Machinery and tools for logging and forest management.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement de foresterie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo forestal"
+        }
+      ]
+    },
+    {
+      "code": "FURS",
+      "display": "Furs",
+      "definition": "Garments and items made from animal pelts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fourrures"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pieles"
+        }
+      ]
+    },
+    {
+      "code": "GDSB",
+      "display": "Goods in Storage with Burglary (per day)",
+      "definition": "Stored merchandise with burglary coverage on a daily basis.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marchandises en entreposage avec cambriolage (par jour)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bienes en almacenamiento con robo (por día)"
+        }
+      ]
+    },
+    {
+      "code": "GCRT",
+      "display": "Golf Cart",
+      "definition": "Small motorized vehicle used on golf courses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiturette de golf"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carrito de golf"
+        }
+      ]
+    },
+    {
+      "code": "GOLF",
+      "display": "Golf Equipment",
+      "definition": "Clubs, bags, and accessories for playing golf.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement de golf"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo de golf"
+        }
+      ]
+    },
+    {
+      "code": "GENR",
+      "display": "Generator",
+      "definition": "Device that converts mechanical energy to electrical energy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Génératrice"
+        },
+        {
+          "language": "es-MX",
+          "value": "Generador"
+        }
+      ]
+    },
+    {
+      "code": "GDRT",
+      "display": "Goods Rented to Others",
+      "definition": "Property owned but temporarily in possession of renters.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marchandises louées à des tiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bienes alquilados a terceros"
+        }
+      ]
+    },
+    {
+      "code": "GDST",
+      "display": "Goods in Storage",
+      "definition": "Merchandise held in warehouses or storage facilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marchandises en entreposage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bienes en almacenamiento"
+        }
+      ]
+    },
+    {
+      "code": "HEAR",
+      "display": "Hearing Aids",
+      "definition": "Electronic devices that amplify sound for hearing-impaired individuals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Prothèses auditives"
+        },
+        {
+          "language": "es-MX",
+          "value": "Audífonos"
+        }
+      ]
+    },
+    {
+      "code": "HFRZ",
+      "display": "Home Freezers",
+      "definition": "Residential freezer units for food storage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Congélateurs domestiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Congeladores domésticos"
+        }
+      ]
+    },
+    {
+      "code": "HRSC",
+      "display": "Horse Racing Cart (Sulky)",
+      "definition": "Two-wheeled cart pulled by a harness racing horse.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture de courses attelée (Sulky)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carro de carreras de caballos (Sulky)"
+        }
+      ]
+    },
+    {
+      "code": "HUNT",
+      "display": "Hunting, Archery Equipment",
+      "definition": "Bows, arrows, and accessories for hunting and archery.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement de chasse, tir à l'arc"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo de caza, tiro con arco"
+        }
+      ]
+    },
+    {
+      "code": "JWLR",
+      "display": "Jewellery",
+      "definition": "Personal ornaments such as rings, necklaces, and bracelets.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bijoux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Joyería"
+        }
+      ]
+    },
+    {
+      "code": "JWVT",
+      "display": "Jewellery in Vault/Safety Deposit",
+      "definition": "Jewellery secured in a safe deposit box or vault.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bijoux dans coffret de sûreté"
+        },
+        {
+          "language": "es-MX",
+          "value": "Joyería en bóveda/Caja de seguridad"
+        }
+      ]
+    },
+    {
+      "code": "LPTP",
+      "display": "Laptop",
+      "definition": "Portable personal computer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ordinateur portatif"
+        },
+        {
+          "language": "es-MX",
+          "value": "Computadora portátil"
+        }
+      ]
+    },
+    {
+      "code": "LGEQ",
+      "display": "Large Equipment",
+      "definition": "Heavy machinery and oversized equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gros équipement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo grande"
+        }
+      ]
+    },
+    {
+      "code": "LWMW",
+      "display": "Lawn Mower/Snow Blower/Utility Tractor",
+      "definition": "Residential outdoor maintenance equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tondeuse/souffleuse/tracteur utilitaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cortacésped/Quitanieves/Tractor utilitario"
+        }
+      ]
+    },
+    {
+      "code": "MASP",
+      "display": "Mobile Asphalt Plant",
+      "definition": "Portable facility for producing asphalt paving material.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Usine de préparation d'asphalte mobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Planta de asfalto móvil"
+        }
+      ]
+    },
+    {
+      "code": "MUPC",
+      "display": "Musical Instruments - Professional/Commercial",
+      "definition": "Professional-grade instruments used for performances or recording.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Instruments de musique - Professionnel/commercial"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instrumentos musicales - Profesional/Comercial"
+        }
+      ]
+    },
+    {
+      "code": "MPOD",
+      "display": "Portable Music Devices",
+      "definition": "Personal audio players and portable music equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Appareils de musique portables"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dispositivos de música portátiles"
+        }
+      ]
+    },
+    {
+      "code": "MDEQ",
+      "display": "Medical Equipment",
+      "definition": "Devices and apparatus used for medical diagnosis or treatment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipements médicaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo médico"
+        }
+      ]
+    },
+    {
+      "code": "MUIN",
+      "display": "Musical Instruments",
+      "definition": "Instruments for playing music for personal use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Instruments de musique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instrumentos musicales"
+        }
+      ]
+    },
+    {
+      "code": "MISC",
+      "display": "Miscellaneous Property",
+      "definition": "Property not classified under other specific categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Biens divers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propiedad diversa"
+        }
+      ]
+    },
+    {
+      "code": "MSEQ",
+      "display": "Miscellaneous Sporting Equipment",
+      "definition": "Sports gear not covered by other specific categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement de sport divers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo deportivo diverso"
+        }
+      ]
+    },
+    {
+      "code": "MTCG",
+      "display": "Motor Truck Cargo",
+      "definition": "Goods transported by commercial trucks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transport des biens par camion"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carga de camiones"
+        }
+      ]
+    },
+    {
+      "code": "OCNT",
+      "display": "Office Contents",
+      "definition": "Furnishings and equipment within office premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contenu de bureau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contenido de oficina"
+        }
+      ]
+    },
+    {
+      "code": "OTHO",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "PCOM",
+      "display": "Personal Computer",
+      "definition": "Desktop or personal computing device.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ordinateur personnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Computadora personal"
+        }
+      ]
+    },
+    {
+      "code": "PEFF",
+      "display": "Personal Effects Floater",
+      "definition": "Movable coverage for personal belongings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance flottante des effets personnels"
+        },
+        {
+          "language": "es-MX",
+          "value": "Flotante de efectos personales"
+        }
+      ]
+    },
+    {
+      "code": "PAGR",
+      "display": "Pager",
+      "definition": "Wireless communication device for receiving messages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Téléavertisseur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Localizador"
+        }
+      ]
+    },
+    {
+      "code": "PHYS",
+      "display": "Physicians & Surgeons Equipment",
+      "definition": "Medical instruments and tools used by doctors and surgeons.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement des médecins et chirurgiens"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo de médicos y cirujanos"
+        }
+      ]
+    },
+    {
+      "code": "EYGL",
+      "display": "Prescription Eye Glasses",
+      "definition": "Corrective lenses prescribed for vision correction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lunettes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gafas recetadas"
+        }
+      ]
+    },
+    {
+      "code": "PCMD",
+      "display": "Personal Computers (Media Storage Device)",
+      "definition": "Computer equipment with focus on data storage capabilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ordinateurs personnels (dispositif de stockage de données)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Computadoras personales (Dispositivo de almacenamiento)"
+        }
+      ]
+    },
+    {
+      "code": "PEFO",
+      "display": "Personal Effect - Other",
+      "definition": "Personal belongings not classified elsewhere.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Effets personnels - Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Efectos personales - Otro"
+        }
+      ]
+    },
+    {
+      "code": "PPFL",
+      "display": "Personal Property Floater",
+      "definition": "Movable coverage for general personal property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance flottante des biens meubles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Flotante de propiedad personal"
+        }
+      ]
+    },
+    {
+      "code": "PRDO",
+      "display": "Portable Radios & Typewriters",
+      "definition": "Portable communication and typing devices.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Radios portatifs et dactylos"
+        },
+        {
+          "language": "es-MX",
+          "value": "Radios portátiles y máquinas de escribir"
+        }
+      ]
+    },
+    {
+      "code": "PCSW",
+      "display": "Personal Computers (Software)",
+      "definition": "Computer programs and applications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ordinateurs (logiciels)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Computadoras personales (Software)"
+        }
+      ]
+    },
+    {
+      "code": "PWLD",
+      "display": "Personal Effects - Worldwide",
+      "definition": "Personal belongings covered anywhere in the world.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Effets personnels - Partout dans le monde"
+        },
+        {
+          "language": "es-MX",
+          "value": "Efectos personales - Mundial"
+        }
+      ]
+    },
+    {
+      "code": "RDTV",
+      "display": "Radio and T.V. Antennas",
+      "definition": "Aerials for receiving broadcast signals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Radio et antennes de télévision"
+        },
+        {
+          "language": "es-MX",
+          "value": "Antenas de radio y TV"
+        }
+      ]
+    },
+    {
+      "code": "RQSP",
+      "display": "Racquet Sport Equipment",
+      "definition": "Racquets and equipment for tennis, squash, and similar sports.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement des sports de raquette"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo de deportes de raqueta"
+        }
+      ]
+    },
+    {
+      "code": "RDTR",
+      "display": "Radio Transmitting and Receiving Equipment",
+      "definition": "Two-way radio communication systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matériel de transmission et de réception radiophonique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo de transmisión y recepción de radio"
+        }
+      ]
+    },
+    {
+      "code": "SAIL",
+      "display": "Sail Board",
+      "definition": "Windsurfing board with attached sail.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Planche à voile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tabla de vela"
+        }
+      ]
+    },
+    {
+      "code": "SCBA",
+      "display": "Scuba Equipment",
+      "definition": "Diving gear including tanks, regulators, and masks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement de plongée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo de buceo"
+        }
+      ]
+    },
+    {
+      "code": "SATD",
+      "display": "Satellite Dish Receiver",
+      "definition": "Antenna for receiving satellite television signals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Antenne parabolique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Receptor de antena parabólica"
+        }
+      ]
+    },
+    {
+      "code": "SPRT",
+      "display": "Sports Equipment",
+      "definition": "General athletic and sports gear.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement sportif"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo deportivo"
+        }
+      ]
+    },
+    {
+      "code": "SCIN",
+      "display": "Scientific Instruments",
+      "definition": "Precision instruments for scientific measurement and analysis.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Instruments scientifiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instrumentos científicos"
+        }
+      ]
+    },
+    {
+      "code": "SKII",
+      "display": "Ski Equipment",
+      "definition": "Skis, boots, poles, and accessories for skiing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement de ski"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo de esquí"
+        }
+      ]
+    },
+    {
+      "code": "STMP",
+      "display": "Stamps",
+      "definition": "Collectible postage stamps.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Timbres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estampillas"
+        }
+      ]
+    },
+    {
+      "code": "SLVR",
+      "display": "Silverware",
+      "definition": "Utensils and dishes made of silver or silver-plated materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Argenterie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Platería"
+        }
+      ]
+    },
+    {
+      "code": "TRBG",
+      "display": "Tourist Baggage",
+      "definition": "Luggage and personal items while traveling.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bagage de touriste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipaje de turista"
+        }
+      ]
+    },
+    {
+      "code": "TLFL",
+      "display": "Tool Floater",
+      "definition": "Movable coverage for portable tools.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance flottante des outils"
+        },
+        {
+          "language": "es-MX",
+          "value": "Flotante de herramientas"
+        }
+      ]
+    },
+    {
+      "code": "THTR",
+      "display": "Theatrical Equipment",
+      "definition": "Stage equipment, lighting, and props for theater productions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement de théâtre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo teatral"
+        }
+      ]
+    },
+    {
+      "code": "TACK",
+      "display": "Tack Equipment",
+      "definition": "Horse riding gear including saddles and bridles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matériel d'équitation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo de equitación"
+        }
+      ]
+    },
+    {
+      "code": "TLNP",
+      "display": "Tools - Non-professional",
+      "definition": "Hand tools for personal or household use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Outils - non professionnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Herramientas - No profesional"
+        }
+      ]
+    },
+    {
+      "code": "TOMB",
+      "display": "Tombstone (Grave Marker)",
+      "definition": "Memorial stone marking a burial site.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pierre tombale (marqueur de tombe)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lápida (Marcador de tumba)"
+        }
+      ]
+    },
+    {
+      "code": "TELV",
+      "display": "Televisions",
+      "definition": "Television sets and displays.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Télévisions"
+        },
+        {
+          "language": "es-MX",
+          "value": "Televisores"
+        }
+      ]
+    },
+    {
+      "code": "VDEQ",
+      "display": "Video Equipment",
+      "definition": "Video recording and playback devices.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement vidéo"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo de video"
+        }
+      ]
+    },
+    {
+      "code": "VEND",
+      "display": "Vending Machines",
+      "definition": "Automated machines that dispense products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Distributeurs automatiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Máquinas expendedoras"
+        }
+      ]
+    },
+    {
+      "code": "MWCH",
+      "display": "Motorized Wheel Chair",
+      "definition": "Battery-powered wheelchair for mobility assistance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fauteuil roulant électrique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Silla de ruedas motorizada"
+        }
+      ]
+    },
+    {
+      "code": "WDPR",
+      "display": "Wedding Presents",
+      "definition": "Gifts received for a wedding celebration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cadeaux de mariage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Regalos de boda"
+        }
+      ]
+    },
+    {
+      "code": "WCHO",
+      "display": "Wheelchairs - Other",
+      "definition": "Manual or specialized wheelchairs not motorized.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chaise roulante - autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sillas de ruedas - Otro"
+        }
+      ]
+    },
+    {
+      "code": "WNRS",
+      "display": "Wine - Reserve",
+      "definition": "Higher quality wine aged for extended periods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vin - Réserve"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vino - Reserva"
+        }
+      ]
+    },
+    {
+      "code": "WNVT",
+      "display": "Wine - Vintage",
+      "definition": "Wine from a specific year's harvest with collectible value.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vin - Millésime"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vino - Cosecha"
+        }
+      ]
+    }
+  ]
+}

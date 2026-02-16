@@ -1,0 +1,222 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TitleRelationship",
+  "url": "https://bind.codes/TitleRelationship",
+  "name": "TitleRelationship",
+  "title": "Title Relationship",
+  "status": "draft",
+  "language": "en",
+  "description": "Title Relationship codes for insurance operations.",
+  "concept": [
+    {
+      "code": "PMGR",
+      "display": "Project Manager",
+      "definition": "A person responsible for planning, executing, and overseeing a specific project or initiative within an organization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gestionnaire de projet"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gerente de proyecto"
+        }
+      ]
+    },
+    {
+      "code": "PRES",
+      "display": "President",
+      "definition": "The highest-ranking executive officer of an organization, responsible for overall management and strategic direction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Président"
+        },
+        {
+          "language": "es-MX",
+          "value": "Presidente"
+        }
+      ]
+    },
+    {
+      "code": "VPRS",
+      "display": "Vice President",
+      "definition": "A senior executive reporting to the president, typically responsible for a major division or function.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vice-président"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vicepresidente"
+        }
+      ]
+    },
+    {
+      "code": "SECY",
+      "display": "Secretary",
+      "definition": "An administrative professional responsible for managing correspondence, records, and office coordination.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Secrétaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Secretario"
+        }
+      ]
+    },
+    {
+      "code": "TRES",
+      "display": "Treasurer",
+      "definition": "An officer responsible for managing the organization's financial assets and financial planning.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trésorier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tesorero"
+        }
+      ]
+    },
+    {
+      "code": "CFOF",
+      "display": "Chief Financial Officer",
+      "definition": "The senior executive responsible for managing the financial operations, planning, and reporting of an organization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Directeur financier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Director financiero"
+        }
+      ]
+    },
+    {
+      "code": "CEOX",
+      "display": "Chief Executive Officer",
+      "definition": "The highest-ranking executive responsible for making major corporate decisions and managing overall operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Directeur général"
+        },
+        {
+          "language": "es-MX",
+          "value": "Director ejecutivo"
+        }
+      ]
+    },
+    {
+      "code": "COOP",
+      "display": "Chief Operating Officer",
+      "definition": "A senior executive responsible for managing the day-to-day operations and administrative functions of an organization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Directeur des opérations"
+        },
+        {
+          "language": "es-MX",
+          "value": "Director de operaciones"
+        }
+      ]
+    },
+    {
+      "code": "GENM",
+      "display": "General Manager",
+      "definition": "A manager with broad authority over all aspects of a business unit or location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Directeur général"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gerente general"
+        }
+      ]
+    },
+    {
+      "code": "DEPD",
+      "display": "Department Head",
+      "definition": "A person who leads and oversees a specific department within an organization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chef de département"
+        },
+        {
+          "language": "es-MX",
+          "value": "Jefe de departamento"
+        }
+      ]
+    },
+    {
+      "code": "DIRR",
+      "display": "Director",
+      "definition": "A senior manager responsible for a significant area of the organization or a member of the board of directors.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Directeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Director"
+        }
+      ]
+    },
+    {
+      "code": "OWNR",
+      "display": "Owner",
+      "definition": "A person who has legal ownership and proprietorship of a business or organization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriétaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propietario"
+        }
+      ]
+    },
+    {
+      "code": "PRTN",
+      "display": "Partner",
+      "definition": "A person who shares ownership and responsibility in a partnership business structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Associé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Socio"
+        }
+      ]
+    },
+    {
+      "code": "OTHE",
+      "display": "Other",
+      "definition": "A title or relationship not otherwise specified in this code system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "DwellingType",
+  "url": "https://bind.codes/DwellingType",
+  "name": "DwellingType",
+  "title": "Dwelling Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Physical structure types for residential dwellings. Distinct from dwelling use (primary residence, rental, etc.).",
+  "concept": [
+    {
+      "code": "SNGL",
+      "display": "Single-Family Home",
+      "definition": "A freestanding residential structure designed for one household.",
+      "designation": [
+        { "language": "fr-CA", "value": "Maison unifamiliale" },
+        { "language": "es-MX", "value": "Casa unifamiliar" }
+      ]
+    },
+    {
+      "code": "COND",
+      "display": "Condominium",
+      "definition": "An individually owned unit within a multi-unit building, with shared common areas.",
+      "designation": [
+        { "language": "fr-CA", "value": "Copropriété" },
+        { "language": "es-MX", "value": "Condominio" }
+      ]
+    },
+    {
+      "code": "TWNH",
+      "display": "Townhouse",
+      "definition": "A multi-story dwelling sharing one or more walls with adjacent units, each with its own entrance.",
+      "designation": [
+        { "language": "fr-CA", "value": "Maison en rangée" },
+        { "language": "es-MX", "value": "Casa adosada" }
+      ]
+    },
+    {
+      "code": "MBLH",
+      "display": "Mobile Home",
+      "definition": "A factory-built dwelling designed to be transported to a site, typically on a permanent or semi-permanent chassis.",
+      "designation": [
+        { "language": "fr-CA", "value": "Maison mobile" },
+        { "language": "es-MX", "value": "Casa móvil" }
+      ]
+    },
+    {
+      "code": "DPLX",
+      "display": "Duplex",
+      "definition": "A building divided into two separate dwelling units.",
+      "designation": [
+        { "language": "fr-CA", "value": "Duplex" },
+        { "language": "es-MX", "value": "Dúplex" }
+      ]
+    },
+    {
+      "code": "MLTF",
+      "display": "Multi-Family",
+      "definition": "A building containing three or more separate dwelling units (triplex, quadruplex, or small apartment building).",
+      "designation": [
+        { "language": "fr-CA", "value": "Multifamiliale" },
+        { "language": "es-MX", "value": "Multifamiliar" }
+      ]
+    },
+    {
+      "code": "MNFH",
+      "display": "Manufactured Home",
+      "definition": "A factory-built dwelling constructed to federal HUD standards and transported to the site.",
+      "designation": [
+        { "language": "fr-CA", "value": "Maison usinée" },
+        { "language": "es-MX", "value": "Casa prefabricada" }
+      ]
+    },
+    {
+      "code": "MODL",
+      "display": "Modular Home",
+      "definition": "A dwelling built in factory sections then assembled on-site on a permanent foundation, meeting local building codes.",
+      "designation": [
+        { "language": "fr-CA", "value": "Maison modulaire" },
+        { "language": "es-MX", "value": "Casa modular" }
+      ]
+    },
+    {
+      "code": "LOGC",
+      "display": "Log Cabin",
+      "definition": "A dwelling constructed primarily of logs, either hand-hewn or milled.",
+      "designation": [
+        { "language": "fr-CA", "value": "Chalet en bois rond" },
+        { "language": "es-MX", "value": "Cabaña de troncos" }
+      ]
+    },
+    {
+      "code": "ROWH",
+      "display": "Row House",
+      "definition": "One unit in a continuous row of identical or mirror-image houses sharing side walls.",
+      "designation": [
+        { "language": "fr-CA", "value": "Maison en rangée" },
+        { "language": "es-MX", "value": "Casa en hilera" }
+      ]
+    }
+  ]
+}

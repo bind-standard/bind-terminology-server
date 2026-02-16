@@ -1,0 +1,622 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Association",
+  "url": "https://bind.codes/Association",
+  "name": "Association",
+  "title": "Association",
+  "status": "draft",
+  "language": "en",
+  "description": "Association codes for insurance operations.",
+  "concept": [
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "An association not listed in the standard categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None",
+      "definition": "No association or group affiliation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucune"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguna"
+        }
+      ]
+    },
+    {
+      "code": "CA:ATEQ",
+      "display": "ATEQ - Association du transport écolier du Québec",
+      "definition": "Quebec school bus transportation association.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "ATEQ - Association du transport écolier du Québec"
+        }
+      ]
+    },
+    {
+      "code": "CA:APCH",
+      "display": "APCHQ - Association Provinciale des Constructeurs d'Habitations du Québec Inc.",
+      "definition": "Quebec provincial home builders association.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "APCHQ - Association Provinciale des Constructeurs d'Habitations du Québec Inc."
+        }
+      ]
+    },
+    {
+      "code": "CA:ACQC",
+      "display": "ACQ - Association de la Construction du Québec",
+      "definition": "Quebec construction association.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "ACQ - Association de la Construction du Québec"
+        }
+      ]
+    },
+    {
+      "code": "ATVA",
+      "display": "All-Terrain Vehicle Association",
+      "definition": "ATV owner and enthusiast association.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association de véhicules tout terrain"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de vehículos todo terreno"
+        }
+      ]
+    },
+    {
+      "code": "CA:ASPP",
+      "display": "Association des Syndicats de Professionnelles et Professionnels de Colleges du Quebec (ASPPCQ)",
+      "definition": "Quebec college professionals union association.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association des Syndicats de Professionnelles et Professionnels de Colleges du Quebec (ASPPCQ)"
+        }
+      ]
+    },
+    {
+      "code": "CA:CAAA",
+      "display": "CAA - Canadian Automobile Association",
+      "definition": "Canadian automobile club offering roadside assistance and member benefits.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "CAA - Association canadienne des automobilistes"
+        }
+      ]
+    },
+    {
+      "code": "CA:CACH",
+      "display": "Club de l'Âge d'or accrédité - région Chaudière-Appalaches",
+      "definition": "Accredited seniors club for the Chaudière-Appalaches region.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Club de l'Âge d'or accrédité - région Chaudière-Appalaches"
+        }
+      ]
+    },
+    {
+      "code": "CA:CAAO",
+      "display": "Club d'Age d'or accrédité",
+      "definition": "Accredited seniors club.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Club d'Age d'or accrédité"
+        }
+      ]
+    },
+    {
+      "code": "CA:CAAP",
+      "display": "CAA Plus",
+      "definition": "Premium tier membership of the Canadian Automobile Association with enhanced coverage and benefits.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "CAA Plus"
+        }
+      ]
+    },
+    {
+      "code": "CAOA",
+      "display": "Car Owners Association",
+      "definition": "General automobile owners association.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association de propriétaires d'automobiles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de propietarios de automóviles"
+        }
+      ]
+    },
+    {
+      "code": "CYCL",
+      "display": "Cyclist Association",
+      "definition": "Bicycle rider association.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association de cyclistes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de ciclistas"
+        }
+      ]
+    },
+    {
+      "code": "CEMP",
+      "display": "Corporate Employee Associations",
+      "definition": "Company employee groups.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Associations d'employés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociaciones de empleados corporativos"
+        }
+      ]
+    },
+    {
+      "code": "CAMP",
+      "display": "Camping and Caravanning Associations",
+      "definition": "RV and camping enthusiast groups.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Associations de camping et de caravaning"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociaciones de camping y caravanas"
+        }
+      ]
+    },
+    {
+      "code": "CA:FADE",
+      "display": "FADEQ - Fédération des Clubs de l'Âge d'Or de l'Est du Québec",
+      "definition": "Federation of Eastern Quebec seniors clubs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "FADEQ - Fédération des Clubs de l'Âge d'Or de l'Est du Québec"
+        }
+      ]
+    },
+    {
+      "code": "CA:FADO",
+      "display": "FADOQ - Fédération de l'Âge d'Or (Mouvement des Aînés du Québec)",
+      "definition": "Quebec seniors movement federation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "FADOQ - Fédération de l'Âge d'Or (Mouvement des Aînés du Québec)"
+        }
+      ]
+    },
+    {
+      "code": "CA:FCAU",
+      "display": "Fédération des Clubs de l'Âge d'Or - A.-T.- Ungava",
+      "definition": "Abitibi-Témiscamingue and Ungava region seniors clubs federation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fédération des Clubs de l'Âge d'Or - A.-T.- Ungava"
+        }
+      ]
+    },
+    {
+      "code": "CA:FCMQ",
+      "display": "Federation des Clubs de Motoneigistes du Quebec (FCMQ)",
+      "definition": "Quebec snowmobile clubs federation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Federation des Clubs de Motoneigistes du Quebec (FCMQ)"
+        }
+      ]
+    },
+    {
+      "code": "GOLD",
+      "display": "Goldwing Association",
+      "definition": "Honda Goldwing motorcycle owners club.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association Goldwing"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación Goldwing"
+        }
+      ]
+    },
+    {
+      "code": "HORS",
+      "display": "Horseback Riding Association",
+      "definition": "Equestrian organization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association d'équitation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de equitación"
+        }
+      ]
+    },
+    {
+      "code": "LEIS",
+      "display": "Leisure Vehicle Association",
+      "definition": "Recreational vehicle owners group.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association de véhicules de loisir"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de vehículos recreativos"
+        }
+      ]
+    },
+    {
+      "code": "MOTO",
+      "display": "Motorcycle Association",
+      "definition": "General motorcycle riders association.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association de motocyclettes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de motocicletas"
+        }
+      ]
+    },
+    {
+      "code": "MCOA",
+      "display": "Motorcycle Owners Association",
+      "definition": "Motorcycle owners group.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association de propriétaires de motocyclettes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de propietarios de motocicletas"
+        }
+      ]
+    },
+    {
+      "code": "CA:OFTR",
+      "display": "Ontario Federation of Trail Riders (OFTR)",
+      "definition": "Ontario trail riding federation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ontario Federation of Trail Riders (OFTR)"
+        }
+      ]
+    },
+    {
+      "code": "PUNI",
+      "display": "Professional Union Association",
+      "definition": "Professional labor union.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association de syndicats professionnels"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de sindicatos profesionales"
+        }
+      ]
+    },
+    {
+      "code": "CA:RPHL",
+      "display": "RPHL - Regroupement des Propriétaires d'Habitations Locatives",
+      "definition": "Rental property owners association.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "RPHL - Regroupement des Propriétaires d'Habitations Locatives"
+        }
+      ]
+    },
+    {
+      "code": "REGN",
+      "display": "Regional Association",
+      "definition": "General regional organization or group.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association régionale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación regional"
+        }
+      ]
+    },
+    {
+      "code": "CA:RCMP",
+      "display": "Royal Canadian Mounted Police (RCMP)",
+      "definition": "Canadian federal police force.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gendarmerie royale du Canada (GRC)"
+        }
+      ]
+    },
+    {
+      "code": "CA:SPGQ",
+      "display": "SPGQ - Syndicat regroupant l'ensemble des professionnels du gouvernement du Québec",
+      "definition": "Quebec government professionals union.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "SPGQ - Syndicat regroupant l'ensemble des professionnels du gouvernement du Québec"
+        }
+      ]
+    },
+    {
+      "code": "SNOW",
+      "display": "Snowmobile Association",
+      "definition": "Snowmobile owners and enthusiast group.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association de motoneiges"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de motos de nieve"
+        }
+      ]
+    },
+    {
+      "code": "SOBR",
+      "display": "Sobriety Association",
+      "definition": "Sober driver or recovery support group.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association de sobriété"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de sobriedad"
+        }
+      ]
+    },
+    {
+      "code": "SPTR",
+      "display": "Sport Touring Association",
+      "definition": "Sport touring motorcycle or vehicle association.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association de tourisme sportif"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de turismo deportivo"
+        }
+      ]
+    },
+    {
+      "code": "TOUR",
+      "display": "Touring and Riding Association",
+      "definition": "Touring and recreational riding group.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association de tourisme et de randonnée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de turismo y conducción"
+        }
+      ]
+    },
+    {
+      "code": "USED",
+      "display": "Used Vehicle Resellers Association",
+      "definition": "Used car dealers association.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association de revendeurs de véhicules usagés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de revendedores de vehículos usados"
+        }
+      ]
+    },
+    {
+      "code": "HOSP",
+      "display": "Hospital Association",
+      "definition": "Healthcare facility association.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association d'hôpitaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de hospitales"
+        }
+      ]
+    },
+    {
+      "code": "TELE",
+      "display": "Telephone Providers/Companies Association",
+      "definition": "Telecommunications provider association.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association de fournisseurs/compagnies de téléphone"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de proveedores/compañías telefónicas"
+        }
+      ]
+    },
+    {
+      "code": "CA:AMVO",
+      "display": "Association des marchands de véhicules d'occasion du Québec AMVOQ (QC)",
+      "definition": "Quebec used vehicle dealers association.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association des marchands de véhicules d'occasion du Québec AMVOQ (QC)"
+        }
+      ]
+    },
+    {
+      "code": "CA:AQVL",
+      "display": "Association Québécoise des Véhicules de Loisirs (AQVL)",
+      "definition": "Quebec recreational vehicles association.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association Québécoise des Véhicules de Loisirs (AQVL)"
+        }
+      ]
+    },
+    {
+      "code": "BMWM",
+      "display": "BMW Motorcycle Groups",
+      "definition": "BMW motorcycle owners clubs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "BMW Motorcycle Groups"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grupos de motocicletas BMW"
+        }
+      ]
+    },
+    {
+      "code": "CA:BCCO",
+      "display": "British Columbia Coalition of Motorcyclists (BCCOM)",
+      "definition": "British Columbia motorcycle riders coalition.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "British Columbia Coalition of Motorcyclists (BCCOM)"
+        }
+      ]
+    },
+    {
+      "code": "BLKN",
+      "display": "Blue Knights",
+      "definition": "Law enforcement motorcycle club.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Blue Knights"
+        },
+        {
+          "language": "es-MX",
+          "value": "Blue Knights"
+        }
+      ]
+    },
+    {
+      "code": "HOGS",
+      "display": "Harley Owners Groups (HOG)",
+      "definition": "Harley-Davidson motorcycle owners club.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Harley Owners Groups (HOG)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Harley Owners Groups (HOG)"
+        }
+      ]
+    },
+    {
+      "code": "CA:QSBA",
+      "display": "Quebec School Bus Association (QC)",
+      "definition": "Quebec school bus operators association.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Quebec School Bus Association (QC)"
+        }
+      ]
+    },
+    {
+      "code": "ALUM",
+      "display": "Alumni Association",
+      "definition": "University or college alumni association.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association d'anciens étudiants"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación de exalumnos"
+        }
+      ]
+    },
+    {
+      "code": "PROF",
+      "display": "Professional Association",
+      "definition": "Licensed professionals association such as engineers, lawyers, or accountants.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Association professionnelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asociación profesional"
+        }
+      ]
+    }
+  ]
+}

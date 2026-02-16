@@ -1,0 +1,147 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "AirConditioningAgentType",
+  "url": "https://bind.codes/AirConditioningAgentType",
+  "name": "AirConditioningAgentType",
+  "title": "Air Conditioning Agent Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Air Conditioning Agent Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "FREN",
+      "display": "Freon",
+      "definition": "Chlorofluorocarbon-based refrigerant commonly used in older HVAC systems; may present environmental and regulatory compliance considerations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fréon"
+        },
+        {
+          "language": "es-MX",
+          "value": "Freón"
+        }
+      ]
+    },
+    {
+      "code": "AMMO",
+      "display": "Ammonia",
+      "definition": "Refrigerant gas used primarily in industrial and commercial refrigeration systems; requires specialized handling and safety protocols due to toxicity.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ammoniaque"
+        },
+        {
+          "language": "es-MX",
+          "value": "Amoníaco"
+        }
+      ]
+    },
+    {
+      "code": "WATR",
+      "display": "Water",
+      "definition": "Water-based cooling agent used in evaporative or absorption cooling systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Eau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agua"
+        }
+      ]
+    },
+    {
+      "code": "R41A",
+      "display": "R-410A",
+      "definition": "Hydrofluorocarbon refrigerant blend widely used in modern residential and commercial air conditioning systems as an environmentally safer alternative to R-22.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "R-410A"
+        },
+        {
+          "language": "es-MX",
+          "value": "R-410A"
+        }
+      ]
+    },
+    {
+      "code": "R022",
+      "display": "R-22",
+      "definition": "Hydrochlorofluorocarbon refrigerant formerly common in air conditioning systems; now being phased out due to environmental regulations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "R-22"
+        },
+        {
+          "language": "es-MX",
+          "value": "R-22"
+        }
+      ]
+    },
+    {
+      "code": "R13A",
+      "display": "R-134A",
+      "definition": "Hydrofluorocarbon refrigerant used in automotive air conditioning and some commercial applications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "R-134A"
+        },
+        {
+          "language": "es-MX",
+          "value": "R-134A"
+        }
+      ]
+    },
+    {
+      "code": "R47C",
+      "display": "R-407C",
+      "definition": "Hydrofluorocarbon refrigerant blend used as a retrofit replacement for R-22 in existing air conditioning systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "R-407C"
+        },
+        {
+          "language": "es-MX",
+          "value": "R-407C"
+        }
+      ]
+    },
+    {
+      "code": "R032",
+      "display": "R-32",
+      "definition": "Hydrofluorocarbon refrigerant with lower environmental impact used in newer residential and light commercial air conditioning systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "R-32"
+        },
+        {
+          "language": "es-MX",
+          "value": "R-32"
+        }
+      ]
+    },
+    {
+      "code": "CDRB",
+      "display": "Carbon Dioxide (CO2)",
+      "definition": "Natural refrigerant used in some commercial refrigeration and heat pump systems; characterized by low environmental impact.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dioxyde de carbone (CO2)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dióxido de carbono (CO2)"
+        }
+      ]
+    }
+  ]
+}

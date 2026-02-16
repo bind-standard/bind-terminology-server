@@ -1,0 +1,117 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ThirdPartyVehicle",
+  "url": "https://bind.codes/ThirdPartyVehicle",
+  "name": "ThirdPartyVehicle",
+  "title": "Third Party Vehicle",
+  "status": "draft",
+  "language": "en",
+  "description": "Third Party Vehicle codes for insurance operations.",
+  "concept": [
+    {
+      "code": "HCMV",
+      "display": "Heavy commercial vehicle (over 4,500 kg) including taxi, limousine, ambulance, police vehicle, fire department vehicle, buses and funeral carriage.",
+      "definition": "A commercial vehicle exceeding 4,500 kg in weight, including specialized vehicles such as taxis, limousines, ambulances, emergency services vehicles, public transit buses, and hearses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule utilitaire lourd (plus de 4 500 kg) incluant taxi, limousine, ambulance, voiture de patrouille, camion d'incendie, autobus et corbillards."
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo comercial pesado (más de 4,500 kg) incluyendo taxi, limusina, ambulancia, vehículo policial, vehículo de bomberos, autobuses y carroza fúnebre."
+        }
+      ]
+    },
+    {
+      "code": "LCMV",
+      "display": "Light commercial vehicle (4,500 kg or less, such as light truck, pick up, van) except those described in C above.",
+      "definition": "A commercial vehicle weighing 4,500 kg or less, such as pickup trucks, vans, and light-duty trucks, excluding the heavy commercial vehicles and specialized vehicles listed above.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule utilitaire léger (4 500 kg ou moins, tels que véhicule léger, fourgonnette, camionnette) à l'exception de ceux décrits ci-dessus."
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo comercial ligero (4,500 kg o menos, como camioneta ligera, pick up, camioneta) excepto los descritos arriba."
+        }
+      ]
+    },
+    {
+      "code": "RECR",
+      "display": "Recreational type vehicle (e.g. snowmobile, motorcycle, motorized bicycle and all-terrain vehicle).",
+      "definition": "A motorized vehicle designed primarily for recreational use, including snowmobiles, motorcycles, motorized bicycles, and all-terrain vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule de type récréatif (par exemple, motoneige, motocyclette, bicyclette électrique et véhicule tout-terrain)."
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo de tipo recreativo (por ejemplo, moto de nieve, motocicleta, bicicleta motorizada y vehículo todoterreno)."
+        }
+      ]
+    },
+    {
+      "code": "RSCH",
+      "display": "Temporary code indicating that a search is under way to obtain the type of third party vehicle.",
+      "definition": "A temporary placeholder code used when the type of the third-party vehicle involved in an incident has not yet been determined and is being investigated.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Code temporaire indiquant qu'une recherche est en cours pour obtenir le type de véhicule tiers."
+        },
+        {
+          "language": "es-MX",
+          "value": "Código temporal que indica que se está realizando una búsqueda para obtener el tipo de vehículo de terceros."
+        }
+      ]
+    },
+    {
+      "code": "PPVH",
+      "display": "Private passenger vehicle, except those described in C above.",
+      "definition": "A privately owned vehicle used primarily for personal transportation, excluding heavy commercial vehicles and specialized vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voiture de tourisme, sauf celle décrite ci-dessus."
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo de pasajeros privado, excepto los descritos arriba."
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "No other vehicle involved or hit-and-run vehicle.",
+      "definition": "Indicates either that no other vehicle was involved in the incident, or that another vehicle was involved but fled the scene before being identified.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun autre véhicule impliqué ou en délit de fuite."
+        },
+        {
+          "language": "es-MX",
+          "value": "Ningún otro vehículo involucrado o vehículo que se dio a la fuga."
+        }
+      ]
+    },
+    {
+      "code": "TRLR",
+      "display": "Trailer or semi-trailer.",
+      "definition": "A non-motorized vehicle designed to be towed by another vehicle, including utility trailers, semi-trailers, and travel trailers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque ou semi-remorque."
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque o semirremolque."
+        }
+      ]
+    }
+  ]
+}

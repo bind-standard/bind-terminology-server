@@ -1,0 +1,282 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "PlumbingType",
+  "url": "https://bind.codes/PlumbingType",
+  "name": "PlumbingType",
+  "title": "Plumbing Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Plumbing Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "COPR",
+      "display": "Copper",
+      "definition": "Piping made from copper metal, a durable and corrosion-resistant material commonly used for both water supply and drainage systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cuivre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cobre"
+        }
+      ]
+    },
+    {
+      "code": "PLST",
+      "display": "Plastic",
+      "definition": "General category for plastic-based piping materials, including various polymer types used in modern plumbing systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plastique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Plástico"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Plumbing materials not categorized in standard classifications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "CSTI",
+      "display": "Cast Iron",
+      "definition": "Heavy, durable iron piping formed by casting molten metal, traditionally used for drainage and sewer systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fonte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hierro fundido"
+        }
+      ]
+    },
+    {
+      "code": "GLVS",
+      "display": "Galvanized Steel",
+      "definition": "Steel piping coated with a protective layer of zinc to prevent corrosion, commonly used in older water supply systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acier galvanisé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acero galvanizado"
+        }
+      ]
+    },
+    {
+      "code": "WOOD",
+      "display": "Wood",
+      "definition": "Wooden piping or conduits, historically used in early plumbing systems but rarely found in modern installations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Madera"
+        }
+      ]
+    },
+    {
+      "code": "LEAD",
+      "display": "Lead",
+      "definition": "Piping made from lead metal, once common in water supply systems but now recognized as a health hazard and typically requiring replacement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plomb"
+        },
+        {
+          "language": "es-MX",
+          "value": "Plomo"
+        }
+      ]
+    },
+    {
+      "code": "STLS",
+      "display": "Stainless Steel",
+      "definition": "Steel alloy containing chromium for superior corrosion resistance, used in high-quality plumbing installations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acier inoxydable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acero inoxidable"
+        }
+      ]
+    },
+    {
+      "code": "STEE",
+      "display": "Steel",
+      "definition": "Iron-carbon alloy piping without protective coating, susceptible to corrosion unless properly maintained.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Acier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acero"
+        }
+      ]
+    },
+    {
+      "code": "PVCC",
+      "display": "PVC (polyvinyl chloride)",
+      "definition": "Rigid plastic piping made from polyvinyl chloride, widely used for drainage, waste, and vent systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "PVC (polychlorure de vinyle)"
+        },
+        {
+          "language": "es-MX",
+          "value": "PVC (cloruro de polivinilo)"
+        }
+      ]
+    },
+    {
+      "code": "ABSP",
+      "display": "ABS (acrylonitrile-butadiene-styrene)",
+      "definition": "Black plastic piping made from acrylonitrile-butadiene-styrene, commonly used for drain, waste, and vent applications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "ABS (acrylonitrile-butadiène-styrène)"
+        },
+        {
+          "language": "es-MX",
+          "value": "ABS (acrilonitrilo-butadieno-estireno)"
+        }
+      ]
+    },
+    {
+      "code": "PEXX",
+      "display": "PEX (crosslinked polyethylene)",
+      "definition": "Flexible plastic tubing with crosslinked molecular structure, popular for water supply lines due to ease of installation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "PEX (polyéthylène réticulé)"
+        },
+        {
+          "language": "es-MX",
+          "value": "PEX (polietileno reticulado)"
+        }
+      ]
+    },
+    {
+      "code": "POLB",
+      "display": "POLB (polybutylene)",
+      "definition": "Gray plastic piping made from polybutylene resin, used in water supply systems from the 1970s-1990s and known for potential failure issues.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "POLB (polybutylène)"
+        },
+        {
+          "language": "es-MX",
+          "value": "POLB (polibutileno)"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "No Plumbing",
+      "definition": "Property has no plumbing system installed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucune plomberie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin plomería"
+        }
+      ]
+    },
+    {
+      "code": "ALUM",
+      "display": "Aluminum",
+      "definition": "Lightweight metal piping, occasionally used in specific applications but less common than other materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aluminium"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aluminio"
+        }
+      ]
+    },
+    {
+      "code": "BRAS",
+      "display": "Brass",
+      "definition": "Copper-zinc alloy piping and fittings, valued for corrosion resistance and commonly used in fixtures and connections.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Laiton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Latón"
+        }
+      ]
+    },
+    {
+      "code": "GLVI",
+      "display": "Galvanized Iron",
+      "definition": "Iron piping with zinc coating for corrosion protection, similar to galvanized steel but with different base metal composition.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fer galvanisé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hierro galvanizado"
+        }
+      ]
+    },
+    {
+      "code": "CPVC",
+      "display": "CPVC (chlorinated polyvinyl chloride)",
+      "definition": "Chlorinated PVC piping designed to handle higher temperatures, suitable for hot water supply lines.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "CPVC (polychlorure de vinyle chloré)"
+        },
+        {
+          "language": "es-MX",
+          "value": "CPVC (cloruro de polivinilo clorado)"
+        }
+      ]
+    }
+  ]
+}

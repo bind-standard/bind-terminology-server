@@ -1,0 +1,867 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "LimitApplies",
+  "url": "https://bind.codes/LimitApplies",
+  "name": "LimitApplies",
+  "title": "Limit Applies",
+  "status": "draft",
+  "language": "en",
+  "description": "Specifies the scope or basis on which coverage limits apply within a policy.",
+  "concept": [
+    {
+      "code": "POAC",
+      "display": "Per Occurrence or Accident",
+      "definition": "The limit applies separately to each distinct occurrence or accident event.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par sinistre ou accident"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por ocurrencia o accidente"
+        }
+      ]
+    },
+    {
+      "code": "PPRS",
+      "display": "Per Person",
+      "definition": "The limit applies separately to each individual person involved.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par personne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por persona"
+        }
+      ]
+    },
+    {
+      "code": "PLOC",
+      "display": "Per Location",
+      "definition": "The limit applies separately to each covered location or site.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par emplacement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por ubicación"
+        }
+      ]
+    },
+    {
+      "code": "LOC1",
+      "display": "Location #1 Only",
+      "definition": "The limit applies exclusively to the primary or first listed location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Emplacement nº 1 seulement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ubicación nº 1 solamente"
+        }
+      ]
+    },
+    {
+      "code": "PSCH",
+      "display": "Per Schedule of Locations",
+      "definition": "The limit applies according to amounts specified in the schedule of locations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par tableau des emplacements"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por lista de ubicaciones"
+        }
+      ]
+    },
+    {
+      "code": "TPLI",
+      "display": "Third Party Liability",
+      "definition": "The limit applies to liability claims brought by third parties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Responsabilité civile vis-à-vis des tiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Responsabilidad civil frente a terceros"
+        }
+      ]
+    },
+    {
+      "code": "WKBN",
+      "display": "Weekly Benefits",
+      "definition": "The limit applies to the maximum benefit payable per week.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Indemnités hebdomadaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Beneficios semanales"
+        }
+      ]
+    },
+    {
+      "code": "AGGL",
+      "display": "Aggregate Limit",
+      "definition": "The total maximum amount payable for all claims during the policy period.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Montant d'assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Límite agregado"
+        }
+      ]
+    },
+    {
+      "code": "MXIT",
+      "display": "Maximum per Item",
+      "definition": "The limit applies separately to each individual item.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maximum par article"
+        },
+        {
+          "language": "es-MX",
+          "value": "Máximo por artículo"
+        }
+      ]
+    },
+    {
+      "code": "MXDY",
+      "display": "Maximum per Day",
+      "definition": "The limit applies to the maximum amount payable per calendar day.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maximum par jour"
+        },
+        {
+          "language": "es-MX",
+          "value": "Máximo por día"
+        }
+      ]
+    },
+    {
+      "code": "MX1I",
+      "display": "Maximum Any One Item",
+      "definition": "The limit applies to the highest valued single item among all covered items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maximum tous les articles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Máximo cualquier artículo"
+        }
+      ]
+    },
+    {
+      "code": "CATS",
+      "display": "Catastrophe",
+      "definition": "The limit applies to losses arising from a single catastrophic event.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Catastrophe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Catástrofe"
+        }
+      ]
+    },
+    {
+      "code": "PCLM",
+      "display": "Per Claim",
+      "definition": "The limit applies separately to each claim filed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par réclamation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por reclamación"
+        }
+      ]
+    },
+    {
+      "code": "ONPR",
+      "display": "On-premises",
+      "definition": "The limit applies only to losses occurring at the insured premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sur les lieux assurés"
+        },
+        {
+          "language": "es-MX",
+          "value": "En las instalaciones"
+        }
+      ]
+    },
+    {
+      "code": "OFPR",
+      "display": "Off-premises",
+      "definition": "The limit applies only to losses occurring away from the insured premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors des lieux assurés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fuera de las instalaciones"
+        }
+      ]
+    },
+    {
+      "code": "LOCL",
+      "display": "Location Limit",
+      "definition": "The maximum amount payable for a specific location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Montant de garantie - Emplacement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Límite por ubicación"
+        }
+      ]
+    },
+    {
+      "code": "AAPL",
+      "display": "Annual Aggregate - Per Location",
+      "definition": "The total maximum payable per location during the policy year.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Montant annuel - Par emplacement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agregado anual - Por ubicación"
+        }
+      ]
+    },
+    {
+      "code": "AATL",
+      "display": "Annual Aggregate - Total",
+      "definition": "The total maximum payable for all locations combined during the policy year.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Montant annuel - Total"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agregado anual - Total"
+        }
+      ]
+    },
+    {
+      "code": "BIIS",
+      "display": "As per BI&I",
+      "definition": "Limit applies as specified by the Boiler Insurance and Inspection standards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Selon le BI & I (Boiler Insurance and Inspection)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Según BI&I"
+        }
+      ]
+    },
+    {
+      "code": "GNAG",
+      "display": "General Aggregate",
+      "definition": "The total maximum amount payable for all covered claims during the policy period.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par période d'assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agregado general"
+        }
+      ]
+    },
+    {
+      "code": "LSIN",
+      "display": "Loss Inside",
+      "definition": "The limit applies to losses that occur inside the premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Perte intérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pérdida interior"
+        }
+      ]
+    },
+    {
+      "code": "LSOT",
+      "display": "Loss Outside",
+      "definition": "The limit applies to losses that occur outside the premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Perte extérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pérdida exterior"
+        }
+      ]
+    },
+    {
+      "code": "PBLD",
+      "display": "Per Building",
+      "definition": "The limit applies separately to each building structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par édifice"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por edificio"
+        }
+      ]
+    },
+    {
+      "code": "PCTG",
+      "display": "Percentage of Limit",
+      "definition": "The coverage applies as a percentage of the primary coverage limit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pourcentage de la limite"
+        },
+        {
+          "language": "es-MX",
+          "value": "Porcentaje del límite"
+        }
+      ]
+    },
+    {
+      "code": "INBL",
+      "display": "Inside Building",
+      "definition": "The limit applies only to property located inside a building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intérieur du bâtiment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dentro del edificio"
+        }
+      ]
+    },
+    {
+      "code": "OTBL",
+      "display": "Outside Building",
+      "definition": "The limit applies only to property located outside a building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'extérieur du bâtiment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fuera del edificio"
+        }
+      ]
+    },
+    {
+      "code": "PPKG",
+      "display": "Per Package",
+      "definition": "The limit applies separately to each package policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par police multirisques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por paquete"
+        }
+      ]
+    },
+    {
+      "code": "PSHP",
+      "display": "Per Shipment",
+      "definition": "The limit applies separately to each shipment or transport.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par envoi"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por envío"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "A limit application basis not otherwise specified.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "BLNK",
+      "display": "Blanket",
+      "definition": "A single limit that applies collectively across multiple items or locations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Global"
+        },
+        {
+          "language": "es-MX",
+          "value": "General"
+        }
+      ]
+    },
+    {
+      "code": "BKIN",
+      "display": "Breakage Inclusion",
+      "definition": "Coverage extension that includes breakage within the limit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clause d'inclusion - Bris"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inclusión de rotura"
+        }
+      ]
+    },
+    {
+      "code": "COPL",
+      "display": "Couple",
+      "definition": "The limit applies to coverage for two individuals in a couple.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Couple"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pareja"
+        }
+      ]
+    },
+    {
+      "code": "FMLY",
+      "display": "Family",
+      "definition": "The limit applies to coverage for a family unit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Famille"
+        },
+        {
+          "language": "es-MX",
+          "value": "Familia"
+        }
+      ]
+    },
+    {
+      "code": "FMDX",
+      "display": "Family Deluxe",
+      "definition": "Enhanced limit tier for family coverage with additional benefits.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Famille deluxe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Familia de lujo"
+        }
+      ]
+    },
+    {
+      "code": "FREC",
+      "display": "Fire and EC",
+      "definition": "The limit applies to fire and extended coverage perils.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie et garanties annexes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incendio y coberturas extendidas"
+        }
+      ]
+    },
+    {
+      "code": "FRTH",
+      "display": "Both Fire and EC and Theft",
+      "definition": "The limit applies to both fire/extended coverage and theft perils combined.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol incluant incendie et garanties annexes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incendio, coberturas extendidas y robo"
+        }
+      ]
+    },
+    {
+      "code": "LUEX",
+      "display": "Loss of Use Extension",
+      "definition": "Extended limit for additional living expenses or loss of use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Extension de la garantie - Privation de jouissance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Extensión de pérdida de uso"
+        }
+      ]
+    },
+    {
+      "code": "LUXC",
+      "display": "Loss of Use Exclusion",
+      "definition": "Coverage excludes loss of use within this limit application.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clause d'exclusion - Privation de jouissance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Exclusión de pérdida de uso"
+        }
+      ]
+    },
+    {
+      "code": "OLCH",
+      "display": "Outside Loss - Custodial Home",
+      "definition": "The limit applies to losses occurring outside the primary residence while in custodial care.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pertes à l'extérieur - Résidence en garde"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pérdida exterior - Hogar custodial"
+        }
+      ]
+    },
+    {
+      "code": "OLPM",
+      "display": "Outside Loss - Paymaster",
+      "definition": "The limit applies to losses occurring outside while in possession of a paymaster.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pertes à l'extérieur - paie-maître"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pérdida exterior - Pagador"
+        }
+      ]
+    },
+    {
+      "code": "PANM",
+      "display": "Per Animal",
+      "definition": "The limit applies separately to each individual animal.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par animal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por animal"
+        }
+      ]
+    },
+    {
+      "code": "PRST",
+      "display": "Pair and Set",
+      "definition": "Coverage applies to matched pairs or sets collectively.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clause ensemble et paire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Par y conjunto"
+        }
+      ]
+    },
+    {
+      "code": "SCBL",
+      "display": "Scheduled and Blanket",
+      "definition": "Coverage combines specifically scheduled items with blanket coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Expressément assuré et global"
+        },
+        {
+          "language": "es-MX",
+          "value": "Programado y general"
+        }
+      ]
+    },
+    {
+      "code": "SFCR",
+      "display": "Safe Credit",
+      "definition": "Credit applied when property is stored in a safe.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Crédit - Coffre-fort"
+        },
+        {
+          "language": "es-MX",
+          "value": "Crédito por caja fuerte"
+        }
+      ]
+    },
+    {
+      "code": "SDBX",
+      "display": "Safety Deposit Box Credit",
+      "definition": "Credit applied when property is stored in a bank safety deposit box.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Crédit - Coffre en banque"
+        },
+        {
+          "language": "es-MX",
+          "value": "Crédito por caja de seguridad bancaria"
+        }
+      ]
+    },
+    {
+      "code": "SNGL",
+      "display": "Single",
+      "definition": "The limit applies to coverage for a single individual.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Simple"
+        },
+        {
+          "language": "es-MX",
+          "value": "Individual"
+        }
+      ]
+    },
+    {
+      "code": "SCHD",
+      "display": "Scheduled",
+      "definition": "The limit applies to items specifically listed in a schedule.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Expressément assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Programado"
+        }
+      ]
+    },
+    {
+      "code": "THFT",
+      "display": "Theft",
+      "definition": "The limit applies specifically to theft losses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol"
+        },
+        {
+          "language": "es-MX",
+          "value": "Robo"
+        }
+      ]
+    },
+    {
+      "code": "VLTC",
+      "display": "Vault Credit",
+      "definition": "Credit applied when property is stored in a vault.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Crédit - Voûte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Crédito por bóveda"
+        }
+      ]
+    },
+    {
+      "code": "XCCH",
+      "display": "Deletion of Coverage - Chimney",
+      "definition": "Coverage for chimneys is removed from the limit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Suppression de la garantie - Cheminée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Eliminación de cobertura - Chimenea"
+        }
+      ]
+    },
+    {
+      "code": "XCFF",
+      "display": "Deletion of Coverage - Free Form",
+      "definition": "Customized exclusion of coverage as specified in free-form text.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Suppression de la garantie - Formule libre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Eliminación de cobertura - Formato libre"
+        }
+      ]
+    },
+    {
+      "code": "XCRF",
+      "display": "Deletion of Coverage - Roof Shingles",
+      "definition": "Coverage for roof shingles is removed from the limit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Suppression de la garantie - Bardeaux de toiture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Eliminación de cobertura - Tejas del techo"
+        }
+      ]
+    },
+    {
+      "code": "XCSW",
+      "display": "Deletion of Coverage - Sewer, Sump, Septic Tanks",
+      "definition": "Coverage for sewers, sump pumps, and septic systems is removed from the limit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Suppression de la garantie - Égout, pompe de vidange, fosses septiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Eliminación de cobertura - Alcantarillado, bomba sumidero, tanques sépticos"
+        }
+      ]
+    },
+    {
+      "code": "XCWS",
+      "display": "Deletion of Coverage - Wood Burning Stove",
+      "definition": "Coverage for wood burning stoves is removed from the limit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Suppression de la garantie - Poêle à bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Eliminación de cobertura - Estufa de leña"
+        }
+      ]
+    },
+    {
+      "code": "PVHC",
+      "display": "Per Vehicle",
+      "definition": "The limit applies separately to each vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por vehículo"
+        }
+      ]
+    },
+    {
+      "code": "PSUB",
+      "display": "Per Sub-limit",
+      "definition": "The limit applies to a specific sub-category within the main coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par sous-limite"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por sublímite"
+        }
+      ]
+    },
+    {
+      "code": "PTRP",
+      "display": "Per Trip",
+      "definition": "The limit applies separately to each trip or journey.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Par voyage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Por viaje"
+        }
+      ]
+    }
+  ]
+}

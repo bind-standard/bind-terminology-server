@@ -1,0 +1,87 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ClaimsPartyLocation",
+  "url": "https://bind.codes/ClaimsPartyLocation",
+  "name": "ClaimsPartyLocation",
+  "title": "Claims Party Location",
+  "status": "draft",
+  "language": "en",
+  "description": "Claims Party Location codes for insurance operations.",
+  "concept": [
+    {
+      "code": "INVH",
+      "display": "Insured Vehicle",
+      "definition": "The vehicle covered under the policy being claimed against.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo asegurado"
+        }
+      ]
+    },
+    {
+      "code": "OTVH",
+      "display": "Other Vehicle",
+      "definition": "A vehicle not covered under the policy being claimed against.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro vehículo"
+        }
+      ]
+    },
+    {
+      "code": "PROP",
+      "display": "Property",
+      "definition": "A fixed location or building where the incident occurred.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriété"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propiedad"
+        }
+      ]
+    },
+    {
+      "code": "ROAD",
+      "display": "Roadway",
+      "definition": "A public or private road, street, or highway.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voie publique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vía pública"
+        }
+      ]
+    },
+    {
+      "code": "PARK",
+      "display": "Parking Lot",
+      "definition": "A designated area for parking vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stationnement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estacionamiento"
+        }
+      ]
+    }
+  ]
+}

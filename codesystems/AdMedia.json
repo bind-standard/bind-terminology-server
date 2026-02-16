@@ -1,0 +1,296 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "AdMedia",
+  "url": "https://bind.codes/AdMedia",
+  "name": "AdMedia",
+  "title": "Ad Media",
+  "status": "draft",
+  "language": "en",
+  "description": "Ad Media codes for insurance operations.",
+  "concept": [
+    {
+      "code": "BLBD",
+      "display": "Billboard",
+      "definition": "Large outdoor advertising displays.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Panneau-réclame"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cartelera"
+        }
+      ]
+    },
+    {
+      "code": "AERO",
+      "display": "Blimp/Airplane Banner",
+      "definition": "Aerial advertising using blimps or towed banners.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dirigeable / Bannière d'avion"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dirigible/Pancarta de avión"
+        }
+      ]
+    },
+    {
+      "code": "WEBB",
+      "display": "Internet/Website",
+      "definition": "Digital advertising through websites, search engines, display ads, and online platforms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Internet/Site Web"
+        },
+        {
+          "language": "es-MX",
+          "value": "Internet/Sitio web"
+        }
+      ]
+    },
+    {
+      "code": "SOCL",
+      "display": "Social Media",
+      "definition": "Advertising through social networking platforms including paid posts, sponsored content, and influencer partnerships.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Médias sociaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Redes sociales"
+        }
+      ]
+    },
+    {
+      "code": "EMAL",
+      "display": "Email",
+      "definition": "Direct marketing through electronic mail campaigns and newsletters.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courriel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Correo electrónico"
+        }
+      ]
+    },
+    {
+      "code": "PRNT",
+      "display": "Printed Publication",
+      "definition": "Advertising in newspapers, magazines, journals, and other printed media.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Imprimé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Publicación impresa"
+        }
+      ]
+    },
+    {
+      "code": "RDIO",
+      "display": "Radio",
+      "definition": "Audio advertising broadcast through radio stations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Radio"
+        },
+        {
+          "language": "es-MX",
+          "value": "Radio"
+        }
+      ]
+    },
+    {
+      "code": "TELE",
+      "display": "Television",
+      "definition": "Video advertising broadcast through television channels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Télévision"
+        },
+        {
+          "language": "es-MX",
+          "value": "Televisión"
+        }
+      ]
+    },
+    {
+      "code": "STRM",
+      "display": "Streaming Video",
+      "definition": "Advertising on streaming platforms and video-on-demand services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vidéo en continu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Video en streaming"
+        }
+      ]
+    },
+    {
+      "code": "PDCT",
+      "display": "Podcast",
+      "definition": "Advertising through audio programs distributed via digital platforms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Balado"
+        },
+        {
+          "language": "es-MX",
+          "value": "Podcast"
+        }
+      ]
+    },
+    {
+      "code": "BALN",
+      "display": "Hot Air Balloon",
+      "definition": "Promotional advertising using branded hot air balloons.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Montgolfière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Globo aerostático"
+        }
+      ]
+    },
+    {
+      "code": "TRNS",
+      "display": "Transit",
+      "definition": "Advertising on public transportation including buses, subways, trains, and transit shelters.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transport en commun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transporte público"
+        }
+      ]
+    },
+    {
+      "code": "VWRP",
+      "display": "Vehicle Wrap",
+      "definition": "Branded vehicle graphics and full wraps used for mobile advertising.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Habillage de véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Envoltura de vehículo"
+        }
+      ]
+    },
+    {
+      "code": "FLYR",
+      "display": "Flyer/Leaflet/Pamphlet",
+      "definition": "Printed materials distributed by hand or mail for local advertising.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Encart/prospectus/dépliant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Volante/Folleto/Panfleto"
+        }
+      ]
+    },
+    {
+      "code": "DMAL",
+      "display": "Direct Mail",
+      "definition": "Targeted physical mail campaigns sent to specific addresses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Publipostage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Correo directo"
+        }
+      ]
+    },
+    {
+      "code": "PSLE",
+      "display": "Point of Sale",
+      "definition": "In-store advertising materials and displays at retail locations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Point de vente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Punto de venta"
+        }
+      ]
+    },
+    {
+      "code": "EVSP",
+      "display": "Event Sponsorship",
+      "definition": "Brand promotion through sponsoring events, conferences, and community activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commandite d'événement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Patrocinio de eventos"
+        }
+      ]
+    },
+    {
+      "code": "PMRC",
+      "display": "Promotional Merchandise",
+      "definition": "Branded items including clothing, accessories, and giveaway products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Articles promotionnels"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mercancía promocional"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

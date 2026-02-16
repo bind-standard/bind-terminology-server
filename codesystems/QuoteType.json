@@ -1,0 +1,72 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "QuoteType",
+  "url": "https://bind.codes/QuoteType",
+  "name": "QuoteType",
+  "title": "Quote Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Quote Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "FLQT",
+      "display": "Full Quote",
+      "definition": "A comprehensive quote that includes detailed underwriting, complete risk assessment, and all applicable coverages and pricing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soumission complète"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cotización completa"
+        }
+      ]
+    },
+    {
+      "code": "QKQT",
+      "display": "Quick Quote",
+      "definition": "A preliminary quote that provides an estimated price based on limited information, typically without full underwriting review.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soumission rapide"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cotización rápida"
+        }
+      ]
+    },
+    {
+      "code": "BNQT",
+      "display": "Bind Quote",
+      "definition": "A finalized quote that has been accepted and is ready to be bound into an active policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soumission à lier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cotización para vincular"
+        }
+      ]
+    },
+    {
+      "code": "RNQT",
+      "display": "Renewal Quote",
+      "definition": "A quote generated for the renewal of an existing policy, reflecting any changes in coverage or pricing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soumission de renouvellement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cotización de renovación"
+        }
+      ]
+    }
+  ]
+}

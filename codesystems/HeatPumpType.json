@@ -1,0 +1,162 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "HeatPumpType",
+  "url": "https://bind.codes/HeatPumpType",
+  "name": "HeatPumpType",
+  "title": "Heat Pump Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Heat Pump Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CNTR",
+      "display": "Central",
+      "definition": "A centralized heat pump system that distributes conditioned air through ductwork to multiple rooms or zones in a building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Central"
+        },
+        {
+          "language": "es-MX",
+          "value": "Central"
+        }
+      ]
+    },
+    {
+      "code": "MNSP",
+      "display": "Mini-Split",
+      "definition": "A ductless heat pump system with one outdoor unit connected to a single indoor unit, ideal for heating and cooling individual rooms or small spaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mini-Bibloc"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mini-Split"
+        }
+      ]
+    },
+    {
+      "code": "MUSP",
+      "display": "Multi-Split",
+      "definition": "A ductless heat pump system with one outdoor unit connected to multiple indoor units, allowing independent temperature control for different zones.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Multi-Bibloc"
+        },
+        {
+          "language": "es-MX",
+          "value": "Multi-Split"
+        }
+      ]
+    },
+    {
+      "code": "GSCL",
+      "display": "Geothermal Closed Loop",
+      "definition": "A ground-source heat pump system that circulates fluid through a sealed underground loop to exchange heat with the earth.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Géothermique à Circuit Fermé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Geotérmico de Circuito Cerrado"
+        }
+      ]
+    },
+    {
+      "code": "GSOL",
+      "display": "Geothermal Open Loop",
+      "definition": "A ground-source heat pump system that draws water from a well or surface water source, extracts heat, and discharges the water.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Géothermique à Circuit Ouvert"
+        },
+        {
+          "language": "es-MX",
+          "value": "Geotérmico de Circuito Abierto"
+        }
+      ]
+    },
+    {
+      "code": "GSDX",
+      "display": "Geothermal Direct Expansion",
+      "definition": "A ground-source heat pump system where refrigerant circulates directly through underground copper coils without an intermediate heat transfer fluid.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Géothermique à Expansion Directe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Geotérmico de Expansión Directa"
+        }
+      ]
+    },
+    {
+      "code": "HYDR",
+      "display": "Hydronic Distribution",
+      "definition": "A heat pump system that distributes heating or cooling through water-filled pipes to radiators, baseboard heaters, or radiant floor systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Distribution Hydronique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Distribución Hidrónica"
+        }
+      ]
+    },
+    {
+      "code": "ASHP",
+      "display": "Air-Source Heat Pump",
+      "definition": "A heat pump system that extracts heat from outdoor air for heating and releases heat to outdoor air for cooling.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Thermopompe à Air"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bomba de Calor de Fuente de Aire"
+        }
+      ]
+    },
+    {
+      "code": "WSHP",
+      "display": "Water-Source Heat Pump",
+      "definition": "A heat pump system that uses water from a lake, pond, or cooling tower as the heat source or heat sink.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Thermopompe à Eau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bomba de Calor de Fuente de Agua"
+        }
+      ]
+    },
+    {
+      "code": "ABSR",
+      "display": "Absorption Heat Pump",
+      "definition": "A heat pump system that uses a heat-driven absorption cycle rather than mechanical compression, typically powered by natural gas or solar energy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Thermopompe à Absorption"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bomba de Calor por Absorción"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CertificateType",
+  "url": "https://bind.codes/CertificateType",
+  "name": "CertificateType",
+  "title": "Certificate Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Certificate Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "PWSQ",
+      "display": "Power Squadron Certificate",
+      "definition": "Boating safety and seamanship certificate issued by the Canadian Power and Sail Squadrons organization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Certificat d'escadrille de plaisance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Certificado de Escuadrón de Embarcaciones a Motor"
+        }
+      ]
+    },
+    {
+      "code": "SAIL",
+      "display": "Sailing School Certificate",
+      "definition": "Certificate of completion from a recognized sailing instruction program.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Certificat d'école de voile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Certificado de Escuela de Vela"
+        }
+      ]
+    },
+    {
+      "code": "CA:PCOC",
+      "display": "Pleasure Craft Operator Card (PCOC)",
+      "definition": "Mandatory proof of competency required by Transport Canada to operate a powered pleasure craft in Canadian waters.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Carte de conducteur d'embarcation de plaisance (CCEP)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tarjeta de Operador de Embarcación de Placer (PCOC)"
+        }
+      ]
+    },
+    {
+      "code": "CA:MROD",
+      "display": "Maritime Radio Operator's Certificate",
+      "definition": "Certificate required to operate marine radio communication equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Certificat d'opérateur radio maritime"
+        },
+        {
+          "language": "es-MX",
+          "value": "Certificado de Operador de Radio Marítima"
+        }
+      ]
+    },
+    {
+      "code": "CA:YMST",
+      "display": "Yacht Master Certificate",
+      "definition": "Advanced certification demonstrating comprehensive sailing skills and boat handling capability.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Certificat de capitaine de yacht"
+        },
+        {
+          "language": "es-MX",
+          "value": "Certificado de Capitán de Yate"
+        }
+      ]
+    },
+    {
+      "code": "OFFS",
+      "display": "Offshore Sailing Certificate",
+      "definition": "Certificate demonstrating competency in navigation and seamanship for extended offshore passages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Certificat de navigation hauturière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Certificado de Navegación de Altura"
+        }
+      ]
+    },
+    {
+      "code": "MFAD",
+      "display": "Marine First Aid Certificate",
+      "definition": "First aid and medical training certificate specific to marine environments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Certificat de premiers soins maritimes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Certificado de Primeros Auxilios Marítimos"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

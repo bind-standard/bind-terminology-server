@@ -1,0 +1,222 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Placement",
+  "url": "https://bind.codes/Placement",
+  "name": "Placement",
+  "title": "Placement",
+  "status": "draft",
+  "language": "en",
+  "description": "Placement codes for insurance operations.",
+  "concept": [
+    {
+      "code": "BSMT",
+      "display": "Basement",
+      "definition": "The lowest floor of a building, typically below or partially below ground level.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous-sol"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sótano"
+        }
+      ]
+    },
+    {
+      "code": "MNFL",
+      "display": "Main Floor",
+      "definition": "The principal floor of a building, typically at or near ground level where the main entrance is located.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rez-de-chaussée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Planta principal"
+        }
+      ]
+    },
+    {
+      "code": "UPFL",
+      "display": "Upper Floor",
+      "definition": "Any floor above the main floor of a building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Étage supérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Piso superior"
+        }
+      ]
+    },
+    {
+      "code": "ATGR",
+      "display": "Attached Garage",
+      "definition": "A garage that shares one or more walls with the main dwelling structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage attaché"
+        },
+        {
+          "language": "es-MX",
+          "value": "Garaje adjunto"
+        }
+      ]
+    },
+    {
+      "code": "DTGR",
+      "display": "Detached Garage",
+      "definition": "A garage that is separate from the main dwelling structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage détaché"
+        },
+        {
+          "language": "es-MX",
+          "value": "Garaje independiente"
+        }
+      ]
+    },
+    {
+      "code": "OUTB",
+      "display": "Outbuilding",
+      "definition": "A structure that is separate from the main building, such as a shed, barn, or storage building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dépendance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Edificio anexo"
+        }
+      ]
+    },
+    {
+      "code": "WKSP",
+      "display": "Workshop",
+      "definition": "A dedicated space or building used for manufacturing, repairs, or crafts work.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Atelier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Taller"
+        }
+      ]
+    },
+    {
+      "code": "ATTIC",
+      "display": "Attic",
+      "definition": "The space or room directly below the roof of a building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grenier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ático"
+        }
+      ]
+    },
+    {
+      "code": "CRWL",
+      "display": "Crawl Space",
+      "definition": "A shallow unfinished space beneath the first floor or under the roof, typically accessible for maintenance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vide sanitaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Espacio de arrastre"
+        }
+      ]
+    },
+    {
+      "code": "EXWL",
+      "display": "Outside - Wall",
+      "definition": "Mounted on or attached to an exterior wall surface.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Extérieur - Mur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Exterior - Pared"
+        }
+      ]
+    },
+    {
+      "code": "EXGR",
+      "display": "Outside - Ground",
+      "definition": "Placed at or below ground level on the exterior of the property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Extérieur - Sol"
+        },
+        {
+          "language": "es-MX",
+          "value": "Exterior - Suelo"
+        }
+      ]
+    },
+    {
+      "code": "EXPO",
+      "display": "Outside - Pole",
+      "definition": "Mounted on a freestanding pole or post outside the building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Extérieur - Poteau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Exterior - Poste"
+        }
+      ]
+    },
+    {
+      "code": "ROOF",
+      "display": "Roof",
+      "definition": "Installed on or as part of the roof structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Techo"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "A placement location not covered by other specific categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

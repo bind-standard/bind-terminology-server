@@ -1,0 +1,327 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "VehicleAlterations",
+  "url": "https://bind.codes/VehicleAlterations",
+  "name": "VehicleAlterations",
+  "title": "Vehicle Alterations",
+  "status": "draft",
+  "language": "en",
+  "description": "Vehicle Alterations codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ENGN",
+      "display": "Engine",
+      "definition": "Modifications or upgrades to the vehicle's engine, including performance enhancements, engine swaps, or turbocharger/supercharger installations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Moteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Motor"
+        }
+      ]
+    },
+    {
+      "code": "GRCL",
+      "display": "Ground Clearance",
+      "definition": "Modifications that raise or lower the vehicle's height from the ground, including lift kits, lowering kits, or suspension modifications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hauteur libre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Distancia al suelo"
+        }
+      ]
+    },
+    {
+      "code": "RLLC",
+      "display": "Interior Rollcage",
+      "definition": "A protective metal framework installed inside the vehicle to protect occupants in the event of a rollover.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cage de retournement intérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Jaula antivuelco interior"
+        }
+      ]
+    },
+    {
+      "code": "TIRE",
+      "display": "Tires",
+      "definition": "Aftermarket or specialty tires that differ from the manufacturer's original specifications, including performance, off-road, or oversized tires.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pneus"
+        },
+        {
+          "language": "es-MX",
+          "value": "Neumáticos"
+        }
+      ]
+    },
+    {
+      "code": "SNDQ",
+      "display": "Sound/Electronic Equipment",
+      "definition": "Aftermarket audio systems, speakers, amplifiers, subwoofers, or other electronic equipment added to the vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement de son ou électronique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo de sonido o electrónico"
+        }
+      ]
+    },
+    {
+      "code": "DSCV",
+      "display": "Conversion for Disabled Persons",
+      "definition": "Modifications to accommodate persons with disabilities, including hand controls, wheelchair lifts, ramps, or adapted seating.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conversion pour personnes handicapées"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conversión para personas discapacitadas"
+        }
+      ]
+    },
+    {
+      "code": "BDIN",
+      "display": "Body Interior",
+      "definition": "Modifications to the vehicle's interior body components, including upholstery, dashboard, trim, or structural alterations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Interior de carrocería"
+        }
+      ]
+    },
+    {
+      "code": "CPNT",
+      "display": "Custom Paint",
+      "definition": "Non-standard paint jobs, including custom colors, graphics, decals, wraps, or specialty finishes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Peinture personnalisée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pintura personalizada"
+        }
+      ]
+    },
+    {
+      "code": "WHLR",
+      "display": "Customized Wheels/Rims",
+      "definition": "Aftermarket wheels or rims that differ from the manufacturer's original specifications in size, material, or design.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Roues personnalisées"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ruedas/Llantas personalizadas"
+        }
+      ]
+    },
+    {
+      "code": "SNPL",
+      "display": "Snow Plow",
+      "definition": "A plow attachment mounted to the front of the vehicle for clearing snow.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chasse-neige"
+        },
+        {
+          "language": "es-MX",
+          "value": "Quitanieves"
+        }
+      ]
+    },
+    {
+      "code": "SPLT",
+      "display": "Special Lighting",
+      "definition": "Aftermarket or additional lighting systems, including LED bars, fog lights, off-road lights, or decorative lighting.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lumières spéciales"
+        },
+        {
+          "language": "es-MX",
+          "value": "Iluminación especial"
+        }
+      ]
+    },
+    {
+      "code": "SPST",
+      "display": "Special Seat",
+      "definition": "Aftermarket seating that differs from the manufacturer's original specifications, including racing seats, bucket seats, or performance seating.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Siège spécial"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asiento especial"
+        }
+      ]
+    },
+    {
+      "code": "SPLR",
+      "display": "Spoiler",
+      "definition": "An aerodynamic device attached to the vehicle to reduce lift or improve stability at high speeds.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aileron"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alerón"
+        }
+      ]
+    },
+    {
+      "code": "TKCB",
+      "display": "Truck Cab",
+      "definition": "Modifications or replacements to the truck's cab, including extended cabs, crew cabs, or sleeper compartments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cabine de camion"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cabina de camión"
+        }
+      ]
+    },
+    {
+      "code": "WNCH",
+      "display": "Winch",
+      "definition": "A mechanical device installed on the vehicle for pulling or towing, typically mounted on the front or rear bumper.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Treuil"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cabrestante"
+        }
+      ]
+    },
+    {
+      "code": "WTNT",
+      "display": "Window Tint",
+      "definition": "Aftermarket tinting applied to vehicle windows to reduce light transmission and UV exposure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Teinte de fenêtre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Polarizado de ventanas"
+        }
+      ]
+    },
+    {
+      "code": "EXHS",
+      "display": "Exhaust System",
+      "definition": "Aftermarket exhaust systems, including performance exhaust, headers, catalytic converters, or muffler modifications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Système d'échappement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sistema de escape"
+        }
+      ]
+    },
+    {
+      "code": "SUSP",
+      "display": "Suspension",
+      "definition": "Modifications to the vehicle's suspension system, including coilovers, air suspension, or performance shocks and struts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Suspension"
+        },
+        {
+          "language": "es-MX",
+          "value": "Suspensión"
+        }
+      ]
+    },
+    {
+      "code": "BRAK",
+      "display": "Brake System",
+      "definition": "Aftermarket brake components, including performance brake pads, rotors, calipers, or brake line modifications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Système de freinage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sistema de frenos"
+        }
+      ]
+    },
+    {
+      "code": "BKTS",
+      "display": "Bed/Trunk Storage",
+      "definition": "Additional storage systems added to the vehicle's bed or trunk, including toolboxes, cargo organizers, or bed liners.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rangement de caisse/coffre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Almacenamiento de plataforma/maletero"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Vehicle alterations not categorized under other specific types.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

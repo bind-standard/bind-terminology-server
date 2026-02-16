@@ -1,0 +1,431 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "DriverLicenseRestriction",
+  "url": "https://bind.codes/DriverLicenseRestriction",
+  "name": "DriverLicenseRestriction",
+  "title": "Driver License Restriction",
+  "status": "draft",
+  "language": "en",
+  "description": "Driver license restriction codes.",
+  "concept": [
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "HNDC",
+      "display": "Vehicle must be equipped with hand controls",
+      "definition": "Vehicle must have hand control adaptations installed to accommodate driver's physical requirements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Le véhicule doit être équipé de commandes manuelles"
+        },
+        {
+          "language": "es-MX",
+          "value": "El vehículo debe estar equipado con controles manuales"
+        }
+      ]
+    },
+    {
+      "code": "CA:IGRN",
+      "display": "Ignition interlock applicable on reinstatement",
+      "definition": "Ignition interlock device must be installed when driver's license is reinstated after suspension.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Antidémarreur requis lors de la remise en vigueur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bloqueo de encendido aplicable en la reinstalación"
+        }
+      ]
+    },
+    {
+      "code": "LENS",
+      "display": "Requires corrective lenses",
+      "definition": "Driver must wear eyeglasses or contact lenses while operating a vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Verres de correction requis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Requiere lentes correctivos"
+        }
+      ]
+    },
+    {
+      "code": "CA:IGMN",
+      "display": "Mandatory ignition interlock required",
+      "definition": "Ignition interlock device is mandatory for vehicle operation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Antidémarreur obligatoire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bloqueo de encendido obligatorio requerido"
+        }
+      ]
+    },
+    {
+      "code": "CA:CVCA",
+      "display": "Can operate a commercial vehicle in Canada only",
+      "definition": "Driver is authorized to operate commercial vehicles within Canadian borders only.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Peut opérer un véhicule commercial au Canada seulement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Puede operar un vehículo comercial solo en Canadá"
+        }
+      ]
+    },
+    {
+      "code": "SPHN",
+      "display": "Requires special controls for the hand",
+      "definition": "Vehicle must have specialized hand control devices adapted for driver's specific needs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exige des commandes manuelles spéciales"
+        },
+        {
+          "language": "es-MX",
+          "value": "Requiere controles especiales para la mano"
+        }
+      ]
+    },
+    {
+      "code": "SPFT",
+      "display": "Requires special controls for the foot",
+      "definition": "Vehicle must have specialized foot control devices adapted for driver's specific needs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exige des commandes au pied spéciales"
+        },
+        {
+          "language": "es-MX",
+          "value": "Requiere controles especiales para el pie"
+        }
+      ]
+    },
+    {
+      "code": "SPHF",
+      "display": "Requires special hand and foot control",
+      "definition": "Vehicle must have specialized control devices for both hand and foot operation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exige des commandes manuelles et au pied spéciales"
+        },
+        {
+          "language": "es-MX",
+          "value": "Requiere controles especiales de mano y pie"
+        }
+      ]
+    },
+    {
+      "code": "CA:ABRK",
+      "display": "Endorsement to operate air brake vehicles",
+      "definition": "Authorization to operate vehicles equipped with air brake systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avenant pour opérer des véhicules munis de freins à air"
+        },
+        {
+          "language": "es-MX",
+          "value": "Endoso para operar vehículos con frenos de aire"
+        }
+      ]
+    },
+    {
+      "code": "HEAR",
+      "display": "Requires hearing device",
+      "definition": "Driver must use a hearing aid or assistive listening device while operating a vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aide auditive requise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Requiere dispositivo auditivo"
+        }
+      ]
+    },
+    {
+      "code": "VSLD",
+      "display": "Requires visual device",
+      "definition": "Driver must use specialized visual aids or devices beyond standard corrective lenses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aide visuelle requise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Requiere dispositivo visual"
+        }
+      ]
+    },
+    {
+      "code": "CA:DINS",
+      "display": "Restriction for giving driver instruction exists",
+      "definition": "Driver is prohibited from providing driving instruction to learner drivers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Restriction sur le fait de fournir des renseignements au chauffeur existe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Existe restricción para dar instrucción de conducción"
+        }
+      ]
+    },
+    {
+      "code": "CA:CVOR",
+      "display": "Commercial vehicle operation restriction in effect",
+      "definition": "Driver has specific limitations on operating commercial vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Restriction d'opération de véhicule commercial en vigueur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Restricción de operación de vehículo comercial en vigor"
+        }
+      ]
+    },
+    {
+      "code": "CA:SNAM",
+      "display": "Special name & address requirements exist",
+      "definition": "Driver has specific documentation requirements for name or address verification.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exigences spéciales sur le nom et l'adresse existent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Existen requisitos especiales de nombre y dirección"
+        }
+      ]
+    },
+    {
+      "code": "SPCN",
+      "display": "Special vehicle controls required by driver",
+      "definition": "Driver requires vehicle modifications or adaptations for safe operation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commandes spéciales pour le véhicule requises par le conducteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Controles especiales del vehículo requeridos por el conductor"
+        }
+      ]
+    },
+    {
+      "code": "CA:MCYC",
+      "display": "Motorcycle restriction (s) in effect",
+      "definition": "Driver has specific limitations on motorcycle operation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Restriction(s) motocyclette en vigueur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Restricción(es) de motocicleta en vigor"
+        }
+      ]
+    },
+    {
+      "code": "CA:CLSA",
+      "display": "Class \"A\" vehicle restriction in effect",
+      "definition": "Driver has specific limitations on Class A vehicle operation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Restriction véhicule classe \"A\" en vigueur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Restricción de vehículo clase \"A\" en vigor"
+        }
+      ]
+    },
+    {
+      "code": "CA:CATS",
+      "display": "Category \"S\" is for internal test use only",
+      "definition": "Designation used for internal testing and administrative purposes by licensing authorities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Catégorie \"S\" requise aux fins d'essais à l'interne seulement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Categoría \"S\" es solo para uso de prueba interna"
+        }
+      ]
+    },
+    {
+      "code": "CA:ABEN",
+      "display": "Air brake endorsement",
+      "definition": "Certification that the driver has completed air brake training and testing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avenant - Freins à air"
+        },
+        {
+          "language": "es-MX",
+          "value": "Endoso de frenos de aire"
+        }
+      ]
+    },
+    {
+      "code": "HNDO",
+      "display": "Driver may only operate vehicle with hand controls",
+      "definition": "Driver is restricted to operating only vehicles equipped with hand controls.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Le conducteur peut opérer un véhicule seulement avec des commandes manuelles"
+        },
+        {
+          "language": "es-MX",
+          "value": "El conductor solo puede operar vehículo con controles manuales"
+        }
+      ]
+    },
+    {
+      "code": "CA:MCND",
+      "display": "More conditions exist",
+      "definition": "Additional restrictions or conditions apply beyond those listed on the license.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "D'autres conditions existent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Existen más condiciones"
+        }
+      ]
+    },
+    {
+      "code": "CA:ELCA",
+      "display": "Entry-Level Class A Completed",
+      "definition": "Driver has completed entry-level training requirements for Class A license.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Débutant classe A complété"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clase A nivel de entrada completada"
+        }
+      ]
+    },
+    {
+      "code": "CA:RTCA",
+      "display": "Class A Road Test Completed",
+      "definition": "Driver has successfully completed the road test for Class A license.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Test routier classe A complété"
+        },
+        {
+          "language": "es-MX",
+          "value": "Prueba de manejo clase A completada"
+        }
+      ]
+    },
+    {
+      "code": "DWLG",
+      "display": "Daylight driving only",
+      "definition": "Driver is authorized to operate a vehicle only during daylight hours.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conduite de jour seulement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conducción solo durante el día"
+        }
+      ]
+    },
+    {
+      "code": "AUTR",
+      "display": "Automatic transmission only",
+      "definition": "Driver is restricted to operating vehicles with automatic transmission.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transmission automatique seulement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Solo transmisión automática"
+        }
+      ]
+    },
+    {
+      "code": "MIRR",
+      "display": "Outside mirrors required",
+      "definition": "Vehicle must be equipped with external side mirrors for driver visibility.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rétroviseurs extérieurs requis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Espejos externos requeridos"
+        }
+      ]
+    },
+    {
+      "code": "PROS",
+      "display": "Prosthetic aid required",
+      "definition": "Driver must use a prosthetic device while operating a vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aide prothétique requise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ayuda protésica requerida"
+        }
+      ]
+    }
+  ]
+}

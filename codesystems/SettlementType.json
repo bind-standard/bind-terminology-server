@@ -1,0 +1,132 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "SettlementType",
+  "url": "https://bind.codes/SettlementType",
+  "name": "SettlementType",
+  "title": "Settlement Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Settlement Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ACVL",
+      "display": "Actual Cash Value",
+      "definition": "The current market value of an item, calculated as replacement cost minus depreciation based on age, condition, and wear.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur au jour du sinistre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Valor real en efectivo"
+        }
+      ]
+    },
+    {
+      "code": "BSRC",
+      "display": "Basic Replacement Cost",
+      "definition": "The cost to replace damaged property with new items of similar kind and quality, with basic coverage limits.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur à neuf de base"
+        },
+        {
+          "language": "es-MX",
+          "value": "Costo de reemplazo básico"
+        }
+      ]
+    },
+    {
+      "code": "BRRC",
+      "display": "Broad Replacement Cost",
+      "definition": "Extended coverage for replacement cost that includes additional allowances beyond basic limits for property reconstruction or replacement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur à neuf étendue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Costo de reemplazo amplio"
+        }
+      ]
+    },
+    {
+      "code": "GRRP",
+      "display": "Guaranteed Replacement",
+      "definition": "Full coverage to replace or rebuild property regardless of the actual cost, even if it exceeds the policy limit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remplacement garanti"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reemplazo garantizado"
+        }
+      ]
+    },
+    {
+      "code": "RPLC",
+      "display": "Replacement Cost",
+      "definition": "The cost to replace damaged or destroyed property with new items of comparable material and quality, without deduction for depreciation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur à neuf"
+        },
+        {
+          "language": "es-MX",
+          "value": "Costo de reemplazo"
+        }
+      ]
+    },
+    {
+      "code": "STMT",
+      "display": "Stated Amount",
+      "definition": "A predetermined value agreed upon in the policy for an item, which is paid in the event of a total loss.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Montant stipulé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cantidad declarada"
+        }
+      ]
+    },
+    {
+      "code": "AGRV",
+      "display": "Agreed Value",
+      "definition": "A specific value mutually agreed upon by the insurer and insured at policy inception, paid without depreciation in the event of a total loss.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Valeur convenue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Valor acordado"
+        }
+      ]
+    },
+    {
+      "code": "FMVL",
+      "display": "Fair Market Value",
+      "definition": "The price that property would sell for on the open market between a willing buyer and willing seller.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Juste valeur marchande"
+        },
+        {
+          "language": "es-MX",
+          "value": "Valor justo de mercado"
+        }
+      ]
+    }
+  ]
+}

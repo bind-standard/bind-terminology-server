@@ -1,0 +1,895 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "MachineryEquipment",
+  "url": "https://bind.codes/MachineryEquipment",
+  "name": "MachineryEquipment",
+  "title": "Machinery Equipment",
+  "status": "draft",
+  "language": "en",
+  "description": "Machinery Equipment codes for insurance operations.",
+  "concept": [
+    {
+      "code": "NONE",
+      "display": "None",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "ARMD",
+      "display": "Armoured",
+      "definition": "Vehicle or equipment with protective armor plating.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Blindé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Blindado"
+        }
+      ]
+    },
+    {
+      "code": "BSCL",
+      "display": "Bascule",
+      "definition": "Tilting mechanism or tipping apparatus for dumping loads.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Basculant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Basculante"
+        }
+      ]
+    },
+    {
+      "code": "BLOW",
+      "display": "Blower",
+      "definition": "Mechanical device that moves air or gas under pressure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ventilateur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Soplador"
+        }
+      ]
+    },
+    {
+      "code": "BOIL",
+      "display": "Boiler",
+      "definition": "Pressure vessel used to heat water or other fluids.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chaudière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caldera"
+        }
+      ]
+    },
+    {
+      "code": "BORE",
+      "display": "Borer",
+      "definition": "Drilling or boring tool for creating holes in materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Perceuse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Taladradora"
+        }
+      ]
+    },
+    {
+      "code": "CPMP",
+      "display": "Cement Pump",
+      "definition": "Pump designed to move wet concrete or cement mixtures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pompe à béton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bomba de cemento"
+        }
+      ]
+    },
+    {
+      "code": "CBOX",
+      "display": "Closed Box",
+      "definition": "Enclosed box-type trailer or cargo compartment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poutre portante fermée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caja cerrada"
+        }
+      ]
+    },
+    {
+      "code": "COMB",
+      "display": "Combine-harvester",
+      "definition": "Agricultural machine that harvests, threshes, and cleans grain crops.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Moissonneuse-batteuse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cosechadora"
+        }
+      ]
+    },
+    {
+      "code": "CMIX",
+      "display": "Concrete-mixer",
+      "definition": "Machine that combines cement, aggregate, and water to produce concrete.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bétonnière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mezcladora de concreto"
+        }
+      ]
+    },
+    {
+      "code": "CRAN",
+      "display": "Crane",
+      "definition": "Lifting equipment with hoist, wire ropes, and sheaves for moving heavy materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grúa"
+        }
+      ]
+    },
+    {
+      "code": "COMP",
+      "display": "Compressor",
+      "definition": "Mechanical device that increases pressure of air or gas.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compresseur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compresor"
+        }
+      ]
+    },
+    {
+      "code": "DISL",
+      "display": "Dislodger",
+      "definition": "Equipment used to remove or extract materials from fixed positions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement à déloger"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desalojador"
+        }
+      ]
+    },
+    {
+      "code": "EXCA",
+      "display": "Excavator",
+      "definition": "Heavy construction equipment with digging bucket on hydraulic arm.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Excavatrice"
+        },
+        {
+          "language": "es-MX",
+          "value": "Excavadora"
+        }
+      ]
+    },
+    {
+      "code": "FORK",
+      "display": "Fork-lift",
+      "definition": "Powered industrial truck with pronged lifting mechanism.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chariot élévateur à fourche"
+        },
+        {
+          "language": "es-MX",
+          "value": "Montacargas"
+        }
+      ]
+    },
+    {
+      "code": "GARB",
+      "display": "Garbage Disposal Truck",
+      "definition": "Specialized truck for collecting and transporting waste.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Camion à ordures"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camión de basura"
+        }
+      ]
+    },
+    {
+      "code": "GENR",
+      "display": "Generator",
+      "definition": "Machine that converts mechanical energy into electrical energy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Génératrice"
+        },
+        {
+          "language": "es-MX",
+          "value": "Generador"
+        }
+      ]
+    },
+    {
+      "code": "GRNM",
+      "display": "Grain Mill",
+      "definition": "Machine for grinding grain into flour or meal.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Moulin à grains"
+        },
+        {
+          "language": "es-MX",
+          "value": "Molino de granos"
+        }
+      ]
+    },
+    {
+      "code": "HEAT",
+      "display": "Heating Unit",
+      "definition": "Device that generates heat for warming spaces or materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Appareil de chauffage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Unidad de calefacción"
+        }
+      ]
+    },
+    {
+      "code": "HYLD",
+      "display": "Hydraulic Ladder",
+      "definition": "Extendable ladder operated by hydraulic mechanisms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Échelle hydraulique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escalera hidráulica"
+        }
+      ]
+    },
+    {
+      "code": "INDU",
+      "display": "Industrial (No-registration)",
+      "definition": "Equipment used exclusively for industrial purposes that does not require road registration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Industriel (sans enregistrement)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Industrial (sin registro)"
+        }
+      ]
+    },
+    {
+      "code": "LADR",
+      "display": "Ladder",
+      "definition": "Portable climbing structure with rungs or steps.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Échelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escalera"
+        }
+      ]
+    },
+    {
+      "code": "LAWN",
+      "display": "Lawn-mower",
+      "definition": "Machine for cutting grass to uniform height.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tondeuse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cortacésped"
+        }
+      ]
+    },
+    {
+      "code": "LEVL",
+      "display": "Leveller",
+      "definition": "Equipment used to create or verify level surfaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Répartiteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Niveladora"
+        }
+      ]
+    },
+    {
+      "code": "LOAD",
+      "display": "Loader",
+      "definition": "Heavy equipment for moving or loading materials into trucks or storage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chargeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cargador"
+        }
+      ]
+    },
+    {
+      "code": "MDLW",
+      "display": "Machine-drill (Well)",
+      "definition": "Specialized drilling equipment for creating water wells.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foreuse (puits)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Perforadora (pozo)"
+        }
+      ]
+    },
+    {
+      "code": "MDRL",
+      "display": "Machine-drill",
+      "definition": "Powered drilling equipment for boring holes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foreuse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Perforadora"
+        }
+      ]
+    },
+    {
+      "code": "MNUR",
+      "display": "Manure-spreader",
+      "definition": "Agricultural equipment that distributes fertilizer or manure across fields.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Épandeuse de purin"
+        },
+        {
+          "language": "es-MX",
+          "value": "Esparcidor de estiércol"
+        }
+      ]
+    },
+    {
+      "code": "RDSW",
+      "display": "Mechanical Road-sweeper",
+      "definition": "Motorized vehicle with brushes and vacuum for cleaning streets.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Balayeuse de voirie mécanique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Barredora mecánica"
+        }
+      ]
+    },
+    {
+      "code": "MIXR",
+      "display": "Mixer",
+      "definition": "Machine for blending or combining materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bétonnière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mezcladora"
+        }
+      ]
+    },
+    {
+      "code": "MCNT",
+      "display": "Mobile Canteen",
+      "definition": "Vehicle equipped to serve food and beverages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cantine mobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cantina móvil"
+        }
+      ]
+    },
+    {
+      "code": "MOWR",
+      "display": "Mower",
+      "definition": "Agricultural machine for cutting hay or crops.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Faucheuse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Segadora"
+        }
+      ]
+    },
+    {
+      "code": "OFTR",
+      "display": "Office Trailer",
+      "definition": "Mobile structure used as temporary office space.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque de bureau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque de oficina"
+        }
+      ]
+    },
+    {
+      "code": "PAVR",
+      "display": "Paver",
+      "definition": "Construction machine that lays asphalt or concrete on roads.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Finisseuse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pavimentadora"
+        }
+      ]
+    },
+    {
+      "code": "PLAT",
+      "display": "Platform",
+      "definition": "Raised flat surface for working at height or transporting materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plate-forme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Plataforma"
+        }
+      ]
+    },
+    {
+      "code": "PUMP",
+      "display": "Pump",
+      "definition": "Mechanical device for moving fluids or gases.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pompe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bomba"
+        }
+      ]
+    },
+    {
+      "code": "PWSH",
+      "display": "Power Shovel",
+      "definition": "Mechanized excavating equipment with large digging bucket.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pelle mécanique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pala mecánica"
+        }
+      ]
+    },
+    {
+      "code": "REFR",
+      "display": "Refrigeration System",
+      "definition": "Equipment that removes heat to maintain low temperatures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Système de réfrigération"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sistema de refrigeración"
+        }
+      ]
+    },
+    {
+      "code": "RDRL",
+      "display": "Road-roller",
+      "definition": "Heavy compacting vehicle used to flatten road surfaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rouleau compresseur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rodillo compactador"
+        }
+      ]
+    },
+    {
+      "code": "ROLL",
+      "display": "Roller",
+      "definition": "Cylindrical compacting equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rouleau compresseur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rodillo"
+        }
+      ]
+    },
+    {
+      "code": "SDBL",
+      "display": "Sand-blast Machine",
+      "definition": "Equipment that propels abrasive material to clean or etch surfaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sableuse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arenadora"
+        }
+      ]
+    },
+    {
+      "code": "SHPL",
+      "display": "Shovel or Plow",
+      "definition": "Equipment for digging, moving earth, or clearing snow.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pelle ou charrue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pala o arado"
+        }
+      ]
+    },
+    {
+      "code": "SHRD",
+      "display": "Shredder",
+      "definition": "Machine that cuts materials into small pieces or strips.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déchiqueteuse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trituradora"
+        }
+      ]
+    },
+    {
+      "code": "SKIF",
+      "display": "Skiff or Wherry",
+      "definition": "Small lightweight boat for shallow water navigation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Skiff ou nacelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Esquife o bote"
+        }
+      ]
+    },
+    {
+      "code": "SLSM",
+      "display": "Sleigh Towed by a Snowmobile",
+      "definition": "Trailer sled pulled behind a snowmobile for transporting cargo or passengers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Traîneau tirée par une motoneige"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trineo remolcado por moto de nieve"
+        }
+      ]
+    },
+    {
+      "code": "SNPL",
+      "display": "Snow-plough",
+      "definition": "Vehicle or attachment for removing snow from surfaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déneigeuse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Quitanieves"
+        }
+      ]
+    },
+    {
+      "code": "SNBL",
+      "display": "Snowblower",
+      "definition": "Machine that removes snow by throwing it through a discharge chute.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Souffleuse à neige"
+        },
+        {
+          "language": "es-MX",
+          "value": "Soplador de nieve"
+        }
+      ]
+    },
+    {
+      "code": "SOLD",
+      "display": "Soldering-machine",
+      "definition": "Equipment that joins metal components using molten filler material.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soudeuse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Máquina de soldar"
+        }
+      ]
+    },
+    {
+      "code": "SPNK",
+      "display": "Sprinkler",
+      "definition": "Device for distributing water through spray nozzles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gicleur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aspersor"
+        }
+      ]
+    },
+    {
+      "code": "TANK",
+      "display": "Tank",
+      "definition": "Container for storing or transporting liquids or gases.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réservoir"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tanque"
+        }
+      ]
+    },
+    {
+      "code": "TARB",
+      "display": "Tar Boiler",
+      "definition": "Equipment for heating tar or asphalt to liquid state.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chaudière à goudron"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caldera de alquitrán"
+        }
+      ]
+    },
+    {
+      "code": "TARS",
+      "display": "Tar-spreader",
+      "definition": "Machine that applies hot tar or asphalt to road surfaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Goudronneuse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Distribuidora de alquitrán"
+        }
+      ]
+    },
+    {
+      "code": "THAW",
+      "display": "Thawer",
+      "definition": "Equipment used to melt ice or thaw frozen ground.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dégeleuse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Descongelador"
+        }
+      ]
+    },
+    {
+      "code": "TOWG",
+      "display": "Towing",
+      "definition": "Vehicle equipped to pull or transport disabled vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorqueuse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque"
+        }
+      ]
+    },
+    {
+      "code": "TRMC",
+      "display": "Trailer Towed by a Motorcycle",
+      "definition": "Small trailer designed to be pulled by a motorcycle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque tirée par une motocyclette"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque tirado por motocicleta"
+        }
+      ]
+    },
+    {
+      "code": "TRAC",
+      "display": "Tractor",
+      "definition": "Powerful vehicle designed for pulling heavy loads or farm equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tracteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tractor"
+        }
+      ]
+    },
+    {
+      "code": "WNCH",
+      "display": "Winch",
+      "definition": "Mechanical hoisting or pulling device with drum and cable.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Treuil"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cabrestante"
+        }
+      ]
+    },
+    {
+      "code": "WELD",
+      "display": "Welding Equipment",
+      "definition": "Tools and apparatus for joining metals through fusion or pressure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement de soudage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo de soldadura"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

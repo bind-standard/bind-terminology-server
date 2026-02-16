@@ -1,0 +1,1677 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Commodity",
+  "url": "https://bind.codes/Commodity",
+  "name": "Commodity",
+  "title": "Commodity",
+  "status": "draft",
+  "language": "en",
+  "description": "Commodity codes for insurance operations.",
+  "concept": [
+    {
+      "code": "GASM",
+      "display": "Gaseous Material/Product",
+      "definition": "Materials or products in gaseous state of matter.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matériaux/produits gazeux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Materiales/productos gaseosos"
+        }
+      ]
+    },
+    {
+      "code": "SOLM",
+      "display": "Solid Material/Product",
+      "definition": "Materials or products in solid state of matter.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matériaux/produits solides"
+        },
+        {
+          "language": "es-MX",
+          "value": "Materiales/productos sólidos"
+        }
+      ]
+    },
+    {
+      "code": "LIQM",
+      "display": "Liquid Material/Product",
+      "definition": "Materials or products in liquid state of matter.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matériaux/produits liquides"
+        },
+        {
+          "language": "es-MX",
+          "value": "Materiales/productos líquidos"
+        }
+      ]
+    },
+    {
+      "code": "GRNM",
+      "display": "Granular Material/Product",
+      "definition": "Materials or products in granular form, consisting of small particles or grains.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matériaux/produits granulaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Materiales/productos granulares"
+        }
+      ]
+    },
+    {
+      "code": "ABRS",
+      "display": "Abrasive",
+      "definition": "Rough materials used for grinding, polishing, or cutting surfaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Abrasif"
+        },
+        {
+          "language": "es-MX",
+          "value": "Abrasivo"
+        }
+      ]
+    },
+    {
+      "code": "AGRI",
+      "display": "Agricultural Products",
+      "definition": "Products derived from farming operations including crops and processed farm goods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits de l'agriculture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Productos agrícolas"
+        }
+      ]
+    },
+    {
+      "code": "ANPT",
+      "display": "Animal Products, Veterinary",
+      "definition": "Products intended for animal care, treatment, or veterinary use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits pour animaux, vétérinaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Productos veterinarios"
+        }
+      ]
+    },
+    {
+      "code": "ANML",
+      "display": "Animals",
+      "definition": "Live animals being transported.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Animaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Animales"
+        }
+      ]
+    },
+    {
+      "code": "APPL",
+      "display": "Appliances",
+      "definition": "Household devices and equipment for domestic use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Appareils ménagers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Electrodomésticos"
+        }
+      ]
+    },
+    {
+      "code": "ASPH",
+      "display": "Asphalt",
+      "definition": "Petroleum-based paving and roofing material.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Asphalte, bitume"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asfalto"
+        }
+      ]
+    },
+    {
+      "code": "AUTP",
+      "display": "Automobile (Pieces)",
+      "definition": "Vehicle components and replacement parts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Automobile (pièces)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Piezas de automóvil"
+        }
+      ]
+    },
+    {
+      "code": "AUTV",
+      "display": "Automobile Without Towing",
+      "definition": "Motor vehicles being transported without use of towing equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Automobile sans remorqueuse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Automóvil sin remolque"
+        }
+      ]
+    },
+    {
+      "code": "BAKD",
+      "display": "Baked Products",
+      "definition": "Bread, pastries, and other baked goods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits de boulangerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Productos de panadería"
+        }
+      ]
+    },
+    {
+      "code": "BEER",
+      "display": "Beer (Brasserie)",
+      "definition": "Brewed alcoholic beverages from brewery operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bière (brasserie)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cerveza (cervecería)"
+        }
+      ]
+    },
+    {
+      "code": "BUFF",
+      "display": "Buffet (Caterer)",
+      "definition": "Prepared food services and catering supplies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Buffet (traiteur)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bufé (catering)"
+        }
+      ]
+    },
+    {
+      "code": "CNDY",
+      "display": "Candy Shop",
+      "definition": "Confectionery and sweets.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Magasin de bonbons"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dulcería"
+        }
+      ]
+    },
+    {
+      "code": "CAMS",
+      "display": "Cameras/Scientific Instruments",
+      "definition": "Photographic equipment and precision scientific measurement devices.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caméras/Instruments Scientifiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cámaras/Instrumentos científicos"
+        }
+      ]
+    },
+    {
+      "code": "CRPT",
+      "display": "Carpet",
+      "definition": "Floor coverings and rugs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tapis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alfombra"
+        }
+      ]
+    },
+    {
+      "code": "CMTB",
+      "display": "Cement (excl. Concrete-mixer)",
+      "definition": "Bagged or bulk cement transported without concrete mixing equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ciment (excluant bétonnière)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cemento (excl. mezcladora)"
+        }
+      ]
+    },
+    {
+      "code": "CMIX",
+      "display": "Cement (Concrete-mixer)",
+      "definition": "Ready-mix concrete transported in mixing trucks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ciment (bétonnière)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cemento (mezcladora)"
+        }
+      ]
+    },
+    {
+      "code": "CHEM",
+      "display": "Chemical",
+      "definition": "Chemical substances and compounds.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits chimiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Productos químicos"
+        }
+      ]
+    },
+    {
+      "code": "CLEN",
+      "display": "Cleaning Products",
+      "definition": "Detergents, disinfectants, and maintenance supplies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits d'entretien"
+        },
+        {
+          "language": "es-MX",
+          "value": "Productos de limpieza"
+        }
+      ]
+    },
+    {
+      "code": "CLTH",
+      "display": "Clothing",
+      "definition": "Garments and apparel.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vêtements"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ropa"
+        }
+      ]
+    },
+    {
+      "code": "COAL",
+      "display": "Coal",
+      "definition": "Combustible black rock used as fuel.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charbon"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carbón"
+        }
+      ]
+    },
+    {
+      "code": "COMP",
+      "display": "Computer Equipment",
+      "definition": "Computing devices, peripherals, and related technology hardware.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ordinateurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo de cómputo"
+        }
+      ]
+    },
+    {
+      "code": "MLKT",
+      "display": "Dairy (Tank)",
+      "definition": "Bulk milk transported in tank vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lait (réservoir)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Leche (tanque)"
+        }
+      ]
+    },
+    {
+      "code": "DLRY",
+      "display": "Dairy Products",
+      "definition": "Milk, cheese, yogurt, and other milk-based products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits laitiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Productos lácteos"
+        }
+      ]
+    },
+    {
+      "code": "DELI",
+      "display": "Delicatessen",
+      "definition": "Prepared meats and specialty food items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charcuterie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Charcutería"
+        }
+      ]
+    },
+    {
+      "code": "DRPE",
+      "display": "Draperies, Curtains",
+      "definition": "Window treatments and decorative fabric hangings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tentures, rideaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cortinas"
+        }
+      ]
+    },
+    {
+      "code": "PHAR",
+      "display": "Drug Store",
+      "definition": "Pharmaceutical products and over-the-counter medications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pharmacie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Farmacia"
+        }
+      ]
+    },
+    {
+      "code": "DIES",
+      "display": "Diesel/Kerosene",
+      "definition": "Petroleum-based fuel oils for combustion engines and heating.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Carburant diesel/kérosène"
+        },
+        {
+          "language": "es-MX",
+          "value": "Diésel/queroseno"
+        }
+      ]
+    },
+    {
+      "code": "MULT",
+      "display": "Enumerated or Not (more than one)",
+      "definition": "Multiple commodity types not separately itemized.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Énuméré ou non (plus d'un)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Enumerado o no (más de uno)"
+        }
+      ]
+    },
+    {
+      "code": "EXPL",
+      "display": "Explosives",
+      "definition": "Materials capable of rapid chemical reaction producing explosion.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Explosifs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Explosivos"
+        }
+      ]
+    },
+    {
+      "code": "FTRA",
+      "display": "Farm Tractor",
+      "definition": "Agricultural tractors and related farm machinery.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tracteur agricole"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tractor agrícola"
+        }
+      ]
+    },
+    {
+      "code": "FERT",
+      "display": "Fertilizer",
+      "definition": "Nutrients and soil amendments for plant growth.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fertilisants"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fertilizante"
+        }
+      ]
+    },
+    {
+      "code": "FISH",
+      "display": "Fish (Seafood)",
+      "definition": "Fresh or processed fish and marine products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poissons (fruits de mer)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pescado (mariscos)"
+        }
+      ]
+    },
+    {
+      "code": "FLWR",
+      "display": "Flowers",
+      "definition": "Cut flowers and ornamental plants.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fleurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Flores"
+        }
+      ]
+    },
+    {
+      "code": "FOOD",
+      "display": "Food",
+      "definition": "General food products and provisions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aliment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alimento"
+        }
+      ]
+    },
+    {
+      "code": "LTRA",
+      "display": "Forest Tractor",
+      "definition": "Heavy equipment designed for logging and forestry operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tracteur forestier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tractor forestal"
+        }
+      ]
+    },
+    {
+      "code": "FRVG",
+      "display": "Fruits and/or Vegetables",
+      "definition": "Fresh produce including fruits, vegetables, or both.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fruits et/ou légumes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Frutas y/o verduras"
+        }
+      ]
+    },
+    {
+      "code": "FURN",
+      "display": "Furniture",
+      "definition": "Household and commercial furnishings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Meubles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Muebles"
+        }
+      ]
+    },
+    {
+      "code": "FURS",
+      "display": "Furs",
+      "definition": "Animal pelts and fur garments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fourrures"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pieles"
+        }
+      ]
+    },
+    {
+      "code": "GRFD",
+      "display": "Grain and/or Feed",
+      "definition": "Cereal grains and animal feed products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Céréales et/ou fourrages"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grano y/o alimento"
+        }
+      ]
+    },
+    {
+      "code": "GRAS",
+      "display": "Grass",
+      "definition": "Sod, turf, and lawn grass.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gazon"
+        },
+        {
+          "language": "es-MX",
+          "value": "Césped"
+        }
+      ]
+    },
+    {
+      "code": "GROC",
+      "display": "Groceries",
+      "definition": "General packaged food and household items typically sold in grocery stores.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Épicerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Abarrotes"
+        }
+      ]
+    },
+    {
+      "code": "GASL",
+      "display": "Gasoline",
+      "definition": "Refined petroleum fuel for internal combustion engines.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gazoline"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gasolina"
+        }
+      ]
+    },
+    {
+      "code": "HDWR",
+      "display": "Hardware Store",
+      "definition": "Tools, fasteners, building supplies, and related hardware items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Quincaillerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ferretería"
+        }
+      ]
+    },
+    {
+      "code": "HAYY",
+      "display": "Hay",
+      "definition": "Dried grass and legumes used as animal fodder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foin"
+        },
+        {
+          "language": "es-MX",
+          "value": "Heno"
+        }
+      ]
+    },
+    {
+      "code": "HVMQ",
+      "display": "Heavy Machinery or Agricultural Equipment",
+      "definition": "Large industrial or farm equipment and machinery.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Machinerie lourde ou équipement de ferme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Maquinaria pesada o equipo agrícola"
+        }
+      ]
+    },
+    {
+      "code": "PEST",
+      "display": "Herbicide, Insecticide, Pesticide",
+      "definition": "Chemical agents for controlling weeds, insects, and pests.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Herbicide, insecticide, pesticide"
+        },
+        {
+          "language": "es-MX",
+          "value": "Herbicida, insecticida, pesticida"
+        }
+      ]
+    },
+    {
+      "code": "HSRF",
+      "display": "Household Refuse",
+      "definition": "Residential garbage and waste materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ordures ménagères"
+        },
+        {
+          "language": "es-MX",
+          "value": "Basura doméstica"
+        }
+      ]
+    },
+    {
+      "code": "HAZD",
+      "display": "Hazardous/Dangerous Goods",
+      "definition": "Materials posing risks to health, safety, property, or environment during transport.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bien dangeureux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bienes peligrosos"
+        }
+      ]
+    },
+    {
+      "code": "ICRM",
+      "display": "Ice Cream",
+      "definition": "Frozen dairy desserts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Crème glacée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Helado"
+        }
+      ]
+    },
+    {
+      "code": "ICEE",
+      "display": "Ice",
+      "definition": "Frozen water in block or cube form.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Glace"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hielo"
+        }
+      ]
+    },
+    {
+      "code": "IRON",
+      "display": "Iron",
+      "definition": "Iron metal products and steel materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fer"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hierro"
+        }
+      ]
+    },
+    {
+      "code": "JWLY",
+      "display": "Jewellery (Sales & Repair)",
+      "definition": "Ornamental items made of precious metals and gems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bijouterie (vente et réparations)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Joyería (venta y reparación)"
+        }
+      ]
+    },
+    {
+      "code": "LNDS",
+      "display": "Landscape Gardener",
+      "definition": "Plants, soil, mulch, and materials for landscaping work.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Jardinier paysagiste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Jardinero paisajista"
+        }
+      ]
+    },
+    {
+      "code": "LNDR",
+      "display": "Laundry-room",
+      "definition": "Commercial laundry equipment and supplies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Salle de lavage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lavandería"
+        }
+      ]
+    },
+    {
+      "code": "LIME",
+      "display": "Lime",
+      "definition": "Calcium oxide or calcium hydroxide used in construction and agriculture.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cal"
+        }
+      ]
+    },
+    {
+      "code": "LIQR",
+      "display": "Liquor",
+      "definition": "Distilled alcoholic beverages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Spiritueux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Licor"
+        }
+      ]
+    },
+    {
+      "code": "MAGZ",
+      "display": "Magazines or Circulars",
+      "definition": "Periodical publications and promotional printed materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Revues ou circulaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Revistas o circulares"
+        }
+      ]
+    },
+    {
+      "code": "MAIL",
+      "display": "Mail",
+      "definition": "Letters, packages, and postal deliveries.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courrier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Correo"
+        }
+      ]
+    },
+    {
+      "code": "MNUR",
+      "display": "Manure",
+      "definition": "Animal waste used as fertilizer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fumier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estiércol"
+        }
+      ]
+    },
+    {
+      "code": "MEAL",
+      "display": "Meals (Restaurant, Canteen)",
+      "definition": "Prepared food for restaurant or catering service.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Repas (restaurant, cantine)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comidas (restaurante, cantina)"
+        }
+      ]
+    },
+    {
+      "code": "MEAT",
+      "display": "Meat (Butcher)",
+      "definition": "Fresh and processed animal flesh for consumption.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Viandes (boucher)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carne (carnicería)"
+        }
+      ]
+    },
+    {
+      "code": "MBHM",
+      "display": "Mobile Home",
+      "definition": "Prefabricated dwelling designed for transport and relocation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maison mobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casa móvil"
+        }
+      ]
+    },
+    {
+      "code": "MSIC",
+      "display": "Musical Instruments",
+      "definition": "Devices for producing musical sounds.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Instruments de musique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instrumentos musicales"
+        }
+      ]
+    },
+    {
+      "code": "NEWS",
+      "display": "Newspapers",
+      "definition": "Daily or periodic printed news publications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Journaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Periódicos"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "No Merchandise Transported",
+      "definition": "Vehicle operates without carrying cargo.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun transport de marchandises"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin transporte de mercancías"
+        }
+      ]
+    },
+    {
+      "code": "NPER",
+      "display": "Non-perishable Goods",
+      "definition": "Items with extended shelf life not requiring refrigeration or time-sensitive handling.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Biens non périssables"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bienes no perecederos"
+        }
+      ]
+    },
+    {
+      "code": "OILL",
+      "display": "Oil",
+      "definition": "Petroleum-based or vegetable oils.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Huile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aceite"
+        }
+      ]
+    },
+    {
+      "code": "OFMC",
+      "display": "Office Machines",
+      "definition": "Equipment used in office environments such as copiers, printers, and scanners.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Machines de bureau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Máquinas de oficina"
+        }
+      ]
+    },
+    {
+      "code": "PANT",
+      "display": "Paint",
+      "definition": "Liquid coating materials for surfaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Peinture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pintura"
+        }
+      ]
+    },
+    {
+      "code": "PHRM",
+      "display": "Pharmaceutical",
+      "definition": "Medicinal drugs and medical preparations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pharmaceutique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Farmacéutico"
+        }
+      ]
+    },
+    {
+      "code": "PMTL",
+      "display": "Precious Metals",
+      "definition": "Gold, silver, platinum, and other valuable metallic elements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Métaux précieux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Metales preciosos"
+        }
+      ]
+    },
+    {
+      "code": "ARTW",
+      "display": "Painting",
+      "definition": "Works of art created with paint on canvas or other surfaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Peintures (tableaux)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pinturas (cuadros)"
+        }
+      ]
+    },
+    {
+      "code": "PAPR",
+      "display": "Paper Products",
+      "definition": "Items made from paper including stationery and packaging materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits papetiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Productos de papel"
+        }
+      ]
+    },
+    {
+      "code": "PRCL",
+      "display": "Parcels (Messenger Service)",
+      "definition": "Packages delivered via courier or messenger service.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Colis (service de messagerie)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paquetes (servicio de mensajería)"
+        }
+      ]
+    },
+    {
+      "code": "INFL",
+      "display": "Petrol (Inflammable Liquids)",
+      "definition": "Flammable petroleum products and combustible liquids.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Essence (liquides inflammables)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gasolina (líquidos inflamables)"
+        }
+      ]
+    },
+    {
+      "code": "PLNT",
+      "display": "Plant Shop",
+      "definition": "Live plants, shrubs, and nursery stock.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boutique de plantes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda de plantas"
+        }
+      ]
+    },
+    {
+      "code": "POLL",
+      "display": "Pollutive Products",
+      "definition": "Materials that may contaminate the environment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits polluants"
+        },
+        {
+          "language": "es-MX",
+          "value": "Productos contaminantes"
+        }
+      ]
+    },
+    {
+      "code": "POUL",
+      "display": "Poulterer",
+      "definition": "Poultry and fowl products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marchand de volailles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pollería"
+        }
+      ]
+    },
+    {
+      "code": "RDIO",
+      "display": "Radioactive Material",
+      "definition": "Substances emitting ionizing radiation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matières radioactives"
+        },
+        {
+          "language": "es-MX",
+          "value": "Material radiactivo"
+        }
+      ]
+    },
+    {
+      "code": "AGGR",
+      "display": "Sand, Gravel, Compost",
+      "definition": "Bulk aggregates and soil amendments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sable, gravier, compost"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arena, grava, composta"
+        }
+      ]
+    },
+    {
+      "code": "SVCV",
+      "display": "Service Vehicle (Without Merchandise Transport)",
+      "definition": "Vehicle used for service calls or maintenance work without carrying goods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule de service (sans transport de marchandises)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo de servicio (sin transporte de mercancías)"
+        }
+      ]
+    },
+    {
+      "code": "SEPT",
+      "display": "Sewer, Septic Tank",
+      "definition": "Wastewater and septic system services or equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Égout, fosse septique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alcantarillado, fosa séptica"
+        }
+      ]
+    },
+    {
+      "code": "SNOW",
+      "display": "Snow",
+      "definition": "Collected or manufactured snow for various purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Neige"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nieve"
+        }
+      ]
+    },
+    {
+      "code": "SOFT",
+      "display": "Soft Drinks",
+      "definition": "Non-alcoholic carbonated or sweetened beverages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boissons gazeuses"
+        },
+        {
+          "language": "es-MX",
+          "value": "Refrescos"
+        }
+      ]
+    },
+    {
+      "code": "TARR",
+      "display": "Tar",
+      "definition": "Thick, dark petroleum byproduct used in road construction and roofing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Goudron"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alquitrán"
+        }
+      ]
+    },
+    {
+      "code": "TELE",
+      "display": "Television (Sales)",
+      "definition": "Television sets and related video display equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Télévision (ventes)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Televisión (ventas)"
+        }
+      ]
+    },
+    {
+      "code": "TBCO",
+      "display": "Tobacco",
+      "definition": "Tobacco products including cigarettes, cigars, and loose tobacco.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tabac"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tabaco"
+        }
+      ]
+    },
+    {
+      "code": "TOOL",
+      "display": "Tools (Craftsman)",
+      "definition": "Hand tools and equipment for trades and crafts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Outils (artisan)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Herramientas (artesano)"
+        }
+      ]
+    },
+    {
+      "code": "TOWG",
+      "display": "Towing",
+      "definition": "Vehicle recovery and towing services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorquage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque"
+        }
+      ]
+    },
+    {
+      "code": "TOXC",
+      "display": "Toxic (Products)",
+      "definition": "Poisonous or harmful substances.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toxiques (produits)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tóxicos (productos)"
+        }
+      ]
+    },
+    {
+      "code": "TOYS",
+      "display": "Toys",
+      "definition": "Children's playthings and recreational items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Jouets"
+        },
+        {
+          "language": "es-MX",
+          "value": "Juguetes"
+        }
+      ]
+    },
+    {
+      "code": "TRAC",
+      "display": "Tractor (Other)",
+      "definition": "Tractors not classified as farm or forest types.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tracteur (autre)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tractor (otro)"
+        }
+      ]
+    },
+    {
+      "code": "TRFR",
+      "display": "Transformer",
+      "definition": "Electrical equipment for changing voltage levels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transformateur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transformador"
+        }
+      ]
+    },
+    {
+      "code": "UTLV",
+      "display": "Utility Vehicle (Leveller)",
+      "definition": "Industrial vehicles for grading and leveling operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule industriel (répartiteur)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículo industrial (niveladora)"
+        }
+      ]
+    },
+    {
+      "code": "WSTE",
+      "display": "Waste (excl. Toxic Waste)",
+      "definition": "Non-hazardous refuse and garbage materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déchets (excluant déchets toxiques)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desechos (excl. desechos tóxicos)"
+        }
+      ]
+    },
+    {
+      "code": "WELL",
+      "display": "Well-digger",
+      "definition": "Equipment and supplies for well drilling operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Puisatier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Perforador de pozos"
+        }
+      ]
+    },
+    {
+      "code": "WNDR",
+      "display": "Window Repair Shop",
+      "definition": "Glass panes and window components for repair work.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Atelier de réparation de fenêtres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Taller de reparación de ventanas"
+        }
+      ]
+    },
+    {
+      "code": "WNDO",
+      "display": "Windows, Doors",
+      "definition": "Building openings and their frames for access and light.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fenêtres, portes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ventanas, puertas"
+        }
+      ]
+    },
+    {
+      "code": "WDHF",
+      "display": "Wood (for Heating)",
+      "definition": "Firewood and wood fuel for combustion.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois (pour chauffage)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Madera (para calefacción)"
+        }
+      ]
+    },
+    {
+      "code": "PLYWD",
+      "display": "Wood (Plywood)",
+      "definition": "Layered wood panels made from thin sheets of veneer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois (contreplaqué)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Madera (contrachapado)"
+        }
+      ]
+    },
+    {
+      "code": "WOOD",
+      "display": "Wood",
+      "definition": "Raw timber and processed lumber products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Madera"
+        }
+      ]
+    },
+    {
+      "code": "CONC",
+      "display": "Concrete",
+      "definition": "Hardened mixture of cement, sand, gravel, and water.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Concreto"
+        }
+      ]
+    },
+    {
+      "code": "BLDM",
+      "display": "Construction Material",
+      "definition": "Building supplies and materials for construction projects.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matériaux de construction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Material de construcción"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Commodities not specified in other categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "LOGS",
+      "display": "Wood (Logs)",
+      "definition": "Unprocessed tree trunks and large timber sections.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois (Bûches)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Madera (troncos)"
+        }
+      ]
+    },
+    {
+      "code": "LMBR",
+      "display": "Wood (Lumber)",
+      "definition": "Processed wood planks and boards for construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois (Bois de construction)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Madera (madera aserrada)"
+        }
+      ]
+    },
+    {
+      "code": "LVST",
+      "display": "Animals (Livestock)",
+      "definition": "Farm animals raised for agricultural purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Animaux (Bétail)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Animales (ganado)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "VehiclePermission",
+  "url": "https://bind.codes/VehiclePermission",
+  "name": "VehiclePermission",
+  "title": "Vehicle Permission",
+  "status": "draft",
+  "language": "en",
+  "description": "Vehicle Permission codes for insurance operations.",
+  "concept": [
+    {
+      "code": "STLN",
+      "display": "Stolen",
+      "definition": "A vehicle that has been reported as stolen by the owner or authorities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Volé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Robado"
+        }
+      ]
+    },
+    {
+      "code": "WOUT",
+      "display": "Without Permission",
+      "definition": "A vehicle being used without the owner's consent or authorization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sans permission"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin permiso"
+        }
+      ]
+    },
+    {
+      "code": "PERM",
+      "display": "With Permission",
+      "definition": "A vehicle being used with the owner's explicit consent or authorization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avec permission"
+        },
+        {
+          "language": "es-MX",
+          "value": "Con permiso"
+        }
+      ]
+    },
+    {
+      "code": "OWNR",
+      "display": "Owner",
+      "definition": "The vehicle is being operated by the registered owner.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriétaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propietario"
+        }
+      ]
+    }
+  ]
+}

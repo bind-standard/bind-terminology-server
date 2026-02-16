@@ -1,0 +1,86 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CollateralBenefitsPlanSource",
+  "url": "https://bind.codes/CollateralBenefitsPlanSource",
+  "name": "CollateralBenefitsPlanSource",
+  "title": "Collateral Benefits Plan Source",
+  "status": "draft",
+  "language": "en",
+  "description": "Collateral Benefits Plan Source codes for insurance operations.",
+  "concept": [
+    {
+      "code": "NONE",
+      "display": "None",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "MRDH",
+      "display": "Medical/Rehab/Dental",
+      "definition": "Coverage for medical treatments, rehabilitation services, and dental care expenses provided through an employee benefits plan or health coverage program.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais d'hospitalisation/réadaptation/soins dentaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Médico/Rehabilitación/Dental"
+        }
+      ]
+    },
+    {
+      "code": "INCM",
+      "display": "Income",
+      "definition": "Benefits plan providing income replacement or salary continuation during periods of disability or absence from work.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Revenu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ingresos"
+        }
+      ]
+    },
+    {
+      "code": "MRDI",
+      "display": "Medical/Rehab/Dental & Income",
+      "definition": "Combined benefits plan providing both healthcare coverage (medical, rehabilitation, dental) and income replacement benefits.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais médicaux/réadaptation/soins dentaires & assurance salaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Médico/Rehabilitación/Dental e Ingresos"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Collateral benefits from sources not categorized as medical, rehabilitation, dental, or income replacement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

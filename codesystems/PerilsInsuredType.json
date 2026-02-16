@@ -1,0 +1,162 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "PerilsInsuredType",
+  "url": "https://bind.codes/PerilsInsuredType",
+  "name": "PerilsInsuredType",
+  "title": "Perils Insured Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Perils Insured Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "BRDF",
+      "display": "Broad Form",
+      "definition": "Coverage extending beyond basic named perils to include most causes of loss except those specifically excluded.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formule étendue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Forma Amplia"
+        }
+      ]
+    },
+    {
+      "code": "FREC",
+      "display": "Fire & Extended Coverage",
+      "definition": "Basic fire coverage plus additional perils such as windstorm, hail, explosion, riot, and smoke damage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie et garanties annexes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incendio y Cobertura Extendida"
+        }
+      ]
+    },
+    {
+      "code": "NMDP",
+      "display": "Named Perils",
+      "definition": "Coverage that protects only against specific perils explicitly listed in the policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Risques désignés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Riesgos Nombrados"
+        }
+      ]
+    },
+    {
+      "code": "FIRE",
+      "display": "Fire",
+      "definition": "Coverage limited to loss or damage caused by fire alone.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incendio"
+        }
+      ]
+    },
+    {
+      "code": "MNSC",
+      "display": "Manuscript Wording",
+      "definition": "Custom policy language tailored to specific coverage needs, not using standard form wording.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Termes manuscrits"
+        },
+        {
+          "language": "es-MX",
+          "value": "Redacción Manuscrita"
+        }
+      ]
+    },
+    {
+      "code": "NOCV",
+      "display": "No Coverage",
+      "definition": "Indicates that no coverage is provided for perils.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucune garantie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin Cobertura"
+        }
+      ]
+    },
+    {
+      "code": "ROBB",
+      "display": "Robbery",
+      "definition": "Coverage for loss from the unlawful taking of property by force or threat of force.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol qualifié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Robo"
+        }
+      ]
+    },
+    {
+      "code": "ACVR",
+      "display": "All Coverage Risks",
+      "definition": "Comprehensive coverage protecting against all perils except those specifically excluded.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tous risques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Todos los Riesgos"
+        }
+      ]
+    },
+    {
+      "code": "SPPL",
+      "display": "Specified Perils",
+      "definition": "Coverage limited to a specific list of enumerated perils agreed upon in the policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Risques spécifiés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Riesgos Especificados"
+        }
+      ]
+    },
+    {
+      "code": "THFT",
+      "display": "Theft",
+      "definition": "Coverage for loss from the unlawful taking of property without force.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hurto"
+        }
+      ]
+    }
+  ]
+}

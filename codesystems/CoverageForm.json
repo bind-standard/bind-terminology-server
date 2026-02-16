@@ -1,0 +1,48 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CoverageForm",
+  "url": "https://bind.codes/CoverageForm",
+  "name": "CoverageForm",
+  "title": "Coverage Form",
+  "status": "draft",
+  "language": "en",
+  "description": "The trigger basis that determines when a loss event activates coverage.",
+  "concept": [
+    {
+      "code": "OCUR",
+      "display": "Occurrence",
+      "definition": "Coverage is triggered when the bodily injury or property damage occurs during the policy period, regardless of when the claim is reported.",
+      "designation": [
+        { "language": "fr-CA", "value": "Événement" },
+        { "language": "es-MX", "value": "Ocurrencia" }
+      ]
+    },
+    {
+      "code": "CLMD",
+      "display": "Claims-Made",
+      "definition": "Coverage is triggered when the claim is first made and reported during the policy period (or extended reporting period), regardless of when the event occurred.",
+      "designation": [
+        { "language": "fr-CA", "value": "Base réclamation" },
+        { "language": "es-MX", "value": "Reclamaciones presentadas" }
+      ]
+    },
+    {
+      "code": "CMRP",
+      "display": "Claims-Made and Reported",
+      "definition": "Coverage requires both that the claim be made and that it be reported to the carrier during the policy period.",
+      "designation": [
+        { "language": "fr-CA", "value": "Base réclamation et déclaration" },
+        { "language": "es-MX", "value": "Reclamaciones presentadas y reportadas" }
+      ]
+    },
+    {
+      "code": "ACYR",
+      "display": "Accident Year",
+      "definition": "Coverage is organized around the year in which the accident or loss event took place.",
+      "designation": [
+        { "language": "fr-CA", "value": "Année d'accident" },
+        { "language": "es-MX", "value": "Año de accidente" }
+      ]
+    }
+  ]
+}

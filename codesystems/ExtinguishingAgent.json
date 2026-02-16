@@ -1,0 +1,175 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ExtinguishingAgent",
+  "url": "https://bind.codes/ExtinguishingAgent",
+  "name": "ExtinguishingAgent",
+  "title": "Extinguishing Agent",
+  "status": "draft",
+  "language": "en",
+  "description": "Extinguishing Agent codes for insurance operations.",
+  "concept": [
+    {
+      "code": "WATR",
+      "display": "Water",
+      "definition": "Water-based extinguishing agent used in fire suppression systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Eau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agua"
+        }
+      ]
+    },
+    {
+      "code": "WTCM",
+      "display": "Wet Chemical",
+      "definition": "Liquid chemical compound designed for fire suppression, typically used for Class K fires involving cooking oils and fats.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produit chimique liquide"
+        },
+        {
+          "language": "es-MX",
+          "value": "Químico líquido"
+        }
+      ]
+    },
+    {
+      "code": "CO2D",
+      "display": "Carbon Dioxide",
+      "definition": "Compressed carbon dioxide gas used as a fire suppressant that displaces oxygen.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dioxyde de carbone"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dióxido de carbono"
+        }
+      ]
+    },
+    {
+      "code": "FOAM",
+      "display": "Foam",
+      "definition": "Foam-based extinguishing agent that forms a blanket over flammable liquids to suppress vapors and cool the fire.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mousse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Espuma"
+        }
+      ]
+    },
+    {
+      "code": "HALN",
+      "display": "Halon",
+      "definition": "Halogenated hydrocarbon gas that chemically interrupts combustion, now largely phased out due to environmental concerns.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Halon"
+        },
+        {
+          "language": "es-MX",
+          "value": "Halón"
+        }
+      ]
+    },
+    {
+      "code": "DYCM",
+      "display": "Dry Chemical",
+      "definition": "Powder-based extinguishing agent that interrupts the chemical reaction of fire, commonly using monoammonium phosphate or sodium bicarbonate.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produit chimique sec"
+        },
+        {
+          "language": "es-MX",
+          "value": "Químico seco"
+        }
+      ]
+    },
+    {
+      "code": "DPWD",
+      "display": "Dry Powder",
+      "definition": "Specialized powder agent for Class D fires involving combustible metals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Poudre sèche"
+        },
+        {
+          "language": "es-MX",
+          "value": "Polvo seco"
+        }
+      ]
+    },
+    {
+      "code": "CGAS",
+      "display": "Clean Agent",
+      "definition": "Gaseous fire suppressant that leaves no residue, such as FM-200, Novec 1230, or Inergen.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agent propre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agente limpio"
+        }
+      ]
+    },
+    {
+      "code": "ARSL",
+      "display": "Aerosol",
+      "definition": "Fine particle fire suppressant dispersed as an aerosol mist.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aérosol"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aerosol"
+        }
+      ]
+    },
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None/Not applicable",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun/Non-applicable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno/No aplicable"
+        }
+      ]
+    }
+  ]
+}

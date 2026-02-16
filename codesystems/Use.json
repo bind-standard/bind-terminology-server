@@ -1,0 +1,132 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Use",
+  "url": "https://bind.codes/Use",
+  "name": "Use",
+  "title": "Use",
+  "status": "draft",
+  "language": "en",
+  "description": "Use codes for insurance operations.",
+  "concept": [
+    {
+      "code": "PERS",
+      "display": "Personal Use",
+      "definition": "Vehicle or property used for individual or family activities, not for income generation or commercial purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Usage personnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Uso personal"
+        }
+      ]
+    },
+    {
+      "code": "BUSI",
+      "display": "Business Use",
+      "definition": "Vehicle or property used for commercial activities, trade, or income-generating operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Activités professionnelles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Uso comercial"
+        }
+      ]
+    },
+    {
+      "code": "FARM",
+      "display": "Farm Use",
+      "definition": "Vehicle or equipment used for agricultural operations or farm-related activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Usage agricole"
+        },
+        {
+          "language": "es-MX",
+          "value": "Uso agrícola"
+        }
+      ]
+    },
+    {
+      "code": "PLSR",
+      "display": "Pleasure",
+      "definition": "Vehicle used for recreational driving, leisure activities, or non-essential trips.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Usage récréatif, promenade"
+        },
+        {
+          "language": "es-MX",
+          "value": "Uso recreativo"
+        }
+      ]
+    },
+    {
+      "code": "COMM",
+      "display": "Commute",
+      "definition": "Vehicle primarily used for traveling between home and a regular place of employment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trajet domicile-travail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Viaje al trabajo"
+        }
+      ]
+    },
+    {
+      "code": "PRIM",
+      "display": "Primary",
+      "definition": "Main or principal use of a vehicle, property, or coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Principal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Principal"
+        }
+      ]
+    },
+    {
+      "code": "AUXL",
+      "display": "Auxiliary",
+      "definition": "Secondary or supplementary use of a vehicle, property, or coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Secondaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Auxiliar"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Use category not otherwise specified in standard classifications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

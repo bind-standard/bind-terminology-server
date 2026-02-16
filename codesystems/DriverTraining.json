@@ -1,0 +1,177 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "DriverTraining",
+  "url": "https://bind.codes/DriverTraining",
+  "name": "DriverTraining",
+  "title": "Driver Training",
+  "status": "draft",
+  "language": "en",
+  "description": "Driver Training codes for insurance operations.",
+  "concept": [
+    {
+      "code": "DSIM",
+      "display": "Driving Simulator",
+      "definition": "Training completed using a driving simulator system that replicates real-world driving scenarios in a controlled environment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Simulateur de conduite"
+        },
+        {
+          "language": "es-MX",
+          "value": "Simulador de conducción"
+        }
+      ]
+    },
+    {
+      "code": "LV2T",
+      "display": "Training Certification Level II (e.g. above basic training)",
+      "definition": "Advanced driver training certification beyond basic driving instruction, demonstrating enhanced driving competency.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Attestation de formation Niveau II (par ex. au-dessus de la formation de base)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Certificación de formación Nivel II (p. ej. más allá de la formación básica)"
+        }
+      ]
+    },
+    {
+      "code": "NOTR",
+      "display": "No, Driver's Training Credit Does Not Apply",
+      "definition": "Indicator that the driver has not completed qualifying driver training or that completed training does not meet eligibility criteria.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non, le Crédit à la Formation du conducteur ne s'applique pas"
+        },
+        {
+          "language": "es-MX",
+          "value": "No, el Crédito de Formación del Conductor no aplica"
+        }
+      ]
+    },
+    {
+      "code": "REMI",
+      "display": "Remedial Driver Improvement Course Applies",
+      "definition": "Completion of a corrective driver education course designed to address driving deficiencies or violations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cours d'amélioration et de rattrapage du conducteur s'applique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Curso correctivo de mejora del conductor aplica"
+        }
+      ]
+    },
+    {
+      "code": "SKID",
+      "display": "Skid Control School",
+      "definition": "Specialized training focused on vehicle control techniques for managing skids and loss of traction situations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "École - Contrôle de dérapage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escuela de control de derrapes"
+        }
+      ]
+    },
+    {
+      "code": "YEST",
+      "display": "Yes, Driver's Training Credit Applies",
+      "definition": "Indicator that the driver has completed qualifying driver training that meets eligibility criteria.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Oui, le Crédit à la Formation du conducteur s'applique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sí, el Crédito de Formación del Conductor aplica"
+        }
+      ]
+    },
+    {
+      "code": "MOTO",
+      "display": "Motorcycle",
+      "definition": "Training specific to operating motorcycles or other two-wheeled motor vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Motocyclette"
+        },
+        {
+          "language": "es-MX",
+          "value": "Motocicleta"
+        }
+      ]
+    },
+    {
+      "code": "BASC",
+      "display": "Basic Driver Training",
+      "definition": "Foundational driver education covering essential driving skills and road safety principles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formation de base du conducteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Formación básica del conductor"
+        }
+      ]
+    },
+    {
+      "code": "DEFN",
+      "display": "Defensive Driving Course",
+      "definition": "Training program focused on hazard recognition, collision avoidance, and safe driving techniques.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cours de conduite défensive"
+        },
+        {
+          "language": "es-MX",
+          "value": "Curso de conducción defensiva"
+        }
+      ]
+    },
+    {
+      "code": "COMM",
+      "display": "Commercial Driver Training",
+      "definition": "Specialized training for operating commercial vehicles such as trucks, buses, or heavy equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formation de conducteur commercial"
+        },
+        {
+          "language": "es-MX",
+          "value": "Formación de conductor comercial"
+        }
+      ]
+    },
+    {
+      "code": "TEEN",
+      "display": "Teen/Young Driver Training",
+      "definition": "Age-appropriate driver education designed specifically for teenage or young novice drivers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formation pour jeunes conducteurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Formación para conductores jóvenes"
+        }
+      ]
+    }
+  ]
+}

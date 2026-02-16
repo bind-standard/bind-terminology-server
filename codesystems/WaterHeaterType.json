@@ -1,0 +1,131 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "WaterHeaterType",
+  "url": "https://bind.codes/WaterHeaterType",
+  "name": "WaterHeaterType",
+  "title": "Water Heater Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Water Heater Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CMBH",
+      "display": "Combination Space-Water",
+      "definition": "A dual-purpose heating system that provides both space heating and domestic hot water from a single unit using a heat exchanger.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chauffe-eau et chauffage hydronique combinés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Combinado espacio-agua"
+        }
+      ]
+    },
+    {
+      "code": "HPMP",
+      "display": "Heat Pump",
+      "definition": "A water heating system that extracts heat from surrounding air and transfers it to water, offering energy-efficient operation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Thermopompe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bomba de calor"
+        }
+      ]
+    },
+    {
+      "code": "SOLR",
+      "display": "Solar",
+      "definition": "A water heating system that uses solar collectors to capture energy from sunlight and heat water.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Solaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Solar"
+        }
+      ]
+    },
+    {
+      "code": "STRG",
+      "display": "Storage Tank",
+      "definition": "A conventional water heater that maintains a reservoir of heated water in an insulated tank for on-demand use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réservoir de stockage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tanque de almacenamiento"
+        }
+      ]
+    },
+    {
+      "code": "TNKL",
+      "display": "Tankless (On Demand)",
+      "definition": "A water heating system that heats water directly as it flows through the unit without storing it, providing hot water only when needed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chauffe-eau à chauffage instantané (sur demande)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin tanque (bajo demanda)"
+        }
+      ]
+    },
+    {
+      "code": "INDR",
+      "display": "Indirect",
+      "definition": "A water heater that uses a boiler or furnace to heat water through a heat exchanger coil inside a storage tank.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Indirect"
+        },
+        {
+          "language": "es-MX",
+          "value": "Indirecto"
+        }
+      ]
+    },
+    {
+      "code": "COND",
+      "display": "Condensing",
+      "definition": "A high-efficiency water heater that captures and uses heat from exhaust gases that would otherwise be vented.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À condensation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Condensación"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

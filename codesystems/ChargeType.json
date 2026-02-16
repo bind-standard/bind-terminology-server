@@ -1,0 +1,282 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ChargeType",
+  "url": "https://bind.codes/ChargeType",
+  "name": "ChargeType",
+  "title": "Charge Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Charge Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "CANC",
+      "display": "Cancellation Charges",
+      "definition": "Fees charged when cancelling before the expiration date.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais d'annulation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cargos de cancelación"
+        }
+      ]
+    },
+    {
+      "code": "ENDO",
+      "display": "Endorsement",
+      "definition": "Fee for processing a modification or amendment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avenant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Endoso"
+        }
+      ]
+    },
+    {
+      "code": "FILN",
+      "display": "Filing Fee Including Taxes",
+      "definition": "Fee for filing documents with regulatory authorities, including applicable taxes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais de dépôt incluant les taxes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tarifa de presentación incluyendo impuestos"
+        }
+      ]
+    },
+    {
+      "code": "FINN",
+      "display": "Finance Fee",
+      "definition": "Interest or service charge for paying in installments rather than in full.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais financiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cargo financiero"
+        }
+      ]
+    },
+    {
+      "code": "FSVC",
+      "display": "Fee for Service (Administrative)",
+      "definition": "Service charge for processing and maintenance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais de service (administration)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tarifa por servicio (administrativo)"
+        }
+      ]
+    },
+    {
+      "code": "INST",
+      "display": "Installment Fee",
+      "definition": "Fee charged for each installment payment over time.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais de versement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cargo de cuota"
+        }
+      ]
+    },
+    {
+      "code": "LATE",
+      "display": "Late Charges",
+      "definition": "Penalty fee for payments received after the due date.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais de retard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cargos por mora"
+        }
+      ]
+    },
+    {
+      "code": "MCOM",
+      "display": "Modified Commission",
+      "definition": "Adjusted commission amount.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commission modifiée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comisión modificada"
+        }
+      ]
+    },
+    {
+      "code": "NBIZ",
+      "display": "New Business",
+      "definition": "Charge associated with establishing new business.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nouvelle affaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Negocio nuevo"
+        }
+      ]
+    },
+    {
+      "code": "NSFN",
+      "display": "NSF Charges",
+      "definition": "Fee charged when a payment is returned due to non-sufficient funds.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais pour chèque sans provision"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cargos por fondos insuficientes"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other Charges",
+      "definition": "Miscellaneous charges not categorized under other specific types.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autres frais"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otros cargos"
+        }
+      ]
+    },
+    {
+      "code": "PCHG",
+      "display": "Policy Change Fee",
+      "definition": "Fee for making changes outside of regular endorsements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais de modification de police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tarifa de cambio de póliza"
+        }
+      ]
+    },
+    {
+      "code": "POLF",
+      "display": "Policy Fee",
+      "definition": "Fixed administrative fee charged regardless of amount.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais de police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tarifa de póliza"
+        }
+      ]
+    },
+    {
+      "code": "REIN",
+      "display": "Reinstatement Charges",
+      "definition": "Fee for reinstating after lapse or cancellation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais de rétablissement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cargos de reinstalación"
+        }
+      ]
+    },
+    {
+      "code": "RNWL",
+      "display": "Renewal",
+      "definition": "Charge for renewing at the end of term.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Renouvellement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Renovación"
+        }
+      ]
+    },
+    {
+      "code": "RPAY",
+      "display": "Return Payment Charges",
+      "definition": "Fee for processing a returned or rejected payment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais de retour de paiement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cargos por pago devuelto"
+        }
+      ]
+    },
+    {
+      "code": "RWRT",
+      "display": "Rewrite Charges",
+      "definition": "Fee for rewriting or reissuing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Frais de réémission"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cargos de reescritura"
+        }
+      ]
+    },
+    {
+      "code": "TAXS",
+      "display": "Tax",
+      "definition": "Government-mandated tax on transactions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Taxe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Impuesto"
+        }
+      ]
+    }
+  ]
+}

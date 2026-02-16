@@ -1,0 +1,87 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ImpactResistanceClass",
+  "url": "https://bind.codes/ImpactResistanceClass",
+  "name": "ImpactResistanceClass",
+  "title": "Impact Resistance Class",
+  "status": "draft",
+  "language": "en",
+  "description": "Impact Resistance Class codes for insurance operations.",
+  "concept": [
+    {
+      "code": "NONE",
+      "display": "None",
+      "definition": "No impact resistance rating or classification applied to the material or component.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucune"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguna"
+        }
+      ]
+    },
+    {
+      "code": "IRC1",
+      "display": "Class 1",
+      "definition": "Lowest level of impact resistance rating, typically withstanding impacts from small hail (up to 1 inch diameter).",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe 1"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clase 1"
+        }
+      ]
+    },
+    {
+      "code": "IRC2",
+      "display": "Class 2",
+      "definition": "Moderate impact resistance rating, typically withstanding impacts from hail up to 1.25 inches in diameter.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe 2"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clase 2"
+        }
+      ]
+    },
+    {
+      "code": "IRC3",
+      "display": "Class 3",
+      "definition": "Enhanced impact resistance rating, typically withstanding impacts from hail up to 1.75 inches in diameter.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe 3"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clase 3"
+        }
+      ]
+    },
+    {
+      "code": "IRC4",
+      "display": "Class 4",
+      "definition": "Highest standard impact resistance rating, typically withstanding impacts from hail up to 2 inches in diameter as defined by UL 2218.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Classe 4"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clase 4"
+        }
+      ]
+    }
+  ]
+}

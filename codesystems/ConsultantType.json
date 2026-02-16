@@ -1,0 +1,747 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ConsultantType",
+  "url": "https://bind.codes/ConsultantType",
+  "name": "ConsultantType",
+  "title": "Consultant Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Types of consultants and professional advisory services.",
+  "concept": [
+    {
+      "code": "ACST",
+      "display": "Acoustical Consultants",
+      "definition": "Professionals who analyze and advise on sound quality, noise control, and acoustic design in buildings and environments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultants en acoustique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultores acústicos"
+        }
+      ]
+    },
+    {
+      "code": "ACTU",
+      "display": "Actuarial Consultant",
+      "definition": "Professionals who use statistical and mathematical methods to assess financial risks and uncertainties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant en actuariat"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor actuarial"
+        }
+      ]
+    },
+    {
+      "code": "ARBT",
+      "display": "Arbitrators & Mediators",
+      "definition": "Neutral third parties who facilitate dispute resolution through arbitration or mediation processes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Arbitres et médiateurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Árbitros y mediadores"
+        }
+      ]
+    },
+    {
+      "code": "AVIA",
+      "display": "Aviation Consultant",
+      "definition": "Specialists who provide expertise on aircraft operations, aviation safety, and aeronautical matters.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant en aviation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor de aviación"
+        }
+      ]
+    },
+    {
+      "code": "BKKP",
+      "display": "Bookkeeping Services",
+      "definition": "Professionals who maintain and record financial transactions and accounts for businesses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de tenue de livres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de contabilidad"
+        }
+      ]
+    },
+    {
+      "code": "CALL",
+      "display": "Call Centres",
+      "definition": "Centralized offices that handle large volumes of telephone communications for customer service or telemarketing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Centres d'appels"
+        },
+        {
+          "language": "es-MX",
+          "value": "Centros de llamadas"
+        }
+      ]
+    },
+    {
+      "code": "CNPM",
+      "display": "Construction Project Managers Consultant",
+      "definition": "Professionals who oversee and coordinate construction projects from planning through completion.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant en gestion de projet de construction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor de gestión de proyectos de construcción"
+        }
+      ]
+    },
+    {
+      "code": "CNSL",
+      "display": "Counselor",
+      "definition": "Professionals who provide guidance and advice on personal, psychological, or legal matters.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conseiller"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consejero"
+        }
+      ]
+    },
+    {
+      "code": "CRPT",
+      "display": "Court Reporters & Transcription Services",
+      "definition": "Professionals who create verbatim records of legal proceedings and provide transcription services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de sténographie et de transcription judiciaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de reporteros judiciales y transcripción"
+        }
+      ]
+    },
+    {
+      "code": "CLDC",
+      "display": "Cloud Computing",
+      "definition": "Services providing remote computing resources and data storage accessible over the internet.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Informatique en nuage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Computación en la nube"
+        }
+      ]
+    },
+    {
+      "code": "BINC",
+      "display": "Business Incubator Consultant",
+      "definition": "Professionals who support and mentor early-stage businesses through development programs and resources.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant en incubateur d'entreprises"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor de incubadora de empresas"
+        }
+      ]
+    },
+    {
+      "code": "CRCH",
+      "display": "Coaching / Career Consultant",
+      "definition": "Professionals who provide guidance on career development, job transitions, and professional growth.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Accompagnement de carrière/conseiller professionnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor de carrera / coaching"
+        }
+      ]
+    },
+    {
+      "code": "EDUC",
+      "display": "Education Advisory Services",
+      "definition": "Professionals who provide expertise on educational programs, curriculum development, and institutional strategy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services consultatifs en éducation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de asesoría educativa"
+        }
+      ]
+    },
+    {
+      "code": "EXPT",
+      "display": "Export Consultant",
+      "definition": "Specialists who advise businesses on international trade, export regulations, and foreign market entry.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant en exportation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor de exportación"
+        }
+      ]
+    },
+    {
+      "code": "ENVR",
+      "display": "Environmental Consultant",
+      "definition": "Professionals who assess environmental impacts, ensure regulatory compliance, and provide sustainability guidance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant en environnement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor ambiental"
+        }
+      ]
+    },
+    {
+      "code": "FAGH",
+      "display": "Forestry/Agricultural/Horticultural Consultant",
+      "definition": "Experts who advise on land management, crop production, forest resources, and plant cultivation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant en foresterie/agriculture/horticulture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor forestal/agrícola/hortícola"
+        }
+      ]
+    },
+    {
+      "code": "GRFC",
+      "display": "Grief Counsellors",
+      "definition": "Mental health professionals who support individuals and families coping with loss and bereavement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conseillers de personnes en deuil"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consejeros de duelo"
+        }
+      ]
+    },
+    {
+      "code": "HWIM",
+      "display": "Hardware Implementation Integration",
+      "definition": "Services focused on installing, configuring, and integrating physical technology infrastructure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intégration de la mise en œuvre du matériel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Integración de implementación de hardware"
+        }
+      ]
+    },
+    {
+      "code": "HLSF",
+      "display": "Health & Safety Consultant",
+      "definition": "Professionals who assess workplace hazards and develop programs to ensure employee health and safety.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conseiller en santé et sécurité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor de salud y seguridad"
+        }
+      ]
+    },
+    {
+      "code": "HRES",
+      "display": "Human Resource Consultant",
+      "definition": "Specialists who advise on employee relations, recruitment, compensation, and organizational development.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conseiller en ressources humaines"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor de recursos humanos"
+        }
+      ]
+    },
+    {
+      "code": "HSIT",
+      "display": "House Sitting Services",
+      "definition": "Services where individuals temporarily occupy and maintain a residence while the owner is away.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de garde de maison"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de cuidado de casas"
+        }
+      ]
+    },
+    {
+      "code": "LNPL",
+      "display": "Land Planner Consultant",
+      "definition": "Professionals who develop strategies for land use, zoning, and site development.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant en aménagement des terres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor de planificación territorial"
+        }
+      ]
+    },
+    {
+      "code": "LOBB",
+      "display": "Lobbying or Political Group Consultant",
+      "definition": "Professionals who advocate for specific interests or policies with government officials and legislative bodies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant des groupes de lobbying ou politiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor de grupos de cabildeo o políticos"
+        }
+      ]
+    },
+    {
+      "code": "ADLT",
+      "display": "Illicit or Adult Content Consultant",
+      "definition": "Professionals who provide advisory services related to adult entertainment or restricted content industries.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant en contenu illicite ou pour adultes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor de contenido ilícito o para adultos"
+        }
+      ]
+    },
+    {
+      "code": "ITCP",
+      "display": "Information Technology / Computer Consultant",
+      "definition": "Specialists who advise on technology strategy, systems implementation, and IT infrastructure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant en informatique / technologie de l'information"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor de tecnología de la información / computación"
+        }
+      ]
+    },
+    {
+      "code": "ICAF",
+      "display": "Internet Cafe",
+      "definition": "Establishments providing public access to computers and internet connectivity.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cybercafé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cibercafé"
+        }
+      ]
+    },
+    {
+      "code": "MGMT",
+      "display": "Management Consultant",
+      "definition": "Professionals who advise organizations on strategic planning, operational efficiency, and business transformation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant en gestion"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor de gestión"
+        }
+      ]
+    },
+    {
+      "code": "MKTG",
+      "display": "Marketing Consultants",
+      "definition": "Specialists who develop and implement strategies for brand positioning, customer acquisition, and market growth.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultants en marketing"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultores de marketing"
+        }
+      ]
+    },
+    {
+      "code": "MKTR",
+      "display": "Marketing Research Consultant",
+      "definition": "Professionals who conduct market analysis, consumer surveys, and competitive intelligence studies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant en recherche marketing"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor de investigación de mercados"
+        }
+      ]
+    },
+    {
+      "code": "MFCN",
+      "display": "Marriage/Family Counselling Services",
+      "definition": "Mental health professionals who provide therapy and support for relationship and family issues.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de counseling conjugal/familial"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de consejería matrimonial/familiar"
+        }
+      ]
+    },
+    {
+      "code": "MEDC",
+      "display": "Medical Consultant",
+      "definition": "Healthcare professionals who provide specialized medical expertise and clinical advice.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant en médecine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor médico"
+        }
+      ]
+    },
+    {
+      "code": "EVNT",
+      "display": "Meeting and Event Planner",
+      "definition": "Professionals who organize and coordinate conferences, meetings, and special events.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Planificateur de réunions et d'événements"
+        },
+        {
+          "language": "es-MX",
+          "value": "Planificador de reuniones y eventos"
+        }
+      ]
+    },
+    {
+      "code": "MABV",
+      "display": "Mergers, Acquisitions or Business Valuations Consultant",
+      "definition": "Financial experts who assess company value and advise on corporate transactions and ownership changes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant en fusions, acquisitions ou évaluations d'entreprises"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor de fusiones, adquisiciones o valuación de empresas"
+        }
+      ]
+    },
+    {
+      "code": "OILG",
+      "display": "Oil & Gas Consultant",
+      "definition": "Specialists who provide technical and strategic expertise in petroleum exploration, production, and distribution.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant en pétrole et gaz"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor de petróleo y gas"
+        }
+      ]
+    },
+    {
+      "code": "OPER",
+      "display": "Operations Consultant",
+      "definition": "Professionals who optimize business processes, supply chains, and operational workflows.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant en exploitation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor de operaciones"
+        }
+      ]
+    },
+    {
+      "code": "ORGZ",
+      "display": "Organizational Consultant",
+      "definition": "Specialists who advise on organizational structure, change management, and workplace culture.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant organisationnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor organizacional"
+        }
+      ]
+    },
+    {
+      "code": "PHRM",
+      "display": "Pharmaceutical Consultant",
+      "definition": "Experts who advise on drug development, regulatory compliance, and pharmaceutical business strategy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant pharmaceutique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor farmacéutico"
+        }
+      ]
+    },
+    {
+      "code": "PREC",
+      "display": "Search Agents/Public Records Consultant",
+      "definition": "Professionals who conduct research and retrieve information from public records and databases.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agents de recherche/consultant en registres publics"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agentes de búsqueda/consultor de registros públicos"
+        }
+      ]
+    },
+    {
+      "code": "PRJM",
+      "display": "Project Managers",
+      "definition": "Professionals who plan, execute, and oversee projects to ensure they are completed on time and within budget.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gestionnaires de projet"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gerentes de proyectos"
+        }
+      ]
+    },
+    {
+      "code": "QUAL",
+      "display": "Quality Assurance Consultant",
+      "definition": "Professionals who develop and implement systems to ensure products and services meet quality standards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant en assurance de la qualité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor de aseguramiento de calidad"
+        }
+      ]
+    },
+    {
+      "code": "SMBL",
+      "display": "Small Business Consultant",
+      "definition": "Advisors who help small businesses with strategy, operations, and growth challenges.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant en petites entreprises"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor de pequeñas empresas"
+        }
+      ]
+    },
+    {
+      "code": "SWIM",
+      "display": "Software Implementation Integration",
+      "definition": "Services focused on deploying, configuring, and integrating software systems within organizations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intégration de la mise en œuvre de logiciels"
+        },
+        {
+          "language": "es-MX",
+          "value": "Integración de implementación de software"
+        }
+      ]
+    },
+    {
+      "code": "STRT",
+      "display": "Strategic Consultant",
+      "definition": "Professionals who advise on long-term organizational direction, competitive positioning, and growth strategies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant stratégique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor estratégico"
+        }
+      ]
+    },
+    {
+      "code": "TRNS",
+      "display": "Translation Services",
+      "definition": "Professionals who convert written or spoken content from one language to another.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de traduction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de traducción"
+        }
+      ]
+    },
+    {
+      "code": "TCSP",
+      "display": "Technology Customer Support Services",
+      "definition": "Services providing technical assistance and troubleshooting for technology products and systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services technologiques de soutien à la clientèle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de soporte técnico al cliente"
+        }
+      ]
+    },
+    {
+      "code": "WEDP",
+      "display": "Wedding Planners",
+      "definition": "Professionals who coordinate and manage all aspects of wedding ceremonies and receptions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Planificateurs de mariage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Planificadores de bodas"
+        }
+      ]
+    },
+    {
+      "code": "FNCN",
+      "display": "Financial Consultant",
+      "definition": "Professionals who provide advice on financial planning, investments, and wealth management.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conseiller financier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor financiero"
+        }
+      ]
+    },
+    {
+      "code": "CYBR",
+      "display": "Cybersecurity Consultant",
+      "definition": "Specialists who assess security vulnerabilities and implement protective measures for digital systems and data.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant en cybersécurité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor de ciberseguridad"
+        }
+      ]
+    },
+    {
+      "code": "LGLC",
+      "display": "Legal Consultant",
+      "definition": "Legal professionals who provide expert advice on laws, regulations, and compliance matters.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant juridique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor legal"
+        }
+      ]
+    }
+  ]
+}

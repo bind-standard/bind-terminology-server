@@ -1,0 +1,147 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ExclusionCode",
+  "url": "https://bind.codes/ExclusionCode",
+  "name": "ExclusionCode",
+  "title": "Exclusion Code",
+  "status": "draft",
+  "language": "en",
+  "description": "Standard policy exclusions that remove specific perils, situations, or exposures from coverage.",
+  "concept": [
+    {
+      "code": "POLL",
+      "display": "Pollution",
+      "definition": "Eliminates coverage for the discharge, dispersal, or release of pollutants.",
+      "designation": [
+        { "language": "fr-CA", "value": "Pollution" },
+        { "language": "es-MX", "value": "Contaminación" }
+      ]
+    },
+    {
+      "code": "MOLD",
+      "display": "Mold/Fungus",
+      "definition": "Eliminates coverage for damage caused by the presence, growth, or remediation of mold, mildew, or fungus.",
+      "designation": [
+        { "language": "fr-CA", "value": "Moisissure/Champignon" },
+        { "language": "es-MX", "value": "Moho/Hongos" }
+      ]
+    },
+    {
+      "code": "ASBT",
+      "display": "Asbestos",
+      "definition": "Eliminates coverage for bodily injury or property damage arising from asbestos or asbestos-containing materials.",
+      "designation": [
+        { "language": "fr-CA", "value": "Amiante" },
+        { "language": "es-MX", "value": "Asbesto" }
+      ]
+    },
+    {
+      "code": "LDPT",
+      "display": "Lead Paint",
+      "definition": "Eliminates coverage for claims arising from lead-based paint exposure.",
+      "designation": [
+        { "language": "fr-CA", "value": "Peinture au plomb" },
+        { "language": "es-MX", "value": "Pintura con plomo" }
+      ]
+    },
+    {
+      "code": "NUCL",
+      "display": "Nuclear Hazard",
+      "definition": "Eliminates coverage for loss arising from nuclear reaction, radiation, or radioactive contamination.",
+      "designation": [
+        { "language": "fr-CA", "value": "Risque nucléaire" },
+        { "language": "es-MX", "value": "Riesgo nuclear" }
+      ]
+    },
+    {
+      "code": "WARX",
+      "display": "War",
+      "definition": "Eliminates coverage for loss caused by war, military action, insurrection, or revolution.",
+      "designation": [
+        { "language": "fr-CA", "value": "Guerre" },
+        { "language": "es-MX", "value": "Guerra" }
+      ]
+    },
+    {
+      "code": "TERR",
+      "display": "Terrorism",
+      "definition": "Eliminates coverage for loss caused by acts of terrorism as defined in the policy.",
+      "designation": [
+        { "language": "fr-CA", "value": "Terrorisme" },
+        { "language": "es-MX", "value": "Terrorismo" }
+      ]
+    },
+    {
+      "code": "CYBR",
+      "display": "Cyber",
+      "definition": "Eliminates coverage for loss arising from data breaches, cyber-attacks, or electronic data incidents.",
+      "designation": [
+        { "language": "fr-CA", "value": "Cybersécurité" },
+        { "language": "es-MX", "value": "Ciberseguridad" }
+      ]
+    },
+    {
+      "code": "CMDS",
+      "display": "Communicable Disease",
+      "definition": "Eliminates coverage for loss arising from the spread of communicable or infectious disease, including pandemics.",
+      "designation": [
+        { "language": "fr-CA", "value": "Maladie transmissible" },
+        { "language": "es-MX", "value": "Enfermedad transmisible" }
+      ]
+    },
+    {
+      "code": "PFLB",
+      "display": "Professional Liability",
+      "definition": "Eliminates coverage for claims arising from professional services, errors, or omissions.",
+      "designation": [
+        { "language": "fr-CA", "value": "Responsabilité professionnelle" },
+        { "language": "es-MX", "value": "Responsabilidad profesional" }
+      ]
+    },
+    {
+      "code": "EPLX",
+      "display": "Employment Practices",
+      "definition": "Eliminates coverage for claims alleging wrongful employment practices such as discrimination, harassment, or wrongful termination.",
+      "designation": [
+        { "language": "fr-CA", "value": "Pratiques d'emploi" },
+        { "language": "es-MX", "value": "Prácticas laborales" }
+      ]
+    },
+    {
+      "code": "WRTX",
+      "display": "Wear and Tear",
+      "definition": "Eliminates coverage for damage resulting from gradual deterioration, rust, corrosion, or normal aging.",
+      "designation": [
+        { "language": "fr-CA", "value": "Usure normale" },
+        { "language": "es-MX", "value": "Desgaste normal" }
+      ]
+    },
+    {
+      "code": "ERMV",
+      "display": "Earth Movement",
+      "definition": "Eliminates coverage for loss caused by earthquake, landslide, mudflow, or other earth movement.",
+      "designation": [
+        { "language": "fr-CA", "value": "Mouvement de terrain" },
+        { "language": "es-MX", "value": "Movimiento de tierra" }
+      ]
+    },
+    {
+      "code": "FLDX",
+      "display": "Flood",
+      "definition": "Eliminates coverage for loss caused by flood, surface water, tidal surge, or overflow of bodies of water.",
+      "designation": [
+        { "language": "fr-CA", "value": "Inondation" },
+        { "language": "es-MX", "value": "Inundación" }
+      ]
+    },
+    {
+      "code": "CTLB",
+      "display": "Contractual Liability",
+      "definition": "Eliminates coverage for liability assumed under a contract or agreement.",
+      "designation": [
+        { "language": "fr-CA", "value": "Responsabilité contractuelle" },
+        { "language": "es-MX", "value": "Responsabilidad contractual" }
+      ]
+    }
+  ]
+}

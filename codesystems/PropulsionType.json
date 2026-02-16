@@ -1,0 +1,161 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "PropulsionType",
+  "url": "https://bind.codes/PropulsionType",
+  "name": "PropulsionType",
+  "title": "Propulsion Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Propulsion Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "INBD",
+      "display": "Inboard",
+      "definition": "Engine mounted inside the hull of a watercraft with the propeller shaft passing through the hull.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En-bord"
+        },
+        {
+          "language": "es-MX",
+          "value": "Intraborda"
+        }
+      ]
+    },
+    {
+      "code": "OUTB",
+      "display": "Outboard",
+      "definition": "Detachable motor unit mounted on the transom (stern) of a watercraft.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors-bord"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fuera de borda"
+        }
+      ]
+    },
+    {
+      "code": "INOD",
+      "display": "Inboard/Outdrive",
+      "definition": "Engine mounted inside the hull with a steerable drive unit extending outside the transom, also known as sterndrive or inboard/outboard.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En-bord/semi hors-bord"
+        },
+        {
+          "language": "es-MX",
+          "value": "Intraborda/fueraborda"
+        }
+      ]
+    },
+    {
+      "code": "PWC",
+      "display": "PWC (Personal Watercraft)",
+      "definition": "Small motorized watercraft designed to be operated by a person or persons sitting, standing, or kneeling on the craft.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Embarcation personnelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Moto acuática"
+        }
+      ]
+    },
+    {
+      "code": "SAIL",
+      "display": "Sail",
+      "definition": "Watercraft propelled primarily by wind power using sails.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Voilier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vela"
+        }
+      ]
+    },
+    {
+      "code": "HUMN",
+      "display": "Human Powered",
+      "definition": "Watercraft propelled by human power using paddles, oars, or pedals, including canoes, kayaks, and rowboats.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propulsion humaine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propulsión humana"
+        }
+      ]
+    },
+    {
+      "code": "TRLR",
+      "display": "Trailer",
+      "definition": "Unpowered vehicle designed to transport a watercraft over land when towed by a motor vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remorque"
+        },
+        {
+          "language": "es-MX",
+          "value": "Remolque"
+        }
+      ]
+    },
+    {
+      "code": "WTJT",
+      "display": "Waterjet",
+      "definition": "Propulsion system that creates thrust by forcing a jet of water out through a nozzle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propulsion par jet d'eau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propulsión por chorro de agua"
+        }
+      ]
+    },
+    {
+      "code": "ELEC",
+      "display": "Electric",
+      "definition": "Watercraft powered by electric motor(s) using batteries or other electric power sources.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Électrique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Eléctrico"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

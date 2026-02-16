@@ -1,0 +1,207 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ConditionalOperator",
+  "url": "https://bind.codes/ConditionalOperator",
+  "name": "ConditionalOperator",
+  "title": "Conditional Operator",
+  "status": "draft",
+  "language": "en",
+  "description": "Conditional operator codes used for logical comparisons and conditions.",
+  "concept": [
+    {
+      "code": "EQAL",
+      "display": "Equal",
+      "definition": "A comparison operator that evaluates whether two values are identical.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Égal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Igual"
+        }
+      ]
+    },
+    {
+      "code": "GRTR",
+      "display": "Greater than",
+      "definition": "A comparison operator that evaluates whether the left value exceeds the right value.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plus grand que"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mayor que"
+        }
+      ]
+    },
+    {
+      "code": "GRTE",
+      "display": "Greater than or equal",
+      "definition": "A comparison operator that evaluates whether the left value exceeds or equals the right value.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plus grand que ou égal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mayor o igual que"
+        }
+      ]
+    },
+    {
+      "code": "INCL",
+      "display": "In",
+      "definition": "A membership operator that evaluates whether a value exists within a specified set or collection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dans"
+        },
+        {
+          "language": "es-MX",
+          "value": "En"
+        }
+      ]
+    },
+    {
+      "code": "LESS",
+      "display": "Less than",
+      "definition": "A comparison operator that evaluates whether the left value is smaller than the right value.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plus petit que"
+        },
+        {
+          "language": "es-MX",
+          "value": "Menor que"
+        }
+      ]
+    },
+    {
+      "code": "LSEQ",
+      "display": "Less than or equal",
+      "definition": "A comparison operator that evaluates whether the left value is smaller than or equals the right value.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plus petit que ou égal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Menor o igual que"
+        }
+      ]
+    },
+    {
+      "code": "NEQL",
+      "display": "Not Equal",
+      "definition": "A comparison operator that evaluates whether two values are different.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pas égal"
+        },
+        {
+          "language": "es-MX",
+          "value": "No igual"
+        }
+      ]
+    },
+    {
+      "code": "BTWE",
+      "display": "Between",
+      "definition": "A range operator that evaluates whether a value falls within a specified inclusive range.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entre"
+        }
+      ]
+    },
+    {
+      "code": "CNTN",
+      "display": "Contains",
+      "definition": "A substring operator that evaluates whether a text value contains a specified substring.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contient"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contiene"
+        }
+      ]
+    },
+    {
+      "code": "STRT",
+      "display": "Starts with",
+      "definition": "A string operator that evaluates whether a text value begins with a specified prefix.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commence par"
+        },
+        {
+          "language": "es-MX",
+          "value": "Comienza con"
+        }
+      ]
+    },
+    {
+      "code": "ENDS",
+      "display": "Ends with",
+      "definition": "A string operator that evaluates whether a text value terminates with a specified suffix.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Se termine par"
+        },
+        {
+          "language": "es-MX",
+          "value": "Termina con"
+        }
+      ]
+    },
+    {
+      "code": "EXST",
+      "display": "Exists",
+      "definition": "A nullability operator that evaluates whether a value is present and not null.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Existe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Existe"
+        }
+      ]
+    },
+    {
+      "code": "EMTY",
+      "display": "Is Empty",
+      "definition": "A nullability operator that evaluates whether a value is null, undefined, or an empty collection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Est vide"
+        },
+        {
+          "language": "es-MX",
+          "value": "Está vacío"
+        }
+      ]
+    }
+  ]
+}

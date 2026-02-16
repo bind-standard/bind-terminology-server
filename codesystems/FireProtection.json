@@ -1,0 +1,72 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "FireProtection",
+  "url": "https://bind.codes/FireProtection",
+  "name": "FireProtection",
+  "title": "Fire Protection",
+  "status": "draft",
+  "language": "en",
+  "description": "Fire Protection codes for insurance operations.",
+  "concept": [
+    {
+      "code": "PROT",
+      "display": "Protected",
+      "definition": "Property located within close proximity to a fire hydrant and fire station with adequate water supply and fire suppression infrastructure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Protégé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Protegido"
+        }
+      ]
+    },
+    {
+      "code": "SEMI",
+      "display": "Semi-Protected",
+      "definition": "Property with partial access to municipal fire protection services, such as proximity to a fire station but limited water supply, or nearby hydrants with longer response times.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Semi-protégé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Semi-protegido"
+        }
+      ]
+    },
+    {
+      "code": "UPRT",
+      "display": "Unprotected",
+      "definition": "Property located beyond the effective range of municipal fire protection services, typically in rural areas without nearby fire hydrants or fire stations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non protégé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin protección"
+        }
+      ]
+    },
+    {
+      "code": "SPKL",
+      "display": "Sprinklered",
+      "definition": "Property equipped with an automatic fire sprinkler system throughout the building or in critical areas.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gicleurs automatiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Con rociadores"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "SewerBackupPrevention",
+  "url": "https://bind.codes/SewerBackupPrevention",
+  "name": "SewerBackupPrevention",
+  "title": "Sewer Backup Prevention",
+  "status": "draft",
+  "language": "en",
+  "description": "Sewer Backup Prevention codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ASPB",
+      "display": "Alarmed Sump Pump with Battery Backup & Backup valve",
+      "definition": "A sump pump equipped with an audible alarm, battery backup power system, and backwater valve for comprehensive sewage backup prevention.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pompe d'épuisement avec alarme dotée d'une pile de secours et d'un clapet anti-refoulement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bomba de sumidero con alarma con respaldo de batería y válvula de respaldo"
+        }
+      ]
+    },
+    {
+      "code": "ASPW",
+      "display": "Alarmed Sump Pump with Battery Backup",
+      "definition": "A sump pump equipped with an audible alarm and battery backup power system for continued operation during power outages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pompe d'épuisement avec alarme dotée d'une pile de secours"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bomba de sumidero con alarma con respaldo de batería"
+        }
+      ]
+    },
+    {
+      "code": "ASPN",
+      "display": "Alarmed Sump Pump without Battery Backup",
+      "definition": "A sump pump equipped with an audible alarm but no battery backup system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pompe d'épuisement avec alarme, sans pile de secours"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bomba de sumidero con alarma sin respaldo de batería"
+        }
+      ]
+    },
+    {
+      "code": "ASVN",
+      "display": "Alarmed Sump Pump with Back Up Valve but without Battery Back Up",
+      "definition": "A sump pump equipped with an audible alarm and backwater valve but no battery backup system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pompe d'épuisement avec alarme dotée d'un clapet anti-refoulement, mais sans pile de secours"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bomba de sumidero con alarma con válvula de respaldo pero sin respaldo de batería"
+        }
+      ]
+    },
+    {
+      "code": "BVSB",
+      "display": "Back-up Valve & Sump Pump with Battery",
+      "definition": "A combination of a backwater valve and sump pump with battery backup power system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clapet anti-refoulement et pompe d'épuisement avec pile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Válvula de respaldo y bomba de sumidero con batería"
+        }
+      ]
+    },
+    {
+      "code": "BVFL",
+      "display": "Back Up Valve with Flapper that Protects the Basement Plumbing and Catch Basin",
+      "definition": "A backwater valve with flapper mechanism installed to protect both basement plumbing fixtures and catch basin from sewage backflow.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clapet anti-refoulement avec battant qui protège la plomberie au sous-sol et le bassin récepteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Válvula de respaldo con compuerta que protege la plomería del sótano y la cuenca de captación"
+        }
+      ]
+    },
+    {
+      "code": "BVCB",
+      "display": "Back Up Valve that Protects only the Catch Basin",
+      "definition": "A backwater valve installed specifically to protect only the catch basin from sewage backflow.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clapet anti-refoulement qui protège seulement le bassin récepteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Válvula de respaldo que protege solo la cuenca de captación"
+        }
+      ]
+    },
+    {
+      "code": "BVSP",
+      "display": "Back-up Valve & Sump Pump",
+      "definition": "A combination of a backwater valve and standard sump pump without battery backup.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clapet anti-refoulement et pompe d'épuisement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Válvula de respaldo y bomba de sumidero"
+        }
+      ]
+    },
+    {
+      "code": "BKWV",
+      "display": "Back-up Valve",
+      "definition": "A backwater valve (also called backflow preventer) installed in the sewer line to prevent sewage from flowing back into the building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clapet anti-refoulement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Válvula de respaldo"
+        }
+      ]
+    },
+    {
+      "code": "SPBB",
+      "display": "Sump pump with battery back up",
+      "definition": "A sump pump equipped with a battery backup power system for continued operation during power outages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pompe d'épuisement dotée d'une pile de secours"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bomba de sumidero con respaldo de batería"
+        }
+      ]
+    },
+    {
+      "code": "SUMP",
+      "display": "Sump Pump",
+      "definition": "A pump installed in a sump pit to remove accumulated water from below-grade areas.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pompe d'épuisement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bomba de sumidero"
+        }
+      ]
+    },
+    {
+      "code": "WPBP",
+      "display": "Water Powered / Pressure Back Up Pump",
+      "definition": "A backup pump powered by municipal water pressure rather than electricity, providing sewage removal during power outages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pompe de secours alimentée à l'eau / pression"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bomba de respaldo impulsada por agua / presión"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None",
+      "definition": "No sewer backup prevention system installed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "A sewer backup prevention system not specifically categorized in this list.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

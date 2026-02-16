@@ -1,0 +1,132 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "OperationZoneType",
+  "url": "https://bind.codes/OperationZoneType",
+  "name": "OperationZoneType",
+  "title": "Operation Zone Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Operation Zone Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "OILF",
+      "display": "Oil Field",
+      "definition": "Geographic area designated for petroleum extraction and production activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Champ pétrolifère"
+        },
+        {
+          "language": "es-MX",
+          "value": "Campo petrolero"
+        }
+      ]
+    },
+    {
+      "code": "WNTR",
+      "display": "Winter Roads",
+      "definition": "Seasonal ice roads constructed over frozen water bodies or tundra, typically operational only during winter months.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Routes d'hiver"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caminos de invierno"
+        }
+      ]
+    },
+    {
+      "code": "MINE",
+      "display": "Mining Area",
+      "definition": "Geographic area designated for mineral extraction and mining operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Zone minière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Área minera"
+        }
+      ]
+    },
+    {
+      "code": "FRST",
+      "display": "Forestry Zone",
+      "definition": "Geographic area designated for commercial logging and forestry operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Zone forestière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Zona forestal"
+        }
+      ]
+    },
+    {
+      "code": "RMTE",
+      "display": "Remote Area",
+      "definition": "Geographic area characterized by limited accessibility and significant distance from urban centers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Zone éloignée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Área remota"
+        }
+      ]
+    },
+    {
+      "code": "OFSH",
+      "display": "Offshore",
+      "definition": "Operations conducted on water bodies or in marine environments away from coastline.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Zone extracôtière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Costa afuera"
+        }
+      ]
+    },
+    {
+      "code": "URBN",
+      "display": "Urban Zone",
+      "definition": "Densely populated area characterized by concentrated development and infrastructure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Zone urbaine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Zona urbana"
+        }
+      ]
+    },
+    {
+      "code": "HWAY",
+      "display": "Highway Corridor",
+      "definition": "Primary transportation route designated for high-speed vehicular traffic.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Corridor autoroutier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corredor de autopista"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "NewUsed",
+  "url": "https://bind.codes/NewUsed",
+  "name": "NewUsed",
+  "title": "New Used",
+  "status": "draft",
+  "language": "en",
+  "description": "Vehicle condition status codes.",
+  "concept": [
+    {
+      "code": "NEWV",
+      "display": "New",
+      "definition": "A vehicle that has never been owned or registered, purchased directly from a manufacturer or dealer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Neuf"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nuevo"
+        }
+      ]
+    },
+    {
+      "code": "USED",
+      "display": "Used",
+      "definition": "A vehicle that has been previously owned and registered.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Usagé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Usado"
+        }
+      ]
+    },
+    {
+      "code": "DEMO",
+      "display": "Demonstrator",
+      "definition": "A vehicle that has been used by a dealership for test drives and promotional purposes, typically with low mileage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Démonstrateur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Demostrador"
+        }
+      ]
+    },
+    {
+      "code": "RCNS",
+      "display": "Reconstructed",
+      "definition": "A vehicle that has been rebuilt or restored after significant damage, often requiring special documentation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Reconstruit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reconstruido"
+        }
+      ]
+    },
+    {
+      "code": "CERT",
+      "display": "Certified Pre-Owned",
+      "definition": "A used vehicle that has been inspected and certified by the manufacturer or dealer to meet specific quality standards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Certifié d'occasion"
+        },
+        {
+          "language": "es-MX",
+          "value": "Certificado de segunda mano"
+        }
+      ]
+    },
+    {
+      "code": "SLVG",
+      "display": "Salvage",
+      "definition": "A vehicle that has been declared a total loss by an insurer due to damage, theft, or other circumstances.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Épave"
+        },
+        {
+          "language": "es-MX",
+          "value": "Salvamento"
+        }
+      ]
+    }
+  ]
+}

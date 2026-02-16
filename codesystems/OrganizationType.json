@@ -1,0 +1,138 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "OrganizationType",
+  "url": "https://bind.codes/OrganizationType",
+  "name": "OrganizationType",
+  "title": "Organization Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Types of organizations participating in the placement and servicing of coverage.",
+  "concept": [
+    {
+      "code": "CARR",
+      "display": "Carrier",
+      "definition": "A company that underwrites and issues policies, assuming the financial obligation for covered losses.",
+      "designation": [
+        { "language": "fr-CA", "value": "Assureur" },
+        { "language": "es-MX", "value": "Aseguradora" }
+      ]
+    },
+    {
+      "code": "BRKR",
+      "display": "Broker",
+      "definition": "An intermediary who represents the buyer in placing coverage with one or more carriers.",
+      "designation": [
+        { "language": "fr-CA", "value": "Courtier" },
+        { "language": "es-MX", "value": "Corredor" }
+      ]
+    },
+    {
+      "code": "MGAG",
+      "display": "Managing General Agent",
+      "definition": "An agent with delegated authority to underwrite, bind, and administer policies on behalf of a carrier.",
+      "designation": [
+        { "language": "fr-CA", "value": "Agent général gestionnaire" },
+        { "language": "es-MX", "value": "Agente general administrativo" }
+      ]
+    },
+    {
+      "code": "TPAD",
+      "display": "Third-Party Administrator",
+      "definition": "A firm that handles claims processing, policy administration, or other back-office functions on behalf of another organization.",
+      "designation": [
+        { "language": "fr-CA", "value": "Administrateur tiers" },
+        { "language": "es-MX", "value": "Administrador de terceros" }
+      ]
+    },
+    {
+      "code": "REIN",
+      "display": "Reinsurer",
+      "definition": "A company that provides coverage to other carriers, sharing or assuming portions of their obligations.",
+      "designation": [
+        { "language": "fr-CA", "value": "Réassureur" },
+        { "language": "es-MX", "value": "Reaseguradora" }
+      ]
+    },
+    {
+      "code": "SLBR",
+      "display": "Surplus Lines Broker",
+      "definition": "A broker licensed to place coverage with non-admitted carriers for exposures not available in the standard market.",
+      "designation": [
+        { "language": "fr-CA", "value": "Courtier en lignes excédentaires" },
+        { "language": "es-MX", "value": "Corredor de líneas excedentes" }
+      ]
+    },
+    {
+      "code": "WHSL",
+      "display": "Wholesaler",
+      "definition": "An intermediary that distributes products from carriers to retail brokers rather than directly to the public.",
+      "designation": [
+        { "language": "fr-CA", "value": "Grossiste" },
+        { "language": "es-MX", "value": "Mayorista" }
+      ]
+    },
+    {
+      "code": "PGAD",
+      "display": "Program Administrator",
+      "definition": "An organization that designs and manages specialty programs, typically with delegated underwriting authority for a specific class of business.",
+      "designation": [
+        { "language": "fr-CA", "value": "Administrateur de programme" },
+        { "language": "es-MX", "value": "Administrador de programa" }
+      ]
+    },
+    {
+      "code": "CLAD",
+      "display": "Claims Administrator",
+      "definition": "A firm that manages the investigation, adjustment, and settlement of claims on behalf of a carrier or self-insured entity.",
+      "designation": [
+        { "language": "fr-CA", "value": "Administrateur de réclamations" },
+        { "language": "es-MX", "value": "Administrador de reclamaciones" }
+      ]
+    },
+    {
+      "code": "PFIN",
+      "display": "Premium Finance Company",
+      "definition": "A lender that finances the payment of premiums, allowing the buyer to pay in installments.",
+      "designation": [
+        { "language": "fr-CA", "value": "Société de financement de primes" },
+        { "language": "es-MX", "value": "Compañía de financiamiento de primas" }
+      ]
+    },
+    {
+      "code": "RTBR",
+      "display": "Rating Bureau",
+      "definition": "An organization that develops classification systems, rating algorithms, and standardized forms used across the industry.",
+      "designation": [
+        { "language": "fr-CA", "value": "Bureau de tarification" },
+        { "language": "es-MX", "value": "Oficina de tarifas" }
+      ]
+    },
+    {
+      "code": "RRGP",
+      "display": "Risk Retention Group",
+      "definition": "A member-owned entity formed to provide liability coverage to its members, typically within the same industry.",
+      "designation": [
+        { "language": "fr-CA", "value": "Groupe de rétention des risques" },
+        { "language": "es-MX", "value": "Grupo de retención de riesgos" }
+      ]
+    },
+    {
+      "code": "CAPT",
+      "display": "Captive",
+      "definition": "A wholly owned subsidiary created to provide coverage to its parent company or related group.",
+      "designation": [
+        { "language": "fr-CA", "value": "Captive" },
+        { "language": "es-MX", "value": "Cautiva" }
+      ]
+    },
+    {
+      "code": "AJFM",
+      "display": "Adjusting Firm",
+      "definition": "A company that provides independent loss adjustment and investigation services.",
+      "designation": [
+        { "language": "fr-CA", "value": "Cabinet d'experts en sinistres" },
+        { "language": "es-MX", "value": "Firma de ajuste" }
+      ]
+    }
+  ]
+}

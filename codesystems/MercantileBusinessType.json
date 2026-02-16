@@ -1,0 +1,3192 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "MercantileBusinessType",
+  "url": "https://bind.codes/MercantileBusinessType",
+  "name": "MercantileBusinessType",
+  "title": "Mercantile Business Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Mercantile Business Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ARCD",
+      "display": "Arcade",
+      "definition": "Entertainment venue featuring coin-operated games and amusement machines.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Arcade"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sala de juegos"
+        }
+      ]
+    },
+    {
+      "code": "ARTG",
+      "display": "Art Gallery",
+      "definition": "Establishment that displays and sells fine art, sculptures, and other artistic works.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Galerie d'art"
+        },
+        {
+          "language": "es-MX",
+          "value": "Galería de arte"
+        }
+      ]
+    },
+    {
+      "code": "AUTR",
+      "display": "Automobile (Repair)",
+      "definition": "Workshop that provides maintenance and repair services for automobiles and motor vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Atelier de réparation automobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Taller de reparación de automóviles"
+        }
+      ]
+    },
+    {
+      "code": "AUTS",
+      "display": "Automobile (Sales, Accessories)",
+      "definition": "Dealership or retail outlet selling automobiles, vehicles, parts, and automotive accessories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Automobile - Vente de véhicules et pièces"
+        },
+        {
+          "language": "es-MX",
+          "value": "Automóvil - Venta de vehículos y accesorios"
+        }
+      ]
+    },
+    {
+      "code": "ACCT",
+      "display": "Accounting Service",
+      "definition": "Professional service that provides financial record keeping, bookkeeping, and accounting consultation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services comptables"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios contables"
+        }
+      ]
+    },
+    {
+      "code": "ACTR",
+      "display": "Actuary",
+      "definition": "Professional who analyzes financial and statistical data to assess and manage economic uncertainty.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Actuaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Actuario"
+        }
+      ]
+    },
+    {
+      "code": "ADJT",
+      "display": "Adjuster",
+      "definition": "Professional who investigates and evaluates claims to determine appropriate settlement amounts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Expert en sinistres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ajustador de reclamaciones"
+        }
+      ]
+    },
+    {
+      "code": "ADMS",
+      "display": "Administrative Support Service",
+      "definition": "Business providing clerical, secretarial, and administrative assistance to organizations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service de soutien administratif"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de apoyo administrativo"
+        }
+      ]
+    },
+    {
+      "code": "ADVT",
+      "display": "Advertising/Marketing Service",
+      "definition": "Agency or consultancy providing promotional, marketing, and advertising services to clients.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service de publicité/marketing"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de publicidad/mercadotecnia"
+        }
+      ]
+    },
+    {
+      "code": "ANTQ",
+      "display": "Antique Gallery Shop",
+      "definition": "Retail store specializing in the sale of antique items, vintage collectibles, and historical artifacts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boutique d'antiquités"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda de antigüedades"
+        }
+      ]
+    },
+    {
+      "code": "APPR",
+      "display": "Appraiser",
+      "definition": "Professional who evaluates and determines the value of property, goods, or assets.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Évaluateur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tasador"
+        }
+      ]
+    },
+    {
+      "code": "AQUA",
+      "display": "Aquarium Sales & Service",
+      "definition": "Business selling aquariums, aquatic equipment, fish, and providing related maintenance services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aquarium - Vente et service"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acuario - Venta y servicio"
+        }
+      ]
+    },
+    {
+      "code": "ARBR",
+      "display": "Arbitration Service",
+      "definition": "Service that provides mediation and arbitration for dispute resolution outside of court.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service d'arbitrage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de arbitraje"
+        }
+      ]
+    },
+    {
+      "code": "ARCH",
+      "display": "Architect",
+      "definition": "Licensed professional who designs buildings and provides architectural planning services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Architecte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arquitecto"
+        }
+      ]
+    },
+    {
+      "code": "ARTS",
+      "display": "Art Lessons/Studio",
+      "definition": "Facility offering art instruction, classes, and studio space for artistic creation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Leçons de dessin/atelier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clases de arte/estudio"
+        }
+      ]
+    },
+    {
+      "code": "ARTM",
+      "display": "Artists Goods and Materials Sales",
+      "definition": "Retail store selling art supplies, materials, tools, and equipment for artists and crafters.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente - Matériel d'artistes et fournitures"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta - Materiales y suministros para artistas"
+        }
+      ]
+    },
+    {
+      "code": "AUDI",
+      "display": "Audiologist",
+      "definition": "Healthcare professional specializing in hearing assessment and treatment of hearing disorders.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Audiologiste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Audiólogo"
+        }
+      ]
+    },
+    {
+      "code": "AUDT",
+      "display": "Auditing",
+      "definition": "Service providing independent examination and verification of financial records and accounts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vérification comptable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Auditoría"
+        }
+      ]
+    },
+    {
+      "code": "BKRY",
+      "display": "Bakery, Pastry Shop",
+      "definition": "Establishment that produces and sells baked goods including bread, pastries, and cakes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boulangerie, pâtisserie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Panadería, pastelería"
+        }
+      ]
+    },
+    {
+      "code": "BARB",
+      "display": "Barber Shop and Hairdresser",
+      "definition": "Personal care establishment providing hair cutting, styling, and grooming services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Salon de barbier/salon de coiffure"
+        },
+        {
+          "language": "es-MX",
+          "value": "Barbería/peluquería"
+        }
+      ]
+    },
+    {
+      "code": "BOOK",
+      "display": "Book Shop and Stationery Shop",
+      "definition": "Retail store selling books, reading materials, stationery, and office supplies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Librairie/fournitures de bureau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Librería/papelería"
+        }
+      ]
+    },
+    {
+      "code": "BRNZ",
+      "display": "Bronzing Salon",
+      "definition": "Salon providing tanning services using UV lamps or spray-on tanning products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Salon de bronzage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Salón de bronceado"
+        }
+      ]
+    },
+    {
+      "code": "BKGD",
+      "display": "Baked Goods",
+      "definition": "Business specializing in the production and sale of baked products and confections.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits de boulangerie et pâtisseries"
+        },
+        {
+          "language": "es-MX",
+          "value": "Productos de panadería"
+        }
+      ]
+    },
+    {
+      "code": "BEAU",
+      "display": "Beauty Salon / Barber Shop",
+      "definition": "Establishment offering hair care, styling, and beauty treatment services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Salon de coiffure/salon de barbier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Salón de belleza/barbería"
+        }
+      ]
+    },
+    {
+      "code": "BNDB",
+      "display": "Bed and Breakfast",
+      "definition": "Small lodging establishment offering overnight accommodation and breakfast to guests.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gîte touristique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Posada con desayuno"
+        }
+      ]
+    },
+    {
+      "code": "BIKE",
+      "display": "Bike Repair",
+      "definition": "Workshop providing maintenance, repair, and servicing of bicycles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réparation de bicyclettes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reparación de bicicletas"
+        }
+      ]
+    },
+    {
+      "code": "BIND",
+      "display": "Book Binding",
+      "definition": "Service that binds, rebinds, and repairs books and documents.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Reliure"
+        },
+        {
+          "language": "es-MX",
+          "value": "Encuadernación"
+        }
+      ]
+    },
+    {
+      "code": "BPUB",
+      "display": "Book Publishing",
+      "definition": "Company engaged in the editing, production, and distribution of books and publications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Édition de livres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Editorial de libros"
+        }
+      ]
+    },
+    {
+      "code": "BMAG",
+      "display": "Book/Magazine Distribution",
+      "definition": "Business that distributes books, magazines, and periodicals to retailers and subscribers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Distribution de livres/magazines"
+        },
+        {
+          "language": "es-MX",
+          "value": "Distribución de libros/revistas"
+        }
+      ]
+    },
+    {
+      "code": "BKKP",
+      "display": "Bookkeeping Service",
+      "definition": "Service that maintains financial records, ledgers, and accounts for businesses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service de tenue des livres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de contabilidad"
+        }
+      ]
+    },
+    {
+      "code": "BMSL",
+      "display": "Books/Magazines Sales",
+      "definition": "Retail establishment selling books, magazines, and printed reading materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente - Livres/magazines"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta - Libros/revistas"
+        }
+      ]
+    },
+    {
+      "code": "BRID",
+      "display": "Bridal Consultant",
+      "definition": "Professional who provides wedding planning, coordination, and consultation services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conseiller - Planification de mariages"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor de bodas"
+        }
+      ]
+    },
+    {
+      "code": "CLEN",
+      "display": "Cleaner",
+      "definition": "Service providing cleaning and maintenance of residential or commercial spaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nettoyeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Limpiador"
+        }
+      ]
+    },
+    {
+      "code": "CALI",
+      "display": "Calligrapher",
+      "definition": "Professional artisan specializing in decorative handwriting and lettering design.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Calligraphe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Calígrafo"
+        }
+      ]
+    },
+    {
+      "code": "CAMR",
+      "display": "Camera Repair",
+      "definition": "Workshop providing repair and servicing of cameras and photographic equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réparation de caméras"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reparación de cámaras"
+        }
+      ]
+    },
+    {
+      "code": "CNDY",
+      "display": "Candy/Nut Confections",
+      "definition": "Shop specializing in candy, confections, nuts, and sweet treats.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Confiseries - bonbons/noix"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dulcería/confitería"
+        }
+      ]
+    },
+    {
+      "code": "CTLG",
+      "display": "Catalogue or Mail Orders",
+      "definition": "Business selling products through catalogs and mail-order systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ventes par catalogue ou correspondance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ventas por catálogo o pedidos por correo"
+        }
+      ]
+    },
+    {
+      "code": "CATR",
+      "display": "Catering Service",
+      "definition": "Business providing food preparation and service for events and functions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Traiteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de catering"
+        }
+      ]
+    },
+    {
+      "code": "CRMN",
+      "display": "Ceramics and Pottery (No Kiln on Premises)",
+      "definition": "Studio creating ceramic and pottery items without on-site firing facilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Céramique et poterie (pas de four sur les lieux)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cerámica y alfarería (sin horno en el lugar)"
+        }
+      ]
+    },
+    {
+      "code": "CRMK",
+      "display": "Ceramics and Pottery (With Kiln)",
+      "definition": "Studio creating and firing ceramic and pottery items with on-site kiln facilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Céramique et poterie (avec four sur les lieux)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cerámica y alfarería (con horno en el lugar)"
+        }
+      ]
+    },
+    {
+      "code": "CHIR",
+      "display": "Chiropractor's Office",
+      "definition": "Healthcare facility providing chiropractic treatment and spinal manipulation therapy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau de chiropraticien"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultorio de quiropráctico"
+        }
+      ]
+    },
+    {
+      "code": "CLCK",
+      "display": "Clock Repair",
+      "definition": "Service specializing in the repair and maintenance of clocks and timepieces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réparation d'horloges"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reparación de relojes"
+        }
+      ]
+    },
+    {
+      "code": "CLTH",
+      "display": "Clothing and Accessories Sales",
+      "definition": "Retail store selling garments, apparel, and fashion accessories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente - Vêtements et accessoires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta - Ropa y accesorios"
+        }
+      ]
+    },
+    {
+      "code": "CLWN",
+      "display": "Clown, Magician or Entertainer",
+      "definition": "Professional performer providing entertainment services for parties and events.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clown, magicien ou artiste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Payaso, mago o animador"
+        }
+      ]
+    },
+    {
+      "code": "COMP",
+      "display": "Computer Consulting/Programming",
+      "definition": "Service providing software development, programming, and IT consulting expertise.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ordinateurs - Conseil et programmation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultoría informática/programación"
+        }
+      ]
+    },
+    {
+      "code": "CMPL",
+      "display": "Computer Lessons",
+      "definition": "Educational service offering computer training and technology instruction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Leçons d'ordinateurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clases de computación"
+        }
+      ]
+    },
+    {
+      "code": "CMPR",
+      "display": "Computer Repair",
+      "definition": "Service providing maintenance, troubleshooting, and repair of computer systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réparation d'ordinateurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reparación de computadoras"
+        }
+      ]
+    },
+    {
+      "code": "COPY",
+      "display": "Copywriting",
+      "definition": "Professional writing service creating advertising, marketing, and promotional content.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rédaction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Redacción publicitaria"
+        }
+      ]
+    },
+    {
+      "code": "COSM",
+      "display": "Cosmetics and Personal Care Sales",
+      "definition": "Retail business selling cosmetics, beauty products, and personal care items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente - Cosmétiques et articles d'hygiène"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta - Cosméticos y cuidado personal"
+        }
+      ]
+    },
+    {
+      "code": "COST",
+      "display": "Costume Rental",
+      "definition": "Business renting costumes, theatrical attire, and special occasion outfits.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Location de costumes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alquiler de disfraces"
+        }
+      ]
+    },
+    {
+      "code": "CRFT",
+      "display": "Craft Sales",
+      "definition": "Retail outlet selling handmade crafts, artisan goods, and handcrafted items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente - Artisanat"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta - Artesanías"
+        }
+      ]
+    },
+    {
+      "code": "CULN",
+      "display": "Culinary Tutoring",
+      "definition": "Educational service offering cooking lessons and culinary instruction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cours de cuisine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clases de cocina"
+        }
+      ]
+    },
+    {
+      "code": "CURT",
+      "display": "Curtain/Drapes, Manufacturing and Sales",
+      "definition": "Business manufacturing and selling curtains, drapes, and window treatments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rideaux/Draperies, Fabrication et Ventes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cortinas/Drapeados, Fabricación y ventas"
+        }
+      ]
+    },
+    {
+      "code": "CALL",
+      "display": "Call Center",
+      "definition": "Facility managing incoming and outgoing telephone communications for customer service or sales.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Centre d'appels"
+        },
+        {
+          "language": "es-MX",
+          "value": "Centro de llamadas"
+        }
+      ]
+    },
+    {
+      "code": "DRUG",
+      "display": "Drugstore",
+      "definition": "Retail pharmacy selling prescription medications, over-the-counter drugs, and health products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pharmacie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Farmacia"
+        }
+      ]
+    },
+    {
+      "code": "DAYC",
+      "display": "Day Care Centre",
+      "definition": "Facility providing supervised care and activities for children during daytime hours.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garderie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Guardería"
+        }
+      ]
+    },
+    {
+      "code": "DRES",
+      "display": "Dress Maker (Sewing)",
+      "definition": "Tailoring service creating custom clothing and garments through sewing and alteration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Atelier de couture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Taller de costura"
+        }
+      ]
+    },
+    {
+      "code": "DANC",
+      "display": "Dance School Instructor",
+      "definition": "Professional providing dance instruction and choreography training.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Instructeur - École de danse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instructor de escuela de danza"
+        }
+      ]
+    },
+    {
+      "code": "DATA",
+      "display": "Data Entry Clerk",
+      "definition": "Service providing data input, digitization, and database management tasks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commis - Entrée de données"
+        },
+        {
+          "language": "es-MX",
+          "value": "Capturista de datos"
+        }
+      ]
+    },
+    {
+      "code": "DAYS",
+      "display": "Day Care Service",
+      "definition": "Service providing childcare and supervision during working hours.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garderie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de guardería"
+        }
+      ]
+    },
+    {
+      "code": "DENT",
+      "display": "Dentist",
+      "definition": "Healthcare professional providing dental care, treatment, and oral health services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dentiste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dentista"
+        }
+      ]
+    },
+    {
+      "code": "DERM",
+      "display": "Dermatologist?s Office",
+      "definition": "Medical practice specializing in skin care and treatment of dermatological conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau de dermatologue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultorio de dermatólogo"
+        }
+      ]
+    },
+    {
+      "code": "DESK",
+      "display": "Desktop Publishing",
+      "definition": "Service creating print and digital layouts using computer-based design software.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Éditique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Edición de escritorio"
+        }
+      ]
+    },
+    {
+      "code": "DIET",
+      "display": "Dietician (Consultant)",
+      "definition": "Healthcare professional providing nutritional counseling and dietary planning services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Diététiste (Conseiller)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dietista (Consultor)"
+        }
+      ]
+    },
+    {
+      "code": "DADV",
+      "display": "Direct Advertising",
+      "definition": "Marketing service delivering promotional materials directly to target consumers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Publicité directe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Publicidad directa"
+        }
+      ]
+    },
+    {
+      "code": "DOCT",
+      "display": "Doctor",
+      "definition": "Licensed medical practitioner providing healthcare, diagnosis, and treatment services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Médecin"
+        },
+        {
+          "language": "es-MX",
+          "value": "Médico"
+        }
+      ]
+    },
+    {
+      "code": "DOGK",
+      "display": "Dog Kennel",
+      "definition": "Facility providing boarding, care, and accommodation for dogs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chenil pour chiens"
+        },
+        {
+          "language": "es-MX",
+          "value": "Perrera"
+        }
+      ]
+    },
+    {
+      "code": "DOLL",
+      "display": "Doll Making",
+      "definition": "Craft business creating handmade dolls and related accessories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fabrication de poupées"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fabricación de muñecas"
+        }
+      ]
+    },
+    {
+      "code": "DRFT",
+      "display": "Drafting",
+      "definition": "Service creating technical drawings and architectural plans.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dessin technique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dibujo técnico"
+        }
+      ]
+    },
+    {
+      "code": "DRAM",
+      "display": "Dramatic Art & Speech Training",
+      "definition": "Educational service offering acting, theater, and public speaking instruction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Formation - Art dramatique et expression verbale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Formación - Arte dramático y oratoria"
+        }
+      ]
+    },
+    {
+      "code": "DRAW",
+      "display": "Drawing/Sketching",
+      "definition": "Service or instruction in drawing, sketching, and illustration techniques.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dessin/esquisse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dibujo/bocetos"
+        }
+      ]
+    },
+    {
+      "code": "DPRX",
+      "display": "Data Processing Center",
+      "definition": "Facility providing data processing, computing, and information management services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Centre de traitement des données"
+        },
+        {
+          "language": "es-MX",
+          "value": "Centro de procesamiento de datos"
+        }
+      ]
+    },
+    {
+      "code": "ELAP",
+      "display": "Electrical Appliance (Retail)",
+      "definition": "Retail store selling electrical appliances, home electronics, and consumer devices.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Appareils ménagers - Ventes au détail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Electrodomésticos - Venta al por menor"
+        }
+      ]
+    },
+    {
+      "code": "EDIT",
+      "display": "Editor/Proofreader",
+      "definition": "Professional providing editing, proofreading, and manuscript review services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rédacteur/réviseur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Editor/corrector"
+        }
+      ]
+    },
+    {
+      "code": "EDUC",
+      "display": "Educational Counsellor/Tutor",
+      "definition": "Professional providing educational guidance, tutoring, and academic support.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conseiller pédagogique/Tuteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consejero educativo/Tutor"
+        }
+      ]
+    },
+    {
+      "code": "ELER",
+      "display": "Electronic Equipment Repair",
+      "definition": "Workshop repairing electronic devices, equipment, and consumer electronics.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réparation de matériels électroniques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reparación de equipos electrónicos"
+        }
+      ]
+    },
+    {
+      "code": "EMPL",
+      "display": "Employment Agency",
+      "definition": "Service connecting job seekers with employers and facilitating employment placements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agence de placement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agencia de empleo"
+        }
+      ]
+    },
+    {
+      "code": "ENGR",
+      "display": "Engineer",
+      "definition": "Licensed professional applying scientific and technical expertise to design and problem-solving.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ingénieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ingeniero"
+        }
+      ]
+    },
+    {
+      "code": "ENGV",
+      "display": "Engraver",
+      "definition": "Artisan specializing in engraving text or designs on metal, glass, or other materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Graveur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grabador"
+        }
+      ]
+    },
+    {
+      "code": "ESOT",
+      "display": "Esoteric Service",
+      "definition": "Service providing metaphysical, spiritual, or alternative belief consultations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services ésotériques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios esotéricos"
+        }
+      ]
+    },
+    {
+      "code": "ESTT",
+      "display": "Estate Planning",
+      "definition": "Professional service providing will preparation, trust creation, and succession planning.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Planification successorale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Planificación patrimonial"
+        }
+      ]
+    },
+    {
+      "code": "FINX",
+      "display": "Financial Institution",
+      "definition": "Organization providing banking, lending, and financial services to customers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Institution financière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Institución financiera"
+        }
+      ]
+    },
+    {
+      "code": "FUNR",
+      "display": "Funeral Home",
+      "definition": "Establishment providing funeral, burial, and memorial services for the deceased.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Salon funéraire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Funeraria"
+        }
+      ]
+    },
+    {
+      "code": "FLOR",
+      "display": "Florist",
+      "definition": "Shop selling flowers, floral arrangements, and plants for decorative purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fleuriste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Floristería"
+        }
+      ]
+    },
+    {
+      "code": "FABR",
+      "display": "Fabric Painting,Inking,Dyeing",
+      "definition": "Service applying decorative painting, ink designs, or dye treatments to fabrics.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Peinture sur tissus, encrage, teinture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pintura en tela, entintado, teñido"
+        }
+      ]
+    },
+    {
+      "code": "FINP",
+      "display": "Financial Planning/Consultant",
+      "definition": "Professional providing financial advice, investment planning, and wealth management services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Planification financière/conseiller"
+        },
+        {
+          "language": "es-MX",
+          "value": "Planificación financiera/consultor"
+        }
+      ]
+    },
+    {
+      "code": "FIRE",
+      "display": "Firewood Sales & Delivery",
+      "definition": "Business selling and delivering firewood for heating and recreational use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente & Livraison - Bois de chauffage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta y entrega - Leña"
+        }
+      ]
+    },
+    {
+      "code": "FISH",
+      "display": "Fishing Tackle",
+      "definition": "Retail store selling fishing equipment, gear, and tackle supplies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Articles de pêche"
+        },
+        {
+          "language": "es-MX",
+          "value": "Artículos de pesca"
+        }
+      ]
+    },
+    {
+      "code": "FLAR",
+      "display": "Flower Arranging",
+      "definition": "Service creating decorative floral arrangements and bouquet designs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Arrangement floral"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arreglos florales"
+        }
+      ]
+    },
+    {
+      "code": "FLWS",
+      "display": "Flower Sales",
+      "definition": "Business selling cut flowers, potted plants, and floral products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente de fleurs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta de flores"
+        }
+      ]
+    },
+    {
+      "code": "FDBR",
+      "display": "Food Broker",
+      "definition": "Intermediary business facilitating sales between food manufacturers and retailers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courtier en produits alimentaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corredor de alimentos"
+        }
+      ]
+    },
+    {
+      "code": "FSUP",
+      "display": "Food Supplements/Vitamins",
+      "definition": "Retail business selling dietary supplements, vitamins, and nutritional products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Suppléments/Vitamines"
+        },
+        {
+          "language": "es-MX",
+          "value": "Suplementos alimenticios/Vitaminas"
+        }
+      ]
+    },
+    {
+      "code": "FOST",
+      "display": "Foster Home",
+      "definition": "Residential care facility providing temporary family-based care for children.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Famille d'accueil"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hogar de acogida"
+        }
+      ]
+    },
+    {
+      "code": "GROC",
+      "display": "Grocery Store",
+      "definition": "Retail establishment selling food products, beverages, and household necessities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Épicerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda de abarrotes"
+        }
+      ]
+    },
+    {
+      "code": "GENE",
+      "display": "Genealogist",
+      "definition": "Professional researcher tracing family histories and ancestral lineages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Généalogiste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Genealogista"
+        }
+      ]
+    },
+    {
+      "code": "GIFT",
+      "display": "Gift Delivery Service (Balloons, Gift Baskets)",
+      "definition": "Service delivering gift packages, balloons, and decorative items to recipients.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service de livraison de cadeaux (ballons, paniers cadeaux)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de entrega de regalos (globos, canastas de regalos)"
+        }
+      ]
+    },
+    {
+      "code": "GFTW",
+      "display": "Giftware Sales",
+      "definition": "Retail shop selling gift items, novelties, and decorative merchandise.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente - Cadeaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta - Artículos de regalo"
+        }
+      ]
+    },
+    {
+      "code": "GLAS",
+      "display": "Glassware",
+      "definition": "Retail business selling glass products, dishes, and decorative glassware.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Articles de verre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Artículos de vidrio"
+        }
+      ]
+    },
+    {
+      "code": "GOLF",
+      "display": "Golf Club Making and Repair",
+      "definition": "Service manufacturing, customizing, and repairing golf clubs and equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fabrication/Réparation de bâtons de golf"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fabricación/Reparación de palos de golf"
+        }
+      ]
+    },
+    {
+      "code": "GRPH",
+      "display": "Graphic Arts Designer",
+      "definition": "Creative professional providing graphic design, illustration, and visual communication services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dessinateur en arts graphiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Diseñador de artes gráficas"
+        }
+      ]
+    },
+    {
+      "code": "GRNH",
+      "display": "Greenhouse",
+      "definition": "Facility growing and cultivating plants, flowers, and seedlings in controlled environment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Serre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Invernadero"
+        }
+      ]
+    },
+    {
+      "code": "GRET",
+      "display": "Greeting Cards",
+      "definition": "Retail shop or service selling greeting cards for various occasions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cartes de souhaits"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tarjetas de felicitación"
+        }
+      ]
+    },
+    {
+      "code": "GRHO",
+      "display": "Group Home",
+      "definition": "Residential facility providing supervised communal living for individuals needing support.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Foyer de groupe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hogar grupal"
+        }
+      ]
+    },
+    {
+      "code": "GUNS",
+      "display": "Gunsmith",
+      "definition": "Specialist repairing, modifying, and maintaining firearms and shooting equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Armurier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Armero"
+        }
+      ]
+    },
+    {
+      "code": "HNDY",
+      "display": "Handy Store",
+      "definition": "Convenience store offering quick-access to basic groceries and everyday items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dépanneur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda de conveniencia"
+        }
+      ]
+    },
+    {
+      "code": "HDWR",
+      "display": "Hardware Store",
+      "definition": "Retail store selling tools, building materials, hardware, and home improvement supplies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Quincaillerie (grande surface)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ferretería"
+        }
+      ]
+    },
+    {
+      "code": "HNDM",
+      "display": "Handyman",
+      "definition": "Service provider performing general repairs, maintenance, and small construction tasks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Homme è tout faire / bricoleur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Persona de mantenimiento"
+        }
+      ]
+    },
+    {
+      "code": "HEAR",
+      "display": "Hearing Aid Outlets Sales and Repairs",
+      "definition": "Retail and service outlet selling and repairing hearing aids and assistive listening devices.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente et réparation - Prothèses auditives"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta y reparación - Auxiliares auditivos"
+        }
+      ]
+    },
+    {
+      "code": "HOBB",
+      "display": "Hobby & Model Supplies & Accessories",
+      "definition": "Store selling hobby supplies, model kits, craft materials, and related accessories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Passe-temps et maquettes - Fournitures et accessoires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pasatiempos y maquetas - Suministros y accesorios"
+        }
+      ]
+    },
+    {
+      "code": "HOBY",
+      "display": "Hobby/Models and Accessories",
+      "definition": "Retail outlet specializing in hobby equipment, model building, and collector accessories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Passe-temps/maquettes et accessoires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pasatiempos/maquetas y accesorios"
+        }
+      ]
+    },
+    {
+      "code": "HMCR",
+      "display": "Home Care for the Elderly",
+      "definition": "Service providing in-home health care, assistance, and support for elderly individuals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soins à domicile pour les aînés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cuidado en el hogar para ancianos"
+        }
+      ]
+    },
+    {
+      "code": "HMPT",
+      "display": "Home Party Sales (Household Goods, Clothing, Food Products)",
+      "definition": "Direct sales business hosting product demonstrations and sales at private home gatherings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente - Réceptions à domicile (biens ménagers, vêtements, produits alimentaires)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ventas por reuniones en casa (artículos del hogar, ropa, productos alimenticios)"
+        }
+      ]
+    },
+    {
+      "code": "HHPR",
+      "display": "Household Products and Appliances",
+      "definition": "Retail store selling home products, appliances, and household convenience items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits et appareils ménagers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Productos y electrodomésticos"
+        }
+      ]
+    },
+    {
+      "code": "HRCS",
+      "display": "Human Resource Consultant",
+      "definition": "Professional providing HR strategy, personnel management, and organizational development services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conseiller - Ressources humaines"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor de recursos humanos"
+        }
+      ]
+    },
+    {
+      "code": "INSA",
+      "display": "Insurance Agent",
+      "definition": "Professional selling and servicing various types of insurance policies to clients.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau de courtage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agente de seguros"
+        }
+      ]
+    },
+    {
+      "code": "IMGC",
+      "display": "Image Consultant",
+      "definition": "Professional providing personal styling, appearance, and branding consultation services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Imagiste-conseil"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor de imagen"
+        }
+      ]
+    },
+    {
+      "code": "INTX",
+      "display": "Income Tax Consulting",
+      "definition": "Service providing tax preparation, planning, and filing assistance for individuals and businesses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conseiller en impôt"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultoría de impuestos"
+        }
+      ]
+    },
+    {
+      "code": "INSB",
+      "display": "Insurance Agent/Broker/Consultant",
+      "definition": "Professional providing insurance sales, brokerage, and advisory services across multiple products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agent d'assurance/courtier/conseiller"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agente/corredor/consultor de seguros"
+        }
+      ]
+    },
+    {
+      "code": "INSP",
+      "display": "Insurance Valuation Inspection Services",
+      "definition": "Service conducting property inspections and valuations for insurance purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service d'évaluation d'inspection d'assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de inspección y valuación de seguros"
+        }
+      ]
+    },
+    {
+      "code": "INTD",
+      "display": "Interior Designer",
+      "definition": "Professional creating functional and aesthetically pleasing interior spaces and decor.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Décorateur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Diseñador de interiores"
+        }
+      ]
+    },
+    {
+      "code": "JAMS",
+      "display": "Jams/Preserves Sales",
+      "definition": "Business selling homemade or commercial jams, jellies, and preserved fruit products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente/confitures et conserves"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta de mermeladas/conservas"
+        }
+      ]
+    },
+    {
+      "code": "JWLR",
+      "display": "Jewellery",
+      "definition": "Retail store selling jewelry, precious stones, watches, and personal ornaments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bijoux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Joyería"
+        }
+      ]
+    },
+    {
+      "code": "KITCH",
+      "display": "Kitchen Supplies",
+      "definition": "Store selling cookware, kitchen utensils, appliances, and culinary equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Articles de cuisine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Artículos de cocina"
+        }
+      ]
+    },
+    {
+      "code": "LAND",
+      "display": "Land Title Search",
+      "definition": "Service researching property ownership, liens, and title history for real estate transactions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Recherche - titre foncier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Búsqueda de títulos de propiedad"
+        }
+      ]
+    },
+    {
+      "code": "LNDS",
+      "display": "Landscaping",
+      "definition": "Service designing, installing, and maintaining outdoor gardens and landscape features.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Paysagement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Paisajismo"
+        }
+      ]
+    },
+    {
+      "code": "LAWR",
+      "display": "Lawyer's Office",
+      "definition": "Legal practice providing legal representation, counsel, and advisory services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau d'avocat"
+        },
+        {
+          "language": "es-MX",
+          "value": "Despacho de abogados"
+        }
+      ]
+    },
+    {
+      "code": "LETH",
+      "display": "Leather Craft",
+      "definition": "Artisan business creating handcrafted leather goods and custom leather work.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Artisanat - Cuir"
+        },
+        {
+          "language": "es-MX",
+          "value": "Artesanía en cuero"
+        }
+      ]
+    },
+    {
+      "code": "LETG",
+      "display": "Leather Goods Sales",
+      "definition": "Retail outlet selling leather products, bags, belts, and accessories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente - Articles de cuir"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta - Artículos de cuero"
+        }
+      ]
+    },
+    {
+      "code": "LING",
+      "display": "Lingerie Sales",
+      "definition": "Retail store specializing in intimate apparel, undergarments, and sleepwear.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente - Lingerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta - Lencería"
+        }
+      ]
+    },
+    {
+      "code": "LOCK",
+      "display": "Locksmith",
+      "definition": "Service provider installing, repairing, and servicing locks and security systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Serrurier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cerrajero"
+        }
+      ]
+    },
+    {
+      "code": "MAIL",
+      "display": "Mail Receiving",
+      "definition": "Service providing mailbox rental, package acceptance, and mail forwarding.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service de réception de courrier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de recepción de correo"
+        }
+      ]
+    },
+    {
+      "code": "MLST",
+      "display": "Mailing List Services",
+      "definition": "Business compiling, managing, and selling mailing lists for marketing purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fournisseur de liste d'adresses"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de listas de correo"
+        }
+      ]
+    },
+    {
+      "code": "MGMT",
+      "display": "Management Consultant",
+      "definition": "Professional providing business strategy, operations improvement, and management advisory services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conseiller en gestion"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor de gestión"
+        }
+      ]
+    },
+    {
+      "code": "MRKT",
+      "display": "Market Research and Analysis",
+      "definition": "Service conducting consumer research, market studies, and competitive analysis.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Étude de marché et analyse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Investigación y análisis de mercado"
+        }
+      ]
+    },
+    {
+      "code": "MASS",
+      "display": "Massage Therapist",
+      "definition": "Healthcare professional providing therapeutic massage and bodywork treatments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Massothérapeute"
+        },
+        {
+          "language": "es-MX",
+          "value": "Masajista terapéutico"
+        }
+      ]
+    },
+    {
+      "code": "MODL",
+      "display": "Modelling Agency & School",
+      "definition": "Business representing models for employment and providing modeling training and instruction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agence de mannequins & école"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agencia y escuela de modelaje"
+        }
+      ]
+    },
+    {
+      "code": "MORT",
+      "display": "Mortgage Broker",
+      "definition": "Professional intermediary facilitating mortgage loans between borrowers and lenders.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courtier en hypothèques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corredor de hipotecas"
+        }
+      ]
+    },
+    {
+      "code": "MUSI",
+      "display": "Music Lessons/Studio",
+      "definition": "Facility providing music instruction, practice space, and instrument training.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Leçons de musique/studio"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clases de música/estudio"
+        }
+      ]
+    },
+    {
+      "code": "MINS",
+      "display": "Musical Instruments Sales and Repairs",
+      "definition": "Store selling musical instruments and providing repair and maintenance services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Instruments de musique - Ventes et réparations"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instrumentos musicales - Ventas y reparaciones"
+        }
+      ]
+    },
+    {
+      "code": "NINE",
+      "display": "Ninepins and Pool Room",
+      "definition": "Recreation facility offering ninepin bowling and billiards games.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Quilles de neuf et salle de billard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Boliche de nueve pinos y sala de billar"
+        }
+      ]
+    },
+    {
+      "code": "NEDL",
+      "display": "Needle Work (Embroidery, Knitting, Macrame, Crewel Work)",
+      "definition": "Craft business or instruction in needlework arts including embroidery, knitting, and textile crafts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travaux à l'aiguille (broderie, tricot, macramé, tapisserie)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajos de aguja (bordado, tejido, macramé, tapicería)"
+        }
+      ]
+    },
+    {
+      "code": "NOTR",
+      "display": "Notary Public",
+      "definition": "Official authorized to witness signatures, administer oaths, and certify documents.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Notaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Notario público"
+        }
+      ]
+    },
+    {
+      "code": "OFFC",
+      "display": "Office",
+      "definition": "Professional workspace for conducting business, administrative, and clerical operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Oficina"
+        }
+      ]
+    },
+    {
+      "code": "OFFD",
+      "display": "Office Designing & Planning",
+      "definition": "Service planning and designing efficient and functional office layouts and workspaces.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conception et planification d'espaces de bureau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Diseño y planificación de oficinas"
+        }
+      ]
+    },
+    {
+      "code": "OFFE",
+      "display": "Office Employee/Contract Worker",
+      "definition": "Professional providing temporary or contract-based office and administrative work.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employé de bureau/travailleur contractuel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empleado de oficina/trabajador por contrato"
+        }
+      ]
+    },
+    {
+      "code": "OFFS",
+      "display": "Office Services (Including Faxing, Photocopying, Quick Printing)",
+      "definition": "Business center providing copying, printing, faxing, and document services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services de bureau (incluant télécopie, photocopie)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios de oficina (fax, fotocopiado, impresión rápida)"
+        }
+      ]
+    },
+    {
+      "code": "OFSU",
+      "display": "Office Supplies Sales",
+      "definition": "Retail store selling stationery, office equipment, and business supplies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente - Fournitures de bureau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta - Artículos de oficina"
+        }
+      ]
+    },
+    {
+      "code": "OPTI",
+      "display": "Optician Sales and Repairs",
+      "definition": "Professional service selling and repairing eyeglasses, contact lenses, and optical equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Opticien d'ordonnances - Ventes et réparations"
+        },
+        {
+          "language": "es-MX",
+          "value": "Óptica - Ventas y reparaciones"
+        }
+      ]
+    },
+    {
+      "code": "OPTO",
+      "display": "Optometrist",
+      "definition": "Eye care professional providing vision examinations and prescribing corrective lenses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Optométriste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Optometrista"
+        }
+      ]
+    },
+    {
+      "code": "PHTO",
+      "display": "Photography Studio",
+      "definition": "Professional facility providing photography services, portraits, and image production.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Studio de photographie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estudio fotográfico"
+        }
+      ]
+    },
+    {
+      "code": "PUBL",
+      "display": "Public House (Alcohol)",
+      "definition": "Licensed establishment serving alcoholic beverages, beer, and pub-style food.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pub, brasserie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bar/taberna"
+        }
+      ]
+    },
+    {
+      "code": "PAPR",
+      "display": "Paper Mache, Paper Tole",
+      "definition": "Craft business creating decorative items using paper mache and paper tole techniques.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Papier mâché, tôle en papier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Papel maché, papel tole"
+        }
+      ]
+    },
+    {
+      "code": "PARA",
+      "display": "Paralegal Agent",
+      "definition": "Legal assistant providing support services and legal document preparation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Technicien parajuridique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asistente legal"
+        }
+      ]
+    },
+    {
+      "code": "PRTY",
+      "display": "Party Planning/Rental Service",
+      "definition": "Business organizing events and renting party supplies, equipment, and decorations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Planification de réceptions/service de location"
+        },
+        {
+          "language": "es-MX",
+          "value": "Planificación de fiestas/servicio de alquiler"
+        }
+      ]
+    },
+    {
+      "code": "PETG",
+      "display": "Pet Grooming Service",
+      "definition": "Service providing bathing, grooming, and aesthetic care for pets.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service de toilettage d'animaux domestiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de peluquería para mascotas"
+        }
+      ]
+    },
+    {
+      "code": "PETS",
+      "display": "Pet/House Sitting",
+      "definition": "Service providing care for pets and homes while owners are away.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service de gardiennage d'animaux domestiques / Garde de maison"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cuidado de mascotas/casas"
+        }
+      ]
+    },
+    {
+      "code": "PHOG",
+      "display": "Photographer, Photography Studio",
+      "definition": "Professional photographer operating a studio for portraits, events, and commercial photography.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Photographe, studio de photographie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fotógrafo, estudio fotográfico"
+        }
+      ]
+    },
+    {
+      "code": "PIAN",
+      "display": "Piano, Tuning & Repairing",
+      "definition": "Service tuning, maintaining, and repairing pianos and keyboard instruments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Piano - Accord et réparations"
+        },
+        {
+          "language": "es-MX",
+          "value": "Piano - Afinación y reparaciones"
+        }
+      ]
+    },
+    {
+      "code": "PICF",
+      "display": "Picture Framing",
+      "definition": "Service custom framing artwork, photographs, and decorative items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Encadrement de tableaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Enmarcado de cuadros"
+        }
+      ]
+    },
+    {
+      "code": "PICP",
+      "display": "Picture Painting",
+      "definition": "Artist creating original paintings and commissioned artwork.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Peintre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pintor"
+        }
+      ]
+    },
+    {
+      "code": "PLNT",
+      "display": "Plants - Indoor Maintenance",
+      "definition": "Service maintaining and caring for indoor plants in commercial and residential settings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plantes d'intérieur - Entretien"
+        },
+        {
+          "language": "es-MX",
+          "value": "Plantas de interior - Mantenimiento"
+        }
+      ]
+    },
+    {
+      "code": "PODI",
+      "display": "Podiatrist",
+      "definition": "Healthcare specialist treating foot, ankle, and lower leg conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Podiatre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Podólogo"
+        }
+      ]
+    },
+    {
+      "code": "PSYC",
+      "display": "Psychologist",
+      "definition": "Mental health professional providing psychological assessment, therapy, and counseling services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Psychologue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Psicólogo"
+        }
+      ]
+    },
+    {
+      "code": "PREL",
+      "display": "Public Relations Service",
+      "definition": "Service managing public image, media relations, and communications for clients.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service de relations publiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de relaciones públicas"
+        }
+      ]
+    },
+    {
+      "code": "PSPK",
+      "display": "Public Speaking Service",
+      "definition": "Professional providing public speaking training, coaching, and presentation skills development.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service d'art oratoire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de oratoria"
+        }
+      ]
+    },
+    {
+      "code": "PETZ",
+      "display": "Petting Zoo",
+      "definition": "Interactive animal facility where visitors can touch and feed domestic animals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Zoo pour enfants"
+        },
+        {
+          "language": "es-MX",
+          "value": "Zoológico interactivo"
+        }
+      ]
+    },
+    {
+      "code": "POST",
+      "display": "Post Office",
+      "definition": "Government or private facility providing mail and parcel delivery services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau de poste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Oficina de correos"
+        }
+      ]
+    },
+    {
+      "code": "RPER",
+      "display": "Repair Shop (Electrical Appliance)",
+      "definition": "Workshop repairing electrical appliances, household electronics, and consumer devices.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Électroménagers - Atelier de réparation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Taller de reparación de electrodomésticos"
+        }
+      ]
+    },
+    {
+      "code": "REST",
+      "display": "Restaurant",
+      "definition": "Establishment serving prepared meals and beverages to customers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Restaurant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Restaurante"
+        }
+      ]
+    },
+    {
+      "code": "RETL",
+      "display": "Retail Store",
+      "definition": "General retail establishment selling various consumer goods and merchandise.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Magasin de vente au détail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda minorista"
+        }
+      ]
+    },
+    {
+      "code": "RELE",
+      "display": "Retail Store (Electrical)",
+      "definition": "Retail outlet specializing in electrical products, fixtures, and supplies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Magasin de vente au détail - Électricité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda minorista de productos eléctricos"
+        }
+      ]
+    },
+    {
+      "code": "RGAR",
+      "display": "Retail Store (Garments)",
+      "definition": "Retail shop selling clothing, apparel, and fashion garments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Magasin de vente au détail - Vêtements"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda minorista de ropa"
+        }
+      ]
+    },
+    {
+      "code": "RPNT",
+      "display": "Retail Store (Paint)",
+      "definition": "Store selling paint, coatings, and decorating supplies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Magasin de vente au détail - Peinture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda minorista de pintura"
+        }
+      ]
+    },
+    {
+      "code": "RSPT",
+      "display": "Retail Store (Sport)",
+      "definition": "Retail outlet selling sporting goods, athletic equipment, and recreation supplies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Magasin de vente au détail - Équipement de sport"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda minorista de artículos deportivos"
+        }
+      ]
+    },
+    {
+      "code": "ROOM",
+      "display": "Roomer",
+      "definition": "Individual renting rooms or providing lodging accommodations in private residence.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chambreur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arrendador de habitaciones"
+        }
+      ]
+    },
+    {
+      "code": "REAL",
+      "display": "Real Estate Sales",
+      "definition": "Service buying, selling, and brokering residential and commercial properties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente - Immeubles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta de bienes raíces"
+        }
+      ]
+    },
+    {
+      "code": "RELG",
+      "display": "Religious Goods",
+      "definition": "Store selling religious items, sacred texts, and spiritual merchandise.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Articles religieux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Artículos religiosos"
+        }
+      ]
+    },
+    {
+      "code": "RELO",
+      "display": "Relocation Service",
+      "definition": "Service assisting individuals and families with moving and resettlement logistics.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service de relogement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de reubicación"
+        }
+      ]
+    },
+    {
+      "code": "RINS",
+      "display": "Residential Inspection Service",
+      "definition": "Professional service conducting property inspections and condition assessments for homes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service d'inspection - Habitation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de inspección residencial"
+        }
+      ]
+    },
+    {
+      "code": "RESU",
+      "display": "Resume Service",
+      "definition": "Service writing, editing, and formatting professional resumes and CVs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service - Curriculum vitae"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de currículum vitae"
+        }
+      ]
+    },
+    {
+      "code": "REPO",
+      "display": "Repossession Agency",
+      "definition": "Service recovering vehicles and property on behalf of lenders and creditors.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agence de reprise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agencia de recuperación de bienes"
+        }
+      ]
+    },
+    {
+      "code": "SERV",
+      "display": "Service Station",
+      "definition": "Facility providing vehicle fueling, basic maintenance, and automotive services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Station service"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gasolinera"
+        }
+      ]
+    },
+    {
+      "code": "SLSR",
+      "display": "Sales Representative",
+      "definition": "Professional representing companies and selling products or services to clients.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Représentant des ventes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Representante de ventas"
+        }
+      ]
+    },
+    {
+      "code": "SECR",
+      "display": "Secretarial/Stenographic Service",
+      "definition": "Service providing secretarial support, transcription, and administrative assistance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service de secrétariat/sténographie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio secretarial/estenográfico"
+        }
+      ]
+    },
+    {
+      "code": "SEWG",
+      "display": "Sewing/ Tailoring/ Altering Service",
+      "definition": "Service providing garment alterations, tailoring, and custom sewing work.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service de couture/tailleur/retouche"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de costura/sastrería/alteraciones"
+        }
+      ]
+    },
+    {
+      "code": "SHRP",
+      "display": "Sharpening Service",
+      "definition": "Service sharpening knives, tools, blades, and cutting implements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service d'aiguisage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de afilado"
+        }
+      ]
+    },
+    {
+      "code": "SHOE",
+      "display": "Shoe Repair",
+      "definition": "Workshop repairing and restoring footwear, shoes, and leather goods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réparation de souliers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reparación de calzado"
+        }
+      ]
+    },
+    {
+      "code": "SIGN",
+      "display": "Sign Designer",
+      "definition": "Professional designing and creating signage, displays, and visual communications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Concepteur d'enseignes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Diseñador de letreros"
+        }
+      ]
+    },
+    {
+      "code": "SMAP",
+      "display": "Small Appliance Repair",
+      "definition": "Service repairing small household appliances and kitchen equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réparation de petits électroménagers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reparación de electrodomésticos pequeños"
+        }
+      ]
+    },
+    {
+      "code": "SPCH",
+      "display": "Speech/Language Pathologist",
+      "definition": "Healthcare professional treating communication and speech disorders.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Orthophoniste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Patólogo del habla y lenguaje"
+        }
+      ]
+    },
+    {
+      "code": "STGX",
+      "display": "Stained Glass Craft",
+      "definition": "Artisan creating decorative stained glass windows, panels, and artwork.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Artisanat - Vitrail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Artesanía en vitral"
+        }
+      ]
+    },
+    {
+      "code": "STEN",
+      "display": "Stencilling of Pictures",
+      "definition": "Service creating decorative stenciled designs and artwork.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Peintures au pochoir"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pinturas con plantilla"
+        }
+      ]
+    },
+    {
+      "code": "TANT",
+      "display": "Sun Tanning Bed",
+      "definition": "Service providing access to tanning beds and UV light equipment for cosmetic tanning.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lit de bronzage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cama de bronceado"
+        }
+      ]
+    },
+    {
+      "code": "SURV",
+      "display": "Surveyors-land",
+      "definition": "Professional measuring and mapping land boundaries, elevations, and property lines.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Arpenteur-géomètre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agrimensor"
+        }
+      ]
+    },
+    {
+      "code": "TBCO",
+      "display": "Tobacconist's Shop",
+      "definition": "Retail store selling tobacco products, cigarettes, cigars, and smoking accessories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tabagie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tabaquería"
+        }
+      ]
+    },
+    {
+      "code": "TAXD",
+      "display": "Taxidermist",
+      "definition": "Professional preserving and mounting animal specimens for display purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Taxidermiste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Taxidermista"
+        }
+      ]
+    },
+    {
+      "code": "TELA",
+      "display": "Telephone Answering Service",
+      "definition": "Service answering and managing telephone calls on behalf of businesses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service de messagerie vocale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de contestación telefónica"
+        }
+      ]
+    },
+    {
+      "code": "TELM",
+      "display": "Telephone Sales/Telemarketing",
+      "definition": "Service conducting sales and marketing activities via telephone communications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente par téléphone/télémarketing"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ventas telefónicas/telemercadeo"
+        }
+      ]
+    },
+    {
+      "code": "TOYS",
+      "display": "Toy Sales",
+      "definition": "Retail store selling toys, games, and children's play items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente de jouets"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta de juguetes"
+        }
+      ]
+    },
+    {
+      "code": "TRAN",
+      "display": "Transcribing Service, Court Reporter",
+      "definition": "Service providing legal transcription and court reporting documentation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service de transcription, sténographe de la cour"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de transcripción, taquígrafo judicial"
+        }
+      ]
+    },
+    {
+      "code": "TRNS",
+      "display": "Translation Service",
+      "definition": "Professional service translating documents and communications between languages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service de traduction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de traducción"
+        }
+      ]
+    },
+    {
+      "code": "TRVL",
+      "display": "Travel Agent/Travel Planner",
+      "definition": "Professional arranging travel bookings, itineraries, and vacation planning services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agent de voyages/Planificateur de voyages"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agente de viajes/Planificador de viajes"
+        }
+      ]
+    },
+    {
+      "code": "TRPY",
+      "display": "Trophy Sales",
+      "definition": "Business selling trophies, awards, plaques, and recognition items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente - Trophées"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta de trofeos"
+        }
+      ]
+    },
+    {
+      "code": "TUPP",
+      "display": "Tupperware Sales",
+      "definition": "Direct sales business selling plastic food storage containers and kitchen products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente - Articles Tupperware"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta de productos Tupperware"
+        }
+      ]
+    },
+    {
+      "code": "UPHL",
+      "display": "Upholstery",
+      "definition": "Service reupholstering and restoring furniture cushions, covers, and padding.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rembourrage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tapicería"
+        }
+      ]
+    },
+    {
+      "code": "VDTP",
+      "display": "Video Taping Service Including Editing",
+      "definition": "Service recording, producing, and editing video content for events and clients.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service d'enregistrement vidéo incluant montage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de grabación de video con edición"
+        }
+      ]
+    },
+    {
+      "code": "VOCA",
+      "display": "Vocational Counsellor",
+      "definition": "Professional providing career guidance, job placement, and vocational training advice.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conseiller d'orientation professionnelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consejero vocacional"
+        }
+      ]
+    },
+    {
+      "code": "VETS",
+      "display": "Veterinary Supplies Store",
+      "definition": "Retail outlet selling veterinary products, pet medications, and animal care supplies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Magasin de fournitures vétérinaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda de suministros veterinarios"
+        }
+      ]
+    },
+    {
+      "code": "WIND",
+      "display": "Window Display Decorator",
+      "definition": "Professional designing and installing decorative window displays for retail businesses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Décorateur de vitrines"
+        },
+        {
+          "language": "es-MX",
+          "value": "Decorador de escaparates"
+        }
+      ]
+    },
+    {
+      "code": "WOOD",
+      "display": "Woodworker",
+      "definition": "Craftsperson creating custom woodwork, furniture, and wooden items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travailleur du bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carpintero"
+        }
+      ]
+    },
+    {
+      "code": "WRIT",
+      "display": "Writer",
+      "definition": "Professional author creating written content, articles, books, and editorial material.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rédacteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escritor"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other Commercial Occupation",
+      "definition": "Any commercial business or professional occupation not specifically categorized elsewhere.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre activité commerciale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otra ocupación comercial"
+        }
+      ]
+    }
+  ]
+}

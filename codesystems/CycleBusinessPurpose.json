@@ -1,0 +1,1466 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CycleBusinessPurpose",
+  "url": "https://bind.codes/CycleBusinessPurpose",
+  "name": "CycleBusinessPurpose",
+  "title": "Cycle Business Purpose",
+  "status": "draft",
+  "language": "en",
+  "description": "Cycle Business Purpose codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ACR",
+      "display": "Account Current Reconciliation",
+      "definition": "Process of reconciling current account balances and transactions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Redressement - compte courant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conciliación de Cuenta Corriente"
+        }
+      ]
+    },
+    {
+      "code": "ADJ",
+      "display": "Premium Adjustment",
+      "definition": "Modification to the amount due for coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ajustement des primes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ajuste de Prima"
+        }
+      ]
+    },
+    {
+      "code": "ARR",
+      "display": "Anniversary Re-rating",
+      "definition": "Re-evaluation of rates on the anniversary date of a policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Anniversaire - Nouvelle tarification"
+        },
+        {
+          "language": "es-MX",
+          "value": "Retarificación de Aniversario"
+        }
+      ]
+    },
+    {
+      "code": "BIL",
+      "display": "Billing",
+      "definition": "Identification of billing information or billing notices, including billing notice, overdue payment notice, refund notice, withdrawal/reject notice, final bill notice, or return/reject.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facturation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Facturación"
+        }
+      ]
+    },
+    {
+      "code": "BIR",
+      "display": "Billing Information Required",
+      "definition": "Request for additional billing details or documentation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Renseignements de facturation requis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Información de Facturación Requerida"
+        }
+      ]
+    },
+    {
+      "code": "BPR",
+      "display": "Billing Payment Reminder",
+      "definition": "Notification sent to remind of an upcoming or due payment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rappel de paiement de facturation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Recordatorio de Pago de Facturación"
+        }
+      ]
+    },
+    {
+      "code": "BRN",
+      "display": "Billing Rejection Notice",
+      "definition": "Notification that a billing transaction has been rejected.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de rejet de facturation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aviso de Rechazo de Facturación"
+        }
+      ]
+    },
+    {
+      "code": "CLI",
+      "display": "Claim Information",
+      "definition": "Details and documentation related to a claim.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Renseignements sur la réclamation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Información de Reclamación"
+        }
+      ]
+    },
+    {
+      "code": "CLS",
+      "display": "Claim Status Information",
+      "definition": "Current state of a claim in the processing workflow.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Information sur l'état de la réclamation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Información de Estado de Reclamación"
+        }
+      ]
+    },
+    {
+      "code": "CPN",
+      "display": "Claim Payment Notice",
+      "definition": "Notification of a payment made in response to a claim.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de paiement à la suite d'une réclamation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aviso de Pago de Reclamación"
+        }
+      ]
+    },
+    {
+      "code": "CSQ",
+      "display": "Claims Inquiry",
+      "definition": "Request for information about a claim or claims.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Demande de renseignements sur les réclamations"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consulta de Reclamaciones"
+        }
+      ]
+    },
+    {
+      "code": "DBR",
+      "display": "Direct Bill Reconciliation",
+      "definition": "Process of reconciling direct billing transactions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Redressement - facturation directe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conciliación de Facturación Directa"
+        }
+      ]
+    },
+    {
+      "code": "DSP",
+      "display": "Download Setup",
+      "definition": "Configuration for initiating a data download.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Préparation du télédéchargement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Configuración de Descarga"
+        }
+      ]
+    },
+    {
+      "code": "EDT",
+      "display": "Electronic Document Transfer",
+      "definition": "Digital transmission of documents between systems or parties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transfert électronique de documents"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transferencia Electrónica de Documentos"
+        }
+      ]
+    },
+    {
+      "code": "ERC",
+      "display": "Error Correction Notification",
+      "definition": "Notice that an error has been corrected in a transaction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis correction erreur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Notificación de Corrección de Error"
+        }
+      ]
+    },
+    {
+      "code": "ERP",
+      "display": "Error/Purged",
+      "definition": "Transaction that encountered an error and has been purged from the system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Erreur/purgé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Error/Purgado"
+        }
+      ]
+    },
+    {
+      "code": "ERR",
+      "display": "Error Message",
+      "definition": "Notification that an error has occurred during processing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Message d'erreur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mensaje de Error"
+        }
+      ]
+    },
+    {
+      "code": "ERS",
+      "display": "Error Suspended Notification",
+      "definition": "Notice that a transaction has been suspended due to an error.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis suspendu erreur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Notificación de Error Suspendido"
+        }
+      ]
+    },
+    {
+      "code": "IVI",
+      "display": "Insured Vehicle Information",
+      "definition": "Details about a vehicle covered under a policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Renseignements sur le véhicule assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Información de Vehículo Asegurado"
+        }
+      ]
+    },
+    {
+      "code": "LAP",
+      "display": "Lapse",
+      "definition": "Termination of a policy due to non-payment or expiration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Expiration ou déchéance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caducidad"
+        }
+      ]
+    },
+    {
+      "code": "LNT",
+      "display": "Loss Notice",
+      "definition": "Formal notification of a loss event.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de sinistre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aviso de Siniestro"
+        }
+      ]
+    },
+    {
+      "code": "MEM",
+      "display": "Electronic Memo",
+      "definition": "Digital communication or note between parties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Note de service électronique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Memorándum Electrónico"
+        }
+      ]
+    },
+    {
+      "code": "NBQ",
+      "display": "New Business Quote",
+      "definition": "Proposed terms and pricing for a new policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soumission de nouvelle affaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cotización de Negocio Nuevo"
+        }
+      ]
+    },
+    {
+      "code": "NBS",
+      "display": "New Business",
+      "definition": "Creation of a new policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nouvelle affaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Negocio Nuevo"
+        }
+      ]
+    },
+    {
+      "code": "NPD",
+      "display": "Non Policy Document",
+      "definition": "Electronic documents unrelated to a specific policy or individual, such as monthly summaries, promotions, notifications of changes, reconciliation statements, or group messages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Document hors police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Documento sin Póliza"
+        }
+      ]
+    },
+    {
+      "code": "PAD",
+      "display": "Premium Audit",
+      "definition": "Review and verification of amounts paid for coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vérification de la prime"
+        },
+        {
+          "language": "es-MX",
+          "value": "Auditoría de Prima"
+        }
+      ]
+    },
+    {
+      "code": "PCH",
+      "display": "Policy Change",
+      "definition": "Modification to an existing policy's terms or coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Modification de police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cambio de Póliza"
+        }
+      ]
+    },
+    {
+      "code": "PCQ",
+      "display": "Policy Change Quote",
+      "definition": "Proposed terms for modifying an existing policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soumission de modification de police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cotización de Cambio de Póliza"
+        }
+      ]
+    },
+    {
+      "code": "PMT",
+      "display": "Payment",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Paiement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pago"
+        }
+      ]
+    },
+    {
+      "code": "PNQ",
+      "display": "Policy Inquiry",
+      "definition": "Request for information about a policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Demande de renseignements sur la police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consulta de Póliza"
+        }
+      ]
+    },
+    {
+      "code": "POL",
+      "display": "Policy",
+      "definition": "Unspecified policy transaction, used when the specific purpose is not available.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Póliza"
+        }
+      ]
+    },
+    {
+      "code": "PRT",
+      "display": "Print Transaction",
+      "definition": "Request to generate a printed copy of a transaction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Impression de transaction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transacción de Impresión"
+        }
+      ]
+    },
+    {
+      "code": "REI",
+      "display": "Reinstatement",
+      "definition": "Restoration of a lapsed or cancelled policy to active status.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remise en vigueur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reinstalación"
+        }
+      ]
+    },
+    {
+      "code": "REW",
+      "display": "Rewrite",
+      "definition": "Complete replacement of an existing policy with a new one.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réenregistrer"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reescritura"
+        }
+      ]
+    },
+    {
+      "code": "RIC",
+      "display": "Reissue (Change Format)",
+      "definition": "Re-generation of a policy document with a different format.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réémettre (modifier format)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reemisión (Cambiar Formato)"
+        }
+      ]
+    },
+    {
+      "code": "RII",
+      "display": "Reissue (Image Format)",
+      "definition": "Re-generation of a policy document in image format.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Réémettre (format image)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reemisión (Formato de Imagen)"
+        }
+      ]
+    },
+    {
+      "code": "RNC",
+      "display": "Renewal (Change Format)",
+      "definition": "Renewal of a policy with document in a different format.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Renouvellement (modifier format)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Renovación (Cambiar Formato)"
+        }
+      ]
+    },
+    {
+      "code": "RNI",
+      "display": "Renewal (Image Format)",
+      "definition": "Renewal of a policy with document in image format.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Renouvellement (format image)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Renovación (Formato de Imagen)"
+        }
+      ]
+    },
+    {
+      "code": "RNR",
+      "display": "Reversal of Non-Renewal",
+      "definition": "Cancellation of a previous non-renewal decision.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Annulation du non-renouvellement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reversión de No Renovación"
+        }
+      ]
+    },
+    {
+      "code": "RRC",
+      "display": "Reissue Request (Change Format)",
+      "definition": "Request to re-generate a policy document in a different format.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Demande de réémettre (modifier format)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Solicitud de Reemisión (Cambiar Formato)"
+        }
+      ]
+    },
+    {
+      "code": "RRQ",
+      "display": "Reissue Request",
+      "definition": "Request to re-generate a policy document.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Demande de réémettre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Solicitud de Reemisión"
+        }
+      ]
+    },
+    {
+      "code": "RWC",
+      "display": "Renewal Change",
+      "definition": "Modification made to a policy during its renewal.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Modification de renouvellement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cambio de Renovación"
+        }
+      ]
+    },
+    {
+      "code": "RWI",
+      "display": "Renewal Notice (Image Format)",
+      "definition": "Notice of policy renewal in image format.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de renouvellement (format image)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aviso de Renovación (Formato de Imagen)"
+        }
+      ]
+    },
+    {
+      "code": "RWL",
+      "display": "Renewal",
+      "definition": "Extension of a policy for another term.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Renouvellement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Renovación"
+        }
+      ]
+    },
+    {
+      "code": "RWN",
+      "display": "Renewal Notice (Change Format)",
+      "definition": "Notice of policy renewal with document in a different format.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de renouvellement (format modification)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aviso de Renovación (Cambiar Formato)"
+        }
+      ]
+    },
+    {
+      "code": "RWQ",
+      "display": "Renewal Quote",
+      "definition": "Proposed terms for renewing a policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Proposition de renouvellement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cotización de Renovación"
+        }
+      ]
+    },
+    {
+      "code": "RWX",
+      "display": "Non-renewal",
+      "definition": "Decision not to extend a policy for another term.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non-renouvellement"
+        },
+        {
+          "language": "es-MX",
+          "value": "No Renovación"
+        }
+      ]
+    },
+    {
+      "code": "SYI",
+      "display": "Synchronization - Initial",
+      "definition": "First synchronization of data between systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Synchronisation  - Début"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sincronización - Inicial"
+        }
+      ]
+    },
+    {
+      "code": "SYN",
+      "display": "Synchronization Image",
+      "definition": "Snapshot of data for synchronization between systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Image de synchronisation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Imagen de Sincronización"
+        }
+      ]
+    },
+    {
+      "code": "SYR",
+      "display": "Synchronization Request",
+      "definition": "Request to synchronize data between systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Demande de synchronisation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Solicitud de Sincronización"
+        }
+      ]
+    },
+    {
+      "code": "TBL",
+      "display": "Consolidated/Industry Code Table Maintenance",
+      "definition": "Updates and maintenance of industry standard code tables.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maintien des tables de codes consolidés de l'industrie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mantenimiento de Tabla de Códigos Consolidados/Industria"
+        }
+      ]
+    },
+    {
+      "code": "TRI",
+      "display": "Transaction Image (for information purposes)",
+      "definition": "Informational snapshot of a transaction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Image de la transaction (à titre de renseignement)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Imagen de Transacción (con fines informativos)"
+        }
+      ]
+    },
+    {
+      "code": "WTX",
+      "display": "Withdrawal Transaction",
+      "definition": "Retraction or reversal of a previously submitted transaction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Retrait de transaction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transacción de Retiro"
+        }
+      ]
+    },
+    {
+      "code": "XLN",
+      "display": "Cancellation",
+      "definition": "Termination of a policy before its expiration date.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Annulation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cancelación"
+        }
+      ]
+    },
+    {
+      "code": "XLQ",
+      "display": "Policy Cancellation Quote",
+      "definition": "Proposed terms for cancelling a policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soumission pour annulation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cotización de Cancelación de Póliza"
+        }
+      ]
+    },
+    {
+      "code": "NBQI",
+      "display": "New Business Quote Inquiry",
+      "definition": "Request for information about a new business quote.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Demande de soumission pour affaires nouvelles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consulta de Cotización de Negocio Nuevo"
+        }
+      ]
+    },
+    {
+      "code": "PCQI",
+      "display": "Policy Change Quote Inquiry",
+      "definition": "Request for information about a policy change quote.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Demande de soumission pour modification de police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consulta de Cotización de Cambio de Póliza"
+        }
+      ]
+    },
+    {
+      "code": "RQI",
+      "display": "Renewal Quote Inquiry",
+      "definition": "Request for information about a renewal quote.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Demande de soumission pour renouvellement de police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consulta de Cotización de Renovación"
+        }
+      ]
+    },
+    {
+      "code": "BCE",
+      "display": "eDoc Billing Credit Card Expired",
+      "definition": "Notification that a credit card used for billing has expired.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Expiration de la carte de crédit utilisée pour effectuer les paiements"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tarjeta de Crédito de Facturación Expirada"
+        }
+      ]
+    },
+    {
+      "code": "BCN",
+      "display": "eDoc Billing Collection Notice",
+      "definition": "Notice regarding the collection of outstanding billing amounts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Avis de recouvrement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aviso de Recolección de Facturación"
+        }
+      ]
+    },
+    {
+      "code": "BFB",
+      "display": "eDoc Billing Final Bill Notice",
+      "definition": "Notice of a final billing statement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de facturation finale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aviso de Factura Final"
+        }
+      ]
+    },
+    {
+      "code": "BOB",
+      "display": "eDoc Payment Required Outstanding Balance",
+      "definition": "Notification that payment is required for an outstanding balance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Paiement du solde impayé requis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pago Requerido del Saldo Pendiente"
+        }
+      ]
+    },
+    {
+      "code": "BOP",
+      "display": "eDoc Billing Overdue Payment Notice",
+      "definition": "Notice that a billing payment is overdue.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avis de paiement en retard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aviso de Pago Vencido de Facturación"
+        }
+      ]
+    },
+    {
+      "code": "BRE",
+      "display": "eDoc Payment Received and Policy Reinstated",
+      "definition": "Confirmation that payment has been received and a policy has been restored to active status.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Paiement reçu et police remise en vigueur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pago Recibido y Póliza Reinstalada"
+        }
+      ]
+    },
+    {
+      "code": "BRI",
+      "display": "eDoc Billing Refund Issued",
+      "definition": "Notification that a billing refund has been issued.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Remboursement émis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reembolso de Facturación Emitido"
+        }
+      ]
+    },
+    {
+      "code": "BWR",
+      "display": "eDoc Billing Withdrawal Rejection Notice",
+      "definition": "Notice that a withdrawal request for a billing transaction has been rejected.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Avis de refus du retrait de la facturation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aviso de Rechazo de Retiro de Facturación"
+        }
+      ]
+    },
+    {
+      "code": "CAA",
+      "display": "eDoc Claim Adjuster Assignment",
+      "definition": "Notification that a claims adjuster has been assigned to a claim.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Affectation d'un expert en sinistres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asignación de Ajustador de Reclamación"
+        }
+      ]
+    },
+    {
+      "code": "CCN",
+      "display": "eDoc Claim Closing Notice",
+      "definition": "Notification that a claim has been closed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Avis de fermeture d'une demande de règlement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aviso de Cierre de Reclamación"
+        }
+      ]
+    },
+    {
+      "code": "CFD",
+      "display": "eDoc Claim Auto Fault Determination Notice",
+      "definition": "Notification of the determination regarding fault in an automobile claim.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Avis de détermination de la responsabilité du sinistre automobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aviso de Determinación de Responsabilidad de Reclamación de Auto"
+        }
+      ]
+    },
+    {
+      "code": "CON",
+      "display": "eDoc Claim Opening Notice",
+      "definition": "Notification that a new claim has been opened.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Avis d'ouverture d'une demande de règlement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aviso de Apertura de Reclamación"
+        }
+      ]
+    },
+    {
+      "code": "CRN",
+      "display": "eDoc Claim Auto Rental Notice",
+      "definition": "Notice regarding rental vehicle coverage in an automobile claim.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Avis de location de voiture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aviso de Renta de Auto de Reclamación"
+        }
+      ]
+    },
+    {
+      "code": "CTL",
+      "display": "eDoc Claim Total Loss Notice",
+      "definition": "Notification that a claim has been determined to be a total loss.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Avis de perte totale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aviso de Pérdida Total de Reclamación"
+        }
+      ]
+    },
+    {
+      "code": "NBD",
+      "display": "eDoc New Business Policy Declaration",
+      "definition": "Document specifying the specific terms and conditions for a new policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Conditions particulières d'une nouvelle police d'assurance des entreprises"
+        },
+        {
+          "language": "es-MX",
+          "value": "Declaración de Póliza de Negocio Nuevo"
+        }
+      ]
+    },
+    {
+      "code": "NBL",
+      "display": "eDoc New Business Liability Certificates",
+      "definition": "Certificates documenting liability coverage for a new policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Certificats d'assurance responsabilité liés à une nouvelle police d'assurance des entreprises"
+        },
+        {
+          "language": "es-MX",
+          "value": "Certificados de Responsabilidad de Negocio Nuevo"
+        }
+      ]
+    },
+    {
+      "code": "NBP",
+      "display": "eDoc New Business Payment Schedule",
+      "definition": "Schedule detailing payment terms for a new policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Calendrier des paiements joint à une nouvelle police d'assurance des entreprises"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cronograma de Pago de Negocio Nuevo"
+        }
+      ]
+    },
+    {
+      "code": "NTP",
+      "display": "eDoc Payment Schedule No Policy Transaction",
+      "definition": "Payment schedule for a non-policy related transaction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Calendrier des paiements non joint à une opération sur police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cronograma de Pago sin Transacción de Póliza"
+        }
+      ]
+    },
+    {
+      "code": "PCD",
+      "display": "eDoc Policy Change Policy Declaration",
+      "definition": "Document specifying the terms and conditions modified in a policy change.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Conditions particulières liées à une modification de police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Declaración de Póliza de Cambio de Póliza"
+        }
+      ]
+    },
+    {
+      "code": "PCL",
+      "display": "eDoc Policy Change Liability Certificates",
+      "definition": "Certificates documenting liability coverage after a policy change.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Certificats d'assurance responsabilité liés à une police modifiée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Certificados de Responsabilidad de Cambio de Póliza"
+        }
+      ]
+    },
+    {
+      "code": "PCP",
+      "display": "eDoc Policy Change Payment Schedule",
+      "definition": "Schedule detailing updated payment terms after a policy change.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Calendrier des paiements joint à une police modifiée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cronograma de Pago de Cambio de Póliza"
+        }
+      ]
+    },
+    {
+      "code": "RED",
+      "display": "eDoc Renewal Policy Declaration",
+      "definition": "Document specifying the terms and conditions for a renewed policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Conditions particulières liées à une police renouvelée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Declaración de Póliza de Renovación"
+        }
+      ]
+    },
+    {
+      "code": "REL",
+      "display": "eDoc Renewal Liability Certificates",
+      "definition": "Certificates documenting liability coverage for a renewed policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Certificats d'assurance responsabilité liés à une police renouvelée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Certificados de Responsabilidad de Renovación"
+        }
+      ]
+    },
+    {
+      "code": "REP",
+      "display": "eDoc Renewal Payment Schedule",
+      "definition": "Schedule detailing payment terms for a renewed policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Calendrier des paiements joint à une police renouvelée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cronograma de Pago de Renovación"
+        }
+      ]
+    },
+    {
+      "code": "RND",
+      "display": "eDoc Reinstatement Policy Declaration",
+      "definition": "Document specifying the terms and conditions for a reinstated policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Conditions particulières liées à une police remise en vigueur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Declaración de Póliza de Reinstalación"
+        }
+      ]
+    },
+    {
+      "code": "RNL",
+      "display": "eDoc Reinstatement Liability Certificates",
+      "definition": "Certificates documenting liability coverage for a reinstated policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Certificats d'assurance responsabilité liés à une police remise en vigueur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Certificados de Responsabilidad de Reinstalación"
+        }
+      ]
+    },
+    {
+      "code": "RNP",
+      "display": "eDoc Reinstatement Payment Schedule",
+      "definition": "Schedule detailing payment terms for a reinstated policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Calendrier des paiements joint à une police remise en vigueur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cronograma de Pago de Reinstalación"
+        }
+      ]
+    },
+    {
+      "code": "RRD",
+      "display": "eDoc Rewrite Policy Declaration",
+      "definition": "Document specifying the terms and conditions for a rewritten policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Conditions particulières liées à une police révisée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Declaración de Póliza de Reescritura"
+        }
+      ]
+    },
+    {
+      "code": "RRL",
+      "display": "eDoc Rewrite Liability Certificates",
+      "definition": "Certificates documenting liability coverage for a rewritten policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Certificats d'assurance responsabilité liés à une police révisée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Certificados de Responsabilidad de Reescritura"
+        }
+      ]
+    },
+    {
+      "code": "RRP",
+      "display": "eDoc Rewrite Payment Schedule",
+      "definition": "Schedule detailing payment terms for a rewritten policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Calendrier des paiements joint à une police révisée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cronograma de Pago de Reescritura"
+        }
+      ]
+    },
+    {
+      "code": "RSD",
+      "display": "eDoc Reissue Policy Declaration",
+      "definition": "Document specifying the terms and conditions for a reissued policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Conditions particulières liées à une police réémise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Declaración de Póliza de Reemisión"
+        }
+      ]
+    },
+    {
+      "code": "RSL",
+      "display": "eDoc Reissue Liability Certificates",
+      "definition": "Certificates documenting liability coverage for a reissued policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Certificats d'assurance responsabilité liés à une police réémise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Certificados de Responsabilidad de Reemisión"
+        }
+      ]
+    },
+    {
+      "code": "RSP",
+      "display": "eDoc Reissue Payment Schedule",
+      "definition": "Schedule detailing payment terms for a reissued policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Calendrier des paiements joint à une police réémise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cronograma de Pago de Reemisión"
+        }
+      ]
+    },
+    {
+      "code": "UWR",
+      "display": "eDoc Underwriting Request",
+      "definition": "Request for underwriting evaluation or decision.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Demandes de souscription"
+        },
+        {
+          "language": "es-MX",
+          "value": "Solicitud de Suscripción"
+        }
+      ]
+    },
+    {
+      "code": "XIN",
+      "display": "eDoc Cancelled by Insurer",
+      "definition": "Notification that a policy has been cancelled by the insurer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Police annulée par l'assureur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cancelada por el Asegurador"
+        }
+      ]
+    },
+    {
+      "code": "XNR",
+      "display": "eDoc Insurer Cancellation with No Option to Reinstate",
+      "definition": "Notification that a policy has been cancelled by the insurer without option to reinstate.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Annulation par l'assureur sans possibilité de remise en vigueur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cancelación por el Asegurador sin Opción de Reinstalación"
+        }
+      ]
+    },
+    {
+      "code": "XOR",
+      "display": "eDoc Insurer Cancellation with Option to Reinstate",
+      "definition": "Notification that a policy has been cancelled by the insurer with option to reinstate.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Annulation par l'assureur avec possibilité de remise en vigueur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cancelación por el Asegurador con Opción de Reinstalación"
+        }
+      ]
+    },
+    {
+      "code": "XRI",
+      "display": "eDoc Cancellation Request by Insured",
+      "definition": "Request from the insured party to cancel a policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Demande d'annulation par l'assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Solicitud de Cancelación por el Asegurado"
+        }
+      ]
+    },
+    {
+      "code": "XRW",
+      "display": "eDoc Insurer Non-Renewal",
+      "definition": "Notification that the insurer has chosen not to renew a policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "eDoc Non-renouvellement par l'assureur"
+        },
+        {
+          "language": "es-MX",
+          "value": "No Renovación del Asegurador"
+        }
+      ]
+    }
+  ]
+}

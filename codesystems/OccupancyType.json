@@ -1,0 +1,235 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "OccupancyType",
+  "url": "https://bind.codes/OccupancyType",
+  "name": "OccupancyType",
+  "title": "Occupancy Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Occupancy Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "PRMR",
+      "display": "Primary Residence",
+      "definition": "A dwelling where the policyholder lives for the majority of the year and considers their main home.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résidence principale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Residencia principal"
+        }
+      ]
+    },
+    {
+      "code": "SCNS",
+      "display": "Secondary, Non-seasonal",
+      "definition": "A property occupied by the owner for part of the year on a non-seasonal basis, such as a second home used periodically throughout the year.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résidence secondaire, non saisonnière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Residencia secundaria, no estacional"
+        }
+      ]
+    },
+    {
+      "code": "SCSS",
+      "display": "Secondary, Seasonal",
+      "definition": "A property occupied by the owner only during specific seasons, such as a summer cottage or winter chalet.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résidence secondaire, saisonnière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Residencia secundaria, estacional"
+        }
+      ]
+    },
+    {
+      "code": "RNTL",
+      "display": "Rental",
+      "definition": "A property occupied by tenants under a rental agreement with the property owner.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Loué"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alquiler"
+        }
+      ]
+    },
+    {
+      "code": "SRNT",
+      "display": "Short-term Rental",
+      "definition": "A property rented for brief periods, typically through platforms like Airbnb or VRBO.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Location court terme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alquiler a corto plazo"
+        }
+      ]
+    },
+    {
+      "code": "RTPT",
+      "display": "Rented to Third Party",
+      "definition": "A property leased to individuals or entities other than the property owner.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Loué à un tiers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alquilado a terceros"
+        }
+      ]
+    },
+    {
+      "code": "UNOC",
+      "display": "Unoccupied",
+      "definition": "A property that is temporarily without occupants but still furnished and maintained, typically for less than 30 consecutive days.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inoccupé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desocupado"
+        }
+      ]
+    },
+    {
+      "code": "VCNT",
+      "display": "Vacant",
+      "definition": "A property that is empty, unfurnished, and not actively lived in, typically for extended periods exceeding 30 consecutive days.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vacant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vacante"
+        }
+      ]
+    },
+    {
+      "code": "CNST",
+      "display": "Under Construction",
+      "definition": "A building currently being constructed and not yet ready for occupancy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En construction"
+        },
+        {
+          "language": "es-MX",
+          "value": "En construcción"
+        }
+      ]
+    },
+    {
+      "code": "RENV",
+      "display": "Major Renovation",
+      "definition": "A property undergoing significant structural or systems improvements that may affect habitability.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rénovation majeure"
+        },
+        {
+          "language": "es-MX",
+          "value": "Renovación mayor"
+        }
+      ]
+    },
+    {
+      "code": "EMOC",
+      "display": "Employee Occupied",
+      "definition": "A property occupied by an employee of the property owner, often as part of employment compensation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Occupé par employé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ocupado por empleado"
+        }
+      ]
+    },
+    {
+      "code": "FMOC",
+      "display": "Family Occupied",
+      "definition": "A property occupied by family members of the property owner without a formal rental agreement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Occupé par la famille"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ocupado por familia"
+        }
+      ]
+    },
+    {
+      "code": "MIXD",
+      "display": "Mixed Use",
+      "definition": "A property that combines residential living space with commercial or business operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Usage mixte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Uso mixto"
+        }
+      ]
+    },
+    {
+      "code": "NAPL",
+      "display": "Not Applicable",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sans objet"
+        },
+        {
+          "language": "es-MX",
+          "value": "No aplicable"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

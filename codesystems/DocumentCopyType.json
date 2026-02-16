@@ -1,0 +1,147 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "DocumentCopyType",
+  "url": "https://bind.codes/DocumentCopyType",
+  "name": "DocumentCopyType",
+  "title": "Document Copy Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Document Copy Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "AGCY",
+      "display": "Agency Copy",
+      "definition": "A copy of the document intended for the agency that sold the policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copie de l'agence"
+        },
+        {
+          "language": "es-MX",
+          "value": "Copia de la agencia"
+        }
+      ]
+    },
+    {
+      "code": "INSD",
+      "display": "Insured Copy",
+      "definition": "A copy of the document intended for the policyholder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copie de l'assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Copia del asegurado"
+        }
+      ]
+    },
+    {
+      "code": "LIEN",
+      "display": "Lienholder Copy",
+      "definition": "A copy of the document intended for the party holding a lien on the insured property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copie du titulaire de privilège"
+        },
+        {
+          "language": "es-MX",
+          "value": "Copia del acreedor prendario"
+        }
+      ]
+    },
+    {
+      "code": "MTGE",
+      "display": "Mortgagee Copy",
+      "definition": "A copy of the document intended for the lender holding a mortgage on the insured property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copie du créancier hypothécaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Copia del acreedor hipotecario"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "A copy of the document intended for a recipient not otherwise categorized.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "BKAB",
+      "display": "Agency/Broker and Insured Copy",
+      "definition": "A copy of the document intended for both the agency or broker and the policyholder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copie de l'agence ou du courtier et de l'assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Copia de la agencia o corredor y el asegurado"
+        }
+      ]
+    },
+    {
+      "code": "BROK",
+      "display": "Broker Copy",
+      "definition": "A copy of the document intended for the broker that facilitated the policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copie du courtier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Copia del corredor"
+        }
+      ]
+    },
+    {
+      "code": "LOSS",
+      "display": "Loss Payee Copy",
+      "definition": "A copy of the document intended for the party designated to receive claim payments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copie du bénéficiaire de sinistre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Copia del beneficiario de pérdida"
+        }
+      ]
+    },
+    {
+      "code": "ADDL",
+      "display": "Additional Insured Copy",
+      "definition": "A copy of the document intended for a party added to the policy as an additional insured.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copie de l'assuré additionnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Copia del asegurado adicional"
+        }
+      ]
+    }
+  ]
+}

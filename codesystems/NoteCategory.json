@@ -1,0 +1,84 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "NoteCategory",
+  "url": "https://bind.codes/NoteCategory",
+  "name": "NoteCategory",
+  "title": "Note Category",
+  "status": "draft",
+  "language": "en",
+  "description": "Categories of notes attached to policies, claims, and other resources.",
+  "concept": [
+    {
+      "code": "UNDW",
+      "display": "Underwriting",
+      "definition": "A note related to the evaluation, acceptance, or modification of coverage.",
+      "designation": [
+        { "language": "fr-CA", "value": "Souscription" },
+        { "language": "es-MX", "value": "Suscripción" }
+      ]
+    },
+    {
+      "code": "CLMS",
+      "display": "Claims",
+      "definition": "A note related to a claim, including investigation progress, reserve changes, or settlement discussions.",
+      "designation": [
+        { "language": "fr-CA", "value": "Réclamations" },
+        { "language": "es-MX", "value": "Reclamaciones" }
+      ]
+    },
+    {
+      "code": "BKIN",
+      "display": "Broker Instruction",
+      "definition": "Instructions or requests from the broker regarding the account.",
+      "designation": [
+        { "language": "fr-CA", "value": "Instruction du courtier" },
+        { "language": "es-MX", "value": "Instrucción del corredor" }
+      ]
+    },
+    {
+      "code": "INTL",
+      "display": "Internal",
+      "definition": "An internal note not intended for external distribution.",
+      "designation": [
+        { "language": "fr-CA", "value": "Interne" },
+        { "language": "es-MX", "value": "Interno" }
+      ]
+    },
+    {
+      "code": "AUDT",
+      "display": "Audit",
+      "definition": "A note related to a premium audit or financial review.",
+      "designation": [
+        { "language": "fr-CA", "value": "Vérification" },
+        { "language": "es-MX", "value": "Auditoría" }
+      ]
+    },
+    {
+      "code": "CMPL",
+      "display": "Compliance",
+      "definition": "A note related to regulatory compliance or filing requirements.",
+      "designation": [
+        { "language": "fr-CA", "value": "Conformité" },
+        { "language": "es-MX", "value": "Cumplimiento" }
+      ]
+    },
+    {
+      "code": "BILL",
+      "display": "Billing",
+      "definition": "A note related to premium billing, collection, or payment issues.",
+      "designation": [
+        { "language": "fr-CA", "value": "Facturation" },
+        { "language": "es-MX", "value": "Facturación" }
+      ]
+    },
+    {
+      "code": "GNRL",
+      "display": "General",
+      "definition": "A general-purpose note that does not fit other categories.",
+      "designation": [
+        { "language": "fr-CA", "value": "Général" },
+        { "language": "es-MX", "value": "General" }
+      ]
+    }
+  ]
+}

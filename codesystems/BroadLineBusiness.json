@@ -1,0 +1,147 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BroadLineBusiness",
+  "url": "https://bind.codes/BroadLineBusiness",
+  "name": "BroadLineBusiness",
+  "title": "Broad Line Business",
+  "status": "draft",
+  "language": "en",
+  "description": "Broad Line Business codes for insurance operations.",
+  "concept": [
+    {
+      "code": "COML",
+      "display": "Commercial Lines",
+      "definition": "Products designed for businesses and organizations rather than individuals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des entreprises"
+        },
+        {
+          "language": "es-MX",
+          "value": "Líneas Comerciales"
+        }
+      ]
+    },
+    {
+      "code": "FRAN",
+      "display": "Franchise",
+      "definition": "Coverage for franchise businesses operating under a parent company's brand and business model.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Franchise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Franquicia"
+        }
+      ]
+    },
+    {
+      "code": "GRPN",
+      "display": "Group",
+      "definition": "Coverage provided to a group of individuals under a single master policy, typically through an employer or association.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Groupe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grupo"
+        }
+      ]
+    },
+    {
+      "code": "LIFE",
+      "display": "Life Insurance",
+      "definition": "Coverage that provides a monetary benefit to beneficiaries upon the death of the insured.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance-vie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguro de Vida"
+        }
+      ]
+    },
+    {
+      "code": "MISC",
+      "display": "Miscellaneous",
+      "definition": "Coverage that does not fit into standard line of business categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Divers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Misceláneos"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other Lines",
+      "definition": "Products that fall outside the primary categories of personal or commercial lines.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autres catégories"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otras Líneas"
+        }
+      ]
+    },
+    {
+      "code": "PRSL",
+      "display": "Personal Lines",
+      "definition": "Products designed for individuals and families to protect personal assets and liabilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance des particuliers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Líneas Personales"
+        }
+      ]
+    },
+    {
+      "code": "AFIN",
+      "display": "Affinity",
+      "definition": "Programs offered through associations, clubs, or other groups that share common interests or characteristics.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Affinité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Afinidad"
+        }
+      ]
+    },
+    {
+      "code": "SPEC",
+      "display": "Specialty Lines",
+      "definition": "Niche products that address specific or unusual coverage needs not typically handled by standard lines.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lignes spécialisées"
+        },
+        {
+          "language": "es-MX",
+          "value": "Líneas Especializadas"
+        }
+      ]
+    }
+  ]
+}

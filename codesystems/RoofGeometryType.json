@@ -1,0 +1,236 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "RoofGeometryType",
+  "url": "https://bind.codes/RoofGeometryType",
+  "name": "RoofGeometryType",
+  "title": "Roof Geometry Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Roof Geometry Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "COMB",
+      "display": "Combined",
+      "definition": "A roof structure that incorporates multiple geometric styles in its design.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Combiné"
+        },
+        {
+          "language": "es-MX",
+          "value": "Combinado"
+        }
+      ]
+    },
+    {
+      "code": "CPLX",
+      "display": "Complex",
+      "definition": "A roof with an intricate design featuring multiple angles, intersections, and architectural elements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Complexe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Complejo"
+        }
+      ]
+    },
+    {
+      "code": "FLAT",
+      "display": "Flat",
+      "definition": "A horizontal or nearly horizontal roof surface with minimal pitch.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plat"
+        },
+        {
+          "language": "es-MX",
+          "value": "Plano"
+        }
+      ]
+    },
+    {
+      "code": "GABL",
+      "display": "Gable End without Bracing",
+      "definition": "A triangular roof section formed by two sloping sides meeting at a ridge, without structural reinforcement at the gable end.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pignon sans contreventement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hastial sin refuerzo"
+        }
+      ]
+    },
+    {
+      "code": "GBLB",
+      "display": "Gabled End with Bracing",
+      "definition": "A triangular roof section formed by two sloping sides meeting at a ridge, with structural reinforcement at the gable end.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pignon avec contreventement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hastial con refuerzo"
+        }
+      ]
+    },
+    {
+      "code": "GAMB",
+      "display": "Gambrel",
+      "definition": "A symmetrical two-sided roof with two slopes on each side, where the lower slope is steeper than the upper slope.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gambrel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gambrel"
+        }
+      ]
+    },
+    {
+      "code": "HIPP",
+      "display": "Hip",
+      "definition": "A roof with slopes on all four sides that meet at a ridge or peak, with no vertical gable ends.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Croupe"
+        },
+        {
+          "language": "es-MX",
+          "value": "A cuatro aguas"
+        }
+      ]
+    },
+    {
+      "code": "MANS",
+      "display": "Mansard",
+      "definition": "A four-sided roof with two distinct slopes on each side, where the lower slope is steeper and nearly vertical.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mansarde"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mansarda"
+        }
+      ]
+    },
+    {
+      "code": "PYRA",
+      "display": "Pyramid",
+      "definition": "A roof with four triangular sides that meet at a single point at the top.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pyramide"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pirámide"
+        }
+      ]
+    },
+    {
+      "code": "SHED",
+      "display": "Shed",
+      "definition": "A single-sloped roof surface that is attached to a taller wall.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Appentis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cobertizo"
+        }
+      ]
+    },
+    {
+      "code": "SLOP",
+      "display": "Sloped",
+      "definition": "A roof with an inclined surface, general category for pitched roofs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En pente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inclinado"
+        }
+      ]
+    },
+    {
+      "code": "STEP",
+      "display": "Stepped",
+      "definition": "A roof design with multiple levels or tiers creating a stepped appearance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En gradins"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escalonado"
+        }
+      ]
+    },
+    {
+      "code": "SALT",
+      "display": "Saltbox",
+      "definition": "An asymmetrical gable roof with one short side and one long side extending down to the first floor.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Saltbox"
+        },
+        {
+          "language": "es-MX",
+          "value": "Saltbox"
+        }
+      ]
+    },
+    {
+      "code": "SKIL",
+      "display": "Skillion",
+      "definition": "A single-sloped roof, similar to shed but typically steeper and used as a primary roof structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Monopente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Monopendiente"
+        }
+      ]
+    },
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ClaimantStatus",
+  "url": "https://bind.codes/ClaimantStatus",
+  "name": "ClaimantStatus",
+  "title": "Claimant Status",
+  "status": "draft",
+  "language": "en",
+  "description": "Claimant Status codes for insurance operations.",
+  "concept": [
+    {
+      "code": "UNEM",
+      "display": "Unemployed",
+      "definition": "Person who is not currently engaged in paid work and is actively seeking employment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sans emploi"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desempleado"
+        }
+      ]
+    },
+    {
+      "code": "EMPL",
+      "display": "Employed",
+      "definition": "Person who is working for an employer and receives regular wages or salary.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empleado"
+        }
+      ]
+    },
+    {
+      "code": "SELF",
+      "display": "Self-employed",
+      "definition": "Person who operates their own business or provides services independently without being employed by an organization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travailleur autonome"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajador autónomo"
+        }
+      ]
+    },
+    {
+      "code": "DEEM",
+      "display": "Deemed Employed",
+      "definition": "Person who is legally considered to be employed for regulatory or tax purposes, even if the actual working relationship differs from traditional employment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Personne réputée comme étant employé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empleado considerado"
+        }
+      ]
+    },
+    {
+      "code": "CARE",
+      "display": "Caregiver",
+      "definition": "Person who provides care and support to another individual, such as a family member or dependent, who requires assistance with daily activities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soignant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cuidador"
+        }
+      ]
+    },
+    {
+      "code": "PRSC",
+      "display": "Pre-school",
+      "definition": "Child who is not yet enrolled in formal elementary education.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Préscolaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Preescolar"
+        }
+      ]
+    },
+    {
+      "code": "STEL",
+      "display": "Student, Elementary",
+      "definition": "Person enrolled in primary education, typically covering grades 1 through 6 or 8.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Étudiant, école primaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estudiante, escuela primaria"
+        }
+      ]
+    },
+    {
+      "code": "STSC",
+      "display": "Student, Secondary",
+      "definition": "Person enrolled in secondary education, typically covering high school or equivalent levels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Étudiant, école secondaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estudiante, escuela secundaria"
+        }
+      ]
+    },
+    {
+      "code": "STPS",
+      "display": "Student, Post Secondary",
+      "definition": "Person enrolled in post-secondary education such as college, university, or vocational training programs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Étudiant, postsecondaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estudiante, postsecundaria"
+        }
+      ]
+    },
+    {
+      "code": "RETD",
+      "display": "Retired",
+      "definition": "Person who has permanently left the workforce after reaching retirement age or meeting pension eligibility requirements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Retraité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Jubilado"
+        }
+      ]
+    },
+    {
+      "code": "DSBL",
+      "display": "Disabled",
+      "definition": "Person who is unable to work due to physical or mental disability that prevents them from engaging in substantial gainful activity.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Invalide"
+        },
+        {
+          "language": "es-MX",
+          "value": "Discapacitado"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Person whose employment or activity status does not fit into any of the specified categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

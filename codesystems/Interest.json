@@ -1,0 +1,537 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Interest",
+  "url": "https://bind.codes/Interest",
+  "name": "Interest",
+  "title": "Interest",
+  "status": "draft",
+  "language": "en",
+  "description": "Interest codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ACTC",
+      "display": "Accounting Contact",
+      "definition": "Individual or department designated to receive and handle accounting-related communications and documents.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service des comptes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contacto de contabilidad"
+        }
+      ]
+    },
+    {
+      "code": "ADIN",
+      "display": "Additional Interest",
+      "definition": "Party that has a recognizable interest in the covered property or policy but is not named as an insured.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intérêt additionnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Interés adicional"
+        }
+      ]
+    },
+    {
+      "code": "ATFY",
+      "display": "Attorney in Fact",
+      "definition": "Person authorized to act on behalf of another through a power of attorney.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fondé de pouvoir"
+        },
+        {
+          "language": "es-MX",
+          "value": "Apoderado"
+        }
+      ]
+    },
+    {
+      "code": "ADIS",
+      "display": "Additional Insured",
+      "definition": "Party that is added to a policy to receive coverage but is not the primary policyholder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assuré additionnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asegurado adicional"
+        }
+      ]
+    },
+    {
+      "code": "ADLS",
+      "display": "Additional Lessor",
+      "definition": "Secondary party that leases property to others, requiring recognition in coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bailleur supplémentaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arrendador adicional"
+        }
+      ]
+    },
+    {
+      "code": "ACOW",
+      "display": "Actual Owner",
+      "definition": "Legal owner of the property as opposed to the registered owner or lessee.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriétaire réel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propietario real"
+        }
+      ]
+    },
+    {
+      "code": "ASGN",
+      "display": "Assignee",
+      "definition": "Party to whom rights or benefits of a policy have been transferred.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cessionnaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cesionario"
+        }
+      ]
+    },
+    {
+      "code": "BKDS",
+      "display": "Broker/Dispatcher",
+      "definition": "Licensed intermediary who arranges coverage or coordinates transportation services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courtier/Répartiteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corredor/Despachador"
+        }
+      ]
+    },
+    {
+      "code": "BLDW",
+      "display": "Building Owner",
+      "definition": "Legal owner of a structure or building on the covered premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriétaire de l'immeuble"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propietario del edificio"
+        }
+      ]
+    },
+    {
+      "code": "CRTH",
+      "display": "Certificate Holder",
+      "definition": "Party that receives a certificate of coverage as evidence that a policy exists.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Titulaire du certificat"
+        },
+        {
+          "language": "es-MX",
+          "value": "Titular del certificado"
+        }
+      ]
+    },
+    {
+      "code": "CORP",
+      "display": "Corporate Owner",
+      "definition": "Corporation that holds legal ownership of the covered property or asset.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Corporation (propriétaire)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propietario corporativo"
+        }
+      ]
+    },
+    {
+      "code": "COHA",
+      "display": "Cohabitant/Co-Occupant",
+      "definition": "Person residing or occupying the covered property alongside the policyholder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cohabitant/Co-Occupant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cohabitante/Co-ocupante"
+        }
+      ]
+    },
+    {
+      "code": "ESCR",
+      "display": "Escrow Corporation",
+      "definition": "Entity that holds funds or documents in trust for parties involved in a transaction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fiduciaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corporación de depósito en garantía"
+        }
+      ]
+    },
+    {
+      "code": "EXEC",
+      "display": "Executor",
+      "definition": "Person appointed to carry out the terms of a will or estate.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Exécuteur testamentaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Albacea"
+        }
+      ]
+    },
+    {
+      "code": "FINC",
+      "display": "Finance Company",
+      "definition": "Institution that provides lending or financing for the acquisition or lease of property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie de finance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compañía financiera"
+        }
+      ]
+    },
+    {
+      "code": "INSP",
+      "display": "Inspection Contact",
+      "definition": "Individual or organization designated to coordinate property inspections.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nom de l'inspecteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contacto de inspección"
+        }
+      ]
+    },
+    {
+      "code": "LOFC",
+      "display": "Line of Credit",
+      "definition": "Revolving credit arrangement secured against the covered property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marge de crédit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Línea de crédito"
+        }
+      ]
+    },
+    {
+      "code": "LNHD",
+      "display": "Lienholder",
+      "definition": "Party that has a legal claim on property as security for a debt or obligation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Créancier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acreedor prendario"
+        }
+      ]
+    },
+    {
+      "code": "LSPY",
+      "display": "Loss Payee",
+      "definition": "Party designated to receive payment in the event of a covered loss.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bénéficiaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Beneficiario de pérdida"
+        }
+      ]
+    },
+    {
+      "code": "LSSR",
+      "display": "Lessor",
+      "definition": "Party that leases property to another under a rental or lease agreement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bailleur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arrendador"
+        }
+      ]
+    },
+    {
+      "code": "MGFI",
+      "display": "Mortgagee (Financial Institution)",
+      "definition": "Bank or financial institution that holds a mortgage on the covered property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Créancier (institution financière)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acreedor hipotecario (institución financiera)"
+        }
+      ]
+    },
+    {
+      "code": "MGOT",
+      "display": "Mortgagee (Other)",
+      "definition": "Non-financial institution that holds a mortgage on the covered property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Créancier (autre)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Acreedor hipotecario (otro)"
+        }
+      ]
+    },
+    {
+      "code": "MGSA",
+      "display": "Mortgage Servicing Agency",
+      "definition": "Entity that manages mortgage payments and administration on behalf of the lender.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services hypothécaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agencia de servicios hipotecarios"
+        }
+      ]
+    },
+    {
+      "code": "MUNI",
+      "display": "Municipality",
+      "definition": "Local government entity with jurisdiction over the covered property or operation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Municipalité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Municipalidad"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Interest type not otherwise categorized in this list.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "LPAI",
+      "display": "Both Loss Payee and Additional Insured",
+      "definition": "Party designated to both receive loss payments and be covered under the policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bénéficiaire et assuré supplémentaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Beneficiario de pérdida y asegurado adicional"
+        }
+      ]
+    },
+    {
+      "code": "REOW",
+      "display": "Registered Owner",
+      "definition": "Party recorded as the owner in official government or registry records.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriétaire immatriculé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propietario registrado"
+        }
+      ]
+    },
+    {
+      "code": "SLPY",
+      "display": "Secured Loss Payee",
+      "definition": "Loss payee with a security interest in the covered property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bénéficiaire garanti"
+        },
+        {
+          "language": "es-MX",
+          "value": "Beneficiario de pérdida garantizado"
+        }
+      ]
+    },
+    {
+      "code": "TENT",
+      "display": "Tenant",
+      "definition": "Party that occupies property under a rental or lease agreement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Locataire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inquilino"
+        }
+      ]
+    },
+    {
+      "code": "TXPO",
+      "display": "Taxi Plate Owner",
+      "definition": "Party that owns the operating license for a taxi vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriétaire de la plaque de taxi"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propietario de placa de taxi"
+        }
+      ]
+    },
+    {
+      "code": "POWN",
+      "display": "Primary Owner",
+      "definition": "Main legal owner when multiple ownership interests exist.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriétaire principal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propietario principal"
+        }
+      ]
+    },
+    {
+      "code": "TRST",
+      "display": "Trustee",
+      "definition": "Party that holds legal title to property for the benefit of another.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fiduciaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fideicomisario"
+        }
+      ]
+    },
+    {
+      "code": "GUAR",
+      "display": "Guarantor",
+      "definition": "Party that promises to fulfill another's obligation if they default.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Garante"
+        }
+      ]
+    },
+    {
+      "code": "PROP",
+      "display": "Property Manager",
+      "definition": "Entity responsible for day-to-day operations and maintenance of a property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gestionnaire immobilier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Administrador de propiedades"
+        }
+      ]
+    },
+    {
+      "code": "VNDR",
+      "display": "Vendor",
+      "definition": "Party that provides goods or services and requires recognition on the policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vendeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Proveedor"
+        }
+      ]
+    }
+  ]
+}

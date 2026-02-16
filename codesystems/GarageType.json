@@ -1,0 +1,266 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "GarageType",
+  "url": "https://bind.codes/GarageType",
+  "name": "GarageType",
+  "title": "Garage Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Garage Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "NONE",
+      "display": "None",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "BTIN",
+      "display": "Built in",
+      "definition": "A garage that is integrated within the main structure of the building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Encastré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incorporado"
+        }
+      ]
+    },
+    {
+      "code": "BSMT",
+      "display": "Basement",
+      "definition": "A parking area located in the basement level of the building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous-sol"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sótano"
+        }
+      ]
+    },
+    {
+      "code": "CRPT",
+      "display": "Carport",
+      "definition": "A covered structure designed to shelter vehicles, typically with a roof and open sides.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Abri d'auto"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cochera abierta"
+        }
+      ]
+    },
+    {
+      "code": "ATFR",
+      "display": "Attached Frame",
+      "definition": "A garage attached to the main building with wood frame construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Attachée - Charpente de bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Adjunto - Armazón de madera"
+        }
+      ]
+    },
+    {
+      "code": "ATMV",
+      "display": "Attached Masonry or Masonry/Veneer",
+      "definition": "A garage attached to the main building with masonry or masonry veneer construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Attachée - Maçonnerie ou parement de maçonnerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Adjunto - Mampostería o revestimiento"
+        }
+      ]
+    },
+    {
+      "code": "DTFR",
+      "display": "Detached Frame",
+      "definition": "A garage separate from the main building with wood frame construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Individuelle - Charpente de bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Separado - Armazón de madera"
+        }
+      ]
+    },
+    {
+      "code": "DTMV",
+      "display": "Detached Masonry or Masonry/Veneer",
+      "definition": "A garage separate from the main building with masonry or masonry veneer construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Individuelle - Maçonnerie ou parement de maçonnerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Separado - Mampostería o revestimiento"
+        }
+      ]
+    },
+    {
+      "code": "ATMS",
+      "display": "Attached Masonry",
+      "definition": "A garage attached to the main building with masonry construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Attachée - Maçonnerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Adjunto - Mampostería"
+        }
+      ]
+    },
+    {
+      "code": "BUAG",
+      "display": "Basement Under Attached Garage",
+      "definition": "A basement space located beneath an attached garage structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous-sol sous garage attaché"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sótano bajo garaje adjunto"
+        }
+      ]
+    },
+    {
+      "code": "CPST",
+      "display": "Carport With Storage",
+      "definition": "A covered parking structure with additional enclosed storage area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Abri d'auto avec espace de rangement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cochera abierta con almacenamiento"
+        }
+      ]
+    },
+    {
+      "code": "DTMS",
+      "display": "Detached Masonry",
+      "definition": "A garage separate from the main building with masonry construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage détaché - Maçonnerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Garaje separado - Mampostería"
+        }
+      ]
+    },
+    {
+      "code": "ATOT",
+      "display": "Attached - Other",
+      "definition": "A garage attached to the main building with a construction type not otherwise specified.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage accolé - Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Garaje adjunto - Otro"
+        }
+      ]
+    },
+    {
+      "code": "DTOT",
+      "display": "Detached - Other",
+      "definition": "A garage separate from the main building with a construction type not otherwise specified.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage isolé - Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Garaje separado - Otro"
+        }
+      ]
+    },
+    {
+      "code": "ATCB",
+      "display": "Attached Concrete Block",
+      "definition": "A garage attached to the main building with concrete block construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Attaché - Bloc de béton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Adjunto - Bloque de concreto"
+        }
+      ]
+    },
+    {
+      "code": "DTCB",
+      "display": "Detached Concrete Block",
+      "definition": "A garage separate from the main building with concrete block construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détaché - Bloc de béton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Separado - Bloque de concreto"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "A garage type not otherwise specified in this code system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

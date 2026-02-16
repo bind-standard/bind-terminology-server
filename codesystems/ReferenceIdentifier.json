@@ -1,0 +1,1362 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ReferenceIdentifier",
+  "url": "https://bind.codes/ReferenceIdentifier",
+  "name": "ReferenceIdentifier",
+  "title": "Reference Identifier",
+  "status": "draft",
+  "language": "en",
+  "description": "Codes representing reference identifiers used to link entities within data structures.",
+  "concept": [
+    {
+      "code": "AFRL",
+      "display": "Affiliation Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'affiliation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de afiliación"
+        }
+      ],
+      "definition": "Identifier linking a person to an organization with which they have an affiliation relationship."
+    },
+    {
+      "code": "AGGR",
+      "display": "Aggregate Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'agrégat"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de agregado"
+        }
+      ],
+      "definition": "Identifier linking an item to its parent aggregate or associated element."
+    },
+    {
+      "code": "APPR",
+      "display": "Appraiser Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'évaluateur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de tasador"
+        }
+      ],
+      "definition": "Identifier referencing a professional who conducts appraisals or valuations."
+    },
+    {
+      "code": "ASGN",
+      "display": "Assignment Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'affectation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de asignación"
+        }
+      ],
+      "definition": "Identifier linking an adjuster to assigned claims parties, coverages, or loss information."
+    },
+    {
+      "code": "ASML",
+      "display": "Assignment Multiple Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'affectations multiples"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de asignaciones múltiples"
+        }
+      ],
+      "definition": "Identifier linking an adjuster to multiple assigned entities such as claims parties, coverages, or loss records."
+    },
+    {
+      "code": "AUDR",
+      "display": "Auditor Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'auditeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de auditor"
+        }
+      ],
+      "definition": "Identifier referencing the person or organization performing an audit."
+    },
+    {
+      "code": "ATHR",
+      "display": "Authorized Representative Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de représentant autorisé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de representante autorizado"
+        }
+      ],
+      "definition": "Identifier referencing an attorney or authorized representative acting on behalf of an individual in a claim."
+    },
+    {
+      "code": "BTRM",
+      "display": "Base Terminal Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de terminal de base"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de terminal base"
+        }
+      ],
+      "definition": "Identifier referencing the primary operating terminal or depot location."
+    },
+    {
+      "code": "BEXP",
+      "display": "Building Exposure Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'exposition de bâtiment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de exposición de edificio"
+        }
+      ],
+      "definition": "Identifier referencing a building that represents an exposure to potential loss."
+    },
+    {
+      "code": "BUYR",
+      "display": "Buyer Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'acheteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de comprador"
+        }
+      ],
+      "definition": "Identifier referencing the purchaser of an item or property."
+    },
+    {
+      "code": "CRTP",
+      "display": "Certifying Party Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de partie certifiante"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de parte certificadora"
+        }
+      ],
+      "definition": "Identifier referencing the party that certified an item, installation, or condition."
+    },
+    {
+      "code": "CPR1",
+      "display": "Claims Party Reference 1",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de partie de réclamation 1"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de parte de reclamo 1"
+        }
+      ],
+      "definition": "Identifier referencing the first claims party in a relationship or transaction."
+    },
+    {
+      "code": "CPR2",
+      "display": "Claims Party Reference 2",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de partie de réclamation 2"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de parte de reclamo 2"
+        }
+      ],
+      "definition": "Identifier referencing the second claims party in a relationship or transaction."
+    },
+    {
+      "code": "CPAR",
+      "display": "Claims Party Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de partie de réclamation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de parte de reclamo"
+        }
+      ],
+      "definition": "Identifier referencing an individual or entity involved in a claim."
+    },
+    {
+      "code": "CPML",
+      "display": "Claims Party Multiple Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de parties de réclamation multiples"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de partes de reclamo múltiples"
+        }
+      ],
+      "definition": "Identifier referencing multiple claims parties involved in a claim."
+    },
+    {
+      "code": "CPRL",
+      "display": "Claims Party Role Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de rôle de partie de réclamation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de rol de parte de reclamo"
+        }
+      ],
+      "definition": "Identifier referencing the specific role of a claims party within a claim."
+    },
+    {
+      "code": "CRVW",
+      "display": "Claims Reviewer Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'examinateur de réclamations"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de revisor de reclamos"
+        }
+      ],
+      "definition": "Identifier referencing individuals responsible for reviewing and evaluating claims."
+    },
+    {
+      "code": "CDLS",
+      "display": "Code List Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de liste de codes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de lista de códigos"
+        }
+      ],
+      "definition": "Identifier referencing a standardized code list or value set."
+    },
+    {
+      "code": "CIML",
+      "display": "Commercial Inland Marine Location Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de lieu maritime intérieur commercial"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de ubicación marítima interior comercial"
+        }
+      ],
+      "definition": "Identifier referencing a location covered under commercial inland marine coverage."
+    },
+    {
+      "code": "CSAV",
+      "display": "Contained in Safe or Vault Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de contenu dans coffre-fort ou chambre forte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de contenido en caja fuerte o bóveda"
+        }
+      ],
+      "definition": "Identifier referencing the safe or vault containing an item, such as when a safe is located within a larger vault."
+    },
+    {
+      "code": "CVRT",
+      "display": "Conversion Rate Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de taux de conversion"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de tasa de conversión"
+        }
+      ],
+      "definition": "Identifier referencing currency conversion rates or unit conversion factors."
+    },
+    {
+      "code": "COVR",
+      "display": "Coverage Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de couverture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de cobertura"
+        }
+      ],
+      "definition": "Identifier referencing coverage components within a policy."
+    },
+    {
+      "code": "DKLC",
+      "display": "Dock Location Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de lieu de quai"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de ubicación de muelle"
+        }
+      ],
+      "definition": "Identifier referencing a dock or wharf location where vessels are moored."
+    },
+    {
+      "code": "DRNM",
+      "display": "Driver Name Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de nom de conducteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de nombre de conductor"
+        }
+      ],
+      "definition": "Identifier referencing a driver's name record."
+    },
+    {
+      "code": "DRVR",
+      "display": "Driver Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de conducteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de conductor"
+        }
+      ],
+      "definition": "Identifier referencing an individual authorized to operate a vehicle."
+    },
+    {
+      "code": "DRML",
+      "display": "Driver Multiple Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de conducteurs multiples"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de conductores múltiples"
+        }
+      ],
+      "definition": "Identifier referencing multiple drivers associated with a policy or vehicle."
+    },
+    {
+      "code": "DRVH",
+      "display": "Driver Vehicle Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de conducteur-véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de conductor-vehículo"
+        }
+      ],
+      "definition": "Identifier linking driver and vehicle information for assignment or rating purposes."
+    },
+    {
+      "code": "DWEL",
+      "display": "Dwelling Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de logement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de vivienda"
+        }
+      ],
+      "definition": "Identifier referencing a residential structure or dwelling unit."
+    },
+    {
+      "code": "EMPL",
+      "display": "Employee Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'employé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de empleado"
+        }
+      ],
+      "definition": "Identifier referencing an employee or worker within an organization."
+    },
+    {
+      "code": "ERRR",
+      "display": "Error Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'erreur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de error"
+        }
+      ],
+      "definition": "Identifier referencing the source element or aggregate that generated an error in data processing."
+    },
+    {
+      "code": "FRML",
+      "display": "Farm Liability Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de responsabilité agricole"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de responsabilidad agrícola"
+        }
+      ],
+      "definition": "Identifier referencing farm liability coverage or exposure."
+    },
+    {
+      "code": "FLET",
+      "display": "Fleet Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de flotte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de flota"
+        }
+      ],
+      "definition": "Identifier referencing a group of vehicles operated under common ownership or management."
+    },
+    {
+      "code": "HTUN",
+      "display": "Heating Unit Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'unité de chauffage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de unidad de calefacción"
+        }
+      ],
+      "definition": "Identifier referencing heating equipment or system components."
+    },
+    {
+      "code": "IREF",
+      "display": "Element Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'élément"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de elemento"
+        }
+      ],
+      "definition": "Identifier referencing a specific element within a data stream or message."
+    },
+    {
+      "code": "IRML",
+      "display": "Element Multiple Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'éléments multiples"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de elementos múltiples"
+        }
+      ],
+      "definition": "Identifier referencing multiple specific elements within a data stream or message."
+    },
+    {
+      "code": "IMAG",
+      "display": "Impound Agency Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'agence de saisie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de agencia de decomiso"
+        }
+      ],
+      "definition": "Identifier referencing the agency responsible for impounding a vehicle or property."
+    },
+    {
+      "code": "IMFC",
+      "display": "Impound Facility Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'installation de saisie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de instalación de decomiso"
+        }
+      ],
+      "definition": "Identifier referencing the facility where impounded property is stored."
+    },
+    {
+      "code": "INTK",
+      "display": "Injured Taken Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de lieu de transfert du blessé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de traslado de lesionado"
+        }
+      ],
+      "definition": "Identifier referencing the location where an injured party was taken for treatment following an incident."
+    },
+    {
+      "code": "INSP",
+      "display": "Inspection Party Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de partie d'inspection"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de parte de inspección"
+        }
+      ],
+      "definition": "Identifier referencing parties involved in conducting inspections."
+    },
+    {
+      "code": "INSTP",
+      "display": "Installing Party Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de partie installatrice"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de parte instaladora"
+        }
+      ],
+      "definition": "Identifier referencing the party that installed equipment, systems, or components."
+    },
+    {
+      "code": "ISNM",
+      "display": "Insured Name Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de nom d'assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de nombre de asegurado"
+        }
+      ],
+      "definition": "Identifier referencing the named individual or entity covered by a policy."
+    },
+    {
+      "code": "INVS",
+      "display": "Investigator Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'enquêteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de investigador"
+        }
+      ],
+      "definition": "Identifier referencing an investigator assigned to examine a claim or incident."
+    },
+    {
+      "code": "ITEM",
+      "display": "Item Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'article"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de artículo"
+        }
+      ],
+      "definition": "Identifier referencing a specific item of property or equipment."
+    },
+    {
+      "code": "LOCN",
+      "display": "Location Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de lieu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de ubicación"
+        }
+      ],
+      "definition": "Identifier referencing a geographic location or address."
+    },
+    {
+      "code": "LSPY",
+      "display": "Loss Payee Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de bénéficiaire en cas de sinistre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de beneficiario de pérdida"
+        }
+      ],
+      "definition": "Identifier referencing a party with a financial interest in property, such as a lender or mortgagee, who would receive payment in the event of a loss."
+    },
+    {
+      "code": "MTNS",
+      "display": "Maintenance Supervisor Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de superviseur de maintenance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de supervisor de mantenimiento"
+        }
+      ],
+      "definition": "Identifier referencing the supervisor responsible for maintenance operations."
+    },
+    {
+      "code": "MSCP",
+      "display": "Miscellaneous Party Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de partie diverse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de parte diversa"
+        }
+      ],
+      "definition": "Identifier referencing a party that does not fall into standard categories."
+    },
+    {
+      "code": "NMIN",
+      "display": "Name Information Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'information de nom"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de información de nombre"
+        }
+      ],
+      "definition": "Identifier referencing detailed name information for an individual or entity."
+    },
+    {
+      "code": "NMNL",
+      "display": "Name Information Multiple Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'informations de noms multiples"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de información de nombres múltiples"
+        }
+      ],
+      "definition": "Identifier referencing multiple name records."
+    },
+    {
+      "code": "OTPP",
+      "display": "Other or Prior Policy Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de police antérieure ou autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de póliza anterior u otra"
+        }
+      ],
+      "definition": "Identifier referencing a previous policy or other underlying coverage."
+    },
+    {
+      "code": "OWNR",
+      "display": "Owner Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de propriétaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de propietario"
+        }
+      ],
+      "definition": "Identifier referencing the legal owner of property or a vehicle."
+    },
+    {
+      "code": "PAYR",
+      "display": "Payor Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de payeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de pagador"
+        }
+      ],
+      "definition": "Identifier referencing the party responsible for making payments."
+    },
+    {
+      "code": "PLTF",
+      "display": "Plaintiff Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de demandeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de demandante"
+        }
+      ],
+      "definition": "Identifier referencing parties bringing legal action in a lawsuit."
+    },
+    {
+      "code": "PTOR",
+      "display": "Port of Origin Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de port d'origine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de puerto de origen"
+        }
+      ],
+      "definition": "Identifier referencing the port where a shipment originated."
+    },
+    {
+      "code": "PFCT",
+      "display": "Preferred Contact Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de contact préféré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de contacto preferido"
+        }
+      ],
+      "definition": "Identifier referencing preferred contact timing or method for communication."
+    },
+    {
+      "code": "PRVR",
+      "display": "Previous Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence précédente"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia anterior"
+        }
+      ],
+      "definition": "Identifier referencing previously mentioned elements within a data stream."
+    },
+    {
+      "code": "PRNA",
+      "display": "Principal Address Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'adresse principale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de dirección principal"
+        }
+      ],
+      "definition": "Identifier referencing the primary address of a principal or insured party."
+    },
+    {
+      "code": "PROD",
+      "display": "Producer Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de producteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de productor"
+        }
+      ],
+      "definition": "Identifier referencing an agent, broker, or producer selling policies."
+    },
+    {
+      "code": "PRPS",
+      "display": "Property Schedule Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de cédule de biens"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de programa de propiedad"
+        }
+      ],
+      "definition": "Identifier referencing scheduled property items and their details."
+    },
+    {
+      "code": "PRSU",
+      "display": "Property Summary Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de résumé de biens"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de resumen de propiedad"
+        }
+      ],
+      "definition": "Identifier referencing a summary view of property schedule information."
+    },
+    {
+      "code": "RTDR",
+      "display": "Rated Driver Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de conducteur tarifé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de conductor calificado"
+        }
+      ],
+      "definition": "Identifier referencing the driver used for calculating premium rates."
+    },
+    {
+      "code": "RCVA",
+      "display": "Recovery Agency Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'agence de récupération"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de agencia de recuperación"
+        }
+      ],
+      "definition": "Identifier referencing an agency specializing in vehicle or property recovery."
+    },
+    {
+      "code": "RGON",
+      "display": "Registered Owner Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de propriétaire enregistré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de propietario registrado"
+        }
+      ],
+      "definition": "Identifier referencing the party officially registered as the owner with authorities."
+    },
+    {
+      "code": "RTLC",
+      "display": "Related to Location Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de lieu associé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de ubicación relacionada"
+        }
+      ],
+      "definition": "Identifier referencing locations related through proximity or operational relationships."
+    },
+    {
+      "code": "RTSL",
+      "display": "Related to Sublocation Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de sous-lieu associé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de sububicación relacionada"
+        }
+      ],
+      "definition": "Identifier referencing sublocations that have defined relationships."
+    },
+    {
+      "code": "RPBY",
+      "display": "Reported By Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de déclarant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de reportado por"
+        }
+      ],
+      "definition": "Identifier referencing the party who reported a claim or incident."
+    },
+    {
+      "code": "RPTO",
+      "display": "Reported To Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de destinataire de déclaration"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de reportado a"
+        }
+      ],
+      "definition": "Identifier referencing the party to whom a claim or incident was reported."
+    },
+    {
+      "code": "SFTS",
+      "display": "Safety Supervisor Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de superviseur de sécurité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de supervisor de seguridad"
+        }
+      ],
+      "definition": "Identifier referencing the supervisor responsible for safety programs and compliance."
+    },
+    {
+      "code": "SLVA",
+      "display": "Salvage Agency Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'agence de récupération"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de agencia de salvamento"
+        }
+      ],
+      "definition": "Identifier referencing an agency handling salvage operations for damaged property."
+    },
+    {
+      "code": "SINF",
+      "display": "Second Injury Fund Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de fonds de seconde blessure"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de fondo de segunda lesión"
+        }
+      ],
+      "definition": "Identifier referencing a statutory fund providing benefits for subsequent workplace injuries."
+    },
+    {
+      "code": "SFED",
+      "display": "Field Edit Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de modification de champ"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de edición de campo"
+        }
+      ],
+      "definition": "Transient identifier for field-level validation or edit operations."
+    },
+    {
+      "code": "SRED",
+      "display": "Relational Edit Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de modification relationnelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de edición relacional"
+        }
+      ],
+      "definition": "Transient identifier for relational validation or edit operations."
+    },
+    {
+      "code": "STLC",
+      "display": "Storage Location Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de lieu d'entreposage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de ubicación de almacenamiento"
+        }
+      ],
+      "definition": "Identifier referencing where property or equipment is stored."
+    },
+    {
+      "code": "STRC",
+      "display": "Structure Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de structure"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de estructura"
+        }
+      ],
+      "definition": "Identifier referencing a building or physical structure."
+    },
+    {
+      "code": "SBCT",
+      "display": "Subcontractor Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de sous-traitant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de subcontratista"
+        }
+      ],
+      "definition": "Identifier referencing a party contracted to perform specific work under a primary contractor."
+    },
+    {
+      "code": "SBLC",
+      "display": "Sublocation Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de sous-lieu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de sububicación"
+        }
+      ],
+      "definition": "Identifier referencing a specific area or zone within a larger location."
+    },
+    {
+      "code": "TERM",
+      "display": "Terminal Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de terminal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de terminal"
+        }
+      ],
+      "definition": "Identifier referencing a transportation terminal or depot facility."
+    },
+    {
+      "code": "TOWV",
+      "display": "Towing Vehicle Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de véhicule remorqueur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de vehículo de remolque"
+        }
+      ],
+      "definition": "Identifier referencing the vehicle providing towing capability, typically used for trailers."
+    },
+    {
+      "code": "TTVH",
+      "display": "Trailer Train Vehicle Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de véhicules en train de remorques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de vehículo de tren de remolques"
+        }
+      ],
+      "definition": "Identifier referencing vehicles forming part of a trailer train configuration."
+    },
+    {
+      "code": "UION",
+      "display": "Union Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de syndicat"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de sindicato"
+        }
+      ],
+      "definition": "Identifier referencing a labor union or workers' organization."
+    },
+    {
+      "code": "VPDR",
+      "display": "Vehicle Principally Driven Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de véhicule principalement conduit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de vehículo conducido principalmente"
+        }
+      ],
+      "definition": "Identifier referencing the vehicle most frequently operated by a specific driver."
+    },
+    {
+      "code": "VHCL",
+      "display": "Vehicle Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de vehículo"
+        }
+      ],
+      "definition": "Identifier referencing a motorized vehicle or conveyance."
+    },
+    {
+      "code": "VHML",
+      "display": "Vehicle Multiple Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de véhicules multiples"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de vehículos múltiples"
+        }
+      ],
+      "definition": "Identifier referencing multiple vehicles associated with a policy or operation."
+    },
+    {
+      "code": "VWIT",
+      "display": "View Item Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de visualisation d'article"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de visualización de artículo"
+        }
+      ],
+      "definition": "Identifier referencing scheduling information for viewing or inspecting an item."
+    },
+    {
+      "code": "WTAC",
+      "display": "Watercraft Accessory Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'accessoire d'embarcation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de accesorio de embarcación"
+        }
+      ],
+      "definition": "Identifier referencing accessories associated with watercraft such as motors, trailers, and equipment."
+    },
+    {
+      "code": "WTCR",
+      "display": "Watercraft Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'embarcation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de embarcación"
+        }
+      ],
+      "definition": "Identifier referencing a vessel or watercraft including boats and associated equipment."
+    },
+    {
+      "code": "WTML",
+      "display": "Watercraft Multiple Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'embarcations multiples"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de embarcaciones múltiples"
+        }
+      ],
+      "definition": "Identifier referencing multiple watercraft units."
+    },
+    {
+      "code": "BENF",
+      "display": "Beneficiary Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de bénéficiaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de beneficiario"
+        }
+      ],
+      "definition": "Identifier referencing a party designated to receive benefits or proceeds."
+    },
+    {
+      "code": "COSN",
+      "display": "Cosigner Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence de cosignataire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de cosignatario"
+        }
+      ],
+      "definition": "Identifier referencing a party who shares financial responsibility for an agreement."
+    },
+    {
+      "code": "EXAM",
+      "display": "Examiner Reference",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Référence d'examinateur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Referencia de examinador"
+        }
+      ],
+      "definition": "Identifier referencing a professional conducting examinations or assessments."
+    }
+  ]
+}

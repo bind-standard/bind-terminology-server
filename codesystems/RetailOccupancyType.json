@@ -1,0 +1,492 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "RetailOccupancyType",
+  "url": "https://bind.codes/RetailOccupancyType",
+  "name": "RetailOccupancyType",
+  "title": "Retail Occupancy Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Retail occupancy type codes for commercial property classification.",
+  "concept": [
+    {
+      "code": "BKRY",
+      "display": "Bakery/Coffee Shop",
+      "definition": "Establishment that prepares and sells baked goods, often combined with coffee service.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boulangerie/Café"
+        },
+        {
+          "language": "es-MX",
+          "value": "Panadería/Cafetería"
+        }
+      ]
+    },
+    {
+      "code": "GROC",
+      "display": "Grocery",
+      "definition": "Retail establishment that sells food and household items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Épicerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda de comestibles"
+        }
+      ]
+    },
+    {
+      "code": "CONV",
+      "display": "Convenience Store/Dollar Store",
+      "definition": "Small retail store offering everyday items and extended hours, or low-price variety store.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dépanneur/Magasin à un dollar"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda de conveniencia/Tienda de todo a un dólar"
+        }
+      ]
+    },
+    {
+      "code": "GAST",
+      "display": "Gas Station/Carwash",
+      "definition": "Facility that sells fuel and automotive products, may include vehicle washing services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Station-service/Lave-auto"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gasolinera/Lavado de autos"
+        }
+      ]
+    },
+    {
+      "code": "RGAR",
+      "display": "Repair Garage",
+      "definition": "Facility providing vehicle maintenance and repair services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage de réparation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Taller mecánico"
+        }
+      ]
+    },
+    {
+      "code": "CLTH",
+      "display": "Clothing/Accessories",
+      "definition": "Retail store selling apparel, footwear, and fashion accessories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vêtements/Accessoires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ropa/Accesorios"
+        }
+      ]
+    },
+    {
+      "code": "BOOK",
+      "display": "Books/Household Goods",
+      "definition": "Store selling books, stationery, and general household merchandise.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Livres/Articles ménagers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Libros/Artículos para el hogar"
+        }
+      ]
+    },
+    {
+      "code": "DRUG",
+      "display": "Drugstore",
+      "definition": "Retail pharmacy that dispenses medications and sells health and personal care products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pharmacie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Farmacia"
+        }
+      ]
+    },
+    {
+      "code": "FLWR",
+      "display": "Flower Shop",
+      "definition": "Retail business selling fresh cut flowers, potted plants, and floral arrangements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boutique de fleuriste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Floristería"
+        }
+      ]
+    },
+    {
+      "code": "LNDR",
+      "display": "Laundromat",
+      "definition": "Self-service facility with coin-operated washing and drying machines.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Buanderie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Lavandería"
+        }
+      ]
+    },
+    {
+      "code": "SPAS",
+      "display": "Spa/Hair Salon",
+      "definition": "Establishment providing personal care services including hairstyling, beauty treatments, and wellness services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Spa/Salon de coiffure"
+        },
+        {
+          "language": "es-MX",
+          "value": "Spa/Salón de belleza"
+        }
+      ]
+    },
+    {
+      "code": "ELEC",
+      "display": "Appliance/Electronic Stores",
+      "definition": "Retail outlet selling household appliances and consumer electronics.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Magasins d'électroménagers/Appareils électroniques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tiendas de electrodomésticos/Electrónicos"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other Retail Store",
+      "definition": "Retail establishment not classified in other specific categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre magasin de détail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otra tienda al por menor"
+        }
+      ]
+    },
+    {
+      "code": "TIRE",
+      "display": "Tire Sales/Storage",
+      "definition": "Business specializing in tire sales, installation, and seasonal storage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente et entreposage de pneus"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta/Almacenamiento de neumáticos"
+        }
+      ]
+    },
+    {
+      "code": "REST",
+      "display": "Restaurant/Bar/Night Club",
+      "definition": "Food service establishment, drinking establishment, or entertainment venue serving food and beverages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Restaurant/Bar/Boîte de nuit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Restaurante/Bar/Club nocturno"
+        }
+      ]
+    },
+    {
+      "code": "BIGB",
+      "display": "Big Box Store/Hardware Store/Building Supply Store",
+      "definition": "Large-format retail outlet selling general merchandise, tools, or construction materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Magasin grande surface/Quincaillerie/Magasin de matériaux de construction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda de gran formato/Ferretería/Tienda de materiales de construcción"
+        }
+      ]
+    },
+    {
+      "code": "HOTL",
+      "display": "Hotel",
+      "definition": "Accommodation facility offering lodging and hospitality services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hôtel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hotel"
+        }
+      ]
+    },
+    {
+      "code": "MOTL",
+      "display": "Motel",
+      "definition": "Roadside lodging facility with parking directly accessible to guest rooms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Motel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Motel"
+        }
+      ]
+    },
+    {
+      "code": "HLTH",
+      "display": "Health Club",
+      "definition": "Fitness facility offering exercise equipment, classes, and wellness programs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Club de santé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gimnasio"
+        }
+      ]
+    },
+    {
+      "code": "CINE",
+      "display": "Cinema",
+      "definition": "Movie theater facility for screening films to the public.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cinéma"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cine"
+        }
+      ]
+    },
+    {
+      "code": "CLIN",
+      "display": "Clinic",
+      "definition": "Medical facility providing outpatient healthcare services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clinique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clínica"
+        }
+      ]
+    },
+    {
+      "code": "KNNL",
+      "display": "Dog Kennel",
+      "definition": "Facility providing boarding, training, or breeding services for dogs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chenil"
+        },
+        {
+          "language": "es-MX",
+          "value": "Perrera"
+        }
+      ]
+    },
+    {
+      "code": "CHRC",
+      "display": "Church",
+      "definition": "Place of worship and religious congregation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Église"
+        },
+        {
+          "language": "es-MX",
+          "value": "Iglesia"
+        }
+      ]
+    },
+    {
+      "code": "DAYC",
+      "display": "Daycare/School",
+      "definition": "Facility providing childcare services or educational instruction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garderie/École"
+        },
+        {
+          "language": "es-MX",
+          "value": "Guardería/Escuela"
+        }
+      ]
+    },
+    {
+      "code": "STDO",
+      "display": "Martial Arts/Dance Studio",
+      "definition": "Facility offering instruction in martial arts, dance, or other physical disciplines.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Studios d'arts martiaux/De danse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estudio de artes marciales/Danza"
+        }
+      ]
+    },
+    {
+      "code": "JEWL",
+      "display": "Jewelry Store",
+      "definition": "Retail store selling fine jewelry, watches, and precious metals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bijouterie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Joyería"
+        }
+      ]
+    },
+    {
+      "code": "FURN",
+      "display": "Furniture Store",
+      "definition": "Retail establishment selling home and office furniture.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Magasin de meubles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mueblería"
+        }
+      ]
+    },
+    {
+      "code": "PETC",
+      "display": "Pet Store",
+      "definition": "Retail business selling pets, pet supplies, and pet food.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Animalerie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda de mascotas"
+        }
+      ]
+    },
+    {
+      "code": "LIQR",
+      "display": "Liquor Store",
+      "definition": "Retail outlet specializing in alcoholic beverages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Magasin de vins et spiritueux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Licorería"
+        }
+      ]
+    },
+    {
+      "code": "OPTI",
+      "display": "Optical Store",
+      "definition": "Retail store selling eyeglasses, contact lenses, and vision care products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Magasin d'optique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Óptica"
+        }
+      ]
+    },
+    {
+      "code": "SPRT",
+      "display": "Sporting Goods Store",
+      "definition": "Retail outlet selling athletic equipment, sportswear, and outdoor gear.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Magasin d'articles de sport"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tienda de artículos deportivos"
+        }
+      ]
+    },
+    {
+      "code": "NXXZ",
+      "display": "Other",
+      "definition": "Occupancy type not elsewhere classified.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

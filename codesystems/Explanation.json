@@ -1,0 +1,162 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Explanation",
+  "url": "https://bind.codes/Explanation",
+  "name": "Explanation",
+  "title": "Explanation",
+  "status": "draft",
+  "language": "en",
+  "description": "Explanation codes for insurance operations.",
+  "concept": [
+    {
+      "code": "DCHR",
+      "display": "Day/Child Care",
+      "definition": "A facility or service providing supervision and care for children during daytime hours.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garderie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Guardería"
+        }
+      ]
+    },
+    {
+      "code": "FARM",
+      "display": "Farming",
+      "definition": "Agricultural activities involving cultivation of crops or raising of livestock.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agriculture"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agricultura"
+        }
+      ]
+    },
+    {
+      "code": "HINS",
+      "display": "Applicant has insurance",
+      "definition": "The applicant currently holds active coverage with another provider.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Le demandeur a une assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "El solicitante tiene seguro"
+        }
+      ]
+    },
+    {
+      "code": "HMOF",
+      "display": "Home Office/Business",
+      "definition": "A workspace or commercial activity operated from a residential property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bureau/Entreprise à la maison"
+        },
+        {
+          "language": "es-MX",
+          "value": "Oficina/Negocio en casa"
+        }
+      ]
+    },
+    {
+      "code": "NWDR",
+      "display": "New Driver",
+      "definition": "A person who has recently obtained their driver's license or has limited driving experience.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nouveau conducteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conductor nuevo"
+        }
+      ]
+    },
+    {
+      "code": "NRNW",
+      "display": "Previous policy did not renew",
+      "definition": "The applicant's prior coverage was not continued at expiration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "La police précédente n'a pas été renouvelée"
+        },
+        {
+          "language": "es-MX",
+          "value": "La póliza anterior no se renovó"
+        }
+      ]
+    },
+    {
+      "code": "CNCL",
+      "display": "Previous policy was cancelled",
+      "definition": "The applicant's prior coverage was terminated before the expiration date.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "La police précédente a été annulée"
+        },
+        {
+          "language": "es-MX",
+          "value": "La póliza anterior fue cancelada"
+        }
+      ]
+    },
+    {
+      "code": "RELO",
+      "display": "Relocation",
+      "definition": "The applicant has moved to a new address or geographic area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Déménagement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Reubicación"
+        }
+      ]
+    },
+    {
+      "code": "VHCH",
+      "display": "Vehicle change",
+      "definition": "The applicant has acquired, sold, or replaced a vehicle.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Changement de véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cambio de vehículo"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "A reason not covered by the predefined categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

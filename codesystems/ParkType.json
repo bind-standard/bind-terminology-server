@@ -1,0 +1,71 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ParkType",
+  "url": "https://bind.codes/ParkType",
+  "name": "ParkType",
+  "title": "Park Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Park Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "YRND",
+      "display": "Year Round",
+      "definition": "A mobile home park that operates throughout the entire calendar year with no seasonal closures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toute l'année"
+        },
+        {
+          "language": "es-MX",
+          "value": "Todo el año"
+        }
+      ]
+    },
+    {
+      "code": "SESN",
+      "display": "Seasonal",
+      "definition": "A mobile home park that operates only during specific seasons of the year, typically closing during winter months.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Saisonnier"
+        },
+        {
+          "language": "es-MX",
+          "value": "De temporada"
+        }
+      ]
+    },
+    {
+      "code": "NMHP",
+      "display": "Not in Mobile Home Park",
+      "definition": "A mobile home that is located on private property or land outside of a designated mobile home park or community.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pas dans un parc de maisons mobiles"
+        },
+        {
+          "language": "es-MX",
+          "value": "No en parque de casas móviles"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

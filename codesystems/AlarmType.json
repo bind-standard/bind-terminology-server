@@ -1,0 +1,177 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "AlarmType",
+  "url": "https://bind.codes/AlarmType",
+  "name": "AlarmType",
+  "title": "Alarm Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Alarm Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "FIRE",
+      "display": "Fire",
+      "definition": "Alarm system designed to detect fire through heat, flame, or combustion byproducts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Incendie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Incendio"
+        }
+      ]
+    },
+    {
+      "code": "BRGL",
+      "display": "Burglar",
+      "definition": "Alarm system designed to detect unauthorized entry or intrusion into a property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vol"
+        },
+        {
+          "language": "es-MX",
+          "value": "Robo"
+        }
+      ]
+    },
+    {
+      "code": "HUMD",
+      "display": "Humidity",
+      "definition": "Alarm system that monitors moisture levels to detect excessive humidity.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Humidité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Humedad"
+        }
+      ]
+    },
+    {
+      "code": "SMOK",
+      "display": "Smoke",
+      "definition": "Alarm system designed to detect smoke particles in the air, typically from fire or smoldering materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fumée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Humo"
+        }
+      ]
+    },
+    {
+      "code": "TEMP",
+      "display": "Temperature",
+      "definition": "Alarm system that monitors ambient temperature to detect extreme heat or freezing conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Température"
+        },
+        {
+          "language": "es-MX",
+          "value": "Temperatura"
+        }
+      ]
+    },
+    {
+      "code": "SPRK",
+      "display": "Sprinkler Alarm",
+      "definition": "Alarm system integrated with fire suppression sprinkler systems to indicate activation or malfunction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gicleur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rociador"
+        }
+      ]
+    },
+    {
+      "code": "CMON",
+      "display": "Carbon Monoxide",
+      "definition": "Alarm system designed to detect carbon monoxide gas, a colorless and odorless toxic byproduct of combustion.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Monoxyde de carbone"
+        },
+        {
+          "language": "es-MX",
+          "value": "Monóxido de carbono"
+        }
+      ]
+    },
+    {
+      "code": "WATR",
+      "display": "Water",
+      "definition": "Alarm system that detects the presence of water or flooding.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Eau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agua"
+        }
+      ]
+    },
+    {
+      "code": "GLAS",
+      "display": "Glass Break",
+      "definition": "Alarm system that detects the sound frequency or vibration of breaking glass.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bris de vitre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rotura de vidrio"
+        }
+      ]
+    },
+    {
+      "code": "MOTN",
+      "display": "Motion",
+      "definition": "Alarm system that detects movement within a monitored area using infrared, ultrasonic, or microwave sensors.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mouvement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Movimiento"
+        }
+      ]
+    },
+    {
+      "code": "FRZE",
+      "display": "Freeze",
+      "definition": "Alarm system that detects temperatures at or below freezing.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Congelación"
+        }
+      ]
+    }
+  ]
+}

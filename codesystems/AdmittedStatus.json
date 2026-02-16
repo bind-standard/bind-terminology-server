@@ -1,0 +1,39 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "AdmittedStatus",
+  "url": "https://bind.codes/AdmittedStatus",
+  "name": "AdmittedStatus",
+  "title": "Admitted Status",
+  "status": "draft",
+  "language": "en",
+  "description": "Whether a carrier is licensed (admitted) in a given jurisdiction to write coverage.",
+  "concept": [
+    {
+      "code": "ADMT",
+      "display": "Admitted",
+      "definition": "The carrier is licensed by the state or province and subject to its rate and form filings, and policies are backed by the guaranty fund.",
+      "designation": [
+        { "language": "fr-CA", "value": "Autorisé" },
+        { "language": "es-MX", "value": "Admitido" }
+      ]
+    },
+    {
+      "code": "NADM",
+      "display": "Non-Admitted",
+      "definition": "The carrier is not licensed in the jurisdiction; coverage is placed through the surplus lines market.",
+      "designation": [
+        { "language": "fr-CA", "value": "Non autorisé" },
+        { "language": "es-MX", "value": "No admitido" }
+      ]
+    },
+    {
+      "code": "BOTH",
+      "display": "Both",
+      "definition": "The carrier writes business on both an admitted and non-admitted basis, often through affiliated entities.",
+      "designation": [
+        { "language": "fr-CA", "value": "Les deux" },
+        { "language": "es-MX", "value": "Ambos" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "LicenseType",
+  "url": "https://bind.codes/LicenseType",
+  "name": "LicenseType",
+  "title": "License Type",
+  "status": "draft",
+  "language": "en",
+  "description": "License Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "MENV",
+      "display": "Ministry of Environment",
+      "definition": "Permit issued by environmental regulatory authorities to operate facilities or conduct activities that may impact the environment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ministère de l'Environnement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ministerio del Medio Ambiente"
+        }
+      ]
+    },
+    {
+      "code": "AUOP",
+      "display": "Automobile Operator",
+      "definition": "License authorizing an individual to operate a motor vehicle on public roads.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chauffeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Operador de Automóvil"
+        }
+      ]
+    },
+    {
+      "code": "LIQR",
+      "display": "Liquor",
+      "definition": "License permitting the sale, service, or distribution of alcoholic beverages.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Alcool"
+        },
+        {
+          "language": "es-MX",
+          "value": "Licor"
+        }
+      ]
+    },
+    {
+      "code": "ELVT",
+      "display": "Elevator",
+      "definition": "Permit for the installation, operation, and maintenance of elevator equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Élévateur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Elevador"
+        }
+      ]
+    },
+    {
+      "code": "INNK",
+      "display": "Innkeepers'",
+      "definition": "License to operate a lodging establishment such as a hotel, motel, or inn.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hôteliers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hoteleros"
+        }
+      ]
+    },
+    {
+      "code": "ROOM",
+      "display": "Rooming House",
+      "definition": "Permit to operate a residential building offering rental rooms with shared facilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maison de chambres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Casa de Huéspedes"
+        }
+      ]
+    },
+    {
+      "code": "HLTH",
+      "display": "Healthcare",
+      "definition": "Professional license to provide medical services or operate a healthcare facility.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soins de santé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Atención Médica"
+        }
+      ]
+    },
+    {
+      "code": "TCHF",
+      "display": "Teaching Facility",
+      "definition": "License to operate an educational institution or training center.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Maisons d'enseignement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Instalación Educativa"
+        }
+      ]
+    },
+    {
+      "code": "FIRE",
+      "display": "Sale of Firearms",
+      "definition": "License permitting the commercial sale or distribution of firearms and ammunition.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vente d'armes à feu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Venta de Armas de Fuego"
+        }
+      ]
+    },
+    {
+      "code": "EXPL",
+      "display": "Explosives",
+      "definition": "Permit for the storage, handling, transportation, or use of explosive materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Explosifs"
+        },
+        {
+          "language": "es-MX",
+          "value": "Explosivos"
+        }
+      ]
+    },
+    {
+      "code": "RADM",
+      "display": "Radioactive or Nuclear Material",
+      "definition": "License for the possession, use, storage, or transport of radioactive or nuclear substances.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matières radioactives ou nucléaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Material Radiactivo o Nuclear"
+        }
+      ]
+    },
+    {
+      "code": "RCAP",
+      "display": "Room Capacity",
+      "definition": "Permit specifying the maximum number of occupants allowed in a public assembly space.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Capacité de la pièce (Nombre de places)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Capacidad de Sala"
+        }
+      ]
+    },
+    {
+      "code": "WTCR",
+      "display": "Watercraft Operator",
+      "definition": "License authorizing an individual to operate boats, ships, or other watercraft.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conducteur de bateaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Operador de Embarcaciones"
+        }
+      ]
+    },
+    {
+      "code": "COMM",
+      "display": "Commercial Driver",
+      "definition": "License required to operate commercial vehicles such as trucks and buses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Permis de conduire commercial"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conductor Comercial"
+        }
+      ]
+    },
+    {
+      "code": "TAXI",
+      "display": "Taxi or Ride-Share",
+      "definition": "Permit to operate a taxi or ride-sharing service for passenger transportation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Taxi ou covoiturage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Taxi o Transporte Compartido"
+        }
+      ]
+    },
+    {
+      "code": "FOOD",
+      "display": "Food Service",
+      "definition": "License to prepare and serve food to the public in a restaurant or food establishment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service alimentaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de Alimentos"
+        }
+      ]
+    },
+    {
+      "code": "CNST",
+      "display": "Construction",
+      "definition": "Permit to perform construction, renovation, or demolition work.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Construction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Construcción"
+        }
+      ]
+    },
+    {
+      "code": "PRFS",
+      "display": "Professional Services",
+      "definition": "License to provide specialized professional services such as legal, accounting, or engineering.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Services professionnels"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicios Profesionales"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

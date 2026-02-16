@@ -1,0 +1,235 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "HeatingUnitLocation",
+  "url": "https://bind.codes/HeatingUnitLocation",
+  "name": "HeatingUnitLocation",
+  "title": "Heating Unit Location",
+  "status": "draft",
+  "language": "en",
+  "description": "Heating Unit Location codes for insurance operations.",
+  "concept": [
+    {
+      "code": "KTCH",
+      "display": "Kitchen",
+      "definition": "The main cooking and food preparation area of a dwelling.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cuisine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cocina"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "ATTC",
+      "display": "Attic",
+      "definition": "The space directly below the roof, typically used for storage or accessible by ladder or stairs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grenier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ático"
+        }
+      ]
+    },
+    {
+      "code": "SUSP",
+      "display": "Suspended",
+      "definition": "A heating unit mounted or hanging from a ceiling or overhead structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Suspendu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Suspendido"
+        }
+      ]
+    },
+    {
+      "code": "BARN",
+      "display": "Barn",
+      "definition": "An agricultural building used for storing hay, grain, or housing livestock.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grange"
+        },
+        {
+          "language": "es-MX",
+          "value": "Granero"
+        }
+      ]
+    },
+    {
+      "code": "BSMT",
+      "display": "Basement",
+      "definition": "A floor of a building that is wholly or partially below ground level.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sous-sol"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sótano"
+        }
+      ]
+    },
+    {
+      "code": "CRWL",
+      "display": "Crawlspace",
+      "definition": "A shallow unfinished space beneath the first floor, typically accessible only by crawling.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vide sanitaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Espacio de arrastre"
+        }
+      ]
+    },
+    {
+      "code": "GARG",
+      "display": "Garage",
+      "definition": "A building or space for parking vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Garaje"
+        }
+      ]
+    },
+    {
+      "code": "MNFL",
+      "display": "Main Floor",
+      "definition": "The primary living level of a structure, typically at ground level.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rez-de-chaussée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Planta principal"
+        }
+      ]
+    },
+    {
+      "code": "OTSD",
+      "display": "Outside",
+      "definition": "Located exterior to the building structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Extérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Exterior"
+        }
+      ]
+    },
+    {
+      "code": "ROOF",
+      "display": "Rooftop",
+      "definition": "Located on top of the building roof.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Toit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Azotea"
+        }
+      ]
+    },
+    {
+      "code": "FL2",
+      "display": "Second Floor",
+      "definition": "The second level of a multi-story structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Deuxième étage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Segundo piso"
+        }
+      ]
+    },
+    {
+      "code": "UTIL",
+      "display": "Utility Room",
+      "definition": "A dedicated room for mechanical systems and equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Salle mécanique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cuarto de servicio"
+        }
+      ]
+    },
+    {
+      "code": "LAUN",
+      "display": "Laundry Room",
+      "definition": "A room designated for washing and drying clothes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Salle de lavage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cuarto de lavado"
+        }
+      ]
+    }
+  ]
+}

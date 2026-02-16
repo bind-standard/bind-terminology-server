@@ -1,0 +1,222 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "InspectionStatus",
+  "url": "https://bind.codes/InspectionStatus",
+  "name": "InspectionStatus",
+  "title": "Inspection Status",
+  "status": "draft",
+  "language": "en",
+  "description": "Inspection Status codes for insurance operations.",
+  "concept": [
+    {
+      "code": "PRIC",
+      "display": "Pre-inspection Completed",
+      "definition": "An inspection conducted before policy binding or coverage inception has been successfully completed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pré-inspection terminée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pre-inspección completada"
+        }
+      ]
+    },
+    {
+      "code": "PRINC",
+      "display": "Pre-inspection Not Completed",
+      "definition": "An inspection scheduled before policy binding or coverage inception has not been completed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pré-inspection non terminée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pre-inspección no completada"
+        }
+      ]
+    },
+    {
+      "code": "PRINR",
+      "display": "Pre-inspection Not Required",
+      "definition": "No inspection is required before policy binding or coverage inception.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pré-inspection non requise"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pre-inspección no requerida"
+        }
+      ]
+    },
+    {
+      "code": "CMPL",
+      "display": "Completed",
+      "definition": "The inspection has been successfully completed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terminé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Completado"
+        }
+      ]
+    },
+    {
+      "code": "ESTM",
+      "display": "Estimate (no inspection completed, based on submitted estimate)",
+      "definition": "Assessment is based on a submitted estimate rather than a physical inspection.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Estimé (aucune inspection terminée, selon estimé soumis)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estimado (sin inspección completada, basado en estimado enviado)"
+        }
+      ]
+    },
+    {
+      "code": "NCVR",
+      "display": "Not Completed/Not Verified",
+      "definition": "The inspection has either not been completed or the results have not been verified.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non terminé/non vérifié"
+        },
+        {
+          "language": "es-MX",
+          "value": "No completado/no verificado"
+        }
+      ]
+    },
+    {
+      "code": "NORD",
+      "display": "Not Ordered",
+      "definition": "An inspection has not been requested or scheduled.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non commandé"
+        },
+        {
+          "language": "es-MX",
+          "value": "No ordenado"
+        }
+      ]
+    },
+    {
+      "code": "NREQ",
+      "display": "Not Required",
+      "definition": "No inspection is needed for this particular situation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Non requis"
+        },
+        {
+          "language": "es-MX",
+          "value": "No requerido"
+        }
+      ]
+    },
+    {
+      "code": "PEND",
+      "display": "Pending",
+      "definition": "The inspection has been ordered and is awaiting completion.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En instance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pendiente"
+        }
+      ]
+    },
+    {
+      "code": "REQD",
+      "display": "Required",
+      "definition": "An inspection is mandatory for this situation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Requis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Requerido"
+        }
+      ]
+    },
+    {
+      "code": "SCHD",
+      "display": "Scheduled",
+      "definition": "An inspection has been scheduled with a specific date and time.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Planifié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Programado"
+        }
+      ]
+    },
+    {
+      "code": "CANC",
+      "display": "Cancelled",
+      "definition": "A previously scheduled inspection has been cancelled.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Annulé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cancelado"
+        }
+      ]
+    },
+    {
+      "code": "FAIL",
+      "display": "Failed",
+      "definition": "The inspection was completed but did not meet required standards or criteria.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Échoué"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fallido"
+        }
+      ]
+    },
+    {
+      "code": "PROG",
+      "display": "In Progress",
+      "definition": "The inspection is currently being conducted.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En cours"
+        },
+        {
+          "language": "es-MX",
+          "value": "En progreso"
+        }
+      ]
+    }
+  ]
+}

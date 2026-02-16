@@ -1,0 +1,72 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "MultiplePolicyDiscount",
+  "url": "https://bind.codes/MultiplePolicyDiscount",
+  "name": "MultiplePolicyDiscount",
+  "title": "Multiple Policy Discount",
+  "status": "draft",
+  "language": "en",
+  "description": "Multiple Policy Discount codes for insurance operations.",
+  "concept": [
+    {
+      "code": "NONE",
+      "display": "No Discount",
+      "definition": "No discount applied for having multiple policies with the same carrier.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun rabais"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin descuento"
+        }
+      ]
+    },
+    {
+      "code": "IMDP",
+      "display": "Immediate Discount",
+      "definition": "Discount applied immediately upon binding an additional policy with the same carrier.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rabais instantané"
+        },
+        {
+          "language": "es-MX",
+          "value": "Descuento inmediato"
+        }
+      ]
+    },
+    {
+      "code": "RNWL",
+      "display": "Renewal Discount",
+      "definition": "Discount applied at the next policy renewal when multiple policies are active with the same carrier.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rabais sur renouvellement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Descuento en renovación"
+        }
+      ]
+    },
+    {
+      "code": "RETD",
+      "display": "Retroactive Discount",
+      "definition": "Discount applied retroactively to existing policies when an additional policy is bound with the same carrier.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Rabais rétroactif"
+        },
+        {
+          "language": "es-MX",
+          "value": "Descuento retroactivo"
+        }
+      ]
+    }
+  ]
+}

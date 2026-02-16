@@ -1,0 +1,461 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "FuelType",
+  "url": "https://bind.codes/FuelType",
+  "name": "FuelType",
+  "title": "Fuel Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Fuel Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "OILW",
+      "display": "Oil/Wood",
+      "definition": "Dual fuel system using petroleum-based oil or wood as heating fuel sources.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Huile/bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aceite/madera"
+        }
+      ]
+    },
+    {
+      "code": "BUTA",
+      "display": "Butane",
+      "definition": "Liquefied petroleum gas derived from natural gas processing and petroleum refining.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Butane"
+        },
+        {
+          "language": "es-MX",
+          "value": "Butano"
+        }
+      ]
+    },
+    {
+      "code": "COAL",
+      "display": "Coal",
+      "definition": "Combustible sedimentary rock used as solid fuel for heating.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Charbon"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carbón"
+        }
+      ]
+    },
+    {
+      "code": "WIND",
+      "display": "Wind",
+      "definition": "Renewable energy source using wind turbines to generate electrical power.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Éolien"
+        },
+        {
+          "language": "es-MX",
+          "value": "Eólico"
+        }
+      ]
+    },
+    {
+      "code": "ELEW",
+      "display": "Electric/Wood",
+      "definition": "Dual energy system using electricity or wood as heating fuel sources.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Électrique/bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Eléctrico/madera"
+        }
+      ]
+    },
+    {
+      "code": "ETOH",
+      "display": "Ethanol/Alcohol",
+      "definition": "Biofuel produced from plant materials or organic waste, used as combustible fuel.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Éthanol/alcool"
+        },
+        {
+          "language": "es-MX",
+          "value": "Etanol/alcohol"
+        }
+      ]
+    },
+    {
+      "code": "NAPH",
+      "display": "Naphta Gas",
+      "definition": "Flammable petroleum distillate used as a fuel or solvent.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Naphta"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nafta"
+        }
+      ]
+    },
+    {
+      "code": "ROIL",
+      "display": "Recycled Oil",
+      "definition": "Reprocessed petroleum-based oil repurposed for heating applications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Huile recyclée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aceite reciclado"
+        }
+      ]
+    },
+    {
+      "code": "FOIL",
+      "display": "Oil",
+      "definition": "Petroleum-based heating oil used as a liquid fuel source.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Huile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aceite"
+        }
+      ]
+    },
+    {
+      "code": "KERO",
+      "display": "Kerosene",
+      "definition": "Refined petroleum product used as a combustible liquid fuel.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Kérosène"
+        },
+        {
+          "language": "es-MX",
+          "value": "Queroseno"
+        }
+      ]
+    },
+    {
+      "code": "LPGX",
+      "display": "Liquefied Petroleum Gas",
+      "definition": "Compressed hydrocarbon gases stored as liquid fuel, typically propane or butane mixtures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pétrole liquéfié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gas licuado de petróleo"
+        }
+      ]
+    },
+    {
+      "code": "CMBO",
+      "display": "Combination - other",
+      "definition": "Multiple fuel sources not classified under standard dual-fuel categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Combiné - autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Combinación - otro"
+        }
+      ]
+    },
+    {
+      "code": "NGAS",
+      "display": "Natural Gas",
+      "definition": "Fossil fuel gas extracted from underground deposits, delivered via pipeline.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gaz naturel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gas natural"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "PROP",
+      "display": "Propane",
+      "definition": "Liquefied petroleum gas stored in tanks for heating and cooking applications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propane"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propano"
+        }
+      ]
+    },
+    {
+      "code": "SOLR",
+      "display": "Solar",
+      "definition": "Renewable energy source converting sunlight into electrical or thermal power.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Solaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Solar"
+        }
+      ]
+    },
+    {
+      "code": "SOLF",
+      "display": "Other Solid Fuel",
+      "definition": "Combustible solid materials not classified as coal, wood, or pellets.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre combustible solide"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro combustible sólido"
+        }
+      ]
+    },
+    {
+      "code": "PELT",
+      "display": "Pellet",
+      "definition": "Compressed biomass fuel manufactured from wood or agricultural waste.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Granulés"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pellets"
+        }
+      ]
+    },
+    {
+      "code": "GRFX",
+      "display": "Grain",
+      "definition": "Agricultural biomass used as combustible fuel in specialized heating systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Grain"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grano"
+        }
+      ]
+    },
+    {
+      "code": "STMX",
+      "display": "Steam",
+      "definition": "Thermal energy transferred via pressurized water vapor in centralized heating systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vapeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vapor"
+        }
+      ]
+    },
+    {
+      "code": "WOOD",
+      "display": "Wood",
+      "definition": "Solid biomass fuel derived from timber or forestry products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Madera"
+        }
+      ]
+    },
+    {
+      "code": "ELEO",
+      "display": "Electric/Oil",
+      "definition": "Dual energy system using electricity or petroleum-based oil as heating fuel sources.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Électrique/huile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Eléctrico/aceite"
+        }
+      ]
+    },
+    {
+      "code": "ELEC",
+      "display": "Electric",
+      "definition": "Electrical power used for heating or energy needs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Électrique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Eléctrico"
+        }
+      ]
+    },
+    {
+      "code": "DSLX",
+      "display": "Diesel",
+      "definition": "Petroleum-based distillate fuel used in compression-ignition engines or heating systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Diesel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Diésel"
+        }
+      ]
+    },
+    {
+      "code": "HPAA",
+      "display": "Air to Air",
+      "definition": "Heat pump system extracting thermal energy from outdoor air to heat indoor air.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Air-air"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aire a aire"
+        }
+      ]
+    },
+    {
+      "code": "GEOX",
+      "display": "Ground Source",
+      "definition": "Heat pump system extracting thermal energy from underground or groundwater sources.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Géothermique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Geotérmico"
+        }
+      ]
+    },
+    {
+      "code": "HPAW",
+      "display": "Air to Water",
+      "definition": "Heat pump system extracting thermal energy from outdoor air to heat water for hydronic systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Air-eau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aire a agua"
+        }
+      ]
+    },
+    {
+      "code": "BIOD",
+      "display": "Biodiesel",
+      "definition": "Renewable diesel fuel produced from vegetable oils or animal fats.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Biodiesel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Biodiésel"
+        }
+      ]
+    },
+    {
+      "code": "HYDR",
+      "display": "Hydrogen",
+      "definition": "Clean fuel source producing only water as a byproduct when combusted or used in fuel cells.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hydrogène"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hidrógeno"
+        }
+      ]
+    },
+    {
+      "code": "GASO",
+      "display": "Gasoline",
+      "definition": "Refined petroleum product used primarily in spark-ignition engines.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Essence"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gasolina"
+        }
+      ]
+    }
+  ]
+}

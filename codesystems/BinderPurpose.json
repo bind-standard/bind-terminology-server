@@ -1,0 +1,102 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BinderPurpose",
+  "url": "https://bind.codes/BinderPurpose",
+  "name": "BinderPurpose",
+  "title": "Binder Purpose",
+  "status": "draft",
+  "language": "en",
+  "description": "Binder Purpose codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ADCV",
+      "display": "Additional Coverage",
+      "definition": "Coverage added to supplement or expand protection beyond the base policy limits or terms.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Garanties supplémentaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cobertura adicional"
+        }
+      ]
+    },
+    {
+      "code": "CHNG",
+      "display": "Policy Change",
+      "definition": "Modification to one or more terms, conditions, or details of an active policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Modification de police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cambio de póliza"
+        }
+      ]
+    },
+    {
+      "code": "EXTN",
+      "display": "Extension to Existing Policy",
+      "definition": "Prolongation of coverage beyond the original expiration date or expansion of coverage scope for an existing policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Extension de la police actuelle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Extensión de la póliza existente"
+        }
+      ]
+    },
+    {
+      "code": "NEWP",
+      "display": "New Policy",
+      "definition": "A policy issued for the first time to an insured for a specific coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nouvelle police"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nueva póliza"
+        }
+      ]
+    },
+    {
+      "code": "RNWL",
+      "display": "Renewal Binder",
+      "definition": "Temporary evidence of continued coverage provided when an expiring policy is being renewed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Note de couverture - Renouvellement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Constancia de renovación"
+        }
+      ]
+    },
+    {
+      "code": "TEMP",
+      "display": "Temporary Coverage",
+      "definition": "Short-term protection issued before a permanent policy is finalized.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Couverture temporaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cobertura temporal"
+        }
+      ]
+    }
+  ]
+}

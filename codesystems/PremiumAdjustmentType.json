@@ -1,0 +1,102 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "PremiumAdjustmentType",
+  "url": "https://bind.codes/PremiumAdjustmentType",
+  "name": "PremiumAdjustmentType",
+  "title": "Premium Adjustment Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Types of modifications and rating factors applied to a base premium during the rating process.",
+  "concept": [
+    {
+      "code": "XMOD",
+      "display": "Experience Modification",
+      "definition": "A multiplier derived from the insured's historical loss experience compared to the expected losses for their classification.",
+      "designation": [
+        { "language": "fr-CA", "value": "Modification d'expérience" },
+        { "language": "es-MX", "value": "Modificación por experiencia" }
+      ]
+    },
+    {
+      "code": "SCRD",
+      "display": "Schedule Credit",
+      "definition": "A discretionary reduction applied based on favorable characteristics such as management quality, safety programs, or premises condition.",
+      "designation": [
+        { "language": "fr-CA", "value": "Crédit de tarification" },
+        { "language": "es-MX", "value": "Crédito de tarificación" }
+      ]
+    },
+    {
+      "code": "SDBT",
+      "display": "Schedule Debit",
+      "definition": "A discretionary surcharge applied based on unfavorable characteristics.",
+      "designation": [
+        { "language": "fr-CA", "value": "Débit de tarification" },
+        { "language": "es-MX", "value": "Débito de tarificación" }
+      ]
+    },
+    {
+      "code": "IRPM",
+      "display": "Individual Risk Premium Modification",
+      "definition": "A credit or debit based on risk-specific characteristics that differ from the standard classification assumptions.",
+      "designation": [
+        { "language": "fr-CA", "value": "Modification de prime individuelle" },
+        { "language": "es-MX", "value": "Modificación de prima individual" }
+      ]
+    },
+    {
+      "code": "LFCR",
+      "display": "Loss-Free Credit",
+      "definition": "A discount applied when the insured has had no claims during a specified period.",
+      "designation": [
+        { "language": "fr-CA", "value": "Crédit sans sinistre" },
+        { "language": "es-MX", "value": "Crédito por ausencia de siniestros" }
+      ]
+    },
+    {
+      "code": "MPDS",
+      "display": "Multi-Policy Discount",
+      "definition": "A reduction for maintaining multiple policies with the same carrier.",
+      "designation": [
+        { "language": "fr-CA", "value": "Rabais multi-polices" },
+        { "language": "es-MX", "value": "Descuento por múltiples pólizas" }
+      ]
+    },
+    {
+      "code": "NBCR",
+      "display": "New Business Credit",
+      "definition": "A one-time reduction applied to attract new accounts.",
+      "designation": [
+        { "language": "fr-CA", "value": "Crédit nouvelle affaire" },
+        { "language": "es-MX", "value": "Crédito por negocio nuevo" }
+      ]
+    },
+    {
+      "code": "PKDS",
+      "display": "Package Discount",
+      "definition": "A reduction for combining multiple coverages into a single bundled policy.",
+      "designation": [
+        { "language": "fr-CA", "value": "Rabais forfaitaire" },
+        { "language": "es-MX", "value": "Descuento por paquete" }
+      ]
+    },
+    {
+      "code": "PDCR",
+      "display": "Protective Device Credit",
+      "definition": "A reduction for having qualifying safety or protective systems such as alarms, sprinklers, or deadbolts.",
+      "designation": [
+        { "language": "fr-CA", "value": "Crédit dispositif de protection" },
+        { "language": "es-MX", "value": "Crédito por dispositivo de protección" }
+      ]
+    },
+    {
+      "code": "ILFC",
+      "display": "Increased Limits Factor",
+      "definition": "A multiplier applied when limits exceed the standard bureau filing thresholds.",
+      "designation": [
+        { "language": "fr-CA", "value": "Facteur de limites majorées" },
+        { "language": "es-MX", "value": "Factor de límites incrementados" }
+      ]
+    }
+  ]
+}

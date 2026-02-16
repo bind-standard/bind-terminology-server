@@ -1,0 +1,117 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ConstructionClass",
+  "url": "https://bind.codes/ConstructionClass",
+  "name": "ConstructionClass",
+  "title": "Construction Class",
+  "status": "draft",
+  "language": "en",
+  "description": "Construction Class codes for insurance operations.",
+  "concept": [
+    {
+      "code": "LUXR",
+      "display": "Luxury",
+      "definition": "High-end construction featuring premium materials, architectural details, and superior craftsmanship with finishes that exceed typical building standards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "De luxe"
+        },
+        {
+          "language": "es-MX",
+          "value": "De lujo"
+        }
+      ]
+    },
+    {
+      "code": "CSTM",
+      "display": "Custom",
+      "definition": "Construction built to specific client specifications with unique design elements, tailored floor plans, and personalized features.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Personnalisé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Personalizado"
+        }
+      ]
+    },
+    {
+      "code": "STND",
+      "display": "Standard",
+      "definition": "Construction meeting typical building codes and industry norms with conventional materials and commonly used design patterns.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Standard"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estándar"
+        }
+      ]
+    },
+    {
+      "code": "ECON",
+      "display": "Economy",
+      "definition": "Cost-efficient construction utilizing basic materials and simple design to minimize building expenses while meeting minimum code requirements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Économique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Económico"
+        }
+      ]
+    },
+    {
+      "code": "BLDG",
+      "display": "Builder's Grade",
+      "definition": "Construction using production-grade materials and finishes commonly employed by volume builders in tract housing developments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Qualité constructeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Grado de constructor"
+        }
+      ]
+    },
+    {
+      "code": "PREM",
+      "display": "Premium",
+      "definition": "Construction featuring above-average materials and finishes with enhanced features that exceed standard quality but fall short of luxury specifications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Haut de gamme"
+        },
+        {
+          "language": "es-MX",
+          "value": "Premium"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Construction class that does not fit within predefined categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

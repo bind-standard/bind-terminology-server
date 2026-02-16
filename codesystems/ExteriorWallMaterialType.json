@@ -1,0 +1,386 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ExteriorWallMaterialType",
+  "url": "https://bind.codes/ExteriorWallMaterialType",
+  "name": "ExteriorWallMaterialType",
+  "title": "Exterior Wall Material Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Exterior Wall Material Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "TBSD",
+      "display": "Thin Brick Siding",
+      "definition": "A decorative exterior cladding that mimics the appearance of traditional brick using thin brick tiles or panels applied over a structural wall.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Parement en brique décorative"
+        },
+        {
+          "language": "es-MX",
+          "value": "Revestimiento de ladrillo delgado"
+        }
+      ]
+    },
+    {
+      "code": "MNQE",
+      "display": "Monocoque",
+      "definition": "A structural design where the exterior skin carries all or most structural loads, commonly used in recreational vehicles and some modular buildings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Monocoque"
+        },
+        {
+          "language": "es-MX",
+          "value": "Monocasco"
+        }
+      ]
+    },
+    {
+      "code": "FBGL",
+      "display": "Fiberglass",
+      "definition": "Glass fiber reinforced plastic panels used as exterior cladding, common in manufactured homes and some commercial buildings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fibre de verre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fibra de vidrio"
+        }
+      ]
+    },
+    {
+      "code": "MTSD",
+      "display": "Metal Siding",
+      "definition": "Exterior wall cladding made from metal sheets or panels, including steel, aluminum, or composite materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bardage en métal"
+        },
+        {
+          "language": "es-MX",
+          "value": "Revestimiento de metal"
+        }
+      ]
+    },
+    {
+      "code": "SACT",
+      "display": "Same as construction type",
+      "definition": "Indicates that the exterior wall material matches the primary structural construction type of the building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comme le type de construction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Igual al tipo de construcción"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "An exterior wall material not classified in the standard categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "ASBS",
+      "display": "Asbestos",
+      "definition": "Asbestos-containing exterior wall materials, such as asbestos cement siding, once common but now recognized as a health hazard.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Amiante"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asbesto"
+        }
+      ]
+    },
+    {
+      "code": "CMNT",
+      "display": "Cement",
+      "definition": "Solid cement or cement-based exterior wall finish applied directly to structural walls.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ciment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cemento"
+        }
+      ]
+    },
+    {
+      "code": "CFBD",
+      "display": "Cement Fiber Board",
+      "definition": "Flat panels made from cement and cellulose fibers, providing a durable and fire-resistant exterior cladding.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Panneau de fibre de ciment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tablero de fibra de cemento"
+        }
+      ]
+    },
+    {
+      "code": "AGGT",
+      "display": "Aggregate",
+      "definition": "Exterior wall finish incorporating exposed aggregate stones in a cement or stucco base for decorative texture.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Granulat"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agregado"
+        }
+      ]
+    },
+    {
+      "code": "CFSH",
+      "display": "Cement Fiber Shingle",
+      "definition": "Individual shingle-shaped units made from cement and cellulose fibers, installed in overlapping courses to simulate traditional wood shingles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bardeau de fibre de ciment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Teja de fibra de cemento"
+        }
+      ]
+    },
+    {
+      "code": "CEDR",
+      "display": "Cedar Siding",
+      "definition": "Natural cedar wood planks used as exterior cladding, valued for natural resistance to decay and insects.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bardage en cèdre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Revestimiento de cedro"
+        }
+      ]
+    },
+    {
+      "code": "ALUM",
+      "display": "Aluminium",
+      "definition": "Aluminum siding panels or sheets used as exterior wall cladding, lightweight and corrosion-resistant.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aluminium"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aluminio"
+        }
+      ]
+    },
+    {
+      "code": "STUC",
+      "display": "Stucco",
+      "definition": "A cement-based plaster applied in layers to exterior walls, creating a textured or smooth finish.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stuc"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estuco"
+        }
+      ]
+    },
+    {
+      "code": "LGSD",
+      "display": "Log Siding",
+      "definition": "Milled lumber shaped to resemble log construction, providing the appearance of a log cabin exterior.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bardage en rondins"
+        },
+        {
+          "language": "es-MX",
+          "value": "Revestimiento de troncos"
+        }
+      ]
+    },
+    {
+      "code": "STNV",
+      "display": "Stone Veneer",
+      "definition": "Thin natural or manufactured stone facing applied over a structural wall substrate to provide the appearance of solid stone construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pierre plaquée sur bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Enchapado de piedra"
+        }
+      ]
+    },
+    {
+      "code": "WOOD",
+      "display": "Wood Exterior",
+      "definition": "Solid wood planks, boards, or shingles used as exterior wall cladding.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Extérieur en bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Exterior de madera"
+        }
+      ]
+    },
+    {
+      "code": "BRKV",
+      "display": "Brick Veneer",
+      "definition": "A single layer of brick facing applied over a structural wall substrate, providing the appearance of solid brick construction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lambris de brique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Enchapado de ladrillo"
+        }
+      ]
+    },
+    {
+      "code": "VNYL",
+      "display": "Vinyl",
+      "definition": "PVC plastic siding panels designed to interlock, providing a low-maintenance exterior cladding option.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vinyle"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vinilo"
+        }
+      ]
+    },
+    {
+      "code": "CONC",
+      "display": "Concrete",
+      "definition": "Solid concrete or precast concrete panels forming the exterior wall surface.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Béton"
+        },
+        {
+          "language": "es-MX",
+          "value": "Concreto"
+        }
+      ]
+    },
+    {
+      "code": "HDBD",
+      "display": "Hardboard",
+      "definition": "Compressed wood fiber panels used as exterior siding, also known as Masonite or engineered wood siding.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Panneau dur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tablero duro"
+        }
+      ]
+    },
+    {
+      "code": "EIFS",
+      "display": "EIFS",
+      "definition": "Exterior Insulation and Finish System, a multi-layered exterior wall cladding combining insulation with a synthetic stucco-like finish.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "SIFE"
+        },
+        {
+          "language": "es-MX",
+          "value": "EIFS"
+        }
+      ]
+    },
+    {
+      "code": "BRCK",
+      "display": "Brick",
+      "definition": "Solid brick masonry construction forming the exterior wall, where brick is both the structural element and the exterior surface.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Brique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ladrillo"
+        }
+      ]
+    },
+    {
+      "code": "STON",
+      "display": "Stone",
+      "definition": "Solid stone masonry construction where natural stone forms both the structural and exterior surface of the wall.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pierre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Piedra"
+        }
+      ]
+    }
+  ]
+}

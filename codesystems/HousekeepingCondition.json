@@ -1,0 +1,102 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "HousekeepingCondition",
+  "url": "https://bind.codes/HousekeepingCondition",
+  "name": "HousekeepingCondition",
+  "title": "Housekeeping Condition",
+  "status": "draft",
+  "language": "en",
+  "description": "Housekeeping Condition codes for insurance operations.",
+  "concept": [
+    {
+      "code": "AVRG",
+      "display": "Average",
+      "definition": "A moderate level of cleanliness and organization in maintaining a property or business premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Moyen"
+        },
+        {
+          "language": "es-MX",
+          "value": "Promedio"
+        }
+      ]
+    },
+    {
+      "code": "EXCL",
+      "display": "Excellent",
+      "definition": "The highest level of cleanliness, organization, and maintenance of a property or business premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Excellent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Excelente"
+        }
+      ]
+    },
+    {
+      "code": "FAIR",
+      "display": "Fair",
+      "definition": "A below-average level of cleanliness and organization with some areas of concern.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Passable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aceptable"
+        }
+      ]
+    },
+    {
+      "code": "GOOD",
+      "display": "Good",
+      "definition": "An above-average level of cleanliness and organization in maintaining a property or business premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bon"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bueno"
+        }
+      ]
+    },
+    {
+      "code": "POOR",
+      "display": "Poor",
+      "definition": "The lowest level of cleanliness and organization with significant maintenance concerns.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Médiocre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Deficiente"
+        }
+      ]
+    },
+    {
+      "code": "VGOD",
+      "display": "Very Good",
+      "definition": "A high level of cleanliness and organization, approaching excellent standards.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Très bien"
+        },
+        {
+          "language": "es-MX",
+          "value": "Muy bueno"
+        }
+      ]
+    }
+  ]
+}

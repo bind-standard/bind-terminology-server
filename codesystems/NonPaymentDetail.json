@@ -1,0 +1,87 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "NonPaymentDetail",
+  "url": "https://bind.codes/NonPaymentDetail",
+  "name": "NonPaymentDetail",
+  "title": "Non Payment Detail",
+  "status": "draft",
+  "language": "en",
+  "description": "Non Payment Detail codes for insurance operations.",
+  "concept": [
+    {
+      "code": "NP5Y",
+      "display": "One Non-payment Cancellation in the Past 5 Years",
+      "definition": "A single policy cancellation due to non-payment of premiums occurring within the previous five-year period.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Une annulation pour non-paiement au cours des 5 dernières années"
+        },
+        {
+          "language": "es-MX",
+          "value": "Una cancelación por falta de pago en los últimos 5 años"
+        }
+      ]
+    },
+    {
+      "code": "NP2X",
+      "display": "Two Non-Payment Cancellations in the Past 3 Years",
+      "definition": "Two separate policy cancellations due to non-payment of premiums occurring within the previous three-year period.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Deux annulations pour non-paiement au cours des 3 dernières années"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dos cancelaciones por falta de pago en los últimos 3 años"
+        }
+      ]
+    },
+    {
+      "code": "NPM3",
+      "display": "More Than 2 Non-payment Cancellations in the Past 3 Years",
+      "definition": "Three or more policy cancellations due to non-payment of premiums occurring within the previous three-year period.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plus de 2 annulations pour non-paiement au cours des 3 dernières années"
+        },
+        {
+          "language": "es-MX",
+          "value": "Más de 2 cancelaciones por falta de pago en los últimos 3 años"
+        }
+      ]
+    },
+    {
+      "code": "NP3Y",
+      "display": "One Non-payment Cancellation in the Past 3 Years",
+      "definition": "A single policy cancellation due to non-payment of premiums occurring within the previous three-year period.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Une annulation pour non-paiement au cours des 3 dernières années"
+        },
+        {
+          "language": "es-MX",
+          "value": "Una cancelación por falta de pago en los últimos 3 años"
+        }
+      ]
+    },
+    {
+      "code": "NPNO",
+      "display": "No Non-payment Cancellations",
+      "definition": "No policy cancellations due to non-payment of premiums in the relevant historical period.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucune annulation pour non-paiement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin cancelaciones por falta de pago"
+        }
+      ]
+    }
+  ]
+}

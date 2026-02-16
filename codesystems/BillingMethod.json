@@ -1,0 +1,87 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BillingMethod",
+  "url": "https://bind.codes/BillingMethod",
+  "name": "BillingMethod",
+  "title": "Billing Method",
+  "status": "draft",
+  "language": "en",
+  "description": "Billing Method codes for insurance operations.",
+  "concept": [
+    {
+      "code": "AGCY",
+      "display": "Agency/Broker Billed",
+      "definition": "Billing is handled by the broker or agency on behalf of the insurer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facturation par le courtier/cabinet de courtage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Facturación por la agencia/corredor"
+        }
+      ]
+    },
+    {
+      "code": "ACCT",
+      "display": "Company Account Billed",
+      "definition": "Billing is handled directly by the insurer through a centralized account.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facturation par l'assureur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Facturación por cuenta de la compañía"
+        }
+      ]
+    },
+    {
+      "code": "DRCT",
+      "display": "Company Policy Billed (Direct Bill)",
+      "definition": "Billing is handled directly by the insurer on a per-policy basis.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facturation par l'assureur (facturation directe)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Facturación directa por póliza"
+        }
+      ]
+    },
+    {
+      "code": "MORT",
+      "display": "Mortgage or Lender Billed",
+      "definition": "Billing is sent to a mortgage company or financial institution that manages payment on behalf of the policyholder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Facturation par le prêteur hypothécaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Facturación al prestamista hipotecario"
+        }
+      ]
+    },
+    {
+      "code": "ELFT",
+      "display": "Electronic Funds Transfer (EFT)",
+      "definition": "Automatic electronic withdrawal from the policyholder's bank account.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Prélèvement automatique (PAD)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transferencia electrónica de fondos"
+        }
+      ]
+    }
+  ]
+}

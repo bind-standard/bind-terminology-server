@@ -1,0 +1,75 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BillingFrequency",
+  "url": "https://bind.codes/BillingFrequency",
+  "name": "BillingFrequency",
+  "title": "Billing Frequency",
+  "status": "draft",
+  "language": "en",
+  "description": "How often premium payments are collected during a policy period.",
+  "concept": [
+    {
+      "code": "ANNL",
+      "display": "Annual",
+      "definition": "A single payment covering the full policy period.",
+      "designation": [
+        { "language": "fr-CA", "value": "Annuel" },
+        { "language": "es-MX", "value": "Anual" }
+      ]
+    },
+    {
+      "code": "SEMI",
+      "display": "Semi-Annual",
+      "definition": "Two payments per year, each covering six months.",
+      "designation": [
+        { "language": "fr-CA", "value": "Semestriel" },
+        { "language": "es-MX", "value": "Semestral" }
+      ]
+    },
+    {
+      "code": "QRTR",
+      "display": "Quarterly",
+      "definition": "Four payments per year, each covering three months.",
+      "designation": [
+        { "language": "fr-CA", "value": "Trimestriel" },
+        { "language": "es-MX", "value": "Trimestral" }
+      ]
+    },
+    {
+      "code": "MNTH",
+      "display": "Monthly",
+      "definition": "Twelve payments per year, one each month.",
+      "designation": [
+        { "language": "fr-CA", "value": "Mensuel" },
+        { "language": "es-MX", "value": "Mensual" }
+      ]
+    },
+    {
+      "code": "PYFL",
+      "display": "Pay in Full",
+      "definition": "The entire premium is due in one lump sum at inception.",
+      "designation": [
+        { "language": "fr-CA", "value": "Paiement intégral" },
+        { "language": "es-MX", "value": "Pago total" }
+      ]
+    },
+    {
+      "code": "TNPY",
+      "display": "Ten-Pay",
+      "definition": "Ten equal installments spread across the policy period.",
+      "designation": [
+        { "language": "fr-CA", "value": "Dix versements" },
+        { "language": "es-MX", "value": "Diez pagos" }
+      ]
+    },
+    {
+      "code": "NNPY",
+      "display": "Nine-Pay",
+      "definition": "Nine equal installments spread across the policy period.",
+      "designation": [
+        { "language": "fr-CA", "value": "Neuf versements" },
+        { "language": "es-MX", "value": "Nueve pagos" }
+      ]
+    }
+  ]
+}

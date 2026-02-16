@@ -1,0 +1,72 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ManufactureMethod",
+  "url": "https://bind.codes/ManufactureMethod",
+  "name": "ManufactureMethod",
+  "title": "Manufacture Method",
+  "status": "draft",
+  "language": "en",
+  "description": "Manufacture Method codes for insurance operations.",
+  "concept": [
+    {
+      "code": "HMMD",
+      "display": "Home-made",
+      "definition": "Item produced by hand or using non-industrial methods, typically in a residential or small workshop setting.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "De fabrication artisanale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hecho en casa"
+        }
+      ]
+    },
+    {
+      "code": "FTRY",
+      "display": "Factory made",
+      "definition": "Item produced using industrial manufacturing processes in a factory setting.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Usiné"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hecho en fábrica"
+        }
+      ]
+    },
+    {
+      "code": "CSTM",
+      "display": "Custom built",
+      "definition": "Item manufactured to specific customer requirements or specifications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fait sur mesure"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hecho a medida"
+        }
+      ]
+    },
+    {
+      "code": "RSTD",
+      "display": "Restored",
+      "definition": "Item that has been refurbished or rebuilt to return it to original or improved condition.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Restauré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Restaurado"
+        }
+      ]
+    }
+  ]
+}

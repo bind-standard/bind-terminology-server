@@ -1,0 +1,177 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ValueAppliesTo",
+  "url": "https://bind.codes/ValueAppliesTo",
+  "name": "ValueAppliesTo",
+  "title": "Value Applies To",
+  "status": "draft",
+  "language": "en",
+  "description": "Value Applies To codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ANML",
+      "display": "Animal",
+      "definition": "Living creatures such as livestock, pets, or other animals that are the subject of coverage or exclusions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Animaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Animales"
+        }
+      ]
+    },
+    {
+      "code": "BOOK",
+      "display": "Books",
+      "definition": "Printed or bound volumes, including account books, manuscripts, or other literary works.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Livres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Libros"
+        }
+      ]
+    },
+    {
+      "code": "STCK",
+      "display": "Stock",
+      "definition": "Merchandise inventory held for sale or distribution in the course of business operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stock"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inventario"
+        }
+      ]
+    },
+    {
+      "code": "FURN",
+      "display": "Furniture",
+      "definition": "Movable items such as tables, chairs, desks, and other furnishings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mobilier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Muebles"
+        }
+      ]
+    },
+    {
+      "code": "EQUP",
+      "display": "Equipment",
+      "definition": "Tools, machinery, and apparatus used in business or professional operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Équipement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Equipo"
+        }
+      ]
+    },
+    {
+      "code": "VHCL",
+      "display": "Vehicles",
+      "definition": "Motorized or non-motorized conveyances including cars, trucks, trailers, and other transportation equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicules"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículos"
+        }
+      ]
+    },
+    {
+      "code": "BLDG",
+      "display": "Building",
+      "definition": "Structures and permanent improvements including walls, roofs, and foundations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bâtiment"
+        },
+        {
+          "language": "es-MX",
+          "value": "Edificio"
+        }
+      ]
+    },
+    {
+      "code": "CNTS",
+      "display": "Contents",
+      "definition": "Personal property and belongings contained within a structure or premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contenu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contenido"
+        }
+      ]
+    },
+    {
+      "code": "JWLY",
+      "display": "Jewelry",
+      "definition": "Personal ornaments including rings, necklaces, watches, and other precious items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bijoux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Joyería"
+        }
+      ]
+    },
+    {
+      "code": "ARTS",
+      "display": "Arts and Collectibles",
+      "definition": "Fine art, paintings, sculptures, antiques, and collectible items of value.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Arts et Objets de Collection"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arte y Coleccionables"
+        }
+      ]
+    },
+    {
+      "code": "CASH",
+      "display": "Cash and Securities",
+      "definition": "Currency, negotiable instruments, bonds, and other monetary instruments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Espèces et Titres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Efectivo y Valores"
+        }
+      ]
+    }
+  ]
+}

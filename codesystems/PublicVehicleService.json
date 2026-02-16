@@ -1,0 +1,192 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "PublicVehicleService",
+  "url": "https://bind.codes/PublicVehicleService",
+  "name": "PublicVehicleService",
+  "title": "Public Vehicle Service",
+  "status": "draft",
+  "language": "en",
+  "description": "Public Vehicle Service codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ARPT",
+      "display": "Airport",
+      "definition": "Transportation service to and from airport facilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aéroport"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aeropuerto"
+        }
+      ]
+    },
+    {
+      "code": "GRAD",
+      "display": "Graduation",
+      "definition": "Special event transportation service for graduation ceremonies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Remise des diplômes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Graduación"
+        }
+      ]
+    },
+    {
+      "code": "WEDD",
+      "display": "Weddings",
+      "definition": "Special event transportation service for weddings and related celebrations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mariages"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bodas"
+        }
+      ]
+    },
+    {
+      "code": "RURB",
+      "display": "Regular Route(s) In A City Or Town",
+      "definition": "Scheduled public transportation service operating on fixed routes within municipal boundaries.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Itinéraire(s) habituel(s) urbain(s)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ruta(s) regular(es) urbana(s)"
+        }
+      ]
+    },
+    {
+      "code": "RTWN",
+      "display": "Regular Service Between Towns",
+      "definition": "Scheduled public transportation service operating between different municipalities or towns.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service habituel interurbain"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio regular entre ciudades"
+        }
+      ]
+    },
+    {
+      "code": "CHTR",
+      "display": "Charter Service",
+      "definition": "Private hire transportation service for groups on a non-scheduled basis.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Affrètement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de flete"
+        }
+      ]
+    },
+    {
+      "code": "CITY",
+      "display": "City Or Town",
+      "definition": "General urban transportation service within city or town limits.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Urbain(s)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Urbano"
+        }
+      ]
+    },
+    {
+      "code": "TOUR",
+      "display": "Sightseeing Tours",
+      "definition": "Transportation service providing guided tours and sightseeing excursions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Visites touristiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tours turísticos"
+        }
+      ]
+    },
+    {
+      "code": "SCHL",
+      "display": "School Transportation",
+      "definition": "Transportation service dedicated to transporting students to and from educational institutions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transport scolaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transporte escolar"
+        }
+      ]
+    },
+    {
+      "code": "SHUT",
+      "display": "Shuttle Service",
+      "definition": "Short-distance transportation service operating between specific locations on a frequent schedule.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Navette"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio de traslado"
+        }
+      ]
+    },
+    {
+      "code": "RRTE",
+      "display": "Regular Route(s)",
+      "definition": "Scheduled transportation service operating on established routes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Itinéraire(s) habituel(s)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ruta(s) regular(es)"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Public vehicle service type not otherwise categorized.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1872 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "AntiTheftProduct",
+  "url": "https://bind.codes/AntiTheftProduct",
+  "name": "AntiTheftProduct",
+  "title": "Anti Theft Product",
+  "status": "draft",
+  "language": "en",
+  "description": "Anti Theft Product codes for insurance operations.",
+  "concept": [
+    {
+      "code": "VOEM",
+      "display": "Vehicle Manufacturer/Original Equipment Manufacturer",
+      "definition": "Factory-installed anti-theft system provided by the vehicle manufacturer as original equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Constructeur automobile/équipementier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fabricante de vehículos/Fabricante de equipo original"
+        }
+      ]
+    },
+    {
+      "code": "PRTG",
+      "display": "PRO-TG",
+      "definition": "PRO-TG brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "PRO-TG"
+        },
+        {
+          "language": "es-MX",
+          "value": "PRO-TG"
+        }
+      ]
+    },
+    {
+      "code": "SHLK",
+      "display": "Sherlock",
+      "definition": "Sherlock brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sherlock"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sherlock"
+        }
+      ]
+    },
+    {
+      "code": "SPAV",
+      "display": "SPAV",
+      "definition": "SPAV brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "SPAV"
+        },
+        {
+          "language": "es-MX",
+          "value": "SPAV"
+        }
+      ]
+    },
+    {
+      "code": "SDGD",
+      "display": "Super Duro-garde",
+      "definition": "Super Duro-garde brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Super Duro-garde"
+        },
+        {
+          "language": "es-MX",
+          "value": "Super Duro-garde"
+        }
+      ]
+    },
+    {
+      "code": "DOCX",
+      "display": "Doc",
+      "definition": "Doc brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Doc"
+        },
+        {
+          "language": "es-MX",
+          "value": "Doc"
+        }
+      ]
+    },
+    {
+      "code": "AGRD",
+      "display": "Auto-garde",
+      "definition": "Auto-garde brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Auto-garde"
+        },
+        {
+          "language": "es-MX",
+          "value": "Auto-garde"
+        }
+      ]
+    },
+    {
+      "code": "RMCO",
+      "display": "RAMCO",
+      "definition": "RAMCO brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "RAMCO"
+        },
+        {
+          "language": "es-MX",
+          "value": "RAMCO"
+        }
+      ]
+    },
+    {
+      "code": "APPL",
+      "display": "Apple",
+      "definition": "Apple brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Apple"
+        },
+        {
+          "language": "es-MX",
+          "value": "Apple"
+        }
+      ]
+    },
+    {
+      "code": "BOOM",
+      "display": "Boomerang",
+      "definition": "Boomerang brand vehicle recovery and anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boomerang"
+        },
+        {
+          "language": "es-MX",
+          "value": "Boomerang"
+        }
+      ]
+    },
+    {
+      "code": "DVIP",
+      "display": "Duro VIP",
+      "definition": "Duro VIP premium vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Duro VIP"
+        },
+        {
+          "language": "es-MX",
+          "value": "Duro VIP"
+        }
+      ]
+    },
+    {
+      "code": "VS15",
+      "display": "VSS 150",
+      "definition": "VSS 150 vehicle security system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "VSS 150"
+        },
+        {
+          "language": "es-MX",
+          "value": "VSS 150"
+        }
+      ]
+    },
+    {
+      "code": "ATMT",
+      "display": "Automate",
+      "definition": "Automate brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Automate"
+        },
+        {
+          "language": "es-MX",
+          "value": "Automate"
+        }
+      ]
+    },
+    {
+      "code": "TB3V",
+      "display": "Theftbuster TB300V (VICC approved)",
+      "definition": "Theftbuster TB300V vehicle anti-theft system approved by the Vehicle Information Centre of Canada.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Theftbuster TB300V (approuvé CIVC)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Theftbuster TB300V (aprobado VICC)"
+        }
+      ]
+    },
+    {
+      "code": "AW29",
+      "display": "Autowatch 329Ti (VICC approved)",
+      "definition": "Autowatch 329Ti vehicle anti-theft system approved by the Vehicle Information Centre of Canada.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autowatch 329Ti (approuvé CIVC)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Autowatch 329Ti (aprobado VICC)"
+        }
+      ]
+    },
+    {
+      "code": "MG60",
+      "display": "Magtec 6000 (VICC approved)",
+      "definition": "Magtec 6000 vehicle anti-theft system approved by the Vehicle Information Centre of Canada.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Magtec 6000 (approuvé CIVC)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Magtec 6000 (aprobado VICC)"
+        }
+      ]
+    },
+    {
+      "code": "PWLC",
+      "display": "Powerlock Canada (VICC approved)",
+      "definition": "Powerlock Canada vehicle anti-theft system approved by the Vehicle Information Centre of Canada.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Powerlock Canada (approuvé CIVC)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Powerlock Canada (aprobado VICC)"
+        }
+      ]
+    },
+    {
+      "code": "ALPN",
+      "display": "Alpine",
+      "definition": "Alpine brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Alpine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Alpine"
+        }
+      ]
+    },
+    {
+      "code": "ATST",
+      "display": "Autostart",
+      "definition": "Autostart brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autostart"
+        },
+        {
+          "language": "es-MX",
+          "value": "Autostart"
+        }
+      ]
+    },
+    {
+      "code": "AWTC",
+      "display": "Autowatch",
+      "definition": "Autowatch brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autowatch"
+        },
+        {
+          "language": "es-MX",
+          "value": "Autowatch"
+        }
+      ]
+    },
+    {
+      "code": "BOM1",
+      "display": "Boomerang I",
+      "definition": "Boomerang I series vehicle recovery and anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boomerang I"
+        },
+        {
+          "language": "es-MX",
+          "value": "Boomerang I"
+        }
+      ]
+    },
+    {
+      "code": "BOM2",
+      "display": "Boomerang II",
+      "definition": "Boomerang II series vehicle recovery and anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boomerang II"
+        },
+        {
+          "language": "es-MX",
+          "value": "Boomerang II"
+        }
+      ]
+    },
+    {
+      "code": "CRBN",
+      "display": "Carbine",
+      "definition": "Carbine brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Carbine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carbine"
+        }
+      ]
+    },
+    {
+      "code": "CLFD",
+      "display": "Clifford",
+      "definition": "Clifford brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clifford"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clifford"
+        }
+      ]
+    },
+    {
+      "code": "DURO",
+      "display": "Duro",
+      "definition": "Duro brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Duro"
+        },
+        {
+          "language": "es-MX",
+          "value": "Duro"
+        }
+      ]
+    },
+    {
+      "code": "INTR",
+      "display": "Intercepter",
+      "definition": "Intercepter brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intercepter"
+        },
+        {
+          "language": "es-MX",
+          "value": "Intercepter"
+        }
+      ]
+    },
+    {
+      "code": "MGTC",
+      "display": "Magtec",
+      "definition": "Magtec brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Magtec"
+        },
+        {
+          "language": "es-MX",
+          "value": "Magtec"
+        }
+      ]
+    },
+    {
+      "code": "MRKM",
+      "display": "Marksman",
+      "definition": "Marksman brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Marksman"
+        },
+        {
+          "language": "es-MX",
+          "value": "Marksman"
+        }
+      ]
+    },
+    {
+      "code": "MBLS",
+      "display": "Mobilus",
+      "definition": "Mobilus brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mobilus"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mobilus"
+        }
+      ]
+    },
+    {
+      "code": "ONST",
+      "display": "OnStar",
+      "definition": "OnStar vehicle safety and security subscription service.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "OnStar"
+        },
+        {
+          "language": "es-MX",
+          "value": "OnStar"
+        }
+      ]
+    },
+    {
+      "code": "PWST",
+      "display": "Powerstart",
+      "definition": "Powerstart brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Powerstart"
+        },
+        {
+          "language": "es-MX",
+          "value": "Powerstart"
+        }
+      ]
+    },
+    {
+      "code": "PRST",
+      "display": "Prestige",
+      "definition": "Prestige brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Prestige"
+        },
+        {
+          "language": "es-MX",
+          "value": "Prestige"
+        }
+      ]
+    },
+    {
+      "code": "PRSU",
+      "display": "Pursuit",
+      "definition": "Pursuit brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pursuit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pursuit"
+        }
+      ]
+    },
+    {
+      "code": "PYTH",
+      "display": "Python",
+      "definition": "Python brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Python"
+        },
+        {
+          "language": "es-MX",
+          "value": "Python"
+        }
+      ]
+    },
+    {
+      "code": "SPVT",
+      "display": "SPAVTrack",
+      "definition": "SPAVTrack vehicle tracking and anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "SPAVTrack"
+        },
+        {
+          "language": "es-MX",
+          "value": "SPAVTrack"
+        }
+      ]
+    },
+    {
+      "code": "SSNX",
+      "display": "SSN",
+      "definition": "SSN brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "SSN"
+        },
+        {
+          "language": "es-MX",
+          "value": "SSN"
+        }
+      ]
+    },
+    {
+      "code": "SSNM",
+      "display": "SSN (Mul-T-Lock)",
+      "definition": "SSN vehicle anti-theft system with Mul-T-Lock technology.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "SSN (Mul-T-Lock)"
+        },
+        {
+          "language": "es-MX",
+          "value": "SSN (Mul-T-Lock)"
+        }
+      ]
+    },
+    {
+      "code": "TIGR",
+      "display": "Tiger",
+      "definition": "Tiger brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tiger"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tiger"
+        }
+      ]
+    },
+    {
+      "code": "ULTR",
+      "display": "Ultracar",
+      "definition": "Ultracar brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ultracar"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ultracar"
+        }
+      ]
+    },
+    {
+      "code": "UNGO",
+      "display": "Ungo",
+      "definition": "Ungo brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ungo"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ungo"
+        }
+      ]
+    },
+    {
+      "code": "VIGL",
+      "display": "Vigil",
+      "definition": "Vigil brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vigil"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vigil"
+        }
+      ]
+    },
+    {
+      "code": "VIPR",
+      "display": "Viper",
+      "definition": "Viper brand vehicle anti-theft and remote start system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Viper"
+        },
+        {
+          "language": "es-MX",
+          "value": "Viper"
+        }
+      ]
+    },
+    {
+      "code": "CELL",
+      "display": "Other Cellular based Technology",
+      "definition": "Vehicle anti-theft or tracking system using cellular communication technology not otherwise specified.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre technologie cellulaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otra tecnología celular"
+        }
+      ]
+    },
+    {
+      "code": "GPSX",
+      "display": "Other GPS based System",
+      "definition": "Vehicle tracking and recovery system using GPS technology not otherwise specified.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre système de repérage GPS"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro sistema basado en GPS"
+        }
+      ]
+    },
+    {
+      "code": "ASTL",
+      "display": "Astrolock",
+      "definition": "Astrolock brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Astrolock"
+        },
+        {
+          "language": "es-MX",
+          "value": "Astrolock"
+        }
+      ]
+    },
+    {
+      "code": "ADVX",
+      "display": "Audiovox",
+      "definition": "Audiovox brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Audiovox"
+        },
+        {
+          "language": "es-MX",
+          "value": "Audiovox"
+        }
+      ]
+    },
+    {
+      "code": "CLST",
+      "display": "Collard Steadfast",
+      "definition": "Collard Steadfast brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collard Steadfast"
+        }
+      ]
+    },
+    {
+      "code": "DOC4",
+      "display": "Doc 4000",
+      "definition": "Doc 4000 brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Doc 4000"
+        }
+      ]
+    },
+    {
+      "code": "DUGD",
+      "display": "Duro Garde",
+      "definition": "Duro Garde brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Duro Garde"
+        }
+      ]
+    },
+    {
+      "code": "GMSK",
+      "display": "Gemni (Skylink GPS)",
+      "definition": "Gemni (Skylink GPS) brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gemni (Skylink GPS)"
+        }
+      ]
+    },
+    {
+      "code": "HRNT",
+      "display": "Hornet",
+      "definition": "Hornet brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hornet"
+        }
+      ]
+    },
+    {
+      "code": "INVG",
+      "display": "Investiguard",
+      "definition": "Investiguard brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Investiguard"
+        }
+      ]
+    },
+    {
+      "code": "LYNX",
+      "display": "Lynx",
+      "definition": "Lynx brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Lynx"
+        }
+      ]
+    },
+    {
+      "code": "MCPR",
+      "display": "Micro-protec",
+      "definition": "Micro-protec brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Micro-protec"
+        }
+      ]
+    },
+    {
+      "code": "OTMX",
+      "display": "Otomax",
+      "definition": "Otomax brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Otomax"
+        }
+      ]
+    },
+    {
+      "code": "PLNT",
+      "display": "Planet Track",
+      "definition": "Planet Track brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Planet Track"
+        }
+      ]
+    },
+    {
+      "code": "PRGD",
+      "display": "Pro-Gard",
+      "definition": "Pro-Gard brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pro-Gard"
+        }
+      ]
+    },
+    {
+      "code": "STST",
+      "display": "Stealstopper",
+      "definition": "Stealstopper brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Stealstopper"
+        }
+      ]
+    },
+    {
+      "code": "TG10",
+      "display": "Tiger 1000",
+      "definition": "Tiger 1000 brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tiger 1000"
+        }
+      ]
+    },
+    {
+      "code": "DTDT",
+      "display": "Datadot",
+      "definition": "Datadot brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Datadot"
+        }
+      ]
+    },
+    {
+      "code": "VINL",
+      "display": "Vinlock",
+      "definition": "Vinlock brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vinlock"
+        }
+      ]
+    },
+    {
+      "code": "MGM6",
+      "display": "MasterGard M6000",
+      "definition": "MasterGard M6000 brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "MasterGard M6000"
+        }
+      ]
+    },
+    {
+      "code": "MGTK",
+      "display": "MasterGard TK",
+      "definition": "MasterGard TK brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "MasterGard TK"
+        }
+      ]
+    },
+    {
+      "code": "CANM",
+      "display": "Canam",
+      "definition": "Canam brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Canam"
+        }
+      ]
+    },
+    {
+      "code": "PTGX",
+      "display": "PRO-TG X000",
+      "definition": "PRO-TG X000 brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "PRO-TG X000"
+        }
+      ]
+    },
+    {
+      "code": "SPV6",
+      "display": "Spav 06",
+      "definition": "Spav 06 brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Spav 06"
+        }
+      ]
+    },
+    {
+      "code": "DC12",
+      "display": "Doc 1000 / 2000",
+      "definition": "Doc 1000 / 2000 brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Doc 1000 / 2000"
+        }
+      ]
+    },
+    {
+      "code": "DOXK",
+      "display": "Doc X000",
+      "definition": "Doc X000 brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Doc X000"
+        }
+      ]
+    },
+    {
+      "code": "OTPR",
+      "display": "Otoprotec",
+      "definition": "Otoprotec brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Otoprotec"
+        }
+      ]
+    },
+    {
+      "code": "PSKY",
+      "display": "Pass-Key",
+      "definition": "Pass-Key brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pass-Key"
+        }
+      ]
+    },
+    {
+      "code": "NVLX",
+      "display": "NavLynx",
+      "definition": "NavLynx brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "NavLynx"
+        }
+      ]
+    },
+    {
+      "code": "BMEA",
+      "display": "Boomerang Espion Alert",
+      "definition": "Boomerang Espion Alert brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boomerang Espion Alert"
+        }
+      ]
+    },
+    {
+      "code": "BMES",
+      "display": "Boomerang Espion",
+      "definition": "Boomerang Espion brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boomerang Espion"
+        }
+      ]
+    },
+    {
+      "code": "VP20",
+      "display": "Viper 200Max",
+      "definition": "Viper 200Max brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Viper 200Max"
+        }
+      ]
+    },
+    {
+      "code": "VP22",
+      "display": "Viper 220Max",
+      "definition": "Viper 220Max brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Viper 220Max"
+        }
+      ]
+    },
+    {
+      "code": "TRWS",
+      "display": "Triumph with siren",
+      "definition": "Triumph with siren brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Triumph with siren"
+        }
+      ]
+    },
+    {
+      "code": "MR20",
+      "display": "Merlin 2000",
+      "definition": "Merlin 2000 brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Merlin 2000"
+        }
+      ]
+    },
+    {
+      "code": "HRWS",
+      "display": "Harley with siren",
+      "definition": "Harley with siren brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Harley with siren"
+        }
+      ]
+    },
+    {
+      "code": "BMWX",
+      "display": "BMW",
+      "definition": "BMW brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "BMW"
+        }
+      ]
+    },
+    {
+      "code": "SC15",
+      "display": "Scorpio SR1500S",
+      "definition": "Scorpio SR1500S brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Scorpio SR1500S"
+        }
+      ]
+    },
+    {
+      "code": "SC1E",
+      "display": "Scorpio SR1500E",
+      "definition": "Scorpio SR1500E brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Scorpio SR1500E"
+        }
+      ]
+    },
+    {
+      "code": "TRT2",
+      "display": "Tridion T2",
+      "definition": "Tridion T2 brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tridion T2"
+        }
+      ]
+    },
+    {
+      "code": "ATLK",
+      "display": "Autoluck",
+      "definition": "Autoluck brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autoluck"
+        }
+      ]
+    },
+    {
+      "code": "GDNX",
+      "display": "Guardian",
+      "definition": "Guardian brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Guardian"
+        }
+      ]
+    },
+    {
+      "code": "LRLK",
+      "display": "Larlock",
+      "definition": "Larlock brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Larlock"
+        }
+      ]
+    },
+    {
+      "code": "KL15",
+      "display": "Kolombo URB 1500",
+      "definition": "Kolombo URB 1500 brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Kolombo URB 1500"
+        }
+      ]
+    },
+    {
+      "code": "KL20",
+      "display": "Kolombo URB 2000",
+      "definition": "Kolombo URB 2000 brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Kolombo URB 2000"
+        }
+      ]
+    },
+    {
+      "code": "BMEX",
+      "display": "Boomerang Express",
+      "definition": "Boomerang Express brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boomerang Express"
+        }
+      ]
+    },
+    {
+      "code": "ECTR",
+      "display": "Econotrack",
+      "definition": "Econotrack brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Econotrack"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Other brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None",
+      "definition": "None brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        }
+      ]
+    },
+    {
+      "code": "1A",
+      "display": "Auto Gravure",
+      "definition": "Auto Gravure brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Auto Gravure"
+        },
+        {
+          "language": "es-MX",
+          "value": "Auto Gravure"
+        }
+      ]
+    },
+    {
+      "code": "1B",
+      "display": "Auto Tatou",
+      "definition": "Auto Tatou brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Auto Tatou"
+        }
+      ]
+    },
+    {
+      "code": "1C",
+      "display": "Autoblock",
+      "definition": "Autoblock brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autoblock"
+        }
+      ]
+    },
+    {
+      "code": "1D",
+      "display": "Autographe",
+      "definition": "Autographe brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autographe"
+        }
+      ]
+    },
+    {
+      "code": "1E",
+      "display": "Autotrack",
+      "definition": "Autotrack brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autotrack"
+        }
+      ]
+    },
+    {
+      "code": "1F",
+      "display": "CelluTrak Peace",
+      "definition": "CelluTrak Peace brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "CelluTrak Peace"
+        }
+      ]
+    },
+    {
+      "code": "1G",
+      "display": "CelluTrak Recovery",
+      "definition": "CelluTrak Recovery brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "CelluTrak Recovery"
+        }
+      ]
+    },
+    {
+      "code": "1H",
+      "display": "Centraxx",
+      "definition": "Centraxx brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Centraxx"
+        }
+      ]
+    },
+    {
+      "code": "1I",
+      "display": "Club",
+      "definition": "Club brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Club"
+        }
+      ]
+    },
+    {
+      "code": "1J",
+      "display": "Factory",
+      "definition": "Factory brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Manufacturier"
+        }
+      ]
+    },
+    {
+      "code": "1K",
+      "display": "Harisson Starter",
+      "definition": "Harisson Starter brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Harisson Starter"
+        }
+      ]
+    },
+    {
+      "code": "1L",
+      "display": "Invisiguard",
+      "definition": "Invisiguard brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Invisiguard"
+        }
+      ]
+    },
+    {
+      "code": "1M",
+      "display": "Kill",
+      "definition": "Kill brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Kill"
+        }
+      ]
+    },
+    {
+      "code": "1N",
+      "display": "Mobicom",
+      "definition": "Mobicom brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mobicom"
+        }
+      ]
+    },
+    {
+      "code": "1O",
+      "display": "Mobiguard",
+      "definition": "Mobiguard brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mobiguard"
+        }
+      ]
+    },
+    {
+      "code": "1P",
+      "display": "Ranger",
+      "definition": "Ranger brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ranger"
+        }
+      ]
+    },
+    {
+      "code": "1Q",
+      "display": "Tag",
+      "definition": "Tag brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tag"
+        }
+      ]
+    },
+    {
+      "code": "1R",
+      "display": "Aprilla",
+      "definition": "Aprilla brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aprilla"
+        }
+      ]
+    },
+    {
+      "code": "1S",
+      "display": "Armed Guard",
+      "definition": "Armed Guard brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Armed Guard"
+        }
+      ]
+    },
+    {
+      "code": "1T",
+      "display": "Autowatch 500 Rli",
+      "definition": "Autowatch 500 Rli brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autowatch 500 Rli"
+        }
+      ]
+    },
+    {
+      "code": "1U",
+      "display": "Autowatch 500",
+      "definition": "Autowatch 500 brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autowatch 500"
+        }
+      ]
+    },
+    {
+      "code": "1V",
+      "display": "Banshee",
+      "definition": "Banshee brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Banshee"
+        }
+      ]
+    },
+    {
+      "code": "1W",
+      "display": "CelluTrak Bikeguard",
+      "definition": "CelluTrak Bikeguard brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "CelluTrak Bikeguard"
+        }
+      ]
+    },
+    {
+      "code": "1X",
+      "display": "CelluTrak Control",
+      "definition": "CelluTrak Control brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "CelluTrak Control"
+        }
+      ]
+    },
+    {
+      "code": "1Y",
+      "display": "Ducati",
+      "definition": "Ducati brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ducati"
+        }
+      ]
+    },
+    {
+      "code": "1Z",
+      "display": "Espion - Lojack",
+      "definition": "Espion - Lojack brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Espion - Lojack"
+        }
+      ]
+    },
+    {
+      "code": "2A",
+      "display": "Espion Alert - Lojack",
+      "definition": "Espion Alert - Lojack brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Espion Alert - Lojack"
+        }
+      ]
+    },
+    {
+      "code": "2B",
+      "display": "Espion Alert Plus - Lojack",
+      "definition": "Espion Alert Plus - Lojack brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Espion Alert Plus - Lojack"
+        }
+      ]
+    },
+    {
+      "code": "2C",
+      "display": "Excel 300",
+      "definition": "Excel 300 brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Excel 300"
+        }
+      ]
+    },
+    {
+      "code": "2D",
+      "display": "Gorilla",
+      "definition": "Gorilla brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gorilla"
+        }
+      ]
+    },
+    {
+      "code": "2E",
+      "display": "Harley without siren",
+      "definition": "Harley without siren brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Harley sans sirène"
+        }
+      ]
+    },
+    {
+      "code": "2F",
+      "display": "Harley-Davidson",
+      "definition": "Harley-Davidson brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Harley-Davidson"
+        }
+      ]
+    },
+    {
+      "code": "2G",
+      "display": "Hawk 100",
+      "definition": "Hawk 100 brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hawk 100"
+        }
+      ]
+    },
+    {
+      "code": "2H",
+      "display": "Hawk 200",
+      "definition": "Hawk 200 brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hawk 200"
+        }
+      ]
+    },
+    {
+      "code": "2I",
+      "display": "Icalock",
+      "definition": "Icalock brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Icalock"
+        }
+      ]
+    },
+    {
+      "code": "2J",
+      "display": "Kolombo",
+      "definition": "Kolombo brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Kolombo"
+        }
+      ]
+    },
+    {
+      "code": "2K",
+      "display": "KTM",
+      "definition": "KTM brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "KTM"
+        }
+      ]
+    },
+    {
+      "code": "2L",
+      "display": "LoJack Alert",
+      "definition": "LoJack Alert brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "LoJack Alert"
+        }
+      ]
+    },
+    {
+      "code": "2M",
+      "display": "LoJack C",
+      "definition": "LoJack C brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "LoJack C"
+        }
+      ]
+    },
+    {
+      "code": "2N",
+      "display": "LoJack",
+      "definition": "LoJack brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "LoJack"
+        }
+      ]
+    },
+    {
+      "code": "2O",
+      "display": "Merlin",
+      "definition": "Merlin brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Merlin"
+        }
+      ]
+    },
+    {
+      "code": "2P",
+      "display": "M-link",
+      "definition": "M-link brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "M-link"
+        }
+      ]
+    },
+    {
+      "code": "2Q",
+      "display": "Mul-T-Lock",
+      "definition": "Mul-T-Lock brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mul-T-Lock"
+        }
+      ]
+    },
+    {
+      "code": "2R",
+      "display": "PFK Autowatch 329 Ti",
+      "definition": "PFK Autowatch 329 Ti brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "PFK Autowatch 329 Ti"
+        }
+      ]
+    },
+    {
+      "code": "2S",
+      "display": "Phantom X",
+      "definition": "Phantom X brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Phantom X"
+        }
+      ]
+    },
+    {
+      "code": "2T",
+      "display": "RLiBB",
+      "definition": "RLiBB brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "RLiBB"
+        }
+      ]
+    },
+    {
+      "code": "2U",
+      "display": "Scorpio",
+      "definition": "Scorpio brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Scorpio"
+        }
+      ]
+    },
+    {
+      "code": "2V",
+      "display": "Snyper MX-7",
+      "definition": "Snyper MX-7 brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Snyper MX-7"
+        }
+      ]
+    },
+    {
+      "code": "2W",
+      "display": "Triumph",
+      "definition": "Triumph brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Triumph"
+        }
+      ]
+    },
+    {
+      "code": "2Y",
+      "display": "Guardian Cadenas",
+      "definition": "Guardian Cadenas brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Guardian Cadenas"
+        }
+      ]
+    },
+    {
+      "code": "2Z",
+      "display": "Yamaha",
+      "definition": "Yamaha brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Yamaha"
+        }
+      ]
+    },
+    {
+      "code": "BLRF",
+      "display": "Boomerang / LoJack Espion (radio frequency technology)",
+      "definition": "Boomerang / LoJack Espion (radio frequency technology) brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boomerang / LoJack Espion (technologie radiofréquence)"
+        }
+      ]
+    },
+    {
+      "code": "BLRA",
+      "display": "Boomerang / LoJack Espion Alert (radio frequency technology)",
+      "definition": "Boomerang / LoJack Espion Alert (radio frequency technology) brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boomerang / LoJack Espion Alert (technologie radiofréquence)"
+        }
+      ]
+    },
+    {
+      "code": "BLRP",
+      "display": "Boomerang / LoJack Espion Alert Plus (radio frequency technology)",
+      "definition": "Boomerang / LoJack Espion Alert Plus (radio frequency technology) brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Boomerang / LoJack Espion Alert Plus (technologie radiofréquence)"
+        }
+      ]
+    },
+    {
+      "code": "3RDE",
+      "display": "3rd Eye Tracking",
+      "definition": "3rd Eye Tracking brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "3rd Eye Tracking"
+        }
+      ]
+    },
+    {
+      "code": "ORCA",
+      "display": "Orca",
+      "definition": "Orca brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Orca"
+        }
+      ]
+    },
+    {
+      "code": "MLNK",
+      "display": "M-Link",
+      "definition": "M-Link brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "M-Link"
+        }
+      ]
+    },
+    {
+      "code": "ASTS",
+      "display": "Astus",
+      "definition": "Astus brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Astus"
+        }
+      ]
+    },
+    {
+      "code": "3A",
+      "display": "KYCS Global Inc.",
+      "definition": "KYCS Global Inc. brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "KYCS Global Inc."
+        }
+      ]
+    },
+    {
+      "code": "3B",
+      "display": "Domino",
+      "definition": "Domino brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Domino"
+        }
+      ]
+    },
+    {
+      "code": "3C",
+      "display": "Globali",
+      "definition": "Globali brand vehicle anti-theft system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Globali"
+        }
+      ]
+    }
+  ]
+}

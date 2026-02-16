@@ -1,0 +1,146 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ElevatorType",
+  "url": "https://bind.codes/ElevatorType",
+  "name": "ElevatorType",
+  "title": "Elevator Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Elevator Type codes for insurance operations.",
+  "concept": [
+    {
+      "code": "FRGT",
+      "display": "Freight",
+      "definition": "Elevator designed to transport goods, materials, and heavy loads rather than passengers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Monte-charge"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carga"
+        }
+      ]
+    },
+    {
+      "code": "PSGR",
+      "display": "Passenger",
+      "definition": "Elevator designed primarily for transporting people between floors.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ascenseur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pasajeros"
+        }
+      ]
+    },
+    {
+      "code": "COMB",
+      "display": "Combined, Passenger and Freight",
+      "definition": "Elevator designed to transport both passengers and freight, with dual-purpose capability.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Combiné, ascenseur et monte-charge"
+        },
+        {
+          "language": "es-MX",
+          "value": "Combinado, pasajeros y carga"
+        }
+      ]
+    },
+    {
+      "code": "VHCL",
+      "display": "Vehicle",
+      "definition": "Elevator designed to transport motor vehicles between levels, typically in parking structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Véhicule"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vehículos"
+        }
+      ]
+    },
+    {
+      "code": "ESCL",
+      "display": "Escalators",
+      "definition": "Moving staircase that transports people between floors on a continuous loop.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Escaliers mécaniques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escaleras mecánicas"
+        }
+      ]
+    },
+    {
+      "code": "RWLK",
+      "display": "Rolling Sidewalk/Pedway",
+      "definition": "Moving walkway that transports pedestrians horizontally or at a slight incline.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trottoir roulant/passage piétonnier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pasillo rodante/pasarela"
+        }
+      ]
+    },
+    {
+      "code": "CNVY",
+      "display": "Conveyor",
+      "definition": "Mechanical system that moves materials or goods using a belt, chain, or roller mechanism.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Convoyeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transportador"
+        }
+      ]
+    },
+    {
+      "code": "DWTR",
+      "display": "Dumbwaiter",
+      "definition": "Small freight elevator designed to carry food, dishes, or small items between floors.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Monte-plats"
+        },
+        {
+          "language": "es-MX",
+          "value": "Montaplatos"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

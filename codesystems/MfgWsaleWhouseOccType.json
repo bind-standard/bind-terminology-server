@@ -1,0 +1,282 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "MfgWsaleWhouseOccType",
+  "url": "https://bind.codes/MfgWsaleWhouseOccType",
+  "name": "MfgWsaleWhouseOccType",
+  "title": "Manufacturing, Wholesale and Warehouse Occupancy Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Classification of manufacturing, wholesale, and warehouse occupancy types based on the nature of products or operations conducted.",
+  "concept": [
+    {
+      "code": "WOOD",
+      "display": "Wood products",
+      "definition": "Manufacturing, wholesale, or warehousing operations involving lumber, timber, or other wood-based materials and finished products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits du bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Productos de madera"
+        }
+      ]
+    },
+    {
+      "code": "PLST",
+      "display": "Plastic products",
+      "definition": "Manufacturing, wholesale, or warehousing operations involving plastic materials, components, or finished plastic goods.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits de plastique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Productos de plástico"
+        }
+      ]
+    },
+    {
+      "code": "HAZM",
+      "display": "Hazardous materials",
+      "definition": "Facilities handling substances that pose potential threats to health, safety, or the environment, including flammables, corrosives, or toxic materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Matières dangereuses"
+        },
+        {
+          "language": "es-MX",
+          "value": "Materiales peligrosos"
+        }
+      ]
+    },
+    {
+      "code": "CHEM",
+      "display": "Chemicals",
+      "definition": "Manufacturing, wholesale, or warehousing of chemical compounds and substances for industrial, commercial, or laboratory use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits chimiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Productos químicos"
+        }
+      ]
+    },
+    {
+      "code": "METL",
+      "display": "Metal products, light",
+      "definition": "Operations involving light metal products such as sheet metal, small components, hardware, or lightweight metal assemblies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits métalliques, légers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Productos metálicos ligeros"
+        }
+      ]
+    },
+    {
+      "code": "METH",
+      "display": "Metal products, heavy",
+      "definition": "Operations involving heavy metal products such as structural steel, machinery, industrial equipment, or large metal fabrications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits métalliques, lourds"
+        },
+        {
+          "language": "es-MX",
+          "value": "Productos metálicos pesados"
+        }
+      ]
+    },
+    {
+      "code": "FOOD",
+      "display": "Food/Meat packing",
+      "definition": "Facilities engaged in processing, packaging, or storing food products and meat for distribution and sale.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Emballage pour aliments et viandes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empaque de alimentos y carne"
+        }
+      ]
+    },
+    {
+      "code": "SLFS",
+      "display": "Self-storage",
+      "definition": "Facilities providing individual storage units rented to customers for personal or business use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autorangement"
+        },
+        {
+          "language": "es-MX",
+          "value": "Autoalmacenamiento"
+        }
+      ]
+    },
+    {
+      "code": "CLDS",
+      "display": "Cold storage",
+      "definition": "Temperature-controlled warehousing facilities for storing perishable goods, frozen products, or items requiring refrigeration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entrepôt frigorifique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Almacenamiento en frío"
+        }
+      ]
+    },
+    {
+      "code": "HSHD",
+      "display": "Household goods",
+      "definition": "Storage or wholesale distribution of furniture, appliances, home furnishings, and other domestic items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Articles ménagers"
+        },
+        {
+          "language": "es-MX",
+          "value": "Artículos para el hogar"
+        }
+      ]
+    },
+    {
+      "code": "CLTH",
+      "display": "Clothing",
+      "definition": "Manufacturing, wholesale, or warehousing of garments, textiles, and apparel products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vêtements"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ropa"
+        }
+      ]
+    },
+    {
+      "code": "ELEC",
+      "display": "Electronics",
+      "definition": "Manufacturing, wholesale, or warehousing of electronic devices, components, and technology products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Électronique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Electrónica"
+        }
+      ]
+    },
+    {
+      "code": "PHAR",
+      "display": "Pharmaceuticals",
+      "definition": "Facilities handling medications, medical supplies, or pharmaceutical products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits pharmaceutiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Productos farmacéuticos"
+        }
+      ]
+    },
+    {
+      "code": "PAPR",
+      "display": "Paper products",
+      "definition": "Manufacturing, wholesale, or warehousing of paper, cardboard, packaging materials, or printed products.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Produits de papier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Productos de papel"
+        }
+      ]
+    },
+    {
+      "code": "AUTO",
+      "display": "Automotive parts",
+      "definition": "Storage or wholesale distribution of vehicle components, parts, and automotive accessories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pièces automobiles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Partes automotrices"
+        }
+      ]
+    },
+    {
+      "code": "MFGO",
+      "display": "Other manufacturing",
+      "definition": "Manufacturing operations not classified in other specific categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre fabrication"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otra manufactura"
+        }
+      ]
+    },
+    {
+      "code": "WRHO",
+      "display": "Other warehouse",
+      "definition": "Warehousing operations not classified in other specific categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre entrepôt"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro almacén"
+        }
+      ]
+    },
+    {
+      "code": "WSLO",
+      "display": "Other wholesale",
+      "definition": "Wholesale distribution operations not classified in other specific categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autres ventes en gros"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otra venta al por mayor"
+        }
+      ]
+    }
+  ]
+}

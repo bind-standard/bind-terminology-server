@@ -1,0 +1,132 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "RadiusRange",
+  "url": "https://bind.codes/RadiusRange",
+  "name": "RadiusRange",
+  "title": "Radius Range",
+  "status": "draft",
+  "language": "en",
+  "description": "Radius Range codes for insurance operations.",
+  "concept": [
+    {
+      "code": "RD40",
+      "display": "Within 40km",
+      "definition": "Operating or delivery radius up to 40 kilometers from a base location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "À l'intérieur de 40 km"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dentro de 40 km"
+        }
+      ]
+    },
+    {
+      "code": "RD80",
+      "display": "From 41km to 80km",
+      "definition": "Operating or delivery radius between 41 and 80 kilometers from a base location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "De 41 km à 80 km"
+        },
+        {
+          "language": "es-MX",
+          "value": "De 41 km a 80 km"
+        }
+      ]
+    },
+    {
+      "code": "R160",
+      "display": "From 81km to 160km",
+      "definition": "Operating or delivery radius between 81 and 160 kilometers from a base location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "De 81 km à 160 km"
+        },
+        {
+          "language": "es-MX",
+          "value": "De 81 km a 160 km"
+        }
+      ]
+    },
+    {
+      "code": "R320",
+      "display": "From 161km to 320km",
+      "definition": "Operating or delivery radius between 161 and 320 kilometers from a base location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "De 161 km à 320 km"
+        },
+        {
+          "language": "es-MX",
+          "value": "De 161 km a 320 km"
+        }
+      ]
+    },
+    {
+      "code": "R480",
+      "display": "From 321km to 480km",
+      "definition": "Operating or delivery radius between 321 and 480 kilometers from a base location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "De 321 km à 480 km"
+        },
+        {
+          "language": "es-MX",
+          "value": "De 321 km a 480 km"
+        }
+      ]
+    },
+    {
+      "code": "R800",
+      "display": "From 481km to 800km",
+      "definition": "Operating or delivery radius between 481 and 800 kilometers from a base location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "De 481 km à 800 km"
+        },
+        {
+          "language": "es-MX",
+          "value": "De 481 km a 800 km"
+        }
+      ]
+    },
+    {
+      "code": "R960",
+      "display": "From 801km to 960km",
+      "definition": "Operating or delivery radius between 801 and 960 kilometers from a base location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "De 801 km à 960 km"
+        },
+        {
+          "language": "es-MX",
+          "value": "De 801 km a 960 km"
+        }
+      ]
+    },
+    {
+      "code": "RUNL",
+      "display": "Over 960km",
+      "definition": "Operating or delivery radius exceeding 960 kilometers from a base location, or unlimited range.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plus de 960 km"
+        },
+        {
+          "language": "es-MX",
+          "value": "Más de 960 km"
+        }
+      ]
+    }
+  ]
+}

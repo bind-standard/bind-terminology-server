@@ -1,0 +1,266 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "EmploymentStatus",
+  "url": "https://bind.codes/EmploymentStatus",
+  "name": "EmploymentStatus",
+  "title": "Employment Status",
+  "status": "draft",
+  "language": "en",
+  "description": "Employment Status codes for insurance operations.",
+  "concept": [
+    {
+      "code": "FLTM",
+      "display": "Full-time",
+      "definition": "Employee working the standard number of hours considered full-time by the employer, typically 35-40 hours per week.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Temps plein"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tiempo completo"
+        }
+      ]
+    },
+    {
+      "code": "PRTM",
+      "display": "Part-time",
+      "definition": "Employee working fewer hours than full-time, typically less than 30 hours per week.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Temps partiel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tiempo parcial"
+        }
+      ]
+    },
+    {
+      "code": "VOLT",
+      "display": "Volunteer",
+      "definition": "Person providing services without compensation or formal employment relationship.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bénévole"
+        },
+        {
+          "language": "es-MX",
+          "value": "Voluntario"
+        }
+      ]
+    },
+    {
+      "code": "AUXL",
+      "display": "Auxiliary",
+      "definition": "Employee in a supplementary or on-call role, filling in when additional staff is needed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Auxiliaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Auxiliar"
+        }
+      ]
+    },
+    {
+      "code": "PERM",
+      "display": "Permanent",
+      "definition": "Employee with an ongoing, indefinite employment relationship with no predetermined end date.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Permanent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Permanente"
+        }
+      ]
+    },
+    {
+      "code": "SESN",
+      "display": "Seasonal",
+      "definition": "Employee hired for work that occurs during specific seasons or periods of the year.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Saisonnier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estacional"
+        }
+      ]
+    },
+    {
+      "code": "CNTR",
+      "display": "Contract",
+      "definition": "Worker engaged for a specified duration or project under a contractual agreement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contractuel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contrato"
+        }
+      ]
+    },
+    {
+      "code": "TMPC",
+      "display": "Temporary/Casual",
+      "definition": "Worker hired on a short-term, irregular, or as-needed basis without guaranteed hours.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intérimaire/extra"
+        },
+        {
+          "language": "es-MX",
+          "value": "Temporal/Ocasional"
+        }
+      ]
+    },
+    {
+      "code": "OFFS",
+      "display": "Off-site",
+      "definition": "Worker who performs duties at a location other than the employer's primary business premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hors site"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fuera del sitio"
+        }
+      ]
+    },
+    {
+      "code": "LCNS",
+      "display": "Licensed",
+      "definition": "Worker holding a professional license or certification required to perform their role.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avec permis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Con licencia"
+        }
+      ]
+    },
+    {
+      "code": "UNLC",
+      "display": "Unlicensed",
+      "definition": "Worker without a professional license or certification, or performing work not requiring such credentials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sans permis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sin licencia"
+        }
+      ]
+    },
+    {
+      "code": "SELF",
+      "display": "Self-employed",
+      "definition": "Individual operating their own business or working as an independent contractor.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travailleur autonome"
+        },
+        {
+          "language": "es-MX",
+          "value": "Autónomo"
+        }
+      ]
+    },
+    {
+      "code": "RETD",
+      "display": "Retired",
+      "definition": "Person who has permanently left the workforce after reaching retirement age or eligibility.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Retraité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Jubilado"
+        }
+      ]
+    },
+    {
+      "code": "UNEM",
+      "display": "Unemployed",
+      "definition": "Person not currently engaged in paid work or employment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sans emploi"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desempleado"
+        }
+      ]
+    },
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "definition": "Employment status has not been determined or disclosed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Employment status not covered by standard categories.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

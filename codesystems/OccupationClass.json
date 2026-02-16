@@ -1,0 +1,2096 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "OccupationClass",
+  "url": "https://bind.codes/OccupationClass",
+  "name": "OccupationClass",
+  "title": "Occupation Class",
+  "status": "draft",
+  "language": "en",
+  "description": "Occupation Class codes for insurance operations.",
+  "concept": [
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "ACCT",
+      "display": "Accountant",
+      "definition": "Professional who prepares, examines, and maintains financial records and statements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comptable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contador"
+        }
+      ]
+    },
+    {
+      "code": "ACTU",
+      "display": "Actuary",
+      "definition": "Professional who analyzes financial consequences of risk using mathematics, statistics, and financial theory.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Actuaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Actuario"
+        }
+      ]
+    },
+    {
+      "code": "ADMN",
+      "display": "Administrator/Director",
+      "definition": "Professional who oversees operations, policies, and strategic direction of an organization or department.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Administrateur/directeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Administrador/Director"
+        }
+      ]
+    },
+    {
+      "code": "AGRO",
+      "display": "Agronomist",
+      "definition": "Professional specializing in soil management and crop production science.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agronome"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agrónomo"
+        }
+      ]
+    },
+    {
+      "code": "AIRP",
+      "display": "Airline Personnel",
+      "definition": "Employees working in airline operations, including ground staff and administrative roles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Personnel de compagnie de transport aérien"
+        },
+        {
+          "language": "es-MX",
+          "value": "Personal de aerolínea"
+        }
+      ]
+    },
+    {
+      "code": "ARCH",
+      "display": "Architect",
+      "definition": "Professional who designs buildings and structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Architecte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arquitecto"
+        }
+      ]
+    },
+    {
+      "code": "ARMF",
+      "display": "Armed Forces",
+      "definition": "Members of military services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Forces armées"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fuerzas Armadas"
+        }
+      ]
+    },
+    {
+      "code": "ARTW",
+      "display": "Artist (Without Other Profession)",
+      "definition": "Individual engaged in creative or performing arts as sole occupation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Artiste (sans autre profession)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Artista (sin otra profesión)"
+        }
+      ]
+    },
+    {
+      "code": "ATHP",
+      "display": "Athlete - Professional",
+      "definition": "Individual who participates in competitive sports at a professional level.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Athlète - Professionnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Atleta - Profesional"
+        }
+      ]
+    },
+    {
+      "code": "MECH",
+      "display": "Automobile Mechanic",
+      "definition": "Technician who diagnoses, repairs, and maintains motor vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mécanicien automobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mecánico de automóviles"
+        }
+      ]
+    },
+    {
+      "code": "AUTD",
+      "display": "Automobile Sales/Dealer",
+      "definition": "Professional engaged in the sale of new or used motor vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Concessionnaire/vente automobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vendedor/Concesionario de automóviles"
+        }
+      ]
+    },
+    {
+      "code": "ASTR",
+      "display": "Astronomer",
+      "definition": "Scientist who studies celestial objects, space, and the physical universe.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Astronome"
+        },
+        {
+          "language": "es-MX",
+          "value": "Astrónomo"
+        }
+      ]
+    },
+    {
+      "code": "BFAD",
+      "display": "Bank/Financial Institution - Administration",
+      "definition": "Administrative staff in banking and financial institutions handling operational support functions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Banque/institution financière - Administration"
+        },
+        {
+          "language": "es-MX",
+          "value": "Banco/Institución Financiera - Administración"
+        }
+      ]
+    },
+    {
+      "code": "BFCL",
+      "display": "Bank/Financial Institution - Clerical",
+      "definition": "Clerical employees in banking and financial institutions performing data entry and customer service tasks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Banque/institution financière - Employé bureau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Banco/Institución Financiera - Oficinista"
+        }
+      ]
+    },
+    {
+      "code": "BFMG",
+      "display": "Bank/Financial Institution - Management",
+      "definition": "Managers in banking and financial institutions with oversight of teams and operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Banque/institution financière - Direction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Banco/Institución Financiera - Gerencia"
+        }
+      ]
+    },
+    {
+      "code": "BARB",
+      "display": "Barber, Hairdresser",
+      "definition": "Professional who cuts, styles, and maintains hair.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Barbier, Coiffeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Barbero, Peluquero"
+        }
+      ]
+    },
+    {
+      "code": "CARP",
+      "display": "Carpenter",
+      "definition": "Skilled tradesperson who constructs, repairs, and installs building frameworks and structures made from wood and other materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Menuisier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Carpintero"
+        }
+      ]
+    },
+    {
+      "code": "CSHI",
+      "display": "Cashier",
+      "definition": "Employee who handles payment transactions at retail or service establishments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caissier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cajero"
+        }
+      ]
+    },
+    {
+      "code": "CA:CHAC",
+      "display": "Chartered Accountant",
+      "definition": "Professionally certified accountant holding the CA designation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comptable agréé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contador Público Certificado"
+        }
+      ]
+    },
+    {
+      "code": "CIVS",
+      "display": "Civil Service",
+      "definition": "Government employee working in public administration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fonction publique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Servicio Civil"
+        }
+      ]
+    },
+    {
+      "code": "CLGY",
+      "display": "Clergy",
+      "definition": "Religious leader or ordained minister.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Clergé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Clero"
+        }
+      ]
+    },
+    {
+      "code": "COMP",
+      "display": "Computer  - Analyst, Consultant, Programmer, etc.",
+      "definition": "Professional working in information technology roles including systems analysis, software development, and technical consulting.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Informatique - Analyste, consultant, programmeur, etc."
+        },
+        {
+          "language": "es-MX",
+          "value": "Computación - Analista, Consultor, Programador, etc."
+        }
+      ]
+    },
+    {
+      "code": "CNHR",
+      "display": "Consultant - Human Resources",
+      "definition": "Professional advisor specializing in employee relations, recruitment, and organizational development.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant - Ressources humaines"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor - Recursos Humanos"
+        }
+      ]
+    },
+    {
+      "code": "CNOT",
+      "display": "Consultant - Other",
+      "definition": "Professional advisor in fields not otherwise specified.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant - Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor - Otro"
+        }
+      ]
+    },
+    {
+      "code": "CNTR",
+      "display": "Consultant - Training",
+      "definition": "Professional advisor specializing in employee development and training programs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Consultant - Formation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Consultor - Capacitación"
+        }
+      ]
+    },
+    {
+      "code": "CORT",
+      "display": "Courts e.g. Bailiff, Clerk, Reporter, Stenographer, etc.",
+      "definition": "Employees working in judicial settings providing administrative and procedural support.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employé de la Cour, ex. huissier, greffier, rapporteur, sténographe, etc."
+        },
+        {
+          "language": "es-MX",
+          "value": "Tribunales, ej. Alguacil, Secretario, Reportero, Taquígrafo, etc."
+        }
+      ]
+    },
+    {
+      "code": "CRFT",
+      "display": "Craftsman",
+      "definition": "Skilled worker who creates items by hand or with specialized tools.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Artisan"
+        },
+        {
+          "language": "es-MX",
+          "value": "Artesano"
+        }
+      ]
+    },
+    {
+      "code": "CA:CRWN",
+      "display": "Crown Corporation Employee",
+      "definition": "Employee of a government-owned enterprise.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employé/société d'État"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empleado de Corporación de la Corona"
+        }
+      ]
+    },
+    {
+      "code": "CASI",
+      "display": "Casino Worker",
+      "definition": "Employee working in gaming and hospitality services at a casino.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employé de casino"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajador de casino"
+        }
+      ]
+    },
+    {
+      "code": "CMPR",
+      "display": "Cameraman, Projectionist, Stagehand, Researcher",
+      "definition": "Technical and production staff in film, television, or theater.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caméraman, projectionniste, machiniste de plateau, recherchiste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Camarógrafo, Proyeccionista, Tramoyista, Investigador"
+        }
+      ]
+    },
+    {
+      "code": "CHAD",
+      "display": "Chartered Administrator",
+      "definition": "Professional with chartered certification in business administration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Administrateur agréé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Administrador Certificado"
+        }
+      ]
+    },
+    {
+      "code": "CNST",
+      "display": "Construction",
+      "definition": "Worker engaged in building, repairing, or demolishing structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Construction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Construcción"
+        }
+      ]
+    },
+    {
+      "code": "COCH",
+      "display": "Coach",
+      "definition": "Trainer who instructs and develops athletes or teams.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entraîneur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Entrenador"
+        }
+      ]
+    },
+    {
+      "code": "DAYC",
+      "display": "Daycare Worker, Provider",
+      "definition": "Professional who cares for and educates children in a daycare setting.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Éducateur en garderie, Fournisseur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajador de guardería, Proveedor"
+        }
+      ]
+    },
+    {
+      "code": "DHYG",
+      "display": "Dental Hygienist",
+      "definition": "Licensed professional who provides preventive oral health care.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hygiéniste dentaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Higienista Dental"
+        }
+      ]
+    },
+    {
+      "code": "DENT",
+      "display": "Dentist, Orthodontist, Denturologist",
+      "definition": "Licensed professional who diagnoses and treats conditions affecting teeth, gums, and oral structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dentiste, orthodontiste, denturologiste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dentista, Ortodoncista, Denturólogo"
+        }
+      ]
+    },
+    {
+      "code": "DIET",
+      "display": "Dietician, Nutritionist",
+      "definition": "Professional who provides expert advice on food and nutrition.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Diététiste, nutritionniste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dietista, Nutricionista"
+        }
+      ]
+    },
+    {
+      "code": "MDGP",
+      "display": "Doctor - General Practitioner",
+      "definition": "Physician who provides primary care across a broad range of health conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Médecin omnipraticien"
+        },
+        {
+          "language": "es-MX",
+          "value": "Doctor - Médico General"
+        }
+      ]
+    },
+    {
+      "code": "DRLC",
+      "display": "Driver - Local Delivery",
+      "definition": "Driver who transports goods within a local area.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chauffeur - Livraison locale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conductor - Entrega Local"
+        }
+      ]
+    },
+    {
+      "code": "DRLH",
+      "display": "Driver - Long Haul, Mover",
+      "definition": "Driver who transports goods over long distances or performs moving services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chauffeur - Livraison longue distance, déménageur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conductor - Larga Distancia, Mudanzas"
+        }
+      ]
+    },
+    {
+      "code": "DRPT",
+      "display": "Driver - Public Transportation",
+      "definition": "Driver who operates buses, streetcars, or other public transit vehicles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chauffeur - Transport public"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conductor - Transporte Público"
+        }
+      ]
+    },
+    {
+      "code": "DRTX",
+      "display": "Driver - Taxi, Chauffeur, Instructor",
+      "definition": "Driver who operates taxis, limousines, or provides driving instruction.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chauffeur - Taxi, chauffeur, instructeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Conductor - Taxi, Chofer, Instructor"
+        }
+      ]
+    },
+    {
+      "code": "DSRG",
+      "display": "Dentist Surgeon",
+      "definition": "Dental professional specializing in surgical procedures of the mouth and jaw.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chirurgien-dentiste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cirujano Dentista"
+        }
+      ]
+    },
+    {
+      "code": "DERM",
+      "display": "Dermatologist",
+      "definition": "Physician specializing in conditions of the skin, hair, and nails.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dermatologue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Dermatólogo"
+        }
+      ]
+    },
+    {
+      "code": "ELEC",
+      "display": "Electrician",
+      "definition": "Skilled tradesperson who installs, maintains, and repairs electrical systems and equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Électricien"
+        },
+        {
+          "language": "es-MX",
+          "value": "Electricista"
+        }
+      ]
+    },
+    {
+      "code": "ENGR",
+      "display": "Engineer - Professional",
+      "definition": "Licensed professional who applies scientific and mathematical principles to design and develop systems, structures, or processes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ingénieur - professionnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ingeniero - Profesional"
+        }
+      ]
+    },
+    {
+      "code": "ENTR",
+      "display": "Entertainment Field e.g. Actor, Musician, etc.",
+      "definition": "Professional performer or entertainer in arts and media.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Spectacle, ex. acteur, musicien, etc."
+        },
+        {
+          "language": "es-MX",
+          "value": "Campo de Entretenimiento, ej. Actor, Músico, etc."
+        }
+      ]
+    },
+    {
+      "code": "EXEC",
+      "display": "Executive",
+      "definition": "Senior professional responsible for strategic decision-making and organizational leadership.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cadre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ejecutivo"
+        }
+      ]
+    },
+    {
+      "code": "ELPH",
+      "display": "Electrophysiologist",
+      "definition": "Medical specialist who diagnoses and treats heart rhythm disorders.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Électrophysiologiste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Electrofisiólogo"
+        }
+      ]
+    },
+    {
+      "code": "ERGO",
+      "display": "Ergotherapist",
+      "definition": "Healthcare professional who helps patients develop or recover skills needed for daily living and working.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ergothérapeute"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ergoterapeuta"
+        }
+      ]
+    },
+    {
+      "code": "FACT",
+      "display": "Factory Worker, Machine Operator, Tool & Die Worker",
+      "definition": "Manufacturing employee who operates machinery or creates precision tools and dies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employé d'usine, opérateur, outilleur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajador de Fábrica, Operador de Máquinas, Matricero"
+        }
+      ]
+    },
+    {
+      "code": "FARM",
+      "display": "Farmer",
+      "definition": "Individual who operates agricultural land for crop or livestock production.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agriculteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agricultor"
+        }
+      ]
+    },
+    {
+      "code": "FINA",
+      "display": "Financial Advisor, Broker, Economist",
+      "definition": "Professional who provides financial planning, investment, or economic analysis services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conseiller financier, courtier, économiste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asesor Financiero, Corredor, Economista"
+        }
+      ]
+    },
+    {
+      "code": "FIRE",
+      "display": "Firefighter",
+      "definition": "Emergency responder who extinguishes fires and provides rescue services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pompier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bombero"
+        }
+      ]
+    },
+    {
+      "code": "FISH",
+      "display": "Fisherman",
+      "definition": "Individual who catches fish commercially or recreationally.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pêcheur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pescador"
+        }
+      ]
+    },
+    {
+      "code": "FITN",
+      "display": "Fitness, Health Employee",
+      "definition": "Professional working in gyms, health clubs, or wellness facilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employé de centre de conditionnement physique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empleado de Gimnasio, Salud"
+        }
+      ]
+    },
+    {
+      "code": "FLTA",
+      "display": "Flight Attendant",
+      "definition": "Cabin crew member who ensures passenger safety and comfort during flights.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agent de bord"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sobrecargo"
+        }
+      ]
+    },
+    {
+      "code": "FOOD",
+      "display": "Food Industry - Other e.g. Butcher, Slaughterer",
+      "definition": "Worker in food processing, preparation, or meat cutting.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employé du secteur alimentaire, ex. boucher, abatteur de bestiaux"
+        },
+        {
+          "language": "es-MX",
+          "value": "Industria Alimentaria - Otro, ej. Carnicero, Matarife"
+        }
+      ]
+    },
+    {
+      "code": "FORS",
+      "display": "Forest Employee",
+      "definition": "Worker engaged in forestry activities including logging, tree planting, or forest management.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employé forestier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empleado Forestal"
+        }
+      ]
+    },
+    {
+      "code": "FLAG",
+      "display": "Flagged Occupation",
+      "definition": "Occupation requiring special underwriting consideration or review.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Occupation marquée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ocupación Marcada"
+        }
+      ]
+    },
+    {
+      "code": "GCON",
+      "display": "General Contractor",
+      "definition": "Professional who oversees and coordinates all aspects of construction projects.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Entrepreneur général"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contratista General"
+        }
+      ]
+    },
+    {
+      "code": "GRAP",
+      "display": "Graphic Designer, Printer",
+      "definition": "Creative professional who designs visual content or operates printing equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Graphiste, imprimeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Diseñador Gráfico, Impresor"
+        }
+      ]
+    },
+    {
+      "code": "GYNE",
+      "display": "Gynaecologist",
+      "definition": "Physician specializing in the health of the female reproductive system.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gynécologue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ginecólogo"
+        }
+      ]
+    },
+    {
+      "code": "HOMM",
+      "display": "Homemaker (not Spouse at Home), Caregiver",
+      "definition": "Individual providing unpaid domestic or caregiving services outside of spousal arrangements.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travailleur (euse) au foyer (pas conjoint à la maison), préposé aux bénéficiaires"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ama de Casa (no Cónyuge en Casa), Cuidador"
+        }
+      ]
+    },
+    {
+      "code": "HORT",
+      "display": "Horticulture",
+      "definition": "Professional engaged in cultivation of plants, gardens, and landscapes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Horticulteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Horticultor"
+        }
+      ]
+    },
+    {
+      "code": "HOTL",
+      "display": "Hotel, Motel Worker",
+      "definition": "Employee working in hospitality services at hotels or motels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travailleur, hôtel, motel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajador de Hotel, Motel"
+        }
+      ]
+    },
+    {
+      "code": "HEAR",
+      "display": "Hearing Aid Technician",
+      "definition": "Technician who fits and maintains hearing aids and assistive listening devices.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Audiologiste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Técnico de Audífonos"
+        }
+      ]
+    },
+    {
+      "code": "INHA",
+      "display": "Inhalotherapist",
+      "definition": "Healthcare professional specializing in respiratory therapy and oxygen treatment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inhalothérapeute"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inhaloterapista"
+        }
+      ]
+    },
+    {
+      "code": "JUDG",
+      "display": "Judge",
+      "definition": "Judicial official who presides over court proceedings and makes legal rulings.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Juge"
+        },
+        {
+          "language": "es-MX",
+          "value": "Juez"
+        }
+      ]
+    },
+    {
+      "code": "KEEP",
+      "display": "Keeper, Night-Watchman",
+      "definition": "Security personnel who monitors and protects property, often during evening hours.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gardien, gardien de nuit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Guardián, Vigilante Nocturno"
+        }
+      ]
+    },
+    {
+      "code": "INSJ",
+      "display": "Insurance - Adjuster",
+      "definition": "Professional who investigates and evaluates claims to determine settlement amounts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance - Expert en sinistres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguros - Ajustador"
+        }
+      ]
+    },
+    {
+      "code": "INSB",
+      "display": "Insurance - Agent, Broker",
+      "definition": "Professional who sells policies and advises clients on coverage options.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance - Agent, courtier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguros - Agente, Corredor"
+        }
+      ]
+    },
+    {
+      "code": "INSU",
+      "display": "Insurance - Underwriter",
+      "definition": "Professional who evaluates and prices risk for policy issuance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assurance - Souscripteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Seguros - Suscriptor"
+        }
+      ]
+    },
+    {
+      "code": "LSUR",
+      "display": "Land-Surveyor",
+      "definition": "Professional who measures and maps land boundaries and elevations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Arpenteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agrimensor"
+        }
+      ]
+    },
+    {
+      "code": "LABU",
+      "display": "Labourer - Unskilled",
+      "definition": "Worker performing manual tasks requiring minimal specialized training.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ouvrier non qualifié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Obrero - No Calificado"
+        }
+      ]
+    },
+    {
+      "code": "LAWY",
+      "display": "Lawyer",
+      "definition": "Licensed legal professional who represents clients and provides legal counsel.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Avocat"
+        },
+        {
+          "language": "es-MX",
+          "value": "Abogado"
+        }
+      ]
+    },
+    {
+      "code": "LIBR",
+      "display": "Librarian",
+      "definition": "Professional who manages collections and provides information services in a library.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bibliothécaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bibliotecario"
+        }
+      ]
+    },
+    {
+      "code": "MANT",
+      "display": "Maintenance, Janitor, Cleaner",
+      "definition": "Worker who performs building maintenance, custodial, or cleaning services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Préposé à l'entretien, concierge, nettoyeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mantenimiento, Conserje, Limpiador"
+        }
+      ]
+    },
+    {
+      "code": "MNGR",
+      "display": "Manager",
+      "definition": "Professional responsible for overseeing operations, staff, or projects within an organization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gestionnaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gerente"
+        }
+      ]
+    },
+    {
+      "code": "MRKT",
+      "display": "Marketing Employee",
+      "definition": "Professional involved in promoting products, services, or brands.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employé de marketing"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empleado de Marketing"
+        }
+      ]
+    },
+    {
+      "code": "MDSP",
+      "display": "Medical Specialist e.g. Anaesthetist,Chiropractor,Podiatrist, etc.",
+      "definition": "Healthcare professional with advanced training in a specific medical field.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Médecin spécialisé, ex. anesthésiste, chiropraticien, podiatre, etc."
+        },
+        {
+          "language": "es-MX",
+          "value": "Especialista Médico, ej. Anestesiólogo, Quiropráctico, Podólogo, etc."
+        }
+      ]
+    },
+    {
+      "code": "MINR",
+      "display": "Miner",
+      "definition": "Worker who extracts minerals, coal, or other resources from underground or surface mines.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mineur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Minero"
+        }
+      ]
+    },
+    {
+      "code": "MILT",
+      "display": "Military",
+      "definition": "Member of armed forces engaged in defense operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Militaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Militar"
+        }
+      ]
+    },
+    {
+      "code": "MEDI",
+      "display": "Media (Multi)",
+      "definition": "Professional working across multiple media platforms including print, broadcast, and digital.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Médias (multiples)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Medios (Múltiples)"
+        }
+      ]
+    },
+    {
+      "code": "NOTA",
+      "display": "Notary",
+      "definition": "Legal professional authorized to witness signatures and authenticate documents.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Notaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Notario"
+        }
+      ]
+    },
+    {
+      "code": "NURS",
+      "display": "Nurse",
+      "definition": "Licensed healthcare professional who provides patient care and medical support.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infirmier, infirmière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Enfermero, Enfermera"
+        }
+      ]
+    },
+    {
+      "code": "OFFW",
+      "display": "Office Worker",
+      "definition": "Employee performing administrative, clerical, or desk-based tasks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employé de bureau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajador de Oficina"
+        }
+      ]
+    },
+    {
+      "code": "OPTI",
+      "display": "Optician",
+      "definition": "Professional who fits and dispenses corrective lenses based on prescriptions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Opticien d'ordonnances"
+        },
+        {
+          "language": "es-MX",
+          "value": "Óptico"
+        }
+      ]
+    },
+    {
+      "code": "OPTM",
+      "display": "Optometrist, Ophthalmologist",
+      "definition": "Healthcare professional who examines eyes and prescribes corrective lenses or treats eye diseases.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Optométriste, ophtalmologiste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Optometrista, Oftalmólogo"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Occupation not otherwise classified.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "PHYS",
+      "display": "Physiotherapist",
+      "definition": "Healthcare professional who treats physical dysfunction through exercise, manual therapy, and education.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Physiothérapeute"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fisioterapeuta"
+        }
+      ]
+    },
+    {
+      "code": "PROP",
+      "display": "Proprietor",
+      "definition": "Owner of a business or property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriétaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propietario"
+        }
+      ]
+    },
+    {
+      "code": "PNTR",
+      "display": "Painter, Plasterer",
+      "definition": "Tradesperson who applies paint or plaster to surfaces and structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Peintre, plâtrier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pintor, Yesero"
+        }
+      ]
+    },
+    {
+      "code": "PHAR",
+      "display": "Pharmacist",
+      "definition": "Licensed professional who dispenses medications and provides pharmaceutical care.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pharmacien"
+        },
+        {
+          "language": "es-MX",
+          "value": "Farmacéutico"
+        }
+      ]
+    },
+    {
+      "code": "PHOT",
+      "display": "Photographer, Photography Studio",
+      "definition": "Professional who creates images using cameras or operates a photography business.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Photographe, studio de photographie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fotógrafo, Estudio Fotográfico"
+        }
+      ]
+    },
+    {
+      "code": "PILT",
+      "display": "Pilot",
+      "definition": "Licensed professional who operates aircraft.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pilote"
+        },
+        {
+          "language": "es-MX",
+          "value": "Piloto"
+        }
+      ]
+    },
+    {
+      "code": "POLI",
+      "display": "Police Officer",
+      "definition": "Law enforcement professional who maintains public order and safety.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Policier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Oficial de Policía"
+        }
+      ]
+    },
+    {
+      "code": "POST",
+      "display": "Postal Worker",
+      "definition": "Employee who processes, sorts, and delivers mail.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travailleur des postes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajador Postal"
+        }
+      ]
+    },
+    {
+      "code": "PUBT",
+      "display": "Public Transportation Worker - Other Than Airline",
+      "definition": "Employee working in ground or water-based public transportation systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travailleur en transport public, autre qu'aérien"
+        },
+        {
+          "language": "es-MX",
+          "value": "Trabajador de Transporte Público - Distinto de Aerolínea"
+        }
+      ]
+    },
+    {
+      "code": "POLT",
+      "display": "Politician",
+      "definition": "Elected or appointed government official involved in policy-making and governance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Politicien"
+        },
+        {
+          "language": "es-MX",
+          "value": "Político"
+        }
+      ]
+    },
+    {
+      "code": "PMGR",
+      "display": "Property Manager",
+      "definition": "Professional who oversees operations and maintenance of real estate properties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chef du service de la gestion des immeubles"
+        },
+        {
+          "language": "es-MX",
+          "value": "Administrador de Propiedades"
+        }
+      ]
+    },
+    {
+      "code": "PSYC",
+      "display": "Psychologist",
+      "definition": "Licensed professional who studies mental processes and provides psychological assessment and therapy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Psychologue"
+        },
+        {
+          "language": "es-MX",
+          "value": "Psicólogo"
+        }
+      ]
+    },
+    {
+      "code": "REAL",
+      "display": "Real Estate Agent",
+      "definition": "Licensed professional who assists clients in buying, selling, or renting properties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agent immobilier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agente de Bienes Raíces"
+        }
+      ]
+    },
+    {
+      "code": "RCHF",
+      "display": "Restaurant, Bar - Chef, Cook, Caterer",
+      "definition": "Culinary professional who prepares food in restaurants, bars, or catering services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Restauration, bar - Chef, cuisinier, traiteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Restaurante, Bar - Chef, Cocinero, Proveedor de Alimentos"
+        }
+      ]
+    },
+    {
+      "code": "RSTR",
+      "display": "Restaurant, Bar  - Owner, Employee  e.g.Waiter, Bartender, etc.",
+      "definition": "Owner or service staff working in food and beverage establishments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Restauration, bar - Propriétaire, employé, ex. serveur, barman, etc."
+        },
+        {
+          "language": "es-MX",
+          "value": "Restaurante, Bar - Propietario, Empleado, ej. Mesero, Cantinero, etc."
+        }
+      ]
+    },
+    {
+      "code": "RETL",
+      "display": "Retail Sales Person",
+      "definition": "Employee who assists customers with purchases in retail stores.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vendeur - Détail"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vendedor al Detalle"
+        }
+      ]
+    },
+    {
+      "code": "RETD",
+      "display": "Retired",
+      "definition": "Individual who has permanently left the workforce.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Retraité"
+        },
+        {
+          "language": "es-MX",
+          "value": "Jubilado"
+        }
+      ]
+    },
+    {
+      "code": "RACE",
+      "display": "Race Driver – Motorized Vehicle",
+      "definition": "Professional driver who competes in motorsport competitions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coureur automobile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Piloto de Carreras - Vehículo Motorizado"
+        }
+      ]
+    },
+    {
+      "code": "RADT",
+      "display": "Radiology Technician",
+      "definition": "Healthcare technician who operates diagnostic imaging equipment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Technicien en radiologie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Técnico en Radiología"
+        }
+      ]
+    },
+    {
+      "code": "SLCM",
+      "display": "Salesperson - Commercial",
+      "definition": "Professional who sells products or services to businesses.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vendeur - Commercial"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vendedor - Comercial"
+        }
+      ]
+    },
+    {
+      "code": "SCNT",
+      "display": "Scientist, Researcher e.g. Biochemist, Biologist,Chemist, etc.",
+      "definition": "Professional who conducts research and applies scientific methods in specialized fields.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chercheur scientifique, ex. biochimiste, biologiste, chimiste, etc."
+        },
+        {
+          "language": "es-MX",
+          "value": "Científico, Investigador, ej. Bioquímico, Biólogo, Químico, etc."
+        }
+      ]
+    },
+    {
+      "code": "SEAM",
+      "display": "Seamstress",
+      "definition": "Professional who sews, alters, and repairs garments and textiles.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Couturière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Costurera"
+        }
+      ]
+    },
+    {
+      "code": "SECU",
+      "display": "Security Officer, Worker",
+      "definition": "Professional who protects property, assets, or individuals from security threats.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chef de sécurité, agent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Oficial de Seguridad, Trabajador"
+        }
+      ]
+    },
+    {
+      "code": "SLEO",
+      "display": "Self-Employed - Other",
+      "definition": "Self-employed individual in occupations not otherwise specified.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travailleur autonome - Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Autónomo - Otro"
+        }
+      ]
+    },
+    {
+      "code": "SLES",
+      "display": "Self-Employed - Services e.g.Chimney Sweep,Lawncare,Window Cleaner",
+      "definition": "Self-employed individual providing residential or commercial maintenance services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Travailleur autonome - Services, ex. ramoneur, entretien de pelouse, laveur de vitres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Autónomo - Servicios, ej. Deshollinador, Cuidado de Césped, Limpiador de Ventanas"
+        }
+      ]
+    },
+    {
+      "code": "SPSH",
+      "display": "Spouse at Home",
+      "definition": "Individual managing household responsibilities as primary occupation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ménagère"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cónyuge en Casa"
+        }
+      ]
+    },
+    {
+      "code": "STUD",
+      "display": "Student",
+      "definition": "Individual enrolled in educational institution for academic study.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Étudiant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estudiante"
+        }
+      ]
+    },
+    {
+      "code": "SUPV",
+      "display": "Supervisor, Foreman",
+      "definition": "Manager who oversees workers and coordinates daily operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Superviseur, contremaître"
+        },
+        {
+          "language": "es-MX",
+          "value": "Supervisor, Capataz"
+        }
+      ]
+    },
+    {
+      "code": "SURV",
+      "display": "Surveyor",
+      "definition": "Professional who measures and maps land, structures, or construction sites.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Arpenteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agrimensor"
+        }
+      ]
+    },
+    {
+      "code": "SALA",
+      "display": "Salaried",
+      "definition": "Employee receiving fixed periodic compensation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Salarié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asalariado"
+        }
+      ]
+    },
+    {
+      "code": "SLIN",
+      "display": "Sales Person - Inside Sales",
+      "definition": "Salesperson who conducts business from office or call center locations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vendeur - ventes à l'intérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vendedor - Ventas Internas"
+        }
+      ]
+    },
+    {
+      "code": "SLOT",
+      "display": "Sales Person - Outside Sales",
+      "definition": "Salesperson who travels to meet clients at their locations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vendeur - ventes à l'extérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vendedor - Ventas Externas"
+        }
+      ]
+    },
+    {
+      "code": "SPTH",
+      "display": "Speech Therapist",
+      "definition": "Healthcare professional who diagnoses and treats speech, language, and swallowing disorders.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Orthophoniste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terapeuta del Habla"
+        }
+      ]
+    },
+    {
+      "code": "TCHR",
+      "display": "Teacher, Principal, Professor, Lecturer",
+      "definition": "Education professional who instructs students or manages educational institutions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Enseignant, directeur, professeur, chargé de cours"
+        },
+        {
+          "language": "es-MX",
+          "value": "Maestro, Director, Profesor, Conferencista"
+        }
+      ]
+    },
+    {
+      "code": "TECH",
+      "display": "Technicians - Research, Medical",
+      "definition": "Skilled professional who supports scientific research or medical procedures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Techniciens - Recherche, médical"
+        },
+        {
+          "language": "es-MX",
+          "value": "Técnicos - Investigación, Médica"
+        }
+      ]
+    },
+    {
+      "code": "THER",
+      "display": "Therapist",
+      "definition": "Healthcare professional who provides therapeutic treatment for physical, mental, or behavioral conditions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Thérapeute"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terapeuta"
+        }
+      ]
+    },
+    {
+      "code": "TRDS",
+      "display": "Tradesman",
+      "definition": "Skilled worker in a specialized manual trade or craft.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ouvrier qualifié"
+        },
+        {
+          "language": "es-MX",
+          "value": "Artesano Calificado"
+        }
+      ]
+    },
+    {
+      "code": "TRAN",
+      "display": "Translator",
+      "definition": "Professional who converts written text from one language to another.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Traducteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Traductor"
+        }
+      ]
+    },
+    {
+      "code": "UNEM",
+      "display": "Unemployed",
+      "definition": "Individual not currently engaged in paid employment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sans emploi"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desempleado"
+        }
+      ]
+    },
+    {
+      "code": "URBN",
+      "display": "Urbanist (Professional Urban Planner)",
+      "definition": "Professional who designs and plans development of urban areas and communities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Urbaniste (Planificateur urbain professionnel)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Urbanista (Planificador Urbano Profesional)"
+        }
+      ]
+    },
+    {
+      "code": "VETR",
+      "display": "Veterinarian",
+      "definition": "Licensed professional who provides medical care to animals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vétérinaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Veterinario"
+        }
+      ]
+    },
+    {
+      "code": "WRIT",
+      "display": "Writer, Publisher",
+      "definition": "Professional who creates written content or manages publication of books and other media.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Écrivain, éditeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Escritor, Editor"
+        }
+      ]
+    },
+    {
+      "code": "WELD",
+      "display": "Welder",
+      "definition": "Skilled tradesperson who joins metal parts using heat and pressure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Soudeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Soldador"
+        }
+      ]
+    },
+    {
+      "code": "PLBR",
+      "display": "Plumber",
+      "definition": "Skilled tradesperson who installs and repairs water supply and drainage systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Plombier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Plomero"
+        }
+      ]
+    },
+    {
+      "code": "ROOF",
+      "display": "Roofer",
+      "definition": "Tradesperson who installs, repairs, and maintains roofs.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Couvreur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Techador"
+        }
+      ]
+    },
+    {
+      "code": "PARA",
+      "display": "Paralegal",
+      "definition": "Legal assistant who supports lawyers with research, documentation, and case preparation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Parajuriste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asistente Legal"
+        }
+      ]
+    },
+    {
+      "code": "DAST",
+      "display": "Dental Assistant",
+      "definition": "Healthcare worker who assists dentists with patient care and office tasks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assistant dentaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asistente Dental"
+        }
+      ]
+    },
+    {
+      "code": "HVAC",
+      "display": "HVAC Technician",
+      "definition": "Technician who installs, maintains, and repairs heating, ventilation, and air conditioning systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Technicien CVC"
+        },
+        {
+          "language": "es-MX",
+          "value": "Técnico HVAC"
+        }
+      ]
+    }
+  ]
+}

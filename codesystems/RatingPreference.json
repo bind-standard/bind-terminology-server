@@ -1,0 +1,57 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "RatingPreference",
+  "url": "https://bind.codes/RatingPreference",
+  "name": "RatingPreference",
+  "title": "Rating Preference",
+  "status": "draft",
+  "language": "en",
+  "description": "Rating Preference codes for insurance operations.",
+  "concept": [
+    {
+      "code": "BCOV",
+      "display": "Best Coverage",
+      "definition": "A preference for maximizing policy coverage limits and benefits regardless of cost.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Meilleure garantie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mejor cobertura"
+        }
+      ]
+    },
+    {
+      "code": "BPRI",
+      "display": "Best Price",
+      "definition": "A preference for minimizing policy cost with acceptable coverage levels.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Meilleur prix"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mejor precio"
+        }
+      ]
+    },
+    {
+      "code": "BVAL",
+      "display": "Best Value",
+      "definition": "A preference for balancing coverage benefits and policy cost to optimize overall value.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Meilleure valeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mejor valor"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,474 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "OnPremisesLocation",
+  "url": "https://bind.codes/OnPremisesLocation",
+  "name": "OnPremisesLocation",
+  "title": "On Premises Location",
+  "status": "draft",
+  "language": "en",
+  "description": "On Premises Location codes for insurance operations.",
+  "concept": [
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "WDCN",
+      "display": "Wooden Container",
+      "definition": "A storage container constructed from wood.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Récipient en bois"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contenedor de madera"
+        }
+      ]
+    },
+    {
+      "code": "MTCN",
+      "display": "Metal Container",
+      "definition": "A storage container constructed from metal.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Récipient métallique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contenedor de metal"
+        }
+      ]
+    },
+    {
+      "code": "PLCN",
+      "display": "Plastic Container",
+      "definition": "A storage container constructed from plastic.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Récipient en plastique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contenedor de plástico"
+        }
+      ]
+    },
+    {
+      "code": "LKDR",
+      "display": "Locked Drawer",
+      "definition": "A drawer with a locking mechanism.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tiroir verrouillé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cajón cerrado con llave"
+        }
+      ]
+    },
+    {
+      "code": "SAFE",
+      "display": "Safe",
+      "definition": "A secure lockable box for storing valuables.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coffre-fort"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caja fuerte"
+        }
+      ]
+    },
+    {
+      "code": "VALT",
+      "display": "Vault",
+      "definition": "A secure room or compartment with reinforced walls for storing valuables.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chambre forte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bóveda"
+        }
+      ]
+    },
+    {
+      "code": "BREL",
+      "display": "Barrel",
+      "definition": "A cylindrical container, typically for bulk storage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Baril"
+        },
+        {
+          "language": "es-MX",
+          "value": "Barril"
+        }
+      ]
+    },
+    {
+      "code": "HOPR",
+      "display": "Hopper",
+      "definition": "A funnel-shaped container for temporary storage of materials.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trémie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tolva"
+        }
+      ]
+    },
+    {
+      "code": "SHED",
+      "display": "Shed",
+      "definition": "A small storage structure, typically separate from the main building.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Hangar"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cobertizo"
+        }
+      ]
+    },
+    {
+      "code": "MTCB",
+      "display": "Metal Cabinet",
+      "definition": "A cabinet constructed from metal for storage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Armoire métallique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gabinete de metal"
+        }
+      ]
+    },
+    {
+      "code": "NMCB",
+      "display": "Non-metal Cabinet",
+      "definition": "A cabinet constructed from materials other than metal for storage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Armoire non métallique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gabinete no metálico"
+        }
+      ]
+    },
+    {
+      "code": "FRZR",
+      "display": "Freezer",
+      "definition": "A refrigeration appliance for storing items at below-freezing temperatures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Congélateur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Congelador"
+        }
+      ]
+    },
+    {
+      "code": "SVLT",
+      "display": "Safe within Vault",
+      "definition": "A safe positioned inside a vault for enhanced security.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coffre-fort à l'intérieur d'une chambre forte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caja fuerte dentro de bóveda"
+        }
+      ]
+    },
+    {
+      "code": "ULDR",
+      "display": "Unlocked Drawer",
+      "definition": "A drawer without a locking mechanism or left unlocked.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Tiroir non verrouillé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cajón sin cerradura"
+        }
+      ]
+    },
+    {
+      "code": "NTDP",
+      "display": "Night Depository",
+      "definition": "A secure deposit receptacle for after-hours deposits.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coffre de nuit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Depósito nocturno"
+        }
+      ]
+    },
+    {
+      "code": "CHST",
+      "display": "Chest",
+      "definition": "A sturdy storage box, often reinforced for security.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Coffre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cofre"
+        }
+      ]
+    },
+    {
+      "code": "CREG",
+      "display": "Cash Register",
+      "definition": "A device used to store cash during business operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caisse enregistreuse"
+        },
+        {
+          "language": "es-MX",
+          "value": "Caja registradora"
+        }
+      ]
+    },
+    {
+      "code": "CVBG",
+      "display": "Canvas Bag with Lock",
+      "definition": "A bag made of canvas material equipped with a locking mechanism.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sac de toile avec serrure"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bolsa de lona con candado"
+        }
+      ]
+    },
+    {
+      "code": "BRFC",
+      "display": "Briefcase",
+      "definition": "A portable case for carrying documents or valuables.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Porte-documents"
+        },
+        {
+          "language": "es-MX",
+          "value": "Maletín"
+        }
+      ]
+    },
+    {
+      "code": "BRCH",
+      "display": "Briefcase with Chain/Handcuffs",
+      "definition": "A briefcase secured with a chain or handcuffs to prevent theft.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Porte-documents avec chaîne/menottes"
+        },
+        {
+          "language": "es-MX",
+          "value": "Maletín con cadena/esposas"
+        }
+      ]
+    },
+    {
+      "code": "NMBG",
+      "display": "Numbered Bag",
+      "definition": "A bag assigned an identification number for tracking purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sac numéroté"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bolsa numerada"
+        }
+      ]
+    },
+    {
+      "code": "PPBG",
+      "display": "Paper Bag/Envelope",
+      "definition": "A bag or envelope made of paper for temporary storage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sac en papier/enveloppe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bolsa de papel/sobre"
+        }
+      ]
+    },
+    {
+      "code": "PLBG",
+      "display": "Polyurethane Bag",
+      "definition": "A bag made from polyurethane material.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sac de polyuréthane"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bolsa de poliuretano"
+        }
+      ]
+    },
+    {
+      "code": "LTBG",
+      "display": "Leather Bag",
+      "definition": "A bag made from leather material.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Sac de cuir"
+        },
+        {
+          "language": "es-MX",
+          "value": "Bolsa de cuero"
+        }
+      ]
+    },
+    {
+      "code": "VDTR",
+      "display": "Video Display Terminal",
+      "definition": "A computer terminal or display unit.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Terminal vidéo"
+        },
+        {
+          "language": "es-MX",
+          "value": "Terminal de video"
+        }
+      ]
+    },
+    {
+      "code": "GLCB",
+      "display": "Glass Cabinet",
+      "definition": "A cabinet with glass panels for displaying or storing items.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Armoire vitrée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gabinete de vidrio"
+        }
+      ]
+    },
+    {
+      "code": "STCK",
+      "display": "Stock Room",
+      "definition": "A dedicated room for storing inventory or supplies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Salle d'entreposage"
+        },
+        {
+          "language": "es-MX",
+          "value": "Almacén"
+        }
+      ]
+    },
+    {
+      "code": "DSPL",
+      "display": "Display Case",
+      "definition": "A case for displaying merchandise or valuables.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vitrine"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vitrina"
+        }
+      ]
+    }
+  ]
+}

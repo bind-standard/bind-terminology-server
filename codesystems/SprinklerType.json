@@ -1,0 +1,57 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "SprinklerType",
+  "url": "https://bind.codes/SprinklerType",
+  "name": "SprinklerType",
+  "title": "Sprinkler Type",
+  "status": "draft",
+  "language": "en",
+  "description": "Types of automatic fire sprinkler systems based on how water is delivered to the sprinkler heads.",
+  "concept": [
+    {
+      "code": "WETP",
+      "display": "Wet Pipe",
+      "definition": "Pipes are always filled with pressurized water; sprinkler heads discharge immediately upon activation.",
+      "designation": [
+        { "language": "fr-CA", "value": "Tuyaux sous eau" },
+        { "language": "es-MX", "value": "Tubería húmeda" }
+      ]
+    },
+    {
+      "code": "DRYP",
+      "display": "Dry Pipe",
+      "definition": "Pipes are filled with compressed air or nitrogen; water flows only after a head activates and air pressure drops.",
+      "designation": [
+        { "language": "fr-CA", "value": "Tuyaux sous air" },
+        { "language": "es-MX", "value": "Tubería seca" }
+      ]
+    },
+    {
+      "code": "PRAC",
+      "display": "Pre-Action",
+      "definition": "A two-step system requiring both a detection event and sprinkler head activation before water is released.",
+      "designation": [
+        { "language": "fr-CA", "value": "Pré-action" },
+        { "language": "es-MX", "value": "Pre-acción" }
+      ]
+    },
+    {
+      "code": "DLGE",
+      "display": "Deluge",
+      "definition": "All sprinkler heads are open; the entire system discharges simultaneously when the detection system activates the valve.",
+      "designation": [
+        { "language": "fr-CA", "value": "Déluge" },
+        { "language": "es-MX", "value": "Diluvio" }
+      ]
+    },
+    {
+      "code": "ESFR",
+      "display": "Early Suppression Fast Response",
+      "definition": "High-volume heads designed to suppress a fire at its early stages rather than just controlling it, used in high-piled storage areas.",
+      "designation": [
+        { "language": "fr-CA", "value": "Suppression précoce à réponse rapide" },
+        { "language": "es-MX", "value": "Supresión temprana de respuesta rápida" }
+      ]
+    }
+  ]
+}

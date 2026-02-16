@@ -1,0 +1,1269 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "InsuredPrincipalRole",
+  "url": "https://bind.codes/InsuredPrincipalRole",
+  "name": "InsuredPrincipalRole",
+  "title": "Insured Principal Role",
+  "status": "draft",
+  "language": "en",
+  "description": "Roles of parties related to a policy or contract.",
+  "concept": [
+    {
+      "code": "ICNT",
+      "display": "Insurance Contact",
+      "definition": "Primary contact person for policy communications and inquiries.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contact d'assurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contacto de seguro"
+        }
+      ]
+    },
+    {
+      "code": "AINT",
+      "display": "Additional Interest",
+      "definition": "Party with a financial or legal interest in the policy without being a named insured.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Intérêt additionnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Interés adicional"
+        }
+      ]
+    },
+    {
+      "code": "AOFF",
+      "display": "Authorized Official",
+      "definition": "Individual authorized to act on behalf of an organization in policy matters.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Représentant autorisé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Funcionario autorizado"
+        }
+      ]
+    },
+    {
+      "code": "FINS",
+      "display": "Financial Institution",
+      "definition": "Bank, credit union, or other financial entity with a secured interest.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Institution financière"
+        },
+        {
+          "language": "es-MX",
+          "value": "Institución financiera"
+        }
+      ]
+    },
+    {
+      "code": "INSD",
+      "display": "Insured",
+      "definition": "Party whose interests are protected by the policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asegurado"
+        }
+      ]
+    },
+    {
+      "code": "BENF",
+      "display": "Beneficiary",
+      "definition": "Party entitled to receive proceeds from the policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bénéficiaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Beneficiario"
+        }
+      ]
+    },
+    {
+      "code": "BRKR",
+      "display": "Broker",
+      "definition": "Licensed intermediary representing the client in obtaining coverage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Courtier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Corredor"
+        }
+      ]
+    },
+    {
+      "code": "CLMC",
+      "display": "Claims Contact",
+      "definition": "Designated contact person for claim-related communications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contact pour réclamations"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contacto de reclamaciones"
+        }
+      ]
+    },
+    {
+      "code": "PROD",
+      "display": "Producer",
+      "definition": "Agent or broker who sold or services the policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Producteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Productor"
+        }
+      ]
+    },
+    {
+      "code": "INCO",
+      "display": "Insurer",
+      "definition": "Company that underwrites and issues the policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assureur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Aseguradora"
+        }
+      ]
+    },
+    {
+      "code": "JINS",
+      "display": "Joint Insured",
+      "definition": "Co-holder of the policy with equal rights and obligations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Co-assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asegurado conjunto"
+        }
+      ]
+    },
+    {
+      "code": "LNDR",
+      "display": "Lender",
+      "definition": "Financial institution or entity that has provided financing secured by the covered property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Prêteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Prestamista"
+        }
+      ]
+    },
+    {
+      "code": "NINS",
+      "display": "Named Insured",
+      "definition": "Party specifically identified in the policy declarations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assuré désigné"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asegurado designado"
+        }
+      ]
+    },
+    {
+      "code": "OCPT",
+      "display": "Occupant",
+      "definition": "Person residing in or using the covered premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Occupant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ocupante"
+        }
+      ]
+    },
+    {
+      "code": "PRCO",
+      "display": "Parent Company",
+      "definition": "Corporate entity that owns or controls a subsidiary organization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société mère"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empresa matriz"
+        }
+      ]
+    },
+    {
+      "code": "PINS",
+      "display": "Prior Insurer",
+      "definition": "Previous carrier that provided coverage before the current policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assureur précédent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asegurador anterior"
+        }
+      ]
+    },
+    {
+      "code": "CPRT",
+      "display": "Contact Party",
+      "definition": "General contact person for policy-related matters.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Partie contact"
+        },
+        {
+          "language": "es-MX",
+          "value": "Parte de contacto"
+        }
+      ]
+    },
+    {
+      "code": "PAYR",
+      "display": "Payor",
+      "definition": "Party responsible for premium payments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Payeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pagador"
+        }
+      ]
+    },
+    {
+      "code": "REIN",
+      "display": "Reinsurance Company",
+      "definition": "Insurer that assumes a portion of the risk from the primary carrier.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie de réassurance"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compañía de reaseguro"
+        }
+      ]
+    },
+    {
+      "code": "SUBC",
+      "display": "Subsidiary Company",
+      "definition": "Corporate entity controlled by a parent organization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Filiale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empresa subsidiaria"
+        }
+      ]
+    },
+    {
+      "code": "PRPT",
+      "display": "Principal/Partner",
+      "definition": "Owner or partner with ownership stake in the business.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Principal/Partenaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Principal/Socio"
+        }
+      ]
+    },
+    {
+      "code": "PVNM",
+      "display": "Previous Operating Name",
+      "definition": "Former business name under which the entity previously operated.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nom commercial antérieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nombre comercial anterior"
+        }
+      ]
+    },
+    {
+      "code": "AINS",
+      "display": "Additional Insured",
+      "definition": "Party added to the policy to extend coverage beyond the named insured.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Assuré additionnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asegurado adicional"
+        }
+      ]
+    },
+    {
+      "code": "EMPL",
+      "display": "Employee",
+      "definition": "Individual working for the organization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empleado"
+        }
+      ]
+    },
+    {
+      "code": "CUST",
+      "display": "Client/Customer of Insured",
+      "definition": "Third party receiving services or goods from the insured entity.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Client de l'assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cliente del asegurado"
+        }
+      ]
+    },
+    {
+      "code": "OPNM",
+      "display": "Operating Name",
+      "definition": "Trading name or DBA (doing business as) under which the entity operates.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Nom commercial"
+        },
+        {
+          "language": "es-MX",
+          "value": "Nombre comercial"
+        }
+      ]
+    },
+    {
+      "code": "PDCO",
+      "display": "Production Company",
+      "definition": "Entity responsible for producing goods, media, or entertainment content.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie de production"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compañía de producción"
+        }
+      ]
+    },
+    {
+      "code": "PRES",
+      "display": "President",
+      "definition": "Chief executive or highest-ranking officer of an organization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Président"
+        },
+        {
+          "language": "es-MX",
+          "value": "Presidente"
+        }
+      ]
+    },
+    {
+      "code": "VPRS",
+      "display": "Vice-president",
+      "definition": "Senior executive officer reporting to the president.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vice-président"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vicepresidente"
+        }
+      ]
+    },
+    {
+      "code": "SECR",
+      "display": "Secretary",
+      "definition": "Corporate officer responsible for maintaining records and documentation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Secrétaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Secretario"
+        }
+      ]
+    },
+    {
+      "code": "TRES",
+      "display": "Treasurer",
+      "definition": "Corporate officer responsible for financial management and oversight.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trésorier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tesorero"
+        }
+      ]
+    },
+    {
+      "code": "DRCT",
+      "display": "Director of Organization",
+      "definition": "Member of the governing board with fiduciary responsibilities.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Directeur de l'organisation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Director de organización"
+        }
+      ]
+    },
+    {
+      "code": "PDMG",
+      "display": "Production Manager",
+      "definition": "Individual overseeing manufacturing or production operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Directeur de production"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gerente de producción"
+        }
+      ]
+    },
+    {
+      "code": "ARCH",
+      "display": "Architect",
+      "definition": "Licensed professional who designs buildings and structures.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Architecte"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arquitecto"
+        }
+      ]
+    },
+    {
+      "code": "ENGR",
+      "display": "Engineer",
+      "definition": "Licensed professional who designs, develops, or inspects technical systems.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ingénieur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ingeniero"
+        }
+      ]
+    },
+    {
+      "code": "AUDX",
+      "display": "Auditor - External",
+      "definition": "Independent third-party auditor who reviews financial statements and operations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Auditeur externe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Auditor externo"
+        }
+      ]
+    },
+    {
+      "code": "ACTR",
+      "display": "Actuary",
+      "definition": "Professional who analyzes financial risks using mathematics and statistics.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Actuaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Actuario"
+        }
+      ]
+    },
+    {
+      "code": "DCTR",
+      "display": "Doctor",
+      "definition": "Licensed medical physician.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Médecin"
+        },
+        {
+          "language": "es-MX",
+          "value": "Doctor"
+        }
+      ]
+    },
+    {
+      "code": "NURS",
+      "display": "Nurse",
+      "definition": "Licensed healthcare professional providing patient care.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Infirmier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Enfermero"
+        }
+      ]
+    },
+    {
+      "code": "HLTH",
+      "display": "Healthcare Professional",
+      "definition": "Licensed practitioner providing medical or therapeutic services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Professionnel de la santé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Profesional de la salud"
+        }
+      ]
+    },
+    {
+      "code": "STDT",
+      "display": "Student",
+      "definition": "Individual enrolled in an educational program.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Étudiant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estudiante"
+        }
+      ]
+    },
+    {
+      "code": "VSTR",
+      "display": "Visitor",
+      "definition": "Temporary guest on the premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Visiteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Visitante"
+        }
+      ]
+    },
+    {
+      "code": "DCHD",
+      "display": "Daycare Child",
+      "definition": "Minor receiving care at a daycare facility.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Enfant en garderie"
+        },
+        {
+          "language": "es-MX",
+          "value": "Niño en guardería"
+        }
+      ]
+    },
+    {
+      "code": "SOWN",
+      "display": "Site Owner",
+      "definition": "Legal owner of the property or premises.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriétaire du site"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propietario del sitio"
+        }
+      ]
+    },
+    {
+      "code": "VLTR",
+      "display": "Volunteer",
+      "definition": "Unpaid individual providing services to an organization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bénévole"
+        },
+        {
+          "language": "es-MX",
+          "value": "Voluntario"
+        }
+      ]
+    },
+    {
+      "code": "AGAI",
+      "display": "Agent of Applicant/Insured",
+      "definition": "Representative authorized to act on behalf of the applicant or insured.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agent du demandeur/assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agente del solicitante/asegurado"
+        }
+      ]
+    },
+    {
+      "code": "OFCR",
+      "display": "Officer of Organization",
+      "definition": "Executive holding a formal position in the corporate structure.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dirigeant de l'organisation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Funcionario de organización"
+        }
+      ]
+    },
+    {
+      "code": "PAYM",
+      "display": "Paymaster",
+      "definition": "Individual responsible for disbursing payments to employees or contractors.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Trésorier-payeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pagador"
+        }
+      ]
+    },
+    {
+      "code": "CLTR",
+      "display": "Collector",
+      "definition": "Person responsible for collecting payments or receivables.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Collecteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cobrador"
+        }
+      ]
+    },
+    {
+      "code": "DLVI",
+      "display": "Delivery Person (Independent)",
+      "definition": "Self-employed individual providing delivery services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Livreur (indépendant)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Repartidor (independiente)"
+        }
+      ]
+    },
+    {
+      "code": "SLSP",
+      "display": "Salesperson",
+      "definition": "Individual responsible for selling products or services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Vendeur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Vendedor"
+        }
+      ]
+    },
+    {
+      "code": "MSGI",
+      "display": "Messenger (Independent)",
+      "definition": "Self-employed individual providing courier services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Messager (indépendant)"
+        },
+        {
+          "language": "es-MX",
+          "value": "Mensajero (independiente)"
+        }
+      ]
+    },
+    {
+      "code": "AUDI",
+      "display": "Auditor - Internal",
+      "definition": "Employee who reviews internal operations and compliance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Auditeur interne"
+        },
+        {
+          "language": "es-MX",
+          "value": "Auditor interno"
+        }
+      ]
+    },
+    {
+      "code": "ACCT",
+      "display": "Accountant",
+      "definition": "Professional who manages financial records and prepares reports.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Comptable"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contador"
+        }
+      ]
+    },
+    {
+      "code": "INVF",
+      "display": "Inventory Firm",
+      "definition": "Company that conducts physical inventory counts and valuations.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Société d'inventaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empresa de inventario"
+        }
+      ]
+    },
+    {
+      "code": "BKKP",
+      "display": "Bookkeeper",
+      "definition": "Individual responsible for maintaining financial transaction records.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Teneur de livres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tenedor de libros"
+        }
+      ]
+    },
+    {
+      "code": "APPR",
+      "display": "Appraiser",
+      "definition": "Professional who determines the value of property or assets.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Évaluateur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tasador"
+        }
+      ]
+    },
+    {
+      "code": "ADJT",
+      "display": "Adjuster",
+      "definition": "Professional who investigates and settles claims.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Expert en sinistre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ajustador"
+        }
+      ]
+    },
+    {
+      "code": "CLRC",
+      "display": "Clerical",
+      "definition": "Employee performing administrative or office tasks.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Commis"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empleado administrativo"
+        }
+      ]
+    },
+    {
+      "code": "CSHR",
+      "display": "Cashier",
+      "definition": "Employee handling cash transactions and payments.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caissier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cajero"
+        }
+      ]
+    },
+    {
+      "code": "CSHA",
+      "display": "Cashier - Assistant",
+      "definition": "Employee assisting with cash handling and customer transactions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Caissier adjoint"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cajero asistente"
+        }
+      ]
+    },
+    {
+      "code": "BRMG",
+      "display": "Branch Manager",
+      "definition": "Individual responsible for overseeing operations at a specific location.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Directeur de succursale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gerente de sucursal"
+        }
+      ]
+    },
+    {
+      "code": "ADMA",
+      "display": "Administrative Assistant",
+      "definition": "Employee providing clerical and organizational support.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Adjoint administratif"
+        },
+        {
+          "language": "es-MX",
+          "value": "Asistente administrativo"
+        }
+      ]
+    },
+    {
+      "code": "SUPV",
+      "display": "Supervisor",
+      "definition": "Employee overseeing and coordinating the work of others.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Superviseur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Supervisor"
+        }
+      ]
+    },
+    {
+      "code": "DPMG",
+      "display": "Department Manager",
+      "definition": "Individual responsible for managing a specific business unit or department.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chef de département"
+        },
+        {
+          "language": "es-MX",
+          "value": "Gerente de departamento"
+        }
+      ]
+    },
+    {
+      "code": "CLS1",
+      "display": "Class I Employee",
+      "definition": "Employee classification for a specific category of workers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employé de classe I"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empleado de clase I"
+        }
+      ]
+    },
+    {
+      "code": "CLS2",
+      "display": "Class II Employee",
+      "definition": "Employee classification for a different category of workers.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employé de classe II"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empleado de clase II"
+        }
+      ]
+    },
+    {
+      "code": "PROF",
+      "display": "Professional",
+      "definition": "Individual with specialized expertise or credentials in a field.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Professionnel"
+        },
+        {
+          "language": "es-MX",
+          "value": "Profesional"
+        }
+      ]
+    },
+    {
+      "code": "MMBR",
+      "display": "Members",
+      "definition": "Individuals belonging to an association or organization.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Membres"
+        },
+        {
+          "language": "es-MX",
+          "value": "Miembros"
+        }
+      ]
+    },
+    {
+      "code": "BORD",
+      "display": "Board",
+      "definition": "Governing body of directors or trustees.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conseil"
+        },
+        {
+          "language": "es-MX",
+          "value": "Junta directiva"
+        }
+      ]
+    },
+    {
+      "code": "AINC",
+      "display": "Authorized Inspection Company",
+      "definition": "Licensed entity authorized to conduct inspections and certifications.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Compagnie d'inspection autorisée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compañía de inspección autorizada"
+        }
+      ]
+    },
+    {
+      "code": "INSP",
+      "display": "Inspector",
+      "definition": "Individual who examines property or operations for compliance or assessment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inspecteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inspector"
+        }
+      ]
+    },
+    {
+      "code": "FDPT",
+      "display": "Fire Department",
+      "definition": "Municipal or volunteer organization providing fire protection services.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Service des incendies"
+        },
+        {
+          "language": "es-MX",
+          "value": "Departamento de bomberos"
+        }
+      ]
+    },
+    {
+      "code": "CA:WETT",
+      "display": "WETT Inspector",
+      "definition": "Wood Energy Technology Transfer certified inspector for wood-burning appliances.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inspecteur WETT"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inspector WETT"
+        }
+      ]
+    },
+    {
+      "code": "BRDR",
+      "display": "Boarder",
+      "definition": "Individual paying to live in someone else's residence.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Pensionnaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Huésped"
+        }
+      ]
+    },
+    {
+      "code": "FSCH",
+      "display": "Foster Child",
+      "definition": "Minor placed in the temporary care of a household.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Enfant en famille d'accueil"
+        },
+        {
+          "language": "es-MX",
+          "value": "Niño en acogida"
+        }
+      ]
+    },
+    {
+      "code": "GRHI",
+      "display": "Group Home Individual",
+      "definition": "Person residing in a supervised communal living arrangement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Résident de foyer de groupe"
+        },
+        {
+          "language": "es-MX",
+          "value": "Individuo en hogar grupal"
+        }
+      ]
+    },
+    {
+      "code": "EMPR",
+      "display": "Employee-Permanent Resident",
+      "definition": "Worker who is a permanent resident of the country.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Employé-résident permanent"
+        },
+        {
+          "language": "es-MX",
+          "value": "Empleado-residente permanente"
+        }
+      ]
+    },
+    {
+      "code": "TRST",
+      "display": "Tourist",
+      "definition": "Temporary visitor traveling for leisure or recreation.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Touriste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Turista"
+        }
+      ]
+    },
+    {
+      "code": "SPSE",
+      "display": "Spouse",
+      "definition": "Legally married partner of the insured.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Conjoint"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cónyuge"
+        }
+      ]
+    },
+    {
+      "code": "CHLD",
+      "display": "Child",
+      "definition": "Dependent offspring of the insured.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Enfant"
+        },
+        {
+          "language": "es-MX",
+          "value": "Hijo"
+        }
+      ]
+    },
+    {
+      "code": "COWN",
+      "display": "Co-owner",
+      "definition": "Individual sharing ownership of property or business with others.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copropriétaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Copropietario"
+        }
+      ]
+    },
+    {
+      "code": "MGAG",
+      "display": "Managing General Agent",
+      "definition": "Independent entity authorized to underwrite and manage policies on behalf of an insurer.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Agent général gestionnaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agente general administrador"
+        }
+      ]
+    },
+    {
+      "code": "UNKN",
+      "display": "Unknown"
+    },
+    {
+      "code": "NONE",
+      "display": "None"
+    },
+    {
+      "code": "OTHR",
+      "display": "Other"
+    }
+  ]
+}

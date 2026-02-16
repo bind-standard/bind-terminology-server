@@ -1,0 +1,252 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "MethodOfPayment",
+  "url": "https://bind.codes/MethodOfPayment",
+  "name": "MethodOfPayment",
+  "title": "Method Of Payment",
+  "status": "draft",
+  "language": "en",
+  "description": "Method Of Payment codes for insurance operations.",
+  "concept": [
+    {
+      "code": "AMEX",
+      "display": "American Express (AMEX)",
+      "definition": "Credit card issued by American Express Company.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "American Express (AMEX)"
+        },
+        {
+          "language": "es-MX",
+          "value": "American Express (AMEX)"
+        }
+      ]
+    },
+    {
+      "code": "MSTC",
+      "display": "MasterCard",
+      "definition": "Credit card issued under the MasterCard brand.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "MasterCard"
+        },
+        {
+          "language": "es-MX",
+          "value": "MasterCard"
+        }
+      ]
+    },
+    {
+      "code": "VISA",
+      "display": "Visa",
+      "definition": "Credit card issued under the Visa brand.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Visa"
+        },
+        {
+          "language": "es-MX",
+          "value": "Visa"
+        }
+      ]
+    },
+    {
+      "code": "DINR",
+      "display": "Diners Club",
+      "definition": "Credit card issued under the Diners Club brand.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Diners Club"
+        },
+        {
+          "language": "es-MX",
+          "value": "Diners Club"
+        }
+      ]
+    },
+    {
+      "code": "DISC",
+      "display": "Discover Card",
+      "definition": "Credit card issued under the Discover brand.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Discover Card"
+        },
+        {
+          "language": "es-MX",
+          "value": "Discover Card"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "Payment method not otherwise specified.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "CASH",
+      "display": "Cash, Cheque, Money Order",
+      "definition": "Payment made using physical currency, cheque, or money order.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Argent comptant, chèque, mandat-poste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Efectivo, cheque, orden de pago"
+        }
+      ]
+    },
+    {
+      "code": "CRCD",
+      "display": "Credit Card",
+      "definition": "Payment using a credit card without specifying the brand.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Carte de crédit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tarjeta de crédito"
+        }
+      ]
+    },
+    {
+      "code": "DEBC",
+      "display": "Debit Card",
+      "definition": "Payment using a debit card linked directly to a bank account.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Carte de débit"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tarjeta de débito"
+        }
+      ]
+    },
+    {
+      "code": "ELFT",
+      "display": "Electronic Funds Transfer",
+      "definition": "Electronic transfer of funds between bank accounts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Transfert électronique de fonds"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transferencia electrónica de fondos"
+        }
+      ]
+    },
+    {
+      "code": "SALD",
+      "display": "Salary Deduction",
+      "definition": "Payment deducted automatically from an employee's salary.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Retenue salariale"
+        },
+        {
+          "language": "es-MX",
+          "value": "Deducción de nómina"
+        }
+      ]
+    },
+    {
+      "code": "CHEK",
+      "display": "Cheque",
+      "definition": "Payment by written order directing a bank to pay a specific amount.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Chèque"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cheque"
+        }
+      ]
+    },
+    {
+      "code": "WIRE",
+      "display": "Wire Transfer",
+      "definition": "Electronic transfer of funds through a network of banks or transfer service agencies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Virement bancaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transferencia bancaria"
+        }
+      ]
+    },
+    {
+      "code": "PRAU",
+      "display": "Pre-Authorized Payment",
+      "definition": "Recurring payment authorized in advance to be withdrawn automatically from an account.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Paiement préautorisé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Pago preautorizado"
+        }
+      ]
+    },
+    {
+      "code": "MNYO",
+      "display": "Money Order",
+      "definition": "Payment instrument issued by a financial institution or postal service for a specified amount.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mandat-poste"
+        },
+        {
+          "language": "es-MX",
+          "value": "Orden de pago"
+        }
+      ]
+    },
+    {
+      "code": "CA:INTE",
+      "display": "Interac e-Transfer",
+      "definition": "Electronic money transfer service used to send funds between Canadian bank accounts.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Virement Interac"
+        },
+        {
+          "language": "es-MX",
+          "value": "Transferencia Interac"
+        }
+      ]
+    }
+  ]
+}

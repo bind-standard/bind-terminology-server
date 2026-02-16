@@ -1,0 +1,402 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ProtectionDevice",
+  "url": "https://bind.codes/ProtectionDevice",
+  "name": "ProtectionDevice",
+  "title": "Protection Device",
+  "status": "draft",
+  "language": "en",
+  "description": "Protection Device codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ASPR",
+      "display": "Automatic sprinkler",
+      "definition": "A fire suppression system that automatically activates when heat is detected, releasing water through sprinkler heads to control or extinguish fires.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gicleurs automatiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rociador automático"
+        }
+      ]
+    },
+    {
+      "code": "CODT",
+      "display": "Carbon Monoxide Detector",
+      "definition": "A device that monitors carbon monoxide gas levels in the air and sounds an alarm when dangerous concentrations are detected.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détecteur de monoxyde de carbone"
+        },
+        {
+          "language": "es-MX",
+          "value": "Detector de monóxido de carbono"
+        }
+      ]
+    },
+    {
+      "code": "DSPR",
+      "display": "Deluge Sprinkler",
+      "definition": "A fire suppression system where all sprinkler heads are open, and water is released simultaneously across the entire protected area when the system is activated.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gicleurs déluge"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rociador de diluvio"
+        }
+      ]
+    },
+    {
+      "code": "DETC",
+      "display": "Detector",
+      "definition": "A general-purpose sensing device that monitors environmental conditions or intrusions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détecteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Detector"
+        }
+      ]
+    },
+    {
+      "code": "DUAL",
+      "display": "Dual-type (ultrasonic & passive infrared and microwave & infrared) – Intrusion Detector",
+      "definition": "An intrusion detection device that combines multiple sensing technologies (ultrasonic, passive infrared, microwave, and infrared) to reduce false alarms and improve detection accuracy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mixte (ultrasonique et infrarouge passif et micro-onde et infrarouge) - Détecteur d'intrusion"
+        },
+        {
+          "language": "es-MX",
+          "value": "Tipo dual (ultrasónico e infrarrojo pasivo y microondas e infrarrojo) – Detector de intrusión"
+        }
+      ]
+    },
+    {
+      "code": "HEAT",
+      "display": "Heat Sensor",
+      "definition": "A fire detection device that responds to increases in ambient temperature or reaches a predetermined temperature threshold.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détecteur de chaleur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sensor de calor"
+        }
+      ]
+    },
+    {
+      "code": "MAGC",
+      "display": "Magnetic Contacts",
+      "definition": "A security sensor consisting of two magnetic components that triggers an alarm when separated, typically used on doors and windows to detect opening.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Contacts magnétiques"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contactos magnéticos"
+        }
+      ]
+    },
+    {
+      "code": "MSPR",
+      "display": "Manual Sprinkler",
+      "definition": "A fire suppression system that requires manual activation to release water through sprinkler heads.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Gicleurs manuels"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rociador manual"
+        }
+      ]
+    },
+    {
+      "code": "MWID",
+      "display": "Microwave – Intrusion Detector",
+      "definition": "A security device that detects movement by emitting microwave energy and sensing changes in the reflected signal pattern.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Micro-ondes - Détecteur d'intrusion"
+        },
+        {
+          "language": "es-MX",
+          "value": "Microondas – Detector de intrusión"
+        }
+      ]
+    },
+    {
+      "code": "PANC",
+      "display": "Panic Button",
+      "definition": "A manually activated emergency device that immediately triggers an alarm to summon assistance.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Bouton d'urgence"
+        },
+        {
+          "language": "es-MX",
+          "value": "Botón de pánico"
+        }
+      ]
+    },
+    {
+      "code": "PEID",
+      "display": "Photo-electric – Intrusion Detector",
+      "definition": "A security device that detects intrusions by monitoring interruptions in a beam of light between a transmitter and receiver.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Cellule photoélectrique - Détecteur d'intrusion"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fotoeléctrico – Detector de intrusión"
+        }
+      ]
+    },
+    {
+      "code": "SENS",
+      "display": "Sensor",
+      "definition": "A general-purpose device that detects and responds to physical stimuli such as heat, light, sound, pressure, or motion.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détecteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sensor"
+        }
+      ]
+    },
+    {
+      "code": "TRIP",
+      "display": "Trip Wire",
+      "definition": "A security device consisting of a tensioned wire that triggers an alarm when physical contact causes it to be disturbed or broken.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fil piège"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cable trampa"
+        }
+      ]
+    },
+    {
+      "code": "USID",
+      "display": "Ultrasonic Infrared – Intrusion Detector",
+      "definition": "A security device that combines ultrasonic and infrared detection technologies to identify movement or intrusions.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Ultrasonore infrarouge - Détecteur d'intrusion"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ultrasónico infrarrojo – Detector de intrusión"
+        }
+      ]
+    },
+    {
+      "code": "PWIR",
+      "display": "Protective wiring",
+      "definition": "Electrical wiring with enhanced insulation, shielding, or conduit protection to prevent damage from environmental factors, tampering, or fire.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Câblage protecteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Cableado protector"
+        }
+      ]
+    },
+    {
+      "code": "OPTD",
+      "display": "Optical Detector",
+      "definition": "A smoke detection device that uses a light source and photosensor to detect smoke particles by measuring light scattering or obscuration.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détecteur optique"
+        },
+        {
+          "language": "es-MX",
+          "value": "Detector óptico"
+        }
+      ]
+    },
+    {
+      "code": "IOND",
+      "display": "Ionization Detector",
+      "definition": "A smoke detection device that uses a small amount of radioactive material to ionize air and detect smoke particles by measuring changes in electrical current.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détecteur d'ionisation"
+        },
+        {
+          "language": "es-MX",
+          "value": "Detector de ionización"
+        }
+      ]
+    },
+    {
+      "code": "SMKD",
+      "display": "Smoke Detector",
+      "definition": "A device that senses smoke as an indicator of fire and sounds an alarm to warn occupants.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détecteur de fumée"
+        },
+        {
+          "language": "es-MX",
+          "value": "Detector de humo"
+        }
+      ]
+    },
+    {
+      "code": "FEXT",
+      "display": "Fire Extinguisher",
+      "definition": "A portable device containing an extinguishing agent that can be manually discharged to suppress small fires.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Extincteur"
+        },
+        {
+          "language": "es-MX",
+          "value": "Extintor"
+        }
+      ]
+    },
+    {
+      "code": "WFLW",
+      "display": "Water Flow Sensor",
+      "definition": "A device that detects the movement of water through pipes in a sprinkler system and triggers an alarm when flow is detected.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détecteur de débit d'eau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Sensor de flujo de agua"
+        }
+      ]
+    },
+    {
+      "code": "GLSB",
+      "display": "Glass Break Detector",
+      "definition": "A security sensor that detects the sound frequency or vibration of breaking glass to identify window or door breaches.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détecteur de bris de verre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Detector de rotura de vidrio"
+        }
+      ]
+    },
+    {
+      "code": "PIRD",
+      "display": "Passive Infrared Detector",
+      "definition": "A motion sensor that detects changes in infrared radiation caused by moving warm bodies such as people or animals.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détecteur infrarouge passif"
+        },
+        {
+          "language": "es-MX",
+          "value": "Detector infrarrojo pasivo"
+        }
+      ]
+    },
+    {
+      "code": "WLKD",
+      "display": "Water Leak Detector",
+      "definition": "A device that senses the presence of water where it should not be and triggers an alarm to prevent water damage.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Détecteur de fuite d'eau"
+        },
+        {
+          "language": "es-MX",
+          "value": "Detector de fuga de agua"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None",
+      "definition": "No protection device installed or applicable.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "definition": "A protection device not categorized in the standard list.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    },
+    {
+      "code": "OEXT",
+      "display": "Other Extinguishing System",
+      "definition": "A fire suppression system using agents other than water, such as foam, gas, or chemical compounds.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre système d'extinction"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro sistema de extinción"
+        }
+      ]
+    }
+  ]
+}

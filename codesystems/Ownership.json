@@ -1,0 +1,249 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Ownership",
+  "url": "https://bind.codes/Ownership",
+  "name": "Ownership",
+  "title": "Ownership",
+  "status": "draft",
+  "language": "en",
+  "description": "Ownership codes for insurance operations.",
+  "concept": [
+    {
+      "code": "OWNR",
+      "display": "Owner",
+      "definition": "Person or entity who holds legal title to property or assets.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Propriétaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Propietario"
+        }
+      ]
+    },
+    {
+      "code": "LSSE",
+      "display": "Lessee",
+      "definition": "Person or entity holding property under a lease agreement for a specified term.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Locataire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Arrendatario"
+        }
+      ]
+    },
+    {
+      "code": "TENT",
+      "display": "Tenant",
+      "definition": "Person or entity occupying property owned by another under a rental agreement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Locataire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inquilino"
+        }
+      ]
+    },
+    {
+      "code": "CHRT",
+      "display": "Chartered",
+      "definition": "Property or vehicle obtained through a charter agreement for temporary use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Affrété"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fletado"
+        }
+      ]
+    },
+    {
+      "code": "APIN",
+      "display": "Applicant/Insured",
+      "definition": "The party applying for coverage who is also the insured under the policy.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Proposant/assuré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Solicitante/asegurado"
+        }
+      ]
+    },
+    {
+      "code": "BAIL",
+      "display": "Bailee",
+      "definition": "Person or entity holding property in trust for another, with a duty to return or account for it.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Dépositaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Depositario"
+        }
+      ]
+    },
+    {
+      "code": "TRST",
+      "display": "Trustee",
+      "definition": "Person or entity holding and managing property or assets on behalf of beneficiaries.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Fiduciaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Fideicomisario"
+        }
+      ]
+    },
+    {
+      "code": "AGNT",
+      "display": "Agent",
+      "definition": "Person or entity acting on behalf of another with delegated authority.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Mandataire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Agente"
+        }
+      ]
+    },
+    {
+      "code": "HIRE",
+      "display": "Hired",
+      "definition": "Property or vehicle obtained through a short-term hire agreement.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Loué"
+        },
+        {
+          "language": "es-MX",
+          "value": "Contratado"
+        }
+      ]
+    },
+    {
+      "code": "RENT",
+      "display": "Rented",
+      "definition": "Property or vehicle obtained through a rental agreement for temporary use.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Loué"
+        },
+        {
+          "language": "es-MX",
+          "value": "Rentado"
+        }
+      ]
+    },
+    {
+      "code": "LOAN",
+      "display": "Loaned",
+      "definition": "Property or vehicle temporarily provided by another party without payment.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Prêté"
+        },
+        {
+          "language": "es-MX",
+          "value": "Prestado"
+        }
+      ]
+    },
+    {
+      "code": "COOW",
+      "display": "Co-owner",
+      "definition": "Person or entity sharing legal ownership of property with one or more parties.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Copropriétaire"
+        },
+        {
+          "language": "es-MX",
+          "value": "Copropietario"
+        }
+      ]
+    },
+    {
+      "code": "FNCP",
+      "display": "Financed Purchase",
+      "definition": "Property or vehicle owned subject to a financing agreement with a lien holder.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Achat financé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Compra financiada"
+        }
+      ]
+    },
+    {
+      "code": "UNKN",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inconnu"
+        },
+        {
+          "language": "es-MX",
+          "value": "Desconocido"
+        }
+      ]
+    },
+    {
+      "code": "NONE",
+      "display": "None",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}

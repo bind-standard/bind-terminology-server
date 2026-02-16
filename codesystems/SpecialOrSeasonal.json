@@ -1,0 +1,57 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "SpecialOrSeasonal",
+  "url": "https://bind.codes/SpecialOrSeasonal",
+  "name": "SpecialOrSeasonal",
+  "title": "Special Or Seasonal",
+  "status": "draft",
+  "language": "en",
+  "description": "Special Or Seasonal codes for insurance operations.",
+  "concept": [
+    {
+      "code": "NONE",
+      "display": "None",
+      "definition": "No special or seasonal classification applies.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Aucun"
+        },
+        {
+          "language": "es-MX",
+          "value": "Ninguno"
+        }
+      ]
+    },
+    {
+      "code": "SESN",
+      "display": "Seasonal",
+      "definition": "Activity or coverage that occurs only during specific seasons or time periods of the year.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Saisonnier"
+        },
+        {
+          "language": "es-MX",
+          "value": "Estacional"
+        }
+      ]
+    },
+    {
+      "code": "SPCL",
+      "display": "Special",
+      "definition": "Activity or coverage requiring special consideration or non-standard handling.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Spécial"
+        },
+        {
+          "language": "es-MX",
+          "value": "Especial"
+        }
+      ]
+    }
+  ]
+}

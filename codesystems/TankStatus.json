@@ -1,0 +1,101 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "TankStatus",
+  "url": "https://bind.codes/TankStatus",
+  "name": "TankStatus",
+  "title": "Tank Status",
+  "status": "draft",
+  "language": "en",
+  "description": "Tank Status codes for insurance operations.",
+  "concept": [
+    {
+      "code": "ACTU",
+      "display": "In use",
+      "definition": "Tank is currently active and being used for fuel storage or heating purposes.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "En usage"
+        },
+        {
+          "language": "es-MX",
+          "value": "En uso"
+        }
+      ]
+    },
+    {
+      "code": "IDRA",
+      "display": "Inactive drained",
+      "definition": "Tank is no longer in service and has been emptied of all fuel or liquid contents.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inactif vidé"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inactivo drenado"
+        }
+      ]
+    },
+    {
+      "code": "IFIL",
+      "display": "Inactive with oil",
+      "definition": "Tank is no longer in service but still contains oil or fuel that has not been removed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Inactif avec huile"
+        },
+        {
+          "language": "es-MX",
+          "value": "Inactivo con combustible"
+        }
+      ]
+    },
+    {
+      "code": "REMO",
+      "display": "Removed",
+      "definition": "Tank has been completely removed from the property.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Retiré"
+        },
+        {
+          "language": "es-MX",
+          "value": "Removido"
+        }
+      ]
+    },
+    {
+      "code": "ABAND",
+      "display": "Abandoned in place",
+      "definition": "Tank has been decommissioned and left on the property without being removed.",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Abandonné sur place"
+        },
+        {
+          "language": "es-MX",
+          "value": "Abandonado en sitio"
+        }
+      ]
+    },
+    {
+      "code": "OTHR",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "fr-CA",
+          "value": "Autre"
+        },
+        {
+          "language": "es-MX",
+          "value": "Otro"
+        }
+      ]
+    }
+  ]
+}
